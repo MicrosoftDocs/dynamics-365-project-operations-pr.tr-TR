@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (mod 2)
+  items:
+    - name: Dynamics 365 Project Operations (mod 2) giriş sayfası
+      href: project-operations-mode-2-home-page.md
+    - name: Uygun senaryolar
+      href: applicable-scenarios.md
+    - name: Yenilikler
+      href: whats-new-mode-2-project-operations.md
+    - name: Ortamınızı ayarlama
+      href: set-up-environment-mode-2.md
+    - name: Örnek veriler
+      href: sample-data-mode-2.md
+    - name: Satış süreci
+      items:
+        - name: Satış sürecine genel bakış
+          href: ../project-operations/sales/sales-overview.md
+        - name: Önemli farklılıklar
+          href: ../project-operations/sales/key-differences.md
+        - name: Kurulum
+          items:
+            - name: Ürünler
+              href: ../project-operations/sales/sales-products.md
+            - name: Birimler ve birim grupları
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: Para birimi
+              href: ../project-operations/sales/sales-currency.md
+        - name: Müşteri adaylarını yönetme
+          href: ../project-operations/sales/managing-leads.md
+        - name: Fırsatları yönetme
+          items:
+            - name: Fırsat üst bilgisi
+              href: ../project-operations/sales/opportunity-header.md
+            - name: Ürün tabanlı satırlar
+              href: ../project-operations/sales/product-based-lines.md
+            - name: Proje tabanlı satırlar
+              href: ../project-operations/sales/project-based-lines.md
+            - name: Teklifleri ve fırsatları bağlama
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: Fırsatı kapatma
+              href: ../project-operations/sales/close-opportunity.md
+        - name: Teklifleri yönetme
+          items:
+            - name: Temel kavramlar
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 'Teklifteki değerleri, müşteri bütçelerini ve aşılamaz limitleri yönetme'
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: Teklifteki birden çok müşteriyi yönetme
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: Ürün tabanlı teklif satırları
+              items:
+                - name: Ürün tabanlı teklif satırlarını maliyetlendirme
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: Ürün tabanlı teklif satırları için karmaşık birimleri yönetme
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: Proje tabanlı teklif satırları
+              items:
+                - name: Proje fiyat listelerini yönetme
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Teklif satırındaki birden çok müşteriyi yönetme
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: Proje ve görevleri teklif satırıyla eşleme
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: Teklif satırında tahminler oluşturma
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: Projedeki tahminleri teklif satırına içeri aktarma
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 'Teklifteki değerleri, müşteri bütçelerini ve aşılamaz limitleri yönetme'
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: Teklif satırındaki fatura zamanlamaları
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: Teklif kazanma
+              href: ../project-operations/sales/win-quote.md
+            - name: Teklif kaybetme
+              href: ../project-operations/sales/lose-quote.md
+        - name: Sözleşmeleri yönetme
+          items:
+            - name: Temel kavramlar
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 'Sözleşme değerlerini, müşteri bütçelerini ve aşılamaz limitleri yönetme'
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: Sözleşmedeki birden çok müşteriyi yönetme
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: Ürün tabanlı sözleşme satırları
+              items:
+                - name: Ürün tabanlı sözleşme satırlarını maliyetlendirme
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: Proje tabanlı sözleşme satırları
+              items:
+                - name: Proje fiyat listelerini yönetme
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: Sözleşme satırındaki birden çok müşteriyi yönetme
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: Proje ve görevleri sözleşme satırıyla eşleme
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: Projeden sözleşme satırına tahmin oluşturma
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: Projedeki tahminleri sözleşme satırına içeri aktarma
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 'Sözleşme değerlerini, müşteri bütçelerini ve sözleşme satırındaki aşılamaz limitleri yönetme'
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: Teklif satırındaki fatura zamanlamaları
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: Sözleşmeyi onaylama
+              href: ../project-operations/sales/confirm-contract.md
+            - name: Sözleşmeyi çalışma tamamlandı durumuyla kapatma
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: Sözleşmeyi iptal edildi durumuyla kapatma
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: Fiyatlandırma ve maliyetlendirme
+      items:
+        - name: Ürün fiyat listeleri
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: Proje fiyat listeleri
+          items:
+            - name: Maliyet için fiyat listesi
+              items:
+                - name: Maliyet fiyat listelerini ayarlama
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: Fiyat listesi varsayılan değerleri
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: Varsayılanları geçersiz kılma
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: Satış için fiyat listesini ayarlama
+              items:
+                - name: Satış fiyat listesini ayarlama
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: Satış fiyat listesi varsayılan değerleri
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: Varsayılanları geçersiz kılma
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: Fiyatlandırma boyutları
+          items:
+            - name: Fiyatlandırma boyutlarına genel bakış
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Project Operations'taki mevcut bir alanı fiyatlandırma boyutu olarak kullanma
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Fiyatlandırma boyutu olarak özel alanlar
+              items:
+                - name: Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Özel alanları fiyatlandırma boyutları olarak ayarlama
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Fiyatlandırma boyutunu kapatma
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: Proje yönetimi
+      items:
+        - name: Proje yönetimine genel bakış
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: Proje aşamaları
+          href: ../project-operations/project-management/project-stages.md
+        - name: Kullanıcı arabiriminde gezinme
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: Proje durumunu anlama
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: Proje takvimlerini tanımlama
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: Proje oluşturma
+          items:
+            - name: İlk tahminleri oluşturma
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: Proje takvimini ayarlama
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: Proje para birimini ayarlama
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: Müşteri tanımlama
+              href: ../project-operations/project-management/set-customer.md
+            - name: Grup ekleme
+              href: ../project-operations/project-management/add-group.md
+        - name: Proje güncelleştirme
+          href: ../project-operations/project-management/update-project.md
+        - name: Proje kopyalama
+          href: ../project-operations/project-management/copy-project.md
+        - name: İş kırılım yapısı planlama
+          items:
+            - name: İş kırılım yapısı oluşturma
+              items:
+                - name: Görev oluşturma
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 'Görevleri kesme, kopyalama ve yapıştırma'
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: Görevleri geri alma ve yineleme
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: İş kırılım yapısı hiyerarşisi
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: Toplu görev güncelleştirmeleri
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: Görev ayrıntılarını düzenleme
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: Atama oluşturma
+              items:
+                - name: Mevcut kaynakları ekleme
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: Genel kaynakları ekleme
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: 'Atamaların görev eforu, süresi ve bitiş tarihi üzerindeki etkisini anlama'
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: Atama dağılımlarını görüntüleme
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: Görev yönetimi deneyiminde gezinme
+              items:
+                - name: Sütun yönetimi
+                  href: ../project-operations/project-management/column-management.md
+                - name: Görünümler
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: Demetler
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: Tahmin projeleri
+          items:
+            - name: Tahmin projelerine genel bakış
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: Kaynak tahminleri
+              items:
+                - name: Değişiklikleri proje planına yansıtmak için proje tahminlerini yenileme
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: Proje tahminlerine ait fiyatları ve maliyet oranlarını yenileme
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: Kaynak maliyet fiyatı ve maliyet para birimi varsayılanları
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: Kaynak faturası oranı ve satış para birimi varsayılanları
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: Gider tahminleri oluşturma
+              items:
+                - name: Gider maliyet fiyatı ve maliyet para birimi varsayılanları
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: Gider faturası oranı ve satış para birimi varsayılanları
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: Teklif ve sözleşme oluşturma
+          items:
+            - name: İş kırılım yapısını tekliflere içeri aktarma
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: İş kırılım yapısını sözleşmelere içeri aktarma
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: Proje izleme
+          items:
+            - name: Proje izleme giriş sayfası
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: Sütun tanımları
+              items:
+                - name: Efor
+                  href: ../project-operations/project-management/effort.md
+                - name: Maliyet
+                  href: ../project-operations/project-management/cost.md
+                - name: Satış
+                  href: ../project-operations/project-management/sales.md
+            - name: Tahmini tamamlanmayı güncelleştirme
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: Proje takımı üyeleri
+          items:
+            - name: Proje takımı üyelerine genel bakış
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: Takım üyelerini koruma
+              items:
+                - name: Takım üyeleri ekleme
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: Proje takım üyelerini güncelleştirme
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: Takım üyelerini silme
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: Ayırmaları koruma
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: Projeyi onaylayanlar
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: Satış
+          items:
+            - name: Satış sekmesine genel bakış
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: İşbirliği
+          items:
+            - name: Gruplar
+              href: ../project-operations/project-management/groups.md
+        - name: Proje planlama ile ilgili SSS
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: Kaynak yönetimi
+      items:
+        - name: Kaynak yönetimine genel bakış
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: Temel kavramlar
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: Ayırmalar ve Atamalar
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: Kaynak yönetimi modları
+          items:
+            - name: Kaynak yönetimi moduna genel bakış
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: Karma
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: Merkezi
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: Merkezi ayırma
+          items:
+            - name: Merkezi ayırmaya genel bakışı
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: Görevlere genel takım üyeleri ekleme
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: Kaynak gereksinimlerini tanımlama
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: Gereksinim dağılımlarını tanımlama
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: Kaynak gereksinimlerini güncelleştirme
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: Kaynak gereksinimlerini gönderme
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: Kaynak istekleri
+              items:
+                - name: Kaynak isteklerine genel bakış
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: İnceleme alanları ve eylemleri
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: Kaynakları bulma
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: Önerilen kaynakları inceleme
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: Merkezi olmayan kaynak ayırma
+          items:
+            - name: Merkezi olmayan kaynak ayırmaya genel bakış
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: Doğrudan ayırma seçenekleri
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: Genel kaynak gereksinimlerini karşılama
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: Kaynakların yönetimi
+          items:
+            - name: Kaynak oluşturma
+              href: ../project-operations/resource-management/create-resources.md
+            - name: Beceriler ve uzmanlıkları tanımlama
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: Rolleri tanımlama
+              href: ../project-operations/resource-management/define-roles.md
+            - name: Kaynak takvimlerini tanımlama
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: Kaynakları kuruluş birimleriyle ilişkilendirme
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: Kaynakları şirketlerle ilişkilendirme
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: Ayırma tahsisat yöntemleri
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: Ayırma durumları
+          href: resource-management/booking-status.md
+        - name: Beceriler ve uzmanlık modelleri
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: Kaynak mutabakatı
+          items:
+            - name: Kaynak mutabakatına genel bakış
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: Temel kavramlar
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: Gezinti
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: Ayırmaları uzatma
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: Birden çok saat dilimini yönetme
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: Kaynak kullanımı
+          items:
+            - name: Kaynak kullanımına genel bakış
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 'Arama, ayarlar ve gezinti'
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: Zamanlama panosu
+          items:
+            - name: Gezinti ve temel ayarlar
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: Kişiselleştirme
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: Arama
+              href: ../project-operations/resource-management/search-urs.md
+            - name: Ayırma eylemleri
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: Ayırma
+              items:
+                - name: Proje için ayırma
+                  href: ../project-operations/resource-management/book-project.md
+                - name: Açık gereksinimleri ayırma
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: İkame kaynaklar
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: Mevcut ayırmaları düzenleme
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: Kaynak yönetimi ile ilgili SSS
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: Zaman
+      items:
+        - name: Zaman girişine genel bakış
+          href: ../project-operations/time/time-entry-overview.md
+        - name: Zaman girişleri oluşturma
+          items:
+            - name: 'Ayırmalar, atamalar ve takvim girişlerini içeri aktarma'
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: Kullanıcı arabirimi davranışı
+              href: ../project-operations/time/ui-behavior.md
+        - name: Zaman girişlerini gönderme
+          href: ../project-operations/time/submit-time-entries.md
+        - name: Zaman girişlerini geri çekme
+          items:
+            - name: Onaydan önce
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: Onaydan sonra
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: Zaman girişlerini onaylama
+          href: ../project-operations/time/approvals.md
+        - name: Geliştirici notları
+          items:
+            - name: Zaman girişlerini uzatma
+              href: ../project-operations/time/extending-time-entries.md
+            - name: Haftalık zaman girişi kılavuzunu özelleştirme
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: Güvenlikle ilgili dikkat edilmesi gerekenler
+              href: ../project-operations/time/security-considerations.md
+    - name: Gider
+      items:
+        - name: Gider giriş sayfası
+          href: ../project-operations/expense/expense-overview.md
+        - name: Gider girişi
+          href: expense-entry.md
+    - name: Onaylar
+      items:
+        - name: Genel bakış
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: Zaman girişlerini onaylama
+          href: approvals/approving-time-entries.md
+        - name: Gider girişlerini onaylama
+          href: approve-expense-entries.md
+    - name: Proforma fatura
+      items:
+        - name: Fatura zamanlaması oluşturma
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: El ile proforma fatura oluşturma
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Proforma faturaları yönetme
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: Proforma faturaları onaylama
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: Düzeltme faturaları
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: Otomatik fatura oluşturmayı yapılandırma
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md

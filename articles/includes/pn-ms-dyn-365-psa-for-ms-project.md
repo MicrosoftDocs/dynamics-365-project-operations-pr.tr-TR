@@ -1,0 +1,1 @@
+<span data-ttu-id="9bb7c-101">Microsoft Project için Dynamics 365 Project Service Automation Eklentisi</span><span class="sxs-lookup"><span data-stu-id="9bb7c-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

@@ -1,0 +1,1 @@
+<span data-ttu-id="28347-101">Dynamics 365 (online) sürüm 9.x üzerinde Project Service uygulaması sürüm 2.4.4.30 veya öncesi için geçerlidir</span><span class="sxs-lookup"><span data-stu-id="28347-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

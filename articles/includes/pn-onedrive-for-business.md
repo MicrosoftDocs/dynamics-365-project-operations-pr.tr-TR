@@ -1,0 +1,1 @@
+<span data-ttu-id="9c3a5-101">OneDrive İş</span><span class="sxs-lookup"><span data-stu-id="9c3a5-101">OneDrive for Business</span></span>

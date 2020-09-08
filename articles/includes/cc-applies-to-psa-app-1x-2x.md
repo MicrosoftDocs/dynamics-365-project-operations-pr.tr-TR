@@ -1,0 +1,1 @@
+<span data-ttu-id="756c9-101">Project Service uygulama sürümü 2.x ve 1.x için geçerlidir</span><span class="sxs-lookup"><span data-stu-id="756c9-101">Applies to Project Service app versions 2.x and 1.x</span></span>
