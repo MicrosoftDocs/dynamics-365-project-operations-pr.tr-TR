@@ -1,0 +1,448 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: Başlarken
+  items:
+    - name: Dağıtım türünüzü belirleme
+      href: environment/determine-deployment-type.md
+- name: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+  items:
+    - name: Başlarken
+      items:
+        - name: Önizleme aboneliği için kaydolun (kaynağı/stoğu tutulmayanları temel alan)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: Ön koşulları yapılandırma
+          items:
+            - name: Yeni bir LCS projesi başlatma
+              href: environment/create-lcs-project.md
+            - name: LCS projesine Azure aboneliği ekleme
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: Demo verileri uygulama
+          items:
+            - name: Finance Bulutunda barındırılan bir ortama Project Operations demo verilerini uygulama
+              href: environment/resource-apply-finance-demo-data.md
+            - name: Project Operations için Common Data Service'ta yapılandırma verilerini uygulama
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: Ortamları dağıtma
+          items:
+            - name: Yeni bir ortam sağlama
+              href: environment/resource-provision-new-environment.md
+            - name: Güvenlik modeli
+              href: environment/security-model.md
+    - name: Satış süreci
+      items:
+        - name: Satışlara genel bakış
+          href: sales/sales-overview.md
+        - name: Kurulum
+          items:
+            - name: Ürünler
+              href: sales/sales-products.md
+            - name: Birimler ve birim grupları
+              href: sales/sales-units-unit-groups.md
+            - name: Para birimi
+              href: sales/sales-currency.md
+        - name: Müşteri adaylarını yönetme
+          href: sales/manage-leads.md
+        - name: Fırsatları yönetme
+          items:
+            - name: Fırsat üst bilgisi
+              href: sales/opportunity-header.md
+            - name: Proje tabanlı satırlar
+              href: sales/project-based-lines.md
+            - name: Fırsatlardan proje teklifleri oluşturma
+              href: sales/link-quotes-opportunities.md
+            - name: Fırsatı kapatma
+              href: sales/close-opportunity.md
+        - name: Teklifleri yönetme
+          items:
+            - name: Temel kavramlar
+              href: sales/quotes-key-concepts.md
+            - name: Teklifteki birden çok müşteriyi yönetme
+              href: sales/manage-multiple-customers-quote.md
+            - name: Ürün tabanlı teklif satırları
+              item:
+                - name: Ürün tabanlı teklif satırlarını maliyetlendirme
+                  href: sales/costing-product-based-quote-lines.md
+                - name: Ürün tabanlı teklif satırları için karmaşık birimleri yönetme
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Proje tabanlı teklif satırları
+              items:
+                - name: Proje fiyat listelerini yönetme
+                  href: sales/managing-project-price-lists.md
+                - name: Teklif satırında tahminler oluşturma
+                  href: sales/create-estimate-quote-line.md
+                - name: 'Teklifteki değerleri, müşteri bütçelerini ve aşılamaz limitleri yönetme'
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+            - name: Proje tabanlı teklifleri kopyalama
+              href: sales/lose-quote.md
+            - name: Teklifi kapatma
+              href: sales/win-quote.md
+    - name: Fiyatlandırma ve maliyetlendirme
+      items:
+        - name: Ürün fiyat listeleri
+          href: pricing-costing/product-price-list.md
+        - name: Proje fiyat listeleri
+          items:
+            - name: Satış için fiyat listesini ayarlama
+              items:
+                - name: Satış fiyat listesini ayarlama
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: Fiyatlandırma boyutları
+          items:
+            - name: Fiyatlandırma boyutlarına genel bakış
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Var olan bir alanı fiyatlandırma boyutu olarak kullanma
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Fiyatlandırma boyutları olarak özel alanlar
+              items:
+                - name: Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Özel alanları fiyatlandırma boyutları olarak ayarlama
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Fiyatlandırma boyutunu kapatma
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Proje yönetimi
+      items:
+        - name: Proje yönetimine genel bakış
+          href: project-management/project-management-overview.md
+        - name: Proje aşamaları
+          href: project-management/project-stages.md
+        - name: Kullanıcı arabiriminde gezinme
+          href: project-management/navigate-ui.md
+        - name: Proje durumunu anlama
+          href: project-management/understand-project-status.md
+        - name: Proje takvimlerini tanımlama
+          href: project-management/define-project-calendars.md
+        - name: Projeyi güncelleştirme
+          href: project-management/update-project.md
+        - name: Projeyi kopyalama
+          href: project-management/copy-project.md
+        - name: İş kırılım yapısı planlama
+          items:
+            - name: Atama oluşturma
+              href: project-management/create-assignments.md
+        - name: Tahmin projeleri
+          items:
+            - name: Tahmin projelerine genel bakış
+              href: project-management/estimating-projects-overview.md
+            - name: Kaynak tahminleri
+              href: project-management/resource-estimates.md
+            - name: Gider tahminleri oluşturma
+              href: project-management/create-expense-estimates.md
+        - name: Proje izleme
+          items:
+            - name: Proje izlemeye genel bakış
+              href: project-management/project-tracking-overview.md
+            - name: Tahmini tamamlanmayı güncelleştirme
+              href: project-management/update-completed-estimate.md
+        - name: Proje takımı üyeleri
+          items:
+            - name: Proje takımı üyelerine genel bakış
+              href: project-management/project-team-members-overview.md
+            - name: Takım üyelerini koruma
+              href: project-management/maintain-team-members.md
+        - name: İş birliği
+          items:
+            - name: Office Grupları ile iş birliği yapma
+              href: project-management/collaboration-groups.md
+    - name: Kaynak yönetimi
+      items:
+        - name: Temel kavramlar
+          href: resource-management/resource-management-key-concepts.md
+        - name: Ayırmalar ve Atamalar
+          href: resource-management/booking-vs-assignment.md
+        - name: Kaynak yönetimi modlarına genel bakış
+          href: resource-management/resource-management-mode-overview.md
+        - name: Zamanlama yardımcısına genel bakış
+          href: resource-management/schedule-assistant-overview.md
+        - name: Merkezi kaynak ayırma
+          items:
+            - name: Kaynak gereksinimlerini tanımlama
+              href: resource-management/define-resource-requirements.md
+            - name: Kaynak gereksinimlerini güncelleştirme
+              href: resource-management/update-resource-requirements.md
+        - name: Merkezi olmayan kaynak ayırma (karma)
+          items:
+            - name: Takım üyesi kılavuzundan takım üyeleri ekleme
+              href: resource-management/add-team-members-grid.md
+        - name: Ayırma tahsisat yöntemleri
+          href: resource-management/booking-allocation-methods.md
+        - name: Beceriler ve uzmanlık modelleri
+          href: resource-management/skills-proficiency-models.md
+        - name: Kaynak mutabakatı
+          items:
+            - name: Kaynak mutabakatına genel bakış
+              href: resource-management/resource-reconciliation-overview.md
+    - name: Zaman
+      items:
+        - name: Geliştirici notları
+          items:
+            - name: Haftalık zaman girişi kılavuzunu özelleştirme
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Gider
+      items:
+        - name: Gidere genel bakış
+          href: expense/expense-overview.md
+        - name: Projeler için gider yönetimi deneyimi
+          items:
+            - name: Yapılandırma ve kurulum
+              items:
+                - name: İlkeleri ayarlama
+                  href: expense/set-up-policies.md
+                - name: İş akışlarını ayarlama
+                  href: expense/set-up-workflows.md
+                - name: Temsilci atamayı yönetme
+                  href: expense/manage-delegation.md
+                - name: Gider yönetimi parametrelerini yapılandırma
+                  href: expense/configure-expense-management-parameters.md
+                - name: Kredi kartı tümleştirmesini ayarlama
+                  href: expense/set-up-credit-card-integration.md
+                - name: Gider kategorilerini ayarlama
+                  href: expense/set-up-expense-categories.md
+            - name: Gider raporları oluşturma
+              items:
+                - name: Gider raporundaki dağıtımlar
+                  href: expense/distributions-expense-report.md
+            - name: Gider raporlarını onaylama
+              items:
+                - name: Gider raporları ve birden çok onaylayan
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: Gider raporlarını deftere nakletme
+              href: expense/posting-expense-reports.md
+            - name: Seyahat talebi
+              href: expense/travel-requisition.md
+            - name: Nakit avans
+              href: expense/cash-advance.md
+            - name: Harcırahlar
+              href: expense/per-diems.md
+            - name: Finansal yönetim
+              items:
+                - name: KDV kurtarma
+                  href: expense/vat-recovery.md
+            - name: Yeni gider deneyimi
+              items:
+                - name: Gider raporlarını yeniden tasarlama
+                  href: expense/expense-reports-reimagined.md
+                - name: OCR kullanarak girişi giderle eşleme
+                  href: expense/match-receipt-expense-ocr.md
+            - name: Mobil Gider yönetimi
+              href: expense/expense-using-mobile.md
+    - name: Onaylar
+      items:
+        - name: Onaylara genel bakış
+          href: approvals/approvals-overview.md
+    - name: Gerçek değerler
+      items:
+        - name: Gerçek değerlere genel bakış
+          href: actuals/actuals-overview.md
+        - name: Düzeltme günlükleri
+          items:
+            - name: Düzeltme günlükleri oluşturma ve onaylama
+              href: actuals/create-confirm-correction-journals.md
+    - name: Proforma fatura
+      items:
+        - name: El ile proforma fatura oluşturma
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: Düzeltilen faturalar
+          href: proforma-invoicing/corrective-invoices.md
+        - name: Otomatik fatura oluşturmayı yapılandırma
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Proje muhasebesi
+      items:
+        - name: Proje kategorilerini yapılandırma
+          href: project-accounting/configure-project-categories.md
+        - name: Faturalanabilir projeler için muhasebeyi yapılandırma
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: 'Lite dağıtımı: anlaşmadan proforma faturaya'
+  items:
+    - name: Başlarken
+      items:
+        - name: Önizleme aboneliğine kaydolma (lite)
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: 'Project Operations Lite dağıtımı: anlaşmadan proforma faturaya'
+          href: environment/lite-deployment.md
+        - name: Deneme sürümü kurulumu ve yapılandırma verilerini uygulama
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: Güvenlik modeli
+          href: environment/security-model.md
+    - name: Satış süreci
+      items:
+        - name: Kurulum
+          items:
+            - name: Ürünler
+              href: sales/sales-products.md
+            - name: Birimler ve birim grupları
+              href: sales/sales-units-unit-groups.md
+            - name: Para birimi
+              href: sales/sales-currency.md
+        - name: Müşteri adaylarını yönetme
+          href: pro/sales/managing-leads-sales.md
+        - name: Fırsatları yönetme
+          items:
+            - name: Fırsat üst bilgisi
+              href: pro/sales/opportunity-header-sales.md
+            - name: Proje tabanlı satırlar
+              href: pro/sales/project-based-lines-sales.md
+            - name: Fırsatlardan proje teklifleri oluşturma
+              href: sales/link-quotes-opportunities.md
+            - name: Ürün tabanlı fırsat satırları
+              href: pro/sales/product-based-lines-sales.md
+            - name: Fırsatı kapatma
+              href: sales/close-opportunity.md
+        - name: Teklifleri yönetme
+          items:
+            - name: Proje teklifi temel kavramları
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: Proje teklifiyle ilgili özet bilgiler (Satış)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: Proje tekliflerinde birden çok müşteriyi yönetme
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Ürün tabanlı teklif satırları
+              items:
+                - name: Ürün tabanlı teklif satırlarını maliyetlendirme
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: 'Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme'
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: Proje tabanlı teklif satırları
+              items:
+                - name: Proje tekliflerinde proje fiyat listelerini yönetme
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: Proje ve görevleri proje tabanlı teklif satırıyla eşleme
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Proje tabanlı teklif satırı tahmini
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Proje tabanlı teklif satırları (satış)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: Proje tabanlı teklifleri kopyalama
+          href: sales/lose-quote.md
+        - name: Teklifi kapatma
+          href: pro/sales/win-quote-sales.md
+    - name: Fiyatlandırma ve maliyetlendirme
+      items:
+        - name: Proje fiyat listeleri
+          items:
+            - name: Satış için fiyat listesini ayarlama
+              items:
+                - name: Satış fiyat listesini ayarlama
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: Fiyatlandırma boyutları
+          items:
+            - name: Var olan bir alanı fiyatlandırma boyutu olarak kullanma
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Fiyatlandırma boyutu olarak özel alanlar
+              items:
+                - name: Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: Özel alanları fiyatlandırma boyutları olarak ayarlama
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: Fiyatlandırma boyutunu kapatma
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Proje yönetimi
+      items:
+        - name: Proje yönetimine genel bakış
+          href: project-management/project-management-overview.md
+        - name: Proje aşamaları
+          href: project-management/project-stages.md
+        - name: Kullanıcı arabiriminde gezinme
+          href: project-management/navigate-ui.md
+        - name: Proje durumunu anlama
+          href: project-management/understand-project-status.md
+        - name: Proje takvimlerini tanımlama
+          href: project-management/define-project-calendars.md
+        - name: Projeyi güncelleştirme
+          href: project-management/update-project.md
+        - name: Projeyi kopyalama
+          href: project-management/copy-project.md
+        - name: İş kırılım yapısı planlama
+          items:
+            - name: Atama oluşturma
+              href: project-management/create-assignments.md
+        - name: Tahmin projeleri
+          items:
+            - name: Tahmin projelerine genel bakış
+              href: project-management/estimating-projects-overview.md
+            - name: Kaynak tahminleri
+              href: project-management/resource-estimates.md
+            - name: Gider tahminleri oluşturma
+              href: project-management/create-expense-estimates.md
+        - name: Proje izleme
+          items:
+            - name: Proje izlemeye genel bakış
+              href: project-management/project-tracking-overview.md
+            - name: Tahmini tamamlanmayı güncelleştirme
+              href: project-management/update-completed-estimate.md
+        - name: Proje takımı üyeleri
+          items:
+            - name: Proje takımı üyelerine genel bakış
+              href: project-management/project-team-members-overview.md
+            - name: Takım üyelerini koruma
+              href: project-management/maintain-team-members.md
+        - name: İş birliği
+          items:
+            - name: Office Grupları ile iş birliği yapma
+              href: project-management/collaboration-groups.md
+    - name: Kaynak yönetimi
+      items:
+        - name: Temel kavramlar
+          href: resource-management/resource-management-key-concepts.md
+        - name: Ayırmalar ve Atamalar
+          href: resource-management/booking-vs-assignment.md
+        - name: Kaynak yönetimi modlarına genel bakış
+          href: resource-management/resource-management-mode-overview.md
+        - name: Zamanlama yardımcısına genel bakış
+          href: resource-management/schedule-assistant-overview.md
+        - name: Merkezi kaynak ayırma
+          items:
+            - name: Kaynak gereksinimlerini tanımlama
+              href: resource-management/define-resource-requirements.md
+            - name: Kaynak gereksinimlerini güncelleştirme
+              href: resource-management/update-resource-requirements.md
+        - name: Merkezi olmayan kaynak ayırma (karma)
+          items:
+            - name: Takım üyesi kılavuzundan takım üyeleri ekleme
+              href: resource-management/add-team-members-grid.md
+        - name: Ayırma tahsisat yöntemleri
+          href: resource-management/booking-allocation-methods.md
+        - name: Beceriler ve uzmanlık modelleri
+          href: resource-management/skills-proficiency-models.md
+        - name: Kaynak mutabakatı
+          items:
+            - name: Kaynak mutabakatına genel bakış
+              href: resource-management/resource-reconciliation-overview.md
+    - name: Zaman
+      items:
+        - name: Geliştirici notları
+          items:
+            - name: Haftalık zaman girişi kılavuzunu özelleştirme
+              href: time/customize-weekly-time-entry-grid.md
+    - name: Gider
+      items:
+        - name: Gidere genel bakış
+          href: expense/expense-overview.md
+        - name: Gider girişi (lite)
+          href: expense/basic-expense.md
+    - name: Onaylar
+      items:
+        - name: Onaylara genel bakış
+          href: approvals/approvals-overview.md
+    - name: Gerçek değerler
+      items:
+        - name: Gerçek değerlere genel bakış
+          href: actuals/actuals-overview.md
+        - name: Düzeltme günlükleri
+          items:
+            - name: Düzeltme günlükleri oluşturma ve onaylama
+              href: actuals/create-confirm-correction-journals.md
+        - name: Proforma fatura
+          items:
+            - name: El ile proforma fatura oluşturma
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Düzeltilen faturalar
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Otomatik fatura oluşturmayı yapılandırma
+              href: proforma-invoicing/configure-automated-invoice-creation.md
