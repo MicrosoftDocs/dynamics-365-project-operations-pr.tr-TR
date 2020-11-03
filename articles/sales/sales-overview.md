@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3892454"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086523"
 ---
 # <a name="sales-processes-overview"></a>Satış süreçlerine genel bakış
 
@@ -57,7 +56,7 @@ Satış sürecinizi yapılandırmak için, iş süreci akışlarını kullanabil
  
 Kuruluşunuz geliştikçe aynı anlaşmayı temsil etmek için farklı varlıklar kullanabilir. Satış sürecinin başlarında, bir anlaşma Fırsat varlığı ile temsil edilir. Zaman geçtikçe ve daha fazla ayrıntı ortaya çıktığında, bir veya daha fazla teklif oluşturmak için yüksek düzeyde tahminler kullanabilirsiniz. Bu tekliflerinden biri dahili ve müşteri paydaşları tarafından gözden geçirilirse, Teklif varlığı anlaşmayı temsil eder. Müşteri teklifi kabul ettikten sonra, bir proje sözleşmesi veya iş beyanı anlaşmayı temsil eder. Bu davranışı desteklemek için, iş süreci akışları yapılandırılır ve böylece süreçteki her aşama farklı bir veritabanı tablosuna bağlanır.
 
-Satış sürecindeki **Uygun bul** aşaması bir Fırsat varlığıyla desteklenebilir. **Tahmin** ve **Dahili İnceleme** aşamaları bir Teklif varlığıyla desteklenebilir. **Sözleşme**, **Teslimat** ve **Kapatma** aşamaları, bir Proje Sözleşmesi varlığı tarafından desteklenebilir.
+Satış sürecindeki **Uygun bul** aşaması bir Fırsat varlığıyla desteklenebilir. **Tahmin** ve **Dahili İnceleme** aşamaları bir Teklif varlığıyla desteklenebilir. **Sözleşme** , **Teslimat** ve **Kapatma** aşamaları, bir Proje Sözleşmesi varlığı tarafından desteklenebilir.
 
 Anlaşmaşarı aşamalar arasında ilerlettiğinizde, süreç boyunca size yol göstermek için uygun varlık kaydını oluşturmanız istenir. Aşamalar koşullu olabilir. Örneğin, yalnızca teklif özel bir fiyat listesi kullanılması durumunda teklifin dahili olarak gözden geçirilmesini gerekli kılarsanız, bu koşulu iş sürecinin uygun aşamasında yapılandırabilirsiniz. Ardından **Dahili İnceleme** aşaması yalnızca özel fiyat listesi kullanan teklifler için gösterilir. Diğer tüm anlaşmalar ve teklifler için **Tahmin** aşamasının ardından **Sözleşme** aşaması gelir.
 

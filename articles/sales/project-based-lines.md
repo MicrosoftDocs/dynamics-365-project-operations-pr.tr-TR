@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898420"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086185"
 ---
 # <a name="project-based-opportunity-lines"></a>Proje tabanlı fırsat satırları
 
@@ -28,7 +28,7 @@ Aşağıda, proje tabanlı fırsat satırındaki alanlar verilmiştir:
 
 | **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
-| Ürün Türü | Genel sekmesi (gizli) | Bu bir seçenek kümesi alanıdır. Dynamics 365 Operations yüklüyse kullanılabilir seçeneklerden biri **Proje tabanlı hizmet**'tir.  | Fırsat üzerinde proje tabanlı satırlar ızgarasından proje tabanlı fırsat satırı oluşturduğunuzda bu alanın değeri **Proje tabanlı hizmet** olarak ayarlanır. <br> Bu değeri değiştirirseniz veya geçersiz kılarsanız proje işlevi, proje tabanlı satır öğelerinizde etkinleştirilmez. |
+| Ürün Türü | Genel sekmesi (gizli) | Bu bir seçenek kümesi alanıdır. Dynamics 365 Operations yüklüyse kullanılabilir seçeneklerden biri **Proje tabanlı hizmet** 'tir.  | Fırsat üzerinde proje tabanlı satırlar ızgarasından proje tabanlı fırsat satırı oluşturduğunuzda bu alanın değeri **Proje tabanlı hizmet** olarak ayarlanır. <br> Bu değeri değiştirirseniz veya geçersiz kılarsanız proje işlevi, proje tabanlı satır öğelerinizde etkinleştirilmez. |
 | Fırsat | Genel sekmesi | Bu alan salt okunurdur ve bu satır öğesinin ait olduğu üst Fırsat kaydını ifade eder. | Bu alanda aşağı yönlü etki yoktur. |
 | Veri Akışı Adı | Genel sekmesi | Burası, bu satır öğesine kısa bir kimlik sağlamak için kullanılabilen bir düzenlenebilir metin alanıdır | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırına taşınır |
 | Müşteri Bütçesi | Genel sekmesi | Bu düzenlenebilir para birimi alanı müşterinin bu satır öğesine harcayabileceği tutarı izlemek için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır |

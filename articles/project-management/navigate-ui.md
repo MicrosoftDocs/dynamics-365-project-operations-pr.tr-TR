@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ff624a13ec88ae64dba18715fbe9b94353b070e8
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086242"
 ---
 # <a name="navigating-the-user-interface"></a>Kullanıcı arabiriminde gezinme
 
@@ -23,37 +23,37 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Ana proje formu birkaç sekmeye ayrılır. Her sekme, proje içindeki farklı bir ayrıntı düzeyini temsil eder.
 
-- **Özet**: Projenin açıklamasını sağlar ve planlanan ve gerçek proje performansını bir araya getirir.
+- **Özet** : Projenin açıklamasını sağlar ve planlanan ve gerçek proje performansını bir araya getirir.
 
     ![Özet sekmesi ve alanları](media/navigation7.png)
 
-- **Görevler**: Izgara görünümü, pano görünümü ve gantt ile temsil edilen iş kırılım yapısı ile ilgili ayrıntıları sağlar.
+- **Görevler** : Izgara görünümü, pano görünümü ve gantt ile temsil edilen iş kırılım yapısı ile ilgili ayrıntıları sağlar.
 
     ![Görev sekmesi ve alanları](media/navigation8.png)
 
-- **Takım**: Proje katılımcıları ile ilgili ayrıntıları sağlar. Her bir takım üyesine atanan çalışma da bu görünümde özetlenir.
+- **Takım** : Proje katılımcıları ile ilgili ayrıntıları sağlar. Her bir takım üyesine atanan çalışma da bu görünümde özetlenir.
 
     ![Takım sekmesi ve alanları](media/navigation9.png)
 
-- **Kaynak atamaları**: Projedeki her kaynak için çalışmanın zaman aşamalı görünümünü sağlar.
+- **Kaynak atamaları** : Projedeki her kaynak için çalışmanın zaman aşamalı görünümünü sağlar.
 
     ![Kaynak atamaları sekmesi ve alanları](media/navigation10.png)
 
-- **Kaynak mutabakatı**: Her adlandırılan kaynağın atamaları ile ayırmaları arasındaki farkların zaman aşamalı görünümünü sağlar.
+- **Kaynak mutabakatı** : Her adlandırılan kaynağın atamaları ile ayırmaları arasındaki farkların zaman aşamalı görünümünü sağlar.
 
     ![Kaynak mutabakatı sekmesi ve alanları](media/navigation11.png)
 
-- **Tahminler**: Projenin maliyet ve satış tahminlerinin zaman aşamalı görünümünü sağlar.
+- **Tahminler** : Projenin maliyet ve satış tahminlerinin zaman aşamalı görünümünü sağlar.
 
     ![Tahminler sekmesi ve alanları](media/navigation12.png)
 
-- **İzleme**: Çalışma, maliyet ve satışlar için iş kırılım yapısında görevlerin ilerleme durumu gösteren bir görünüm sağlar.
+- **İzleme** : Çalışma, maliyet ve satışlar için iş kırılım yapısında görevlerin ilerleme durumu gösteren bir görünüm sağlar.
 
     ![İzleme sekmesi ve alanları](media/navigation13.png)
 
-- **Satışlar**: Projeyle ilişkili teklif ve sözleşmelere derin bağlantılar sağlar.
+- **Satışlar** : Projeyle ilişkili teklif ve sözleşmelere derin bağlantılar sağlar.
 
-- **Gider Tahminleri**: Kurumsal gider kategorilerine bağlı olarak proje giderlerini tanımlayan bir ızgara sağlar.
+- **Gider Tahminleri** : Kurumsal gider kategorilerine bağlı olarak proje giderlerini tanımlayan bir ızgara sağlar.
 
     ![Gider tahminleri sekmesi ve alanları](media/navigation14.png)
 
@@ -63,42 +63,42 @@ Aşağıda, çeşitli proje planlama sekmelerinde bulunan tipik denetimlere kıs
 
 ### <a name="refresh"></a>Refresh
 
-**Yenile**: Izgara yüklendikten sonra değişiklik gerçekleşirse sunucudaki en son verileri alır.
+**Yenile** : Izgara yüklendikten sonra değişiklik gerçekleşirse sunucudaki en son verileri alır.
 
 ![Yenile düğmesi](media/navigation7.png)
 
 ### <a name="group-by"></a>Gruplama ölçütü
 
-**Gruplama ölçütü**: Izgaradaki satırların gruplamasını kullanıcının ihtiyaçlarına bağlı olarak kaynaklar, roller veya kategorileri yansıtacak şekilde güncelleştirir.
+**Gruplama ölçütü** : Izgaradaki satırların gruplamasını kullanıcının ihtiyaçlarına bağlı olarak kaynaklar, roller veya kategorileri yansıtacak şekilde güncelleştirir.
 
 ![Gruplama ölçütü düğmesi](media/navigation6.png)
 
 ### <a name="previousnext"></a>Önceki/Sonraki
 
-**Önceki**/**Sonraki**: Zaman aşamalı ızgaralarda görünür zaman aralıklarını güncelleştirir.
+**Önceki**/**Sonraki** : Zaman aşamalı ızgaralarda görünür zaman aralıklarını güncelleştirir.
 
 ![Önceki ve Sonraki düğmeleri](media/navigation2.png)
 
 ### <a name="timescale"></a>Zaman ölçeği
 
-**Zaman ölçeği**: Günler, haftalar, aylar ve yıllar arasında zaman aşamalı verilerin toplanmasını değiştirir.
+**Zaman ölçeği** : Günler, haftalar, aylar ve yıllar arasında zaman aşamalı verilerin toplanmasını değiştirir.
 
 ![Zaman ölçeği düğmesi](media/navigation3.png)
 
 ### <a name="expand"></a>Uzat
 
-**Genişlet**: Daha fazla ek rol görme olanağı sağlayacak şekilde görünür ızgarayı tam ekran olarak işler.
+**Genişlet** : Daha fazla ek rol görme olanağı sağlayacak şekilde görünür ızgarayı tam ekran olarak işler.
 
 ![Genişlet düğmesi](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>Zaman aşaması ölçütü
 
-**Zaman aşaması ölçütü**: Izgaradaki satırların gruplamasını satış tahminleri için maliyet tahminlerini yansıtacak şekilde güncelleştirir. Bu denetim ayrıca tahmin betiği ve izleme ızgarası için de geçerlidir.
+**Zaman aşaması ölçütü** : Izgaradaki satırların gruplamasını satış tahminleri için maliyet tahminlerini yansıtacak şekilde güncelleştirir. Bu denetim ayrıca tahmin betiği ve izleme ızgarası için de geçerlidir.
 
 ![Zaman aşaması ölçütü düğmesi](media/navigation0.png)
 
 ### <a name="add-column"></a>Sütun ekle
 
-**Sütun ekle**: Kullanıcının ızgarada görünür sütunları tanımlamasına olanak tanır. **Proje Planlama** formunda ızgaralara yalnızca kullanıma hazır sütunlar eklenebilir.
+**Sütun ekle** : Kullanıcının ızgarada görünür sütunları tanımlamasına olanak tanır. **Proje Planlama** formunda ızgaralara yalnızca kullanıma hazır sütunlar eklenebilir.
 
 ![Sütun ekle düğmesi](media/navigation5.png)

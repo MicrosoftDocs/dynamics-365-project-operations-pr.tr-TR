@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966883"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086228"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Proje tabanlı bir teklif satırını tahmin etme
 
@@ -30,7 +30,7 @@ Proje tabanlı teklif satırını tahmin etmek için proje tabanlı teklif satı
 
 Proje tabanlı teklif satırında bir tahmin oluşturmak için **Teklif Satırı Ayrıntısı** sekmesini seçin. Bu sekmede oluşturduğunuz satır öğesi, bu teklif satırının teklif değerini özetler. 
 
-Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntıları** alt ızgarasında **+ Yeni teklif satırı ayrıntısı**'nı seçin. Hızlı oluşturma kaydırıcısı açılır. **Teklif Satırı** formunda aşağıdaki alanlar:
+Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntıları** alt ızgarasında **+ Yeni teklif satırı ayrıntısı** 'nı seçin. Hızlı oluşturma kaydırıcısı açılır. **Teklif Satırı** formunda aşağıdaki alanlar:
 
 | **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntılar�
 
 ## <a name="update-prices-on-quote-line-details"></a>Teklif satırı ayrıntılarında fiyatları güncelleştirme
 
-Teklife ekli proje fiyat listesinde veya sözleşme biriminin maliyet fiyatı listesinde fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere tek tek teklif satırı ayrıntılarındaki fiyatları yenilemek için **Teklif** sayfasında **Yeniden Hesapla** seçeneğini belirleyebilirsiniz. **Yeniden Hesapla** seçeneğini belirlediğinizde, bu teklifteki tüm teklif satırları için teklif satırı ayrıntılarındaki fiyatların sıfırlanacağını bildiren bir uyarı oluşur. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet**'i seçin.
+Teklife ekli proje fiyat listesinde veya sözleşme biriminin maliyet fiyatı listesinde fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere tek tek teklif satırı ayrıntılarındaki fiyatları yenilemek için **Teklif** sayfasında **Yeniden Hesapla** seçeneğini belirleyebilirsiniz. **Yeniden Hesapla** seçeneğini belirlediğinizde, bu teklifteki tüm teklif satırları için teklif satırı ayrıntılarındaki fiyatların sıfırlanacağını bildiren bir uyarı oluşur. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet** 'i seçin.
 
 ## <a name="access-quote-line-details-for-cost"></a>Maliyet için teklif satırı ayrıntılarına erişme
 
-**Teklif Satırı Ayrıntıları** sekmesinde, alt ızgaranın araç çubuğunda bazı eylemleri etkinleştirmek için ızgarada bir satır seçin. Teklif satırı ayrıntısı seçildiğinde alt ızgara araç çubuğundaki ilk eylem **Maliyet Ayrıntısını Aç** seçeneğidir. Bu teklif satırı için ilgili maliyet oranını ve tutarı görmek üzere **Maliyet Ayrıntısını Aç**'ı seçin.
+**Teklif Satırı Ayrıntıları** sekmesinde, alt ızgaranın araç çubuğunda bazı eylemleri etkinleştirmek için ızgarada bir satır seçin. Teklif satırı ayrıntısı seçildiğinde alt ızgara araç çubuğundaki ilk eylem **Maliyet Ayrıntısını Aç** seçeneğidir. Bu teklif satırı için ilgili maliyet oranını ve tutarı görmek üzere **Maliyet Ayrıntısını Aç** 'ı seçin.
 
 > [!NOTE]
 > Maliyet için teklif satırı ayrıntısında kaynak birimi, miktar, tarihler, rol veya kategori değerlerinin değiştirilmesi, satışlar için teklif satırı ayrıntılarında karşılık gelen değerleri değiştirir.

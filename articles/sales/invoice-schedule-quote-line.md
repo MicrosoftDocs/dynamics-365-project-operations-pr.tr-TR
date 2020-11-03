@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908699"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086257"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarındaki fatura zamanlamaları
 
@@ -27,26 +27,26 @@ Genel olarak, fatura zamanlamalarının amacı, proje tabanlı sözleşme satır
 
 Proje tabanlı teklif satırı için faturalama yöntemi, Zaman ve malzeme olduğunda sistem, tarih tabanlı fatura zamanlaması oluşturur. Otomatik olarak tarih tabanlı fatura zamanlaması oluşturmak için aşağıdaki adımları tamamlayın.
 
-1. **Ayarlar** > **fatura sıklıkları**'na gidin ve bir fatura sıklığı ayarlayın.
+1. **Ayarlar** > **fatura sıklıkları** 'na gidin ve bir fatura sıklığı ayarlayın.
 2. **Teklifler** sayfasında, Proje teklifini açın ve **Özet** sekmesinde, istenen teslim tarihini ayarlayın.
 3. Tarih tabanlı fatura zamanlaması oluşturmanız için gereken zaman ve malzeme teklif satırını açın. 
 4. **Fatura Zamanlaması** sekmesinde, **Faturalama başlangıcı** ve **Fatura Sıklığı** alanlarında değerler seçin. 
-5. Alt ızgarada, **Fatura Zamanlaması Oluştur**'u seçin.
-6. Uygulama, fatura zamanlamasını aşağıdaki şekilde ayarlanan **Fatura Çalıştırma Tarihi**, **İşlem Durdurma Tarihi** ve **Çalıştırma Durumu** alanlarıyla birlikte oluşturur:
+5. Alt ızgarada, **Fatura Zamanlaması Oluştur** 'u seçin.
+6. Uygulama, fatura zamanlamasını aşağıdaki şekilde ayarlanan **Fatura Çalıştırma Tarihi** , **İşlem Durdurma Tarihi** ve **Çalıştırma Durumu** alanlarıyla birlikte oluşturur:
 
-    - **Fatura Çalıştırma Tarihi**, tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
-    - **İşlem durdurma tarihi**, **Fatura Çalıştırma Tarihi**'nden önceki gün olarak ayarlanır.
-    - **Çalıştırma Durumu**, **Çalışmadı** olarak otomatik ayarlanır. Otomatik fatura oluşturma işi, belirli bir fatura çalışma tarihi için çalıştırıldığında, bu alanı **Çalıştırma Başarılı** veya **Çalıştırılamadı** olarak güncelleştirir.
+    - **Fatura Çalıştırma Tarihi** , tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
+    - **İşlem durdurma tarihi** , **Fatura Çalıştırma Tarihi** 'nden önceki gün olarak ayarlanır.
+    - **Çalıştırma Durumu** , **Çalışmadı** olarak otomatik ayarlanır. Otomatik fatura oluşturma işi, belirli bir fatura çalışma tarihi için çalıştırıldığında, bu alanı **Çalıştırma Başarılı** veya **Çalıştırılamadı** olarak güncelleştirir.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Proje tabanlı teklif satırı için Sabit fiyatlı fatura zamanlaması oluşturma
 
 Proje tabanlı teklif satırında bir **Sabit** faturalama yöntemi olduğunda sistem, kilometre taşı tabanlı fatura zamanlaması oluşturur. Takvim döneminde eşit olarak dağıtılan sabit bir kilometre taşı kümesi için bu zamanlamayı otomatik oluşturmak üzere aşağıdaki adımları tamamlayın.
 
-1. **Ayarlar** > **fatura sıklıkları**'na gidin ve bir fatura sıklığı ayarlayın.
+1. **Ayarlar** > **fatura sıklıkları** 'na gidin ve bir fatura sıklığı ayarlayın.
 2. **Teklifler** sayfasında, Proje teklifini açın ve **Özet** sekmesinde, istenen teslim tarihini ayarlayın.
 3. Kilometre taşı zamanlaması oluşturmak için ihtiyacınız olan sabit fiyatlı teklif satırını açın. 
 4. **Fatura Zamanlaması** sekmesinde, **Faturalama başlangıcı** ve **Fatura Sıklığı** alanlarında değerler seçin. 
-5. Alt ızgarada, **Düzenli Kilometre Taşları Oluştur**'u seçin.
+5. Alt ızgarada, **Düzenli Kilometre Taşları Oluştur** 'u seçin.
 6. Uygulama, fatura zamanlamasını bir kilometre taşı adı, tarihi ve tutarı ile oluşturur.
 
     - Kilometre taşı adı, tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
@@ -58,7 +58,7 @@ Proje tabanlı teklif satırında bir **Sabit** faturalama yöntemi olduğunda s
 
 Sabit fiyatlı kilometre taşları, düzenli aralıklarla bölünmediğinde de el ile oluşturulabilir. Kilometre taşını el ile oluşturmak için:
 
-Kilometre taşı oluşturmak için ihtiyacınız olan Sabit fiyatlı teklif satırını açın. **Fatura Zamanlaması** sekmesindeki alt ızgarada **+ Yeni teklif satırı kilometre taşı oluştur**'u seçin ve aşağıdaki tabloya bağlı olarak gerekli bilgileri girin.
+Kilometre taşı oluşturmak için ihtiyacınız olan Sabit fiyatlı teklif satırını açın. **Fatura Zamanlaması** sekmesindeki alt ızgarada **+ Yeni teklif satırı kilometre taşı oluştur** 'u seçin ve aşağıdaki tabloya bağlı olarak gerekli bilgileri girin.
 
 | **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |

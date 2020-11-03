@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 8ecbd0abc16d0a29eea47d6bd1653a204a83de4c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086206"
 ---
 # <a name="configure-expense-management-parameters"></a>Gider yönetimi parametrelerini yapılandırma
 
@@ -72,7 +72,7 @@ Bu konuda, Gider yönetimindeki genel davranışları denetleyen parametreler a�
 
 | Alan                          | Veri Akışı Açıklaması |
 |--------------------------------|-------------|
-| Yönergeler                   | Çalışanların, gider raporu ile ilgili makbuzları göndermek için kullandıkları faksın kapak sayfasını oluştururken takip etmeleri gereken yönergeleri girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
+| Yönergeler                   | Çalışanların, gider raporu ile ilgili makbuzları göndermek için kullandıkları faksın kapak sayfasını oluştururken takip etmeleri gereken yönergeleri girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler** 'i seçin. |
 | Kullanıcı Kimliği (Barkod bilgileri) | Çalışanın benzersiz tanıtıcısını faksın kapak sayfasında kullanılan barkodda depolamak için bu seçeneği belirleyin. |
 | Barkod                       | Faksın kapak sayfasında kullanılan barkodu seçin. Gider yönetiminde kod 39 ve kod 128 barkodları desteklenir. |
 
@@ -81,5 +81,5 @@ Bu konuda, Gider yönetimindeki genel davranışları denetleyen parametreler a�
 | Alan                                 | Veri Akışı Açıklaması |
 |---------------------------------------|-------------|
 | Yolsuzlukla mücadele beyanını görüntüleme   | Gider raporu oluşturulduğunda, yolsuzlukla mücadele metninin gösterilmesi için bu seçeneği belirleyin. Belirli gider kategorileri, gider raporunda yolsuzlukla mücadele beyanının seçilmesinin ardından etkinleşecek şekilde düzenlenebilir. Örneğin, kamu yetkilisi gideriyle ilgili bir hediye kategorisi, giderin kamu yetkilileriyle ilgili şirket ilkelerine uygun olduğunun çalışan tarafından onaylanmasını gerektirebilir. |
-| Gönderen için yolsuzlukla mücadele iletisi | Gider raporu oluşturan bir çalışana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
-| Onaylayan için yolsuzlukla mücadele iletisi  | Gider raporu oluşturulduğunda, onaylayana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
+| Gönderen için yolsuzlukla mücadele iletisi | Gider raporu oluşturan bir çalışana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler** 'i seçin. |
+| Onaylayan için yolsuzlukla mücadele iletisi  | Gider raporu oluşturulduğunda, onaylayana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler** 'i seçin. |

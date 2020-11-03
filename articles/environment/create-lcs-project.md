@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930551"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086181"
 ---
 # <a name="start-a-new-project-in-lcs"></a>LCS'de yeni bir proje başlatma
 
@@ -30,7 +30,7 @@ Dynamics 365 Project Operations ortamlarınızı yönetmek için Lifecycle Servi
 
 5. Projeyi adlandırın. 
 6. Ürün adı olarak **Finance and Operations** seçin ve endüstriyi ve metodolojiyi seçin. 
-7. **Oluştur**'u seçin.
+7. **Oluştur** 'u seçin.
 
 ![LCS projesi oluşturma](./media/create-lcs-2.png)
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086213"
 ---
 # <a name="estimate-projects-overview"></a>Tahmin projelerine genel bakış
 
@@ -71,11 +71,11 @@ Tahmin aşamasında iş mantığını anlamak için kılavuz olarak aşağıdaki
 Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın değerini oluşturduğu ilgili maliyet satırında varsayılan değer olarak girmesini istiyorsanız, **PreOperationContractLineDetailUpdate** ve **PreOperationQuoteLineDetailUpdate** eklentisini kullanın. Bu eklentilerin teklif satırı ayrıntısı veya sözleşme satırı ayrıntısı değiştirildikten sonra yeniden kaydedilmesi gerekir. İşlemi tamamlamak için aşağıdaki adımları uygulayın:
 
 1. PluginRegistrationTool'u açın ve çevrimiçi kurulumunuza bağlanın.
-2. **Ara**'y seçin ve güncelleştirilecek eklentiyi arayın.
-3. Eklentiyi seçin ve sonra ana sayfada **Seç**'i tıklayın.
-4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
-5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini (**...**) seçin:
+2. **Ara** 'y seçin ve güncelleştirilecek eklentiyi arayın.
+3. Eklentiyi seçin ve sonra ana sayfada **Seç** 'i tıklayın.
+4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir** 'i seçin.
+5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini ( **...** ) seçin:
 6. **Öznitelikleri Seç** iletişim kutusunda, özel öznitelikler için onay kutularını seçin.
-7. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve ardından **Adımı Güncelleştir**'i seçin.
+7. İletişim kutusunu kapatmak için **Tamam** 'ı seçin ve ardından **Adımı Güncelleştir** 'i seçin.
 8. İkinci eklenti için 1 - 7 arasındaki adımları yineleyin:
-9. **PluginRegistrationTool**'u kapatın.
+9. **PluginRegistrationTool** 'u kapatın.

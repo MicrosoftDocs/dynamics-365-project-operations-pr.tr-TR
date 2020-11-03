@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897475"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086266"
 ---
 # <a name="resource-reconciliation-overview"></a>Kaynak mutabakatına genel bakış
 
@@ -47,7 +46,7 @@ Bazı durumlarda, zamanı gün düzeyinden daha yüksek bir düzeyde (örneğin,
 Zamanı daha yüksek düzeylerde görüntülediğinizde **Mutabakat** sekmesindeki hücrelerde alt zaman düzeylerinde farklar olduğunu bildiren bir gösterge bulunur. Bir hücreye çift tıklayarak, farkı yakından görüntüleyebilirsiniz. Daha sonra uzaklaştırmak için sağ tıklayabilirsiniz. Bir kaynağı seçip, ardından kılavuz araç çubuğundaki **Sonraki fark** denetimini kullanarak, bu kaynağın ayırmaları ve atamaları arasındaki sonraki farka gidebilirsiniz. Daha sonra geri gitmek için **Önceki fark** denetimini kullanabilirsiniz. Ayrıca **Ayarlar** altındaki fark göstergesini ve gezinme davranışını devre dışı bırakabilirsiniz.
 
 
-Bir kaynak için görev atamalarınızın olması ancak ayırmalarınızın olmaması durumunda **Projeler** sayfasındaki **Mutabakat** sekmesinde ayırma eksikliğini ve ardından **Ayırmayı Genişlet**'i seçin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. Ayrıca, kaynağın tüm projeler veya diğer zamanlanabilir varlıklardaki varolan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam**'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
+Bir kaynak için görev atamalarınızın olması ancak ayırmalarınızın olmaması durumunda **Projeler** sayfasındaki **Mutabakat** sekmesinde ayırma eksikliğini ve ardından **Ayırmayı Genişlet** 'i seçin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. Ayrıca, kaynağın tüm projeler veya diğer zamanlanabilir varlıklardaki varolan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam** 'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
 
 Ardından proje yöneticisi veya kaynak yöneticisi, bir kaynağın kapasitesi üzerinde ayrılmış olduğu durumları yönetmek için Zamanlama Panosunu kullanabilir.
 

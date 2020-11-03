@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086191"
 ---
 # <a name="project-based-quote-lines"></a>Proje tabanlı teklif satırları
 
@@ -47,11 +47,11 @@ Aşağıdaki tabloda proje tabanlı teklif satırının **Genel** sekmesindeki a
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Proje tabanlı teklif satırlarının Genel sekmesindeki alanları için doğrulama kuralları
 
-**Kural 1**: Seçilen projedeki belirli bir işlem sınıfı bir teklifin yalnızca bir proje tabanlı teklif satırına dahil edilebilir.
+**Kural 1** : Seçilen projedeki belirli bir işlem sınıfı bir teklifin yalnızca bir proje tabanlı teklif satırına dahil edilebilir.
 
-**Kural 2**: Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.
+**Kural 2** : Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.
 
-**Kural 3**: Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.
+**Kural 3** : Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

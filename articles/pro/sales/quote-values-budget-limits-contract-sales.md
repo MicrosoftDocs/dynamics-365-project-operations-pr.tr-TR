@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086255"
 ---
 # <a name="summary-information-on-a-project-quote-sales"></a>Proje teklifiyle ilgili özet bilgiler (Sales)
 

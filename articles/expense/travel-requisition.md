@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086193"
 ---
 # <a name="travel-requisitions"></a>Seyahat talepleri
 
@@ -31,12 +31,12 @@ Seyahat Talepleri, Gider Yönetimi Parametreleri'ndeki "Seyahatin önceden yetki
 
 ## <a name="create-and-submit-a-travel-requisition"></a>Seyahat talebi oluşturma ve gönderme
 
-1. **Giderlerim: Seyahat Talebi**'ne gidin ve **Yeni Seyahat Talebi**'ni seçin.
+1. **Giderlerim: Seyahat Talebi** 'ne gidin ve **Yeni Seyahat Talebi** 'ni seçin.
 2. Talep için bir amaç ve hedef girin.
 3. **Seyahat açıklaması** alanında, diğer ek bilgileri girin. 
 4. Uçuş, yemek veya araç kiralama gibi beklenen giderlerin her biri için bir gider satırı öğesi oluşturun. Her giderin tahmini tarihini, tahmini tutarını ve para birimini ekleyin. 
-5. Beklenen giderleri eklemeyi bitirdiğinizde, **Kaydet**'i seçin.
-6. Seyahat talebini göndermeye hazır olduğunuzda **İş Akışı** > **Gönder**'i seçin.
+5. Beklenen giderleri eklemeyi bitirdiğinizde, **Kaydet** 'i seçin.
+6. Seyahat talebini göndermeye hazır olduğunuzda **İş Akışı** > **Gönder** 'i seçin.
 
 Onaylanan seyahat taleplerinizi **Giderlerim: Seyahat Talebi** altından görüntüleyebilirsiniz. 
 
@@ -50,7 +50,7 @@ Onaylamak istediğiniz seyahat talebini seçin ve ardından **İş Akışı** > 
 
 ## <a name="submit-an-expense-report-using-your-approved-travel-requisition"></a>Onaylanmış seyahat talebinizi kullanarak bir gider raporu gönderme
 
-1. Yeni bir gider raporu oluşturun ve gider raporu başlığında, onaylanmış seyahat talepleri listesinden **Seyahat talebine eşle**'yi seçin.
+1. Yeni bir gider raporu oluşturun ve gider raporu başlığında, onaylanmış seyahat talepleri listesinden **Seyahat talebine eşle** 'yi seçin.
 2. **Seyahat talebi tutarı** alanı, gider raporu başlığında otomatik olarak güncelleştirilir.
 3. Yolculuk için oluşan her gideri ekleyin. **Önceden Yetkilendirilmiş** alanı etkinse belirli bir gider kategorisine ilişkin mutabık olunan tutar ve yetkilendirilmiş tutar güncelleştirilir.
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967390"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086204"
 ---
 # <a name="expense-home-page"></a>Gider giriş sayfası
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations, giderleri işleme özelliğini destekler. Gider
 
 Project Operations'ta, Gider için desteklenen iki dağıtım modeli vardır: 
 
-- **Tam**: Tam dağıtım **Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations** veya **Üretim emrini temel alan senaryolar için Project Operations** ile kullanılabilir.
-- **Temel**: Temel dağıtım, **Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations** ve **Lite dağıtımı: anlaşmadan proforma faturaya** ile kullanılabilir.
+- **Tam** : Tam dağıtım **Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations** veya **Üretim emrini temel alan senaryolar için Project Operations** ile kullanılabilir.
+- **Temel** : Temel dağıtım, **Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations** ve **Lite dağıtımı: anlaşmadan proforma faturaya** ile kullanılabilir.
 
 ## <a name="full"></a>Tam 
 Tam Gider dağıtımı, ilke oluşturma özelliğini içeren tam bir ilke uygulaması sağlar. Örneğin:

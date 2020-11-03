@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086352"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Teklif satırında tahminler oluşturma
 
@@ -81,11 +80,11 @@ Tahmin aşamasında iş mantığını anlamak için kılavuz olarak aşağıdaki
 Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın değerini oluşturduğu ilgili maliyet satırında varsayılan değer olarak girmesini istiyorsanız, PreOperationContractLineDetailUpdate ve PreOperationQuoteLineDetailUpdatee eklentisini kullanın. Bu eklentilerin teklif satırı ayrıntısı veya sözleşme satırı ayrıntısı değiştirildikten sonra yeniden kaydedilmesi gerekir. İşlemi tamamlamak için aşağıdaki adımları uygulayın:
 
 1. PluginRegistrationTool'u açın ve çevrimiçi kurulumunuza bağlanın.
-2. **Ara**'y seçin ve güncelleştirilecek eklentiyi arayın.
-3. Eklentiyi seçin ve sonra ana sayfada **Seç**'i seçin.
-4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
-5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini (**...**) seçin:
+2. **Ara** 'y seçin ve güncelleştirilecek eklentiyi arayın.
+3. Eklentiyi seçin ve sonra ana sayfada **Seç** 'i seçin.
+4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir** 'i seçin.
+5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini ( **...** ) seçin:
 6. **Öznitelikleri Seç** iletişim kutusunda, özel öznitelikler için onay kutularını seçin.
-7. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve ardından **Adımı Güncelleştir**'i seçin.
+7. İletişim kutusunu kapatmak için **Tamam** 'ı seçin ve ardından **Adımı Güncelleştir** 'i seçin.
 8. İkinci eklenti için 1 - 7 arasındaki adımları yineleyin:
 9. PluginRegistrationTool'u kapatın.

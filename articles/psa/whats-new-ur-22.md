@@ -1,0 +1,72 @@
+---
+title: Project Service Automation Güncelleştirme Sürümü 22, V3'teki yenilikler veya değişiklikler
+description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 22, V3'teki özellikler ve düzeltmeler listelenir.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-projectservice
+ms.date: 07/28/2020
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086272"
+---
+# <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, Güncelleştirme Sürümü 22, V3
+
+Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online çözümler sayfası için Yönetim Merkezi'ni ziyaret edin ve güncelleştirmeyi yükleyin. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
+
+Bu konuda, Project Service Automation V3, Güncelleştirme Sürümü 22'de yeni veya değiştirilmiş özellikler ve düzeltmeler listelenir. Bu sürüm, V 3.10.33.48 derleme numarasına sahiptir ve Haziran 2020'de kendi başına güncelleştirme olarak genel kullanıma sunulmuştur.
+
+## <a name="update-release-22"></a>Güncelleştirme Sürümü 22
+
+### <a name="bug-fixes"></a>Hata düzeltmeleri
+
+
+
+**Zaman ve Gider**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+- Alma işleminden sonra, zaman girişleri **zaman girişleri** zamanlamasında otomatik olarak eklenmez.
+- **Zaman girişi** kılavuz tarih seçicisi bir kullanıcının bölgesel ayarlarını tanımaz.
+
+**Kaynak Yönetimi**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+- El ile modunda, **kaynak gereksinimleri** üretilirken **kaynak atama** dağılımlarında yapılan değişiklikler tanınmaz.
+- **Kaynak Istekleri** , özel istek durumlarını desteklemez.
+
+**Proje Yönetimi**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+- EstimateGridControl'de çift tıklama kullanmak Felemenkçe biçimindeki numaraları doğru olarak ayrıştırmaz.
+- Atamalar Microsoft Project masaüstü istemcisi eklentisi kullanılarak değiştirildiğinde atanan saatler doğru şekilde güncelleştirilmez.
+- Proje izleme ve tahminler ızgaraları, sözleşme para birimi müşteri para biriminden farklı olduğunda ve kuruluş para birimi sembolleri yerine para birimi kodlarını görüntülemek için yapılandırıldığı zaman, yanlış satış para birimi kodu görüntüler.
+- Çalışma saati zamanlaması günde 24 saat ise, bir takım üyesinin bitiş tarihi bir gün ekler.
+- Proje zamanlamasında, göreve bir hareket kategorisi eklemek otomatik kaydetmeyi tetiklemez.
+- Proje şablonuna takım üyesi eklerken aşağıdaki hata görüntülenir: "kaynak gereksinimleri proje şablonlarıyla ilişkilendirilemez". 
+- Şerit kuralı komut dosyası "msdyn.Approval.CanApproveOrReject" bir zaman aşımı hatası görüntüler.
+
+**Sales**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+- 'Yeni teklif proje fiyatı listesi' formunda/varlığında fiyat listesi aramasında bir maliyet fiyatı listesi seçildiğinde doğrulama hata iletisi görüntülenmez.
+- Teklife iliştirilen bir BPF son aşamada ise, teklif Kazanıldı olarak kapatıldığında oluşturulan sözleşmeye gitmez.
+- Bir zaman girişi geri alınırken **Faturalandıralınmamış satışların** ters işlemi özgün maliyete bağlıdır.
+- **Onay** düğmesini seçtikten sonra Fatura yenilenene kadar fatura durumu **Onaylandı** olarak değişmez.

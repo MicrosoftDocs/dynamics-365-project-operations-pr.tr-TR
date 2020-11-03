@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086192"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Gider yönetiminde KDV'den düşme
 
@@ -41,7 +41,7 @@ Aşağıdaki bölümlerde, Contoso çalışanlarının her adımı nasıl tamaml
 
 Amerika Birleşik Devletleri'nde bir Contoso satış temsilcisi olan Nancy, kısa süre önce Birleşik Krallık'a yaptığı bir satış seyahatinden dönmüştür. Nancy seyahati sırasında yemek için bazı kişisel kredi kartı harcamaları yapar. Nancy şimdi giderleri mutabık kılmak için bir gider raporu oluşturmalıdır.
 
-Nancy bilgileri gider raporuna girdiğinde **Gider raporu düzenleme** sayfasında **Ülke/bölge** alanında **Birleşik Krallık**'ı seçer. Satış vergisi grupları listesi, yalnızca Birleşik Krallık için geçerli olan grupları gösterecek şekilde filtrelenir. Nancy **Birleşik Krallık 001** satış vergisi grubunu seçer ve ardından satış vergisi grubu için **Yemek**'i seçer. Bundan sonra Nancy konaklama için yeni bir işlem ekler. Birleşik Krallık'ta konaklama için yalnızca bir satış vergisi grubu ve bir öğe satış vergisi grubu olduğundan, bu bilgiler Nancy'nin gider raporunda otomatik olarak doldurulur.
+Nancy bilgileri gider raporuna girdiğinde **Gider raporu düzenleme** sayfasında **Ülke/bölge** alanında **Birleşik Krallık** 'ı seçer. Satış vergisi grupları listesi, yalnızca Birleşik Krallık için geçerli olan grupları gösterecek şekilde filtrelenir. Nancy **Birleşik Krallık 001** satış vergisi grubunu seçer ve ardından satış vergisi grubu için **Yemek** 'i seçer. Bundan sonra Nancy konaklama için yeni bir işlem ekler. Birleşik Krallık'ta konaklama için yalnızca bir satış vergisi grubu ve bir öğe satış vergisi grubu olduğundan, bu bilgiler Nancy'nin gider raporunda otomatik olarak doldurulur.
 
 Contoso ilkesine göre, tüm giderlerde eşleşen bir makbuz olmalıdır. Bu nedenle, Nancy gider raporunu kaydettiğinde gider raporunda listelediği her işlem için bir makbuz eklemesi gerektiğini belirten bir ileti alır. Nancy, gider raporuna her işlem makbuzunun dijital bir görüntüsünü eklediğini doğrular ve ardından raporunu onay için gönderir. Daha sonra kağıt makbuzları arka ofis işleme takımına gönderir. Bu takım, KDV'den düşme verilerini Contoso için uluslararası KDV'den düşme iadelerini dosyalayan üçüncü taraf satıcıya gönderir.
 
@@ -59,7 +59,7 @@ Arnie, kağıt makbuzları Nancy'den aldığında bunları dijital makbuzlara g�
 
 ## <a name="send-vat-recovery-data-to-the-third-party-vendor"></a>Üçüncü taraf satıcıya KDV'den düşme verilerini gönderme
 
-Arnie, gider raporu verilerini KDV'den düşme iadelerini dosyalayacak üçüncü taraf satıcıya göndermeye hazır olduğunda, **Gider vergisinden düşme** sayfasını açar. Sayfayı yalnızca **Vergiden düşmeye hazır** olarak işaretlenmiş gider raporlarını gösterecek şekilde filtreler. Arnie ardından **Dosya** &gt; **Excel'e Aktar**'ı seçer. Gider raporlarından alınan KDV bilgileri, Microsoft Excel çalışma sayfasına dışarı aktarılır. Arnie bu çalışma sayfasını üçüncü taraf satıcıya gönderir ve kağıt makbuzların kurye ile gönderildiğini belirten bir ileti ekler.
+Arnie, gider raporu verilerini KDV'den düşme iadelerini dosyalayacak üçüncü taraf satıcıya göndermeye hazır olduğunda, **Gider vergisinden düşme** sayfasını açar. Sayfayı yalnızca **Vergiden düşmeye hazır** olarak işaretlenmiş gider raporlarını gösterecek şekilde filtreler. Arnie ardından **Dosya** &gt; **Excel'e Aktar** 'ı seçer. Gider raporlarından alınan KDV bilgileri, Microsoft Excel çalışma sayfasına dışarı aktarılır. Arnie bu çalışma sayfasını üçüncü taraf satıcıya gönderir ve kağıt makbuzların kurye ile gönderildiğini belirten bir ileti ekler.
 
 ## <a name="process-expenses-for-domestic-vat-recovery"></a>Yurtiçi KDV'den düşme için giderleri işleme
 

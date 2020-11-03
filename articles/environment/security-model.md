@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896755"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086209"
 ---
 # <a name="security-model"></a>Güvenlik Modeli
 
@@ -36,10 +36,11 @@ Project Operations ön uç özellikleri aşağıdaki rolleri içerir:
 
 
 Web için Microsoft Project aşağıdaki rolleri içerir:
-| Rol                          | Veri Akışı Açıklaması                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Proje kullanıcısı | Kendi projelerini oluşturabilen ve kendisiyle paylaşılan projeleri görüntüleyebilen ve birlikte çalışılabilen Proje kullanıcısı.| Kullanıcı|
-| Proje sistemi | Uygulama bağlamı için kullanılan rol. Müşteriler bu sistem rolünü kullanmamalıdır. | Global|
+
+| Rol           | Veri Akışı Açıklaması                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Proje kullanıcısı   | Kendi projelerini oluşturabilen ve kendisiyle paylaşılan projeleri görüntüleyebilen ve birlikte çalışılabilen Proje kullanıcısı. | Kullanıcı   |
+| Proje sistemi | Uygulama bağlamı için kullanılan rol. Müşteriler bu sistem rolünü kullanmamalıdır.                                    | Global |
 
 ## <a name="security-enforcement"></a>Güvenlik uygulayıcı
 Proje düzeyinde gerçekleştirilen eylemler, oturum açmış kullanıcı bağlamında gerçekleştirilir. Bu, bir proje oluşturmak, açmak veya silmek için kullanıcının CDS'ye mevcut bir erişimi olması gerektiği anlamına gelir. CDS'ye erişim, platforma dahil edilen olası mekanizmalardan herhangi biri aracılığıyla verilebilir. Örneğin, daha geniş kapsamı olan bir kullanıcı, projeye erişebilir veya açık proje paylaşma eylemi gerçekleştirilmişse kullanıcıya erişim verilir.
@@ -56,6 +57,8 @@ Gruplar, proje izinleri ve destekleyici işbirliği yapıtları ile işbirliği 
 Project Operations, örtük eylem yoluyla bir grup oluşturmaz ve bunu yalnızca baskın grupların açık eylemi aracılığıyla gerçekleştirir.
 
 **Grup yönetimi** iletişim kutusundaki grup üyesi araması, ortamın güvenlik grubunun bir parçası olarak ayarlananlarla sınırlıdır. Daha fazla bilgi için bkz. [Ortamlara kullanıcı erişimini denetleme: güvenlik grupları ve lisanslar](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Grup modu](./media/groupsmode.png)
 
 1. Proje, oluşturan Kullanıcı tarafından oluşturulur ve sahiplenilir.
 2. Proje sahibi, takımla güncelleştirilir.

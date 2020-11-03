@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086200"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
+
+_**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
 Proje tabanlı teklif satırları, her teklif satırının proje için ödeme yapan müşterilerin bir listesine sahip olduğu senaryoları destekler. Proje tabanlı teklif satırındaki bu müşteri listesi, teklifteki müşteri listesiyle aynı olabilir. Ayrıca müşteri listesini farklı olacak şekilde değiştirebilirsiniz. Proje teklifi kazanıldığında nihai proje sözleşmesini oluşturmak için proje tabanlı teklif satırındaki müşteri listesi, ilgili proje tabanlı sözleşme satırına kopyalanır. Proje tabanlı teklifteki müşteriler proje sözleşmesine kopyalanır.
 

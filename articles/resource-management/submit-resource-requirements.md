@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086218"
 ---
 # <a name="submit-a-resource-request"></a>Kaynak isteği gönderme
 
@@ -22,7 +22,7 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 Oluşturulmuş bir kaynak gereksinimini bir kaynak isteği olarak gönderebilirsiniz. İstek daha sonra yerine getirilmesi için bir kaynak yöneticisine gönderilir.
 
 1. Dynamics 365 Project Operations'ta, **Projeler** sayfasında ayrılabilir kaynakların listesini görüntülemek için **Takım** sekmesini seçin. 
-2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **İstek Gönder**'e tıklayın.
+2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **İstek Gönder** 'e tıklayın.
 
 Genel takım üyesinin istek durumu **Gönderildi** olarak değişir.
 

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897700"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086274"
 ---
 # <a name="booking-allocation-methods"></a>Ayırma tahsisat yöntemleri
 
@@ -72,7 +71,7 @@ Saatleri Eşit Dağıt yöntemi, kaynağı, belirtilen sayıda saatler için ay�
 Kullanılabilir kapasite göz önünde bulundurulduğu için, ayırmanın kullanabileceği kadar kaynak kapasitesi kalmadıysa bir hata iletisi alabilirsiniz Bu yöntemde fazladan ayırma yapamazsınız.
 
 ### <a name="none"></a><a name="none"></a>Yok
-Hiçbiri yöntemi ancak bir projede **Takım** sekmesinden ayırma yaptığınız zaman kullanılabilir. Bu yöntem, kaynağı projede bir takım üyesi olarak ekler ancak kaynağın kapasitesini kullanan herhangi bir ayırma oluşturmaz. Bu yöntem, bir proje oluşturulduğunda, varsayılan proje yöneticisi takım üyesi eklenirken kullanılır. Projeyi oluşturan proje yöneticisi kullanıcı projeye varsayılan olarak eklenir ve böylece proje varlık kaydının bir sahibi olur ve projede bir onaylayan yer alır. Bu kullanıcının herhangi bir ayırması olmadığı için, kaynak ayırmak istiyorsanız ya bunu silip farklı bir tahsisat yöntemiyle yeniden ekleyebilirsiniz veya kaynağı görevlere ekleyip, **Mutabakat** sekmesinde **Ayırmaları Uzat**'ı kullanarak atamalar için ayırmalar oluşturabilirsiniz.
+Hiçbiri yöntemi ancak bir projede **Takım** sekmesinden ayırma yaptığınız zaman kullanılabilir. Bu yöntem, kaynağı projede bir takım üyesi olarak ekler ancak kaynağın kapasitesini kullanan herhangi bir ayırma oluşturmaz. Bu yöntem, bir proje oluşturulduğunda, varsayılan proje yöneticisi takım üyesi eklenirken kullanılır. Projeyi oluşturan proje yöneticisi kullanıcı projeye varsayılan olarak eklenir ve böylece proje varlık kaydının bir sahibi olur ve projede bir onaylayan yer alır. Bu kullanıcının herhangi bir ayırması olmadığı için, kaynak ayırmak istiyorsanız ya bunu silip farklı bir tahsisat yöntemiyle yeniden ekleyebilirsiniz veya kaynağı görevlere ekleyip, **Mutabakat** sekmesinde **Ayırmaları Uzat** 'ı kullanarak atamalar için ayırmalar oluşturabilirsiniz.
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>Fazladan ayırmaya neden olan tahsisat yöntemleri
 Özetlemek gerekirse, kaynak zaten başka projelerde (veya başka iş emirleri ya da zamanlanabilir varlıklar için) ayrıldıysa, aşağıdaki tahsisat yöntemleri fazladan ayırmaya neden olur:

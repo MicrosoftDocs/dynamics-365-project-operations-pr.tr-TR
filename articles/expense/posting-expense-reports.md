@@ -7,7 +7,6 @@ ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec897373cd74f7d7f63cd9ca4c46f4245336eb7f
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 866252c1961f359cecdb729ca909d96bcb03b1f4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907432"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086288"
 ---
 # <a name="post-expense-reports"></a>Gider raporlarını deftere nakletme
 

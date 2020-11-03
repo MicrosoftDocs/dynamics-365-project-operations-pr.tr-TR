@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965911"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086256"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme
 
@@ -29,18 +29,18 @@ Project Operations yalnızca sayısal veri türüne sahip sayısal özellikleri 
 
 Örneğin, Dynamics 365 Sales aşağıdaki özelliklere sahip olabilir:
 
-- **Kullanıcı sayısı**: kullanıcı sayısı
-- **Ay sayısı**: abonelik ayları sayısı
+- **Kullanıcı sayısı** : kullanıcı sayısı
+- **Ay sayısı** : abonelik ayları sayısı
 - **Ürün SKU'su**
 
 **Kullanıcı Sayısı** ve **Ay Sayısı** özelliklerini, ürün satırının özelliklerini düzenleyerek miktar faktörü olarak işaretleyebilirsiniz.
 
 Ürün özelliklerinden Miktar faktörleri oluşturmak için aşağıdaki adımları izleyin:
 
-1. Project Operations sol gezinme bölmesinde, **Satış** > **Ürünler**'e gidin.
+1. Project Operations sol gezinme bölmesinde, **Satış** > **Ürünler** 'e gidin.
 2. Miktar faktörlerini yapılandırmanız gereken ürünü açın. Ürünün önceden yapılandırılmış özelliklere sahip olduğundan emin olun.
 3. Ürün için **Proje Bilgileri** sayfasında, **Miktar Faktörleri** sekmesini seçin.
-4. Alt ızgarada, **+ Yeni alan hesaplaması**'nı seçin.
+4. Alt ızgarada, **+ Yeni alan hesaplaması** 'nı seçin.
 5. Miktar faktörünün adını girin ve alan hesaplamasıyla eşleşen özellik değerini seçin.
 6. Formu kaydedin ve kapatın. Ürün tabanlı teklif satırının miktarını hesaplamak üzere tüm özellikler için bu adımları tekrarlayın.
 

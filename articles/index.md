@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4efd5d182b14d8b3b54ddde47176bbdeccfdeb69
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: 8e1001144bf5347ba1c170cdeae494deef6c2d9c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949296"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086293"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 

@@ -1,0 +1,59 @@
+---
+title: Gider yönetimi iş akışı
+description: Bu konu, Microsoft Dynamics 365 Finance'ta iş akışı sistemini nasıl kullanabileceğinizi ve gider yönetiminde gider raporlarına yönelik bir gözden geçirme işlemi ayarlamanıza açıklanmaktadır.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 09/13/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: WorkflowtableListPageRnr
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086479"
+---
+# <a name="expense-management-workflow"></a>Gider yönetimi iş akışı
+
+[!include [banner](../includes/banner.md)]
+
+İş akışı sistemini nasıl kullanabileceğinizi ve gider yönetiminde gider raporlarına yönelik bir gözden geçirme işlemi ayarlamanıza açıklanmaktadır. Gider raporlarını kimlerin onayladığına karar vermek için aşağıdaki ölçütleri kullanan bir iş akışı ayarlayabilirsiniz:
+
+- Çalışan raporlama hiyerarşisi ve önceden tanımlanmış onay sınırları
+- Geçici onaylayanları ve son onaylayanı destekleyen çok düzeyli onay
+- Mali Boyutlar ve proje sorumluluğu
+- Belirli kullanıcılar veya Kullanıcı gruplarına atama
+
+Gider raporları, seyahat talepleri, nakit avanslar ve katma değerli vergi (KDV) kurtarması için iş akışı onayları oluşturulabilir.
+
+**Örnek**
+
+Aşağıdaki işlem, gider raporu için gider yönetimi iş akışına bir örnektir.
+
+1. Bir çalışan bir gider raporu oluşturur ve kaydeder.
+2. Çalışan, onay için gider raporu gönderir. Onaylayan, iş akışı ayarlanırken tanımlanan kurallara göre tanımlanır.
+3. Onaylayan, bir gider raporunun onaya hazır olduğunu bildiren bir bildirim alır. Onaylayan, gider raporunu inceler ve aşağıdaki koşulların karşılandığını doğrular:
+
+    - Giderler herhangi bir gider ilkesini ihlal etmeyin. Bir gider bir ilkeyi ihlal ederse, onaylayan, gider raporunun geçerli bir iş doğrulaması içerdiğini doğrular.
+    - Elektronik girişler gider raporuna iliştirilir.
+
+4. Onaylayan gider raporunu onaylar.
+5. Gider raporu, deftere nakil için borç hesapları Koordinatörü 'ne atanır.
+6. Otomatik nakil yapılandırılmış olup olmamasına bağlı olarak aşağıdaki adımlardan biri oluşur:
+
+    - Otomatik nakil yapılandırılırsa, gider raporu ödeme için işlenir ve gider raporunun durumu güncelleştirilir.
+    - Otomatik deftere nakil yapılandırılmazsa borç hesapları Düzenleyicisi tüm özgün makbuzların gönderildiğini ve makbuzların gider raporundaki giderlerle hizalandığını doğrular. Gider raporuna girilen tüm vergi kodlarının aynı zamanda doğru olarak doğrulanması gerekir.
+
+Bu gereksinimler doğrulandıktan sonra, gider raporu deftere nakledilir.
+
+Gider raporu deftere nakledildikten sonra, gider raporu için ödeme yetkilidir ve çalışana geri ödeme yapılır.

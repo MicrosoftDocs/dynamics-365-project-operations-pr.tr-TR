@@ -3,17 +3,17 @@ title: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Oper
 description: Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations'a nasıl abone olunacağı ve Project Operations'ın nasıl dağıtılacağı hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949122"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086210"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations önizleme aboneliklerine kaydolma
 
@@ -29,48 +29,53 @@ Bu konuda, önizleme/iş ortağı teklifine nasıl abone olunacağı ve kaynağ�
 
 ## <a name="subscribe"></a>Abone ol
 
-[Önizleme isteğiniz](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onaylandığında Microsoft'tan e-posta ile iki teklif alırsınız. Bu teklifler, Project Operations Önizlemesi'ni dağıtmanıza olanak tanır:
+[Önizleme isteğiniz](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onaylandığında Microsoft'tan e-posta ile üç teklif alırsınız. Bu teklifler, Project Operations Önizlemesi'ni dağıtmanıza olanak tanır:
 
-- Dynamics 365 Project Operations: Önizleme Denemesi
-- Dynamics 365 for Finance and Operations Önizleme Denemesi.
+- Dynamics 365 Project Operations (CRM) -Önizleme Denemesi
+- Office 365 Project Operations - Önizleme Denemesi
+- Dynamics 365 Finance - önizleme denemesi
 
 > [!IMPORTANT]
 > Kuruluşta bu görevi, kiracı yönetici olarak yalnızca bir kişinin gerçekleştirmesi gerekir. Bu sürüme abone değilseniz kuruluşunuzun kaydolup kullanıcı kimlik bilgilerinizi alana kadar bekleyin.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations: Önizleme denemesi
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) -Önizleme Denemesi 
 
-1. Karşılama e-postanızda sağlanan URL ile ilk teklif olan **Dynamics 365 Project Operations Denemesi**'ni kullanın.
+Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kullanıcı çalışma hesabının bulunduğu bir tarayıcıda oturum açtığınızdan emin olun.
 
-![İlk Teklif](./media/1FirstOffer.png)
+1. İlk teklif kodu olan **Dynamics 365 Project Operations (CRM) - Önizleme Denemesi** 'ni tarayıcı URL'sine yapıştırarak kullan.
 
-2. Hizmete abone olacak kuruluşa ait olan kullanıcı olarak oturum açtığınızdan emin olun.
-3. Teklifi kullanmaya devam edin. 
-4. **Evet, hesabıma ekle** seçeneğini belirleyin.
+![Teklifi Kullanma](./media/16RedeemFirstOfferNew.png)
 
-![Teklifi Kullanma](./media/2RedeemFirstOffer.png)
+2. Siparişinizi onaylayın.
 
-![Teklifi Onaylama](./media/3ConfirmFirstOffer.png)
+![Siparişi onaylayın](./media/17ConfirmOrderNew.png)
 
-![Teklif Kullanıldı](./media/4OfferSuccessfulyRedeemed.png)
+Onay teklifinin başarıyla kurtarıldığını göreceksiniz.
+
+![Onay](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Önizleme Denemesi
+
+İlk teklif koduyla aynı adımları yineleyin. İlk teklif koduyla birlikte kullanılan aynı kullanıcı hesabını kullanarak ikinci teklif kodunu eklediğinizden emin olun.
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance önizleme denemesi
 
-Karşılama e-postasındaki ikinci teklif için aynı adımları tekrarlayın.
+Karşılama e-postasındaki son teklif için aynı adımları tekrarlayın.
 
-## <a name="assign-licenses"></a>Lisans Atama
+## <a name="assign-licenses"></a>Lisans atama
 
 > [!IMPORTANT]
-> Aşağıdaki adımları tamamlamak için kuruluşunuzun Office 365 Portalı'na yönetim erişimine sahip olmanız gerekir.
+> Aşağıdaki adımları tamamlamak için kuruluşunuzun Microsoft 365 Portalı'na yönetim erişimine sahip olmanız gerekir.
 
 1. Kullanıcılarınıza lisans atamak için [Microsoft 365 yönetim merkezine](https://portal.office.com/) gidin.
 
-![Office Yönetim Portalı](./media/5OfficeAdminPortal.png)
+![Yönetim merkezi giriş sayfası](./media/14AdminPortal.png)
 
 2. **Etkin kullanıcılar** sayfasında lisans atamak istediğiniz kullanıcıları seçin.
 
-![Lisans Atama](./media/6AssignLicenses.png)
+![Lisans Atama](./media/15AssignLicenses.png)
 
-3. Project Operations lisansının seçildiğini doğrulayın ve **Değişiklikleri kaydet**'i seçin. 
+3. **Dynamics 365 Proje Operations (CRM) Önizleme** ve Office 365 **Proje İşlemleri - Önizleme** lisansının seçildiğini doğrulayın ve değişiklikleri **kaydet** 'i seçin.
 
 > [!NOTE]
 > Finance deneme teklifinin bir kullanıcıya atanması gerekmez.
@@ -85,9 +90,9 @@ Bu görevi tamamlamak için [LCS projesine Azure aboneliği ekleme](resource-add
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance demo ortamını kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations ile dağıtma
 
-Dağıtımı tamamlamak için [Yeni bir ortam sağlama](resource-provision-new-environment.md) başlıklı konuda verilen kılavuzu izleyin. Önizleme için [demo ortamı](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) dağıtım türünü kullanın.
+Dağıtımı tamamlamak için [Yeni bir ortam sağlama](resource-provision-new-environment.md) başlıklı konuda verilen kılavuzu izleyin. Önizleme için [demo ortamı](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) dağıtım türünü kullanın. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS kurulum ve yapılandırma verilerini yükleme
 
 CDS kurulum ve yapılandırma verilerini [Common Data Service uygulamasında yapılandırma verilerini ayarlama ve uygulama](resource-apply-pro-setup-config-data.md) başlıklı konuda açıklandığı gibi yükleyin.
-
+Bu adımı ancak Finans demo ortamı dağıtıldıktan ve FO'daki demo verileri hazır olduktan sonra tamamlayın.

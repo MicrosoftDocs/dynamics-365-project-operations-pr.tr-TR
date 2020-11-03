@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908691"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086215"
 ---
 # <a name="project-team-members"></a>Proje takımı üyeleri
 
@@ -47,16 +47,16 @@ Aşağıdaki tabloda bir proje takımı üyesinin temel öznitelikleri listelenm
 
 Takım üyesi ızgarasından aşağıdaki eylemler gerçekleştirilebilir:
 
-- **Ayır**: Karma ayırma yönteminden yararlanan kuruluşlar için ayırma eylemi, kullanıcıların genel takım üyesinden oluşturulan kaynak gereksinimlerini temel alarak adlandırılmış bir kaynak ayrılmasına olanak tanır
-- **Gereksinim Oluştur**: Bu eylem, gereksinimi oluşturur.
-- **Desen Belirtin**: Proje yöneticilerinin kaynak gereksinimi sınırlarını ayrıntılı düzeyde ayarlamasına olanak tanır. Proje yöneticileri, varsayılan dağıtımın uygun olmadığı durumlarda sınırları projenin özel ihtiyaçlarına göre ayarlayabilir.
-- **İstek Gönder**: Merkezi ayırma yöntemini kullanan kuruluşlar içindir.
-- **Düzenle**: Kuruluş birimi, rol ve pozisyon adı da dahil olmak üzere takım üyesi öznitelikleri düzenlenebilir.
-- **Ayırma İşlemlerini Koru**: Kaynak ayırmalarının güncelleştirilmesi gerektiğinde ayırma işlemlerini korumak Proje yöneticisinin aşağıdakileri ayarlamasına izin verir:
+- **Ayır** : Karma ayırma yönteminden yararlanan kuruluşlar için ayırma eylemi, kullanıcıların genel takım üyesinden oluşturulan kaynak gereksinimlerini temel alarak adlandırılmış bir kaynak ayrılmasına olanak tanır
+- **Gereksinim Oluştur** : Bu eylem, gereksinimi oluşturur.
+- **Desen Belirtin** : Proje yöneticilerinin kaynak gereksinimi sınırlarını ayrıntılı düzeyde ayarlamasına olanak tanır. Proje yöneticileri, varsayılan dağıtımın uygun olmadığı durumlarda sınırları projenin özel ihtiyaçlarına göre ayarlayabilir.
+- **İstek Gönder** : Merkezi ayırma yöntemini kullanan kuruluşlar içindir.
+- **Düzenle** : Kuruluş birimi, rol ve pozisyon adı da dahil olmak üzere takım üyesi öznitelikleri düzenlenebilir.
+- **Ayırma İşlemlerini Koru** : Kaynak ayırmalarının güncelleştirilmesi gerektiğinde ayırma işlemlerini korumak Proje yöneticisinin aşağıdakileri ayarlamasına izin verir:
 
     - Başlat
     - End
     - Toplam çalışma tahsisatı
 
-- **Yeni**: Proje yöneticileri, zamanlamayı kullanarak doğrudan kaynak eklemenin yanı sıra takım üyesi ızgarasından adlandırılmış veya genel takım üyelerine yenilerini ekleyebilir.
-- **Sil**: Proje yöneticisi, artık projeye katılmayacak kaynakları bir veya daha fazla takım üyesi seçerek silebilir. Takım üyesinin silinmesi, ilişkili tüm kaynak atamalarını da siler ve var olan tüm ayırmaları iptal eder.
+- **Yeni** : Proje yöneticileri, zamanlamayı kullanarak doğrudan kaynak eklemenin yanı sıra takım üyesi ızgarasından adlandırılmış veya genel takım üyelerine yenilerini ekleyebilir.
+- **Sil** : Proje yöneticisi, artık projeye katılmayacak kaynakları bir veya daha fazla takım üyesi seçerek silebilir. Takım üyesinin silinmesi, ilişkili tüm kaynak atamalarını da siler ve var olan tüm ayırmaları iptal eder.

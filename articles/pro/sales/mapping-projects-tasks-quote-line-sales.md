@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964931"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086216"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Proje ve görevleri proje tabanlı teklif satırıyla eşleme
 
@@ -50,7 +50,7 @@ Görevleri aşağıdaki konumlardaki teklif satırlarıyla ilişkilendirebilirsi
 7. Görüntülenen iletişim kutusunda, teklifte proje tabanlı teklif satırları görüntüleyen bir teklif satırı seçin.
 8. **Faturalama türü** alanında, bu görevlerin borçlandırılabilir veya borçlandırılamaz olduğunu belirtin.
 9. İlişkinin seçilen görevlerin alt görevlerini içermesi gerekip gerekmediğini belirtmek için bu onay kutusunu seçin. Kutuyu işaretlediğinizde seçilen görevlerin alt görevleri teklif satırıyla ilişkilendirilir.
-10. **Tamam**'ı seçerek iletişim kutusunu kapatın.
+10. **Tamam** 'ı seçerek iletişim kutusunu kapatın.
 
 ### <a name="from-the-quote-line-page"></a>Teklif satırı sayfasından
 
@@ -63,7 +63,7 @@ Görevleri aşağıdaki konumlardaki teklif satırlarıyla ilişkilendirebilirsi
 2. **Eklenen görevler** alanında **Yalnızca seçilen görevler** seçeneğini belirleyin.
 3. Proje tabanlı teklif satırını kaydedin. Form yenilendiğinde **Borçlandırılabilir görevler** sekmesi görüntülenir.
 4. **Borçlandırılabilir görevler** sekmesinde, **Teklif satırı görevi ekle** seçeneğini belirleyin.
-5. **Teklif satırı görevi** sayfasındaki **Görevler** alanında görevi seçin ve **Faturalama türü** alanında**Kaydet** seçeneğini belirleyin. 
+5. **Teklif satırı görevi** sayfasındaki **Görevler** alanında görevi seçin ve **Faturalama türü** alanında **Kaydet** seçeneğini belirleyin. 
 6. Sayfayı kapatın. Seçilen görev artık teklif satırıyla ilişkilendirilmiştir.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Proje tabanlı teklif satırlarından görevlerin ilişkisini kaldırma
@@ -77,16 +77,16 @@ Bu yöntem, teklif satırlarından görevlerin ilişkisini kaldırmak için en i
 3. Göreve özel faturalama ayarının uygulandığı ikinci ızgarada bir veya birden fazla görev seçin ve ardından **Teklif satırlarının ilişkisini kaldır** seçeneğini belirleyin.
 4. Görüntülenen iletişim kutusunda bir teklif satırı seçin.
 5. İlişkinin seçilen görevlerin alt görevlerinden de kaldırılması gerekip gerekmediğini belirtmek için bu onay kutusunu seçin. Kutuyu işaretlediğinizde seçilen görevlerin alt görevlerinin de teklif satırıyla ilişkisi kaldırılır.
-6. **Tamam**'ı seçin. Bu ilişkiyi kaldırırsanız bir uyarı iletisi size görevde daha önce kaydedilen gerçek değerlerin tersine döndürülebileceğini belirtir. 
-7. **Tamam**'ı seçerek devam edin ve görev ile proje tabanlı teklif satırı arasındaki ilişkiyi kaldırın.
+6. **Tamam** 'ı seçin. Bu ilişkiyi kaldırırsanız bir uyarı iletisi size görevde daha önce kaydedilen gerçek değerlerin tersine döndürülebileceğini belirtir. 
+7. **Tamam** 'ı seçerek devam edin ve görev ile proje tabanlı teklif satırı arasındaki ilişkiyi kaldırın.
 
 ### <a name="from-the-quote-line-page"></a>Teklif satırı sayfasından
 
 **Teklif satırı** sayfasında **Borçlandırılabilir görevler** sekmesinden proje görevlerinin de teklif satırlarıyla ilişkisini kaldırabilirsiniz.
 
 1. **Borçlandırılabilir görevler** sekmesinde **Teklif satırı görevi sil** seçeneğini belirleyin.
-2. **Tamam**'ı seçin. Bu ilişkiyi kaldırırsanız bir uyarı iletisi size görevde daha önce kaydedilen gerçek değerlerin tersine döndürülebileceğini belirtir. 
-3. **Tamam**'ı seçerek devam edin ve görev ile proje tabanlı teklif satırı arasındaki ilişkiyi kaldırın.
+2. **Tamam** 'ı seçin. Bu ilişkiyi kaldırırsanız bir uyarı iletisi size görevde daha önce kaydedilen gerçek değerlerin tersine döndürülebileceğini belirtir. 
+3. **Tamam** 'ı seçerek devam edin ve görev ile proje tabanlı teklif satırı arasındaki ilişkiyi kaldırın.
 
 >[!NOTE]
 > Bu yordam, görevi projeden silmez. Bu yalnızca proje tabanlı teklif satırından görev ilişkisini kaldırır.

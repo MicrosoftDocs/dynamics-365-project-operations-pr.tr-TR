@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086172"
 ---
 # <a name="define-resource-calendars"></a>Kaynak takvimlerini tanımlama
 
@@ -26,7 +26,7 @@ Kullanılabilirliğinin tanımlanabilmesi için proje üzerinde çalışan her a
 
 ## <a name="define-a-resources-working-hours"></a>Kaynağın çalışma saatlerini tanımlama
 
-1. **Kaynaklar** menüsünde, **Kaynaklar**'ı seçin.
+1. **Kaynaklar** menüsünde, **Kaynaklar** 'ı seçin.
 2. Izgara görünümünden uygun **Ayrılabilir Kaynak** seçeneğini belirleyin.
 3. **Kaynak Ayrıntıları** sayfasında, **Çalışma Saatleri** sekmesini seçin. Ayrılabilir kaynaklar takvimi, varsayılan olarak kuruluş için tanımlanan varsayılan çalışma saati şablonunun çalışma saatleridir.
 4. Çalışma saatlerini güncelleştirmek için tanımlamak istediğiniz önerilen takvim kuralının başlangıç tarihine sağ tıklayın. Belirli bir gün, dizinin geri kalanı veya tüm takvim için bir takvim kuralı tanımlamak üzere takvim kuralı menüsünü kullanın.
@@ -39,7 +39,7 @@ Kullanılabilirliğinin tanımlanabilmesi için proje üzerinde çalışan her a
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Takvim şablonunu bir kaynağa uygulama
 
-1. **Kaynaklar** menüsünde, **Kaynaklar**'ı seçin.
+1. **Kaynaklar** menüsünde, **Kaynaklar** 'ı seçin.
 2. Güncelleştirmek üzere ızgara görünümünden en fazla 25 **Ayrılabilir Kaynak** seçin.
-3. **Takvim Ayarla**'yı seçtiğinizde bir iletişim kutusu, kullanılabilir çalışma saati şablonlarının listesini gösterir.
-4. Kullanmak istediğiniz şablonu seçin ve ardından **Uygula**'yı seçin.
+3. **Takvim Ayarla** 'yı seçtiğinizde bir iletişim kutusu, kullanılabilir çalışma saati şablonlarının listesini gösterir.
+4. Kullanmak istediğiniz şablonu seçin ve ardından **Uygula** 'yı seçin.

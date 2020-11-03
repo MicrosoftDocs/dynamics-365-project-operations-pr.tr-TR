@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: a1fa7383e7715fe57380de0a006ccc4e020bb5a5
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086205"
 ---
 # <a name="distributions-on-an-expense-report"></a>Gider raporundaki dağıtımlar
 

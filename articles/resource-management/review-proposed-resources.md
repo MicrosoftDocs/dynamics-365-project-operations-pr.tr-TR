@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897385"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086291"
 ---
 # <a name="review-proposed-resources"></a>Önerilen kaynakları inceleme
 
@@ -31,8 +30,8 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Kaynak yöneticileri, bir kaynak isteği kullanarak proje yöneticisine bir kaynak önerebilir.
 
-1. İstek ızgarasından veya isteğin kendisinden **Kaynakları Bul**'u seçin.
-2. **Zamanlama Yardımcısı** sayfasında kaynağı seçin ve ardından **Kaynak Ayırma Oluştur** bölmesinde, **Ayırma Durumu** alanında **Ayır**'ı seçin.
+1. İstek ızgarasından veya isteğin kendisinden **Kaynakları Bul** 'u seçin.
+2. **Zamanlama Yardımcısı** sayfasında kaynağı seçin ve ardından **Kaynak Ayırma Oluştur** bölmesinde, **Ayırma Durumu** alanında **Ayır** 'ı seçin.
 
 Aşağıdaki durum güncelleştirmeleri gerçekleşir:
 
@@ -70,9 +69,9 @@ Izgaradaki her hücre; gün, hafta veya ay gibi dönemlerde kaynağın faturalan
 
 **Kaynak Kullanımı** görünümü Zamanlama Panosunu temel aldığından, yorumunuzu filtrelemek için Zamanlama Panosunun filtreleme yeteneklerini kullanabilirsiniz.
 
-Izgara, rolde veya her kaynak için bir hedef kullanımı belirlemenizi gerektirir. Bu kurulumu yapmak için **Kaynaklar** \> **Kaynak rolleri**'ne gidin.
+Izgara, rolde veya her kaynak için bir hedef kullanımı belirlemenizi gerektirir. Bu kurulumu yapmak için **Kaynaklar** \> **Kaynak rolleri** 'ne gidin.
 
-Ek olarak, her ayrılabilir kaynağa varsayılan bir rol atanması gerekir. **Kaynaklar** \> **Kaynaklar**'a gidin. **Project Service** sekmesinde, bir kaynak rolünün tanımlandığından ve bunun için **Varsayılan** alanının **Evet** olarak ayarlandığından emin olun. **Varsayılan = Hayır** olduğunda ilave roller ekleyebilirsiniz. **Varsayılan = Evet** olduğu durumlarda rol, kaynağın kullanımının bu rolün hedefiyle karşılaştırmalı değerlendirmesi için kullanılır.
+Ek olarak, her ayrılabilir kaynağa varsayılan bir rol atanması gerekir. **Kaynaklar** \> **Kaynaklar** 'a gidin. **Project Service** sekmesinde, bir kaynak rolünün tanımlandığından ve bunun için **Varsayılan** alanının **Evet** olarak ayarlandığından emin olun. **Varsayılan = Hayır** olduğunda ilave roller ekleyebilirsiniz. **Varsayılan = Evet** olduğu durumlarda rol, kaynağın kullanımının bu rolün hedefiyle karşılaştırmalı değerlendirmesi için kullanılır.
 
 **Project Service** sekmesinde, kaynak için ayrı bir hedef kullanımı da ayarlayabilirsiniz. Sonrasında kullanım hesaplaması kaynağın hedefini değerlendirmek için kaynağın varsayılan rolünün hedefi yerine bu hedef kullanımını kullanır.
 

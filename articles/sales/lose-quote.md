@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928617"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086201"
 ---
 # <a name="copy-project-based-quotes"></a>Proje tabanlı teklifleri kopyalama
 
@@ -35,7 +35,7 @@ Bu, kopyanın parametrelerini girebileceğiniz bir iletişim sayfası açar. Aş
 | Talep Edilen Teslim Tarihi | Bu, müşteri tarafından talep edilen teslim tarihidir. | Bu, belirli bir sıklıkta faturalama tarihleri oluştururken bitiş tarihi olarak kullanılır. |
 | Fiyatlandırmayı kopyala | Evet/Hayır değeri, teklif üzerindeki fiyatlandırmanın kaynak teklifinden kopyalanması gerekip gerekmediğini gösterir. | **Evet** seçilirse proje fiyat listesi ve ürün fiyat listesi başvuruları kaynak tekliften hedef teklife kopyalanır. **Hayır** seçilirse fiyat listeleri, firma veya proje parametrelerinde ayarlanan en son fiyat listelerine göre yeniden varsayılan hale getirilir. |
 
-İletişim sayfasında **Tamam**'ı seçtiğinizde sistem, iletişim kutusunda seçilen parametrelere göre proje teklifinin bir kopyasını oluşturur. Yeni proje teklifi açılır. 
+İletişim sayfasında **Tamam** 'ı seçtiğinizde sistem, iletişim kutusunda seçilen parametrelere göre proje teklifinin bir kopyasını oluşturur. Yeni proje teklifi açılır. 
 
 > [!NOTE]
 > Aşağıdaki bilgiler Kaynak'tan Hedef teklife kopyalanmaz:

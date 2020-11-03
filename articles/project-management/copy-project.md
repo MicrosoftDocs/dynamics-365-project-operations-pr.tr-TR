@@ -3,23 +3,23 @@ title: Proje kopyalama
 description: Bu konuda, Dynamics 365 Project Operations'ta projeleri kopyalama hakkında bilgiler sağlanmaktadır.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086265"
 ---
 # <a name="copy-a-project"></a>Proje kopyalama
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations ile **Projeler** formunda **Projeyi Kopyala** eylemini kullanarak hızlıca yeni projeler oluşturabilirsiniz. Projeyi kopyalamak için bir projeyi ve ardından **Kopyala**'yı seçin. Eylem şunları kopyalar:
+Dynamics 365 Project Operations ile **Projeler** formunda **Projeyi Kopyala** eylemini seçerek hızlıca yeni projeler oluşturabilirsiniz. Bir proje kopyalamak için kopyalamak istediğiniz projeyi açın ve **proje Kopyala** seçeneğini belirleyin. Eylem şunları kopyalar:
 
 - Proje özellikleri
 - İş kırılım yapısı
@@ -58,4 +58,6 @@ Proje takımı, kaynak projeden kopyalandığında, genel kaynaklar kopyalanır.
 
 ## <a name="estimates"></a>Tahminler
 
-Proje kopyalandığında, kaynak projeden kaynak ve gider tahmini satırları kopyalanır.
+Proje kopyalandığında, kaynak projeden kaynak ve gider tahmini satırları kopyalanır. 
+
+Program aracılığıyla uygulamasına yönelik kopyalama projesi hakkında daha fazla bilgi için bkz. [Kopyalama projesi ile proje şablonları geliştirme](dev-copy-project.md).

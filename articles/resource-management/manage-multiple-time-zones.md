@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961966"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086262"
 ---
 # <a name="manage-time-zones"></a>Saat dilimlerini yönetme
 
@@ -22,7 +22,7 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 ## <a name="projects"></a>Projeler
 
-Proje oluşturulduğunda saat dilimi, uygulanan çalışma saati şablonunda tanımlanan saat dilimini temel alır. **Proje**'de tarihler, **Görev** sekmesi dışındaki tüm sekmelerde her zaman oturum açan kullanıcının saat dilimine göredir. İş kırılım yapısını görüntülediğinizde, tarihler her zaman, projenin saat diliminde görüntülenir.
+Proje oluşturulduğunda saat dilimi, uygulanan çalışma saati şablonunda tanımlanan saat dilimini temel alır. **Proje** 'de tarihler, **Görev** sekmesi dışındaki tüm sekmelerde her zaman oturum açan kullanıcının saat dilimine göredir. İş kırılım yapısını görüntülediğinizde, tarihler her zaman, projenin saat diliminde görüntülenir.
 
 ## <a name="tasks"></a>Görevler
 
@@ -30,9 +30,9 @@ Görev oluşturulduğunda başlangıç saati, bitiş saati ve saat/gün değerle
 
 ## <a name="manage-resources-with-time-zones"></a>Kaynakları saat dilimleriyle yönetme
 
-**Ayırmayı Genişlet**özelliğini kullanılırken doğru ve tahmin edilebilir sonuçlar elde etmek için karşılanması gereken iki temel önkoşul vardır:  
+**Ayırmayı Genişlet** özelliğini kullanılırken doğru ve tahmin edilebilir sonuçlar elde etmek için karşılanması gereken iki temel önkoşul vardır:  
 
-- Kullanıcı, cihazının saat dilimini sistemin **Kişiselleştirme Ayarları**'nda tanımlanan zaman dilimiyle eşleşecek şekilde yapılandırmalıdır.
+- Kullanıcı, cihazının saat dilimini sistemin **Kişiselleştirme Ayarları** 'nda tanımlanan zaman dilimiyle eşleşecek şekilde yapılandırmalıdır.
  
   ![Windows 10'da saat dilimi ayarları](media/reconcile-assignments-03.png)
 
