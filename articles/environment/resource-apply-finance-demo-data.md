@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949125"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096646"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Bulutunda barındırılan bir ortama Project Operations demo verilerini uygulama
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
->[Önemli] Bu konu yalnızca Microsoft Dynamics 365 Finance sürüm 10.0.13 için geçerlidir ve yalnızca Bulutta barındırılan bir ortamda uygulanabilir. Bu konudaki adımları ortama kalite güncelleştirmelerini uygulamadan **ÖNCE** tamamlayın.
+> [!IMPORTANT]
+> Bu konu yalnızca Microsoft Dynamics 365 Finance sürüm 10.0.13 için geçerlidir ve yalnızca Bulutta barındırılan bir ortamda uygulanabilir. Bu konudaki adımları ortama kalite güncelleştirmelerini uygulamadan **ÖNCE** tamamlayın.
 
 1. LCS projenizde, **Ortam ayrıntıları** sayfasını açın. Uzak Masaüstü Protokolü (RDP) kullanarak ortama bağlanmak için gereken ayrıntıları içerdiğini unutmayın.
 
@@ -27,12 +28,12 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Vurgulanan ilk kimlik bilgileri kümesi, yerel hesap kimlik bilgileridir ve uzak masaüstü bağlantısı için bir köprü içerir. Kimlik bilgileri ortam yöneticisi kullanıcı adını ve parolasını içerir. İkinci kimlik bilgileri kümesi bu ortamdaki SQL Server'da oturum açmak için kullanılır.
 
-2. **Yerel Hesaplar**'daki köprüyü kullanarak ortama bağlanın ve kimlik doğrulaması için **Yerel Hesap kimlik bilgilerini** kullanın.
+2. **Yerel Hesaplar** 'daki köprüyü kullanarak ortama bağlanın ve kimlik doğrulaması için **Yerel Hesap kimlik bilgilerini** kullanın.
 3. **Internet Information Services** > **Uygulama Havuzları** > **AOSService** öğesine gidin ve hizmeti durdurun. Bu aşamada SQL veritabanını değiştirmeye devam edebilmek için bu hizmeti durdurursunuz.
 
 ![AOS'yi Durdurma](./media/2StopAOS.png)
 
-4. **Hizmetler**'e gidin ve aşağıdaki iki öğeyi durdurun:
+4. **Hizmetler** 'e gidin ve aşağıdaki iki öğeyi durdurun:
 
 - Microsoft Dynamics 365 Unified Operations: Toplu İş Yönetimi Hizmeti
 - Microsoft Dynamics 365 Unified Operations: Veri İçeri Dışarı Aktarma Çerçevesi
@@ -43,29 +44,29 @@ Vurgulanan ilk kimlik bilgileri kümesi, yerel hesap kimlik bilgileridir ve uzak
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. Nesne Gezgini'nde, **Veritabanları** altında **AXDB**'yi bulun. Veritabanını, [Yükleme Merkezi](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip) içinde bulunan yeni bir veritabanıyla değiştirirsiniz. 
+6. Nesne Gezgini'nde, **Veritabanları** altında **AXDB** 'yi bulun. Veritabanını, [Yükleme Merkezi](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip) içinde bulunan yeni bir veritabanıyla değiştirirsiniz. 
 7. Zip dosyasını uzaktan bağlandığınız sanal makineye kopyalayın ve paket içeriğini ayıklayın.
-8. SQL Server Management Studio'da, **AxDB**'ye sağ tıklayın ve ardından **Görevler** > **Geri Yükle** > **Veritabanı**'nı seçin.
+8. SQL Server Management Studio'da, **AxDB** 'ye sağ tıklayın ve ardından **Görevler** > **Geri Yükle** > **Veritabanı** 'nı seçin.
 
 ![Veritabanını Geri Yükleme](./media/5RestoreDatabase.png)
 
-9. **Kaynak Cihaz**'ı seçin ve kopyaladığınız zip dosyasından ayıkladığınız dosyaya gidin.
+9. **Kaynak Cihaz** 'ı seçin ve kopyaladığınız zip dosyasından ayıkladığınız dosyaya gidin.
 
 ![Kaynak Cihazlar](./media/6SourceDevice.png)
 
-10. **Seçenekler**'i seçin ve ardından **Var olan veritabanının üzerine yaz** ve **Hedef veritabanına mevcut bağlantıları kapat** seçeneklerini belirleyin. 
-11. **Tamam**'ı seçin.
+10. **Seçenekler** 'i seçin ve ardından **Var olan veritabanının üzerine yaz** ve **Hedef veritabanına mevcut bağlantıları kapat** seçeneklerini belirleyin. 
+11. **Tamam** 'ı seçin.
 
 ![Ayarları Geri Yükleme](./media/7RestoreSetting.png)
 
 AXDB geri yükleme işleminin başarıyla tamamlandığını belirten bir onay alırsınız. Bu onayı aldıktan sonra, SQL Services Management Studio'yu kapatabilirsiniz.
 
 12. **Internet Information Services** > **Uygulama Havuzları** > **AOSService** öğesine dönün ve AOSService hizmetini başlatın.
-13. **Hizmetler**'e gidin ve daha önce durdurduğunuz iki hizmeti başlatın.
+13. **Hizmetler** 'e gidin ve daha önce durdurduğunuz iki hizmeti başlatın.
 
 14. Bu sanal makinedeki AdminUserProvisioning aracını bulun. K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe yoluna bakın.
 15. **E-posta Adresi** alanındaki kullanıcı adresinizi kullanarak .ext dosyasını çalıştırın. 
-16. **Gönder**'i seçin.
+16. **Gönder** 'i seçin.
 
 ![Yönetici Kullanıcı Sağlama](./media/8AdminUserProvisioning.png)
 
