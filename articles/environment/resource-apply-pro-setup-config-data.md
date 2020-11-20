@@ -1,35 +1,45 @@
 ---
-title: Project Operations için Common Data Service'ta yapılandırma verilerini ayarlama ve uygulama
+title: Common Data Service'te yapılandırma verileri kurulumu ve uygulama
 description: Bu konuda, Project Operations'ta yapılandırma verilerini ayarlama ve uygulama hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086197"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401152"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Project Operations için Common Data Service'ta yapılandırma verilerini ayarlama ve uygulama
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service'te yapılandırma verileri kurulumu ve uygulama 
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
+
+## <a name="prerequisites"></a>Ön koşullar
+
+Common Data Service (CDS) uygulamasında verileri yapılandırmadan önce, aşağıdaki önkoşulların karşılanması gerekir:
+
+1.  Bir CDS ortamı ve Project Operations içni Dynamics 365 Finance ortamı sağlayın.
+2.  Yasal varlık bilgileri, Dynamics 365 Finance, CDS ortamıyla paylaşılır. Bu, CDS'deki **Şirket** varlığının aşağıdaki şirket kayıtlarına sahip olduğu anlamına gelir:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Kurulum ve yapılandırma verilerini yükleme
 
 1. [Kurulum ve Yapılandırma Verileri Paketi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)'ni indirin, engelini kaldırın ve açın.
 2. Sıkıştırması açılmış klasöre gidin ve *DataMigrationUtility* adlı yürütülebilir dosyayı çalıştırın.
-3. Common Data Service Yapılandırma Geçişi (CMT) Sihirbazı'nın 1. sayfasında **Verileri İçeri Aktar** 'ı ve ardından **Devam** 'ı seçin.
+3. Common Data Service Yapılandırma Geçişi (CMT) Sihirbazı'nın 1. sayfasında **Verileri İçeri Aktar**'ı ve ardından **Devam**'ı seçin.
 
 ![Yapılandırma Geçişi](./media/1ConfigurationMigration.png)
 
 4. CMT Sihirbazı'nın 2. sayfasında **Dağıtım Türü** olarak **Microsoft 365** seçeneğini belirleyin.
 5. **Kullanılabilir kuruluşların listesini görüntüle** ve **Gelişmiş Ayarları Göster** onay kutularını seçin.
-6. Kiracınızın bölgesini seçin, kimlik bilgilerinizi girin ve **Oturum Aç** 'ı seçin.
+6. Kiracınızın bölgesini seçin, kimlik bilgilerinizi girin ve **Oturum Aç**'ı seçin.
 
 ![Oturum Açma Yapılandırması](./media/2ConfigurationSignin.png)
 
@@ -40,7 +50,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 ![Bir dosya seçin](./media/4SelectAFile.png)
 
-9. Zip dosyası seçildikten sonra, **Verileri İçeri Aktar** 'ı seçin.
+9. Zip dosyası seçildikten sonra, **Verileri İçeri Aktar**'ı seçin.
 
 ![Veri Al](./media/5ImportData.png)
 
@@ -75,7 +85,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 ![Ortamı Açma](./media/7OpenEnvironment.png)
 
-2. **Projeler** > **Kaynaklar** 'a gidin ve ardından kullanıcınız için ayrılabilir kaynak oluşturmak için **Yeni** 'yi seçin.
+2. **Projeler** > **Kaynaklar**'a gidin ve ardından kullanıcınız için ayrılabilir kaynak oluşturmak için **Yeni**'yi seçin.
 
 ![Ayrılabilir Kaynaklar](./media/8BookableResources.png)
 
@@ -91,34 +101,34 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 ![Çalışma Saatleri](./media/11WorkHours.png)
 
-6. Takvimde herhangi bir değere çift tıklayın ve **Düzenle** > **Serideki tüm etkinlikler** 'i seçin. 
+6. Takvimde herhangi bir değere çift tıklayın ve **Düzenle** > **Serideki tüm etkinlikler**'i seçin. 
 
 ![İş Takvimi](./media/12WorkCalendar.png)
 
 7. Çalışma saatlerini sekiz (8) saatlik iş günü olarak değiştirin, hafta sonlarını iş dışı gün olarak işaretleyin ve saat diliminin sizin saat diliminizle eşleştiğinden emin olun. 
-8. **Kaydet ve kapat** 'ı seçin.
+8. **Kaydet ve kapat**'ı seçin.
 
 ![Takvimi güncelleştirme](./media/13UpdateCalendar.png)
 
-9. **Ayarlar** > **Takvim şablonları** 'na gidin ve **Yeni** 'yi seçin.
+9. **Ayarlar** > **Takvim şablonları**'na gidin ve **Yeni**'yi seçin.
  
  ![Takvim Şablonları](./media/14CalendarTemplates.png)
  
- 10. Bir ad girin, oluşturduğunuz şablon kaynağını seçin ve ardından **Kaydet** 'i seçin. 
+ 10. Bir ad girin, oluşturduğunuz şablon kaynağını seçin ve ardından **Kaydet**'i seçin. 
  
  ![Takvim Şablonunu Kaydetme](./media/15SaveCalendarTemplate.png)
  
- 11. **Parametreler** 'e gidin ve kayda çift tıklayın. 
+ 11. **Parametreler**'e gidin ve kayda çift tıklayın. 
  
  ![Proje Parametreleri](./media/16ProjectParameters.png)
  
 12. Aşağıdaki alanları güncelleştirin:
 
- - **Varsayılan şirket** : USPM
- - **Varsayılan Kuruluş Birimi** : Contoso Robotics Global
- - **Fatura Sıklığı** : Yedinci ve Sonuncu gün
- - **Çalışma saati şablonu** : Oluşturduğunuz şablonla değiştirin.
+ - **Varsayılan şirket**: USPM
+ - **Varsayılan Kuruluş Birimi**: Contoso Robotics Global
+ - **Fatura Sıklığı**: Yedinci ve Sonuncu gün
+ - **Çalışma saati şablonu**: Oluşturduğunuz şablonla değiştirin.
 
-13. **Kaydet** 'i seçin. 
+13. **Kaydet**'i seçin. 
 
 ![Güncelleştirilmiş Proje Parametreleri](./media/17UpdatedProjectParameters.png)

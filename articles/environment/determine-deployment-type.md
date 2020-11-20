@@ -3,17 +3,17 @@ title: Dağıtım türünüzü belirleme
 description: Bu konuda, şirketiniz için doğru Project Operations dağıtım türünü belirlemenize yardımcı olacak bilgiler sağlanmaktadır.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086328"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401242"
 ---
 # <a name="determine-your-deployment-type"></a>Dağıtım türünüzü belirleme
 
@@ -25,11 +25,11 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation kullanan mevcut Dynamics müşterileri
-Project Operations, Project Service Automation ile birlikte gönderilen özellikleri içerir. Gelecekte bu müşteriler için bir yükseltme yolu yayımlanacaktır.
+Project Operations, Project Service Automation ile birlikte gönderilen özellikleri içerir. 2021 sürümü dalga 1'de bu müşteriler için bir yükseltme yolu yayımlanacaktır.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Proje yönetimi ve muhasebe kullanan mevcut Dynamics 365 Finance müşterileri 
 
-Proje yönetimi ve muhasebe işlevini kullanan mevcut Finance müşterileri bu işlevi olduğu gibi kullanmaya devam edebilir. Bkz. [Stoklu/üretim siparişi senaryoları için Project Operations](#pma).
+Proje yönetimi ve muhasebe işlevselliğini kullanan Finans için varolan müşteriler bunu olduğu gibi kullanmaya devam edebilir. Bkz. [Stoklu/üretim siparişi senaryoları için Project Operations](#pma).
 
 
 ## <a name="deployment-types"></a>Dağıtım türleri
@@ -47,12 +47,13 @@ Project Operations, tüzel kişilik düzeyindeki yapılandırmalar aracılığı
 
 Lite dağıtımı aşağıdaki özellikleri içerir:
 
+- Dynamics 365 Sales uygulaması deneyimlerini genişleten projelerle ilgili satış işlemleri
 - Web için Microsoft Project kullanarak proje planlama
 - Çok boyutlu fiyatlandırma
-- Birleşik Kaynak Yönetimi
-- Zaman İzleme
-- Temel Gider
-- Fatura Teklifi
+- Birleşik kaynak yönetimi
+- Zaman izleme
+- Temel gider
+- Proforma ve müşteriye yönelik faturalama 
 
 #### <a name="deployment-steps"></a>Dağıtım adımları
 [Dağıtım anketini](https://aka.ms/provisionprojectoperations) kullanarak en iyi Project Operations dağıtım yöntemini belirleyin.
@@ -62,16 +63,17 @@ Bu dağıtım için bkz. [Önizleme aboneliğine kaydolma](lite-preview-subscrip
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Kaynağı/stoğu tutulmayanlara ait senaryolar için Project Operations
 Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations aşağıdaki özellikleri içerir:
-  
+ 
+- Dynamics 365 Sales uygulamasını genişleten projelerle ilgili satış işlemleri
 - Web için Microsoft Project kullanarak proje planlama
 - Çok boyutlu fiyatlandırma
-- Birleşik Kaynak Yönetimi
-- Zaman İzleme
-- Temel Gider
-- Tam Gider
+- Birleşik kaynak yönetimi
+- Zaman izleme
+- Temel gider
+- Tam gider
 - Makbuz OCR'si
-- Tam Faturalama
-- Gelir Tanıma
+- Proforma ve müşteriye yönelik faturalama 
+- Projeler için gelir kabulü
 
 #### <a name="deployment-steps"></a>Dağıtım adımları
 [Dağıtım anketini](https://aka.ms/provisionprojectoperations) kullanarak en iyi Project Operations dağıtım yöntemini belirleyin.
