@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086182"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181791"
 ---
 # <a name="manage-leads"></a>Müşteri adaylarını yönetme
 
@@ -38,7 +38,7 @@ Otomatik olarak bir fırsat oluşturmak üzere uygun bulunan müşteri adayı i�
 
 Aşağıdaki tabloda, bir müşteri adayının önemli alan bilgileri ve bu alanların aşağı yönlü etkileri bulunmaktadır.
  
-| **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
 | Başlık | Genel sekmesi | Bu metin alanı, anlaşmanın kısa bir açıklamasını içermelidir. | Müşteri adayının konusu varsayılan olarak Fırsatın konusu ve Teklif ve Proje sözleşmesinin adıdır. |
 | Tür | Genel sekmesi | Bu seçenek kümesi alanında aşağıdaki seçenekler bulunur:</br>- İş tabanlı (yalnızca Project Operations yüklendiğinde kullanılabilir)</br>- Öğe tabanlı (yalnızca Project Operations ve Sales yüklendiğinde kullanılabilir)</br>- Servis bakımı tabanlı (Field Service yüklendiğinde kullanılabilir) | Bu alanın değeri müşteri adayında **İş tabanlı** olarak ayarlandığında müşteri adayı, Proje Tabanlı Fırsat oluşturmak için uygun bulunur. Bu anlaşma için aşağı yönlü satış sürecinde projeye özgü tüm uzantıları ve işlevleri etkinleştirmek için proje tabanlı bir fırsat gerekir. |
@@ -53,7 +53,7 @@ Aşağıdaki tabloda, bir müşteri adayının önemli alan bilgileri ve bu alan
 
 - Müşteri adayındaki **Şirket** alanını kullanan bir firma.
 - Müşteri adayının **Ad** ve **Soyadı** alanlarındaki değerlere bağlı olarak firma ile ilişkilendirilen bir ilgili kişi kaydı.
-- **Tür** alanı &quot;**İş tabanlı** olarak ayarlanmış proje tabanlı bir fırsat.
+- **Tür** alanı **İş tabanlı** olarak ayarlanmış proje tabanlı bir fırsat.
 
 Müşteri adaylarını uygun bulma hakkında daha ayrıntılı bilgi için bkz. [Müşteri adaylarını uygun bulma veya dönüştürme](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

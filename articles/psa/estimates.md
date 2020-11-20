@@ -3,7 +3,7 @@ title: Tahminler
 description: Bu konu Dynamics 365 Project Service Automation'da tahminler hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086526"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132834"
 ---
 # <a name="estimates"></a>Tahminler
 
@@ -81,16 +81,16 @@ Tahmin aşamasında iş mantığını anlamak için kılavuz olarak aşağıdaki
 Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın değerini oluşturduğu ilgili maliyet satırında varsayılan değer olarak girmesini istiyorsanız, PreOperationContractLineDetailUpdate ve PreOperationQuoteLineDetailUpdatee eklentisini kullanın. Bu eklentilerin teklif satırı ayrıntısı veya sözleşme satırı ayrıntısı değiştirildikten sonra yeniden kaydedilmesi gerekir. İşlemi tamamlamak için aşağıdaki adımları uygulayın:
 
 1. PluginRegistrationTool'u açın ve çevrimiçi kurulumunuza bağlanın.
-2. **Ara** 'y seçin ve güncelleştirilecek eklentiyi arayın.
+2. **Ara**'y seçin ve güncelleştirilecek eklentiyi arayın.
 
     ![Arama Ağacı iletişim kutusu](media/basic-guide-19.png)
 
-3. Eklentiyi seçin ve sonra ana sayfada **Seç** 'i seçin.
-4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir** 'i seçin.
+3. Eklentiyi seçin ve sonra ana sayfada **Seç**'i seçin.
+4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
 
     ![Eklentide bir adım seçme](media/basic-guide-20.png)
 
-5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini ( **...** ) seçin:
+5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini (**...**) seçin:
  
     ![Varolan Adımı Güncelleştir iletişim kutusu](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın d
 
     ![Öznitelik Seç iletişim kutusu](media/basic-guide-22.png)
 
-7. İletişim kutusunu kapatmak için **Tamam** 'ı seçin ve ardından **Adımı Güncelleştir** 'i seçin.
+7. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve ardından **Adımı Güncelleştir**'i seçin.
  
     ![Adımı Güncelleştir düğmesi](media/basic-guide-23.png)
 

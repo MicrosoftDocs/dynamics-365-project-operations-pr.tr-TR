@@ -1,21 +1,21 @@
 ---
-title: Proje tekliflerinde proje fiyat listelerini yönetme
+title: Proje tekliflerinde proje fiyat listelerini yönetme - lite
 description: Bu konuda, tekliflerde proje fiyat listeleriyle çalışma hakkında bilgiler sağlanmaktadır. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086247"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176005"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Proje tekliflerinde proje fiyat listelerini yönetme (Sales)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Proje tekliflerinde proje fiyat listelerini yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -31,7 +31,7 @@ Proje tabanlı iş ve giderleri tahmin etmek için belirli bir fiyat listesi olu
 
 1. Teklifte **Proje Fiyatı** sekmesini seçin ve alt ızgarada **+ Yeni Proje Fiyat Listesi Ekle** seçeneğini belirleyin.
 2. Hızlı Oluştur sayfasında bir fiyat listesi seçin. Açılır liste, **Satış** olarak ayarlanan bağlama sahip tüm fiyat listelerini gösterir ve para birimi, teklifteki para birimi ile eşleşir.
-4. Proje fiyat listesi ilişkisi için bir açıklama girin ve **Kaydet ve Kapat** 'ı seçin.
+4. Proje fiyat listesi ilişkisi için bir açıklama girin ve **Kaydet ve Kapat**'ı seçin.
 
 Proje fiyat listesi ilişkisi oluşturulur.
 
@@ -47,7 +47,7 @@ Proje fiyat listeleri, proje teklifinde varsayılan olarak ayarlanabilir. Bu aya
 
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Proje fiyat listeleri için kuruluş varsayılanını ayarlama
 
-1. **Ayarlar** > **Genel** > **Parametreler** 'e gidin.
+1. **Ayarlar** > **Genel** > **Parametreler**'e gidin.
 2. **Etkin Parametreler** listesi sayfasında, kaydı bulun ve açmak için çift tıklayın. 
 3. **Parametreler** sayfasında, **Fiyat Listesi** sekmesini seçin. Gösterilen varsayılan fiyat listelerinin listesini görebilirsiniz. Bu, standart maliyet ve satış fiyatı listelerinin listesidir. Satış yaptığınız her para birimi için burada ilişkilendirilmiş bir satış fiyatı listesine sahip olmak, bu satış fiyatı listesinin bu para biriminde işlem yapan müşterilere yönelik oluşturduğunuz tekliflerde varsayılan olmasını sağlar.
 
@@ -57,7 +57,7 @@ Müşterilerinizle bir ana fiyatlandırma sözleşmesi yaparken ayrıca müşter
 
 Müşteriye özel proje fiyat listesi ayarlamak için aşağıdaki adımları tamamlayın.
 
-1. **Satış** alanında **Müşteriler** 'i seçin.
+1. **Satış** alanında **Müşteriler**'i seçin.
 2. Etkin firmalarınızın listesinde özel fiyat listesi olan müşteri kaydını seçin ve açın.
 3. **Proje Fiyat Listeleri** sekmesinde, proje fiyat listesinin bu müşteriye özel olması için yeni bir fiyat listesi ilişkisi oluşturun.
 
@@ -65,5 +65,5 @@ Müşteriye özel proje fiyat listesi ayarlamak için aşağıdaki adımları ta
 
 Kuruluşa ve müşteriye özel varsayılan proje fiyat listeleriniz olduktan sonra proje teklifleriniz, bu proje fiyat listesi ilişkileriyle otomatik olarak oluşturulur. Ancak belirli durumlarda belirli bir proje teklifi için özel fiyat oluşturmanız gerekebilir. 
 
-1. **Proje Teklifi** 'ndeki **Proje Fiyat Listesi** sekmesinde alt ızgarada seçilen özel fiyat listesi kaydı olmadığını doğrulayın.
-2. **Özel Fiyat Oluştur** 'u seçin. Bu işlem, şu anda teklifle ilişkili tüm standart fiyat listelerinin kopyalarını yapar ve bu kopyaları teklifle ilişkilendirir. Standart fiyat listeleri için mevcut ilişkiler kaldırılır. Ardından satış temsilcisi bu kopyalardaki fiyatlarda düzenlemeler yapmaya başlayabilir. Bu değiştirilen fiyatlar yalnızca bu proje teklifi için geçerlidir.
+1. **Proje Teklifi**'ndeki **Proje Fiyat Listesi** sekmesinde alt ızgarada seçilen özel fiyat listesi kaydı olmadığını doğrulayın.
+2. **Özel Fiyat Oluştur**'u seçin. Bu işlem, şu anda teklifle ilişkili tüm standart fiyat listelerinin kopyalarını yapar ve bu kopyaları teklifle ilişkilendirir. Standart fiyat listeleri için mevcut ilişkiler kaldırılır. Ardından satış temsilcisi bu kopyalardaki fiyatlarda düzenlemeler yapmaya başlayabilir. Bu değiştirilen fiyatlar yalnızca bu proje teklifi için geçerlidir.

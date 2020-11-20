@@ -1,21 +1,21 @@
 ---
-title: Avanslar ve elde tutulan tutar tabanlı sözleşmeler
+title: Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
 description: Bu konu, Project Operations'da elde kalana dayalı sözleşme modelleri veya avanslar hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088141"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180891"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Avanslar ve elde tutulan tutar tabanlı sözleşmeler 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
 
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
@@ -33,7 +33,7 @@ Dönemsel elde tutulan tabanlı bir zamanlamanın yanı sıra, Project Operation
 
 Project OPerations'taki elde tutulan müşteriye faturalanana kadar kullanılamaz. Bu, avanslar ve elde tutulanlar için alt ızgarada yer alan aşağıdaki alanlarla gösterilir.
 
-| Alan | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- |
 | Kullanılabilir Tutar | Elde tutulan veya öncelikli kayıtta kullanılmak üzere kullanılabilir olan tutar. | Avans veya elde tutulan faturalanıncaya kadar bu kullanılabilir durumda değil, kullanılabilir tutar sıfır olacaktır. |
 | Kullanılan Tutar | Elde tutulan veya öncelikli kayıtta kullanılmak üzere kullanılabilir olan tutar. | Avans veya elde tutulan, önceden kullanılmış veya tüketildiği bir bölümü olan gerçek maliyetlere sahip bir faturada kısmen mutabakat yapılabilir. Gelecekteki veya elde tutulan tutarının kalan kısmı fiili maliyetlerle gelecekte mutabık kılmak için kullanılabilir. |

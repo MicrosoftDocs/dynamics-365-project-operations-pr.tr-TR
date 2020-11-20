@@ -3,7 +3,7 @@ title: Örnek verileri yükleme
 description: Bu konu, Project Service Automation'nda örnek verileri yüklemeyle ilgili bilgi sağlar.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086389"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132447"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service uygulaması için örnek veri kurulumu
 
@@ -49,7 +49,7 @@ Bu örnek veri paketleri yalnızca İngilizce dilinde kullanılabilir.
 
 - Project Service, Field Service veya (varsa) her iki uygulamayı kullanmak için varsayılan parametreler oluşturur ya da ayarlar.
 
-- Önemli özellikleri göstermek üzere, ayrılabilir kaynaklar, uygulamaya özgü roller, satış ve maliyet fiyat listeleri, kuruluş birimleri, satış süreci kayıtları ve diğer varlıklar gibi uygulamalar için örnek verileri içeri aktarır.  
+- Önemli özellikleri göstermek üzere, ayrılabilir kaynaklar, uygulamaya özgü roller, satış ve maliyet fiyat listeleri, kuruluş birimleri, satış süreci kayıtları ve diğer varlıklar gibi uygulamalar için örnek verileri içeri aktarır.  
 
 Çalışma **demo verileri** paket iş emirleri ve projeler gibi yukarıdaki ve ek işlem verileri alın.
 
@@ -80,7 +80,7 @@ Yükleme protokolünde hedef kurulumunuz (kuruluş) hakkında aşağıdakiler va
 
 Yükleyiciyi Windows'un güncel bir sürümüne (tercihen Windows 10) sahip bir bilgisayarda çalıştırmanız gerekir.
 
-Bilgisayar için bir ağa bağlı kalmayı ve yükleme için **kurulum/referans verisi** için **1 saate** kadar çalıştırılmasını planlamalısınız. (Normal kurulum yaklaşık 30 dakika sürer **FPSMasterData** , her iki uygulaması için örnek verileri içerir.) İçin **FPSDemoData** , geçici bir çözüm yükleme sürecek **3 saat**.
+Bilgisayar için bir ağa bağlı kalmayı ve yükleme için **kurulum/referans verisi** için **1 saate** kadar çalıştırılmasını planlamalısınız. (Normal kurulum yaklaşık 30 dakika sürer **FPSMasterData**, her iki uygulaması için örnek verileri içerir.) İçin **FPSDemoData**, geçici bir çözüm yükleme sürecek **3 saat**.
 
 Bilgisayarda ekran koruyucu işlevinin kapatılmış olması gerekir. Aksi durumda, ekran koruyucu devreye girdiğinde (siz oturumunuzu bu süreçte etkin tutmadıkça) yükleme için oturum kimlik bilgileri kaybolabilir.
 
@@ -97,9 +97,9 @@ Paket indirildikten sonra .exe dosyasını çalıştırın ve daha sonra, sıkı
 
 1. **v902FPSMasterData** / **PackageDeployer_FPSDemoData** klasöründe **FPSDemoData.dll** dosyasını bulun ve dosyaya sağ tıklayın.
 
-2. **Engellemeyi Kaldır** 'ı seçin.
+2. **Engellemeyi Kaldır**'ı seçin.
 
-3. **Uygula** 'yı seçin.
+3. **Uygula**'yı seçin.
 
 4. **Tamam** seçeneğini işaretleyin.
 
@@ -112,13 +112,13 @@ Paket indirildikten sonra .exe dosyasını çalıştırın ve daha sonra, sıkı
 
 **FPSMasterData** paketi, burada açıklanan ayarlarla birlikte Spencer Low adlı bir kullanıcıyla yüklemek için tasarlanmıştır. Paketi doğru şekilde yüklemek için, gelen örnek veri yapılandırmasını eşleştirmek üzere ortamınızda kullanıcılar oluşturmanız (veya geçici olarak yeniden adlandırmanız) gerekir.
 
-Kullanıcıları oluşturmak veya yapılandırmak için **Ayarlar** > **Güvenlik** > **Kullanıcılar** 'a gidin ve aşağıdakileri yapın:
+Kullanıcıları oluşturmak veya yapılandırmak için **Ayarlar** > **Güvenlik** > **Kullanıcılar**'a gidin ve aşağıdakileri yapın:
 
-1. Proje Yöneticisi ve Proje Yönetici rolleri için UserFullname="Spencer Low" ve kullanıcı adını da "spencerl" ( **küçük harfli** ) olarak ayarlayın.
+1. Proje Yöneticisi ve Proje Yönetici rolleri için UserFullname="Spencer Low" ve kullanıcı adını da "spencerl" (**küçük harfli**) olarak ayarlayın.
 
-2. **Spencer Low** kullanıcısını seçin ve ardından **Rolleri Yönet** 'i seçin. **Sistem Yöneticisi** rolünü bulup seçin ve ardından Spencer Low'a tüm yönetici haklarını vermek için **Tamam** 'ı seçin. Bu adım, örnek kayıtların doğru kullanıcı sahipliğiyle oluşturulduğundan emin olmak için gereklidir ve bu nedenle görünümleri doğru şekilde doldurun.
+2. **Spencer Low** kullanıcısını seçin ve ardından **Rolleri Yönet**'i seçin. **Sistem Yöneticisi** rolünü bulup seçin ve ardından Spencer Low'a tüm yönetici haklarını vermek için **Tamam**'ı seçin. Bu adım, örnek kayıtların doğru kullanıcı sahipliğiyle oluşturulduğundan emin olmak için gereklidir ve bu nedenle görünümleri doğru şekilde doldurun.
 
-3. İndirilen paketten, varsayılan kullanıcı bağlamının e-posta adresleriyle birlikte bir veri eşleme dosyası güncelleştirmeniz gerekir. Bunu yapmak için **PkgFolder** 'ı açın ve ardından Not Defteri'nde (veya Visual Studio'da ya da başka bir XML düzenleyicisinde) **ImportUserMapFile.xml** dosyasını bulun ve açın. **DefaultUserToMapTo=** alanına Spencer Low kullanıcısının e-posta adresini girin.
+3. İndirilen paketten, varsayılan kullanıcı bağlamının e-posta adresleriyle birlikte bir veri eşleme dosyası güncelleştirmeniz gerekir. Bunu yapmak için **PkgFolder**'ı açın ve ardından Not Defteri'nde (veya Visual Studio'da ya da başka bir XML düzenleyicisinde) **ImportUserMapFile.xml** dosyasını bulun ve açın. **DefaultUserToMapTo=** alanına Spencer Low kullanıcısının e-posta adresini girin.
 
 4. Spencer Low'u **spencerl** kullanıcı adıyla kullanmıyorsanız ek bir dosyayı daha güncelleştirmeniz gerekir. **DemoDataPreImportConfig.xml** dosyasını açın ve ardından **userstocreateandconfigure** etiketini bulun. Spencer Low kullanıcınızın kullanıcı adıyla **\<login\>** etiketini güncelleştirin. Ek ayrıntılar için aşağıdaki [Teknik notlara](#technical-notes) bakın.
 
@@ -143,15 +143,15 @@ Demo verileri paket altı kullanıcıların gerektirir. Paket doğru bir şekild
    > [!div class="mx-imgBorder"]
    > ![UserMapFile ekran görüntüsü](media/sample-data-7.png)
 
-4. "Spencer Low" tam adına sahip kullanıcınız **"spencerl"** 'dan başka bir kullanıcı kimliğine sahipse, ek bi dosya güncelleştirmeniz gerekir. **DemoDataPreImportConfig.xml** dosyasını açın ve ardından **userstocreateandconfigure** etiketini bulun. **\<login\>** etiketini loginId olarak (büyük-küçük harf duyarlı) güncelleştirin. 
+4. "Spencer Low" tam adına sahip kullanıcınız **"spencerl"**'dan başka bir kullanıcı kimliğine sahipse, ek bi dosya güncelleştirmeniz gerekir. **DemoDataPreImportConfig.xml** dosyasını açın ve ardından **userstocreateandconfigure** etiketini bulun. **\<login\>** etiketini loginId olarak (büyük-küçük harf duyarlı) güncelleştirin. 
 
-5. İlk kullanıcının takvimini (içinde **userstocreateandconfigure** etiketi) gösteri verilerinin alınması üzerindeki ayrılabilir tüm kaynaklar için çalışma saatleri doldurmak için kullanılır. **Ayarları** > **güvenlik** > **kullanıcılar** , "Spencer Low" kullanıcısını bulun ve "Çalışma saatlerini" seçeneğini açın. Seçimi varolan çalışma saatlerini düzenleyin **haftalık zamanlama başlangıçtan bitişe kadar yinelenen tüm** seçeneği. **Çalışma saatlerini Pazartesi, Cuma ve saat dilimi Pasifik Saati (ABD ve Kanada) ayarlama 8:00 - 18:00 için (9 saat)** ayarlanmış olduğundan emin olun. Bu, proje ve zamanlama tablosu beklendiği gibi gösterilmesini sağlamak için gereklidir.
+5. İlk kullanıcının takvimini (içinde **userstocreateandconfigure** etiketi) gösteri verilerinin alınması üzerindeki ayrılabilir tüm kaynaklar için çalışma saatleri doldurmak için kullanılır. **Ayarları** > **güvenlik** > **kullanıcılar**, "Spencer Low" kullanıcısını bulun ve "Çalışma saatlerini" seçeneğini açın. Seçimi varolan çalışma saatlerini düzenleyin **haftalık zamanlama başlangıçtan bitişe kadar yinelenen tüm** seçeneği. **Çalışma saatlerini Pazartesi, Cuma ve saat dilimi Pasifik Saati (ABD ve Kanada) ayarlama 8:00 - 18:00 için (9 saat)** ayarlanmış olduğundan emin olun. Bu, proje ve zamanlama tablosu beklendiği gibi gösterilmesini sağlamak için gereklidir.
 
 **Öneri:** Örnek veri yüklemesi sırasında bir şeyler ters giderse başlangıç noktanıza dönmenizin gerektiği durumda artık kuruluşunuzun bir yedeğini oluşturmayı düşünün. Daha fazla bilgi için bkz. [Kurulumları yedekleme ve geri yükleme](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Package Deployer'nı çalıştırma
 
-1. **PackageDeployer_FPSDemoData** VEYA **v902FPSMasterData** klasöründe **PackageDeployer.exe** 'i bulun ve çalıştırın.
+1. **PackageDeployer_FPSDemoData** VEYA **v902FPSMasterData** klasöründe **PackageDeployer.exe**'i bulun ve çalıştırın.
 
 2. Hüküm ve koşulları kabul edin.
 
@@ -168,14 +168,14 @@ Demo verileri paket altı kullanıcıların gerektirir. Paket doğru bir şekild
 
 4. Örnek verileri yüklemek istediğiniz kuruluşu seçin.
 
-5. **Demo Veri Kurulumu** iletişim kutusunu görene kadar **İleri** 'yi seçin.
+5. **Demo Veri Kurulumu** iletişim kutusunu görene kadar **İleri**'yi seçin.
 
    > [!div class="mx-imgBorder"]
    > ![Demo veri yükleyicisi durum penceresinin ekran görüntüsü](media/sample-data-3.png)
 
 6. Devam etmeden önce, örnek verileri yüklemenin bir saat kadar (normalde yaklaşık 10 dakika) sürebileceğini unutmayın. Yükleme işlemi sırasında bilgisayarın açık ve bir ağa bağlı olduğundan ve oturumunuzun etkin kaldığından emin olmanız gerekir.   
 
-7. Hazır olduğunuzda, örnek verileri yükleme işlemini başlatmak için **İleri** 'ye tıklayın. Örnek verilerin yüklenmesinin ardından **Son** 'a tıklayın.
+7. Hazır olduğunuzda, örnek verileri yükleme işlemini başlatmak için **İleri**'ye tıklayın. Örnek verilerin yüklenmesinin ardından **Son**'a tıklayın.
 
 ## <a name="verify-the-sample-data-installation"></a>Örnek veri yüklemesini doğrulama
 
@@ -183,11 +183,11 @@ Tutarlılık kontrolü için, Fabrikam Robotics kurgusal senaryosunda listelenen
 
 Örnek veriler tamamen yüklendikten sonra Spencer Low kullanıcısı olarak oturum açın ve aşağıdakileri onaylayın:
 
-- Project Service uygulaması yüklüyse **Project Service** > **Ayarlar** > **Fiyat Listeleri** 'ne gidin. Fatura oranları ve maliyet oranlarının, veri kümesinde her bir ülke/bölge için uygun para birimiyle mevcut olduğunu onaylayın.
+- Project Service uygulaması yüklüyse **Project Service** > **Ayarlar** > **Fiyat Listeleri**'ne gidin. Fatura oranları ve maliyet oranlarının, veri kümesinde her bir ülke/bölge için uygun para birimiyle mevcut olduğunu onaylayın.
 
-- Project Service uygulaması yüklüyse **Universal Resource Scheduling** > **Ayarlar** > **Kuruluş Birimleri** 'ne gidin. Uygun para birimli maliyet fiyatı listesinin (şehir girişleri hariç) her bir kuruluş birimiyle ilişkili olduğunu onaylayın. Herhangi bir eksik varsa bunu bulun ve doğru maliyet fiyatı listesiyle ilişkilendirin.
+- Project Service uygulaması yüklüyse **Universal Resource Scheduling** > **Ayarlar** > **Kuruluş Birimleri**'ne gidin. Uygun para birimli maliyet fiyatı listesinin (şehir girişleri hariç) her bir kuruluş birimiyle ilişkili olduğunu onaylayın. Herhangi bir eksik varsa bunu bulun ve doğru maliyet fiyatı listesiyle ilişkilendirin.
 
-- Field Service uygulaması yüklüyse **Project Service** > **Ayarlar** > **Fiyat Listeleri** 'ne gidin. Fatura oranları ve maliyet oranlarının mevcut olduğunu onaylayın. **Field Service** > **Ayarlar** > **Fiyat Listeleri** 'ne gidin ve fatura oranları ile maliyet oranlarının, veri kümesinde her bir ülke/bölge için uygun para birimiyle mevcut olduğunu denetleyin.
+- Field Service uygulaması yüklüyse **Project Service** > **Ayarlar** > **Fiyat Listeleri**'ne gidin. Fatura oranları ve maliyet oranlarının mevcut olduğunu onaylayın. **Field Service** > **Ayarlar** > **Fiyat Listeleri**'ne gidin ve fatura oranları ile maliyet oranlarının, veri kümesinde her bir ülke/bölge için uygun para birimiyle mevcut olduğunu denetleyin.
 
   > [!div class="mx-imgBorder"]
   > ![Etkin fiyat listelerinin ekran görüntüsü](media/sample-data-4.png)
@@ -235,7 +235,7 @@ Bu içeri aktarma öncesi yapılandırma dosyasında bir dizi diğer yapılandı
 
 - **\<EntitiesToEnableScheduling\>** Microsoft Dynamics Scheduling uygulamasında (Universal Resource Scheduling olarak da bilinir) Ayırma için hangi varlıkların etkinleştirilmesi gerektiğini belirler.
 
-- **\<UsersToCreateAndConfigure\>** örnek verileri içeri aktarmanın yürütülmesinden önce (mevcut durumda yoksa) oluşturulacak Ayrılabilir Kaynakları belirtir. Kaynak sistem örnek veri Ayrılabilir Kaynağının, FullName ve her bir kaynağın oturum açmasında hedef sistem Ayrılabilir Kaynak kayıtlarıyla eşleştiğini lütfen unutmayın. Bu nedenle, önce bu adları kullanarak hedef sisteme örnek verileri içeri aktarmadığınız, daha sonra Etkin Kullanıcı kayıtlarının yanı sıra istediğiniz ad kümesi için Ayrılabilir Kaynakları yeniden adlandırmadığınız ve ardından son hedef sisteminize içeri aktarmak için verileri tekrar dışa aktarma ( **ImportUserMapFile.xml** dosyasını Eski ve Yeni girişlere uygun şekilde güncelleştirme) yapmadığınız sürece bu ön yapılandırma dosyasındaki adları değiştirmeniz mümkün DEĞİLDİR.
+- **\<UsersToCreateAndConfigure\>** örnek verileri içeri aktarmanın yürütülmesinden önce (mevcut durumda yoksa) oluşturulacak Ayrılabilir Kaynakları belirtir. Kaynak sistem örnek veri Ayrılabilir Kaynağının, FullName ve her bir kaynağın oturum açmasında hedef sistem Ayrılabilir Kaynak kayıtlarıyla eşleştiğini lütfen unutmayın. Bu nedenle, önce bu adları kullanarak hedef sisteme örnek verileri içeri aktarmadığınız, daha sonra Etkin Kullanıcı kayıtlarının yanı sıra istediğiniz ad kümesi için Ayrılabilir Kaynakları yeniden adlandırmadığınız ve ardından son hedef sisteminize içeri aktarmak için verileri tekrar dışa aktarma (**ImportUserMapFile.xml** dosyasını Eski ve Yeni girişlere uygun şekilde güncelleştirme) yapmadığınız sürece bu ön yapılandırma dosyasındaki adları değiştirmeniz mümkün DEĞİLDİR.
 
 - **\<PluginsToDisable\>** örnek verileri içeri aktarma sırasında devre dışı bırakılması ve ardından tekrar etkin hale getirilmesi gereken çok farklı satır öğesi eklentilerini belirtir.
 
@@ -289,9 +289,9 @@ Field Service operasyonları çoğunlukla daha büyük Seattle bölgesinde olmak
 
 Tüm ayrılabilir kaynakların varsayılan 24 çalışma saatli bir takvimi vardır.
 
-Örnek ayrılabilir kaynaklar için çalışma saatlerini değiştirmeniz gerekirse **Universal Resource Scheduling** > **Zamanlama** > **Kaynaklar** 'a gidin.
+Örnek ayrılabilir kaynaklar için çalışma saatlerini değiştirmeniz gerekirse **Universal Resource Scheduling** > **Zamanlama** > **Kaynaklar**'a gidin.
 
-Bir kullanıcı seçin (örneğin Spencer Low) ve birden fazla kullanıcıya uygulamak istediğiniz saatler için Spencer'ın çalışma saatlerini değiştirin. **Universal Resource Scheduling** > **Ayarlar** > **Çalışma Saati Şablonları** 'na gidin ve **Varsayılan İş Şablonu** kaydını düzenleyin. **Şablon Kaynağı** alanında, diğer kaynaklara uygulamak istediğiniz çalışma saatlerine sahip bir kullanıcı seçin. **Universal Resource Scheduling** > **Zamanlama** > **Kaynaklar** > **Etkin Ayrılabilir Kaynaklar** 'a gidin. Değiştirmek istediğiniz kaynakları seçin ve ardından **Takvim Ayarla** 'yı seçin. **İş Şablonu** açılan listesinde **Varsayılan Çalışma Saati** şablonunu veya doğru şablonlaştırılan kaynakla birlikte başka bir şablonu seçin. Zamanlama panosuna gittiğinizde, güncelleştirilmiş çalışma saatlerine sahip kaynakları artık görebilmeniz gerekir.
+Bir kullanıcı seçin (örneğin Spencer Low) ve birden fazla kullanıcıya uygulamak istediğiniz saatler için Spencer'ın çalışma saatlerini değiştirin. **Universal Resource Scheduling** > **Ayarlar** > **Çalışma Saati Şablonları**'na gidin ve **Varsayılan İş Şablonu** kaydını düzenleyin. **Şablon Kaynağı** alanında, diğer kaynaklara uygulamak istediğiniz çalışma saatlerine sahip bir kullanıcı seçin. **Universal Resource Scheduling** > **Zamanlama** > **Kaynaklar** > **Etkin Ayrılabilir Kaynaklar**'a gidin. Değiştirmek istediğiniz kaynakları seçin ve ardından **Takvim Ayarla**'yı seçin. **İş Şablonu** açılan listesinde **Varsayılan Çalışma Saati** şablonunu veya doğru şablonlaştırılan kaynakla birlikte başka bir şablonu seçin. Zamanlama panosuna gittiğinizde, güncelleştirilmiş çalışma saatlerine sahip kaynakları artık görebilmeniz gerekir.
 
 > [!div class="mx-imgBorder"]
 > ![Etkin ayrılabilir kaynakların ekran görüntüsü](media/sample-data-6.png)

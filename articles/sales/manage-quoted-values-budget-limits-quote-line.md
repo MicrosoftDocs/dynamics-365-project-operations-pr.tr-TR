@@ -1,21 +1,21 @@
 ---
-title: Proje tabanlı teklif satırları
+title: Proje tabanlı teklif satırlarına genel bakış
 description: Bu konuda, proje çalışmaları için proje tabanlı teklif satırlarını kullanma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086191"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181881"
 ---
-# <a name="project-based-quote-lines"></a>Proje tabanlı teklif satırları
+# <a name="project-based-quote-lines-overview"></a>Proje tabanlı teklif satırlarına genel bakış
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
@@ -31,7 +31,7 @@ Proje tabanlı teklif satırları, bir etkileşimdeki proje çalışmalarının 
 
 Aşağıdaki tabloda proje tabanlı teklif satırının **Genel** sekmesindeki alanlar hakkında bilgi sağlanmaktadır. Bu alanlar, proje çalışmaları için ayrıntılı, baştan sona bir tahmin için temel oluşturulmasına yardımcı olur.
 
-| **Alan** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- |
 | Veri Akışı Adı | Tahmin edilen teklifin farklı olan bileşenini belirlemenize yardımcı olması gereken teklif satırının adı. | Teklif kazanıldığında, bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır. |
 | Faturalama Yöntemi | Fırsattan oluşturulan bir teklifte bu değer, fırsat satırındaki ilgili alandan kopyalanır. Bu alan, Dynamics 365 Project Operations tarafından desteklenen iki ana sözleşme modelini içerir:</br>- Sabit fiyat</br>- Zaman ve malzeme.| Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır. |
@@ -47,11 +47,11 @@ Aşağıdaki tabloda proje tabanlı teklif satırının **Genel** sekmesindeki a
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Proje tabanlı teklif satırlarının Genel sekmesindeki alanları için doğrulama kuralları
 
-**Kural 1** : Seçilen projedeki belirli bir işlem sınıfı bir teklifin yalnızca bir proje tabanlı teklif satırına dahil edilebilir.
+**Kural 1**: Seçilen projedeki belirli bir işlem sınıfı bir teklifin yalnızca bir proje tabanlı teklif satırına dahil edilebilir.
 
-**Kural 2** : Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.
+**Kural 2**: Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.
 
-**Kural 3** : Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.
+**Kural 3**: Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

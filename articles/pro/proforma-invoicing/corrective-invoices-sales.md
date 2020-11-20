@@ -1,27 +1,27 @@
 ---
-title: Jenerik ve düzeltilen faturalar
+title: Düzeltilen faturalar - lite
 description: Bu konuda, Project Operations'ta doğrulanan faturalar hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086435"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176455"
 ---
-# <a name="credits-and-corrected-invoices"></a>Jenerik ve düzeltilen faturalar
+# <a name="corrected-invoices---lite"></a>Düzeltilen faturalar - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Onaylı proje faturaları müşteri ve proje yöneticisiyle görüşülür, değişiklikleri veya kredileri işlemek için düzeltilebilir.
 
-Onaylı bir faturada düzenlemeler yapmak için, onaylanan faturayı açın ve **Bu faturayı Düzelt** 'i seçin. 
+Onaylı bir faturada düzenlemeler yapmak için, onaylanan faturayı açın ve **Bu faturayı Düzelt**'i seçin. 
 
 > [!NOTE]
 > Bir proje faturası onaylanmadıkça bu seçim kullanılamaz.

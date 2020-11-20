@@ -1,21 +1,21 @@
 ---
-title: Proje tabanlı fırsat satırları (Pro)
+title: Proje tabanlı fırsat satırları - lite
 description: Bu konuda, proje tabanlı fırsat satırları hakkında bilgiler sağlanmaktadır. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086249"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181047"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Proje tabanlı fırsat satırları (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Proje tabanlı fırsat satırları - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -25,7 +25,7 @@ Proje tabanlı fırsat satırları, bir proje kullanılarak müşteriye teslim e
 
 Aşağıda, proje tabanlı fırsat satırındaki alanlar verilmiştir:
 
-| **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
 | Ürün Türü | Genel sekmesi (gizli) | Aşağıdaki seçeneklerden birini belirleyebilirsiniz:</br>- Proje tabanlı hizmet (yalnızca Dynamics 365 Project Operations yüklendiğinde kullanılabilir)</br>- Ürün (yalnızca Project Operations ve Dynamics 365 Sales yüklendiğinde kullanılabilir) | Fırsat üzerinde proje tabanlı satırlar ızgarasından proje tabanlı fırsat satırı oluşturduğunuzda bu alanın değeri **Proje tabanlı hizmet** olarak ayarlanır. <br> Bu değeri değiştirirseniz veya geçersiz kılarsanız proje işlevi, proje tabanlı satır öğelerinizde etkinleştirilmez. |
 | Fırsat | Genel sekmesi | Bu alan salt okunurdur ve bu satır öğesinin ait olduğu üst Fırsat kaydını ifade eder. | Bu alanda aşağı yönlü etki yoktur. |

@@ -1,28 +1,28 @@
 ---
-title: Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma
+title: Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma - lite
 description: Bu konuda, tahminleri projeden teklif satırına içe aktarma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 224c2265cfcc38dfc2ed74664d38c095feefaca7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086226"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177760"
 ---
-# <a name="importing-estimates-for-a-project-to-a-project-based-quote-line"></a>Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Projenin satış öncesi aşama sırasında oluşturulması durumunda mali tahmini, projeden proje tabanlı teklif satırına içe aktarmayı seçebilirsiniz.
 
 1. Proje tabanlı teklif satırının **Proje** alanında proje bilgilerine sahip olduğundan emin olun.
-2. **Teklif satırı ayrıntıları** sekmesinde, **Proje Tahmininden İçe Aktar** 'ı seçin.
+2. **Teklif satırı ayrıntıları** sekmesinde, **Proje Tahmininden İçe Aktar**'ı seçin.
 3. İletişim sayfası açıldığında, aşağıdaki özetleme seçeneklerinden birini belirleyin.
 
   - **İşlem sınıfı**
@@ -30,7 +30,7 @@ Projenin satış öncesi aşama sırasında oluşturulması durumunda mali tahmi
   - **Rol** 
   - **Proje görevi**
 
-Seçiminize bağlı olarak, bu teklif satırındaki tüm işlem sınıfları için projeden alınan tahmin, üzerine kopyalanır. Hangi işlem sınıflarının eklendiğini denetlemek için proje tabanlı teklif satırında **Genel** sekmesini seçin ve **Zaman Ekle** , **Gider Ekle** ve **Ücret Ekle** değerlerini kontrol edin.  Hangi görevlerin dahil edildiğini denetlemek için teklif satırındaki **Ücretli Görevler** sekmesini seçin.
+Seçiminize bağlı olarak, bu teklif satırındaki tüm işlem sınıfları için projeden alınan tahmin, üzerine kopyalanır. Hangi işlem sınıflarının eklendiğini denetlemek için proje tabanlı teklif satırında **Genel** sekmesini seçin ve **Zaman Ekle**, **Gider Ekle** ve **Ücret Ekle** değerlerini kontrol edin.  Hangi görevlerin dahil edildiğini denetlemek için teklif satırındaki **Ücretli Görevler** sekmesini seçin.
 
 İlişkili ve Dahil Edilen Hareket Sınıflarına bağlı olarak, bu görev ve hareket sınıfı birleşimlerinin tahminleri teklif satırına aktarılır.
 

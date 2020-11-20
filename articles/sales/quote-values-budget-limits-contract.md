@@ -1,21 +1,21 @@
 ---
-title: Proje teklifiyle ilgili özet bilgiler
+title: Proje teklifi ayarları
 description: Bu konuda, proje tekliflerine uygulayan ve bu teklifleri etkileyen bilgiler ve ayarlar hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086170"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180261"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Proje teklifiyle ilgili özet bilgiler
+# <a name="project-quote-settings"></a>Proje teklifi ayarları
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
@@ -24,7 +24,7 @@ Bu makalede, bir proje teklifi için geçerli olan bilgiler açıklanmaktadır. 
 
 Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales tekliflerine göre bazı önemli değişiklikleri olan bir proje teklifinde özet bilgi alanları listelenmiştir.
 
-| **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
 | Tür | Özet sekmesi (gizli) | Bu seçenek kümesi alanında aşağıdaki seçenekler karma olarak bulunur:</br>- İş tabanlı (yalnızca Project Operations yüklendiğinde kullanılabilir)</br>- Öğe tabanlı (yalnızca Project Operations ve Sales yüklendiğinde kullanılabilir)</br>- Servis bakımı tabanlı (Dynamics 365 Field Service yüklendiğinde kullanılabilir) | Project Operations uygulamasını kullandığınızda, bu alanın değeri otomatik olarak **İş tabanlı** seçeneğine ayarlanır. Bu, teklifi proje tabanlı teklif olarak sınıflandırır. Projeye özgü tüm uzantıları ve işlevleri etkinleştirmek için bir teklifin proje tabanlı olması gerekir. |
 | Sahibi Olan Şirket | Özet | Bu projeden veya bu teklifle ilişkili projelerden tahakkuk eden maliyetleri ve geliri hesaplayacak tüzel kişilik. Teklif, bir Fırsattan oluşturulduğunda, bu alan Fırsattaki ilgili alandan kopyalanır. | Sahibi olan şirket, Project Operations'ın **Proje yönetimi ve muhasebe** modülündeki tüzel kişilik kavramına eşittir. Bu projeden tahakkuk eden tüm maliyetler ve gelir, sahibi olan şirketin Genel muhasebesinde hesaplanır. |
@@ -38,7 +38,7 @@ Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya D
 
 Aşağıda, Project Operations için benzersiz olan ve Sales tekliflerine göre bazı önemli değişiklikleri olan bir proje teklifinde kullanılabilen sekmeler ve KPI'lar verilmiştir:
 
-| **Alan** | **Konum** | **İlgi, amaç ve kılavuz** |
+| **Alan** | **Konum** | **Açıklama** |
 | --- | --- | --- |
 | Karlılık analizi | Teklif sekmesi | Sekme aşağıdaki ölçümleri gösterir:</br>- Toplam borçlandırılabilir maliyet</br></br>- Toplam borçlandırılamaz maliyet</br>- Toplam gelir</br>- Toplam gelir (taban)</br>- Brüt kar</br>- Düzeltilen brüt kar|
 | Müşteri Beklentileriyle Karşılaştırma | Teklif sekmesi | Bu sekme aşağıdaki ölçümleri gösterir:</br>- Tahmini tamamlanma zamanı</br>- İstenen tamamlanma</br>- Müşteri bütçesi</br>- Teklif değeri |

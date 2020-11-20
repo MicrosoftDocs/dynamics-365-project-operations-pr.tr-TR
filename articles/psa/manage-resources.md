@@ -3,7 +3,7 @@ title: Kaynakları yönetme
 description: Bu konu, kaynakları yönetme hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086525"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132357"
 ---
 # <a name="manage-resources"></a>Kaynakları yönetme
 
@@ -44,11 +44,11 @@ Proje yöneticileri, projelerdeki kaynakları yönetmek için kaynak yöneticisi
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Bir projeye doğrudan takım üyesi ekleme
 
-Bir projeye doğrudan bir takım üyesi eklemek için **Projeler** sayfasının **Takım** sekmesinde **Yeni** 'yi seçin. **Hızlı Oluştur: Proje Takım Üyesi** iletişim kutusu görüntülenir. Bu iletişim kutusunda aşağıdaki görevleri gerçekleştirebilirsiniz:
+Bir projeye doğrudan bir takım üyesi eklemek için **Projeler** sayfasının **Takım** sekmesinde **Yeni**'yi seçin. **Hızlı Oluştur: Proje Takım Üyesi** iletişim kutusu görüntülenir. Bu iletişim kutusunda aşağıdaki görevleri gerçekleştirebilirsiniz:
 
 - **Adlandırılmış kaynak ayırma** - **Ayrılabilir Kaynak** alanında, kaynağın adını seçin. Sonra rolü seçin, dönemi ayarlayın ve bir tahsisat yöntemi seçin. Seçtiğiniz adlandırılmış kaynak, seçili tahsisat yöntemi ve kaynaklar takvimi kullanılarak projeye eklenir.
 - **Genel kaynak ekle** – **Ayrılabilir kaynak** alanını boş bırakın ve ardından rolü seçin, dönemi ayarlayın ve tercih edilen tahsisat yöntemini seçin. Genel bir kaynak, takımda adlandırılmış kaynakları ayırmak için kullanılan talep modelini tutacak bir yer tutucu olarak takıma eklenir. Gereksinim proje takvimine göre yapılır.
-- **Kaynak kapasitesini tüketmeden takıma adlandırılmış kaynak ekle** – **Ayrılabilir kaynak** alanında bir kaynak seçin. Sonra rolü seçin, tahsisat yöntemi olarak **Hiçbiri** 'ni seçin. Kaynak takıma eklenir, ancak kaynağın kapasitesi bir ayırma işlemi aracılığıyla tüketilmez.
+- **Kaynak kapasitesini tüketmeden takıma adlandırılmış kaynak ekle** – **Ayrılabilir kaynak** alanında bir kaynak seçin. Sonra rolü seçin, tahsisat yöntemi olarak **Hiçbiri**'ni seçin. Kaynak takıma eklenir, ancak kaynağın kapasitesi bir ayırma işlemi aracılığıyla tüketilmez.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Bir genel kaynağın kaynak gereksinimlerini karşılamak için bir takım üyesi ayırma
 
@@ -56,7 +56,7 @@ PSA'da, proje takımında genel bir kaynağı ayırabilir ve rolü, gerekli kapa
 
 Bir geliştirici için genel kaynaktaki gerekli becerileri belirtmek üzere bu adımları izleyin.
 
-1. **Projeler** sayfasının **Takım** sekmesinde genel bir kaynak ayırmak için **Yeni** 'yi seçin.
+1. **Projeler** sayfasının **Takım** sekmesinde genel bir kaynak ayırmak için **Yeni**'yi seçin.
 
     ![Takımda ayrılmış genel kaynak](media/Resource-Management-image9.png)
 
@@ -64,7 +64,7 @@ Bir geliştirici için genel kaynaktaki gerekli becerileri belirtmek üzere bu a
 
     ![Gereksinim bağlantısı](media/Resource-Management-image10.png)
 
-3. Görüntülenen **Kaynak Gereksinimi** sayfasındaki **Yetenekler** ızgarasında üç nokta simgesini ( **...** ) ve ardından geliştiriciniz için gerekli becerileri eklemek üzere **Yeni Gereksinim Özelliği Ekle** 'yi seçin. 
+3. Görüntülenen **Kaynak Gereksinimi** sayfasındaki **Yetenekler** ızgarasında üç nokta simgesini (**...**) ve ardından geliştiriciniz için gerekli becerileri eklemek üzere **Yeni Gereksinim Özelliği Ekle**'yi seçin. 
 
     ![Yeni Gereksinim Özelliği Ekle komutu](media/Resource-Management-image11.png)
 
@@ -72,7 +72,7 @@ Bir geliştirici için genel kaynaktaki gerekli becerileri belirtmek üzere bu a
 
     ![Hızlı Oluştur: Gereksinim Özelliği iletişim kutusu](media/Resource-Management-image12.png)
 
-5. **Kaynak Gereksinimi** sayfasında, kaynak gereksinimini karşılamak için **Ayır** 'ı seçin.
+5. **Kaynak Gereksinimi** sayfasında, kaynak gereksinimini karşılamak için **Ayır**'ı seçin.
 
     ![Kaynak Gereksinimi sayfasındaki Ayır düğmesi](media/Resource-Management-image13.png)
 
@@ -93,21 +93,21 @@ Bir geliştirici için genel kaynaktaki gerekli becerileri belirtmek üzere bu a
     - **Roller** – Ayrılabilir kaynaklarına atanan varsayılan rollere göre filtreleyin.
     - **Kuruluş birimleri** – Ayrılabilir kaynakları atandıkları kuruluş birimlerine göre filtreleyin.
 
-6. İlk gereksinim aramasının sonuçlarından memnun olmazsanız, filtre ölçütünü değiştirebilirsiniz. Sol taraftaki **Filtre Görünümü** bölmesini genişletin ve daha fazla kaynak bulmak için **Ara** 'yı seçin.
+6. İlk gereksinim aramasının sonuçlarından memnun olmazsanız, filtre ölçütünü değiştirebilirsiniz. Sol taraftaki **Filtre Görünümü** bölmesini genişletin ve daha fazla kaynak bulmak için **Ara**'yı seçin.
 
     ![Filtre Görünümü bölmesi](media/Resource-Management-image16.png)
 
-7. Sonuçların sıralanma biçimini değiştirmek için **Sırala** 'yı seçin.
+7. Sonuçların sıralanma biçimini değiştirmek için **Sırala**'yı seçin.
 
     ![Sırala komutu](media/Resource-Management-image17.png)
 
 8. Kılavuzun en üstünde belirtildiği gibi gereksinimde belirtilen talebe göre kaynakları seçin. Izgaradaki hücrelerin seçimini temizleyebilir ve bu kaynak kapasitesini açık bırakabilirsiniz. Aynı anda yalnızca tek bir kaynak ayrılmış olarak seçilebilir.
 
-9. Seçili kaynağı ayırmak için **Ayır** 'ı seçin ve ek kaynaklar seçebilmeniz için Zamanlama Panosunu açık bırakın. Bunun yerine, seçili kaynağı ayırmak ve Zamanlama Panosunu kapatmak için **Ayır ve Çık** 'ı seçin.
+9. Seçili kaynağı ayırmak için **Ayır**'ı seçin ve ek kaynaklar seçebilmeniz için Zamanlama Panosunu açık bırakın. Bunun yerine, seçili kaynağı ayırmak ve Zamanlama Panosunu kapatmak için **Ayır ve Çık**'ı seçin.
 
     ![Ayrılacak kaynak](media/Resource-Management-image19.png)
 
-    Ayrılmış saatler hakkında bir bildirim alırsınız. Talep göstergeleri, ayırma gereksiniminin ne kadarının karşılandığını ve ne kadar kaldığını gösterir. Seçilen kaynağın kapasitesinin ne kadarının tüketildiğini de görebilirsiniz. Kaynak ayırmaları hakkında daha fazla ayrıntı görmek için **Genişlet** 'i seçin.
+    Ayrılmış saatler hakkında bir bildirim alırsınız. Talep göstergeleri, ayırma gereksiniminin ne kadarının karşılandığını ve ne kadar kaldığını gösterir. Seçilen kaynağın kapasitesinin ne kadarının tüketildiğini de görebilirsiniz. Kaynak ayırmaları hakkında daha fazla ayrıntı görmek için **Genişlet**'i seçin.
 
 9. **Tüm Takım Üyeleri** görünümüne dönün. Izgarada, genel kaynağın adlandırılmış kaynak tarafından değiştirildiğine ve bu kaynak için 40 saatin ayrılmış olarak listelendiğine dikkat edin.
 
@@ -120,7 +120,7 @@ Bir geliştirici için genel kaynaktaki gerekli becerileri belirtmek üzere bu a
 
 PSA'da, görevler oluşturabilir ve bunlara genel kaynaklar atayabilirsiniz. Bu şekilde, zamanlama ve mali rakamları tahmin ederken kaynak talebi yer tutucularla temsil edilebilir. Daha sonra genel kaynaklar için kaynak gereksinimleri oluşturabilir ve bunları karşılayabilirsiniz.
 
-1. **Projeler** sayfasındaki **Zamanlama** sekmesinde görev oluşturmak için **Ekle** 'yi seçin.
+1. **Projeler** sayfasındaki **Zamanlama** sekmesinde görev oluşturmak için **Ekle**'yi seçin.
 
     ![Yeni görev oluşturuldu](media/Resource-Management-image21.png)
 
@@ -128,11 +128,11 @@ PSA'da, görevler oluşturabilir ve bunlara genel kaynaklar atayabilirsiniz. Bu 
 
     ![Kaynak Seçici](media/Resource-Management-image22.png)
 
-3. Yeni genel kaynağın adını girin ve **Oluştur** 'u seçin.
+3. Yeni genel kaynağın adını girin ve **Oluştur**'u seçin.
 
     ![Yeni genel kaynağın adı girildi](media/Resource-Management-image23.png)
 
-4. Görüntülenen **Hızlı Oluştur: Proje Takımı Üyesi** iletişim kutusunda, **Rol** alanında genel kaynak için rolü seçin. **Kaynak Birim** alanında, genel kaynağın kuruluş birimini seçin. Ardından **Kaydet** 'i seçin.
+4. Görüntülenen **Hızlı Oluştur: Proje Takımı Üyesi** iletişim kutusunda, **Rol** alanında genel kaynak için rolü seçin. **Kaynak Birim** alanında, genel kaynağın kuruluş birimini seçin. Ardından **Kaydet**'i seçin.
 
     ![Hızlı Oluştur: Proje Takım Üyesi iletişim kutusu](media/Resource-Management-image24.png)
 
@@ -150,7 +150,7 @@ PSA'da, görevler oluşturabilir ve bunlara genel kaynaklar atayabilirsiniz. Bu 
 
     Genel kaynağı görevlere atamayı tamamladığınızda, genel kaynak için bir kaynak gereksinimi oluşturabilirsiniz.
 
-5. **Takım** sekmesinde genel kaynağı ve ardından **Gereksinim Oluştur** 'u seçin.
+5. **Takım** sekmesinde genel kaynağı ve ardından **Gereksinim Oluştur**'u seçin.
 
     ![Gereksinim Oluştur komutu](media/Resource-Management-image28.png)
 
@@ -217,7 +217,7 @@ Bir kaynak gereksinimi oluşturulduktan sonra, bir proje yöneticisi veya kaynak
 
 Bir proje takımına genel veya adlandırılmış bir kaynak ekledikten sonra, kaynak ayırmalarını değiştirebilirsiniz.
 
-1. **Projeler** sayfasının **Takım** sekmesinde bir takım üyesi seçin ve ardından **Ayırmaları Koru** 'yu seçin.
+1. **Projeler** sayfasının **Takım** sekmesinde bir takım üyesi seçin ve ardından **Ayırmaları Koru**'yu seçin.
 
     ![Seçilen takım üyesi için Zamanlama Panosu açıldı](media/Resource-Management-image40.png)
 
@@ -242,7 +242,7 @@ Herhangi bir varsayılan veya özel ayırma durumunu değiştirebilirsiniz.
 PSA'da aşağıdaki durumlar bulunur:
 
 - **İptal edildi** – Bu durum kaynağa ilişkin ayırmayı iptal eder ve kaynağın kapasitesini serbest bırakır.
-- **Kesin Ayırma** – Bu durum kaynağın kapasitesini kullanır. **Projeler** sayfasındaki **Tüm Takım Üyeleri** ızgarasında **Ayırmaları Koru** 'yu açtığınızda ayırma genellikle bu duruma sahiptir.
+- **Kesin Ayırma** – Bu durum kaynağın kapasitesini kullanır. **Projeler** sayfasındaki **Tüm Takım Üyeleri** ızgarasında **Ayırmaları Koru**'yu açtığınızda ayırma genellikle bu duruma sahiptir.
 - **Geçici Ayırma** – Bu durum bir takıma bir kaynak ekler ancak kaynağın kapasitesini kullanmaz. Kaynağın olası bir iş için rezerve edildiğini ancak başka projelerde gereksinim duyulursa hala kapasiteye sahip olduğunu gösterir. Genel kaynak kullanılabilirliği görünümünde, geçici ayırmalar kesin ayırmalardan farklı bir duruma sahiptir.
 - **Önerildi** – Bu durum bir kaynak için bir kaynak yöneticisinin veya proje yöneticisinin teklifini temsil eder. Teklifler bir kaynağın kapasitesini tüketmez ve kaynak proje takımına eklenmez. Kaynağı takımda kesin olarak ayırmak için proje yöneticisinin teklifi kabul etmesi gerekir.
 
@@ -255,7 +255,7 @@ Kaynak talepleri, kaynak yöneticisi tarafından karşılanması gereken talebi 
 
 #### <a name="direct-fulfillment-of-resource-requests"></a>Kaynak isteklerini doğrudan karşılama
 
-Bir kaynak gereksinimi oluşturulduğunda, proje yöneticisi kaynağı ve ardından **İstek Gönder** 'i seçerek genel kaynak için kaynak isteği gönderebilir.
+Bir kaynak gereksinimi oluşturulduğunda, proje yöneticisi kaynağı ve ardından **İstek Gönder**'i seçerek genel kaynak için kaynak isteği gönderebilir.
 
 ![İstek Gönder düğmesi](media/Resource-Management-image45.png)
 
@@ -277,7 +277,7 @@ Kaynak Yöneticisi kaynak isteğinde bir kaynağı doğrudan ayırmak yerine pro
 
 ![Önerilen Kaynaklar sekmesi](media/Resource-Management-image49.png)
 
-Önerilen tüm kaynakları kabul etmek için **Tüm Teklifleri Kabul Et** 'i veya reddetmek için **Tüm Teklifleri Reddet** 'i seçin. Önerilen kaynakları kabul ederseniz, bunlar projede takım üyesi olarak kesin şekilde ayrılır ve genel kaynakların yerini alır.
+Önerilen tüm kaynakları kabul etmek için **Tüm Teklifleri Kabul Et**'i veya reddetmek için **Tüm Teklifleri Reddet**'i seçin. Önerilen kaynakları kabul ederseniz, bunlar projede takım üyesi olarak kesin şekilde ayrılır ve genel kaynakların yerini alır.
 
 > [!NOTE]
 > Önerilen tüm kaynakları kabul etmeniz veya reddetmeniz gerekir. Bunları kısmen kabul edemez veya reddedemezsiniz.
@@ -286,19 +286,19 @@ Kaynak Yöneticisi kaynak isteğinde bir kaynağı doğrudan ayırmak yerine pro
 
 Bazen bir proje yöneticisinin bir projedeki ayrılmış bir takım üyesini değiştirmesi gerekir.
 
-1. **Projeler** sayfasının **Takım** sekmesinde değişim gerektiren kaynağı ve ardından **Ayırmaları Koru** 'yu seçin.
+1. **Projeler** sayfasının **Takım** sekmesinde değişim gerektiren kaynağı ve ardından **Ayırmaları Koru**'yu seçin.
 2. Kaynağa atanan projeleri görüntülemek için kaynağı genişletin.
 
     ![Atanan projeleri göstermek için genişletilmiş kaynak](media/Resource-Management-image50.png)
 
-3. Projeye sağ tıklayın ve ardından **Kaynağı Değiştir** 'i seçin.
-4. Geçerli kaynağın yerine almak istediğiniz kaynağı biliyorsanız, adı seçin veya yazın, sonra **Yeniden ata** 'yı seçin.
+3. Projeye sağ tıklayın ve ardından **Kaynağı Değiştir**'i seçin.
+4. Geçerli kaynağın yerine almak istediğiniz kaynağı biliyorsanız, adı seçin veya yazın, sonra **Yeniden ata**'yı seçin.
 
     ![İkame kaynak belirtme](media/Resource-Management-image51.png)
 
     Alternatif olarak, bir kaynağı aramak için şu adımları izleyin:
 
-    1. **İkame Bul** 'u seçin.
+    1. **İkame Bul**'u seçin.
 
         ![İkame kaynak arama](media/Resource-Management-image52.png)
 
@@ -306,7 +306,7 @@ Bazen bir proje yöneticisinin bir projedeki ayrılmış bir takım üyesini de�
 
         ![Kullanılabilir ikamelerin listesi](media/Resource-Management-image53.png)
 
-    2. Kaynağı değiştirmek için, istediğiniz kaynağı seçin ve **Değiştir** 'i seçin.
+    2. Kaynağı değiştirmek için, istediğiniz kaynağı seçin ve **Değiştir**'i seçin.
 
         ![İkame kaynak seçildi](media/Resource-Management-image54.png)
 
@@ -337,7 +337,7 @@ Zamanı daha yüksek düzeylerde görüntülediğinizde **Mutabakat** sekmesinde
 
 ![Fark göstergesi](media/Resource-Management-image57.png)
 
-Bir kaynak için görev atamalarınızın olması ancak ayırmalarınızın olmaması durumunda **Projeler** sayfasındaki **Mutabakat** sekmesinde ayırma eksikliğini ve ardından **Ayırmayı Genişlet** 'i seçin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. Ayrıca, kaynağın tüm projeler veya diğer zamanlanabilir varlıklardaki varolan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam** 'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
+Bir kaynak için görev atamalarınızın olması ancak ayırmalarınızın olmaması durumunda **Projeler** sayfasındaki **Mutabakat** sekmesinde ayırma eksikliğini ve ardından **Ayırmayı Genişlet**'i seçin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. Ayrıca, kaynağın tüm projeler veya diğer zamanlanabilir varlıklardaki varolan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam**'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
 
 ![Ayırmayı Genişlet iletişim kutusu](media/Resource-Management-image58.png)
 

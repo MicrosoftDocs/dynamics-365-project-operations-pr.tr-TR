@@ -1,21 +1,21 @@
 ---
-title: Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme
+title: Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme - lite
 description: Bu konuda, ürün tabanlı teklif satırları için karmaşık birimleri yönetme hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086256"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175600"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Ürün tabanlı teklif satırları için kullanıcı başına, ay başına gibi karmaşık birimleri yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -29,18 +29,18 @@ Project Operations yalnızca sayısal veri türüne sahip sayısal özellikleri 
 
 Örneğin, Dynamics 365 Sales aşağıdaki özelliklere sahip olabilir:
 
-- **Kullanıcı sayısı** : kullanıcı sayısı
-- **Ay sayısı** : abonelik ayları sayısı
+- **Kullanıcı sayısı**: kullanıcı sayısı
+- **Ay sayısı**: abonelik ayları sayısı
 - **Ürün SKU'su**
 
 **Kullanıcı Sayısı** ve **Ay Sayısı** özelliklerini, ürün satırının özelliklerini düzenleyerek miktar faktörü olarak işaretleyebilirsiniz.
 
 Ürün özelliklerinden Miktar faktörleri oluşturmak için aşağıdaki adımları izleyin:
 
-1. Project Operations sol gezinme bölmesinde, **Satış** > **Ürünler** 'e gidin.
+1. Project Operations sol gezinme bölmesinde, **Satış** > **Ürünler**'e gidin.
 2. Miktar faktörlerini yapılandırmanız gereken ürünü açın. Ürünün önceden yapılandırılmış özelliklere sahip olduğundan emin olun.
 3. Ürün için **Proje Bilgileri** sayfasında, **Miktar Faktörleri** sekmesini seçin.
-4. Alt ızgarada, **+ Yeni alan hesaplaması** 'nı seçin.
+4. Alt ızgarada, **+ Yeni alan hesaplaması**'nı seçin.
 5. Miktar faktörünün adını girin ve alan hesaplamasıyla eşleşen özellik değerini seçin.
 6. Formu kaydedin ve kapatın. Ürün tabanlı teklif satırının miktarını hesaplamak üzere tüm özellikler için bu adımları tekrarlayın.
 

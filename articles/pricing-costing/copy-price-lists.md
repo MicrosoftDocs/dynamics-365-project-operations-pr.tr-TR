@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086363"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181521"
 ---
 # <a name="copy-price-lists"></a>Fiyat listelerini kopyalama
 
@@ -23,10 +23,10 @@ Dynamics 365 Project Operations fiyat listelerinin kopyalarını oluşturabilirs
 
 Fiyat listesinin kopyasını oluşturmak için aşağıdaki adımları izleyin.
 
-1. Kopyasını yapmak istediğiniz fiyat listesini açın ve **Kopyala** 'yı seçin.
+1. Kopyasını yapmak istediğiniz fiyat listesini açın ve **Kopyala**'yı seçin.
 2. Fiyat listesini kopyalamak için gerekli bilgileri girin. Aşağıdaki tabloda bilgi girerken dikkat edilmesi gereken noktalar gösterilmektedir.
 
-| Alan | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- |
 | Veri Akışı Adı | Kaynak Fiyat listesinin, **-kopyası** eklenmiş olarak adı. | Fiyat listesi, bu değeri tüm liste sayfalarında ve açılan seçeneklerde içerir. |
 | Bağlam | Hedef fiyat listesi için istediğiniz bağlamı girin. | **Maliyet** tahminleri ve maliyet fiili değerleri için fiyatı aramak amacıyla maliyet ayarı atanan bir fiyat listesi kullanılır. **Satış** tahminleri ve satış fiili değerleri için fiyatı aramak amacıyla satış ayarı atanan bir fiyat listesi kullanılır. Yalnızca bir müşteri, teklif veya sözleşme için yalnızca içeriği **Satış** olarak ayarı yapılmış fiyat listeleri bir proje fiyat listesine iliştirilebilir. |
@@ -40,6 +40,6 @@ Fiyat listesinin kopyasını oluşturmak için aşağıdaki adımları izleyin.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Tüm fiyatlara bir işaret uygulayarak bir fiyat listesini güncelleştirme
 
-1. Bir fiyat listesinin **rol** , **kategori** ve **Fiyat listesi öğesi** sekmelerinde, alt ızgarada tüm fiyatlar için bir sair gider uygulamak üzere **Fiyatları Güncelleştir** 'i seçebilirsiniz. 
+1. Bir fiyat listesinin **Rol**, **kategori** ve **Fiyat listesi öğesi** sekmelerinde, alt kılavuzdaki tüm fiyatlar için bir sair gider uygulamak üzere **Fiyatları Güncelleştir**'i seçebilirsiniz. 
 2. Açılan iletişim kutusunda, bir işaretleme girin. Ayrıca, belirli bir yüzdeye göre fiyatları azaltmak için negatif bir yüzde işareti de girebilirsiniz. 
-3. İletişim sayfasında **Tamam** 'ı seçin ve ardından alt kılavuzdaki fiyatların yaptığınız değişiklikleri yansıttığından emin olun.
+3. İletişim sayfasında **Tamam**'ı seçin ve ardından alt kılavuzdaki fiyatların yaptığınız değişiklikleri yansıttığından emin olun.

@@ -1,40 +1,40 @@
 ---
-title: İşçilik fatura oranlarını ayarlama
+title: İşçilik fatura oranlarını ayarlama - lite
 description: Bu konuda Project Operations'ta iş gücü faturalandırma fiyatlarını ayarlama hakkında bilgi sağlanır.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086386"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181206"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>İşçilik oranı faturalaması için fatura oranları ayarlama 
+# <a name="set-up-labor-bill-rates---lite"></a>İşçilik fatura oranlarını ayarlama - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations için fatura kurları, Fiyat listesi başlığındaki para birimi olan yalnızca bir para birimi olarak ayarlanabilir.
 
 1. Bir satış fiyatı listesi için işçilik fatura tarifesinin ayarlanması için fiyat listesi başlığına dayanan bir fiyat listesi oluşturun. 
-2. **Rol Fiyatlar** sekmesinde, alt kılavuzda **+ Yeni Rol Fiyatı** 'nı seçin. 
+2. **Rol Fiyatlar** sekmesinde, alt kılavuzda **+ Yeni Rol Fiyatı**'nı seçin. 
 3. **Hızlı kayıt** bölmesinde, fatura oranı ayarlamanız gereken rolü ve organizasyon birimi bileşimini girin.
 
   Aşağıdaki tabloda, **genel** sekmesindeki alanlar ve bir satış fiyatı listesinde rol fiyatları oluştururken aklınızda bulundurmanız gereken bir rol fiyatı satırının **hızlı kayıt** bölmesi yer almaktadır:
 
-  | Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+  | Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
   | --- | --- | --- | --- |
   | Rol | **Genel** sekme ve **Hızlı Oluşturma** bölme | Fatura sıklığını ayarladığınız rolü seçin. | Gelen tahmindeki veya fiili rol, rolün maliyetini varsayılan olarak bu satırla eşleşecektir. |
   | Kaynak Belirleme Birimi | **Genel** sekme ve **Hızlı Oluşturma** bölme | Bu rolün kullanılacağı yerden şirketin kuruluş birimini veya bölümünü seçin. Örneğin, Fabrikam Hindistan'ın Robotik bölümünden bir geliştirici veya Fabrikam USA'nın Yazılım bölümünden bir geliştirici. | Gelen tahmindeki veya fiili kaynak ünite, rolün faturasını varsayılan olarak bu satırla eşleşecektir. |
   | Fiyat | **Genel** sekme ve **Hızlı Oluşturma** bölme | Rol, kaynak şirket ve kaynak birimi kombinasyonu için fatura oranını ayarlayın. Örneğin, Fabrikam Hindistan'daki bir geliştiricinin ürün reçetesi oranı bir 100 USD veya Fabrikam ABD'deki bir ürün reçetesi 150 USD fatura puan oranına sahiptir. | Bu fiyat, gelen tahminin birim maliyetindeki varsayılan değer ve zaman hareketi için gerçek satır maliyet oranıdır. |
   | Para birimi | **Genel** sekme ve **Hızlı Oluşturma** bölme| Varsayılan olarak, para birimi değeri satış fiyat listesi üst bilgisindeki para biriminden gelir. Bir satış fiyatı listesinde, para birimi geçersiz kılınamaz. | Bu para birimi, gelen tahminin birim maliyetindeki varsayılan değer ve zaman hareketi için gerçek satır maliyet oranıdır. |
   | Birim Çizelgesi | **Genel** sekme ve **Hızlı Oluşturma** bölme | Birim zamanlama varsayılan olarak Zaman'a dönüştürülebilir ve zaman birimlerine göre ekspres hızlar kullanıldığından Rol fiyat varlığında değiştirilemez. | Bu alanda aşağı yönlü etki yoktur. |
-  | Birim | **Genel** sekme ve **Hızlı Oluşturma** bölme | Maliyet fiyat listesinin üstbilgisindeki **Zaman Birimi** 'nden gelir, ancak geçersiz kılınabilir. Değer geçersiz kılınabilir. Örneğin, Fabrikam Hindistan'dan **Hindistan günü** başına bir geliştirici 1000 USD maliyeti. Fabrikam ABD 'deki geliştirici bir **ABD gün** başına 1500 USD fatura hızına sahiptir. | Gelen tahmin veya gerçek satırdaki birim başına fiyt varsayılanlarında sistem, gelen birim başına varsayılan fiyatı hesaplamak için birim başına maliyeti hesaplamak için birim birim ve dönüşüm sistemini kullanır. Örneğin, Hindistan'dan bir geliştirici için 10 **Hindistan Günü** değerinde çalışma için bir tahmindir ve birim, Hindistan Günü 10 saat olarak tanımlanır. Satırı tahmin eden fiyatlandırma yaparken, uygulama tahmindeki birim fiyatı 1000 USD/10 saat = saat başına 100 USD olarak hesaplar. |
+  | Birim | **Genel** sekme ve **Hızlı Oluşturma** bölme | Maliyet fiyat listesinin üstbilgisindeki **Zaman Birimi**'nden gelir, ancak geçersiz kılınabilir. Değer geçersiz kılınabilir. Örneğin, Fabrikam Hindistan'dan **Hindistan günü** başına bir geliştirici 1000 USD maliyeti. Fabrikam ABD 'deki geliştirici bir **ABD gün** başına 1500 USD fatura hızına sahiptir. | Gelen tahmin veya gerçek satırdaki birim başına fiyt varsayılanlarında sistem, gelen birim başına varsayılan fiyatı hesaplamak için birim başına maliyeti hesaplamak için birim birim ve dönüşüm sistemini kullanır. Örneğin, Hindistan'dan bir geliştirici için 10 **Hindistan Günü** değerinde çalışma için bir tahmindir ve birim, Hindistan Günü 10 saat olarak tanımlanır. Satırı tahmin eden fiyatlandırma yaparken, uygulama tahmindeki birim fiyatı 1000 USD/10 saat = saat başına 100 USD olarak hesaplar. |
 
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>Diğer kuruluş birimlerindeki veya bölmelerin kaynak fiyatlarını aktarın veya fatura oranları ayarlayın. 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088148"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181167"
 ---
 # <a name="project-contract-settings"></a>Proje sözleşme ayarları
 
@@ -23,7 +23,7 @@ Bu konu, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere 
 
 Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales'taki satış siparişlerine göre bazı önemli değişiklikleri olan bir proje teklifinde alanları listelenmiştir.
 
-| Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- | --- |
 | Tür | **Özet** sekmesi (gizli) | Bu seçenek kümesi alanında aşağıdaki seçenekler karma olarak bulunur:</br>- **İş tabanlı** (yalnızca Project Operations yüklendiğinde kullanılabilir)</br>- **Öğe tabanlı** (yalnızca Project Operations ve Sales yüklendiğinde kullanılabilir)</br>- **Servis bakımı tabanlı** (Dynamics 365 Field Service yüklendiğinde kullanılabilir) | Project Operations, bu alanın değeri **çalışma tabanlı** olarak varsayılan olur ve sözleşmeyi proje tabanlı bir sözleşme olarak sınıflandırır. Projeye özgü tüm uzantıları ve işlevleri etkinleştirmek için bir projenin proje tabanlı olması gerekir. |
 | Sahibi Olan Şirket | **Özet** sekmesi | Bu proje sözleşmesiyle ilişkili projelerden tahakkuk eden maliyetleri ve geliri hesaplayacak tüzel kişilik. Sözleşme, bir tekliften oluşturulduğunda, bu alan teklif kaydındaki ilgili alandan kopyalanır. | Sahibi olan şirket, Project Operations'ın **Proje yönetimi ve muhasebe** modülündeki tüzel kişilik kavramına eşittir. Bu projeden tahakkuk eden tüm maliyetler ve gelir, sahibi olan şirketin Genel muhasebesinde hesaplanır. |
@@ -37,7 +37,7 @@ Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya D
 
 Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekmesinde kullanılabilir.
 
-| Alan | Konum | İlgi, amaç ve kılavuz |
+| Alan | Konum | Veri Akışı Açıklaması |
 | --- | --- | --- |
 | Sözleşme Değeri | Genel Sözleşme | Proje sözleşmesinin toplam değeri. |
 | Faturalanan Tutar | Genel Sözleşme | Bu sözleşmeyle ilgili tüm faturalardaki tutarların toplamı. |

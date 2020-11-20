@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086201"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181836"
 ---
 # <a name="copy-project-based-quotes"></a>Proje tabanlı teklifleri kopyalama
 
@@ -25,7 +25,7 @@ Var olanı kopyalayarak kolayca yeni bir Proje teklifi oluşturabilirsiniz.
 
 Bu, kopyanın parametrelerini girebileceğiniz bir iletişim sayfası açar. Aşağıdaki tabloda iletişim sayfasına dahil edilen alanlar listelenmektedir. Seçtiğiniz değerlere bağlı olarak kopyalama işlemi değişebilir.
 
-| **Alan** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- |
 | Başlık | Hedef teklifin ilgili konusunu veya adını girin. İletişim kutusu açıldığında sistem bunu **-kopya** ifadesi eklenmiş olarak kaynak teklifin konu kısmı olarak ayarlar. | |
 | Potansiyel Müşteri | Müşterinin şirket veya firma kaydına başvuru. İletişim kutusu açıldığında sistem bunu kaynak teklifindeki firma olarak ayarlar. | Bu alan, teklifteki birincil müşteridir. |
@@ -35,7 +35,7 @@ Bu, kopyanın parametrelerini girebileceğiniz bir iletişim sayfası açar. Aş
 | Talep Edilen Teslim Tarihi | Bu, müşteri tarafından talep edilen teslim tarihidir. | Bu, belirli bir sıklıkta faturalama tarihleri oluştururken bitiş tarihi olarak kullanılır. |
 | Fiyatlandırmayı kopyala | Evet/Hayır değeri, teklif üzerindeki fiyatlandırmanın kaynak teklifinden kopyalanması gerekip gerekmediğini gösterir. | **Evet** seçilirse proje fiyat listesi ve ürün fiyat listesi başvuruları kaynak tekliften hedef teklife kopyalanır. **Hayır** seçilirse fiyat listeleri, firma veya proje parametrelerinde ayarlanan en son fiyat listelerine göre yeniden varsayılan hale getirilir. |
 
-İletişim sayfasında **Tamam** 'ı seçtiğinizde sistem, iletişim kutusunda seçilen parametrelere göre proje teklifinin bir kopyasını oluşturur. Yeni proje teklifi açılır. 
+İletişim sayfasında **Tamam**'ı seçtiğinizde sistem, iletişim kutusunda seçilen parametrelere göre proje teklifinin bir kopyasını oluşturur. Yeni proje teklifi açılır. 
 
 > [!NOTE]
 > Aşağıdaki bilgiler Kaynak'tan Hedef teklife kopyalanmaz:

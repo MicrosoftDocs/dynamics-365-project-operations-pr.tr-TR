@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086238"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131997"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Faturalanabilir projeler için muhasebeyi yapılandırma
 
@@ -21,8 +21,8 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Dynamics 365 Project Operations, zaman ve malzeme ile sabit fiyatlı işlemler içeren faturalanabilir projeler için çeşitli muhasebe seçeneklerini destekler.
 
-- **Zaman ve malzeme işlemleri** : Bu işlemler, iş ilerledikçe projede tüketilen saatlere, giderlere, öğelere veya ücretlere göre faturalanır. Bu işlem maliyetleri her işlemdeki gelirle eşleştirilebilir ve proje, iş ilerledikçe faturalanır. Proje geliri de işlemin gerçekleştiği sırada tahakkuk edilebilir. Faturalama sırasında gelir tanınır ve mümkünse, tahakkuk eden gelir tersine çevrilir.
-- **Sabit fiyatlı işlemler** : Bu işlemler, proje sözleşmesini temel alan bir fatura zamanlamasına göre faturalandırılır. Sabit fiyatlı işlemlere yönelik gelir, **Tamamlanan sözleşme** veya **Tamamlanan yüzde** yöntemlerine göre faturalanma sırasında tanınabilir veya düzenli olarak hesaplanıp deftere nakledilebilir.
+- **Zaman ve malzeme işlemleri**: Bu işlemler, iş ilerledikçe projede tüketilen saatlere, giderlere, öğelere veya ücretlere göre faturalanır. Bu işlem maliyetleri her işlemdeki gelirle eşleştirilebilir ve proje, iş ilerledikçe faturalanır. Proje geliri de işlemin gerçekleştiği sırada tahakkuk edilebilir. Faturalama sırasında gelir tanınır ve mümkünse, tahakkuk eden gelir tersine çevrilir.
+- **Sabit fiyatlı işlemler**: Bu işlemler, proje sözleşmesini temel alan bir fatura zamanlamasına göre faturalandırılır. Sabit fiyatlı işlemlere yönelik gelir, **Tamamlanan sözleşme** veya **Tamamlanan yüzde** yöntemlerine göre faturalanma sırasında tanınabilir veya düzenli olarak hesaplanıp deftere nakledilebilir.
 
 Bir proje, bir veya daha fazla sözleşme satırı ile ilişkilendirildiğinde faturalanabilir olarak değerlendirilir. İzin verilen faturalama yöntemini ve işlem türlerini proje sözleşme satırı belirler.
 
@@ -40,52 +40,52 @@ Proje maliyet ve gelir profilleri, proje işlemlerinin muhasebe kurallarını be
 
 Yeni bir proje maliyet ve gelir profili oluşturmak için aşağıdaki adımları tamamlayın. 
 
-1. **Proje yönetimi ve muhasebe** > **Kurulum** > **Deftere nakil** > **Proje maliyet ve gelir profilleri** 'ne gidin. 
-2. Yeni bir proje maliyet ve gelir profili oluşturmak için **Yeni** 'yi seçin.
+1. **Proje yönetimi ve muhasebe** > **Kurulum** > **Deftere nakil** > **Proje maliyet ve gelir profilleri**'ne gidin. 
+2. Yeni bir proje maliyet ve gelir profili oluşturmak için **Yeni**'yi seçin.
 3. **Ad** alanına, profilin adını ve kısa açıklamasını girin.
 4. **Faturalama yöntemi** alanında, **Zaman ve malzeme** ya da **Sabit fiyat** seçeneğini belirleyin.
 5. **Kayıt Defteri** hızlı sekmesini genişletin. Bu sekmedeki alanlar, Project Operations entegrasyon günlüğü kullanılarak yevmiye defterine kaydedildiğinde ve ardından Proje fatura teklifi üzerinden faturalandığında kullanılan muhasebe ilkelerini tanımlar.
 6. **Kayıt Defteri** hızlı sekmesinde, aşağıdaki alanlardan uygun bilgileri seçin:
 
-    - **Maliyetleri deftere naklet – saat** :
+    - **Maliyetleri deftere naklet – saat**:
 
-       - *Kayıt Defterine Nakletme* : Project Operations entegrasyon günlüğüne nakledildiğinde zaman işlemlerine ilişkin maliyet Kayıt Defterine nakledilmez. Ancak muhasebeci daha sonra Maliyetleri deftere naklet işlevini kullanarak maliyetleri deftere nakledebilir.
-       - **Bakiye** : Zaman işlemlerinin maliyeti *WIP - Maliyet değeri* Kayıt Defteri hesap türüne borç ve Kayıt defterine nakletme ayarında *Bordro tahsisatı hesabına* alacak olarak kaydedilir. Muhasebeci, bu maliyeti dönemsel olarak bir Bakiye hesabından Kar ve zarar hesabına taşımak için Maliyetleri deftere naklet işlevini kullanır.
-       - **Kar ve zarar** : Project Operations entegrasyon günlüğüne nakledilirken, zaman işlemi maliyeti *Maliyet* Kayıt Defteri hesap türüne borç ve **Kayıt defterine nakletme kurulumu** ( **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Kayıt defterine nakletme ayarı** ) sayfasındaki **Maliyet** sekmesinde tanımlanan *Bordro tahsisatı hesabına* borç olarak kaydedilir. Bu, zaman ve malzeme işlemleri için en çok kullanılan kurulumdur.
-        - *Asla Kayıt Defterine Nakletme* : Zaman işlemlerinin maliyeti hiçbir zaman Kayıt Defterine nakledilmez.
+       - *Kayıt Defterine Nakletme*: Project Operations entegrasyon günlüğüne nakledildiğinde zaman işlemlerine ilişkin maliyet Kayıt Defterine nakledilmez. Ancak muhasebeci daha sonra Maliyetleri deftere naklet işlevini kullanarak maliyetleri deftere nakledebilir.
+       - **Bakiye**: Zaman işlemlerinin maliyeti *WIP - Maliyet değeri* Kayıt Defteri hesap türüne borç ve Kayıt defterine nakletme ayarında *Bordro tahsisatı hesabına* alacak olarak kaydedilir. Muhasebeci, bu maliyeti dönemsel olarak bir Bakiye hesabından Kar ve zarar hesabına taşımak için Maliyetleri deftere naklet işlevini kullanır.
+       - **Kar ve zarar**: Project Operations entegrasyon günlüğüne nakledilirken, zaman işlemi maliyeti *Maliyet* Kayıt Defteri hesap türüne borç ve **Kayıt defterine nakletme kurulumu** (**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Kayıt defterine nakletme ayarı**) sayfasındaki **Maliyet** sekmesinde tanımlanan *Bordro tahsisatı hesabına* borç olarak kaydedilir. Bu, zaman ve malzeme işlemleri için en çok kullanılan kurulumdur.
+        - *Asla Kayıt Defterine Nakletme*: Zaman işlemlerinin maliyeti hiçbir zaman Kayıt Defterine nakledilmez.
 
-    - **Maliyetleri deftere naklet – gider** :
+    - **Maliyetleri deftere naklet – gider**:
 
-         - **Bakiye** : Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *WIP - Maliyet değeri* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlanan şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** > **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır. Muhasebeci, bu maliyeti dönemsel olarak taşımak bir bakiye hesabından kar ve zarar hesabına için **Maliyetleri deftere naklet** işlevini kullanır.
-        - **Kar ve zarar** : Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *Maliyet* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlandığı şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır.
+         - **Bakiye**: Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *WIP - Maliyet değeri* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlanan şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** > **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır. Muhasebeci, bu maliyeti dönemsel olarak taşımak bir bakiye hesabından kar ve zarar hesabına için **Maliyetleri deftere naklet** işlevini kullanır.
+        - **Kar ve zarar**: Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *Maliyet* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlandığı şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır.
        
-    - **Hesapta faturalama** :
+    - **Hesapta faturalama**:
 
-        - **Bakiye** : Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *WIP Faturalanan - hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir.
-         - **Kar ve zarar** : Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *Faturalanan gelir- hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir. Müşteri bakiye hesapları **Alacak hesabı** \> **Kurulum** \> **Müşteri deftere nakil profilleri** 'nde tanımlanır.
+        - **Bakiye**: Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *WIP Faturalanan - hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir.
+         - **Kar ve zarar**: Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *Faturalanan gelir- hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir. Müşteri bakiye hesapları **Alacak hesabı** \> **Kurulum** \> **Müşteri deftere nakil profilleri**'nde tanımlanır.
 
    Zaman ve malzeme faturalama yöntemleri için deftere nakil profillerini tanımladığınızda geliri işlem türüne göre (saat, gider ve ücret) tahakkuk etme seçeneğiniz vardır. **Gelir tahakkuku** seçeneği **Evet** olarak ayarlandığında, Project Operations Entegrasyon günlüğündeki faturalanmamış satış işlemleri genel muhasebeye kaydedilir. Satış değeri, **WIP - satış değeri hesabına** borç ve **Gelir** sekmesindeki **Kayıt defterine nakletme ayarı** sayfasında ayarlanmış **Tahakkuk eden gelir - satış değeri** hesabına alacak olarak kaydedilir. 
   
   > [!NOTE]
-  > **Gelir tahakkuku** seçeneği yalnızca ilgili işlem türü olan **Maliyet** , kar ve zarar hesabına nakledildiğinde kullanılabilir.
+  > **Gelir tahakkuku** seçeneği yalnızca ilgili işlem türü olan **Maliyet**, kar ve zarar hesabına nakledildiğinde kullanılabilir.
     
 7. **Tahmin** hızlı sekmesini genişletin. Bu sekmedeki alanlar, sabit fiyatlı gelir tahminlerine yönelik hesaplama ayarlarını tanımlar. Bu sekmedeki alanlar yalnızca **Sabit fiyatlı** faturalama yöntemiyle Proje maliyet ve gelir profilleri için geçerlidir.
 8. **Tahmin** hızlı sekmesinde, aşağıdaki alanlardan uygun bilgileri seçin:
 
-    - **Proje tamamlama hesaplamaları için kullanılan ilke** :
+    - **Proje tamamlama hesaplamaları için kullanılan ilke**:
 
-        - **Tamamlanan sözleşme** : Maliyet eşleme ve gelir tanıma, proje sonuna kadar gerçekleşmez. Proje tamamlanana kadar maliyetler bakiyeye WIP olarak yansır.
-        - **Tamamlanan yüzde** : Tahakkuk eden gelir, projenin tamamlanma yüzdesine göre her dönem hesaplanır ve kayıt defterine nakledilir. Tamamlanan yüzdeyi hesaplamak için kullanılabilecek birden çok yöntem vardır. Bu yöntemler yapılandırmaya göre otomatik olabilir veya el ile uygulanabilir.
-        - **WIP Yok** : Bu ayar kısa süreli olarak faturayla maliyetlerin aynı dönemde oluştuğu sabit fiyatlı projelerde kullanılır. Bu durumda, **Kayıt Defteri** hızlı sekmesindeki **Hesapta faturalama** alanı değeri, gelirin faturalamada tanınmasını sağlamak için otomatik olarak **Kar ve zarar** seçeneğine ayarlanır. Gelir tahmini işlemi bu proje maliyet ve gelir profili için kullanılmaz.
+        - **Tamamlanan sözleşme**: Maliyet eşleme ve gelir tanıma, proje sonuna kadar gerçekleşmez. Proje tamamlanana kadar maliyetler bakiyeye WIP olarak yansır.
+        - **Tamamlanan yüzde**: Tahakkuk eden gelir, projenin tamamlanma yüzdesine göre her dönem hesaplanır ve kayıt defterine nakledilir. Tamamlanan yüzdeyi hesaplamak için kullanılabilecek birden çok yöntem vardır. Bu yöntemler yapılandırmaya göre otomatik olabilir veya el ile uygulanabilir.
+        - **WIP Yok**: Bu ayar kısa süreli olarak faturayla maliyetlerin aynı dönemde oluştuğu sabit fiyatlı projelerde kullanılır. Bu durumda, **Kayıt Defteri** hızlı sekmesindeki **Hesapta faturalama** alanı değeri, gelirin faturalamada tanınmasını sağlamak için otomatik olarak **Kar ve zarar** seçeneğine ayarlanır. Gelir tahmini işlemi bu proje maliyet ve gelir profili için kullanılmaz.
 
-    - **Eşleştirme ilkesi** : Bu alan, hesaplanan satış değerinin (tahakkuk eden gelir) genel muhasebeye nasıl nakledileceğini belirler.
+    - **Eşleştirme ilkesi**: Bu alan, hesaplanan satış değerinin (tahakkuk eden gelir) genel muhasebeye nasıl nakledileceğini belirler.
 
         - Sistem, satış değerini **Satış değeri** ilkesini kullanarak ve maliyetleri ve geliri eşleştirip tek bir tutar olarak deftere naklederek hesaplar.
         - Sistem, **Üretim ve kar** ilkesini kullanır ve satış değerini gerçekleşmiş maliyetlere ve hesaplanan kara böler. Bunlar deftere ayrı ayrı nakledilir.
 
-    - **Maliyet şablonları** : Proje işlemlerinin işlem türüne ve proje kategorisine göre gruplanmalarına izin verin ve bu gruplar için tamamlanan yüzde hesaplama kurallarını tanımlayın.
-    - **Dönem kodları** : Belirli bir Proje maliyet ve gelir profili için gelir tahminlerinin hesaplanma sıklığını tanımlayın.
-    - **Tahmin kategorileri** : Satış değerini (tahakkuk eden gelir) Proje işlemlerine nakil için kullanılır. Öncelikle, bir **Ücret** işlem türü için ayrılmış proje kategorisini yapılandırın ve ardından bu proje kategorisi için **Tahmin** bayrağını ayarlayın. Ardından, seçili eşleştirme ilkesine bağlı olarak, **Satış** değerinden bu proje kategorisini veya Proje maliyet ve gelir profilinden **Kar** alanını seçin.
+    - **Maliyet şablonları**: Proje işlemlerinin işlem türüne ve proje kategorisine göre gruplanmalarına izin verin ve bu gruplar için tamamlanan yüzde hesaplama kurallarını tanımlayın.
+    - **Dönem kodları**: Belirli bir Proje maliyet ve gelir profili için gelir tahminlerinin hesaplanma sıklığını tanımlayın.
+    - **Tahmin kategorileri**: Satış değerini (tahakkuk eden gelir) Proje işlemlerine nakil için kullanılır. Öncelikle, bir **Ücret** işlem türü için ayrılmış proje kategorisini yapılandırın ve ardından bu proje kategorisi için **Tahmin** bayrağını ayarlayın. Ardından, seçili eşleştirme ilkesine bağlı olarak, **Satış** değerinden bu proje kategorisini veya Proje maliyet ve gelir profilinden **Kar** alanını seçin.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Proje maliyet ve gelir profilleri için örnek yapılandırmalar
 
@@ -122,6 +122,6 @@ Sabit Fiyat – tamamlanan yüzde
 
 ## <a name="configure-project-cost-and-revenue-profile-rules"></a>Proje maliyet ve gelir profili kurallarını yapılandırma
 
-Proje maliyet ve gelir profili kuralları, faturalandırılabilir proje işlemleri işlenirken kullanılması gereken Proje maliyet ve gelir profilini belirler. Kuralları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Proje maliyet ve gelir profili kuralları** 'na giderek tanımlayın.
+Proje maliyet ve gelir profili kuralları, faturalandırılabilir proje işlemleri işlenirken kullanılması gereken Proje maliyet ve gelir profilini belirler. Kuralları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Proje maliyet ve gelir profili kuralları**'na giderek tanımlayın.
 
 Kurallar proje sözleşmesine, proje grubuna veya belirli bir projeye göre tanımlanabilir. Sistem her zaman en yüksek ayrıntı düzeyi kuralını ilk olarak çeker.

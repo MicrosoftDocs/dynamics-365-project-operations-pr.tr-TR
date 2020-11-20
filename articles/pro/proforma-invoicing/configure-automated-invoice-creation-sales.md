@@ -1,22 +1,22 @@
 ---
-title: Otomatik proforma fatura oluşturmayı yapılandırma
+title: Otomatik fatura oluşturmayı yapılandırma - lite
 description: Bu konuda, proforma faturaların otomatik oluşturulmasının yapılandırılması hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e146dd510b3795d52d164fc6acf8e5400ba11310
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086233"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176590"
 ---
-# <a name="configure-automated-proforma-invoice-creation"></a>Otomatik proforma fatura oluşturmayı yapılandırma
-
+# <a name="configure-automatic-invoice-creation---lite"></a>Otomatik fatura oluşturmayı yapılandırma - lite
+ 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Dynamics 365 Project Operations otomatik fatura oluşturmayı yapılandırabilirsiniz. Sistem, her proje sözleşmesi ve sözleşme satırı için fatura planına dayalı olarak bir taslak proforma fatura oluşturur. Fatura zamanlamaları, sözleşme satırı düzeyinde yapılandırılır. Bir sözleşmedeki her satırın ayrı bir fatura çizelgesi olabilir veya sözleşmenin her satırına aynı fatura çizelgesi eklenebilir.
@@ -48,42 +48,42 @@ Bu iki satır öğesinin her birinde tanımlanan fatura zamanlamaları aşağıd
 
 Bu örnekte, otomatik faturalama şu şekilde çalışır:
 
-- **4 Ekim tarihi veya öncesinde herhangi bir tarih** : Bu sözleşme satırlarının **fatura zamanlama** tablosu 4 Ekim Pazar gününü fatura çalışma tarihi olarak aramadığı için bu sözleşme için fatura oluşturulmaz.
-- **5 Ekim Pazartesi** : Bir fatura oluştuulur:
+- **4 Ekim tarihi veya öncesinde herhangi bir tarih**: Bu sözleşme satırlarının **fatura zamanlama** tablosu 4 Ekim Pazar gününü fatura çalışma tarihi olarak aramadığı için bu sözleşme için fatura oluşturulmaz.
+- **5 Ekim Pazartesi**: Bir fatura oluştuulur:
 
     - **Faturaya hazır olarak** işaretlenmişse kilometre taşını içeren prototip işi.
     - **Fatura için hazır** olarak işaretlenen 4 Ekim ayının hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren uygulaması.
     - **Fatura için hazır** olarak işaretlenen 4 Ekim ayının hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren tahakkuk eden gider.
   
-- **6 Ekim tarihi veya 19 Ekim öncesinde herhangi bir tarih** : Bu sözleşme satırlarının **fatura zamanlama** tablosu 6 Ekim veya 19 Ekimden önceki bir tarihi fatura çalışma tarihi olarak aramadığı için bu sözleşme için fatura oluşturulmaz.
-- **19 Ekim, Pazartesi** : **Fatura için hazır** olarak işaretlenen 18 Ekim, Pazar hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren uygulaması.
-- **2 Kasım Pazartesi** : Bir fatura oluştuulur:
+- **6 Ekim tarihi veya 19 Ekim öncesinde herhangi bir tarih**: Bu sözleşme satırlarının **fatura zamanlama** tablosu 6 Ekim veya 19 Ekimden önceki bir tarihi fatura çalışma tarihi olarak aramadığı için bu sözleşme için fatura oluşturulmaz.
+- **19 Ekim, Pazartesi**: **Fatura için hazır** olarak işaretlenen 18 Ekim, Pazar hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren uygulaması.
+- **2 Kasım Pazartesi**: Bir fatura oluştuulur:
 
     - **Fatura için hazır** olarak işaretlenen 1 Kasım ayının hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren uygulaması.
     - **Fatura için hazır** olarak işaretlenen 1 Kasım ayının hareket kesme tarihinden önce oluşturulan tüm hareketleri içeren tahakkuk eden gider.
 
-- **3 Kasım Salı** : **Faturaya hazır** olarak işaretlenmişse 12000 USD kilometre taşını içeren prototip çalışması için bir fatura oluşturulur.
+- **3 Kasım Salı**: **Faturaya hazır** olarak işaretlenmişse 12000 USD kilometre taşını içeren prototip çalışması için bir fatura oluşturulur.
 
 ## <a name="configure-automatic-invoicing"></a>Otomatik faturalamayı yapılandır
 
 Otomatik fatura çalıştırmayı yapılandırmak için bu adımları tamamlayın.
 
-1. **Project Operations** 'da, **Ayarlar** > **Yinelenen fatura ayarı** 'na gidin.
+1. **Project Operations**'da, **Ayarlar** > **Yinelenen fatura ayarı**'na gidin.
 2. Bir toplu iş oluşturun ve **Project Operations Fatura Oluştur** olarak adlandırın. Toplu işin adı "faturaları oluştur" kelimelerini içermelidir.
-3. **İş Türü** alanında **Hiçbiri** 'ni seçin. Varsayılan olarak, **Günlük Sıklık** ve **Etkin** alanları **Evet** olarak ayarlanır.
-4. **İş Akışı Çalıştır** 'ı seçin. **Kayıt Ara** iletişim kutusunda üç iş akışı görürsünüz:
+3. **İş Türü** alanında **Hiçbiri**'ni seçin. Varsayılan olarak, **Günlük Sıklık** ve **Etkin** alanları **Evet** olarak ayarlanır.
+4. **İş Akışı Çalıştır**'ı seçin. **Kayıt Ara** iletişim kutusunda üç iş akışı görürsünüz:
 
 - ProcessRunCaller
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. **ProcessRunCaller** 'ı ve ardından **Ekle** 'yi seçin.
-6. Sonraki iletişim kutusunda **Tamam** 'ı seçin. **Uyku** iş akışının ardından **Süreç** iş akışı gelir. 
+5. **ProcessRunCaller**'ı ve ardından **Ekle**'yi seçin.
+6. Sonraki iletişim kutusunda **Tamam**'ı seçin. **Uyku** iş akışının ardından **Süreç** iş akışı gelir. 
 
 > [!NOTE]
-> Ayrıca, adım 5'te **ProcessRunner** 'ı seçebilirsiniz. Ardından **Tamam** 'ı seçtiğinizde, bir **Süreç** iş akışının ardından bir **Uyku** iş akışı gelir.
+> Ayrıca, adım 5'te **ProcessRunner**'ı seçebilirsiniz. Ardından **Tamam**'ı seçtiğinizde, bir **Süreç** iş akışının ardından bir **Uyku** iş akışı gelir.
 
-**ProcessRunCaller** ve **ProcessRunner** iş akışları faturaları oluşturur. **ProcessRunCaller** **ProcessRunner** 'ı çağırır. **ProcessRunner** , faturaları gerçekte oluşturan iş akışıdır. İş akışı, fatura oluşturulması için gereken tüm sözleşme satırlarından geçer ve bu satırlar için faturalar oluşturur. Faturaların oluşturulması gereken sözleşme satırlarını belirlemek için, iş sözleşme satırları için fatura çalıştırma tarihlerine bakar. Bir sözleşmeye ait olan sözleşme satırları aynı fatura çalıştırma tarihine sahipse, işlemler iki fatura satırı bulunan tek bir faturada birleştirilir. Fatura oluşturulacak bir işlem yoksa, iş fatura oluşturmayı atlar.
+**ProcessRunCaller** ve **ProcessRunner** iş akışları faturaları oluşturur. **ProcessRunCaller** **ProcessRunner**'ı çağırır. **ProcessRunner**, faturaları gerçekte oluşturan iş akışıdır. İş akışı, fatura oluşturulması için gereken tüm sözleşme satırlarından geçer ve bu satırlar için faturalar oluşturur. Faturaların oluşturulması gereken sözleşme satırlarını belirlemek için, iş sözleşme satırları için fatura çalıştırma tarihlerine bakar. Bir sözleşmeye ait olan sözleşme satırları aynı fatura çalıştırma tarihine sahipse, işlemler iki fatura satırı bulunan tek bir faturada birleştirilir. Fatura oluşturulacak bir işlem yoksa, iş fatura oluşturmayı atlar.
 
 **ProcessRunner** çalışması bittikten sonra, **ProcessRunCaller** öğesini çağırır, bitiş saati sağlar ve kapatılır. **ProcessRunCaller** daha sonra belirtilen bitiş saatinden itibaren 24 saat çalışan bir zamanlayıcı başlatır. Zamanlayıcının sonunda **ProcessRunCaller** kapatılır.
 

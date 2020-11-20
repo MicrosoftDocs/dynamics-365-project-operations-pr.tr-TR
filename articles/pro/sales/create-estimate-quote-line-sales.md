@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 56892a134c0c739958f7f939214930631dea7420
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086228"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180396"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Proje tabanlı bir teklif satırını tahmin etme
 
@@ -30,9 +30,9 @@ Proje tabanlı teklif satırını tahmin etmek için proje tabanlı teklif satı
 
 Proje tabanlı teklif satırında bir tahmin oluşturmak için **Teklif Satırı Ayrıntısı** sekmesini seçin. Bu sekmede oluşturduğunuz satır öğesi, bu teklif satırının teklif değerini özetler. 
 
-Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntıları** alt ızgarasında **+ Yeni teklif satırı ayrıntısı** 'nı seçin. Hızlı oluşturma kaydırıcısı açılır. **Teklif Satırı** formunda aşağıdaki alanlar:
+Teklif satırı ayrıntıları oluşturmak için **teklif satırı ayrıntıları** alt ızgarasında **yeni teklif satırı ayrıntısı ekle**'yi seçin. Hızlı oluşturma kaydırıcısı açılır. **Teklif Satırı** formunda aşağıdaki alanlar:
 
-| **Alan** | **Konum** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
 | Veri Akışı Açıklaması | Hızlı oluştur | Belirli bir tahminin açıklaması. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
 | İşlem Sınıfı | Hızlı oluştur | Bu açılan listede, proje tabanlı teklif satırının **Genel** sekmesine dahil edilen işlem sınıfları sağlanır.  | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
@@ -50,11 +50,11 @@ Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntılar�
 
 ## <a name="update-prices-on-quote-line-details"></a>Teklif satırı ayrıntılarında fiyatları güncelleştirme
 
-Teklife ekli proje fiyat listesinde veya sözleşme biriminin maliyet fiyatı listesinde fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere tek tek teklif satırı ayrıntılarındaki fiyatları yenilemek için **Teklif** sayfasında **Yeniden Hesapla** seçeneğini belirleyebilirsiniz. **Yeniden Hesapla** seçeneğini belirlediğinizde, bu teklifteki tüm teklif satırları için teklif satırı ayrıntılarındaki fiyatların sıfırlanacağını bildiren bir uyarı oluşur. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet** 'i seçin.
+Teklife ekli proje fiyat listesinde veya sözleşme biriminin maliyet fiyatı listesinde fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere tek tek teklif satırı ayrıntılarındaki fiyatları yenilemek için **Teklif** sayfasında **Yeniden Hesapla** seçeneğini belirleyebilirsiniz. **Yeniden Hesapla** seçeneğini belirlediğinizde, bu teklifteki tüm teklif satırları için teklif satırı ayrıntılarındaki fiyatların sıfırlanacağını bildiren bir uyarı oluşur. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet**'i seçin.
 
 ## <a name="access-quote-line-details-for-cost"></a>Maliyet için teklif satırı ayrıntılarına erişme
 
-**Teklif Satırı Ayrıntıları** sekmesinde, alt ızgaranın araç çubuğunda bazı eylemleri etkinleştirmek için ızgarada bir satır seçin. Teklif satırı ayrıntısı seçildiğinde alt ızgara araç çubuğundaki ilk eylem **Maliyet Ayrıntısını Aç** seçeneğidir. Bu teklif satırı için ilgili maliyet oranını ve tutarı görmek üzere **Maliyet Ayrıntısını Aç** 'ı seçin.
+**Teklif satırı ayrıntıları** sekmesinde, alt kılavuzun araç çubuğunda bazı eylemleri etkinleştirmek için ızgarasında bir satır seçin. Teklif satırı ayrıntısı seçildiğinde alt ızgara araç çubuğundaki ilk eylem **Açık maliyet ayrıntısı** olur. Bu teklif satırı için ilgili maliyet oranını ve tutarı görmek üzere **Maliyet Ayrıntısını Aç**'ı seçin.
 
 > [!NOTE]
 > Maliyet için teklif satırı ayrıntısında kaynak birimi, miktar, tarihler, rol veya kategori değerlerinin değiştirilmesi, satışlar için teklif satırı ayrıntılarında karşılık gelen değerleri değiştirir.

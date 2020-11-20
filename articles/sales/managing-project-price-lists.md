@@ -1,12 +1,12 @@
 ---
-title: Proje fiyat listeleri
+title: Teklifte proje fiyat listelerini yönetme
 description: Bu konu, Proje fiyat listesi varlığı hakkında bilgi sağlar.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086550"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177220"
 ---
-# <a name="project-price-lists"></a>Proje fiyat listeleri
+# <a name="manage-project-price-lists-on-a-quote"></a>Teklifte proje fiyat listelerini yönetme
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
@@ -34,16 +34,16 @@ Dynamics 365 Project Operations, Dynamics 365 Sales'de Fiyat listesi varlığın
 
 Fiyat listesi, dört farklı varlık tarafından sağlanan bilgileri içerir:
 
-- **Fiyat listesi** : Bu varlık bağlam, para birimi, geçerlilik tarihi ve fiyatlandırma zamanı için zaman birimiyle ilgili bilgileri depolar. Bağlam, fiyat listesinin maliyet oranlarını mı veya satış oranlarını mı ifade ettiğini gösterir. 
-- **Para birimi** : Bu varlık, fiyat listesindeki fiyatların para birimini depolar. 
-- **Tarih** : Bu varlık, sistem bir işlemde varsayılan bir fiyatı girmeye çalıştığında kullanılır. İşlem tarihini içeren geçerlilik tarihi bulunan fiyat listesi seçilir. İşlem tarihi için geçerli olan birden çok fiyat listesi bulunursa, ilgili teklife, sözleşmeye veya kuruluş birimine iliştirilir, hiçbir fiyat varsayılan olarak ayarlanmaz. 
-- **Zaman** : Bu varlık, fiyatların ifade edildiği (günlük veya saatlik oran gibi) zaman birimlerini depolar. 
+- **Fiyat listesi**: Bu varlık bağlam, para birimi, geçerlilik tarihi ve fiyatlandırma zamanı için zaman birimiyle ilgili bilgileri depolar. Bağlam, fiyat listesinin maliyet oranlarını mı veya satış oranlarını mı ifade ettiğini gösterir. 
+- **Para birimi**: Bu varlık, fiyat listesindeki fiyatların para birimini depolar. 
+- **Tarih**: Bu varlık, sistem bir işlemde varsayılan bir fiyatı girmeye çalıştığında kullanılır. İşlem tarihini içeren geçerlilik tarihi bulunan fiyat listesi seçilir. İşlem tarihi için geçerli olan birden çok fiyat listesi bulunursa, ilgili teklife, sözleşmeye veya kuruluş birimine iliştirilir, hiçbir fiyat varsayılan olarak ayarlanmaz. 
+- **Zaman**: Bu varlık, fiyatların ifade edildiği (günlük veya saatlik oran gibi) zaman birimlerini depolar. 
 
 Fiyat listesi varlığında fiyatları depolayan üç ilişkili tablo bulunur:
 
-  - **Rol Fiyatı** : Bu tabloda rol ve kuruluş birimi değerlerinin birleşimiyle ilgili bir oran depolanır ve insan kaynakları için rol tabanlı fiyatlar ayarlamak için kullanılır.
-  - **İş Kategorisi Fiyatı** : Bu tablo, fiyatları hareket kategorisine göre depolar ve gider kategorisi fiyatlarını ayarlamak için kullanılır.
-  - **Fiyat Listesi Öğeleri** : Bu tablo, katalog ürünlerinin fiyatlarını depolar.
+  - **Rol Fiyatı**: Bu tabloda rol ve kuruluş birimi değerlerinin birleşimiyle ilgili bir oran depolanır ve insan kaynakları için rol tabanlı fiyatlar ayarlamak için kullanılır.
+  - **İş Kategorisi Fiyatı**: Bu tablo, fiyatları hareket kategorisine göre depolar ve gider kategorisi fiyatlarını ayarlamak için kullanılır.
+  - **Fiyat Listesi Öğeleri**: Bu tablo, katalog ürünlerinin fiyatlarını depolar.
  
 Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile Rol fiyatı, İşlem Kategorisi Fiyatı ve Fiyat Listesi Öğeleri tablolarındaki ilgili satırların birleşimidir.
 
@@ -59,9 +59,9 @@ Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile
 
 Proje danışmanlarının gerçekleştirdiği seyahat ve diğer giderler müşteriye faturalanır. Fiyat listelerini kullanarak gider kategorisi fiyatları tamamlanır. Uçak bileti ücreti, otel ve araba kiralama gider kategorilerine yönelik örneklerdir. Giderler için her fiyat listesi satırı, belirli bir gider kategorisi için fiyatlandırmayı belirtir. Aşağıdaki üç yöntem fiyat gideri kategorileri için kullanılır:
 
-- **Maliyette** : Gider maliyeti müşteriye faturalanır, hiçbir kar payı uygulanmaz.
-- **Kar payı yüzdesi** : Fiili maliyetin üzerindeki yüzde müşteriye faturalanır. 
-- **Birim fiyatı** : Gider kategorisinin her birimi için bir faturalama fiyatı ayarlanır. Müşteriye fatura edilen tutar, danışman tarafından rapor edilen gider birimi sayısına göre hesaplanır. Ulaşım birim fiyatı fiyatlandırma yöntemini kullanır. Örneğin, ulaşım gideri kategorisi günde 30 ABD Doları (USD) veya her mil için 2 USD olarak yapılandırılabilir. Bir danışman bir projeye ait ulaşım raporunu hazırladığında, faturalanacak tutar danışmanın raporladığı mil sayısına göre hesaplanır.
+- **Maliyette**: Gider maliyeti müşteriye faturalanır, hiçbir kar payı uygulanmaz.
+- **Kar payı yüzdesi**: Fiili maliyetin üzerindeki yüzde müşteriye faturalanır. 
+- **Birim fiyatı**: Gider kategorisinin her birimi için bir faturalama fiyatı ayarlanır. Müşteriye fatura edilen tutar, danışman tarafından rapor edilen gider birimi sayısına göre hesaplanır. Ulaşım birim fiyatı fiyatlandırma yöntemini kullanır. Örneğin, ulaşım gideri kategorisi günde 30 ABD Doları (USD) veya her mil için 2 USD olarak yapılandırılabilir. Bir danışman bir projeye ait ulaşım raporunu hazırladığında, faturalanacak tutar danışmanın raporladığı mil sayısına göre hesaplanır.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proje satış fiyatları ve geçersiz kılmalar
 
@@ -103,7 +103,7 @@ Bir teklife veya proje sözleşmesine varsayılan olarak girilen proje fiyatı l
 
 Varsayılan olarak, bir proje sözleşmesi ana satış fiyatı listesinin her zaman doğrudan bağlantısı yerine bir kopyasını alır. Bu davranış, ana fiyat listesi değiştirilirse, bir iş bildirimi (SOW) için müşteriyle yapılan fiyat anlaşmalarının değişmeyeceğinden emin olmaya yardımcı olur.
 
-Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir ana fiyat listesini kopyalayabilir ve bu teklife uygulanan özel bir fiyat listesi oluşturmak için düzenleyebilirsiniz. Bir teklife özel yeni bir fiyat listesi oluşturmak için **Teklif** sayfasında **Özel fiyatlandırma oluştur** 'u seçin. Anlaşmaya özgü proje fiyat listesine yalnızca tekliften erişebilirsiniz. 
+Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir ana fiyat listesini kopyalayabilir ve bu teklife uygulanan özel bir fiyat listesi oluşturmak için düzenleyebilirsiniz. Bir teklife özel yeni bir fiyat listesi oluşturmak için **Teklif** sayfasında **Özel fiyatlandırma oluştur**'u seçin. Anlaşmaya özgü proje fiyat listesine yalnızca tekliften erişebilirsiniz. 
 
 Özel bir proje fiyat listesi oluşturduğunuzda, yalnızca fiyat listesinin proje bileşenleri kopyalanır. Başka bir deyişle, yeni fiyat listesi, teklife iliştirilen varolan proje fiyat listesinin bir kopyası olarak oluşturulur ve bu yeni fiyat listesinde yalnızca ilgili rol fiyatları ve işlem kategorisi fiyatları vardır.
   

@@ -3,7 +3,7 @@ title: Yükleme ve özelleştirme
 description: Project Service yükleme ve özelleştirme
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f2d88160ab6d9020ea65553829c7139fce585701
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ca09cad3d3a54f4210bd4d2bd37ea0b14d451e29
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086380"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132847"
 ---
 # <a name="install-and-customize-project-service"></a>Yükleme ve özelleştirme (Project Service)
 

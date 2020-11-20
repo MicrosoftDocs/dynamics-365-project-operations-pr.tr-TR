@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,11 +17,11 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 15cacd6956196e6c9b0e3434acb75580ff66a292
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b14a22ac728e969944e014c9a6399841f1e9fc4a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086290"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132161"
 ---
 # <a name="whats-new-in-project-operations"></a>Project Operations'taki yenilikler

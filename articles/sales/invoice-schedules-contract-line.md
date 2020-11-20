@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 23378b51c8324a60918ad494e7f659dbbc94e2a8
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4086556"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180801"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırında fatura zamanlaması oluşturma 
 
@@ -25,15 +25,15 @@ Proje tabanlı sözleşme satırında fatura zamanlaması oluşturabilirsiniz. Y
 
 Proje tabanlı sözleşme satırının saati ve malzeme faturalama yöntemi oldğuunda, tarih tabanlı fatura zamanlaması oluşturur. Otomatik olarak tarih tabanlı fatura zamanlaması oluşturmak için aşağıdaki adımları tamamlayın.
 
-1. **Ayarlar** > **fatura sıklıkları** 'na gidin ve bir fatura sıklığı ayarlayın.
+1. **Ayarlar** > **fatura sıklıkları**'na gidin ve bir fatura sıklığı ayarlayın.
 2. Proje sözleşmesi kaydına gidin ve **Özet** sekmesinde, **istenen teslim tarihi** alanında bir tarih seçin.
 3. Tarih tabanlı fatura zamanlaması oluşturmanız için gereken **zaman ve malzeme** teklif satırını açın. 
 4. **Fatura Zamanlaması** sekmesinde, Faturalama başlangıcı ve Fatura Sıklığı alanlarında değerler seçin.
-5. Alt ızgarada, **Fatura Zamanlaması Oluştur** 'u seçin. Fatura zamanlamasını aşağıdaki şekilde ayarlanan **Fatura Çalıştırma Tarihi** , **İşlem Durdurma Tarihi** ve **Çalıştırma Durumu** alanlarıyla birlikte oluşturur:
+5. Alt ızgarada, **Fatura Zamanlaması Oluştur**'u seçin. Fatura zamanlamasını aşağıdaki şekilde ayarlanan **Fatura Çalıştırma Tarihi**, **İşlem Durdurma Tarihi** ve **Çalıştırma Durumu** alanlarıyla birlikte oluşturur:
 
     - **Fatura Çalıştırma Tarihi:** Tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
-    - **İşlem durdurma tarihi** : Fatura çalıştırma tarihinden önceki gün.
-    - **Çalıştırma Durumu** : **Çalışmadı** olarak otomatik ayarlanır. Otomatik fatura oluşturma işi, belirli bir fatura çalışma tarihi için çalıştırıldığında, bu alanı **Çalıştırma Başarılı** veya **Çalıştırılamadı** olarak güncelleştirir.
+    - **İşlem durdurma tarihi**: Fatura çalıştırma tarihinden önceki gün.
+    - **Çalıştırma Durumu**: **Çalışmadı** olarak otomatik ayarlanır. Otomatik fatura oluşturma işi, belirli bir fatura çalışma tarihi için çalıştırıldığında, bu alanı **Çalıştırma Başarılı** veya **Çalıştırılamadı** olarak güncelleştirir.
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Sözleşme satırı için Sabit fiyatlı fatura zamanlaması oluşturma
 
@@ -44,14 +44,14 @@ Sözleşme satırında bir Sabit faturalama yöntemi olduğunda sistem, kilometr
 
 Takvim döneminde eşit olarak dağıtılan sabit bir kilometre taşı kümesi için bu zamanlamayı otomatik oluşturmak üzere aşağıdaki adımları tamamlayın.
 
-1. **Ayarlar** > **fatura sıklıkları** 'na gidin ve bir fatura sıklığı ayarlayın.
+1. **Ayarlar** > **fatura sıklıkları**'na gidin ve bir fatura sıklığı ayarlayın.
 2. Proje sözleşmesi kaydına gidin ve **Özet** sekmesinde, **istenen teslim tarihi** alanında bir tarih seçin.
 3. Kilometre taşı zamanlaması oluşturmak için ihtiyacınız olan **sabit fiyatlı** teklif satırını açın. **Faturalandırma Dönüm Noktaları** sekmesinde, Faturalama başlangıcı ve Fatura Sıklığı alanlarında değerler seçin. 
-4. Alt ızgarada, **Düzenli Kilometre Taşları Oluştur** 'u seçin. Fatura çizelgesi, **kilometre taşı adı** , **kilometre taşı tarihi** ve **kilometre taşı tutarı** alanları aşağıdaki gibi ayarlanmış olarak oluşturulur:
+4. Alt ızgarada, **Düzenli Kilometre Taşları Oluştur**'u seçin. Fatura çizelgesi, **kilometre taşı adı**, **kilometre taşı tarihi** ve **kilometre taşı tutarı** alanları aşağıdaki gibi ayarlanmış olarak oluşturulur:
 
     - **Dönüm noktası adı:** Tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
     - **Dönüm noktası tarihi:** Tarihin fatura sıklığına bağlı olarak belirlenmesiyle ayarlanır.
-    - **Kilometre taşı tutarı** : Sözleşme satırındaki teklif tutarının, sıklık ve faturalama başlangıcı ve istenen teslim tarihlerine göre belirlenen kilometre taşı sayısına bölünmesiyle hesaplanır.
+    - **Kilometre taşı tutarı**: Sözleşme satırındaki teklif tutarının, sıklık ve faturalama başlangıcı ve istenen teslim tarihlerine göre belirlenen kilometre taşı sayısına bölünmesiyle hesaplanır.
 
     Sözleşme satırının **Tahmini KDV Tutarı** alanında bir değeri varsa bu alan dönemsel kilometre taşları oluştururken aynı zamanda her kilometre taşına da gönderilir.
 
@@ -61,10 +61,10 @@ Fatura kilometre taşları, sözleşme satırının sözleşmeli değerine eşit
 
 Sabit fiyatlı kilometre taşları, düzenli aralıklarla bölünmediğinde de el ile oluşturulabilir. Manuel olarak dönüm noktası oluşturmak için aşağıdaki adımları tamamlayın.
 
-1. Kilometre taşı oluşturduğunuz sabit fiyatlı sözleşme satırını açın ve **fatura çizelgesi** sekmesinde, alt ızgarada, **+ yeni sözleşme satırı kilometre taşı oluştur** 'u seçin. 
+1. Kilometre taşı oluşturduğunuz sabit fiyatlı sözleşme satırını açın ve **fatura çizelgesi** sekmesinde, alt ızgarada, **+ yeni sözleşme satırı kilometre taşı oluştur**'u seçin. 
 2. **Kilometre taşı oluşturma** sayfasında, aşağıdaki tabloya göre gerekli bilgileri girin.
 
-| Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- | --- |
 | Kilometre Taşı Adı | Hızlı Oluştur | Kilometre taşının adına ait metin alanı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Proje Görevi | Hızlı Oluştur | Kilometre taşı, proje görevine bağlıysa bu başvuruyu görev durumuna göre kilometre taşı durumu olarak ayarlanan özel mantık eklemek için kullanabilirsiniz. | Uygulamada bir görev için bu başvurunun aşağı yönlü etkisi yoktur. |
@@ -73,4 +73,4 @@ Sabit fiyatlı kilometre taşları, düzenli aralıklarla bölünmediğinde de e
 | Satır Tutarı | Hızlı Oluştur | Müşteriye faturalanacak kilometre taşının tutarı veya değeri. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Vergi | Hızlı Oluştur | Kilometre taşına uygulanan vergi tutarı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 
-3. **Kaydet ve Kapat** 'ı seçin.
+3. **Kaydet ve Kapat**'ı seçin.

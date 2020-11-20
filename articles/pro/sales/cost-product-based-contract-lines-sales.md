@@ -1,21 +1,21 @@
 ---
-title: Ürün tabanlı sözleşme satırlarını maliyetlendirme
+title: Ürün tabanlı sözleşme satırlarını maliyetlendirin - lite
 description: Bu konu oluşturma hakkında bilgi sağlar
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4086555"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177266"
 ---
-# <a name="costing-product-based-contract-lines"></a>Ürün tabanlı sözleşme satırlarını maliyetlendirme
+# <a name="cost-product-based-contract-lines---lite"></a>Ürün tabanlı sözleşme satırlarını maliyetlendirin - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 

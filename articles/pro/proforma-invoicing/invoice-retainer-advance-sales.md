@@ -1,21 +1,21 @@
 ---
-title: Elde tutulan tutar veya avans faturalama
+title: Elde tutulan tutar veya avans faturalama - lite
 description: Bu konu, Project Operations'da elde kalanı veya avansı faturalama hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088144"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180576"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Elde tutulan tutar veya avans faturalama - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -33,7 +33,7 @@ Elde tutulan veya avans faturaamak için bu adımları tamamlayın.
 Elde tutulan veya doğrudan fatura üzerinde önceden bir uyarı oluşturabilirsiniz.
 
 1. Bir taslak faturada, **avanslar ve elde tutulan** alt ızgarasında Yeni bir elde tutulan oluşturmak için **yeni** ' yi seçin. 
-2. **Hızlı kayıt** sayfasında, gerekli bilgileri ekleyin ve ardından **Kaydet** 'i seçin. Elde tutulan veya avans, faturayla ilgili proje sözleşmesinde oluşturulur. Avanslar ve Elde tutlanlar otomatik olarak **faturaya hazır** olarak işaretlenir, **Fatura** sayfasında **Avanslar ve Elde tutulanlar** alt kılavuzuna eklenir.
+2. **Hızlı kayıt** sayfasında, gerekli bilgileri ekleyin ve ardından **Kaydet**'i seçin. Elde tutulan veya avans, faturayla ilgili proje sözleşmesinde oluşturulur. Avanslar ve Elde tutlanlar otomatik olarak **faturaya hazır** olarak işaretlenir, **Fatura** sayfasında **Avanslar ve Elde tutulanlar** alt kılavuzuna eklenir.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Faturalanan elde tutulan tutar veya avans mutabakatı
 
@@ -43,7 +43,7 @@ Retainers veya avanslar içeren bir proje sözleşmesi için oluşturulan her fa
 
 Bu, **Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. Aşağıdaki tablo **Proje fatura** sayfasının **uygulanan elde tutulan ve avanslar** kılavuzundaki alanlar hakkında bilgi sağlar.
 
-| Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- | --- |
 | Veri Akışı Açıklaması | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. |Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir açıklama sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, faturaya hangi elde tutulan veya avansa uygulanacağını belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Teslimat Tarihi | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir fatura tarihi sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, müşteriye ilk fatura edilen elde tutulan veya avansa uygulanacağı tarihi belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |

@@ -1,21 +1,21 @@
 ---
-title: Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
+title: Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma -lite
 description: Bu konu, Project Operations'daki sözleşme satırlarına ücretlendirilebilir bileşenlerin nasıl eklenebilir olduğu hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086231"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177175"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma -lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -34,7 +34,7 @@ Dahil edilen bileşenlerin bir alt kümesi, **Fatura Türü** alanı kullanılar
 
 Ücretlendirilebilir bileşenler görevlerde, rollerde ve işlem kategorilerinde tanımlanabilir.
 
-Borçlandırılabilirlik, bir proje sözleşme satırı için görevlerde tanımlanır ve o satıra dahil edilen tüm hareket sınıflarına uygulanır. Proje satırındaki **Görevleri dahil et** alanı * *tüm proje* * olarak ayarlandıysa veya boş bırakılırsa, **ücrete tabi görevler** sekmesi kullanılamaz.
+Borçlandırılabilirlik, bir proje sözleşme satırı için görevlerde tanımlanır ve o satıra dahil edilen tüm hareket sınıflarına uygulanır. Proje satırındaki **Görevleri dahil et** alanı **tüm proje** olarak ayarlandıysa veya boş bırakılırsa, **ücrete tabi görevler** sekmesi kullanılamaz.
 
 Borçlandırılabilirlik, bir teklif satırı için rollerde tanımlanır ve yalnızca **Zaman** işlem sınıfına uygulanır. Sözleşme satırına **Zamanı dahil et** alanı proje teklif satırında **Hayır** olarak ayarlanırsa **ücrete tabi roller** sekmesi kullanılamaz.
 
@@ -46,19 +46,19 @@ Proje görevi, aşağıdaki kurulumu olası yapan belirli bir sözleşme satır�
 
 Proje tabanlı bir sözleşme satırı **Zaman** ve belirli bir görev içeriyorsa, **T1** bununla ücretli olarak ilişkilendirilir. **Giderleri** içeren ikinci bir sözleşme satırı varsa , sözleşme satırındaki T1 görevini borçlandırılamayan olarak ilişkilendirebilirsiniz. Sonuçta, görevde kaydedilen tüm zaman borçlandırılabilir ve tüm giderler Borçlandırılamaz.
 
-Görevin faturalama türü, sözleşme satırı görevleri alt kılavuzundaki **faturalama türü** alanını güncelleştirerek sözleşme satırının **ücrete tabi Görevler** sekmesinde yapılandırılabilir. Alternatif olarak, görevle ilişkili sözleşme satırlarını gösteren **faturalama türü** alanında bulunan proje göreviyle ilgili faturalama türünü güncelleştirebilirsiniz.
+Görevin faturalama türü, sözleşme satırı görevleri alt kılavuzundaki **faturalama türü** alanını güncelleştirerek, sözleşme satırındaki **ücrete tabi Görevler** sekmesinde yapılandırılabilir. Alternatif olarak, görevle ilişkili sözleşme satırlarını gösteren bir projenin görev faturalama kurulumunun alt kılavuzundaki **fatura türü** alanını güncelleştirebilirsiniz.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Rolü borçlandırılabilir veya borçlandırılamayan olarak güncelleştirme
 
 Bir rol, belirli bir sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
-Bir rolün fatura türü, sözleşme satırının **Ücretlendirilebilir Roller** sekmesinde yapılandırılabilir. Bunu yapmak için, **Ücretli Roller** alt ızgarasındaki **Fatura Türü** alanını güncelleştirin.
+Bir rolün fatura türü, sözleşme satırının **Ücretlendirilebilir Roller** sekmesinde yapılandırılabilir. Bunu yapmak için, **Borçlandırılabilir roller** alt kılavuzundaki **faturalama türü** alanını güncelleştirin.
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Bir işlem kategorinin ücretlendirilebilir veya ücretlendirilemez olarak güncelleştirin
 
 Bir hareket kategorisi, belirli bir sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
-Bir işlemin fatura türü, proje tabanlı sözleşme satırının **Ücretlendirilebilir Kategoriler** sekmesinde yapılandırılabilir. Bunu yapmak için, **Ücretli Kategoriler** alt ızgarasındaki **Fatura Türü** alanını güncelleştirin.
+Bir işlemin fatura türü, proje tabanlı sözleşme satırının **Ücretlendirilebilir Kategoriler** sekmesinde yapılandırılabilir. Bunu yapmak için, **Borçlandırılabilir Kategoriler** alt kılavuzundaki **faturalama türü** alanını güncelleştirin.
 
 ### <a name="resolve-chargeability"></a>Şarj edilebilirliği çözme
 

@@ -3,7 +3,7 @@ title: Proje fırsatı oluşturma
 description: Project Service'ta proje fırsatı oluşturma
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086516"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133257"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Proje fırsatı oluşturma (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4086516"
 
 Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak müşteri adaylarıdır. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]'daki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] yetenekleri firmalarınızdan biri için fırsat açma, proje teklifi hazırlama ve müşterinizle bir proje sözleşmesi üzerinde çalışma adımları boyunca size yol gösterir. Bir fırsat ekleyerek başlayın. Fırsata hizmetler ve ürünler için tahminler de ekleyebilirsiniz. Bir fırsat eklediğinizde, projenizin **Nitelikli Hale Getir** aşamasındasınızdır.  
   
-1.  **Project Service > Fırsatlar** 'a gidin.  
+1.  **Project Service > Fırsatlar**'a gidin.  
   
 2.  **Yeni** düğmesini tıklatın.  
   
@@ -45,7 +45,7 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 7.  Rakip eklemek için **Rakipler** alanında **+** öğesine tıklayın.  
   
-8.  Fırsata bir ürün eklemek için, **Fırsat Satırları** alanındaki **Ürün Tabanlı Satırlar** altında **Yeni** 'ye tıklayın. **Ürün Adı** altında bir öğe seçin ve ardından miktarı, satış fiyatını ve müşteri bütçesini belirtin.  
+8.  Fırsata bir ürün eklemek için, **Fırsat Satırları** alanındaki **Ürün Tabanlı Satırlar** altında **Yeni**'ye tıklayın. **Ürün Adı** altında bir öğe seçin ve ardından miktarı, satış fiyatını ve müşteri bütçesini belirtin.  
   
 9. Fırsata bir proje tahmini eklemek için, **Fırsat Satırları** alanındaki **Proje Tabanlı Satırlar** altında **+** öğesine tıklayın. Varsa, adı, bütçe tutarını ve projeyi girin. Bir tahmin ileri sürmek için iş kırılım yapısına sahip bir proje oluşturmanız gerekiyorsa, bkz. [Bir proje oluştur](../psa/create-project.md).  
   

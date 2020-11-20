@@ -1,29 +1,23 @@
 ---
-title: Satış süreçlerine genel bakış
+title: Satış sürecine genel bakış
 description: Bu konu, temel satış süreçleri hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086523"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177625"
 ---
-# <a name="sales-processes-overview"></a>Satış süreçlerine genel bakış
+# <a name="sales-process-overview"></a>Satış sürecine genel bakış
+
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Proje tabanlı bir kuruluşta kullanılan satış süreçleri, ürün tabanlı bir kuruluşta kullanılan satış süreçleriyle farklılık gösterir. Proje tabanlı kuruluşların satış döngülerinin uzun olmasından ve her bir anlaşma için teklifleri analiz etmek ve oluşturmak üzere özel tahmin teknikleri gerektirmesinden kaynaklanır. Dynamics 365 Project Operations, satış işleminde kullanılan aşağıdaki işlevlerden bazılarını kullanır.
 
@@ -56,7 +50,7 @@ Satış sürecinizi yapılandırmak için, iş süreci akışlarını kullanabil
  
 Kuruluşunuz geliştikçe aynı anlaşmayı temsil etmek için farklı varlıklar kullanabilir. Satış sürecinin başlarında, bir anlaşma Fırsat varlığı ile temsil edilir. Zaman geçtikçe ve daha fazla ayrıntı ortaya çıktığında, bir veya daha fazla teklif oluşturmak için yüksek düzeyde tahminler kullanabilirsiniz. Bu tekliflerinden biri dahili ve müşteri paydaşları tarafından gözden geçirilirse, Teklif varlığı anlaşmayı temsil eder. Müşteri teklifi kabul ettikten sonra, bir proje sözleşmesi veya iş beyanı anlaşmayı temsil eder. Bu davranışı desteklemek için, iş süreci akışları yapılandırılır ve böylece süreçteki her aşama farklı bir veritabanı tablosuna bağlanır.
 
-Satış sürecindeki **Uygun bul** aşaması bir Fırsat varlığıyla desteklenebilir. **Tahmin** ve **Dahili İnceleme** aşamaları bir Teklif varlığıyla desteklenebilir. **Sözleşme** , **Teslimat** ve **Kapatma** aşamaları, bir Proje Sözleşmesi varlığı tarafından desteklenebilir.
+Satış sürecindeki **Uygun bul** aşaması bir Fırsat varlığıyla desteklenebilir. **Tahmin** ve **Dahili İnceleme** aşamaları bir Teklif varlığıyla desteklenebilir. **Sözleşme**, **Teslimat** ve **Kapatma** aşamaları, bir Proje Sözleşmesi varlığı tarafından desteklenebilir.
 
 Anlaşmaşarı aşamalar arasında ilerlettiğinizde, süreç boyunca size yol göstermek için uygun varlık kaydını oluşturmanız istenir. Aşamalar koşullu olabilir. Örneğin, yalnızca teklif özel bir fiyat listesi kullanılması durumunda teklifin dahili olarak gözden geçirilmesini gerekli kılarsanız, bu koşulu iş sürecinin uygun aşamasında yapılandırabilirsiniz. Ardından **Dahili İnceleme** aşaması yalnızca özel fiyat listesi kullanan teklifler için gösterilir. Diğer tüm anlaşmalar ve teklifler için **Tahmin** aşamasının ardından **Sözleşme** aşaması gelir.
 

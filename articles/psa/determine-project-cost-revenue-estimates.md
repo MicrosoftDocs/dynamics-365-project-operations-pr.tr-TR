@@ -3,7 +3,7 @@ title: Proje maliyeti ve gelir tahminlerini belirle
 description: Project Service'ta proje maliyet ve gelir tahminlerini belirleme
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1652b39b6c8a703bf198a990eb9047eff9dc9f4c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 66fa8f4374caa08b07663cc9d261bfff8ce30c87
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086332"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133032"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Proje maliyeti ve gelir tahminlerini belirle 
 
@@ -35,7 +35,7 @@ Proje tahminleri, projenin iş kırılım yapısındaki tahmini ve zamanlanan ç
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] fiyat listeleri, projelerin kullanması için maliyet ve fatura oranları tanımlar. Projenin iş kırılım yapısındaki görevlerle ilişkili rollere göre, mevcut çalışmanın maliyet ve gelir etkisini belirleyebilirsiniz.  
   
 ## <a name="cost-price-defaulting"></a>Maliyet fiyatı varsayılanını kullanma  
-Her proje bir kuruluşa aittir (projedeki **Sahip Olan Birim** 'de gösterilir). Sahip olan kuruluş birimiyle ilişkili fiyat listesi, birim maliyet fiyatını belirler. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], tahmin satırlarındaki yürürlük tarihi için doğru maliyet fiyatını edinmek üzere maliyet fiyatı listesindeki rol, birim ve kuruluş biriminin birleşimini arayarak rollerin maliyet fiyatlarını belirler.  
+Her proje bir kuruluşa aittir (projedeki **Sahip Olan Birim**'de gösterilir). Sahip olan kuruluş birimiyle ilişkili fiyat listesi, birim maliyet fiyatını belirler. [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], tahmin satırlarındaki yürürlük tarihi için doğru maliyet fiyatını edinmek üzere maliyet fiyatı listesindeki rol, birim ve kuruluş biriminin birleşimini arayarak rollerin maliyet fiyatlarını belirler.  
   
 Rol, birim. ve kuruluş biriminin birleşimi sahip olan biriminin fiyat listesindeki maliyet fiyatıyla sonuçlanmazsa, rol ve kuruluş birimi birleşimi tercih edilerek birim dikkate alınmaz. Bir maliyet fiyatı varsa, bu fiyat, tahmin satırında seçtiğiniz birime dönüştürülür.  
   

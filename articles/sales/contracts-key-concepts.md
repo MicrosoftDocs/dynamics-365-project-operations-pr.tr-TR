@@ -1,21 +1,21 @@
 ---
-title: Temel kavramlar - Proje sözleşmeleri
+title: Proje Sözleşmeleri - Temel kavramlar
 description: Bu konuda Project Operations'ta proje sözleşmesinin temel kavramları hakkında bilgi sağlanır.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086260"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175555"
 ---
-# <a name="key-concepts---project-contracts"></a>Temel kavramlar - Proje sözleşmeleri
+# <a name="project-contracts---key-concepts"></a>Proje Sözleşmeleri - Temel kavramlar
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 

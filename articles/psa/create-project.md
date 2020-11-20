@@ -3,7 +3,7 @@ title: Bir proje oluştur
 description: Project Service'ta proje oluşturma
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086336"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133122"
 ---
 # <a name="create-a-project-project-service"></a>Proje oluşturma (Project Service)
 
@@ -31,13 +31,13 @@ ms.locfileid: "4086336"
 
 Proje tabanlı hizmetler için bir fırsat, teklif veya sözleşme oluşturmak istediğinizde [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]'deki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] yeteneklerini kullanarak bir proje oluşturun. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] yetenekleri tamamlanmasına kadar fırsattan projenizi yönetmenize yardımcı olur. Bir proje oluşturduğunuzda, tekliflerinizi, maliyet tahminlerinizi ve kaynak yönetiminizi etkileyen iş kırılım yapısı da oluşturursunuz.  
   
-1.  **Project Service > Projeler** 'e gidin.  
+1.  **Project Service > Projeler**'e gidin.  
   
-2.  **Yeni Proje** 'ye tıklayın.  
+2.  **Yeni Proje**'ye tıklayın.  
   
 3.  **Özet** alanında, projeniz için bir ad girin ve ardından olabildiğince çok detay doldurun. Kırmızı renkli bir yıldız işaretiyle (*) belirtilen öğeler gereklidir.  
   
-4.  Düzenlemeye devam edebilmeniz için projenizi oluşturmak üzere **Kaydet** 'e tıklayın.  
+4.  Düzenlemeye devam edebilmeniz için projenizi oluşturmak üzere **Kaydet**'e tıklayın.  
   
 Daha sonra, proje için gerekli görevleri, zamanlamayı ve kaynak rollerini tanımlamak üzere projeniz için bir iş kırılım yapısı oluşturacaksınız.  
 

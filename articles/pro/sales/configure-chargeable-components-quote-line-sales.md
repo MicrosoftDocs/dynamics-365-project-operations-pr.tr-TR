@@ -1,21 +1,21 @@
 ---
-title: Teklif satırının borçlandırılabilir bileşenlerini yapılandırma
+title: Teklif satırının borçlandırılabilir bileşenlerini yapılandırma - lite
 description: Bu konu, proje tabanlı bir teklif satırında borçlandırılabilir ve borçlandırılamayan bileşenler ayarlanması hakkında bilgiler sağlar.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086445"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177130"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Teklif satırının borçlandırılabilir bileşenlerini yapılandırma
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Teklif satırının borçlandırılabilir bileşenlerini yapılandırma - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -46,19 +46,19 @@ Proje görevi, aşağıdaki kurulumu olası yapan belirli bir proje tabanlı tek
 
 Proje tabanlı teklif satırı **Saat** ve **T1** görev içeriyorsa bu görev teklif satırıyla Masraflandırılabilir olarak ilişkilendirilir. **Giderleri** içeren ikinci bir teklif satırı varsa , teklif satırındaki **T1** görevini borçlandırılamayan olarak ilişkilendirebilirsiniz. Sonuçta, görevde kaydedilen tüm zaman borçlandırılabilir ve görevde kaydedilen tüm giderler Borçlandırılamaz.
 
-Görevin faturalama türü, **teklif satırı görevleri** alt kılavuzundaki **faturalama türü** alanını güncelleştirerek proje tabanlı teklif satırının **ücrete tabi Görevler** sekmesinde yapılandırılabilir. Alternatif olarak, görevle ilişkili teklif satırlarını gösteren bir projenin görev faturalama kurulumunda yer alan faturalama türü alanında bulunan proje göreviyle ilgili **faturalama türünü** güncelleştirebilirsiniz.
+Görevin faturalama türü, **Teklif satırı görevleri** alt kılavuzundaki **faturalama türü** alanını güncelleştirerek, sözleşme satırındaki **ücrete tabi Görevler** sekmesinde yapılandırılabilir. Alternatif olarak, görevle ilişkili teklif satırlarını gösteren bir projenin görev faturalama kurulumunun alt kılavuzundaki **fatura türü** alanındaki proje görevi için fatura türünü güncelleştirebilirsiniz.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Rolü borçlandırılabilir veya borçlandırılamayan olarak güncelleştirme
 
 Rol, belirli bir proje tabanlı teklif satırı bağlamında Masraflandırılabilir veya borçlandırılamayan olabilir.
 
-Rolün faturalama türü, **ücrete tabi roller** alt kılavuzundaki **faturalama türü** alanını güncelleştirerek proje tabanlı teklif satırının **ücrete tabi roller** sekmesinde yapılandırılabilir.
+Rolün faturalama türü, **Ücretlendirilir Roller** alt kılavuzundaki **faturalama türü** alanını güncelleştirerek, sözleşme satırındaki **ücrete tabi roller** sekmesinde yapılandırılabilir.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Bir işlem kategorinin ücretlendirilebilir veya ücretlendirilemez olarak güncelleştirin
 
 Bir hareket kategorisi, belirli bir teklif satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
-İşlemin faturalama türü, **ücrete tabi kategoriler** alt kılavuzundaki **faturalama türü** alanını güncelleştirerek proje tabanlı teklif satırının **ücrete tabi kategoriler** sekmesinde yapılandırılabilir.
+İşlemin faturalama türü, **Ücretlendirilir Kategoriler** alt kılavuzundaki **Faturalama Türü** alanını güncelleştirerek, sözleşme satırındaki **Ücrete Tabi Kategoriler** sekmesinde yapılandırılabilir.
 
 ### <a name="resolve-chargeability"></a>Şarj edilebilirliği çözme
 Bir tahmin veya zaman için oluşturulan fiili, yalnızca teklif satırına **saat** dahil edildiğinde Borçlandırılabilir olarak değerlendirilir ve **görev** ve **rol** teklif satırında Borçlandırılabilir olarak yapılandırılır.
