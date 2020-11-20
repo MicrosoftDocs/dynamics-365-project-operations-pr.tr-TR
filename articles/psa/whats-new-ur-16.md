@@ -3,7 +3,7 @@ title: Project Service Automation Güncelleştirme Sürümü 16, V3'teki yenilik
 description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 16, V3'teki özellikler ve düzeltmeler listelenir.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f277d23e3fb0517f072e51f6f80f855479ab8189
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086283"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121602"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, Güncelleştirme Sürümü 16, V3
 

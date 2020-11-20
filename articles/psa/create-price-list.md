@@ -3,7 +3,7 @@ title: Fiyat listesi oluşturma
 description: Project Service'ta fiyat listesi oluşturma
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086360"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122052"
 ---
 # <a name="create-a-price-list-project-service"></a>Fiyat listesi oluşturma (Project Service)
 
@@ -35,11 +35,11 @@ Teslim edilecek iş için mali tahminler oluşturmak için, her projenin destek 
   
 Fiyat listeleri rol ve gider kategorilerine dayanır, bu nedenle bir fiyat listesi oluşturmadan önce, fiyat listesini oluştururken kullanmak istediğiniz rol ve gider kategorilerini zaten yapılandırdığınızdan emin olun.  
   
-1.  **Project Service > Fiyat Listeleri** 'ne gidin.  
+1.  **Project Service > Fiyat Listeleri**'ne gidin.  
   
 2.  **Yeni** düğmesini tıklatın.  
   
-3.  **Bağlam** alanında, bu fiyat listesinin **Maliyet** , **Satın Alma** veya **Satış** için olup olmadığını seçin.  
+3.  **Bağlam** alanında, bu fiyat listesinin **Maliyet**, **Satın Alma** veya **Satış** için olup olmadığını seçin.  
   
 4.  **Ad** alanında, fiyat listesi için bir ad girin.  
   
@@ -47,25 +47,25 @@ Fiyat listeleri rol ve gider kategorilerine dayanır, bu nedenle bir fiyat liste
   
 6.  **Zaman Birimi** alanında, gün veya saat gibi fiyatın uygulandığı zaman dilimini belirtin.  
   
-7.  **Başlangıç Tarihi** , **Bitiş Tarihi** ve **Açıklama** alanlarını gerektiği şekilde doldurun.  
+7.  **Başlangıç Tarihi**, **Bitiş Tarihi** ve **Açıklama** alanlarını gerektiği şekilde doldurun.  
   
-8.  Düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet** 'e tıklayın.  
+8.  Düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet**'e tıklayın.  
   
 9. Fiyat listesine bir rol fiyatı eklemek için, **Rol fiyatları** altındaki **+** öğesine tıklayın.  
   
-10. **Rol Fiyatı** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet** 'e tıklayın. Gerekirse rol fiyatı eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+10. **Rol Fiyatı** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet**'e tıklayın. Gerekirse rol fiyatı eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
 11. Fiyat listesine bir gider kategorisi eklemek için, **Kategori fiyatları** altındaki **+** öğesine tıklayın.  
   
-12. **İşlem Kategorisi Fiyatı** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet** 'e tıklayın. Gerekirse kategori fiyatı eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+12. **İşlem Kategorisi Fiyatı** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet**'e tıklayın. Gerekirse kategori fiyatı eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
 13. Fiyat listesine fiyat listesi kalemi eklemek için, **Fiyat Listesi Kalemleri** altındaki **+** öğesine tıklayın.  
   
-14. **Fiyat Listesi Kalemi** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet** 'e tıklayın. Gerekirse fiyat listesi kalemi eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+14. **Fiyat Listesi Kalemi** bölmesinde, ayrıntıları doldurun ve ardından **Kaydet**'e tıklayın. Gerekirse fiyat listesi kalemi eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
 15. Fiyat listesine bölge ilişkileri eklemek için, **Bölge İlişkileri** atlındaki **+** öğesine tıklayın.  
   
-16. **Yeni Bağlantı** penceresinde, ayrıntıları doldurun ve ardından **Kaydet** 'e tıklayın. Gerekirse bölge ilişkileri eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+16. **Yeni Bağlantı** penceresinde, ayrıntıları doldurun ve ardından **Kaydet**'e tıklayın. Gerekirse bölge ilişkileri eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Automation'ı yapılandırma](../psa/configure.md)

@@ -3,7 +3,7 @@ title: Proje Kaynak Merkezi için kullanıcı kılavuzu
 description: Project Service için Proje Kaynak Merkezi son kullanıcı kılavuzu
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086315"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123177"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Proje Kaynak Merkezi için kullanıcı kılavuzu
 
@@ -50,7 +50,7 @@ Proje Kaynak Merkezi uygulamasını kullanmaya başlamadan önce cihazınıza mo
 
 ## <a name="basic-navigation"></a>Temel Gezinti
 1.  Mobil uygulamada oturum açtığınızda, erişiminiz bulunan uygulamaların listesini içeren MyApps sayfasını göreceksiniz. 
-2.  **Proje Kaynak Merkezi** 'ni seçin.
+2.  **Proje Kaynak Merkezi**'ni seçin.
 
 ![Bir uygulama seçin](media/chooseApp_1.png "Bir uygulama seçin")
 
@@ -73,28 +73,28 @@ Sık Kullanılanlar ve Son Kullanılanlar bölümleri kayıtlarınız, görünü
 ## <a name="enter-time"></a>Zamanı girin
 Müşterilerinizin doğru biçimde faturalandırıldığından ve kaydettiğinizden emin olmak için çalışma saatlerinizi en az bir haftalık veya yöneticileriniz tarafından istenen sıklıkta girin.
 
-1. Menü ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve ardından **Zaman Girişleri** 'ne dokunun. Bu, takviminizi getirir.
+1. Menü ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve ardından **Zaman Girişleri**'ne dokunun. Bu, takviminizi getirir.
 
-2. Önceki veya sonraki hafta için takviminizi görmek üzere **Önceki** ya da **Sonraki** düğmesine dokunun. Geçerli haftaya dönmek için **Bugün** 'e dokunun.
+2. Önceki veya sonraki hafta için takviminizi görmek üzere **Önceki** ya da **Sonraki** düğmesine dokunun. Geçerli haftaya dönmek için **Bugün**'e dokunun.
 
-3. Zamanınızı girmek için, komut çubuğunda **Yeni** 'ye dokunun. 
+3. Zamanınızı girmek için, komut çubuğunda **Yeni**'ye dokunun. 
 
-4. Formdaki alanları doldurun ve **Kaydet** 'e dokunun.
+4. Formdaki alanları doldurun ve **Kaydet**'e dokunun.
 
-5. Hafta için zaman girmeye devam edin. Bitirdiğinizde ve her şey doğru göründüğünde, **Gönder** 'e dokunun. Bir yönetici zaman girişlerinizi gözden geçirecek ve onaylayacaktır.
+5. Hafta için zaman girmeye devam edin. Bitirdiğinizde ve her şey doğru göründüğünde, **Gönder**'e dokunun. Bir yönetici zaman girişlerinizi gözden geçirecek ve onaylayacaktır.
 
 ## <a name="enter-expenses"></a>Giderler girin 
 Müşterilerinizin doğru biçimde faturalandırıldığından ve kaydettiğinizden emin olmak için giderlerinizi en az bir haftalık veya yöneticileriniz tarafından istenen sıklıkta girin.
 
-1. Menü ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve ardından **Giderler** 'e dokunun. Bu, takviminizi getirir.
+1. Menü ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve ardından **Giderler**'e dokunun. Bu, takviminizi getirir.
 
-2. **Gün** , **Hafta** veya **Ay** görünümüne geçiş yapabilir veya önceki ya da sonraki zaman dilimine gidebilirsiniz. 
+2. **Gün**, **Hafta** veya **Ay** görünümüne geçiş yapabilir veya önceki ya da sonraki zaman dilimine gidebilirsiniz. 
 
-3. Giderinizi girmek için, komut çubuğunda **Yeni** 'ye dokunun. 
+3. Giderinizi girmek için, komut çubuğunda **Yeni**'ye dokunun. 
 
-4. Formdaki alanları doldurun ve **Kaydet** 'e dokunun.
+4. Formdaki alanları doldurun ve **Kaydet**'e dokunun.
 
-5. Hafta için giderleri girmeye devam edin. Bitirdiğinizde ve her şey doğru göründüğünde, **Gönder** 'e dokunun. Bir yönetici giderlerinizi gözden geçirecek ve onaylayacaktır.
+5. Hafta için giderleri girmeye devam edin. Bitirdiğinizde ve her şey doğru göründüğünde, **Gönder**'e dokunun. Bir yönetici giderlerinizi gözden geçirecek ve onaylayacaktır.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Mobil uygulama kullanımı hakkında genel bilgiler 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobil Temel Bilgiler Kılavuzu](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).

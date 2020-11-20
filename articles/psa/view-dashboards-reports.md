@@ -3,7 +3,7 @@ title: Panoları ve raporları görüntüleme
 description: Project Service'ta panoları ve raporları görüntüleme
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c07a1710edd26a5349194134fbebb3679d194268
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51c372d117bd451c15c75d2a0797c78d7842168e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086401"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121692"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>Panoları ve raporları görüntüleme (Project Service)
 
@@ -33,13 +33,13 @@ Panolar ve raporlar, işinizin ne durumda olduğunu anlamanıza yardımcı olur.
   
  Proje satışları ve kaynak kullanımı ile ilgili gün bilgiler sunan panoları görüntülemek için:  
   
-1. **Project Service > Panolar** 'ı seçin.  
+1. **Project Service > Panolar**'ı seçin.  
   
 2. Ekranın en üstünde bulunan çubukta, **Panolar** öğesinin yanındaki aşağı oka tıklayın ve görmek istediğiniz panoyu seçin.  
   
    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] raporları görüntülemek için:  
   
-3. **Project Service > Raporlar** 'a gidin.  
+3. **Project Service > Raporlar**'a gidin.  
   
 4. Görmek istediğiniz rapora tıklayın.  
   

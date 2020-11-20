@@ -3,7 +3,7 @@ title: Fiyat neden gider maliyet gerçek değerlerinde varsayılan olarak sıfı
 description: Fiyatın gider maliyet gerçek değerlerinde varsayılan olarak 0 olması sorununu giderme.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/22/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f4ff8a96250d675faeda3246c2d0a6c5bd83286
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 306f169ee25d42ac3c9e63fa70956b9c50315829
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086345"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122142"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>Fiyat neden gider maliyet gerçek değerlerinde varsayılan olarak sıfır oluyor?
 

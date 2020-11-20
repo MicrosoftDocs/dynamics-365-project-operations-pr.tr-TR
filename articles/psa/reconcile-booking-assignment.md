@@ -3,7 +3,7 @@ title: Ayırmalar ve atamalar arasında mutabakat sağlama
 description: Bu konu gerçek değerler hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086370"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120477"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Ayırmalar ve atamalar arasında mutabakat sağlama
 
@@ -35,7 +35,7 @@ Proje ayırmalarının ve görev atamalarının kesin olarak eşleşmemesi neden
 
 Adlandırılmış her bir takım üyesi için, **Mutabakat** sekmesi ayırmaları ve atamaları tek tek görev atamasına indirger. Hücrelerde saatleri göstererek aylardan günlere kadar olan dönemleri temsil edebilir.
 
-**Zaman ölçeği** alanında, **Ay** , **Hafta** veya **Gün** 'ü seçebilirsiniz. Varsayılan olarak, **Hafta** seçilidir. Ancak **Ayarlar** düğmesini seçerek varsayılan değeri değiştirebilirsiniz. **Mutabakat** sekmesi açıldığında, geçerli tarihi gösterir ancak zamanda ileri veya geri gitmek için takvim denetimini kullanabilirsiniz. Proje gelecekteki bir başlangıç tarihine sahipse sekme açıldığında bu tarihi gösterir. Takvim denetiminde, proje başlangıç ve bitiş tarihlerine taşımanıza olanak tanıyan seçeneklere de bulunur.
+**Zaman ölçeği** alanında, **Ay**, **Hafta** veya **Gün**'ü seçebilirsiniz. Varsayılan olarak, **Hafta** seçilidir. Ancak **Ayarlar** düğmesini seçerek varsayılan değeri değiştirebilirsiniz. **Mutabakat** sekmesi açıldığında, geçerli tarihi gösterir ancak zamanda ileri veya geri gitmek için takvim denetimini kullanabilirsiniz. Proje gelecekteki bir başlangıç tarihine sahipse sekme açıldığında bu tarihi gösterir. Takvim denetiminde, proje başlangıç ve bitiş tarihlerine taşımanıza olanak tanıyan seçeneklere de bulunur.
 
 Kaynak ayırmalarının ayrıntılarını göstermek için her kaynakta genişletici denetimlerini kullanabilirsiniz. Her kaynağın atamasını tek tek görev düzeyinde de genişletebilirsiniz.
 
@@ -47,7 +47,7 @@ Kaynak ayırmalarının ayrıntılarını göstermek için her kaynakta genişle
 > [!NOTE]
 > Bu koşulların göstergesi, ızgarada daha fazla yer bırakmak için gizlenmiş olabilir. Bu durumda, **Ayarlar** düğmesini seçerek göstergeyi görünür hale getirebilirsiniz.
 
-Bazı durumlarda, **Zaman ölçeği** alanı **Gün** 'den daha yüksek bir düzeye ayarlandığında farklar 0 (sıfır) olarak hesaplanabilir. Örneğin, **Ay** düzeyinde, kaynak için net fark ayırmaların atamalara eşit olduğunu belirtmek için 0 (sıfır) olabilir. Ancak **Hafta** düzeyine bakarsanız ayın ilk haftasında 0 (sıfır) saat atama ve 40 saat ayırma ve ayın ikinci haftasında 40 saat atama ve 0 (sıfır) saat ayırma olduğunu görebilirsiniz. Aylık toplam ayırma ve atama aynı olsa da bunlar haftaya göre farklılık gösterir.
+Bazı durumlarda, **Zaman ölçeği** alanı **Gün**'den daha yüksek bir düzeye ayarlandığında farklar 0 (sıfır) olarak hesaplanabilir. Örneğin, **Ay** düzeyinde, kaynak için net fark ayırmaların atamalara eşit olduğunu belirtmek için 0 (sıfır) olabilir. Ancak **Hafta** düzeyine bakarsanız ayın ilk haftasında 0 (sıfır) saat atama ve 40 saat ayırma ve ayın ikinci haftasında 40 saat atama ve 0 (sıfır) saat ayırma olduğunu görebilirsiniz. Aylık toplam ayırma ve atama aynı olsa da bunlar haftaya göre farklılık gösterir.
 
 Daha yüksek zaman düzeylerini görüntülediğinizde **Mutabakat** sekmesinde alt zaman düzeylerinde farklar olduğunu bildiren bir hücre göstergesi gösterilir. Örneğin, aşağıdaki resimde Jale Özcan adlı kaynak için Ekim 2018 ayına ait hücrede bir hücre göstergesi görünmektedir. Bu nedenle kaynağın ayırmaları ve atamalarının **Ay** düzeyinde toplandıklarında eşit oldukları halde alt düzeylerde eşleşmediklerini görebilirsiniz.
 

@@ -3,7 +3,7 @@ title: Kaynaklar için borçlandırılabilir kullanımı görüntüleme
 description: Bu konu kaynak kullanımı görünümü hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086346"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122187"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Kaynaklar için borçlandırılabilir kullanımı görüntüleme
  
@@ -44,7 +44,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
 
 ## <a name="set-target-on-a-resource"></a>Kaynak üzerinde hedef ayarlama
 
-1. **Kaynaklar** \> **Kaynaklar** 'a gidin. 
+1. **Kaynaklar** \> **Kaynaklar**'a gidin. 
 2. Kaydı açmak için bir kaynak seçin. 
 3. **Project Service** sekmesinde, kaynağın hedef kullanımını ayarlayabilirsiniz.
 
@@ -52,7 +52,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
  
 ## <a name="set-target-utilization-on-a-role"></a>Rol üzerinde hedef kullanımını ayarlama
 
-1. **Kaynaklar** \> **Kaynak Rolleri** 'ne gidin. 
+1. **Kaynaklar** \> **Kaynak Rolleri**'ne gidin. 
 2. Bir rol seçin ve kaydı açın. 
 3. Rol için hedef kullanımı ayarlayın.
 
@@ -66,23 +66,23 @@ Bir kaynağın borçlandırılabilir kullanımını hesaplamak için bazı ön g
 
 Önce, hedef kullanım bireysel kaynağa veya kaynak rollerine ayarlanmalıdır. Hedefler için kaynak rollerini kullanıyorsanız, her bir bireysel kaynağın varsayılan bir rolü olmalıdır. 
 
-1. Bunu ayarlamak için **Kaynaklar** \> **Kaynaklar** 'a gidin. 
+1. Bunu ayarlamak için **Kaynaklar** \> **Kaynaklar**'a gidin. 
 2. Bir kaynak seçin, kaydı açın ve ardından **Project Service** sekmesini seçin. 
-3. **Kaynak Rolü** ızgarasında, kaynak için bir rol bulunduğundan ve **Varsayılan** seçeneğinin **Evet** 'e ayarlandığından emin olun.
+3. **Kaynak Rolü** ızgarasında, kaynak için bir rol bulunduğundan ve **Varsayılan** seçeneğinin **Evet**'e ayarlandığından emin olun.
  
 ### <a name="change-billing-type-for-resource-role"></a>Kaynak rolü için faturalama türünü değiştirme
 
 Kaynak rolleri, faturalama türü **Borçlandırılabilir** olacak şekilde ayarlanmalıdır. 
 
-1. **Kaynaklar** \> **Kaynak Rolleri** 'ne gidin. 
+1. **Kaynaklar** \> **Kaynak Rolleri**'ne gidin. 
 2. Güncelleştirmek istediğiniz kaydı açın ve faturalama türü varsayılan ayarını **Borçlandırılabilir** yapın.
 
 ### <a name="set-working-hours-for-resource-role"></a>Kaynak rolü için çalışma saatlerini ayarlama
  
 Kapasite hesaplaması için, kaynakta çalışma saatleri olmalıdır. 
 
-1. **Kaynaklar** \> **Kaynaklar** 'a gidin. 
-2. Kaydı açmak için bir kaynağı seçin ve ardından **Çalışma Saatlerini Göster** 'e tıklayın. 
+1. **Kaynaklar** \> **Kaynaklar**'a gidin. 
+2. Kaydı açmak için bir kaynağı seçin ve ardından **Çalışma Saatlerini Göster**'e tıklayın. 
 3. **Kaynak listesi** görünümünden bir **Çalışma Saati Şablonu** uygulayarak, kaynakların listesinde toplu güncelleme yapabilirsiniz.
 
 ## <a name="troubleshooting-chargeable-actual-hours"></a>Borçlandırılabilir fiili saat sayısında sorun giderme

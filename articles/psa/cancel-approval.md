@@ -3,7 +3,7 @@ title: Önceden onaylanan zaman ve gider girişlerini iptal etme
 description: Bu konu, önceden onaylanmış bir proje zaman veya gider işlemini iptal etme hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086499"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123357"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Önceden onaylanan zaman veya gider girişlerini iptal etme
 
@@ -35,10 +35,10 @@ Dynamics 365 Project Service Automation'ın en son sürümünde, onaylayanlar ö
 
 Önceden onayladığınız zaman veya gider girişini iptal etmek için aşağıdaki adımları izleyin.
 
-1. **Projeler** \> **İşlerim** \> **Onaylar** 'a gidin.
+1. **Projeler** \> **İşlerim** \> **Onaylar**'a gidin.
 2. **Onaylar** listesi sayfasında, görünümü **Geçmiş onaylamalarım** olarak değiştirin. Daha önce onayladığınız zaman ve gider girişlerinin bir listesi gösterilir.
 3. Bir veya daha fazla giriş seçin ve ardından **Onayı iptal et** seçeneğini belirleyin. Bir uyarı iletisi alırsınız.
-4. Onayı iptal etmek için **Tamam** 'ı seçin.
+4. Onayı iptal etmek için **Tamam**'ı seçin.
 
 ## <a name="understand-the-impact-of-canceling-a-time-or-expense-entry-approval"></a>Zaman veya gider girişi onayını iptal etme etkisini anlama
 
@@ -48,7 +48,7 @@ Bir onay iptal edildiğinde işlemsel ve finansal bir etkisi olur.
 
 İşlemler tarafında, bir onay iptal edildiğinde kaydın durumu **Taslak** olarak sıfırlanır ve onay artık **Geçmiş onaylarım** görünümünde görünmez. Bunun yerine, iptal edilen onay bir zaman veya gider girişi olmasına bağlı olarak **Onay için zaman girişleri** görünümünde veya **Onay için gider girişleri** görünümünde görüntülenir. Ayrıca, ilgili zaman veya gider girişinin durumu **Gönderildi** olarak değiştirilir, böylece ilgili giriş **Taslak** durumuna sahip onaylarla tutarlı olur.
 
-Onaylayan olarak, **Taslak** durumundaki bir onaydaki bazı alanları düzenleyebilirsiniz. Bu alanlar, **Faturalama Türü** ve **Zaman Girişleri için Faturalanabilir Saatler** 'i içerir. Değişiklikleri yaptıktan sonra, kaydı yeniden onaylayabilirsiniz. Alternatif olarak, girişi reddedebilirsiniz. Bir zaman girişinin onayını reddederseniz, girdinin durumu **Geri çevrildi** olarak değiştirilir. Bir gider girişinin onayını reddederseniz, durum **Reddedildi** olarak değiştirilir. İşlevsellik olarak, hem döndürülen hem de reddedilen girişler **Taslak** durumundaki bir girişle aynı davranır. Proje takımı üyesi girişte gerekli tüm değişiklikleri yapabilir ve sonra onay için yeniden gönderebilir veya girişi tümüyle silebilir.
+Onaylayan olarak, **Taslak** durumundaki bir onaydaki bazı alanları düzenleyebilirsiniz. Bu alanlar, **Faturalama Türü** ve **Zaman Girişleri için Faturalanabilir Saatler**'i içerir. Değişiklikleri yaptıktan sonra, kaydı yeniden onaylayabilirsiniz. Alternatif olarak, girişi reddedebilirsiniz. Bir zaman girişinin onayını reddederseniz, girdinin durumu **Geri çevrildi** olarak değiştirilir. Bir gider girişinin onayını reddederseniz, durum **Reddedildi** olarak değiştirilir. İşlevsellik olarak, hem döndürülen hem de reddedilen girişler **Taslak** durumundaki bir girişle aynı davranır. Proje takımı üyesi girişte gerekli tüm değişiklikleri yapabilir ve sonra onay için yeniden gönderebilir veya girişi tümüyle silebilir.
 
 ### <a name="financial-impact"></a>Finansal etki
 

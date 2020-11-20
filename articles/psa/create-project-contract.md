@@ -3,7 +3,7 @@ title: Bir proje sözleşmesi oluştur
 description: Project Service'ta proje sözleşmesi oluşturma
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a626da271a4c4e1751870323b56ce54743bb891
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086338"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121962"
 ---
 # <a name="create-a-project-contract-project-service"></a>Proje sözleşmesi oluşturma (Project Service)
 
@@ -33,15 +33,15 @@ Projeniz için teklifi kazandığınıza göre, müşteriniz ile bir sözleşme 
   
 1. Önceki adımın **Proje Sözleşmesi** ekranındaki **Özet** alanında bilgileri gerektiği şekilde değiştirin.  
   
-2. Sözleşmeye bir ürün eklemek için, **Sözleşme Satırları** alanındaki **Ürün Tabanlı Satırlar** altında **Yeni** 'ye tıklayın. **Ürün Adı** altında bir öğe seçin ve ardından miktarı, satış fiyatını ve sözleşme tutarını belirtin.  
+2. Sözleşmeye bir ürün eklemek için, **Sözleşme Satırları** alanındaki **Ürün Tabanlı Satırlar** altında **Yeni**'ye tıklayın. **Ürün Adı** altında bir öğe seçin ve ardından miktarı, satış fiyatını ve sözleşme tutarını belirtin.  
   
 3. Sözleşmeye bir proje tabanlı satır eklemek için, **Sözleşme Satırları** alanındaki **Proje Tabanlı Satırlar** altında **+** öğesine tıklayın. Varsa, adı, bütçe tutarını ve projeyi girin. Bir tahmin ileri sürmek için iş kırılım yapısına sahip bir proje oluşturmanız gerekiyorsa, bkz. [Bir proje oluştur](../psa/create-project.md).  
   
 4. Düzenlemeyi bitirdiğinizde, ekranın sağ alt tarafında bulunan **Kaydet** düğmesine tıklayın.  
   
-5. Sözleşmeyi müşterinize göndermeye hazır olduğunuzda, **Daha Fazla** (…) öğesine tıklayın, **Raporu Çalıştır** 'a ve ardından **Sipariş** 'e tıklayın. Raporu bir [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] belgesi olarak kaydedin, gerektiği şekilde düzenleyin ve ardından sözleşmeyi müşterinize gönderin.  
+5. Sözleşmeyi müşterinize göndermeye hazır olduğunuzda, **Daha Fazla** (…) öğesine tıklayın, **Raporu Çalıştır**'a ve ardından **Sipariş**'e tıklayın. Raporu bir [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] belgesi olarak kaydedin, gerektiği şekilde düzenleyin ve ardından sözleşmeyi müşterinize gönderin.  
   
-6. Müşteriniz sözleşmenizi onaylarsa, **Proje Sözleşmesi** ekranının en üstünde bulunan **Onayla** seçeneğine tıklayın. Müşteriniz bazı öğeleri değiştirmenizi isterse, yeni bir sözleşme oluşturun. Müşteriniz servislerinizi şu anda kullanmamaya karar verirse, **Proje Sözleşmesi** ekranının en üstünde bulunan **Kaybedildi Olarak Kapat** 'a tıklayın.  
+6. Müşteriniz sözleşmenizi onaylarsa, **Proje Sözleşmesi** ekranının en üstünde bulunan **Onayla** seçeneğine tıklayın. Müşteriniz bazı öğeleri değiştirmenizi isterse, yeni bir sözleşme oluşturun. Müşteriniz servislerinizi şu anda kullanmamaya karar verirse, **Proje Sözleşmesi** ekranının en üstünde bulunan **Kaybedildi Olarak Kapat**'a tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)

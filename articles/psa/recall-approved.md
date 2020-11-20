@@ -3,7 +3,7 @@ title: Onaylanan zaman veya gider girişlerini geri çekme
 description: Bu konu, önceden onaylanmış bir zaman veya gider hareketini geri çekme hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086371"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120567"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Onaylanan zaman veya gider girişlerini geri çekme
 
@@ -49,8 +49,8 @@ Onaylanan bir zaman veya gider girişini geri çekmek için aşağıdaki adımla
 
     Gider girişleri için, geri çekmek istediğiniz gider girişinin satırını seçin.
 
-3. **Geri çek** 'i seçin. Bir onay iletişim kutusu görüntülenir. Seçilen zaman ve gider girişleri önceden onaylandıysa, geri çekme için bir neden girmeniz istenir.
-4. Geri çekme için bir neden girin ve ardından işlemi onaylamak için **Tamam** 'ı seçin. Sistem, girişleri onaylayan kişiye geri çekmeyi onaylaması için bir istek gönderir.
+3. **Geri çek**'i seçin. Bir onay iletişim kutusu görüntülenir. Seçilen zaman ve gider girişleri önceden onaylandıysa, geri çekme için bir neden girmeniz istenir.
+4. Geri çekme için bir neden girin ve ardından işlemi onaylamak için **Tamam**'ı seçin. Sistem, girişleri onaylayan kişiye geri çekmeyi onaylaması için bir istek gönderir.
 
 > [!NOTE]
 > Onaylanan zaman ve gider girişleri geri çekilebilse de onaylanan bir zaman veya gider müşteriye zaten faturalanmışsa, geri çekme isteği oluşturulamaz. Geri çekme isteği oluşturmaya çalışan bir kullanıcı, zaman veya giderin zaten faturalandığı için geri çekilemeyeceğini belirten bir ileti alır.
@@ -59,14 +59,14 @@ Onaylanan bir zaman veya gider girişini geri çekmek için aşağıdaki adımla
 
 Geri çekme isteğini onaylamak veya reddetmek için şu adımları izleyin.
 
-1. **Projeler** \> **İşlerim** \> **Onaylar** 'a gidin.
+1. **Projeler** \> **İşlerim** \> **Onaylar**'a gidin.
 2. **Onaylar** listesi sayfasında, görünümü **Onay için İstekleri Geri Çek** olarak değiştirin. Gönderilen geri çekme isteklerinin listesi gösterilir.
 3. Bir veya daha fazla giriş seçin ve ardından **Onayla** veya **Reddet** seçeneğini belirleyin.
-4. **Onayla** 'yı seçtiyseniz, onayın etkisini açıklayan bir uyarı iletisi alırsınız. İşlemi onaylamak için **Tamam** 'ı seçin. Geri çekme isteği onaylanır.
+4. **Onayla**'yı seçtiyseniz, onayın etkisini açıklayan bir uyarı iletisi alırsınız. İşlemi onaylamak için **Tamam**'ı seçin. Geri çekme isteği onaylanır.
 
     –veya–
 
-    **Reddet** 'i seçtiyseniz, geri çekme isteği reddedilir.
+    **Reddet**'i seçtiyseniz, geri çekme isteği reddedilir.
 
 > [!NOTE]
 > Bir geri çekme isteğinde olduğu gibi geri çekme onaylandığında da sistem zaman veya gider girişlerindeki faturalama etkinliğini denetler. Giriş zaten faturalanmışsa veya bir taslak faturadaysa, onaylayan giriş zaten faturalandırıldığından zaman veya gider girişini geri çekme isteğinin onaylanamayacağını belirten bir hata iletisi alır.

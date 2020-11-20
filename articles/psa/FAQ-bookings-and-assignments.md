@@ -3,7 +3,7 @@ title: Kaynak ayırmaları ve görev atamaları ile ilişkilendirilmeleri
 description: Bu konu adlandırılmış kaynakların, kaynak ayırmalarının ve görev atamalarının ve bunların birbiriyle nasıl ilişkili olacağını yönetme hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086511"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125038"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Kaynak ayırmaları ve görev atamaları ile ilişkilendirilmeleri
 
@@ -62,7 +62,7 @@ Bir kuruluşun hem bir proje yöneticisine hem de bir kaynak yöneticisine proje
 
 Ayırmalar ve atamalar kesin bir şekilde eşleştirilmediği için, görev sınırlarından farklı sınırlar ayırmak veya ayırma ve atamaların uyumlu olmadığı durumlar elde etmek üzere atamaları değiştirmek mümkündür.
 
-**Mutabakat Görünümü** , proje yöneticisinin her proje takımı üyesine ait ayırma ve atamaları görebilmesini sağlar. Görünümde, bir takım üyesinin ayırma ve atamaları arasındaki uyumsuzluğun yerini göstermek için renkler ve tonlar kullanılır. Proje yöneticisi, bu bilgiler temelinde, atamalar olduğu halde ayırmaların olmadığı durumlar için kaynak ayırmaları genişletmek veya kaynakların ayrıldığı ancak atamaların olmadığı durumlarda ayırmaları iptal etmek için düzeltici eylem yapabilir.
+**Mutabakat Görünümü**, proje yöneticisinin her proje takımı üyesine ait ayırma ve atamaları görebilmesini sağlar. Görünümde, bir takım üyesinin ayırma ve atamaları arasındaki uyumsuzluğun yerini göstermek için renkler ve tonlar kullanılır. Proje yöneticisi, bu bilgiler temelinde, atamalar olduğu halde ayırmaların olmadığı durumlar için kaynak ayırmaları genişletmek veya kaynakların ayrıldığı ancak atamaların olmadığı durumlarda ayırmaları iptal etmek için düzeltici eylem yapabilir.
 
 > [!NOTE]
 > Kendi kendinize sınır koyduğunuz bir görevi taşıdığınız zaman bu sınırların korunmaz. Sınırlar, çalışma saatlerindeki ve tatillerdeki değişiklikleri hesaba katmak için proje takvimine göre yeniden üretilir. Sistem baştaki sınırın amacını bilmediği ve bu sınırı yeni bir dönemde korumanın anlamlı olup olmayacağına karar veremeyeceği için, bu kasten yapılır. Ayırmaların ve atamaların bağlantısı kaldırıldığı için, ayırmalar baştaki ayırma sınırlarını korur. Bu durumda, iptal etmeniz ve yeni atama sınırına göre yeniden ayırmanız gerekir.

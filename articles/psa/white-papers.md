@@ -3,7 +3,7 @@ title: Project Service Automation için teknik incelmeleri
 description: Project Service için teknik inceleme koleksiyonu
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c035b835ab4a29b2bf13365556d0b43b244b9936
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34018fb918b3d97d4f44b2f9b6f4296f38afa0ac
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086267"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118632"
 ---
 # <a name="white-papers-for-project-service"></a>Project Service için teknik incelmeler
 

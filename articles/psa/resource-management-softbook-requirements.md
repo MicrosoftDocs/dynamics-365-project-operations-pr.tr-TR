@@ -3,7 +3,7 @@ title: Gereksinimleri geçici ayırma
 description: Bu konu, gereksinimleri geçici ayırma hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086534"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124122"
 ---
 # <a name="soft-book-requirements"></a>Gereksinimleri geçici ayırma
 
@@ -50,7 +50,7 @@ Zamanlama Panosunda, bir kaynağın geçici ayrılmaları için farklı bir renk
 
 ![Zamanlama Panosundaki geçici ayrılmalar](media/Resource-Management-image81.png)
 
-Geçici bir ayırmayı kesin ayırmaya dönüştürmek için Zamanlama Panosunda geçici ayırmayı sağ tıklayın ve ardından **Durumu Değiştir** \> **Kesin Ayırma** \> **Kesin** 'i seçin.
+Geçici bir ayırmayı kesin ayırmaya dönüştürmek için Zamanlama Panosunda geçici ayırmayı sağ tıklayın ve ardından **Durumu Değiştir** \> **Kesin Ayırma** \> **Kesin**'i seçin.
 
 ![Ayırma durumunu Kesin olarak değiştirme](media/Resource-Management-image82.png)
 
@@ -58,6 +58,6 @@ Ayırma değiştirilir ve durum Zamanlama Panosunda değiştirilir. Ayırma duru
 
 Aynı yöntemi kesin bir ayırmayı veya geçici bir ayırmayı Zamanlama Panosundan iptal etmek için kullanabilirsiniz.
 
-Projenin **Takım** sekmesinde geçici ayrılan bir kaynağı kesin ayrılana dönüştürmek için kaynağı seçin ve ardından **Onayla** 'yı seçin.
+Projenin **Takım** sekmesinde geçici ayrılan bir kaynağı kesin ayrılana dönüştürmek için kaynağı seçin ve ardından **Onayla**'yı seçin.
 
 ![Komutu onayla](media/Resource-Management-image83.png)

@@ -2,7 +2,7 @@
 title: Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 description: Bu konu Project Service Automation sürüm 3'teki yenilikler veya değişiklikler hakkında bilgi sağlar.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086286"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120027"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -155,7 +155,7 @@ Zaman girişi için süreyi dakika, saat veya gün olarak girebileceğiniz bir h
 
 ![Zaman girişini hızlı oluşturma](media/quick-create-time-entry-08.png)
 
-Arama alanları, sistem görünümleriyle desteklenir. Örneğin, proje bilgilerini girdikten sonra **Proje görevi** alanı varsayılan olarak **Açık Proje Görevlerim** görünümüne ayarlanır. Kullanıcıya atanmamış görevler için zaman girişleri oluşturmak üzere aramada **Görünümü değiştir** öğesini tıklatın ve **Tüm Etkin proje görevleri** 'ni seçin. Zaman girişi oluşturulduktan ve ızgarada gösterildikten sonra herhangi bir satır değerini doğrudan ızgarada düzenleyebilirsiniz.  
+Arama alanları, sistem görünümleriyle desteklenir. Örneğin, proje bilgilerini girdikten sonra **Proje görevi** alanı varsayılan olarak **Açık Proje Görevlerim** görünümüne ayarlanır. Kullanıcıya atanmamış görevler için zaman girişleri oluşturmak üzere aramada **Görünümü değiştir** öğesini tıklatın ve **Tüm Etkin proje görevleri**'ni seçin. Zaman girişi oluşturulduktan ve ızgarada gösterildikten sonra herhangi bir satır değerini doğrudan ızgarada düzenleyebilirsiniz.  
 
 ### <a name="bulk-createcopy"></a>Toplu oluşturma/kopyalama 
 Birkaç zaman girişi oluşturulduktan sonra ek zaman girişlerini toplu olarak oluşturmak için kopyalama işlevini kullanabilirsiniz. **Kopyalama** iletişim kutusunu açmak için **Kopyala** öğesini tıklatın. **Başlangıç Dönemi: Başlangıç Tarihi** bölümünde, içinden zaman dilimlerinin kopyalanacağı tarih aralığını ayarlayın. **Bitiş dönemi: Başlangıç Tarihi** bölümünde, zaman girişlerinin oluşturulacağı tarihi belirtin. Zaman girişlerini **Bitiş dönemi** bölümünde belirtilen haftanın ilgili gününe kopyalamak için **Kopyala** öğesini tıklatın. Örneğin, geçen haftanın Pazartesi günü için zaman girişi **Bitiş dönemi** bölümünde belirtilen haftanın Pazartesi gününe kopyalanır. 
@@ -192,7 +192,7 @@ Common Data Service platformu, başka bir kullanıcının kimliğine bürünen b
 Özelleştirme, deneyimler oluşturmak ve düzenlemek için **Ayrılabilir kaynak** alanı eklemenize olanak tanır ve **Ayrılabilir kaynak** alanını zaman ve gider girişleri kaydedilmesi gereken başka bir kullanıcı olarak değiştirerek bir kullanıcının temsilci görevi görmesini sağlar. Aşağıdaki adımlar zaman girişi temsilcisi seçme işlemini içerir. Aynı bilgiler gider girişi temsilcisi seçme işlemi için de geçerlidir. 
  
 1.  Temsilci olarak seçilen kullanıcının projelerde ve proje görevlerinde genel güvenlik erişimine sahip olduğundan emin olun. 
-1.  **Zaman girişi** varlığındaki bir alan olan **Ayrılabilir kaynak** , **Hızlı oluşturma** sayfasında gösterilmediğinden bunu eklemeniz gerekir.
+1.  **Zaman girişi** varlığındaki bir alan olan **Ayrılabilir kaynak**, **Hızlı oluşturma** sayfasında gösterilmediğinden bunu eklemeniz gerekir.
 
     -veya-
 
@@ -201,7 +201,7 @@ Common Data Service platformu, başka bir kullanıcının kimliğine bürünen b
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
  
-1. **Yönetici** alanını **Ayrılabilir kaynak** alanında atanan kullanıcının yöneticisi üzerine yazmak için yeni bir eklenti oluşturun. Aynı **Yürütme aşaması** 'nı bant dışı (OOB) eklenti (doğrulama öncesi) olarak kullanın ve OOB eklentilerinden daha büyük (1'den büyük) bir **Yürütme sırası** kullanın. Bu, özel eklentinin OOB eklentilerinden sonra yürütülmesini sağlar.  
+1. **Yönetici** alanını **Ayrılabilir kaynak** alanında atanan kullanıcının yöneticisi üzerine yazmak için yeni bir eklenti oluşturun. Aynı **Yürütme aşaması**'nı bant dışı (OOB) eklenti (doğrulama öncesi) olarak kullanın ve OOB eklentilerinden daha büyük (1'den büyük) bir **Yürütme sırası** kullanın. Bu, özel eklentinin OOB eklentilerinden sonra yürütülmesini sağlar.  
  
 ### <a name="end-user-experience"></a>Son kullanıcı deneyimi
 1.  Hızlı oluşturma sayfasında bir zaman girişi oluştururken Proje ve Proje görevi ayrıntılarını girin ve ardından zaman girişlerinin kaydedilmesinin gerektiği **Ayrılabilir kaynak** alanındaki kullanıcıyı seçin. 

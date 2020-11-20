@@ -3,7 +3,7 @@ title: Proje zamanlamaları
 description: Bu konu, zamanlama oluşturma hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086359"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123267"
 ---
 # <a name="project-schedules"></a>Proje zamanlamaları 
 
@@ -83,12 +83,12 @@ Bir görev çıkıntılı duruma getirildiğinde artık üst öğesi olan görev
 
 **Zamanlama** kılavuzu tam olarak erişilebilirdir ve Narrator, JAWS veya NVDA gibi ekran okuyucularla kullanılabilir. Kılavuz alanında, ok tuşlarını kullanarak (Microsoft Excel'deki gibi) hareket edebilir, etkileşimli kullanıcı arabirimi öğeleri arasında ilerlemek için Tab tuşunu kullanabilir ve açılan menüleri seçmek ve çağırmak için aşağı ok tuşu, Enter tuşu veya aralık çubuğunu kullanabilirsiniz. Sütun başlıkları da etkileşimlidir. Sütunları gizleyebilir ve gösterebilir, sütun başlıklarında hareket etmek için Sekme tuşu ve ok tuşlarını kullanabilir ve araç çubuğundaki Eylem düğmelerini kullanabilirsiniz. Ayrıca, aşağıdaki klavye kısayollarını da kullanabilirsiniz:
 
-- **Yenile** : ALT+SHIFT+F5
-- **Ekle** : ALT+SHIFT+Insert
-- **Sil** : ALT+SHIFT+Delete
-- **Yukarı/aşağı taşı** : ALT+SHIFT+Yukarı/Aşağı ok
-- **Girintile/Çıkıntıla** : ALT_SHIFT+Sol/Sağ ok
-- **Hiyerarşileri Genişlet/Daralt** : ALT+SHIFT+Artı/Eksi tuşları
+- **Yenile**: ALT+SHIFT+F5
+- **Ekle**: ALT+SHIFT+Insert
+- **Sil**: ALT+SHIFT+Delete
+- **Yukarı/aşağı taşı**: ALT+SHIFT+Yukarı/Aşağı ok
+- **Girintile/Çıkıntıla**: ALT_SHIFT+Sol/Sağ ok
+- **Hiyerarşileri Genişlet/Daralt**: ALT+SHIFT+Artı/Eksi tuşları
 
 ## <a name="task-attributes"></a>Görev öznitelikleri
 
@@ -98,19 +98,19 @@ Görevin adı tamamlanması gereken işi tanımlar. PSA'da, görevle ilişkilen
  
 ### <a name="schedule-attributes"></a>Zamanlama öznitelikleri
 
-**Çaba** , **Başlangıç tarihi** , **Bitiş tarihi** ve **Süre** öznitelikleri görev için zamanlamayı tanımlar.
+**Çaba**, **Başlangıç tarihi**, **Bitiş tarihi** ve **Süre** öznitelikleri görev için zamanlamayı tanımlar.
 
 Ek zamanlama öznitelikleri şunlardır:
 
-- **Çaba saatleri** : Görevi tamamlamak için gereken saatlerin tahminini girin. 
-- **Süre** : Görevi gerçekleştirmek için gereken iş günü sayısını belirtin.
-- **Zamanlama kodu** : Bu otomatik olarak oluşturulan kod hiyerarşideki görevleri sıralamak için kullanılır. Görevler arasındaki bağımlılıklar, görevlerin çalıştığı gerçek sırayı yönetir.
+- **Çaba saatleri**: Görevi tamamlamak için gereken saatlerin tahminini girin. 
+- **Süre**: Görevi gerçekleştirmek için gereken iş günü sayısını belirtin.
+- **Zamanlama kodu**: Bu otomatik olarak oluşturulan kod hiyerarşideki görevleri sıralamak için kullanılır. Görevler arasındaki bağımlılıklar, görevlerin çalıştığı gerçek sırayı yönetir.
  
 ### <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 
-Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Varolan bir kaynağı arayabilir veya **Oluştur** 'a tıklayabilir veya  **Hızlı Oluştur** bölmesinde proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
+Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Varolan bir kaynağı arayabilir veya **Oluştur**'a tıklayabilir veya  **Hızlı Oluştur** bölmesinde proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
 
-**Rol** , **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri görev zamanlamasıyla birlikte bu görevi yapmak için kullanılabilir kaynakları bulmak üzere kullanılır.
+**Rol**, **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri görev zamanlamasıyla birlikte bu görevi yapmak için kullanılabilir kaynakları bulmak üzere kullanılır.
 
 **Rol** - Görevi gerçekleştirmek için gereken kaynak türünü belirtin.
 

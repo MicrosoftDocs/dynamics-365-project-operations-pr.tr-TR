@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121872"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Yeni fiyatlandırma boyutları dahil etmek için eklenti özniteliklerini güncelleştirme
 
@@ -39,18 +39,18 @@ Maliyet tarafındaki miktar veya alanda bir değişiklik yaptığınızda, bu de
 
 Aşağıdaki adımlar, eklentileri kaydetme işleminde size yardımcı olur.
 
-1. **PluginRegistrationTool** 'u açın ve çevrimiçi kurulumunuza bağlanın.
-2. **Ara** 'ya tıklayın ve güncelleştirilecek eklentiyi arayın.
+1. **PluginRegistrationTool**'u açın ve çevrimiçi kurulumunuza bağlanın.
+2. **Ara**'ya tıklayın ve güncelleştirilecek eklentiyi arayın.
 
  ![Arama ağacının ekran görüntüsü](media/PRT-1.png)
 
-3. Bulunan eklentiyi seçin ve ardından **Ana Formda Seç** 'e tıklayın.
+3. Bulunan eklentiyi seçin ve ardından **Ana Formda Seç**'e tıklayın.
 
-4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir** 'i seçin.
+4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
 
  ![Güncelleştirilecek eklentinin ekran görüntüsü](media/PRT-2.png)
  
-5. Güncelleştirme penceresinde, filtreleme özniteliklerindeki üç noktaya ( **...** ) tıklayın.
+5. Güncelleştirme penceresinde, filtreleme özniteliklerindeki üç noktaya (**...**) tıklayın.
 
  ![Var olan adım yapılandırma bilgilerini güncelleştirmenin ekran görüntüsü](media/PRT-3.png)
  
@@ -58,7 +58,7 @@ Aşağıdaki adımlar, eklentileri kaydetme işleminde size yardımcı olur.
 
  ![Fiyatlandırma öznitelikleri için onay kutusu seçimini gösteren ekran görüntüsü](media/PRT-4.png)
 
-7. Sayfayı kapatmak için **Tamam** 'a tıklayın ve ardından **Güncelleştirme Adımı** 'nı seçin.
+7. Sayfayı kapatmak için **Tamam**'a tıklayın ve ardından **Güncelleştirme Adımı**'nı seçin.
 
  !["Güncelleştirme Adımı" düğmesinin gösterildiği ekran görüntüsü](media/PRT-5.png)
  

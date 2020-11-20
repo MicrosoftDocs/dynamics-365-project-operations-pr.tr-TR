@@ -3,7 +3,7 @@ title: Satış tahminleri ve projeler
 description: Bu konu, satış işlemindeki zamanlamadan ve tahminlerden yararlanma hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120702"
 ---
 # <a name="sales-estimates-and-projects"></a>Satış tahminleri ve projeler
 
@@ -51,4 +51,4 @@ Zamanlama, çalışmayı görevlere bölmenizi, görevlerin hiyerarşisini korum
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Bir projeden tahminleri teklife içeri aktarma
 
-Proje tahminlerini tanımladıktan sonra, bunları teklif satırına içeri aktarabilirsiniz. **Teklif Satırı Ayrıntıları** sayfasında, proje tahminlerini işlem türüne, role veya görev düzeyine göre özetlemek için şeritteki **Tahminlerden al** 'ı seçin.
+Proje tahminlerini tanımladıktan sonra, bunları teklif satırına içeri aktarabilirsiniz. **Teklif Satırı Ayrıntıları** sayfasında, proje tahminlerini işlem türüne, role veya görev düzeyine göre özetlemek için şeritteki **Tahminlerden al**'ı seçin.

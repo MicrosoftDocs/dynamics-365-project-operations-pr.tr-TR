@@ -3,7 +3,7 @@ title: Proje fiyatlandırması
 description: Bu konu, Dynamics 365 Project Service Automation'dak fiyatlandırmanın çalışma şekli hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086521"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120792"
 ---
 # <a name="project-pricing"></a>Proje fiyatlandırması 
 
@@ -110,7 +110,7 @@ PSA 'da, bir teklife veya proje sözleşmesine varsayılan olarak girilen proje 
 
 Varsayılan olarak, bir proje sözleşmesi ana satış fiyatı listesinin her zaman doğrudan bağlantısı yerine bir kopyasını alır. Bu davranış, ana fiyat listesi değiştirilirse, bir iş bildirimi (SOW) için müşteriyle yapılan fiyat anlaşmalarının değişmeyeceğinden emin olmaya yardımcı olur.
 
-Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir ana fiyat listesini kopyalayabilir ve bu teklife uygulanan özel bir fiyat listesi oluşturmak için düzenleyebilirsiniz. Bir teklife özel yeni bir fiyat listesi oluşturmak için **Teklif** sayfasında **Özel fiyatlandırma oluştur** 'u seçin. Anlaşmaya özgü proje fiyat listesine yalnızca tekliften erişebilirsiniz. 
+Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir ana fiyat listesini kopyalayabilir ve bu teklife uygulanan özel bir fiyat listesi oluşturmak için düzenleyebilirsiniz. Bir teklife özel yeni bir fiyat listesi oluşturmak için **Teklif** sayfasında **Özel fiyatlandırma oluştur**'u seçin. Anlaşmaya özgü proje fiyat listesine yalnızca tekliften erişebilirsiniz. 
 
 Özel bir proje fiyat listesi oluşturduğunuzda, yalnızca fiyat listesinin proje bileşenleri kopyalanır. Başka bir deyişle, yeni fiyat listesi, teklife iliştirilen varolan proje fiyat listesinin bir kopyası olarak oluşturulur ve bu yeni fiyat listesinde yalnızca ilgili rol fiyatları ve işlem kategorisi fiyatları vardır.
 

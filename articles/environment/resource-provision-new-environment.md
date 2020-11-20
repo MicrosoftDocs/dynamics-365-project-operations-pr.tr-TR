@@ -3,17 +3,17 @@ title: Yeni bir ortam sağlama
 description: Bu konuda, yeni bir Project Operations ortamı sağlama hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086211"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121197"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
@@ -26,7 +26,7 @@ Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar için yeni bir
 LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek için aşağıdaki adımları kullanın.
 
 1. [LCS](https://lcs.dynamics.com/v2) öğesine gidin ve **Önizleme Özelliği yönetimi** kutucuğunu seçin.
-2. **Önizleme özelliği** listesinde, **Project Operations Özelliği** 'ni seçin ve Project Operations'ı etkinleştirmek için **Önizleme özelliği etkin** seçeneğini belirleyin.
+2. **Önizleme özelliği** listesinde, **Project Operations Özelliği**'ni seçin ve Project Operations'ı etkinleştirmek için **Önizleme özelliği etkin** seçeneğini belirleyin.
 
 > [!NOTE]
 > Bu adım, her LCS projesi için yalnızca bir kez gerçekleştirilir.
@@ -40,21 +40,21 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 > Seçili uygulama sürümünün 10.0.13 veya üstü olduğundan emin olun.
 
 3. Project Operations'ı sağlamak için **Gelişmiş ayarlar** altında **Common Data Service** seçeneğini belirleyin. 
-4. **Common Data Service Ayarı** 'nı etkinleştirmek için **Evet** 'i seçin ve ardından gerekli alanlara bilgileri girin:
+4. **Common Data Service Ayarı**'nı etkinleştirmek için **Evet**'i seçin ve ardından gerekli alanlara bilgileri girin:
 
   - Veri Akışı Adı
   - Bölge
   - Dil
   - Para birimi
  
-5. **Common Data Service Şablonu** alanında, **Project Operations** 'ı seçin 
+5. **Common Data Service Şablonu** alanında, **Project Operations**'ı seçin 
 
 6. Dağıtımınız için ortam türünü seçin. Abonelik tabanlı deneme sürümü 30 gün boyunca bir CDS ortamını dağıtmanızı sağlar. 
 
 ![Dağıtım Ayarları](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
-> Hizmet koşullarını kabul etmek için **Kabul Et** 'i ve ardından dağıtım ayarlarına dönmek için **Bitti** 'yi seçin.
+> Hizmet koşullarını kabul etmek için **Kabul Et**'i ve ardından dağıtım ayarlarına dönmek için **Bitti**'yi seçin.
 
 ![Dağıtım Onayı](./media/2DeploymentConsent.png)
 
@@ -62,7 +62,7 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 
   Dağıtım başarıyla tamamlandıktan sonra, ortam **Dağıtıldı** olarak görünür.
 
-8. Ortamın başarıyla dağıtıldığını doğrulamak için **Oturum Aç** 'ı seçin ve onaylamak üzere ortamda oturum açın.
+8. Ortamın başarıyla dağıtıldığını doğrulamak için **Oturum Aç**'ı seçin ve onaylamak üzere ortamda oturum açın.
 
 ![ Ortam Ayrıntıları](./media/3EnvironmentDetails.png)
 
@@ -76,27 +76,27 @@ Project Operations, uygulama sürümü **10.0.13 (10.0.569.20009)** veya üstü 
 
 Bu sürümü almak için Finance ortamınıza kalite güncelleştirmeleri uygulamanız gerekebilir.
 
-1. LCS'de, **Ortam ayrıntıları** sayfasının **Kullanılabilir Güncelleştirmeler** bölümünde **Güncelleştirmeyi Görüntüle** 'yi seçin.
+1. LCS'de, **Ortam ayrıntıları** sayfasının **Kullanılabilir Güncelleştirmeler** bölümünde **Güncelleştirmeyi Görüntüle**'yi seçin.
 
 ![Güncelleştirmeleri Görüntüle](./media/5ViewUpdates.png)
 
-2. **İkili güncelleştirmeler** sayfasında, **Paketi kaydet** 'i seçin.
+2. **İkili güncelleştirmeler** sayfasında, **Paketi kaydet**'i seçin.
 
 ![Paketi kaydetme](./media/6SavePackage.png)
 
-3. **Tümünü seç** 'e tıklayın ve ardından **Paketi kaydet** 'i seçin.
+3. **Tümünü seç**'e tıklayın ve ardından **Paketi kaydet**'i seçin.
 
 ![Güncelleştirmeleri gözden geçirme ve kaydetme](./media/7ReviewAndSaveUpdates.png)
 
-4. Paketin adını ve açıklamasını girin ve ardından **Kaydet** 'i seçin. İnternet bağlantısına bağlı olarak bu işlem biraz zaman alabilir.
+4. Paketin adını ve açıklamasını girin ve ardından **Kaydet**'i seçin. İnternet bağlantısına bağlı olarak bu işlem biraz zaman alabilir.
 
 ![Paketi Varlıklar Kitaplığı'na yükleme](./media/8UploadPackageToAssetsLibrary.png)
 
-5. Paket kaydedildikten sonra, **Bitti** 'yi seçin ve bu paketi LCS projenizdeki Varlıklar kitaplığına kaydedin.
+5. Paket kaydedildikten sonra, **Bitti**'yi seçin ve bu paketi LCS projenizdeki Varlıklar kitaplığına kaydedin.
 
 Paketi kaydetme ve doğrulama işlemi yaklaşık 15 dakika sürebilir.
 
-6. Güncelleştirmeyi uygulamak için LCS içindeki **Ortam ayrıntıları** sayfasına gidin ve **Bakım** > **Güncelleştirmeleri uygula** 'yı seçin.
+6. Güncelleştirmeyi uygulamak için LCS içindeki **Ortam ayrıntıları** sayfasına gidin ve **Bakım** > **Güncelleştirmeleri uygula**'yı seçin.
 
 ![Ortamları Koruma](./media/9MaintainEnvironment.png)
 
@@ -111,12 +111,12 @@ Ortamın bakımı biraz zaman alır. Tamamlandıktan sonra, ortam dağıtıldı 
 ## <a name="establish-a-dual-write-connection"></a>Çift Yazma bağlantısı kurma 
 
 1. LCS projenizde **Ortam ayrıntıları** sayfasına gidin.
-2. **Common Data Service Ortam Bilgileri** altında, **Uygulamalar için CDS bağlantısı** 'nı seçin.
-3. Bağlantı tamamlandıktan sonra, **Uygulamalar için CDS bağlantısı** 'nı tekrar seçin. Finance uygulamasında Çift Yazma alanına yönlendirilirsiniz.
+2. **Common Data Service Ortam Bilgileri** altında, **Uygulamalar için CDS bağlantısı**'nı seçin.
+3. Bağlantı tamamlandıktan sonra, **Uygulamalar için CDS bağlantısı**'nı tekrar seçin. Finance uygulamasında Çift Yazma alanına yönlendirilirsiniz.
 
 ![CDS bağlantısı](./media/12LinktoCDS.png)
 
-4. Tümleştirmede eşlenecek varlıklara erişmek için **Çözümü Uygula** 'yı seçin.
+4. Tümleştirmede eşlenecek varlıklara erişmek için **Çözümü Uygula**'yı seçin.
 
 ![Çözümleri Uygulama](./media/13ApplySolutions.png)
 
@@ -142,7 +142,7 @@ Varlıklar uygulandıktan sonra, kullanılabilir tüm eşlemeler ortam içinde l
 
 ![Çerçeve Parametreleri](./media/17FrameworkParameters.png)
 
-3. **Varlık ayarları** sayfasında **Varlık Listesini Yenile** 'yi seçin.
+3. **Varlık ayarları** sayfasında **Varlık Listesini Yenile**'yi seçin.
 
 ![Varlık Listesini Yenileme](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations Çift Yazma eşlemelerini çalıştırma
 
 1. LCS projenizde **Ortam ayrıntıları** sayfasına gidin.
-2. **Common Data Service Ortam Bilgileri** altında, **Uygulamalar için CDS bağlantısı** 'nı seçin. Bağlantıyı seçtikten sonra, eşlemelerdeki varlık listesine yönlendirilirsiniz.
+2. **Common Data Service Ortam Bilgileri** altında, **Uygulamalar için CDS bağlantısı**'nı seçin. Bağlantıyı seçtikten sonra, eşlemelerdeki varlık listesine yönlendirilirsiniz.
 3. Eşlemeleri aşağıdaki tabloda açıklandığı gibi başlatın. Sıralamayı listelendiği gibi izlediğinizden emin olun.
 
 | **Varlık Eşlemesi** | **Varlığı yenileme** | **İlk eşitleme** | **İlk eşitleme için ana öğe** | **Önkoşulları çalıştırma** | **Önkoşullar için ilk eşitleme** |
@@ -170,7 +170,7 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 | **Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments)** | Evet | No | Yok | No | Yok |
 
 
-4. Varlığı yenilemek için eşleme adını seçin ve ardından **Varlıkları yenile** 'yi seçin. 
+4. Varlığı yenilemek için eşleme adını seçin ve ardından **Varlıkları yenile**'yi seçin. 
 
 
 ![Eşlemeyi Yenileme](./media/20RefreshMapping.png)
@@ -185,4 +185,10 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 
 ![Tüm Eşlemeler Çalışıyor](./media/22AllMapsRunning.png)
 
-Project Operations ortamınız artık sağlanmış ve yapılandırılmıştır.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Project Operations için CDS'de yapılandırma verilerini uygulama (isteğe bağlı)
+
+Finans ortamına demo verileri uyguladıysanız, CDS ortamına tanıtım verilerini uygulamak için [Proje işlemleri için Common Data Service'te yapılandırma verileri ayarlama ve uygulama](resource-apply-pro-setup-config-data.md)'ya bakın.
+
+
+Project Operations ortamınız artık sağlanmış ve yapılandırılmıştır. 

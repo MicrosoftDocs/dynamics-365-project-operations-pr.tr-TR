@@ -3,7 +3,7 @@ title: Zamanlama panosundan bir proje ayırma oluşturma
 description: Bu konu zamanlama panosundan bir proje kaydı oluşturma hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086341"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122322"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Zamanlama panosundan bir proje ayırma oluşturma
 
@@ -79,7 +79,7 @@ Project Service'te bir proje oluşturulunca, otomatik olarak Birincil Gereksinim
 ## <a name="book-from-a-new-resource-requirement"></a>Yeni bir kaynak gereksiniminden ayırma
 Yeni bir kaynak gereksiniminden ayırma gerçekleştirmek için aşağıdaki adımları izleyin. 
 
-1. **Kaynak Gereksinimleri** 'ne gidin ve ardından **Yeni** 'yi seçerek yeni bir kaynak gereksinimi oluşturun.
+1. **Kaynak Gereksinimleri**'ne gidin ve ardından **Yeni**'yi seçerek yeni bir kaynak gereksinimi oluşturun.
 
 2. **Proje** sekmesinde, gereksinimi projeyle ilişkilendirmek için bir proje seçin.
  

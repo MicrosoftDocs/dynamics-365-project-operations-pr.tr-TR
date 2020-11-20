@@ -3,7 +3,7 @@ title: Birden fazla para birimi senaryoları (sürüm 3.x)
 description: Bu konu, çoklu para birimi senaryoları hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123402"
 ---
 # <a name="multiple-currency-scenarios"></a>Birden fazla para birimi senaryoları
 
@@ -71,9 +71,9 @@ Bu bölümde, Contoso UK'nin Fabrikam, Japonya adlı bir müşteri için kulland
 1. GBP ve Japon Yeni (JPY) **Ayarlar** \> **İşletme Yönetimi**\> **Para birimleri**  altında ayarlanır. 
 2. **Fabrikam-Japonya** adlı bir müşteri hesabı ayarlanmıştır ve hesapta para birimi olarak JPY seçilir.
 3. **Contoso UK** adlı bir kuruluş birimi ayarlanır ve para birimi olarak GBP seçilir.
-4. **Contoso UK** 'nin sözleşme birimi olarak ve **Fabrikam-Japonya** 'nın müşteri olarak belirtildiği bir proje sözleşmesi oluşturulur.
+4. **Contoso UK**'nin sözleşme birimi olarak ve **Fabrikam-Japonya**'nın müşteri olarak belirtildiği bir proje sözleşmesi oluşturulur.
 5. Proje sözleşme satırları, zaman için faturalama ile giderler için faturalama gibi projedeki çeşitli işlem sınıfları için faturalama düzenlemeleri temel alınarak oluşturulur.
-6. **Contoso UK** 'nin sözleşme birimi olarak belirtildiği bir proje oluşturulur. Bu proje oluşturulur ve proje sözleşmesi satırlarıyla eşleştirilir.
+6. **Contoso UK**'nin sözleşme birimi olarak belirtildiği bir proje oluşturulur. Bu proje oluşturulur ve proje sözleşmesi satırlarıyla eşleştirilir.
 
 
 Teklif satırı ayrıntısını, proje sözleşme satırı ayrıntısını veya zamanlamanın tahmini satırını kullanan tahmin sırasında, varlıkta her zaman iki kayıt oluşturulur. Bir kayıt maliyet için ve diğer kayıt satış içindir.

@@ -3,7 +3,7 @@ title: Uzmanlık modelleri ayarla
 description: Project Service'ta uzmanlık modellerini ayarlama
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086541"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123009"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Uzmanlık modellerini ayarlama (Project Service)
 
@@ -31,13 +31,13 @@ ms.locfileid: "4086541"
 
 İstemcilerinizin projeleri için beceriler eklediğinizde göre, proje gereksinimleriyle eşleştirebilmek üzere danışmanlarınızın becerilerini derecelendirmenin yoluna ihtiyacınız vardır. Varsayılan uzmanlık alanını kullanabilir, düzenleyebilir veya kuruluşunuzun gereksinimleriyle eşleştirmek için yeni bir tane oluşturabilirsiniz.  
   
-1.  **Project Service > Uzmanlık Modelleri** 'ne gidin.  
+1.  **Project Service > Uzmanlık Modelleri**'ne gidin.  
   
-2.  Varsayılan uzmanlık modelini görüntülemek veya düzenlemek için listedeki **Varsayılan Derecelendirme Modeli** 'ne ya da yeni bir uzmanlık modeli oluşturmak için **Yeni** 'ye tıklayın.  
+2.  Varsayılan uzmanlık modelini görüntülemek veya düzenlemek için listedeki **Varsayılan Derecelendirme Modeli**'ne ya da yeni bir uzmanlık modeli oluşturmak için **Yeni**'ye tıklayın.  
   
-3.  Yeni bir uzmanlık alanı oluşturuyorsanız, **Genel** alanındaki alanları doldurun ve ardından düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet** 'e tıklayın. Kendi uzmanlık modelinizi oluşturduğunuzda, yüksek sayıların daha iyi olduğunu göz önünde bulundurun.  
+3.  Yeni bir uzmanlık alanı oluşturuyorsanız, **Genel** alanındaki alanları doldurun ve ardından düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet**'e tıklayın. Kendi uzmanlık modelinizi oluşturduğunuzda, yüksek sayıların daha iyi olduğunu göz önünde bulundurun.  
   
-     Örneğin, varsayılan derecelendirme modelini görüntülüyor veya düzenliyorsanız, **Derecelendirme Değerleri** 'nde aşağıdaki uzmanlık düzeylerini görürsünüz.  
+     Örneğin, varsayılan derecelendirme modelini görüntülüyor veya düzenliyorsanız, **Derecelendirme Değerleri**'nde aşağıdaki uzmanlık düzeylerini görürsünüz.  
   
     |Ad|Değer|  
     |----------|-----------|  

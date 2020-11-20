@@ -2,7 +2,7 @@
 title: Proje Aşamaları iş süreci akışını nasıl özelleştiririm?
 description: Proje Aşamaları iş süreci akışını özelleştirmeye genel bakış.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086510"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125068"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Proje Aşamaları iş süreci akışını nasıl özelleştiririm?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Project Service uygulamasının erken sürümlerinde, Proje Aşamaları iş süreci akışındaki aşamaların adlarının, beklenen İngilizce adlarla ( **Quote** , **Plan** , **Close** ) eşleşmesinin zorunlu kılındığı, bilinen bir sınırlama vardır. Bu olmadığı zaman, İngilizce aşama adlarına bağlı olan iş mantığı, istenen şekilde işlemez. Proje formunda var olan **Süreci Değiştir** veya **Süreci Düzenle** gibi tanıdık eylemleri görmeyişinizin nedeni budur ve iş süreci akışının özelleştirilmesi tavsiye edilmez. 
+Project Service uygulamasının erken sürümlerinde, Proje Aşamaları iş süreci akışındaki aşamaların adlarının, beklenen İngilizce adlarla (**Quote**, **Plan**, **Close**) eşleşmesinin zorunlu kılındığı, bilinen bir sınırlama vardır. Bu olmadığı zaman, İngilizce aşama adlarına bağlı olan iş mantığı, istenen şekilde işlemez. Proje formunda var olan **Süreci Değiştir** veya **Süreci Düzenle** gibi tanıdık eylemleri görmeyişinizin nedeni budur ve iş süreci akışının özelleştirilmesi tavsiye edilmez. 
 
 Bu sınırlama, 2.4.5.48 ve daha sonrasında çözümlenmiştir. Bu makalede, önceki sürümler için, varsayılan iş süreci akışını özelleştirmeniz gerektiğinde önerilen geçici çözümler sunulmaktadır.  
 
@@ -48,7 +48,7 @@ Bu iş mantığında, proje aşamaları için İngilizce adlar esas alınır. İ
 
 9.0 platformunda Project Service uygulamasının 2.4.4.30 veya önceki sürümlerinde, iş süreci akışları için önemli bir mimari değişiklik yapıldı ve bu değişiklik, iş süreci akışı iş mantığının yeniden yazılmasını gerektiriyordu. Sonuç olarak, süreç aşaması adları, beklenen İngilizce adlarla eşleşmediği zaman bir hata iletisi alırsınız. 
 
-Bu nedenle, proje varlığı için Proje Aşamaları iş süreci akışını özelleştirmek isterseniz, o proje varlığı için varsayılan iş süreci akışına yalnızca tamamen yeni aşamaları ekleyebilirsiniz ve **Quote** , **Plan** , **Close** aşamaları olduğu gibi korunur. Bu kısıtlama, iş süreci akışında İngilizce aşama adlarını bekleyen iş mantığından hata almamanızı sağlar.
+Bu nedenle, proje varlığı için Proje Aşamaları iş süreci akışını özelleştirmek isterseniz, o proje varlığı için varsayılan iş süreci akışına yalnızca tamamen yeni aşamaları ekleyebilirsiniz ve **Quote**, **Plan**, **Close** aşamaları olduğu gibi korunur. Bu kısıtlama, iş süreci akışında İngilizce aşama adlarını bekleyen iş mantığından hata almamanızı sağlar.
 
 Sürüm 2.4.5.48 veya sonrasında, bu makalede açıklanan iş mantığı, proje varlığının varsayılan iş süreci akışından kaldırılmıştır. O sürüme veya daha ileri bir sürüme yükseltme sayesinde, varsayılan iş süreci akışını özelleştirebilecek veya kendinizinkiyle değiştirebileceksiniz. 
 
@@ -56,12 +56,12 @@ Sürüm 2.4.5.48 veya sonrasında, bu makalede açıklanan iş mantığı, proje
 
 Yükseltme seçeneği yoksa, proje varlığı için Proje Aşamaları iş süreci akışını şu iki yoldan özelleştirebilirsiniz:
 
-1. **Quote** , **Plan** ve **Close** için İngilizce aşama adlarını koruyarak, varsayılan yapılandırmaya başka aşamalar ekleyin.
+1. **Quote**, **Plan** ve **Close** için İngilizce aşama adlarını koruyarak, varsayılan yapılandırmaya başka aşamalar ekleyin.
 
 
 ![Varsayılan yapılandırmaya aşamalar ekleme işleminin ekran görüntüsü](media/FAQ-Customize-BPF-1.png)
  
-2. Kendi iş süreci akışınızı oluşturup proje varlığı için birincil iş süreci akışı yaparak istediğiniz aşama adlarını kullanabilirsiniz. Ancak, aynı standart proje aşamalarını ( **Quote** , **Plan** , **Close** ) kullanmak istiyorsanız, özel aşama adlarınızın kullanılmasını sağlayacak bazı özelleştirmeler yapmanız gerekir. Proje kapatmadaki mantık daha karmaşıktır ve bu mantığı yine de yalnızca proje kaydını devre dışı bırakarak tetikleyebilirsiniz.
+2. Kendi iş süreci akışınızı oluşturup proje varlığı için birincil iş süreci akışı yaparak istediğiniz aşama adlarını kullanabilirsiniz. Ancak, aynı standart proje aşamalarını (**Quote**, **Plan**, **Close**) kullanmak istiyorsanız, özel aşama adlarınızın kullanılmasını sağlayacak bazı özelleştirmeler yapmanız gerekir. Proje kapatmadaki mantık daha karmaşıktır ve bu mantığı yine de yalnızca proje kaydını devre dışı bırakarak tetikleyebilirsiniz.
 
 ![BPF özelleştirme](media/FAQ-Customize-BPF-2.png)
 
@@ -77,15 +77,15 @@ Platform 9.0'daki Project Service 2.4.4.30 veya daha erken bir sürümde özel b
 
 Proje varlığı için kendi iş süreci akışınızı oluşturmak üzere aşağıdakileri yapın:
 
-1. **Ayarlar** > **İşlem Merkezi** 'ne gidin. Proje Aşamaları iş süreci akışını kopyalamayın çünkü bu, Project Service iş mantığını da kopyalar.
+1. **Ayarlar** > **İşlem Merkezi**'ne gidin. Proje Aşamaları iş süreci akışını kopyalamayın çünkü bu, Project Service iş mantığını da kopyalar.
 
   ![İşlem Oluştur](media/FAQ-Customize-BPF-3.png)
 
-2. İstediğiniz aşama adlarını oluşturmak için İşlem Tasarımcısı'nı kullanın. **Quote** , **Plan** ve **Close** için varsayılan aşamalarla aynı işlevselliği istiyorsanız, bunu kendi özel iş süreci akışınızın aşama adlarını temel alarak oluşturmanız gerekir.
+2. İstediğiniz aşama adlarını oluşturmak için İşlem Tasarımcısı'nı kullanın. **Quote**, **Plan** ve **Close** için varsayılan aşamalarla aynı işlevselliği istiyorsanız, bunu kendi özel iş süreci akışınızın aşama adlarını temel alarak oluşturmanız gerekir.
 
    ![BPF'yi özelleştirmek için kullanılan İşlem Tasarımcısı ekran görüntüsü](media/FAQ-Customize-BPF-4.png) 
 
-3. İşlem Tasarımcısı'nda, özel iş süreci akışını Proje Aşamaları iş süreci akışının yukarısında listesinin başına taşıyarak proje varlığının birincil iş süreci akışı yapmak için **Sipariş Süreci Akışı** 'na tıklayın.
+3. İşlem Tasarımcısı'nda, özel iş süreci akışını Proje Aşamaları iş süreci akışının yukarısında listesinin başına taşıyarak proje varlığının birincil iş süreci akışı yapmak için **Sipariş Süreci Akışı**'na tıklayın.
 
 
    [Sipariş Süreci Akışı kullanımı ekran görüntüsü](media/FAQ-Customize-BPF-5-720.png)

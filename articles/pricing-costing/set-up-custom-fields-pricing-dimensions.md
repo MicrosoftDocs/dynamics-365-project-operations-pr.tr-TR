@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 087950c9639a95868a20d71286dfad4437555108
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119442"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama
 
@@ -36,14 +36,14 @@ Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi veri
 - **msdyn_OrganizationalUnit** (Kuruluş Birimi)
 
 > [!IMPORTANT]
-> Bu satırları silmeyin. Ancak bu satırlara ihtiyacınız yoksa, **Maliyet için Geçerli** , **Satış için Geçerli** ve **Satın Alma için Geçerli** seçeneklerini **Hayır** olarak ayarlayarak belirli bir bağlamda geçersiz duruma getirebilirsiniz. Bu öznitelik değerlerinin **Hayır** olarak ayarlanması alanın bir fiyatlandırma boyutu olmamasıyla aynı etkiye sahiptir.
+> Bu satırları silmeyin. Ancak bu satırlara ihtiyacınız yoksa, **Maliyet için Geçerli**, **Satış için Geçerli** ve **Satın Alma için Geçerli** seçeneklerini **Hayır** olarak ayarlayarak belirli bir bağlamda geçersiz duruma getirebilirsiniz. Bu öznitelik değerlerinin **Hayır** olarak ayarlanması alanın bir fiyatlandırma boyutu olmamasıyla aynı etkiye sahiptir.
 
 Bir alanın fiyatlandırma boyutu olması için:
 
 - **Rol Fiyatı** ve **Rol Fiyatı kar payı** varlıklarında bir alan olarak oluşturulmalıdır. Bunun nasıl yapılacağı hakkında daha fazla bilgi için [Fiyat ayarı ve işlem tabanlı varlıklara özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) bölümüne bakın.
 - **Fiyatlandırma Boyutu** tablosunda bir satır olarak oluşturulmalıdır. Örneğin, fiyatlandırma boyutu satırlarını aşağıdaki grafikte gösterildiği şekilde ekleyin. 
 
-Kaynak Çalışma saatlerinin ( **msdyn_resourceworkhours** ) kar payı tabanlı bir boyut olarak eklenir ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklenir.
+Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklenir ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklenir.
 
 > [!IMPORTANT]
 > Bu tablodaki var olan veya yeni, tüm fiyat boyutu verileri ancak önbellek yenilendikten sonra fiyatlandırma iş mantığına yansıtılır. Önbellek yenileme işlemi 10 dakika kadar sürebilir. Fiyatlandırma Boyutu verilerinde yapılan değişiklikler sonucunda fiyat varsayılan mantığındaki değişiklikleri görmek için bu sürenin geçmesini bekleyin.
@@ -58,8 +58,8 @@ Bu değer özel fiyatlandırma boyutlarının **Rol Fiyatı** tablosuna eklenen 
 ### <a name="type-of-dimension"></a>Boyut türü
 İki tür fiyatlandırma boyutu vardır:
   
-  - **Tutar tabanlı boyutlar** : Giriş bağlamlarından alınan boyut değerleri **Rol Fiyatı** satırındaki boyut değerleriyle eşleştirilir ve fiyat/maliyet varsayılan olarak doğrudan **Rol Fiyatı** tablosundan ayarlanır.
-  - **Kar payı tabanlı boyutlar** : Bunlar fiyat/maliyet almak için aşağıdaki 3 adımlı işlemi kullanacağı boyutlardır:
+  - **Tutar tabanlı boyutlar**: Giriş bağlamlarından alınan boyut değerleri **Rol Fiyatı** satırındaki boyut değerleriyle eşleştirilir ve fiyat/maliyet varsayılan olarak doğrudan **Rol Fiyatı** tablosundan ayarlanır.
+  - **Kar payı tabanlı boyutlar**: Bunlar fiyat/maliyet almak için aşağıdaki 3 adımlı işlemi kullanacağı boyutlardır:
  
     1. Taban fiyatı almak için giriş bağlamından kar payı tabanlı olmayan boyut değerleri Rol Fiyatı satırıyla eşleştirilir.
     2. Kar payı yüzdesi almak için giriş bağlamından tüm boyut değerleri **Rol Fiyatı Kar Payı** satırıyla eşleştirilir.
@@ -88,5 +88,5 @@ Bu değer **Evet** olarak ayarlandığında satınalma fiyatı alınırken **Rol
 ### <a name="priority"></a>Öncelik
 Boyut önceliğinin ayarlanması fiyatlandırma işlevinin giriş boyutu değerleri ve **Rol Fiyatı** veya **Rol Fiyatı Kar Payı** tablolarından alınan değerler arasında tam bir eşleşme bulamadığında bile bir fiyat üretmesine yardımcı olur. Bu senaryoda boyutları öncelik sıralarına göre ölçerek eşleşmeyen boyut değerleri için null değerler kullanılır.
 
-- **Maliyet Önceliği** : Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
-- **Satış Önceliği** : Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+- **Maliyet Önceliği**: Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+- **Satış Önceliği**: Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.

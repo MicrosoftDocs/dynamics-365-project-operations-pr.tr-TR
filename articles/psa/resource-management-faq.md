@@ -3,7 +3,7 @@ title: Kaynak yönetimiyle ilgili SSS
 description: Bu konu, kaynak yönetimi hakkında sık sorulan sorulara yanıt sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086535"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120162"
 ---
 # <a name="resource-management-faq"></a>Kaynak yönetimiyle ilgili SSS
 
@@ -43,11 +43,11 @@ Kaynak gereksinimi ayırdığınızda geçici ayırmalar yapılabilir. Proje tak
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Ayırdığım bir kaynak için (genel veya adlandırılmış) gerekli saatleri ve başlangıç ile bitiş tarihlerini nasıl değiştiririm?
 
-Kaynaklar ayrıldıktan sonra, gerekli değişiklikleri yapmak için **Ayırma İşlemlerini Koru** 'yu seçin.
+Kaynaklar ayrıldıktan sonra, gerekli değişiklikleri yapmak için **Ayırma İşlemlerini Koru**'yu seçin.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation hangi kaynak türlerini destekler?
 
-Kaynak türlerinden yalnızca **Kullanıcı** ve **İlgili Kişi** , Dynamics 365 Project Service Automation'da desteklenir. Başka tür kaynaklar oluşturabilseniz de (örneğin, **Ekipman** ve **Grup** ) bunlar için herhangi bir uçtan uca servis talebi desteklenmez.
+Kaynak türlerinden yalnızca **Kullanıcı** ve **İlgili Kişi**, Dynamics 365 Project Service Automation'da desteklenir. Başka tür kaynaklar oluşturabilseniz de (örneğin, **Ekipman** ve **Grup**) bunlar için herhangi bir uçtan uca servis talebi desteklenmez.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Atama ve ayırma arasındaki fark nedir?
 

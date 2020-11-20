@@ -2,7 +2,7 @@
 title: Microsoft Dynamics 365 Project Service Automation sürüm 2.x veya 1.x'ten sürüm 3'e yükseltme işleminin önemli noktaları
 description: Bu konu, Project Service Automation sürüm 2.x veya 1.x 'ten sürüm 3'e yükseltme işlemi gerçekleştirirken dikkat etmeniz gereken önemli noktalar hakkında bilgi sağlar.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086404"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121737"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA sürüm 2.x veya 1.x'ten sürüm 3.x'e yükseltme işleminin önemli noktaları
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "4086404"
 Dynamics 365 Project Service Automation ve Dynamics 365 Field Service kaynak zamanlaması için Universal Resourcing Scheduling (URS) çözümünü kullanır. Kurulumunuzda Project Service Automation ve Field Service varsa iki çözümü de en son sürüme (Project Service Automation için sürüm 3.x, Field Service için sürüm 8.x) yükseltmeyi planlamanız gerekir. Project Service Automation veya Field Service'in yükseltilmesiyle URS'nin en son sürümü yüklenir. Bu, aynı kurulumdaki Project Service Automation ve Field Service çözümleri en son sürüme yükseltilmezse tutarsız davranış olabileceği anlamına gelir.
 
 ## <a name="resource-assignments"></a>Kaynak atamaları
-Project Service Automation sürüm 2 ve sürüm 1'de, görev atamaları **Görev varlığı** 'nda alt öğe görevleri olarak depolanır ve dolaylı olarak **Kaynak Atama** varlığıyla ilgilidir. Satır görevi İş Kırılım Yapısı'ndaki (İKY) atama açılır penceresinde görünür.
+Project Service Automation sürüm 2 ve sürüm 1'de, görev atamaları **Görev varlığı**'nda alt öğe görevleri olarak depolanır ve dolaylı olarak **Kaynak Atama** varlığıyla ilgilidir. Satır görevi İş Kırılım Yapısı'ndaki (İKY) atama açılır penceresinde görünür.
 
 ![Project Service Automation sürüm 2 ve sürüm 1'deki İKY üzerinde satır görevleri](media/upgrade-line-task-01.png)
 
-Project Service Automation sürüm 3'te, görevlere ayrılabilir kaynaklar atama temel şeması değişti. Satır görevi kullanımdan kaldırılmıştır ve **Görev varlığı** 'ndaki görev ile **Kaynak Atama** varlığındaki takım üyesi arasında doğrudan bire bir ilişki vardır. Proje takım üyesine atanan görevler artık doğrudan Kaynak Atama varlığında depolanır.  
+Project Service Automation sürüm 3'te, görevlere ayrılabilir kaynaklar atama temel şeması değişti. Satır görevi kullanımdan kaldırılmıştır ve **Görev varlığı**'ndaki görev ile **Kaynak Atama** varlığındaki takım üyesi arasında doğrudan bire bir ilişki vardır. Proje takım üyesine atanan görevler artık doğrudan Kaynak Atama varlığında depolanır.  
 
 Bu değişiklikler, bir proje takımındaki adlandırılmış ayrılabilir kaynaklar ve genel kaynaklar için kaynak atamalarının olduğu varolan projelerin yükseltilmesini etkiler. Bu konuda, sürüm 3'e yükseltirken projelerinizde dikkate almanız gereken önemli noktalar verilir. 
 

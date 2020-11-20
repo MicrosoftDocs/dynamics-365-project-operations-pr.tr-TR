@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124662"
 ---
 # <a name="extending-time-entries"></a>Zaman girişlerini uzatma
 
@@ -119,7 +119,7 @@ Bu görünüm, ızgarada bulunmasını istediğiniz sütunlara ek olarak **Açı
 
 Özel alan için uygun görev akışını belirlemeniz gerekir. Alanı ızgaraya eklediyseniz büyük olasılıkla, zaman girişleri satırının tamamı için geçerli olan alanlarda kullanılan satır düzenleme görev akışına gitmesi gerekir. Özel alan, **Bitiş saati** özel alanı gibi benzersiz bir günlük değere sahipse hücre düzenleme görev akışına gitmelidir.
 
-Görev akışına özel alan eklemek için bir **Alan** öğesini sayfada uygun konuma sürükleyin ve ardından alan özelliklerini ayarlayın. **Kaynak** özelliğini **Zaman Girişi** olarak ve **Veri Alanı** özelliğini özel alan olarak ayarlayın. **Alan** özelliği, TBX sayfasında görünen adı belirtir. Alanda yaptığınız değişiklikleri kaydetmek için **Uygula** 'yı ve ardından sayfada yaptığınız değişiklikleri kaydetmek için de **Güncelleştir** 'i seçin.
+Görev akışına özel alan eklemek için bir **Alan** öğesini sayfada uygun konuma sürükleyin ve ardından alan özelliklerini ayarlayın. **Kaynak** özelliğini **Zaman Girişi** olarak ve **Veri Alanı** özelliğini özel alan olarak ayarlayın. **Alan** özelliği, TBX sayfasında görünen adı belirtir. Alanda yaptığınız değişiklikleri kaydetmek için **Uygula**'yı ve ardından sayfada yaptığınız değişiklikleri kaydetmek için de **Güncelleştir**'i seçin.
 
 Bunun yerine yeni bir özel TBX sayfası kullanmak için yeni bir işlem oluşturun. Kategoriyi **İş Süreci Akışı** olarak, varlığı **Zaman Girişi** olarak ve iş süreci akışı türünü **Süreci görev akışı olarak çalıştır** olarak ayarlayın. **Özellikler** altında, **Sayfa Adı** özelliği sayfanın görünen adı olarak ayarlanmalıdır. Tüm ilgili alanları TBX sayfasına ekleyin. Süreci kaydedin ve etkinleştirin. Ardından işlemde ilgili görev akışının özel denetim özelliğini **Ad** değerine güncelleştirin.
 
