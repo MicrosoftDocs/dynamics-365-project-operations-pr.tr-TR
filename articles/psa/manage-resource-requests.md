@@ -3,7 +3,7 @@ title: Kaynak isteklerini yönet
 description: Project Service'ta kaynak taleplerini yönetme
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086323"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129027"
 ---
 # <a name="manage-resource-requests-project-service"></a>Kaynak taleplerini yönetme (Project Service)
 
@@ -31,17 +31,17 @@ ms.locfileid: "4086323"
 
 Hesap yöneticileri ve proje yöneticileri projeleri için düzenli olarak kaynak ister. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] özellikleriyle, bu kaynak istekleri için gerekli becerilere ve uzmanlıklara sahip danışmanları bulabilir ve eşleştirebilirsiniz.  
   
-1. **Project Service** > **Kaynak İstekleri** 'ne gidin.  
+1. **Project Service** > **Kaynak İstekleri**'ne gidin.  
   
-2. Bir kaynak isteği seçin ve ardından **Kaynakları Bul** 'a tıklayın. Bu, bir kaynağın ayırma durumunun görsel görünümünü sağlayan renk kodlaması ile tüm kaynakların ve kullanılabilirliklerinin bir takvim görünümünü gösterir.  
+2. Bir kaynak isteği seçin ve ardından **Kaynakları Bul**'a tıklayın. Bu, bir kaynağın ayırma durumunun görsel görünümünü sağlayan renk kodlaması ile tüm kaynakların ve kullanılabilirliklerinin bir takvim görünümünü gösterir.  
   
     Aramanızı en iyi duruma getirmek için aşağıdakilerden birini yapın:  
   
-   -   Ekranın üst kısmından bir görünüm veya sıralama düzeni seçin. Ayrıca, **Gün** , **Hafta** veya **Ay** için kullanılabilirliği göstermeyi seçebilir ve önceki ya da sonraki zaman dilimini görüntülemek için okları kullanabilirsiniz. Belirli bir kaynağı bulmak için arama kutusunu kullanın.  
+   -   Ekranın üst kısmından bir görünüm veya sıralama düzeni seçin. Ayrıca, **Gün**, **Hafta** veya **Ay** için kullanılabilirliği göstermeyi seçebilir ve önceki ya da sonraki zaman dilimini görüntülemek için okları kullanabilirsiniz. Belirli bir kaynağı bulmak için arama kutusunu kullanın.  
   
-   -   Görüntülenenleri değiştirmek için **Seçenekler** 'e tıklayın. Örneğin, farklı türdeki ayırmalar için renk düzeni gösteren bir açıklama gösterebilir veya yalnızca belirli türdeki bir ayırmayı (örneğin, kesin ayırma veya geçici ayırma) göstermeyi seçebilirsiniz.  
+   -   Görüntülenenleri değiştirmek için **Seçenekler**'e tıklayın. Örneğin, farklı türdeki ayırmalar için renk düzeni gösteren bir açıklama gösterebilir veya yalnızca belirli türdeki bir ayırmayı (örneğin, kesin ayırma veya geçici ayırma) göstermeyi seçebilirsiniz.  
   
-   -   Sonuçlarınızı kuruluş birimi, rol, beceri veya diğer özniteliklere göre filtrelemenize olanak veren **Filtre** bölmesini görüntülemek için **Filtrele** 'ye tıklayın.  
+   -   Sonuçlarınızı kuruluş birimi, rol, beceri veya diğer özniteliklere göre filtrelemenize olanak veren **Filtre** bölmesini görüntülemek için **Filtrele**'ye tıklayın.  
   
        ![Project Service Kaynak İsteği ekranı](../psa/media/project-service-resource-request-screen.png "Project Service Kaynak İsteği ekranı")  
   

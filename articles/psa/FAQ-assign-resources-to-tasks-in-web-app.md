@@ -3,7 +3,7 @@ title: Web uygulamasında göreve nasıl ayrılabilir kaynak atarım?
 description: Kullanılabilir kaynakları atayabileceğiniz yöntemlere genel bakış.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086512"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125202"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Web uygulamasında (Project Service uygulaması v2.x) bir göreve nasıl bir ayrılabilir kaynak atayabilirim?
 
@@ -38,7 +38,7 @@ Bir göreve bir ayrılabilir kaynak atamak istiyorsanız, ayrılabilir kaynak ta
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>Bir kaynağı bir takım üyesi olarak ayırın ve ardından kaynağı bir göreve atayın.
 
 Bu yöntemle bir kaynağı proje takımına ekler ve ardından proje zamanlamasındaki kaynağa görevler atarsınız. Bunu aşağıda belirtildiği şekilde yapabilirsiniz:
-1.  Takım üyesi kılavuzunda **Yeni** 'yi seçerek yeni bir takım üyesi ekleyin.
+1.  Takım üyesi kılavuzunda **Yeni**'yi seçerek yeni bir takım üyesi ekleyin.
 2.  Takım Üyesi Hızlı Oluştur ekranında, ayrılabilir kaynağın adını seçin ve rol ayarlayın.
 3.  **Başlangıç** ve **Bitiş** tarihlerini seçin.
 
@@ -46,19 +46,19 @@ Bu yöntemle bir kaynağı proje takımına ekler ve ardından proje zamanlamas�
     > ![Takım üyesi ekleme ekran görüntüsü](media/FAQ-Resources-to-Tasks2-1.png "Takım üyesi ekleme ekran görüntüsü")
  
 4.  Kaynak ayırma için aşağıdaki tahsisat yöntemlerinden birini seçin:
-    - **Tam Kapasite** , belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır.
-    - **Yüzde Kapasite** , belirtilen başlangıç ve bitiş tarihleri için kaynak kapasitesinin bir yüzdesini ayırır.
-    - **Saatlere Göre - Eşit Dağıt** , kaynağı, belirtilen sayıda saatler için ayırır ve belirtilen başlangıç ve bitiş tarihleri arasında her güne eşit olarak dağıtır.
-    - **Saatlere Göre - Ön Yük** , kaynağı, belirtilen sayıda saatler için ayırır ve günlük saat sayısını, belirtilen başlangıç ve bitiş tarihleri arasında ön yükler.
+    - **Tam Kapasite**, belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır.
+    - **Yüzde Kapasite**, belirtilen başlangıç ve bitiş tarihleri için kaynak kapasitesinin bir yüzdesini ayırır.
+    - **Saatlere Göre - Eşit Dağıt**, kaynağı, belirtilen sayıda saatler için ayırır ve belirtilen başlangıç ve bitiş tarihleri arasında her güne eşit olarak dağıtır.
+    - **Saatlere Göre - Ön Yük**, kaynağı, belirtilen sayıda saatler için ayırır ve günlük saat sayısını, belirtilen başlangıç ve bitiş tarihleri arasında ön yükler.
 
     **Hiçbiri** seçeneğini belirtmeyin çünkü kaynağı takıma ekler ancak kaynağın kapasitesini kullanan herhangi bir ayırma oluşturmaz.
-5.  **Kaydet** 'i seçin.
+5.  **Kaydet**'i seçin.
 
     Ayırmada, bu kaynağı atadığınız görevlerin tarih aralığını ve çalışılması gereken saat sayısını kapsayacak kadar saat olması gerektiğini unutmayın. Bu değerler örtüşmüyorsa, kaynağı göreve atayamazsınız.
 
 6.  Görevin iş kırılım yapısında (İKY), kaynak hücresinin açılan listesine tıklayın. Bunun ardından: 
 
-    1. **Ekle** 'yi seçin.
+    1. **Ekle**'yi seçin.
     2. **Kaynaklar** altındaki açılan listeyi ve bu listeden, yukarıda eklediğiniz takım üyesini seçin.
     3. **Tamam** seçeneğini işaretleyin. Takım üyesi göreve atanır.
 
@@ -94,7 +94,7 @@ Bu yöntem, görevler için kaynaklarda yeterli ayırma olmasını sağlar. Önc
     > [!div class="mx-imgBorder"] 
     > ![Kaynak eklemek için İKY kullanma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-4.png "Kaynak eklemek için İKY kullanma ekran görüntüsü")
  
-İKY'de görevlere rolleri atama işleminizi tamamladıktan sonra **Proje Takımı Oluştur** 'u seçin. Project Service, görev atamalarını toplayarak rollere, kaynak belirleme kuruluş birimlerine ve proje takvimine göre en az sayıda genel takım üyesi oluşturur.
+İKY'de görevlere rolleri atama işleminizi tamamladıktan sonra **Proje Takımı Oluştur**'u seçin. Project Service, görev atamalarını toplayarak rollere, kaynak belirleme kuruluş birimlerine ve proje takvimine göre en az sayıda genel takım üyesi oluşturur.
 
 > [!div class="mx-imgBorder"] 
 > ![Proje takımı oluşturma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-5.png "Proje takımı oluşturma ekran görüntüsü")
@@ -109,7 +109,7 @@ Genel takım üyesi için destekleyici kaynak gereksinimini, Kaynak Gereksinimi 
 > [!div class="mx-imgBorder"] 
 > ![Destekleyici kaynak gereksinimi açma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-7.png "Destekleyici kaynak gereksinimi açma ekran görüntüsü")
 
-Genel kaynak için **Ayır** 'ı seçtikten sonra, zamanlama panosunu kullanarak gerçek bir kaynak bulup ayırabilirsiniz. Ayrıca, gereksinimi, bir kaynak yöneticisi tarafından karşılanması için **İsteği Gönder** 'i seçerek gönderebilirsiniz.
+Genel kaynak için **Ayır**'ı seçtikten sonra, zamanlama panosunu kullanarak gerçek bir kaynak bulup ayırabilirsiniz. Ayrıca, gereksinimi, bir kaynak yöneticisi tarafından karşılanması için **İsteği Gönder**'i seçerek gönderebilirsiniz.
 
 Genel kaynak, adlandırılmış bir kaynakla karşılandığı zaman, genel kaynak takımdan kaldırılır ve genel kaynağın görev atamaları, genel kaynağın kaynak gereksinimini karşılayan adlandırılmış kaynağa atanır.
  

@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086265"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131817"
 ---
 # <a name="copy-a-project"></a>Proje kopyalama
 

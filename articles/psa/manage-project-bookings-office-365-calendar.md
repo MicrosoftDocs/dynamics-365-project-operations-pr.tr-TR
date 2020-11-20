@@ -3,7 +3,7 @@ title: Office 365 takviminizde projeleri ve ayırmaları yönetme
 description: Office 365 takviminizde projeleri ve ayırmaları yönetme
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086358"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129072"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Takviminizde projeleri ve ayırmaları yönetme (Project Service)
 
@@ -54,30 +54,30 @@ Kişisel randevuları, proje-iş ayırmalarını ve field service iş emri atama
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Kuruluşunuz için eşitlemeyi açma (yönetici görevi)  
   
-1.  Ana menüden, **Ayarlar** > **Yönetim** 'e tıklayın.  
+1.  Ana menüden, **Ayarlar** > **Yönetim**'e tıklayın.  
   
-2.  **Sistem Ayarları** 'na tıklayın.  
+2.  **Sistem Ayarları**'na tıklayın.  
   
 3.  **Eşitleme** sekmesine tıklayın.  
   
-4.  **Kaynak ayırma işlemlerinin Outlook ile eşitlenmesinin etkinleştirilip etkinleştirilmeyeceğini seçin** altında, **Kaynak ayırma işlemlerini Outlook ile eşitle** 'yi işaretleyin.  
+4.  **Kaynak ayırma işlemlerinin Outlook ile eşitlenmesinin etkinleştirilip etkinleştirilmeyeceğini seçin** altında, **Kaynak ayırma işlemlerini Outlook ile eşitle**'yi işaretleyin.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Kullanıcı profiliniz için eşitlemeyi açma (kullanıcı görevi)  
   
 1.  Ekranın sağ üst köşesindeki **Ayarlar** düğmesine tıklayın.  
   
-2.  **Seçenekler** 'e tıklayın.  
+2.  **Seçenekler**'e tıklayın.  
   
 3.  **Eşitleme** sekmesine tıklayın.  
   
-4.  **Outlook ile kaynak ayırma eşitlemesi** altında, **Kaynak ayırma işlemlerini Outlook ile eşitle** 'yi işaretleyin.  
+4.  **Outlook ile kaynak ayırma eşitlemesi** altında, **Kaynak ayırma işlemlerini Outlook ile eşitle**'yi işaretleyin.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Kişisel randevularınızı içeri aktarma (kullanıcı görevi)  
  Kişisel randevularınızı takviminizden Project Service Automation zaman girdisi görünümüne içeri aktarabilirsiniz.  
   
-1. [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] takvimini açın ve **Veri Alma** 'ya tıklayın.  
+1. [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] takvimini açın ve **Veri Alma**'ya tıklayın.  
   
-2. Filtreler ekranında, **Exchange'den randevular** 'ı seçin ve ardından **Uygula** 'ya tıklayın.  
+2. Filtreler ekranında, **Exchange'den randevular**'ı seçin ve ardından **Uygula**'ya tıklayın.  
   
 3. Sistem randevuları zaman girdisi görünümüne geçerli hafta için önerilen girişler olarak çeker. Farklı bir haftaya giriş eklemek için, **Önceki** veya **Sonraki** öğesine tıklayın.  
   
@@ -85,7 +85,7 @@ Kişisel randevuları, proje-iş ayırmalarını ve field service iş emri atama
   
 5. **Zaman Girdisi** açılan kutusunda, randevuyu bir Project Service Automation zaman girdisi görünümüne dönüştürmek için uygun seçenekleri belirleyin.  
   
-6. **Kaydet** 'e tıklayın.  
+6. **Kaydet**'e tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)

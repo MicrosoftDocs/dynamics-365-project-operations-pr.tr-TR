@@ -3,7 +3,7 @@ title: Kaynak gereksinimlerinden adlandırılmış kaynakları ayırma
 description: Bu konu, genel bir kaynak gereksinimi için adlandırılmış kaynakları ayırma hakkında bilgi sağlar.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086529"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125922"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Kaynak gereksinimlerinden adlandırılmış kaynakları ayırma
 
@@ -32,13 +32,13 @@ ms.locfileid: "4086529"
 Kaynak gereksinimi olan genel kaynağı değiştirmek için adlandırılmış bir kaynak kullanabilirsiniz.
 
 1. Project Service Automation'da (PSA) **Projeler** sayfasında **Takım** sekmesine tıklayın.
-2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **Ayır** 'a tıklayın. Veya, kaynak gereksinimini açıp **Ayır** 'a tıklayın.
+2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **Ayır**'a tıklayın. Veya, kaynak gereksinimini açıp **Ayır**'a tıklayın.
 
 
 ![Genel takım üyesi ayırma](media/RM-how-to-14.png)
 
 
-3. **Zamanlama Yardımcısı** sayfasında, proje takımınıza ayırmak için adlandırılmış bir kaynak seçin ve ardından **Ayır** 'a tıklayın.
+3. **Zamanlama Yardımcısı** sayfasında, proje takımınıza ayırmak için adlandırılmış bir kaynak seçin ve ardından **Ayır**'a tıklayın.
 
 ![Zamanlama yardımcısını kullanarak genel takım üyesi ayırma](media/RM-how-to-15.png)
 

@@ -3,7 +3,7 @@ title: Proje takımına adlandırılmış ayrılabilir kaynaklar ayırma ve gör
 description: Bu konuda, proje takımlarına adlandırılmış kaynaklar ayırma ve bunları görevlere atama hakkında bilgiler sağlanmaktadır.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086443"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130197"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Proje takımına adlandırılmış ayrılabilir kaynaklar ayırma ve görevler atama 
 
@@ -31,15 +31,15 @@ ms.locfileid: "4086443"
 
 Bir adlandırılmış kaynağı proje ekibinize doğrudan takım üzerinde ayırarak ekleyebilirsiniz. Bunu yapmak için aşağıdaki adımları tamamlayın.
 
-1. Project Service Automation'da, **Projeler** 'e gidin ve ayırma yaptığınız projeyi seçerek açın.
-2. **Proje** sayfasında, **Takım** sekmesinde, **Yeni** 'ye tıklayın. 
+1. Project Service Automation'da, **Projeler**'e gidin ve ayırma yaptığınız projeyi seçerek açın.
+2. **Proje** sayfasında, **Takım** sekmesinde, **Yeni**'ye tıklayın. 
 
 ![Takım sekmesinden bir takım üyesi ekleme](media/RM-how-to-1.png)
 
 3. **Proje Takım Üyesi Hızlı Oluştur** iletişim kutusunda, ayrılabilir kaynağı seçin. **Rol** alanı, atanmış olan varsa kaynağın varsayılan rolüyle doldurulur. Gerekirse rolü değiştirebilirsiniz. 
 4. Kaynağın gerekli olduğu başlangıç ve bitiş tarihlerini seçin ve kaynağın kapasitesinin tahsisat yöntemini seçin. 
-5. Takım üyesinin bir proje onaylayanı olmasını istiyorsanız, **Proje Onaylayanı** alanında **Evet** 'i seçin. Bu, takım üyesinin bu projeye ait gönderilen zaman ve gider girişlerini onaylayabileceği anlamına gelir. 
-6. **Kaydet** 'e tıklayın.
+5. Takım üyesinin bir proje onaylayanı olmasını istiyorsanız, **Proje Onaylayanı** alanında **Evet**'i seçin. Bu, takım üyesinin bu projeye ait gönderilen zaman ve gider girişlerini onaylayabileceği anlamına gelir. 
+6. **Kaydet**'e tıklayın.
 
 ![Hızlı oluştur formunda takım üyesi ekleme](media/RM-how-to-2.png)
 
@@ -61,7 +61,7 @@ Bunu yaptığınızda, kaynak proje takımına eklenir ve göreve atanır, ancak
 
 ![Atamaları olan ancak ayırmaları olmayan takım üyesi](media/RM-how-to-6.png)
 
-Kaynağın kapasitesini projeye ayırmak için **Mutabakat** sekmesinin ayırmayı uzatma özelliğini veya **Zamanlama Panosu** 'nu kullanabilirsiniz.
+Kaynağın kapasitesini projeye ayırmak için **Mutabakat** sekmesinin ayırmayı uzatma özelliğini veya **Zamanlama Panosu**'nu kullanabilirsiniz.
 
 ![Kaynak mutabakatı sekmesinde bir takım üyesi için ayırmaları uzatma](media/RM-how-to-7.png)
 

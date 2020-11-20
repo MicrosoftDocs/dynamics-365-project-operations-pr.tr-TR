@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086175"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127397"
 ---
 # <a name="project-tracking-overview"></a>Proje izlemeye genel bakış
 
@@ -25,10 +25,10 @@ Zamanlamaya göre ilerleme durumunun izlenmesi ihtiyacı endüstriye göre deği
 
 **Çalışma izleme** görünümü, görevin planlanan çalışma saatlerini göreve harcanan gerçek çalışma saatleriyle karşılaştırarak görevlerin zamanlamadaki ilerlemelerini izler. Dynamics 365 Project Operations, izleme ölçümlerini hesaplamak için aşağıdaki formülleri kullanır:
 
-- **İlerleme yüzdesi** : Bugüne kadar harcanan gerçek çalışma süresi ÷ Tahmini tamamlanma (EAC) 
-- **Tahmini tamamlanma zamanı (ETC)** : Planlanan çalışma süresi – Bugüne kadar harcanan gerçek çalışma süresi 
-- **EAC** : Kalan çalışma süresi + Bugüne kadar harcanan gerçek çalışma süresi 
-- **Öngörülen çalışma farkı** : Planlanan çalışma süresi – EAC
+- **İlerleme yüzdesi**: Bugüne kadar harcanan gerçek çalışma süresi ÷ Tahmini tamamlanma (EAC) 
+- **Tahmini tamamlanma zamanı (ETC)**: Planlanan çalışma süresi – Bugüne kadar harcanan gerçek çalışma süresi 
+- **EAC**: Kalan çalışma süresi + Bugüne kadar harcanan gerçek çalışma süresi 
+- **Öngörülen çalışma farkı**: Planlanan çalışma süresi – EAC
 
 Project Operations, görevdeki çalışma süresi farkının bir projeksiyonunu gösterir. EAC, planlanan çalışma süresinden daha fazlaysa görevin, başlangıçta planlanandan daha fazla zaman alacağı ve zamanlamanın gerisine düşeceği öngörülür. EAC, planlanan çalışma süresinden daha azsa görevin, başlangıçta planlanandan daha az zaman alacağı ve zamanlamanın önünde gideceği öngörülür.
 
@@ -60,10 +60,10 @@ Her yaklaşım, görevin ETC, EAC ve ilerleme durumu yüzdesinin yeniden hesapla
 > [!NOTE]
 > Bu görünüm yalnızca işçilik maliyetlerini gösterir ve gider tahminlerindeki maliyetleri içermez. Project Operations, izleme ölçümlerini hesaplamak için aşağıdaki formülleri kullanır:
 
-- **Tüketilen maliyetin yüzdesi** : Bugüne kadar harcanan gerçek maliyet ÷ İş tamamlandığında tahmini maliyet
-- **Tamamlamak için gereken maliyet (CTC)** : Planlanan maliyet – Bugüne kadar harcanan gerçek maliyet
-- **EAC** : Kalan maliyet + Bugüne kadarki gerçek maliyet
-- **Öngörülen maliyet farkı** : Planlanan maliyet – EAC
+- **Tüketilen maliyetin yüzdesi**: Bugüne kadar harcanan gerçek maliyet ÷ İş tamamlandığında tahmini maliyet
+- **Tamamlamak için gereken maliyet (CTC)**: Planlanan maliyet – Bugüne kadar harcanan gerçek maliyet
+- **EAC**: Kalan maliyet + Bugüne kadarki gerçek maliyet
+- **Öngörülen maliyet farkı**: Planlanan maliyet – EAC
 
 Görevdeki maliyet farkının bir projeksiyonu gösterilir. EAC, planlanan maliyetten daha fazlaysa görevin başlangıçta planlanandan daha maliyetli olacağı öngörülür. Bu nedenle, bütçe üzerinde bir trende sahiptir. EAC, planlanan maliyetten daha azsa görevin başlangıçta planlanandan daha az maliyetli olacağı öngörülmektedir. Bu nedenle, bütçe altında bir trende sahiptir.
 

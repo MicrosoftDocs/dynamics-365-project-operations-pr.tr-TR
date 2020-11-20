@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086364"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131007"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
 
@@ -33,40 +33,40 @@ Bu konu, [Fiyatlandırma boyutu olarak kullanılmak üzere özel alanlar ve varl
 Bu konuda yordamlar, gerekli özel alan başvurularının varlıklara ve form ve görünüm gibi kullanıcı arabirimi (UI) öğelerine nasıl ekleneceğini gösterir.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Özel fiyatlandırma boyutu alanları ekleme 
-Özel alanlar ve varlıklar oluşturulduktan sonra, sonraki adım başvuru alanları oluşturarak Fiyat ayarı ve işlem varlıklarının herhangi bir özel varlık veya seçenek kümesiyle uyumlu hale getirmektir. Fiyatlandırma boyutları listesinin seçenek kümesi boyutlarına ya da varlık boyutlarına veya her ikisine sahip olmasına bağlı olarak, yalnızca **Seçenek kümesi tabanlı özel fiyatlandırma boyutları** 'ndaki veya **Varlık tabanlı özel fiyatlandırma boyutları** 'ndaki veya her ikisindeki adımları izleyin.
+Özel alanlar ve varlıklar oluşturulduktan sonra, sonraki adım başvuru alanları oluşturarak Fiyat ayarı ve işlem varlıklarının herhangi bir özel varlık veya seçenek kümesiyle uyumlu hale getirmektir. Fiyatlandırma boyutları listesinin seçenek kümesi boyutlarına ya da varlık boyutlarına veya her ikisine sahip olmasına bağlı olarak, yalnızca **Seçenek kümesi tabanlı özel fiyatlandırma boyutları**'ndaki veya **Varlık tabanlı özel fiyatlandırma boyutları**'ndaki veya her ikisindeki adımları izleyin.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Seçenek kümesi tabanlı özel fiyatlandırma boyutları
 Özel bir fiyatlandırma boyutu seçenek kümesi tabanlı ise, temel varlıklara bir alan olarak ekleyin. Aşağıdaki yordamda **Kaynak Çalışma Konumu** ve **Kaynak Çalışma Saatleri** seçenek kümesi tabanlı fiyatlandırma boyutları olarak kullanılır. Bunların öncelikle **Rol fiyatı** ve **Rol Fiyatı Sair Gideri** fiyatlandırma varlıklarına alan olarak eklenmesi gerekir.
 
-1. Proje Operations'da, **Ayarlar** > **Çözümler** 'i seçin ve **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Rol Fiyatı** 'nı seçin.
-3. **Rol Fiyatı** varlığını genişletin ve **Alanlar** 'ı seçin.
-4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türü olarak **Seçenek kümesi** 'ni seçmek için **Yeni** 'yi seçin. 
-5. **Varolan bir seçenek kümesini kullan** 'ı, **Kaynak Çalışma Konumu** seçenek kümesini seçin ve ardından **Kaydet** 'i seçin.
+1. Proje Operations'da, **Ayarlar** > **Çözümler**'i seçin ve **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Rol Fiyatı**'nı seçin.
+3. **Rol Fiyatı** varlığını genişletin ve **Alanlar**'ı seçin.
+4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türü olarak **Seçenek kümesi**'ni seçmek için **Yeni**'yi seçin. 
+5. **Varolan bir seçenek kümesini kullan**'ı, **Kaynak Çalışma Konumu** seçenek kümesini seçin ve ardından **Kaydet**'i seçin.
 6. Bu alanı **Rol Fiyatı Kar Payı** varlığına eklemek için 1-5 arasındaki adımları yineleyin. 
 7. **Kaynak Çalışma Saatleri** seçenek kümesi için 1-5 arasındaki adımları yineleyin.
 
 > [!IMPORTANT]
 > Birden çok varlığa bir alan eklediğinizde, tüm varlıklar üzerinde aynı alan adını kullanın. 
 
-Bir projeyle ilgili satış ve tahmin aşamalarında, **Normal saatler** ve **Fazla mesai saatleri** 'nde **Yerel** ve **Yerinde** çalışmanın tamamlanması için gereken iş çabası tahminleri, Teklif/Projenin değerini tahmin etmek için kullanılır. **Kaynak çalışma konumu** ve **Kaynak çalışma saatleri** alanları **Teklif Satırı Ayrıntısı** , **Sözleşme satırı ayrıntısı** , **Proje takımı üyesi** ve **Tahmin satırı** tahmin varlıklarına eklenir.
+Bir projeyle ilgili satış ve tahmin aşamalarında, **Normal saatler** ve **Fazla mesai saatleri**'nde **Yerel** ve **Yerinde** çalışmanın tamamlanması için gereken iş çabası tahminleri, Teklif/Projenin değerini tahmin etmek için kullanılır. **Kaynak çalışma konumu** ve **Kaynak çalışma saatleri** alanları **Teklif Satırı Ayrıntısı**, **Sözleşme satırı ayrıntısı**, **Proje takımı üyesi** ve **Tahmin satırı** tahmin varlıklarına eklenir.
 
-1. Proje Operations'da, **Ayarlar** > **Çözümler** 'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Teklif Satırı Ayrıntısı** 'nı seçin.
-3. **Teklif satırı ayrıntısı** varlığını genişletin ve **Alanlar** 'ı seçin.
-4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türünü **Seçenek kümesi** seçmek için **Yeni** 'yi seçin. 
-5. **Varolan bir seçenek kümesini kullan** 'ı ve **Kaynak Çalışma Konumu** 'nu seçin ve ardından **Kaydet** 'i seçin.
-6. Bu alana **Proje sözleşmesi satır ayrıntısı** , **Proje takımı üyesi** ve **Tahmin satırı** varlıklarına eklemek için 1-5 arasındaki adımları yineleyin.
+1. Proje Operations'da, **Ayarlar** > **Çözümler**'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Teklif Satırı Ayrıntısı**'nı seçin.
+3. **Teklif satırı ayrıntısı** varlığını genişletin ve **Alanlar**'ı seçin.
+4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türünü **Seçenek kümesi** seçmek için **Yeni**'yi seçin. 
+5. **Varolan bir seçenek kümesini kullan**'ı ve **Kaynak Çalışma Konumu**'nu seçin ve ardından **Kaydet**'i seçin.
+6. Bu alana **Proje sözleşmesi satır ayrıntısı**, **Proje takımı üyesi** ve **Tahmin satırı** varlıklarına eklemek için 1-5 arasındaki adımları yineleyin.
 7. **Kaynak Çalışma Saatleri** seçenek kümesi için 1-6 arasındaki adımları yineleyin. 
 
-Teslimat ve faturalama için tamamlanmış işin Proje Fiili Değerlerinde **Yerel** mi yoksa **Yerinde** mi gerçekleştirildiğini ve **Normal saatler** veya **Fazla mesai** sırasında mı tamamlandığını belirlemek için doğru olarak fiyatlandırılması gerekir. **Kaynak Çalışma Konumu** ve **Kaynak Çalışma Saatleri** alanlarının **Zaman girişi** , **Fiili değer** , **Fatura Satırı Ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklenmesi gerekir.
+Teslimat ve faturalama için tamamlanmış işin Proje Fiili Değerlerinde **Yerel** mi yoksa **Yerinde** mi gerçekleştirildiğini ve **Normal saatler** veya **Fazla mesai** sırasında mı tamamlandığını belirlemek için doğru olarak fiyatlandırılması gerekir. **Kaynak Çalışma Konumu** ve **Kaynak Çalışma Saatleri** alanlarının **Zaman girişi**, **Fiili değer**, **Fatura Satırı Ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklenmesi gerekir.
 
-1. **Ayarlar** > **Çözümler** 'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın.
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Zaman Girişi** 'ni seçin.
-3. **Teklif satırı ayrıntısı** varlığını genişletin ve ardından **Alanlar** 'ı seçin.
-4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türü olarak **Seçenek kümesi** 'ni seçmek için **Yeni** 'yi seçin. 
-5. **Varolan bir seçenek kümesini kullan** 'ı, **Kaynak Çalışma Konumu** seçenek kümesini seçin ve ardından **Kaydet** 'i seçin.
-6. Bu alanı **Fiili değer** , **Fatura satırı ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklemek için 1-5 arasındaki adımları yineleyin.
+1. **Ayarlar** > **Çözümler**'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın.
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Zaman Girişi**'ni seçin.
+3. **Teklif satırı ayrıntısı** varlığını genişletin ve ardından **Alanlar**'ı seçin.
+4. **Kaynak Çalışma Konumu** konumu adlı yeni bir alan oluşturmak ve alan türü olarak **Seçenek kümesi**'ni seçmek için **Yeni**'yi seçin. 
+5. **Varolan bir seçenek kümesini kullan**'ı, **Kaynak Çalışma Konumu** seçenek kümesini seçin ve ardından **Kaydet**'i seçin.
+6. Bu alanı **Fiili değer**, **Fatura satırı ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklemek için 1-5 arasındaki adımları yineleyin.
 7. **Kaynak Çalışma Saatleri** seçenek kümesi için 1-6 arasındaki adımları yineleyin. 
 
 Bu, seçenek kümesi tabanlı özel boyutlar için gerekli şema değişikliklerini tamamlar.
@@ -75,16 +75,16 @@ Bu, seçenek kümesi tabanlı özel boyutlar için gerekli şema değişiklikler
 
 Özel fiyatlandırma boyutu bir varlık olduğunda, boyut varlığı ile temel varlıklar arasına 1:N ilişkileri eklersiniz. Yukarıdaki Standart Başlık örneğini kullanarak, her çalışana standart bir başlık atanması beklenir. Sonuç olarak, Standart Başlıktan Ayrılabilir Kaynağa 1:N ilişkisine veya Ayrılabilir Kaynaktan Standart Başlığa oluşturulmuşsa N:1 ilişkisine gereksinim duyarsınız.
 
-1. Proje Operations'da, **Ayarlar** > **Çözümler** 'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık** 'ı seçin.
-3. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri** 'ni seçin.
-4. **Standart Başlıktan Ayrılabilir Kaynağa** adlı yeni bir 1:N ilişkisi oluşturmak için **Yeni** 'yi seçin. Gerekli bilgileri girin ve ardından **Kaydet** 'i seçin.
+1. Proje Operations'da, **Ayarlar** > **Çözümler**'i seçin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık**'ı seçin.
+3. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri**'ni seçin.
+4. **Standart Başlıktan Ayrılabilir Kaynağa** adlı yeni bir 1:N ilişkisi oluşturmak için **Yeni**'yi seçin. Gerekli bilgileri girin ve ardından **Kaydet**'i seçin.
 
 Standart Başlığın **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** Fiyatlandırma varlıklarına da eklenmesi gerekir. Bu da **Standart Başlık** ile **Rol Fiyatı** varlıkları arasında ve **Standart Başlık** ve **Rol Fiyatı Kar payı** varlıkları arasında 1:N ilişkileri kullanılarak tamamlanır.
 
-1. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık** 'ı seçin.
-2. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri** 'ni seçin.
-3. **Standart Başlıktan Rol Fiyatına** adlı yeni bir 1:N ilişkisi oluşturmak için **Yeni** 'yi seçin. Gerekli bilgileri girin ve ardından **Kaydet** 'i seçin.
+1. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık**'ı seçin.
+2. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri**'ni seçin.
+3. **Standart Başlıktan Rol Fiyatına** adlı yeni bir 1:N ilişkisi oluşturmak için **Yeni**'yi seçin. Gerekli bilgileri girin ve ardından **Kaydet**'i seçin.
 4. **Standart Başlık** ve **Rol Fiyatı Kar Payı** varlıkları arasında 1:N İlişkileri oluşturmak için 1-4 arasındaki adımları yineleyin.
 
 Projenin satış ve tahmin aşamalarında, Teklife/Projeye fiyat vermek için, her standart başlık için çalışma çabası tahminleri gerekir. Bu, Standart Başlık'tan tahmin varlıklarının her birine 1:N ilişkileri ekleneceği anlamına gelir: 
@@ -94,19 +94,19 @@ Projenin satış ve tahmin aşamalarında, Teklife/Projeye fiyat vermek için, h
 - **Proje Takımı Üyesi**
 - **Tahmin Satırı**
 
-5. **Standart Başlıktan** **Teklif Satırı Ayrıntısı** , **Proje sözleşme satırı ayrıntısı** , **Proje takımı üyesi** ve **Tahmin satırı** 'na ' e 1:N İlişkileri oluşturmak için 1-5 arasındaki adımları yineleyin.
+5. **Standart Başlıktan** **Teklif Satırı Ayrıntısı**, **Proje sözleşme satırı ayrıntısı**, **Proje takımı üyesi** ve **Tahmin satırı**'na ' e 1:N İlişkileri oluşturmak için 1-5 arasındaki adımları yineleyin.
 
-  Teslimat ve Faturalama aşamalarında, her bir standart başlığın tamamladığı iş Proje Fiili Değerlerinde doğru fiyatlandırılmalıdır. Bu **Standart başlıktan** **Zaman Girişi** , **Fiili Değer** , **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri olması gerektiği anlamına gelir.
+  Teslimat ve Faturalama aşamalarında, her bir standart başlığın tamamladığı iş Proje Fiili Değerlerinde doğru fiyatlandırılmalıdır. Bu **Standart başlıktan** **Zaman Girişi**, **Fiili Değer**, **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri olması gerektiği anlamına gelir.
 
-6. **Standart başlıktan** **Zaman Girişi** , **Fiili Değer** , **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri oluşturmak için 1-6 arası adımları yineleyin.
+6. **Standart başlıktan** **Zaman Girişi**, **Fiili Değer**, **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri oluşturmak için 1-6 arası adımları yineleyin.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Platformun eşleme özelliklerini kullanarak Boyut değeri varsayılanı ayarlama
 Zaman Girişi için, sistemin varsayılan olarak zaman girişini kaydeden Ayrılabilir Kaynaktan alınan Zaman Girişinde standart başlığı kullanmak yararlı olacaktır. **Ayrılabilir Kaynaktan** **Zaman girişine** 1: N ilişkisinde alan eşlemeleri eklemek için aşağıdaki adımları kullanın.
 
-1. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık** 'ı seçin.
-2. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri** 'ni seçin.
-3. **Ayrılabilir Kaynaktan Zaman Girişine** öğesine çift tıklayın. **İlişki** sayfasında, **Alan eşlemelerini kullan** 'ı seçin. 
-4. **Ayrılabilir Kaynak** varlığındaki **Standart Başlık** alanı ile **Zaman Girişi** varlığındaki **Standart Başlık** referans alanı arasında yeni bir alan eşlemesi oluşturmak için **Yeni** 'yi seçin. 
+1. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıklar > Standart Başlık**'ı seçin.
+2. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri**'ni seçin.
+3. **Ayrılabilir Kaynaktan Zaman Girişine** öğesine çift tıklayın. **İlişki** sayfasında, **Alan eşlemelerini kullan**'ı seçin. 
+4. **Ayrılabilir Kaynak** varlığındaki **Standart Başlık** alanı ile **Zaman Girişi** varlığındaki **Standart Başlık** referans alanı arasında yeni bir alan eşlemesi oluşturmak için **Yeni**'yi seçin. 
 
 Bu, varlık tabanlı özel boyutlar için gerekli şema değişikliklerini tamamlar.
 
@@ -115,7 +115,7 @@ Bu, varlık tabanlı özel boyutlar için gerekli şema değişikliklerini tamam
 Gerekli tüm şema değişikliklerini yaptıktan sonra, sonraki adım alanları formlara ve görünümlere ekleyerek alanları Kullanıcı arabiriminde görünür hale getirmektir.
 
 1. Formu veya görünümü açın. Sağ gezinti bölmesinde, alanı seçin ve form tuvaline sürükleyin. 
-2. Bir görünümü düzenliyorsanız, sağ gezinti bölmesini kullanın, **Alan Ekle** ' yi seçin ve **Alan listesi** iletişim kutusunda, gereksinim duyduğunuz alanları seçip **Tamam** 'ı seçin.
+2. Bir görünümü düzenliyorsanız, sağ gezinti bölmesini kullanın, **Alan Ekle**' yi seçin ve **Alan listesi** iletişim kutusunda, gereksinim duyduğunuz alanları seçip **Tamam**'ı seçin.
 
 Aşağıdaki tabloda, yeni alanlarla güncelleştirilmesi gereken, varlığa göre listelenen kullanıma hazır form ve görünümlerin kapsamlı bir listesi verilmektedir. Bu varlıklardaki özelleştirmelerinizde ek görünümler veya formlar varsa yeni alanları da bunlara ekleyin.
 

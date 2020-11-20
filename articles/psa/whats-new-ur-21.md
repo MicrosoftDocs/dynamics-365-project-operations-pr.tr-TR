@@ -3,7 +3,7 @@ title: Project Service Automation Güncelleştirme Sürümü 21, V3'teki yenilik
 description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 21, V3'teki özellikler ve düzeltmeler listelenir.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086275"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126732"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, Güncelleştirme Sürümü 21, V3
 
@@ -54,7 +54,7 @@ Aşağıdaki sorunlar giderilmiştir:
 
 Aşağıdaki sorunlar giderilmiştir:
 
-- **Proje** formu ızgaraları ( **kaynak ataması** , **görev** , **Mutabakat** görünümü, **gider tahminleri** ) bir proje etkin olmasa bile düzenlenebilir olmaya devam eder.
+- **Proje** formu ızgaraları (**kaynak ataması**, **görev**, **Mutabakat** görünümü, **gider tahminleri**) bir proje etkin olmasa bile düzenlenebilir olmaya devam eder.
 - Yinelenen müşteriler onaylı proje sözleşmelerine bağlı olan müşterilerle birleştirilemez.
 - Geçerli takvimi olmayan bir kaynak eklendiğinde, sistem Kullanıcı dostu bir hata iletisi vermez.
 - Proje **Microsoft Project eklentisi** ile bağlandığında görev üzerinde **Görev Ekle** düğmesi etkinleşir.
@@ -64,14 +64,14 @@ Aşağıdaki sorunlar giderilmiştir:
 
 Aşağıdaki geliştirmeler yapıldı:
 
-- **Fatura sıklığı** ve **Faturalama başlangıcı** , **Fatura zamanlama** sekmesine taşınmıştır.
+- **Fatura sıklığı** ve **Faturalama başlangıcı**, **Fatura zamanlama** sekmesine taşınmıştır.
 
 Aşağıdaki sorunlar giderilmiştir:
 
-- **Rolde** sıfır olmayan toplam satış fiyatı olsa da **toplam satış fiyatı** , **Kategori** için sıfırdır (0).
+- **Rolde** sıfır olmayan toplam satış fiyatı olsa da **toplam satış fiyatı**, **Kategori** için sıfırdır (0).
 - Başka bir özelleştirilmiş işlem ek bir alan güncellerken, müşteriler, **fatura durumu** alanının değerini **faturalama için hazır** olarak değiştiremezler.
 - Sürekli seçilmişse, **fatura satırlarını Yenile** düğmesi birden çok yinelenen satır oluşturabilir.
-- **Fiyatları Güncelleştir** düğmesi, **Hızlı görünüm** formundaki **rol fiyatları** alt ızgarasında çalışmaz.
+- **Fiyatları Güncelleştir** düğmesi, **Hızlı görünüm** formunun **rol fiyatları** alt ızgarada çalışmaz.
 - **Satış fiyatı listesi çözümleme** mantığı zaman dilimlerini yanlış işler ve hatalı fiyat listesi seçimine neden olur.
 - Tek bir zaman girişi onaylandıktan sonra, projenin **toplam gerçek maliyeti** bir kesirli tutarla kapatılabilir.
-- **Alınan roleprice** , **'birincil birim'** ve **'birincil birim fiyatı'** alanlarındaki değerlere sahip değilse, **Fiyat çözümü** mantığı Kullanıcı dostu bir hata iletisi sağlamaz.
+- **Alınan roleprice**, **'birincil birim'** ve **'birincil birim fiyatı'** alanlarındaki değerlere sahip değilse, **Fiyat çözümü** mantığı Kullanıcı dostu bir hata iletisi sağlamaz.

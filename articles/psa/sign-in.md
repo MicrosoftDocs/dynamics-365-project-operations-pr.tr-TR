@@ -3,7 +3,7 @@ title: Project Service Automation'da oturum açma
 description: Project Service'ta oturum açma
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b256820c52214b76e377d84c99d809fad88b8abe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ecd3d38c11ffe17fbe967dc83db4c27d53807a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086418"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128982"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Project Service Automation'da oturum açma
 
@@ -37,20 +37,20 @@ Dynamics 365 uygulamalarında oturum açtığınızda, yöneticinizden aşağıd
   
 - Parolanız  
   
-  Bu bilgiyi muhtemelen yöneticinizden gelen bir e-postadan aldınız. Eğer bu bilgiye sahip değilseniz veya oturum açmakta sorun yaşıyorsanız [ yöneticinizi veya destek kişinizi bulun](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Bu bilgiyi muhtemelen yöneticinizden gelen bir e-postadan aldınız. Eğer bu bilgiye sahip değilseniz veya oturum açmakta sorun yaşıyorsanız [yöneticinizi veya destek kişinizi bulun](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>E-postaya izin vermek için kişisel seçeneklerinizi ayarlayın  
  Başkalarınızın sizin adınıza e-posta göndermesine izin vermek için e-posta ayarlarınızı yapılandırmanız gerekir, böylece [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], projeler için onaylamanız veya kaydolmanız gereken zamanınız ve masraflarınız olduğunda sizi için e-posta bildirimleri gönderebilir.  
   
 1.  Ekranın sağ üst köşesindeki Dişli düğmesine tıklayın.  
   
-2.  **Seçenekler** 'e tıklayın.  
+2.  **Seçenekler**'e tıklayın.  
   
 3.  **E-posta** sekmesine tıklayın.  
   
-4.  **Başka Microsoft Dynamics 365 kullanıcılarının benim adıma e-posta göndermesine izin ver** 'i seçin.  
+4.  **Başka Microsoft Dynamics 365 kullanıcılarının benim adıma e-posta göndermesine izin ver**'i seçin.  
   
-5.  **Tamam** 'a tıklayın.  
+5.  **Tamam**'a tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)

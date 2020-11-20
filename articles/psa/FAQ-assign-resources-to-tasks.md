@@ -3,7 +3,7 @@ title: Göreve kaynak atama
 description: Bu konu, görevlere kaynak atama hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086513"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125157"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Göreve kaynak atama
 
@@ -33,17 +33,17 @@ Microsoft Dynamics 365 Project Service Automation'ta bir göreve kaynak atamak i
 
 Bir kaynağı proje takımına ekleyebilir ve ardından kaynağı proje zamanlamasındaki görevlere atayabilirsiniz.
 
-1. **Takım üyesi** sekmesinde **Yeni** 'yi seçerek yeni bir takım üyesi ekleyin. 
+1. **Takım üyesi** sekmesinde **Yeni**'yi seçerek yeni bir takım üyesi ekleyin. 
 
 2. Ayrılabilir kaynağın adını seçip bir rol ayarlayabileceğiniz **Takım Üyesi Hızlı Oluştur** panelini açılır. 
 
     Kaynak ayırma için aşağıdaki tahsisat yöntemlerinden birini seçin:
 
-    - **Tam Kapasite** , belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır.
-    - **Yüzde Kapasite** , belirtilen başlangıç ve bitiş tarihleri için kaynak kapasitesinin bir yüzdesini ayırır.
-    - **Saatlere Göre - Eşit Dağıt** , kaynağı, belirtilen sayıda saatler için ayırır ve belirtilen başlangıç ve bitiş tarihleri arasında her güne eşit olarak dağıtır.
-    - **Saatlere Göre - Ön Yük** , kaynağı, belirtilen sayıda saatler için ayırır ve günlük saat sayısını, belirtilen başlangıç ve bitiş tarihleri arasında ön yükler.
-    - **Hiçbiri** , kaynağı takıma ekler ancak kaynağın kapasitesini kullanan herhangi bir ayırma oluşturmaz.
+    - **Tam Kapasite**, belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır.
+    - **Yüzde Kapasite**, belirtilen başlangıç ve bitiş tarihleri için kaynak kapasitesinin bir yüzdesini ayırır.
+    - **Saatlere Göre - Eşit Dağıt**, kaynağı, belirtilen sayıda saatler için ayırır ve belirtilen başlangıç ve bitiş tarihleri arasında her güne eşit olarak dağıtır.
+    - **Saatlere Göre - Ön Yük**, kaynağı, belirtilen sayıda saatler için ayırır ve günlük saat sayısını, belirtilen başlangıç ve bitiş tarihleri arasında ön yükler.
+    - **Hiçbiri**, kaynağı takıma ekler ancak kaynağın kapasitesini kullanan herhangi bir ayırma oluşturmaz.
 
 3. Bir görevin **Zamanlama** kılavuzunda, kaynak hücresindeki **Kaynak** simgesini ve ardından **Takım Üyeleri** altından az önce eklediğiniz takım üyesini seçin. 
 
@@ -58,13 +58,13 @@ Görev atama aracılığıyla genel bir takım üyesi oluşturduğunuzda, görev
 
 2. Yer tutucu kaynağın adı olarak işlev görecek bir ad yazın. Örneğin, Program Yöneticisi.
 
-3. **Oluştur** 'u seçin ve **Proje Takımı Üyesi Hızlı Oluştur** alanında, genel kaynak için rolü ayarlayın.
+3. **Oluştur**'u seçin ve **Proje Takımı Üyesi Hızlı Oluştur** alanında, genel kaynak için rolü ayarlayın.
 
 4. Görevin **Kaynak Seçicisinde** kaynağı seçerek, bu yer tutucu kaynağa görevler atamaya devam edebilirsiniz. Bunlar **Takım Üyeleri** altında listelenir.
 
-5. Genel kaynak atamayı tamamladıktan sonra, **Takım** sekmesinde genel kaynağı seçin ve **Gereksinim Oluştur** 'u seçerek, genel kaynak için bir kaynak gereksinimi oluşturun.
+5. Genel kaynak atamayı tamamladıktan sonra, **Takım** sekmesinde genel kaynağı seçin ve **Gereksinim Oluştur**'u seçerek, genel kaynak için bir kaynak gereksinimi oluşturun.
 
-6. Genel kaynak için **Ayır** 'ı seçin. Bunun ardından, gerçek bir kaynağı bulmak ve ayırmak için Zamanlama panosunu kullanabilirsiniz. Ayrıca, gereksinimi, bir kaynak yöneticisi tarafından karşılanması için gönderebilirsiniz.
+6. Genel kaynak için **Ayır**'ı seçin. Bunun ardından, gerçek bir kaynağı bulmak ve ayırmak için Zamanlama panosunu kullanabilirsiniz. Ayrıca, gereksinimi, bir kaynak yöneticisi tarafından karşılanması için gönderebilirsiniz.
 
 7. Genel kaynak, adlandırılmış bir kaynakla karşılandığı zaman, genel kaynak takımdan kaldırılır ve genel kaynağın görev atamaları, genel kaynağın kaynak gereksinimini karşılayan adlandırılmış kaynağa atanır.
 

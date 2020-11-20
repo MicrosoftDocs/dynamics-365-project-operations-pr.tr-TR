@@ -3,7 +3,7 @@ title: Kuruluş birimleri
 description: Bu konu Dynamics 365 Project Service Automation uygulamasındaki kuruluş birimleri hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086436"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130647"
 ---
 # <a name="organizational-units"></a>Kuruluş birimleri 
 
@@ -50,7 +50,7 @@ Ayrıca, Kaynak varlığında kuruluş birimi için bir öznitelik vardır. Her 
 
 Kuruluş birimi PSA'da iki rol oynar:
 
-- **Sözleşme birimi** – Satışı kazanmak ve iş ve servislerin müşteriye teslimini yönetmekten birincil olarak sorumlu olan şirket grubunu veya bölümü gösteren kuruluş birimidir. Sözleşme birimi **Fırsat** , **Teklif** , **Proje Sözleşmesi** ve **Proje** sayfalarının başlık bölümündeki **Sözleşme Birimi** alanı tarafından tanımlanır.
+- **Sözleşme birimi** – Satışı kazanmak ve iş ve servislerin müşteriye teslimini yönetmekten birincil olarak sorumlu olan şirket grubunu veya bölümü gösteren kuruluş birimidir. Sözleşme birimi **Fırsat**, **Teklif**, **Proje Sözleşmesi** ve **Proje** sayfalarının başlık bölümündeki **Sözleşme Birimi** alanı tarafından tanımlanır.
 - **Kaynak belirleme birimi** - Bir kaynağın ait olduğu veya atandığı kuruluş birimidir. Bu kuruluş birimi, çalışma bildirimlerindeki (SOW) bazı roller ve sözleşme birimi tarafından sahip olunan projeler için kaynaklarını sağlayabilir.
 
 > ![Sözleşme birimleri ve kaynak belirleme birimleri](media/advanced-1.png)

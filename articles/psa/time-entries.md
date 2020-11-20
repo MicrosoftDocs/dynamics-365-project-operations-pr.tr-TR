@@ -3,7 +3,7 @@ title: Zaman girişleri oluşturma
 description: Bu konu, zaman girişleri oluşturma hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086415"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131317"
 ---
 # <a name="create-time-entries"></a>Zaman girişleri oluşturma
 
@@ -35,15 +35,15 @@ Dynamics 365 Project Service Automation uygulamasının önceki sürümlerinde z
 
 Zaman girişi oluşturmak için şu adımları izleyin.
 
-1. **Zaman Girişleri** sayfasında, **Yeni** 'yi seçin.
+1. **Zaman Girişleri** sayfasında, **Yeni**'yi seçin.
 2. **Hızlı Oluştur: Zaman Girişi** iletişim kutusunda zaman girişinin süresini dakika, saat veya gün olarak girin. Süre şu biçimde girilmelidir: *x* dakika, *x* saat veya *x* gün. Saatler ve günler ondalık değer olarak girilmelidir, örneğin *x.x* saat veya *x.x* gün.
 3. Zaman girişini girdiğiniz zaman girişi ve proje türünü seçin.
 4. **Proje Görevi** alanında bu zaman girişine ait görevi bulun.
 
     > [!NOTE]
-    > Kullanıcıya atanmamış bir görev için zaman girişi oluşturuyorsanız **Proje Görevi** alanında **Ara** düğmesini, **Görünümü Değiştir** 'i ve ardından tüm görevleri listelemek için **Tüm Etkin Proje Görevleri** 'ni seçin.
+    > Kullanıcıya atanmamış bir görev için zaman girişi oluşturuyorsanız **Proje Görevi** alanında **Ara** düğmesini, **Görünümü Değiştir**'i ve ardından tüm görevleri listelemek için **Tüm Etkin Proje Görevleri**'ni seçin.
 
-5. Gerekiyorsa bir açıklama girin ve ardından **Kaydet ve Kapat** 'ı seçin.
+5. Gerekiyorsa bir açıklama girin ve ardından **Kaydet ve Kapat**'ı seçin.
 
 Zaman girişi oluşturulup kaydedildikten sonra zaman girişi ızgarasında düzenleyebilirsiniz. Saat girişi ızgarası iki biçimi destekler:
 
@@ -56,10 +56,10 @@ Saat kesirlerinin dakika olmadığını unutmayın. Dolayısıyla 1,5 saat 1 saa
 
 Birkaç zaman girişi oluşturulduktan sonra ek zaman girişlerini toplu olarak oluşturmak için bu girişleri kopyalayabilirsiniz.
 
-1. **Zaman Girişleri** sayfasında, **Haftayı Kopyala** 'yı seçin.
+1. **Zaman Girişleri** sayfasında, **Haftayı Kopyala**'yı seçin.
 2. **Başlangıç Dönemi** alan grubunda, **Başlangıç Tarihi** ve **Bitiş Tarihi** alanlarında zaman girişlerinin kopyalanacağı tarih aralığını tanımlayın.
 3. **Bitiş Dönemi** alan grubunda, **Başlangıç Tarihi** alanında zaman girişlerinin oluşturulduğu tarih aralığını belirtin.
-4. **Bitiş Grubu** alan grubunda belirtilen haftanın gününe karşılık gelen zaman girişlerinin bir kopyasını oluşturmak için **Kopyala** 'yı seçin. Örneğin, son haftanın Pazartesi günü için zaman girişi **Bitiş Dönemi** alan grubunda belirtilen haftanın Pazartesi gününe kopyalanır.
+4. **Bitiş Grubu** alan grubunda belirtilen haftanın gününe karşılık gelen zaman girişlerinin bir kopyasını oluşturmak için **Kopyala**'yı seçin. Örneğin, son haftanın Pazartesi günü için zaman girişi **Bitiş Dönemi** alan grubunda belirtilen haftanın Pazartesi gününe kopyalanır.
 
 ## <a name="import-data-for-time-entries"></a>Zaman girişleri için verileri içeri aktarma
 

@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086246"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131727"
 ---
 # <a name="expense-estimates"></a>Gider tahminleri
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
@@ -26,15 +26,15 @@ Dynamics 365 Project Operations, Proje yöneticilerinin kaynak tabanlı tahminle
 
 Proje giderini görüntülemek, eklemek veya silmek için aşağıdaki adımları tamamlayın.
 
-1. **Projeler** 'e gidin ve üzerinde çalışmak istediğiniz projeyi seçin.
+1. **Projeler**'e gidin ve üzerinde çalışmak istediğiniz projeyi seçin.
 2. **Proje Tahminleri** sekmesini seçin ve proje giderleri listesini görüntüleyin.
-3. Gider eklemek için **Yeni Gider** 'i seçin. Alternatif olarak, silinecek gideri seçin ve ardından **Gideri Sil** seçeneğini belirleyin.
+3. Gider eklemek için **Yeni Gider**'i seçin. Alternatif olarak, silinecek gideri seçin ve ardından **Gideri Sil** seçeneğini belirleyin.
 
 Aşağıdaki öznitelikler her gider satırı öğesi için tanımlanır:
 
-- **Kategori** : Projede oluşan tüm giderleri tanımlamak için kullanılan ortak gruplar.
-- **Başlangıç Tarihi** : Giderin oluşacağı tahmin edilen tarih.
-- **Miktar** : Belirli bir kategori için gider öğelerinin tahmini sayısı.
-- **Birim Maliyet Fiyatı** : Giderin maliyetini hesaplamak için kullanılan birim fiyatı.
-- **Birim Satış Fiyatı** : Giderin satış fiyatlarını hesaplamak için kullanılan birim fiyatı.
+- **Kategori**: Projede oluşan tüm giderleri tanımlamak için kullanılan ortak gruplar.
+- **Başlangıç Tarihi**: Giderin oluşacağı tahmin edilen tarih.
+- **Miktar**: Belirli bir kategori için gider öğelerinin tahmini sayısı.
+- **Birim Maliyet Fiyatı**: Giderin maliyetini hesaplamak için kullanılan birim fiyatı.
+- **Birim Satış Fiyatı**: Giderin satış fiyatlarını hesaplamak için kullanılan birim fiyatı.
 

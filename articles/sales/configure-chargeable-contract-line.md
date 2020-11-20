@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086261"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128729"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
 
@@ -35,13 +35,13 @@ Borçlandırılabilirlik, bir proje sözleşme satırı için işlem kategoriler
 
 Bir rol, belirli proje tabanlı sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
-Proje tabanlı sözleşme satırının **ücretlendirilebilir roller** sekmesinde, **ücrete tabi kategoriler** alt kılavuzunda, **faturalama türü** alanında, rol için faturalandırma türünü güncelleyin.
+Proje tabanlı sözleşme satırının **Ücretlendirilir Roller** sekmesinin **Ücretlendirilebilir Kategoriler** alt kılavuzundaki **Faturalama Türü** alanında rol için faturalandırma türünü güncelleştirin.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Bir işlem kategorinin ücretlendirilebilir veya ücretlendirilemez olarak güncelleştirin
 
 Bir hareket kategorisi, belirli bir proje tabanlı sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
-Proje tabanlı sözleşme satırının **ücretlendirilebilir kategoriler** sekmesinde, **ücrete tabi kategoriler** alt kılavuzunda, **faturalama türü** alanında, işlem için faturalandırma türünü güncelleyin.
+Proje tabanlı sözleşme satırının **Ücretlendirilir Kategoriler** sekmesinin **Ücretlendirilebilir Kategoriler** alt kılavuzundaki **Faturalama Türü** alanında işlem için faturalandırma türünü güncelleştirin.
 
 ### <a name="resolve-chargeability"></a>Şarj edilebilirliği çözme
 

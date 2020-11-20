@@ -3,7 +3,7 @@ title: Haftalık zaman girişini özelleştirme
 description: Bu konu, bir kuruluşun uygulamalarını destekleyen özel iş kurallarının nasıl uygulanacağı hakkında bilgi sağlar.
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086411"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127947"
 ---
 # <a name="customize-weekly-time-entry"></a>Haftalık zaman girişini özelleştirme 
 
@@ -51,7 +51,7 @@ Yeni haftalık zaman girişi ızgarası, bir araç çubuğu ve **Boyutlar** ve *
 Süre bölümü, haftanın günlerini sütun başlıkları olarak gösterir. Bu bölüm satır içi düzenlemeye izin verir. Uygun boyutlara sahip bir zaman girişi satırı oluşturulduktan sonra kullanıcılar, bu boyutlarda harcadıkları süreyi satır içine hızlı bir şekilde girebilir.
 
 ## <a name="create-a-new-time-entry"></a>Yeni zaman girişi oluşturma
-Zaman girişi ızgarasında yeni bir zaman girişi oluşturmak için **Yeni** öğesini seçin. **Zaman Girişi Hızlı Oluşturma** iletişim kutusu görüntülenir. Bu iletişim kutusunda, kullanıcılar zaman girişi tarihini seçebilir ve ardından **Proje** , **Proje Görevi** , **Rol** ve **Süre** boyutları için dakika, saat veya gün cinsinden sayı ile birlikte **h** , **m** veya **d** yazarak veri girebilirler. Kullanıcılar zaman girişi için harici olarak paylaşılabilecek bir açıklama ve yorum da girebilir. Kullanıcılar yaptıkları değişiklikleri kaydettiklerinde boyutlara göre girdikleri değerler **Boyutlar** bölümünde görüntülenir. **Süre** alanına girdikleri süre bilgileri, zaman girişinin oluşturulduğu tarihte görüntülenir.
+Zaman girişi ızgarasında yeni bir zaman girişi oluşturmak için **Yeni** öğesini seçin. **Zaman Girişi Hızlı Oluşturma** iletişim kutusu görüntülenir. Bu iletişim kutusunda, kullanıcılar zaman girişi tarihini seçebilir ve ardından **Proje**, **Proje Görevi**, **Rol** ve **Süre** boyutları için dakika, saat veya gün cinsinden sayı ile birlikte **h**, **m** veya **d** yazarak veri girebilirler. Kullanıcılar zaman girişi için harici olarak paylaşılabilecek bir açıklama ve yorum da girebilir. Kullanıcılar yaptıkları değişiklikleri kaydettiklerinde boyutlara göre girdikleri değerler **Boyutlar** bölümünde görüntülenir. **Süre** alanına girdikleri süre bilgileri, zaman girişinin oluşturulduğu tarihte görüntülenir.
 
 Arama alanları, sistem görünümleriyle desteklenir. Örneğin, kullanıcı bir proje girdikten sonra **Proje Görevi** alanı varsayılan olarak **Kopyalama** görünümüne ayarlanır. Kullanıcıya atanmamış görevler için zaman girişleri oluşturmak üzere arama iletişim kutusunda **Görünümü Değiştir** öğesini ve ardından **Tüm Etkin Proje Görevleri** görünümünü seçin.
 
@@ -101,7 +101,7 @@ Haftalık zaman girişi ızgarasına özel bir alan eklemenin iki yolu vardır. 
 İkinci seçenek, yeni bir özel zaman girişi görünümü oluşturmak ve bunu varsayılan görünüm olarak ayarlamaktır. Bu görünüm, ızgarada bulunmasını istediğiniz sütunlara ek olarak **Açıklama** ve **Harici Yorumlar** alanlarını içermelidir. Görünümde bu özellikleri düzenleyerek ızgaranın konumunu, boyutunu ve varsayılan sıralama düzenini seçebilirsiniz. Ardından bu görünümün özel denetimini **Zaman Girişi Izgarası** denetimi olacak şekilde yapılandırın. Bu denetimi görünüme ekleyin ve web, telefon ve tablet için seçin. Ardından haftalık zaman girişi ızgarası için parametreleri yapılandırın. **Başlangıç Tarihi** alanını **msdyn_date** olarak, **Süre** alanını **msdyn_duration** olarak ve **Durum** alanını **msdyn_entrystatus** olarak ayarlayın. Varsayılan görünüm için, **Salt Okunur Durum Listesi** alanı **192350002,192350003,192350004** olarak, **Satır Düzenleme Görev Akışı** alanı **msdyn_timeentryrowedit** olarak ve **Hücre Düzenleme Görev Akışı** alanı **msdyn_timeentryedit** olarak ayarlanır. Bu alanları salt okunur durumları eklemek veya kaldırmak ya da satır veya hücreyi düzenlemek için farklı bir görev tabanlı deneyim (TBX) kullanmak üzere özelleştirebilirsiniz. Bu alanlar, bir statik değere bağlanmalıdır.
 
 #### <a name="add-the-custom-field-to-the-appropriate-edit-task-flow"></a>Özel alanı uygun düzenleme görev akışına ekleme
-Düzenleme için kullanılan TBX sayfaları **İşlemler** altında bulunabilir. Varsayılan sayfalar **Project Service - Zaman Girişi Satır Düzenlemesi** ve **Project Service - Zaman Girişi Düzenlemesi** 'dir.. Bu varsayılan sayfaları düzenleyebilir ya da yeni özel TBX sayfaları oluşturabilirsiniz.
+Düzenleme için kullanılan TBX sayfaları **İşlemler** altında bulunabilir. Varsayılan sayfalar **Project Service - Zaman Girişi Satır Düzenlemesi** ve **Project Service - Zaman Girişi Düzenlemesi**'dir.. Bu varsayılan sayfaları düzenleyebilir ya da yeni özel TBX sayfaları oluşturabilirsiniz.
 
 > [!NOTE] 
 > Her iki seçenek de **Proje** ve **Proje Görevi** varlıklarındaki bazı kullanıma hazır filtreleri kaldırır, böylece varlıkların tüm arama görünümleri görülebilir. Yalnıza kullanıma hazır, ilgili arama görünümleri görünür.

@@ -3,7 +3,7 @@ title: Bir görev veya proje ekibine genel ayrılabilir kaynaklar atama
 description: Bu konu görevlere ve proje takımlarına genel kaynaklar ayırma hakkında bilgi sağlar.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086339"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127092"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma 
 
@@ -37,7 +37,7 @@ Projenize adlandırılmış veya gerçek kaynakları atamanın ve ayırmanın ya
 
 Bu, **Hızlı Oluştur: Proje Ekibi Üyesi** panelini açar. 
 
-2. Genel kaynak ekibi üyesinin rolünü ve kuruluş birimini girin ve ardından **Kaydet** 'e tıklayın.
+2. Genel kaynak ekibi üyesinin rolünü ve kuruluş birimini girin ve ardından **Kaydet**'e tıklayın.
 
 ![Genel takım üyesi hızlı oluşturma](media/RM-how-to-10.png)
 
@@ -51,7 +51,7 @@ Bu, **Hızlı Oluştur: Proje Ekibi Üyesi** panelini açar.
 
 Takım üyesi ızgarasında, yukarıda bahsedildiği gibi kaynak seçiciyi kullanmanın yanı sıra genel kaynakları doğrudan ekleyebilirsiniz. Kaynaklar, **Hızlı OLuştur: Proje Ekibi Üyesi** panelinde belirtilen başlangıç/bitiş tarihlerini ve tahsisat yöntemini temel alan bir kaynak gereksinimiyle eklenir.
 
-Genel takım üyesini doğrudan ekleyip daha sonra genel kaynağa karşılaması gereken saaten daha fazla görev atarsanız bir fark görebilirsiniz. Gerekli saatleri atamalarla dengelemek için gereksinimi yeniden oluşturmak üzere **Gereksinim Oluştur** 'a tıklayın.
+Genel takım üyesini doğrudan ekleyip daha sonra genel kaynağa karşılaması gereken saaten daha fazla görev atarsanız bir fark görebilirsiniz. Gerekli saatleri atamalarla dengelemek için gereksinimi yeniden oluşturmak üzere **Gereksinim Oluştur**'a tıklayın.
 
 Gereksinimi açmak ve beceriler, tercih edilen kaynaklar, vb. eklemek için takım kılavuzundaki **Kaynak gereksinimi** bağlantısına da tıklayabilirsiniz.
 

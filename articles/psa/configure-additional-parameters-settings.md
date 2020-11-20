@@ -3,7 +3,7 @@ title: Ek parametre ayarlarını yapılandırma
 description: Project Service'ta ek parametre ayarlarını yapılandırma
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086324"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129387"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Ek parametre ayarlarını yapılandırma (Project Service)
 
@@ -50,13 +50,13 @@ Bu adımda, ne tür bir kaynak ayırma istediğinizi de belirtmeniz gerekir:
  
 Proje parametreleri ayarlamak için:  
   
-1. **Project Service > Parametreler** 'e gidin.  
+1. **Project Service > Parametreler**'e gidin.  
   
-2. İstediğiniz ayar parametrelerini yapılandırmak için tıklatın ([!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ilk yüklediğinizde oluşturulan), veya yeni bir tane oluşturmak için **Yeni** 'ye tıklayın.  
+2. İstediğiniz ayar parametrelerini yapılandırmak için tıklatın ([!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ilk yüklediğinizde oluşturulan), veya yeni bir tane oluşturmak için **Yeni**'ye tıklayın.  
   
 3. **Genel** alanı için, proje parametreleriniz için tüm seçenekleri ayarlayın.  
   
-4. **Fiyat Listesi** alanında, **+** 'ya tıklatın fiyat listesi eklemek için ve **Proje Parametresi Fiyat Listesi** açılan listesinde fiyat listesini seçin ve sonra **Kaydet** 'e tıklayın.  
+4. **Fiyat Listesi** alanında, **+**'ya tıklatın fiyat listesi eklemek için ve **Proje Parametresi Fiyat Listesi** açılan listesinde fiyat listesini seçin ve sonra **Kaydet**'e tıklayın.  
   
 5. Ekranın sağ alt köşesindeki **Kaydet** düğmesine tıklayın.  
 

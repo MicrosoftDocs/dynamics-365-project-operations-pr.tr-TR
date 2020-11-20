@@ -3,7 +3,7 @@ title: Bir projeye belgeler ekle
 description: Project Service'ta bir projeye belge ekleme adımları
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8702222207301c530476bf2aafc6ce78d3475550
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07453337fa0493d6be5dc10fe92984685a0a38da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129747"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Bir projeye belgeler ekleme (Project Service)
 
@@ -31,15 +31,15 @@ ms.locfileid: "4086317"
 
 Projeyle ilgili belgeleri projenize ekleyerek düzenli tutun.  
   
-1. **Project Service > Projeler** 'e gidin.  
+1. **Project Service > Projeler**'e gidin.  
   
 2. Üzerinde çalışmak istediğiniz projeye tıklayın.  
   
-3. Ekranın en üstünde bulunan çubukta, proje adının yanındaki aşağı oku seçin ve ardından **Belgeler** 'e tıklayın.  
+3. Ekranın en üstünde bulunan çubukta, proje adının yanındaki aşağı oku seçin ve ardından **Belgeler**'e tıklayın.  
   
-4. **Ad** alanında belge için bir ad girin ve ardından belgenin [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] konumundaki URL'sini **Belge Konumu** 'na kopyalayın.  
+4. **Ad** alanında belge için bir ad girin ve ardından belgenin [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] konumundaki URL'sini **Belge Konumu**'na kopyalayın.  
   
-5. **Kaydet** 'e tıklayın.  
+5. **Kaydet**'e tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)

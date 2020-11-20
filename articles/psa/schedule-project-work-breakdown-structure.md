@@ -3,7 +3,7 @@ title: İş kırılım yapısına sahip bir projeyi zamanlama
 description: Project Service'ta iş kırılım yapısına sahip bir projeyi zamanlama
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086506"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127902"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>İş kırılım yapısına sahip bir projeyi zamanlama (Project Service)
 
@@ -86,17 +86,17 @@ Proje zamanlaması, çalışmanın gerçekleştirilmesi için gereken kaynaklarl
   
 ### <a name="schedule-attributes"></a>Zamanlama öznitelikleri
 
- - Görevin zamanlamasını belirlemek için **Çalışma saati** , **Kaynak sayısı** , **Başlangıç tarihi** , **Bitiş tarihi** ve **Süre** öğelerine değer atayın. 
- - **Çalışma** , görevi tamamlamak için gereken saatlik bir tahmindir.
- - **Kaynak sayısı** , proje yöneticisinin olası en iyi zamanlamayı oluşturmasına yardımcı olması için göreve eklediği bir tahmindir. 
+ - Görevin zamanlamasını belirlemek için **Çalışma saati**, **Kaynak sayısı**, **Başlangıç tarihi**, **Bitiş tarihi** ve **Süre** öğelerine değer atayın. 
+ - **Çalışma**, görevi tamamlamak için gereken saatlik bir tahmindir.
+ - **Kaynak sayısı**, proje yöneticisinin olası en iyi zamanlamayı oluşturmasına yardımcı olması için göreve eklediği bir tahmindir. 
  - **Süre** (gün cinsinden), görevi tamamlamak için gereken iş günü sayısını gösterir.  
   
 ### <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 
- - **Rol** , **Kaynak kuruluş birimi** , **Kaynak sayısı** ve **Kaynaklar** , görevin kadro oluşturma gereksinimlerini açıklar. 
- - **Rol** , görevi gerçekleştirmek için gereken kaynak türünü açıklar. 
- - **Kaynak kuruluş birimi** , görev için personel sağlanması gereken kuruluş birimini gösterir; bu aynı zamanda kaynak için birim satış fiyatını belirlerken hesaplandığından görevin maliyet ve satış tahminini de etkiler. 
- - **Kaynaklar** , genel bir kaynak veya biri bulunduğunda adlandırılmış bir kaynak barındırır.  
+ - **Rol**, **Kaynak kuruluş birimi**, **Kaynak sayısı** ve **Kaynaklar**, görevin kadro oluşturma gereksinimlerini açıklar. 
+ - **Rol**, görevi gerçekleştirmek için gereken kaynak türünü açıklar. 
+ - **Kaynak kuruluş birimi**, görev için personel sağlanması gereken kuruluş birimini gösterir; bu aynı zamanda kaynak için birim satış fiyatını belirlerken hesaplandığından görevin maliyet ve satış tahminini de etkiler. 
+ - **Kaynaklar**, genel bir kaynak veya biri bulunduğunda adlandırılmış bir kaynak barındırır.  
   
 ## <a name="task-dependencies"></a>Görev bağımlılıkları  
  İş kırılım yapısında bir veya daha fazla görev arasında öncül ilişkileri oluşturabilirsiniz. Görevlere bağımlı görevleri göstermek üzere öncül alan için bir veya daha fazla değer ayarlayabilirsiniz. Görev için bir öncül değer atadığınızda, yalnızca tüm öncül görevler tamamlandığında görev başlatabilirsiniz. Görev üzerinde bu bağımlılığı ayarlamanız, görevin planlanan başlangıç tarihinin tüm öncüllerinin sonu olarak hesaplanmasıyla sonuçlanır. Bir zamanlamadaki öncül ile ilgili etkiler, görevde tanımlı görev modu ile sınırlı değildir.  
@@ -126,27 +126,27 @@ Proje zamanlaması, çalışmanın gerçekleştirilmesi için gereken kaynaklarl
   
 ## <a name="create-a-work-breakdown-structure"></a>İş kırılım yapısı oluşturma  
   
-1.  **Project Service > Projeler** 'e gidin.  
+1.  **Project Service > Projeler**'e gidin.  
   
 2.  Üzerinde çalışmak istediğiniz projeye tıklayın.  
   
 3.  Ekranın en üstünde bulunan çubukta, proje adının yanındaki aşağı oku seçin ve ardından İş kırılım yapısı'na tıklayın.  
   
-4.  Bir görev eklemek için, **Görev Ekle** 'ye tıklayın. Görev için alanları doldurun ve **Kaydet** öğesine tıklayın.  
+4.  Bir görev eklemek için, **Görev Ekle**'ye tıklayın. Görev için alanları doldurun ve **Kaydet** öğesine tıklayın.  
   
 5.  İş kırılım yapınız tamamlanana kadar görev eklemeye devam edin. İş kırılım yapınızı oluştururken, görevlerinizi düzenlemek için aşağıdakileri yapabilirsiniz:  
   
     -   Bir görev seçin ve başka bir görevin altına taşımak için **Girintile** ya da bir düzeyden çıkarmak için Çıkıntıla'ya tıklayın.  
   
-    -   Bir görev seçin ve listede aşağı ya da yukarı hareket etmek için **Yukarı Taşı** veya **Aşağı Taşı** 'ya tıklayın.  
+    -   Bir görev seçin ve listede aşağı ya da yukarı hareket etmek için **Yukarı Taşı** veya **Aşağı Taşı**'ya tıklayın.  
   
-    -   Gantt grafiğini gizlemek için **Gantt'yi gizle** 'ye tıklayın ve yeniden görüntülemek için **Gantt'yi göster** 'e tıklayın.  
+    -   Gantt grafiğini gizlemek için **Gantt'yi gizle**'ye tıklayın ve yeniden görüntülemek için **Gantt'yi göster**'e tıklayın.  
   
-    -   **Zaman Ölçeği** 'ndeki Gantt grafiği için farklı bir zaman dilimi seçin.  
+    -   **Zaman Ölçeği**'ndeki Gantt grafiği için farklı bir zaman dilimi seçin.  
   
-6.  Projenizin takım üyeleri için iş kırılım yapınızda belirttiğiniz rolleri eklemek üzere, **Proje Takımı Oluştur** 'a tıklayın.  
+6.  Projenizin takım üyeleri için iş kırılım yapınızda belirttiğiniz rolleri eklemek üzere, **Proje Takımı Oluştur**'a tıklayın.  
   
-7.  Değişiklik yapmayı bitirdiğinizde ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+7.  Değişiklik yapmayı bitirdiğinizde ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje yöneticisi kılavuzu](../psa/project-manager-guide.md)

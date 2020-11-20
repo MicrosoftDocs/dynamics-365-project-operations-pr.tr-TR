@@ -3,7 +3,7 @@ title: Birim grupları ve birimler
 description: Bu konu birim grupları ve birimler hakkında bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086340"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130602"
 ---
 # <a name="unit-groups-and-units"></a>Birim grupları ve birimler
 
@@ -33,14 +33,14 @@ Birim grupları ve birimler, Microsoft Dynamics 365'teki temel varlıklardır. B
 
 Aşağıda, birim ve birim grubu örnekleri verilmektedir:
  
-- **Birim grubu** : Mesafe 
-    - **Birimler** : Mil, Kilometre, vb.
-- **Birim grubu** : Zaman
-    - **Birimler** : Saat, gün, hafta, vb. 
+- **Birim grubu**: Mesafe 
+    - **Birimler**: Mil, Kilometre, vb.
+- **Birim grubu**: Zaman
+    - **Birimler**: Saat, gün, hafta, vb. 
 
 Bir birim grubunda birden çok birim ayarladığınızda, birim grubunun varsayılan veya birincil birimi olarak ayarladığınız ilk birimi atayarak aralarında bir dönüştürme faktörü ayarlamanız gerekir. 
 
-Örneğin, bir **Zaman** birimi grubunda, ilk birim olarak **Saat** ayarı yaparsanız, sistem **Saati** varsayılan birim olarak belirler. Ayarladığınız sonraki birim **Gün** ise, **Gün** ' değerinden **Saat** değerine bir dönüştürme faktörü ayarlamanız gerekir. Daha sonra üçüncü birim olarak **Hafta** eklerseniz, **Hafta** için **Gün** veya **Saat** bakımından bir dönüştürme faktörü ayarlamanız gerekir. 
+Örneğin, bir **Zaman** birimi grubunda, ilk birim olarak **Saat** ayarı yaparsanız, sistem **Saati** varsayılan birim olarak belirler. Ayarladığınız sonraki birim **Gün** ise, **Gün**' değerinden **Saat** değerine bir dönüştürme faktörü ayarlamanız gerekir. Daha sonra üçüncü birim olarak **Hafta** eklerseniz, **Hafta** için **Gün** veya **Saat** bakımından bir dönüştürme faktörü ayarlamanız gerekir. 
 
 Aşağıdaki resimde **Gün** birimi için örnek bir kurulum gösterilmektedir; burada **Miktar** alanı gün içindeki saat sayısını gösterir. **Hafta** biriminde **Miktar** alanı bir haftadaki günleri gösterir.
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation, hem giderler hem de zaman için tahminl
 
 Giderler için, her gider kategorisinin bir varsayılan birim grubu ve birimi vardır. Bu değerler, gider kategorileri için fiyat listesi girişlerinde varsayılan değerler olarak girilir. 
 
-Örneğin, **Ulaşım** adlı bir gider kategoriniz vardır. Bu kategorinin  **Mesafe** adlı bir birim grubu ve **Mil** adlı bir varsayılan birimi bulunur. **Mesafe** birim grubunu iki birimli ( **Mil** ve **Kilometre** ) yaparsanız, **Ulaşım** kategorisi için iki fiyatı tek bir fiyat listesi üzerinde ayarlayabilirsiniz: mil başına fiyat ve kilometre başına fiyat.
+Örneğin, **Ulaşım** adlı bir gider kategoriniz vardır. Bu kategorinin  **Mesafe** adlı bir birim grubu ve **Mil** adlı bir varsayılan birimi bulunur. **Mesafe** birim grubunu iki birimli (**Mil** ve **Kilometre**) yaparsanız, **Ulaşım** kategorisi için iki fiyatı tek bir fiyat listesi üzerinde ayarlayabilirsiniz: mil başına fiyat ve kilometre başına fiyat.
 
 | Gider kategorisi  | Birim grubu  | Birim      | Fiyatlandırma yöntemi  | Birim fiyatı  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Zaman için, her fiyat listesi başlığında bir **Varsayılan Zaman Birimi** a
 Aşağıdaki örnekte PSA'nın birim grubunu, birimleri ve dönüştürme faktörlerini nasıl kullandığı gösterilmektedir.
 - Birimler
 
-   - **Birim grubu** : Zaman 
-   - **Birimler** : Saat 
+   - **Birim grubu**: Zaman 
+   - **Birimler**: Saat 
     
     - **Gün** - Dönüştürme faktörü: 8 saat       
     - **Hafta** - Dönüştürme faktörü: 40 saat  
         
 - Proje A'da ayarlanan fiyat listesi:
 
-    - **Ad** : UK satış fiyatları 2016 
-    - **Varsayılan zaman birimi** : Gün 
-    - **Para birimi** : GBP
+    - **Ad**: UK satış fiyatları 2016 
+    - **Varsayılan zaman birimi**: Gün 
+    - **Para birimi**: GBP
 
 | Rol      | Birim grubu | Birim | Kuruluş birimi | Fiyat   |
 |-----------|------------|------|---------------------|---------|

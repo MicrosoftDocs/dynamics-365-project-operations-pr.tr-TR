@@ -3,7 +3,7 @@ title: Microsoft Project'te işlerinizi planlamak için Project Service Eklentis
 description: Bu konu, Microsoft Project Service için Microsoft Project eklentisini ekleme, yapılandırma ve kullanma hakkında bilgi sağlar.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086454"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129702"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project'te işlerinizi planlamak için Project Service Automation Eklentisi'ni kullanma
 
@@ -44,24 +44,24 @@ ms.locfileid: "4086454"
 
 2.  İndirme bağlantısına tıklayın.  
 
-3.  İndirme işlemi tamamlandığında, eklentiyi yüklemek için **Evet** 'e tıklayın.  
+3.  İndirme işlemi tamamlandığında, eklentiyi yüklemek için **Evet**'e tıklayın.  
 
 ## <a name="configure-the-add-in"></a>Eklentiyi yapılandırma  
 
 1. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i açın ve **Project Service** sekmesine tıklayın.  
 
-2. **Bağlan** 'a tıklayın.  
+2. **Bağlan**'a tıklayın.  
 
-3. Oturum açma bilgilerinizi girin ve **Oturum aç** 'a tıklayın.  
+3. Oturum açma bilgilerinizi girin ve **Oturum aç**'a tıklayın.  
 
    Artık eklentiyi kullanmaya başlayabilirsiniz.  
 
 ## <a name="read-from-a-template"></a>Şablondan okuma  
  Proje planlamanıza başlamak için [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] içinde oluşturduğunuz ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] içine kopyaladığınız bir şablondan okuyun. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Proje şablonu oluşturma (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  **Project Service** sekmesinden, **Okuma** > **Project Service Automation Proje Şablonu** 'na tıklayın.  
+1.  **Project Service** sekmesinden, **Okuma** > **Project Service Automation Proje Şablonu**'na tıklayın.  
 
-2.  Listeden bir proje şablonu seçin ve **Aç** 'a tıklayın.  
+2.  Listeden bir proje şablonu seçin ve **Aç**'a tıklayın.  
 
     > [!NOTE]
     >  Varsayılan olarak şablondan Project'e kopyalanan görevler el ile zamanlanmış olarak ayarlanır.  
@@ -70,17 +70,17 @@ ms.locfileid: "4086454"
 
 1.  Projeyi açın ve **Görev** şeridine tıklayın.  
 
-2.  **Gantt Grafiği** menüsüne tıklayın ve **Kaynak Sayfası** 'nı seçin.  
+2.  **Gantt Grafiği** menüsüne tıklayın ve **Kaynak Sayfası**'nı seçin.  
 
 3.  Kaynak Sayfası üzerinde, **Project Service Kaynak Rolü** açılan menüsüne tıklayın ve bir Project Service Automation rolü seçin.  
 
 ## <a name="staff-your-project-with-resources"></a>Kaynaklarla projenize personel atama  
 
-1.  Project Service sekmesinden bir satır seçin ve **Kaynak Bul** 'a tıklayın.  
+1.  Project Service sekmesinden bir satır seçin ve **Kaynak Bul**'a tıklayın.  
 
 2.  **Kaynak Ayır** ekranında, proje için kullanmak istediğiniz kaynağı seçin.  
 
-3.  **Ayır** 'a ve sonra da **Tamam** 'a tıklayın.  
+3.  **Ayır**'a ve sonra da **Tamam**'a tıklayın.  
 
 ## <a name="publish-your-project"></a>Projenizi yayımlama  
 Proje planlamanız tamamlandığında, bir sonraki adım projenizi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasında içeri aktarmak ve yayımlamaktır.  
@@ -95,9 +95,9 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kullanım kullanma**    |    Uygulamasına Omports [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proje tahminleri** ekranı.     |
 
 **Projenizi içeri aktarmak ve yayımlamak için**  
-1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi** 'ne tıklayın.  
+1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi**'ne tıklayın.  
 
-2. **Yeni bir Project Service projesine yayımla** iletişim kutusunda, **Proje Adı** alanını doldurun ve **Müşteri** 'yi seçin.  
+2. **Yeni bir Project Service projesine yayımla** iletişim kutusunda, **Proje Adı** alanını doldurun ve **Müşteri**'yi seçin.  
 
 3. İsteğe bağlı olarak, plan Project dosyasını Project Service Automation ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini işaretleyin.  
 
@@ -114,7 +114,7 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 ### <a name="edit-in-pn_microsoft_project"></a>[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] içinde düzenleme  
 
-1. Ana menüden, **Project Service** > **Projeler** 'e tıklayın.  
+1. Ana menüden, **Project Service** > **Projeler**'e tıklayın.  
 
 2. Proje listesinden, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te oluşturduğunuz projeyi açın.  
 
@@ -122,7 +122,7 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Dosyanın bağlantısını kaldırma ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service'te düzenleme  
 
-1. Ana menüden, **Project Service** > **Projeler** 'e tıklayın.  
+1. Ana menüden, **Project Service** > **Projeler**'e tıklayın.  
 
 2. Proje listesinden, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te oluşturduğunuz projeyi açın.  
 
@@ -141,9 +141,9 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır** öğesini seçin.  
 
-   - **Evet** 'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Proje dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
+   - **Evet**'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Proje dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
 
-   - **Hayır** 'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
+   - **Hayır**'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dosyası belirli bir [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projesinin **Belgeler** bölümü altındaki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bulunabilir.  
 
@@ -155,18 +155,18 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır** öğesini seçin.  
 
-   - **Evet** 'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Proje dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
+   - **Evet**'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Proje dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
 
-   - **Hayır** 'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
+   - **Hayır**'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dosyası belirli bir [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projesinin **Belgeler** bölümü altındaki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bulunabilir.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projenizi şablon olarak yayımlama  
  Projenizi kaydedebilir ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bir proje şablonu olarak kaydederek yeniden kullanabilirsiniz.  Proje şablonları [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] içinde yeniden kullanılabilen planlardır. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Proje şablonu oluşturma (Project Service Automation)](../psa/create-project-template.md)  
 
-1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi Şablonu** 'na tıklayın.  
+1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi Şablonu**'na tıklayın.  
 
-2. **Yeni bir Project Service proje şablonuna yayımla** iletişim kutusunda, **Proje şablonu adı** 'nı girin.  
+2. **Yeni bir Project Service proje şablonuna yayımla** iletişim kutusunda, **Proje şablonu adı**'nı girin.  
 
 3. İsteğe bağlı olarak, Proje dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini işaretleyin.  
 

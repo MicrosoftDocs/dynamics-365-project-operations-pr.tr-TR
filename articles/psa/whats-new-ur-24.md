@@ -3,7 +3,7 @@ title: Project Service Automation Güncelleştirme Sürümü 24, V3'teki yenilik
 description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 24, V3'teki özellikler ve düzeltmeler listelenir.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086276"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126597"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, Güncelleştirme Sürümü 24, V3
 
@@ -49,7 +49,7 @@ Aşağıdaki sorunlar giderilmiştir:
 
 Aşağıdaki sorunlar giderilmiştir:
 
-- **Zaman Girişi Izgarası** , **Yalnızca Tarih** zaman davranışını desteklemez.
+- **Zaman Girişi Izgarası**, **Yalnızca Tarih** zaman davranışını desteklemez.
 - **Zaman Girişi** otomatik olarak yenilenmiyor. El ile yenileme gerekiyor.
 - Bir kaynağın atamalarında mola (0 saat) olduğunda atamadan zaman girişleri içeri aktarılamıyor.
 - Bir zaman girişi oluştururken başlangıcı **msdyn_date** ile aynı olarak ayarlayın.
@@ -67,15 +67,15 @@ Aşağıdaki sorunlar giderilmiştir:
 
 Aşağıdaki sorunlar giderilmiştir:
 
-- **Proje Zamanlaması** 'nda, **El İle** seçeneğini **Otomatik** olarak değiştirirken otomatik kaydetme tamamlanmıyor.
-- Gider maliyetleri, **Proje İzleme Izgarası** 'nddaki fark üzerinden hesaplanmamalıdır.
+- **Proje Zamanlaması**'nda, **El İle** seçeneğini **Otomatik** olarak değiştirirken otomatik kaydetme tamamlanmıyor.
+- Gider maliyetleri, **Proje İzleme Izgarası**'nddaki fark üzerinden hesaplanmamalıdır.
 - Yükleme sırasında **Tahminler etiketi** sütunları ile **Zaman Aşaması** türünü değiştirme arasında tutarsız davranış.
 - Projedeki gerçek maliyet, **Gerçek Değerler** toplamlarını yansıtmayabilir.
-- **Özet** sekmesindeki **Tahmini Bitiş Tarihi** , **İKY Zamanlaması** ile eşleşmiyor.
+- **Özet** sekmesindeki **Tahmini Bitiş Tarihi**, **İKY Zamanlaması** ile eşleşmiyor.
 - Çıkıntıdaki **Gerçek Saatleri Güncelleştir** seçeneği doğru çalışmıyor.
 - **BU** kökünün dışındaki bir proje yöneticisi proje oluşturamıyor.
-- **Gider Tahminleri** 'nde görev veya kategori değişiklikleri kalıcı olmuyor.
-- **Sözleşmenin kopyası** , fatura zamanlamasını ve çalıştırma durumunu kopyalıyor.
+- **Gider Tahminleri**'nde görev veya kategori değişiklikleri kalıcı olmuyor.
+- **Sözleşmenin kopyası**, fatura zamanlamasını ve çalıştırma durumunu kopyalıyor.
 - **Gerçek Değerleri Yenile** düğmesi, özet görevleri düzgün hesaplamıyor.
 - Microsoft Project Eklentisi: Bir takım üyesi boş bir kaynak belirleme birimine sahipse null başvuru hatasını düzeltir.
 

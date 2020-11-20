@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4086554"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128082"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>El ile proforma fatura oluşturma
 
@@ -54,35 +54,35 @@ Belirli bir proje sözleşmesi için fatura oluşturmak üzere bu adımı izleyi
 
 Faturaları toplu olarak oluşturmak için bu adımları izleyin.
 
-1. **Proje Sözleşmeleri** listesi sayfasında, fatura oluşturmanız gereken bir veya daha fazla proje sözleşmesi seçin ve ardından **Proje Faturaları Oluştur** 'u seçin.
+1. **Proje Sözleşmeleri** listesi sayfasında, fatura oluşturmanız gereken bir veya daha fazla proje sözleşmesi seçin ve ardından **Proje Faturaları Oluştur**'u seçin.
 
     Bir uyarı iletisi, faturalar oluşturulmadan önce bir gecikme olabileceği konusunda sizi uyarır. İşlem de gösterilir.
 
-2. İleti kutusunu kapatmak için **Tamam** 'ı seçin.
+2. İleti kutusunu kapatmak için **Tamam**'ı seçin.
 
     **Faturalamaya Hazır** durumuna sahip sözleşme satırında tüm işlemler için bir fatura oluşturulur. Bu işlemler zaman, gider, kilometre taşları ve ürün tabanlı sözleşme satırlarını içerir.
 
-3. Oluşturulan faturaları görüntülemek için **Satış** \> **Faturalama** \> **Faturalar** 'a gidin. Her proje sözleşmesi için bir fatura görürsünüz.
+3. Oluşturulan faturaları görüntülemek için **Satış** \> **Faturalama** \> **Faturalar**'a gidin. Her proje sözleşmesi için bir fatura görürsünüz.
 
 ### <a name="set-up-automated-creation-of-project-invoices"></a>Otomatik proje faturaları oluşturmayı ayarlama 
 
 Otomatik fatura çalıştırmayı yapılandırmak için bu adımları izleyin.
 
-1. **Ayarlar** \> **Toplu işler** 'e gidin.
+1. **Ayarlar** \> **Toplu işler**'e gidin.
 2. Bir toplu iş oluşturun ve **Project Operations Fatura Oluştur** olarak adlandırın. Toplu işin adı "Faturaları oluştur" terimini içermelidir.
-3. **İş türü** alanında **Hiçbiri** 'ni seçin. Varsayılan olarak, **Günlük Sıklık** ve **Etkin** seçenekleri **Evet** olarak ayarlanır.
-4. **İş Akışı Çalıştır** 'ı seçin. **Kayıt Ara** iletişim kutusunda üç iş akışı görürsünüz:
+3. **İş türü** alanında **Hiçbiri**'ni seçin. Varsayılan olarak, **Günlük Sıklık** ve **Etkin** seçenekleri **Evet** olarak ayarlanır.
+4. **İş Akışı Çalıştır**'ı seçin. **Kayıt Ara** iletişim kutusunda üç iş akışı görürsünüz:
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. **ProcessRunCaller** 'ı ve ardından **Ekle** 'yi seçin.
-6. Sonraki iletişim kutusunda **Tamam** 'ı seçin. **Uyku** iş akışının ardından **Süreç** iş akışı gelir.
+5. **ProcessRunCaller**'ı ve ardından **Ekle**'yi seçin.
+6. Sonraki iletişim kutusunda **Tamam**'ı seçin. **Uyku** iş akışının ardından **Süreç** iş akışı gelir.
 
-    Ayrıca, adım 5'te **ProcessRunner** 'ı seçebilirsiniz. Ardından **Tamam** 'ı seçtiğinizde, bir **Süreç** iş akışının ardından bir **Uyku** iş akışı gelir.
+    Ayrıca, adım 5'te **ProcessRunner**'ı seçebilirsiniz. Ardından **Tamam**'ı seçtiğinizde, bir **Süreç** iş akışının ardından bir **Uyku** iş akışı gelir.
 
-**ProcessRunCaller** ve **ProcessRunner** iş akışları faturaları oluşturur. **ProcessRunCaller** **ProcessRunner** 'ı çağırır. **ProcessRunner** , faturaları gerçekte oluşturan iş akışıdır. Bu, fatura oluşturulması için gereken tüm sözleşme satırlarından geçer ve bu satırlar için faturalar oluşturur. Faturaların oluşturulması gereken sözleşme satırlarını belirlemek için, iş sözleşme satırları için fatura çalıştırma tarihlerine bakar. Bir sözleşmeye ait olan sözleşme satırları aynı fatura çalıştırma tarihine sahipse, işlemler iki fatura satırı bulunan tek bir faturada birleştirilir. Fatura oluşturulacak bir işlem yoksa, iş fatura oluşturmayı atlar.
+**ProcessRunCaller** ve **ProcessRunner** iş akışları faturaları oluşturur. **ProcessRunCaller** **ProcessRunner**'ı çağırır. **ProcessRunner**, faturaları gerçekte oluşturan iş akışıdır. Bu, fatura oluşturulması için gereken tüm sözleşme satırlarından geçer ve bu satırlar için faturalar oluşturur. Faturaların oluşturulması gereken sözleşme satırlarını belirlemek için, iş sözleşme satırları için fatura çalıştırma tarihlerine bakar. Bir sözleşmeye ait olan sözleşme satırları aynı fatura çalıştırma tarihine sahipse, işlemler iki fatura satırı bulunan tek bir faturada birleştirilir. Fatura oluşturulacak bir işlem yoksa, iş fatura oluşturmayı atlar.
 
 **ProcessRunner** çalışması bittikten sonra, **ProcessRunCaller** öğesini çağırır, bitiş saati sağlar ve kapatılır. **ProcessRunCaller** daha sonra belirtilen bitiş saatinden itibaren 24 saat çalışan bir zamanlayıcı başlatır. Zamanlayıcının sonunda **ProcessRunCaller** kapatılır.
 
@@ -99,7 +99,7 @@ Bir taslak proje faturası oluşturduğunuzda, zaman ve gider girişleri onaylan
 - Miktarı ve faturalandırma türünü düzenlemek ve ayarlamak.
 - Zaman, gider ve ücretleri faturadaki işlemler olarak doğrudan eklemek. Bu işlem sınıflarına izin veren bir sözleşme satırıyla eşlenmiş fatura satırı varsa, bu özelliği kullanabilirsiniz.
 
-Bir faturayı onaylamak için **Onayla** 'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla** 'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalandırılmamış bir satış fiili değerine başvuruyorsa, sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
+Bir faturayı onaylamak için **Onayla**'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalandırılmamış bir satış fiili değerine başvuruyorsa, sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
 
 ### <a name="correct-a-confirmed-invoice"></a>Onaylanmış faturayı düzeltme
 

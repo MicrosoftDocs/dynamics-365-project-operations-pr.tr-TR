@@ -3,7 +3,7 @@ title: Kaynak rollerini yapılandır
 description: Project Service'ta kaynak rollerini yapılandırma
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086322"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129162"
 ---
 # <a name="configure-resource-roles-project-service"></a>Kaynak rollerini yapılandırma (Project Service)
 
@@ -37,23 +37,23 @@ Roller, proje kaynak gereksinimlerini veya bir projenin maliyetlerini belirlerke
   
  Eklemek istediğiniz her rol için aşağıdakileri yapın:  
   
-1.  **Project Service > Kaynak Rolleri** 'ne gidin.  
+1.  **Project Service > Kaynak Rolleri**'ne gidin.  
   
 2.  **Yeni** düğmesini tıklatın.  
   
 3.  **Genel** alanındaki **Ad** alanında rol için bir ad girin ve ardından diğer alanları gerektiği şekilde doldurun.  
   
-4.  Düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet** 'e tıklayın.  
+4.  Düzenlemeye devam edebilmeniz için kaydı oluşturmak üzere **Kaydet**'e tıklayın.  
   
 5.  **Beceriler** alanında, beceri eklemek için **+** öğesine tıklayın.  
   
 6.  **Rol uzmanlığı gereksinimi** bölmesinde, **Beceri** alanına tıklayın, **Ara** düğmesine tıklayın ve ardından bir beceri seçin.  
   
-7.  Bu yetenek için bir uzmanlık seçin ve ardından **Kaydet** 'e tıklayın.  
+7.  Bu yetenek için bir uzmanlık seçin ve ardından **Kaydet**'e tıklayın.  
   
-8.  Gerekirse beceri eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet** 'e tıklayın.  
+8.  Gerekirse beceri eklemeye devam edin. Bitirdiğinizde, ekranın sağ alt köşesindeki **Kaydet**'e tıklayın.  
   
-9. Bu kaynak rolünün kullanılacak projeler için kullanılabilir yapmak üzere **Etkinleştir** 'e tıklayın.  
+9. Bu kaynak rolünün kullanılacak projeler için kullanılabilir yapmak üzere **Etkinleştir**'e tıklayın.  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)

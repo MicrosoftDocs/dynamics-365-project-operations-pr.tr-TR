@@ -3,7 +3,7 @@ title: Teklifler ve teklif satırları
 description: Bu konu teklifler ve teklif satırlarıyla ilgili bilgi sağlar.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086439"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129477"
 ---
 # <a name="quotes-and-quote-lines"></a>Teklifler ve teklif satırları
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation'da iki tür teklif vardır: proje teklif
 - Satış teklifi etkinleştirme ve düzeltmeleri destekler. Proje teklifi bu işlemleri desteklemez.
 - Bir satış teklifine birden fazla sipariş ekleyebilirsiniz. Bir proje teklifine yalnızca bir proje sözleşmesi ekleyebilirsiniz.
 - Bir satış teklifi kazanabilir ve ilgili fırsatı açık tutabilirsiniz. Bir proje teklifi kazandıktan sonra, ilgili fırsat kapanır.
-- Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi** , **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
+- Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
 - Satış teklifleri ve proje teklifleri aynı zamanda **Tür** adlı seçenek kümesi tabanlı bir alanla tanımlanır. Satış teklifi için, bu alan **Öğe-tabanlı** değerine sahiptir. Proje teklifi için, **İş-tabanlı** değerine sahiptir.
 
 Bu konu proje tekliflerinin ayrıntılarına odaklanacaktır.
@@ -76,7 +76,7 @@ PSA, sabit fiyatlı teklif satırları için üç tür fatura zamanlamasını de
 Profesyonel servis kuruluşları genellikle müşterilerine maliyet sınıflandırmasına göre teklif verir ve faturalandırma yapar. PSA'da, maliyetler aşağıdaki işlem sınıflandırmalarıyla temsil edilir:
 
 - **Zaman** – Bu sınıflandırma bir projedeki işçilik maliyetini ve insan kaynakları süresini temsil eder.
-- **Gider** : – Bu sınıflandırma bir projedeki tüm diğer gider türlerini temsil eder. Giderler geniş kapsamlı sınıflandırılabildiğinden, çoğu kuruluş seyahat, araba kiralama, otel veya ofis malzemeleri gibi alt kategoriler oluşturur.
+- **Gider**: – Bu sınıflandırma bir projedeki tüm diğer gider türlerini temsil eder. Giderler geniş kapsamlı sınıflandırılabildiğinden, çoğu kuruluş seyahat, araba kiralama, otel veya ofis malzemeleri gibi alt kategoriler oluşturur.
 - **Ücret** – Bu sınıflandırma müşteriye ücretlendirilen çeşitli genel gideri, yaptırımları ve diğer öğeleri temsil eder. 
 - **Vergi** – Bu sınıflama, kullanıcıların gider girdiklerinde ekledikleri vergi tutarlarını temsil eder.
 - **Malzeme işlemi** – Bu sınıflama teyit edilmiş bir proje faturasındaki ürün satırlarından gelen fiili değerleri temsil eder.
@@ -91,7 +91,7 @@ Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla 
 - Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalandırılır.
 
 > [!NOTE]
-> Proje ve bir teklif satırı veya sözleşme satırıyla ilişkili olan **Zaman** , **Gider** ve **Ücret** proje işlem sınıflandırmaları birleşimi benzersiz olmalıdır. Aynı proje ve işlem sınıfı birleşimi birden çok sözleşme satırı veya teklif satırıyla ilişkilendirilmişse, PSA düzgün çalışmaz.
+> Proje ve bir teklif satırı veya sözleşme satırıyla ilişkili olan **Zaman**, **Gider** ve **Ücret** proje işlem sınıflandırmaları birleşimi benzersiz olmalıdır. Aynı proje ve işlem sınıfı birleşimi birden çok sözleşme satırı veya teklif satırıyla ilişkilendirilmişse, PSA düzgün çalışmaz.
 
 ## <a name="billing-types"></a>Faturalama türleri
 
@@ -126,6 +126,6 @@ Fatura sıklığı, fatura oluşturma sıklığını ifade eden öznitelik değe
 
 Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan faturalama kilometre taşları oluşturmak üzere **Fatura Zamanlaması** kılavuzunu kullanabilirsiniz.
 
-- Eşit olarak bölünmüş fatura kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi** 'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
+- Eşit olarak bölünmüş fatura kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
 - Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
 - Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.
