@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Yenilikler
       items:
+        - name: Aralık 2020 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Kasım 2020 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Proje satış süreci
@@ -87,7 +89,7 @@
                 - name: Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Proje teklif satırının borçlandırılabilir bileşenlerini yapılandırma
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Teklif satırında tahminler oluşturma
                   href: sales/create-estimate-quote-line.md
                 - name: Proje tabanlı teklif satırına bir projedeki tahminleri aktarma
@@ -109,7 +111,7 @@
             - name: Proje sözleşmelerindeki proje fiyat listelerini yönetme
               href: sales/contracts-manage-project-price-lists.md
             - name: Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Proje tabanlı sözleşme satırları
               items:
                 - name: Proje tabanlı sözleşme satırlarına genel bakış
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Proje sözleşmesi kopyalama
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Avanslar ve elde tutulan tutarlar
+              items:
+                - name: Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Elde tutulan tutar zamanlaması ayarlama - lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Bir sözleşmede geçici avansa oluşturma - lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Fiyatlandırma ve maliyetlendirme
       items:
         - name: Fiyat listesi ayarlama
@@ -158,10 +168,18 @@
           items:
             - name: Fiyatlandırma boyutlarına genel bakış
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Özel fiyatlandırma boyutları için çözüm oluşturma
+              href: sales/create-solution-custompd.md
             - name: Var olan alanları fiyatlandırma boyutları olarak kullanma
               items:
                 - name: Fiyatlandırma boyutları olarak kullanılan Project Operations alanları
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Ayrılabilir bir kaynağı fiyatlandırma boyutu olarak kullanma
+                  href: sales/use-br-as-pd.md
+                - name: Hareket Kategorisini fiyatlandırma boyutu olarak kullanma
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Bir projede birden çok role sahip ayrılabilir kaynak
+                  href: sales/br-playing-multiple-roles.md
             - name: Fiyatlandırma boyutları olarak kullanılan özel alanlar
               items:
                 - name: Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Özel alanları fiyatlandırma boyutları olarak ayarlama
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Yeni fiyatlandırma boyutları eklemek için eklenti özniteliklerini güncelleştirme
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Fiyatlandırma boyutunu kapatma
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Proje yönetimi
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Kaynakların yönetimi
           items:
+            - name: Kaynak oluşturma
+              href: resource-management/create-resources.md
             - name: Beceriler ve uzmanlıkları tanımlama
               href: resource-management/define-skills-proficiencies.md
+            - name: Rolleri tanımlama
+              href: resource-management/define-roles.md
             - name: Kaynak takvimlerini tanımlama
               href: resource-management/define-resource-calendars.md
-        - name: Ayırma tahsisat yöntemleri
+        - name: ',Ayırma tahsisatı yöntemleri'
           href: resource-management/booking-allocation-methods.md
+        - name: Ayırma durumları
+          href: resource-management/booking-status.md
         - name: Beceriler ve uzmanlık modelleri
           href: resource-management/skills-proficiency-models.md
         - name: Kaynak mutabakatı
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Proforma proje faturalarını yönetme
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Elde tutulan tutar veya avans faturalama
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Proforma proje faturalarını onaylama
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Proje faturası otomasyonunu yapılandırma
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations'da entegrasyon günlüğü
           href: project-accounting/project-operations-integration-journal.md
+        - name: Şirketler arası faturalama
+          items:
+            - name: Şirketler arası faturalamaya genel bakış
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Şirketler arası faturalamayı yapılandırma
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Şirketlerarası müşteri ve satıcı faturaları oluşturma
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Şirketlerarası hareketler oluşturma
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Gelir tanıma
+      items:
+        - name: Gelir tanımaya genel bakış
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Gelir tanımayı ayarlama
+          items:
+            - name: Dönem türlerini ayarlama
+              href: project-accounting/period-types.md
+            - name: Maliyet şablonlarını ayarlama
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gelir tahminlerini yönetme
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Sabit fiyat geliri tahmin projeleri
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Tamamlama maliyeti yöntemleri
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Lite dağıtımı: Anlaşmadan proforma faturaya'
   items:
     - name: Başlama
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
+        - name: 'Yenilikler Aralık 2020 - lite dağıtımı: Anlaşmadan proforma faturaya'
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 'Yenilikler Kasım 2020 - lite dağıtımı: Anlaşmadan proforma faturaya'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Proje satış süreci
@@ -538,10 +594,18 @@
           items:
             - name: Fiyatlandırma boyutlarına genel bakış
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Özel fiyatlandırma boyutları için çözüm oluşturma
+              href: sales/create-solution-custompd.md
             - name: Var olan alanları fiyatlandırma boyutları olarak kullanma
               items:
-                - name: Var olan bir alanı fiyatlandırma boyutu olarak kullanma
+                - name: Fiyatlandırma boyutları olarak kullanılan Project Operations alanları
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Ayrılabilir bir kaynağı fiyatlandırma boyutu olarak kullanma
+                  href: sales/use-br-as-pd.md
+                - name: Hareket Kategorisini fiyatlandırma boyutu olarak kullanma
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Bir projede birden çok role sahip ayrılabilir kaynak
+                  href: sales/br-playing-multiple-roles.md
             - name: Fiyatlandırma boyutları olarak kullanılan özel alanlar
               items:
                 - name: Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Özel alanları fiyatlandırma boyutları olarak ayarlama
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Yeni fiyatlandırma boyutları eklemek için eklenti özniteliklerini güncelleştirme
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Fiyatlandırma boyutunu kapatma
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Proje yönetimi
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Kaynakların yönetimi
           items:
+            - name: Kaynak oluşturma
+              href: resource-management/create-resources.md
             - name: Beceriler ve uzmanlıkları tanımlama
               href: resource-management/define-skills-proficiencies.md
+            - name: Rolleri tanımlama
+              href: resource-management/define-roles.md
             - name: Kaynak takvimlerini tanımlama
               href: resource-management/define-resource-calendars.md
         - name: Ayırma tahsisat yöntemleri
           href: resource-management/booking-allocation-methods.md
+        - name: Ayırma durumları
+          href: resource-management/booking-status.md
         - name: Beceriler ve uzmanlık modelleri
           href: resource-management/skills-proficiency-models.md
         - name: Kaynak mutabakatı
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 26, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-26.md
         - name: 'Güncelleştirme Sürümü 25, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-25.md
         - name: 'Güncelleştirme Sürümü 24, V3''teki yenilikler veya değişiklikler'
@@ -938,7 +1012,7 @@
                   href: psa/use-existing-field.md
                 - name: Ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma
                   href: psa/bookable-resource-pricing-dimension.md
-                - name: İşlem kategorisini fiyatlandırma boyutu olarak kullanma
+                - name: Hareket kategorisini fiyatlandırma boyutu olarak kullanma
                   href: psa/transaction-category-pricing-dimension.md
             - name: Bir projede birden çok role sahip ayrılabilir kaynak
               href: psa/bookable-resource-multiple-roles.md
