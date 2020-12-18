@@ -18,15 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 7c57476b250a8010daff6f609ac4dcdf1ec132cf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120027"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642612"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu, Project Service Automation'da sürüm 2 veya sürüm 1 ile sürüm 3 arasında kullanıcı arabirimi (UI), işlevsellik ve terminoloji değişiklikleri hakkında bilgi sağlar.
 
@@ -240,7 +242,7 @@ Borçlandırılabilir roller ve Borçlandırılabilir kategoriler ayarı için d
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Project Service Automation teklif ve proje sözleşmesi için özel fiyatlandırma oluşturma ve düzenleme
 Sürüm 1 ve 2'de, özel teklifler ve sözleşmeler için özel fiyat listesi kullanımı **Borçlandırılabilirlik** görünümünde **Fiyatları düzenle** kullanılarak yapılıyordu. **Borçlandırılabilirlik** görünümü, teklif satırının veya sözleşme satırının en üst gezinti çubuğunda yer almaktaydı. Bu aynı zamanda roller ve gider kategorileri için borçlandırılabilirlik seçeneklerini ayarlayabileceğiniz yerdi.
 
-Sürüm 3'ten itibaren Project Service Automation teklifinde ve Project Service Automation proje sözleşmesinde özel proje fiyat listesi oluşturma ve kullanma borçlandırılabilirlik ayarından ayrılmıştır. Project Service Automation teklifi ve Project Service Automation proje sözleşmelerinde **Proje fiyat listeleri** olarak adlandırılan yeni bir sekme bulunur. Bu sekmede, Project Service Automation teklif veya proje sözleşmesine eklenen tüm Proje fiyat listelerinin ilişkilendirilmiş bir görünümü gösterilir. Proje teklifi veya sözleşmesiyle önceden ilişkilendirilmiş varolan bir fiyat listesinden özel bir fiyat listesi oluşturmak için **Özel fiyat oluştur** öğesini tıklatın. Bu işlemle ilişkili tüm fiyat listelerinin bir kopyasını alınır ve Teklife veya sözleşmeye eklenir. Artık bu fiyatlandırma değişiklikleri yalnızca bu teklif veya sözleşme için geçerli olacak şekilde fiyat listesini açabilir ve rol veya gider kategorisi fiyatını düzenleyebilirsiniz. 
+Sürüm 3'ten itibaren Project Service Automation teklifinde ve Project Service Automation proje sözleşmesinde özel proje fiyat listesi oluşturma ve kullanma borçlandırılabilirlik ayarından ayrılmıştır. Project Service Automation teklifi ve Project Service Automation proje sözleşmelerinde **Proje fiyat listeleri** olarak adlandırılan yeni bir sekme bulunur. Bu sekmede, Project Service Automation teklif veya proje sözleşmesine eklenen tüm Proje fiyat listelerinin ilişkili görünümü gösterilir. Proje teklifi veya sözleşmesiyle önceden ilişkilendirilmiş varolan bir fiyat listesinden özel bir fiyat listesi oluşturmak için **Özel fiyat oluştur** öğesini tıklatın. Bu işlemle ilişkili tüm fiyat listelerinin bir kopyasını alınır ve Teklife veya sözleşmeye eklenir. Artık bu fiyatlandırma değişiklikleri yalnızca bu teklif veya sözleşme için geçerli olacak şekilde fiyat listesini açabilir ve rol veya gider kategorisi fiyatını düzenleyebilirsiniz. 
   
 Aşağıdaki grafik, özel fiyat listeleri oluşturulmadan önceki durumu gösterir.
 

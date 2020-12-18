@@ -1,5 +1,5 @@
 ---
-title: Sözleşme üzerinde geçici öncelikli oluşturma - lite
+title: Sözleşmede özel avans oluşturma
 description: Bu konu, bir sözleşmede gerektiği gibi bir ön oluşturma hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181386"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596036"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Sözleşme üzerinde geçici öncelikli oluşturma - lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Sözleşmede özel avans oluşturma
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Microsoft Dynamics 365 Project Operations, ön ödemeler ve avanslar içeren faturalama senaryolarını destekler. **Project Operations**'ta **avanslar** kullanma süreci **Elde tutulan tutar** sözleşmelere benzer. 
 

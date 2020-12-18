@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119442"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650252"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Başlamadan önce, bu konunun [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) ve [Fiyat ayarı ve işlem tabanlı varlıklara gerekli özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) konu başlıklarındaki yordamları tamamladığınızı varsaydığını bilmeniz gerekir. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
 
@@ -41,9 +41,15 @@ Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi veri
 Bir alanın fiyatlandırma boyutu olması için:
 
 - **Rol Fiyatı** ve **Rol Fiyatı kar payı** varlıklarında bir alan olarak oluşturulmalıdır. Bunun nasıl yapılacağı hakkında daha fazla bilgi için [Fiyat ayarı ve işlem tabanlı varlıklara özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) bölümüne bakın.
+
 - **Fiyatlandırma Boyutu** tablosunda bir satır olarak oluşturulmalıdır. Örneğin, fiyatlandırma boyutu satırlarını aşağıdaki grafikte gösterildiği şekilde ekleyin. 
 
+![Tutar Tabanlı Fiyatlandırma Boyutu Satırları](media/Amt-based-PD.png)
+
 Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklenir ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklenir.
+
+![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Bu tablodaki var olan veya yeni, tüm fiyat boyutu verileri ancak önbellek yenilendikten sonra fiyatlandırma iş mantığına yansıtılır. Önbellek yenileme işlemi 10 dakika kadar sürebilir. Fiyatlandırma Boyutu verilerinde yapılan değişiklikler sonucunda fiyat varsayılan mantığındaki değişiklikleri görmek için bu sürenin geçmesini bekleyin.

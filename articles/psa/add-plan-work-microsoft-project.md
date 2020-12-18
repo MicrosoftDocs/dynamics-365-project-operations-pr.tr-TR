@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129702"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642792"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project'te işlerinizi planlamak için Project Service Automation Eklentisi'ni kullanma
 
@@ -92,7 +92,7 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**Gantt Grafiği**   | [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **İş Kırılım Yapısı** ekranına içeri aktarır. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kaynak Sayfası** |   İçine aktarır [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **proje takım üyelerinin** ekranı.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kullanım kullanma**    |    Uygulamasına Omports [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proje tahminleri** ekranı.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kullanım kullanma**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proje tahminleri** ekranına içeri aktarır.     |
 
 **Projenizi içeri aktarmak ve yayımlamak için**  
 1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi**'ne tıklayın.  
@@ -173,6 +173,59 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 4. **Yayımla** öğesine tıklayın.  
 
 Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a bağlamak Project dosyasını ana dosya yapar ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] şablonundaki iş kırılım yapısını salt okunur olarak ayarlar.  Proje planında değişiklikler yapmak için, bunları [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te yapmanız ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a güncelleştirme olarak yayımlamanız gerekir.
+
+## <a name="read-a-resource-loaded-schedule"></a>Kaynak yüklü zamanlamayı okuma
+
+Project Service Automation'dan proje okurken kaynağın takvimi, masaüstü istemcisiyle eşitlenmez. Görev süreleri, çaba veya bitişte farklılıklar varsa bunun nedeni büyük olasılıkla kaynakların ve masaüstü istemcisinin projeye uygulanan aynı çalışma saati şablonu takvimine sahip olmamasıdır.
+
+
+## <a name="data-synchronization"></a>Veri Eşitleme
+
+Aşağıdaki tabloda, verilerin Project Service Automation ile Microsoft Project masaüstü eklentisi arasında nasıl eşitleneceği açıklanmaktadır.
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Proje Görevi | Son Tarih | ● | - |
+| Proje Görevi | Tahmini Efor | ● | - |
+| Proje Görevi | MS Project İstemci Kimliği | ● | - |
+| Proje Görevi | Ana Görev | ● | - |
+| Proje Görevi | Project | ● | - |
+| Proje Görevi | Proje görevi | ● | - |
+| Proje Görevi | Proje Görevi Adı | ● | - |
+| Proje Görevi | Kaynak belirleme birimi (v3.0'da kullanımdan kaldırıldı) | ● | - |
+| Proje Görevi | Zamanlanan Süre | ● | - |
+| Proje Görevi | Başlangıç Tarihi | ● | - |
+| Proje Görevi | İKY Kimliği | ● | - |
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Takım Üyesi | MS Project İstemci Kimliği | ● | - |
+| Takım Üyesi | Pozisyon Adı | ● | - |
+| Takım Üyesi | proje | ● | ● |
+| Takım Üyesi | Proje Takımı | ● | ● |
+| Takım Üyesi | Kaynak Belirleme Birimi | - | ● |
+| Takım Üyesi | Rol | - | ● |
+| Takım Üyesi | Çalışma Saatleri | Eşitlenmedi | Eşitlenmedi |
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Kaynak Atama | Başlangıç Tarihi | ● | - |
+| Kaynak Atama | Saat Sayısı | ● | - |
+| Kaynak Atama | MS Project İstemci Kimliği | ● | - |
+| Kaynak Atama | Planlanan İş | ● | - |
+| Kaynak Atama | Project | ● | - |
+| Kaynak Atama | Proje Takımı | ● | - |
+| Kaynak Atama | Kaynak Atama | ● | - |
+| Kaynak Atama | Görev | ● | - |
+| Kaynak Atama | Bugüne Kadar | ● | - |
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Proje Görevi Bağımlılıkları | Proje Görevi Bağımlılığı | ● | - |
+| Proje Görevi Bağımlılıkları | Bağlantı Türü | ● | - |
+| Proje Görevi Bağımlılıkları | Öncül Görev | ● | - |
+| Proje Görevi Bağımlılıkları | Project | ● | - |
+| Proje Görevi Bağımlılıkları | Ardıl Görev | ● | - |
 
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)

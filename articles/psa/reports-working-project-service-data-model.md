@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120297"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642702"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation veri modeliyle çalışma
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation, diğer uygulama varlıklarını genişletir ve Common Data Service veri modelinde kendi varlıklarını sunar. Bu konu, tipik PSA raporlama senaryolarında karşılaşacağınız varlıkların bazılarını açıklar.
 
@@ -119,4 +120,4 @@ Bir zaman çizelgesini veya gideri onayladığınızda ya da PSA'da bir sözleş
 
 **İşlem Kaynağı** varlığı, **Gerçek** kaydının kaynağını kaydeder ve **İşlem Bağlantısı** varlığı, **Gerçek** kaydı için ilgili kayıtları kaydeder. Ek olarak; **Gerçek** kaydı proje, proje sözleşmesi (sipariş), ayrılabilir kaynak ve müşteri başvurularını içerir.
 
-![Hareket bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram](media/PS-Reporting-image6.png "Hareket bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram")
+![İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram](media/PS-Reporting-image6.png "İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram")

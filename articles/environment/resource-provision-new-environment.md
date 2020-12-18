@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121197"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643016"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar için yeni bir Dynamics 365 Project Operations ortamının nasıl sağlanacağı hakkında bilgiler sağlanmaktadır.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Bu konu, kaynağı/stoğu tutulmayanları temel alan senaryolar için yeni bir Dynamics 365 Project Operations ortamı hazırlama hakkında bilgi sağlar.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>LCS projesinde Project Operations otomatik sağlama işlevini etkinleştirme
 
@@ -120,7 +122,7 @@ Ortamın bakımı biraz zaman alır. Tamamlandıktan sonra, ortam dağıtıldı 
 
 ![Çözümleri Uygulama](./media/13ApplySolutions.png)
 
-5. **Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemesi** ve **Dynamics 365 Project Operations Çift Yazma Varlık Eşlemeleri** çözümlerinin ikisini de seçin ve ardından **Uygula** seçeneğini belirleyin.
+5. **Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemesi** ve **Dynamics 365 Project Operations Çift Yazma Varlık Eşlemeleri** çözümlerini seçin ve ardından **Uygula** seçeneğini belirleyin.
 
 ![Çözümleri Onaylama](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 | --- | --- | --- | --- | --- | --- |
 | **Tüm Şirketler için Proje Kaynak Rolleri (bookableresourcecategories)** | No | Evet | Common Data Service | No | Yok |
 | **Tüzel kişilikler (cdm\_companies)** | No | Evet | Finance and Operations uygulamaları | No | Yok |
+| **Kayıt Defteri (msdyn_ledgers)** | No | Evet | Finance and Operations uygulamaları | Evet | Evet, Finance and Operations uygulamaları |
 | **Project Operations tümleştirme gerçek değerleri (msdyn\_actuals)** | No | No | Yok | Evet | No |
 | **Proje sözleşme satırları (salesorderdetails)** | No | No | Yok | No | No |
 | **Proje işlem ilişkilerine ait tümleştirme varlığı (msdyn\_transactionconnections)** | No | No | Yok | No | Yok |

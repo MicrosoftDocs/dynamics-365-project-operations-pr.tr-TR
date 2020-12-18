@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: aa6771ba5346fd4133b82c3e670badfa7655299f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131907"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642387"
 ---
 # <a name="financial-dimension-defaults"></a>Mali boyut varsayılanları
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Dynamics 365 Project Operations, proje alt raporu ve genel muhasebe hareketleri hakkında ek öngörüler sunmak için Dynamics 365 Finance uygulamasındaki [mali boyutlar](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) çerçevesini kullanır.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations, proje alt defteri ve genel muhasebe işlemleri hakkında ek içgörüler sunmak için Dynamics 365 Finance uygulamasındaki [Mali boyutlar](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) çerçevesini kullanır.
 
 Varsayılan mali boyutlar bir müşteri üzerinde kaynak, aşama, proje sözleşme satırı veya proje gibi davranan bir proje için ayarlanabilir.
 
@@ -48,7 +50,7 @@ Proje sözleşmeleri Common Data Service (CDS) uygulamasında oluşturulur ve s�
 3. **İlgili bilgileri** genişletin ve **Sözleşme satırları** sekmesini seçin.
 4. Mali boyut varsayılanlarını ayarlayın. Mali boyut Varsayılanları geçerlidir ve yalnızca sabit fiyatlı (kilometre taşı) sözleşme satırlarıyla kullanılabilir.
 
-Bu varsayılanlar ilgili proje mahsup hareketlerinde ve fatura satırlarında kullanılır.
+Bu varsayılanlar ilgili proje mahsup işlemlerinde ve fatura satırlarında kullanılır.
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>Projeler için varsayılan mali boyutlar tanımlama
 
@@ -59,4 +61,4 @@ Projeler, CDS uygulamasında oluşturulur ve sürdürülür. Projelerin muhasebe
 3. **İlgili bilgileri** genişletin ve **Kurulum** sekmesini seçin.
 4. Mali boyut varsayılanlarını ayarlayın. Mali boyutların müşteri hesabından varsayılan olarak değiştiğine dikkat edin. Proje birden çok proje sözleşmesi müşterisi bulunan bir sözleşme satırıyla ilişkilendirilmişse, birincil müşteri varsayılan mali boyutlara göre kullanılır.
 
-Proje varsayılan mali boyutları **Project Operations tümleştirme günlüğündeki** ve ilgili proje fatura satırlarındaki zaman, masraf ve masraf hareketlerine yönelik günlük satırı varsayılanlarını ayarlamak için kullanılır.
+Proje varsayılan mali boyutları **Project Operations tümleştirme günlüğündeki** ve ilgili proje fatura satırlarındaki zaman, masraf ve masraf işlemlerine yönelik günlük satırı varsayılanlarını ayarlamak için kullanılır.

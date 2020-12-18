@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086458"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642657"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Proje sözleşmelerini ve projeleri Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitleme
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, proje sözleşmelerini ve projeleri Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
 
@@ -46,7 +48,7 @@ Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleş
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
-Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler** 'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje** 'yi seçin.
+Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler**'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje**'yi seçin.
 
 Project Service Automation uygulamasından Finance uygulamasına proje sözleşmelerini ve projeleri eşitlemek için şu şablonlar ve temel görevler kullanılır:
 
@@ -95,11 +97,11 @@ Proje sözleşmesi satırı kilometre taşları Project Service Automation uygul
 
 **Proje sözleşmesi kodu** alanı **Proje sözleşmeleri** sayfasında bulunur. Bu alan, tümleştirmeyi desteklemek için doğal ve benzersiz bir anahtar sağlar.
 
-Yeni bir proje sözleşmesi oluşturulduğunda, **Proje sözleşmesi kodu** değeri henüz yoksa, bir sayı serisi kullanılarak otomatik olarak üretilir. Bu değer, **ORD** , arkasından bir artan sayı serisinden ve ardından altı karakterli bir sonekten oluşur. Örnek: **ORD-01022-Z4M9Q0**.
+Yeni bir proje sözleşmesi oluşturulduğunda, **Proje sözleşmesi kodu** değeri henüz yoksa, bir sayı serisi kullanılarak otomatik olarak üretilir. Bu değer, **ORD**, arkasından bir artan sayı serisinden ve ardından altı karakterli bir sonekten oluşur. Örnek: **ORD-01022-Z4M9Q0**.
 
 **Proje Numarası** alanı **Projeler** sayfasında bulunur. Bu alan, tümleştirmeyi desteklemek için doğal ve benzersiz bir anahtar sağlar.
 
-Yeni bir proje oluşturulduğunda, **Proje Numarası** değeri henüz yoksa, bir sayı serisi kullanılarak otomatik olarak üretilir. Bu değer, **PRJ** , arkasından bir artan sayı serisinden ve ardından altı karakterli bir sonekten oluşur. Örnek: **PRJ-01049-CCNID0**.
+Yeni bir proje oluşturulduğunda, **Proje Numarası** değeri henüz yoksa, bir sayı serisi kullanılarak otomatik olarak üretilir. Bu değer, **PRJ**, arkasından bir artan sayı serisinden ve ardından altı karakterli bir sonekten oluşur. Örnek: **PRJ-01049-CCNID0**.
 
 Proje Service Automation ile Finance tümleştirme çözümü uygulandığında, bir yükseltme komut dosyası var olan proje sözleşmeleri için **Proje sözleşmesi kimliği** alanını ve Project Service Automation'da var olan projelere ait **Proje Numarası** alanını ayarlar.
 
@@ -108,7 +110,7 @@ Proje Service Automation ile Finance tümleştirme çözümü uygulandığında,
 - Proje sözleşmelerinin ve projelerin eşitlenmesi gerçekleştirilmeden önce hesapları eşitlemeniz gerekir.
 - Bağlantı kümenize **msdyn\_organizationalunits** için **msdyn\_name \[Name\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Bağlantı kümenize **msdyn\_projects** için **msdyn\_projectnumber \[Poject Number\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Proje sözleşmeleri ve projelere ait **SourceDataID** , farklı bir değere güncelleştirilebilir veya eşleştirmeden kaldırılabilir. Varsayılan şablon değeri şudur: **Project Service Automation**.
+- Proje sözleşmeleri ve projelere ait **SourceDataID**, farklı bir değere güncelleştirilebilir veya eşleştirmeden kaldırılabilir. Varsayılan şablon değeri şudur: **Project Service Automation**.
 - **PaymentTerms** eşlemesinin, Finance içindeki geçerli ödeme koşullarını yansıtması için güncelleştirilmesi gerekir. Ayrıca, proje görevinden eşleşmeyi kaldırabilirsiniz. Varsayılan değer eşleşmesi, demo verileri için varsayılan değerlere sahiptir. Aşağıdaki tabloda Project Service Automation'daki değerler gösterilmektedir.
 
     | Value | Açıklama   |
@@ -133,9 +135,9 @@ Power Query kullanmanız gerekiyorsa şu yönergeleri izleyin:
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
 
 > [!NOTE] 
-> **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** ve **AddressZipCode** alanları proje sözleşmelerine ait varsayılan eşlemede bulunmaz. Bu verilerin proje sözleşmeleri için eşitlenmesi gerekirse eşlemeleri ekleyebilirsiniz.
+> **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** ve **AddressZipCode** alanları proje sözleşmelerine ait varsayılan eşlemede bulunmaz. Bu verilerin proje sözleşmeleri için eşitlenmesi gerekirse eşlemeleri ekleyebilirsiniz.
 >
-> **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** ve **ProjectType** alanları projeler için varsayılan eşlemeye dahil edilmez. Bu verilerin projeler için eşitlenmesi gerekirse eşlemeleri ekleyebilirsiniz.
+> **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** ve **ProjectType** alanları projeler için varsayılan eşlemeye dahil edilmez. Bu verilerin projeler için eşitlenmesi gerekirse eşlemeleri ekleyebilirsiniz.
 
 Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örnekleri gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 

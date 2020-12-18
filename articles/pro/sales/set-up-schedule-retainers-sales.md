@@ -1,5 +1,5 @@
 ---
-title: Elde tutulan tutar zamanlaması ayarlama - lite
+title: Elde tutulan tutar zamanlaması ayarlama
 description: Bu konu, Project Operations'ta elde tutulan tutar zamanlaması ayarlama hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181296"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596396"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Elde tutulan tutar zamanlaması ayarlama - lite
+# <a name="set-up-a-retainer-schedule"></a>Elde tutulan tutar zamanlaması ayarlama
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Elde tutulan tutar zamanlamaları, Dynamics 365 Project Operations'ta **Proje sözleşmesi** sayfasında ayarlanır.
+Elde tutulan tutar zamanlamaları, Dynamics 365 Project Operations'ta **Proje Sözleşmesi** sayfasında ayarlanır.
 
 1. **Proje sözleşmesi** sayfasında, **avanslar ve Elde tutulan tutar** sekmesinde **Elde tutulan tutar zamanlaması ayarla** belirleyin.
 2. Açılan iletişim sayfasında, aşağıdaki tabloda listelenen alanlar gösterilir. Tablo, girilen değerlerin nasıl etki verileceğiyle ilgili bir fikir verir veya oluşturulacak Elde tutulan tutar zamanlamasını etkiler.

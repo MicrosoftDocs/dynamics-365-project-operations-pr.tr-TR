@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131637"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642432"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Proje Kopyalama ile proje şablonları geliştirme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations bir projeyi kopyalamanın ve tüm atamaları rolü temsil eden genel kaynaklara geri döndürbilme yeteneğini destekler. Müşteriler bu işlevi temel proje şablonları oluşturmak için kullanabilir.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations, proje kopyalama ve atamaları rolü temsil eden genel kaynaklara döndürme yeteneğini destekler. Müşteriler bu işlevi temel proje şablonları oluşturmak için kullanabilir.
 
 **Projeyi Kopyala** seçeneğini belirlediğinizde , hedef projenin durumu güncelleştirilir. kopyalama eyleminin ne zaman tamamlandığını belirlemek için **durum açıklaması** kullanın. **Kopyalama projesi**'ni seçmek, hedef proje varlığında bir hedef tarih algılanmazsa projenin başlangıç tarihini geçerli başlangıç tarihine güncelleştirir.
 

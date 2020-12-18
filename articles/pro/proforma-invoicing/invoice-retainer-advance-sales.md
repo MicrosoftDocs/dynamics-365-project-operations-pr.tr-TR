@@ -1,5 +1,5 @@
 ---
-title: Elde tutulan tutar veya avans faturalama - lite
+title: Elde tutulan tutar veya avans faturalama
 description: Bu konu, Project Operations'da elde kalanı veya avansı faturalama hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180576"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596216"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Elde tutulan tutar veya avans faturalama - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, elde kalan tabanlı sözleşmeleri ve bir kerelik avanslar destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
+Dynamics 365 Project Operations, elde tutulan tutar tabanlı sözleşmeleri ve bir defalık avansları destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
 
 Elde tutulan veya avans faturaamak için bu adımları tamamlayın.
 

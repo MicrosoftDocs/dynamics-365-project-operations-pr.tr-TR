@@ -1,0 +1,74 @@
+---
+title: Project Service Automation Güncelleştirme Sürümü 26, V3'teki yenilikler veya değişiklikler
+ms.openlocfilehash: 849e7288ee91d3e9360c0b03f6b8b37ff29338e7
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643287"
+---
+<a name="project-service-automation-update-release-26-v3"></a>Project Service Automation, Güncelleştirme Sürümü 26, V3
+================================================
+
+Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online çözümler sayfası için Yönetim Merkezi'ni ziyaret edin ve güncelleştirmeyi yükleyin. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
+
+Bu konuda, Project Service Automation Güncelleştirme Sürümü 26 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürümün derleme numarası V3.10.44.59'dur ve genellikle Aralık 2020'de kendi kendini güncelleştirme aracılığıyla kullanılabilir.
+
+<a name="update-release-26"></a>Güncelleştirme Sürümü 26
+-----------------
+
+### <a name="bug-fixes"></a>Hata düzeltmeleri
+
+**Zaman ve Gider**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+-   Kullanıcıların, onaylanan/gönderilen bir zaman girişinde görevi değiştirebilmesi.
+
+-   Zaman girişini kaydederken karşılaşılan "Nesne Başvurusu Ayarlanmadı" hatası.
+
+-   Kaynak atamalarından zaman girişi içeri aktarmasının yanlış DateTime değerlerine sahip zaman girişleri oluşturması.
+
+-   Project Service Automation ve Field Service uygulamalarının her ikisi de yüklüyken Field Service uygulamasındaki zaman girişleri için komut çubuğunda **Yeni** düğmesinin iki kez görüntülenmesi.
+
+-   **Birime İzin Ver** ve **Birim grubu** hücre güncelleştirmelerinin artık **Gider Tahminleri** ızgarasında çalışması.
+
+-   **Zaman Girişi Düzenlemesi Güncelleştirmesi** formunun **Zaman Çizelgesi** içermesi.
+
+-   Proje dışı zaman girişleri için zaman onayının, bir proje onaylayıcı rolü araması sırasında sistemi engellemesi.
+
+**Kaynak Yönetimi**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+-   Birincil gereksinim oluşturmadan önce başka bir birincil gereksinim olup olmadığını kontrol etmek için **PostProjectCreate** eklentisine doğrulama eklendi.
+
+-   **Proje Takımı Üyesi** hızlı oluşturma formunun, alanlar formdan kaldırıldığında null başvuru özel durumu oluşturması.
+
+-   1 yıldan uzun bir süre için 12 saatlik gereksinimler oluşturma işleminin başarısız olması.
+
+-   Kaynak gereksinimi oluşturma sırasında görüntülenen hata iletisi null başvuru özel durumu iyileştirildi.
+
+**Proje Yönetimi**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+-   **PreProjectUpdate** eklentisinde oluşturulan null başvuru özel durumunu gidermek için doğrulama iyileştirildi.
+
+-   Microsoft Project masaüstü eklentisi tarafından yayımlanan projelerin atanmamış atamaları silmesi.
+
+-   **PreValidateProjectTaskUpdate** eklentisindeki null başvuru özel durumu nedeniyle bir görevin proje başvurusunun geçersiz olduğu durum için yeni doğrulama eklendi.
+
+-   Takım Üyesi kılavuzunun takım üyesi kaydında farklı atamalar göstermemesi.
+
+-   **PreProjectTaskDelete** eklentisindeki null başvuru özel durumu için yeni doğrulama ve hata iletileri eklendi.
+
+**Sales**
+
+Aşağıdaki sorunlar giderilmiştir:
+
+-   Teklif veya sözleşmede proje tabanlı bir satır seçerken **Öneri** düğmesinin yalnızca var olan bir ürünle ilişkili ürün tabanlı bir satır seçildiğinde görünür olması.
+
+-   **Create_Product** ayrıcalığının **Create_ProjectContract** ayrıcalığından ayrılması.
+
+-   Fatura satırının silinmesinin **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** üzerinde null başvuru hatasına neden olması.

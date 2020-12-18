@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121242"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642297"
 ---
 # <a name="currency"></a>Para birimi
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Para birimleri, ürün kataloğundaki ürünlerin fiyatlarını ve satış siparişleri gibi işlemlerin maliyetini belirler. Müşterileriniz çeşitli coğrafyalara yayılmışsa işlemlerinizi yönetmek için onların para birimlerini ekleyin. Bugünkü ve gelecekteki iş gereksinimlerinize en uygun olan para birimlerini ekleyin.  
 

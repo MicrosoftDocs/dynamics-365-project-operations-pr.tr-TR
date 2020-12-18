@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174289"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642072"
 ---
 # <a name="navigate-project-operations"></a>Project Operations'ta gezinme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Dynamics 365 Project Operations, kaynak/Stoklanmayan senaryolar için iki bileşenden oluşur: 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Kaynağı/stoğu tutulmayan senaryolar için Dynamics 365 Project Operations, iki bileşenden oluşur: 
 
  - **Common Data Service (CDS) ortamında Project Operations**: Bu bileşen, proforma faturalama fırsatına yönelik yetenekleri ve süreçleri kapsar. 
  - **Dynamics 365 Finance ortamdaki proje yönetimi ve hesaplaması**: Bu bileşen gider yönetim yeteneklerini, proje hesaplarını ve gelir kabulünü kapsar. 

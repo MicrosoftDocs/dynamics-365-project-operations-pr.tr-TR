@@ -3,17 +3,17 @@ title: Gider girişi (Lite)
 description: Bu konuda, bir Lite dağıtımında gider girişiyle nasıl çalışılacağı hakkında bilgiler sağlanmaktadır.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121107"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590970"
 ---
 # <a name="expense-entry-lite"></a>Gider girişi (Lite)
 
@@ -21,7 +21,7 @@ _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya
 
 Temel veya Lite, gider yönetimi basit giderleri kaydetme özelliğidir. Bir projenin giderlerini kaydettiğinizde, proje onaylayanı bu giderleri inceleyip onaylar.
 
-Dynamics 365 Project Operations uygulamasında gider özellikleri hakkında daha fazla bilgi için bkz. [Gidere genel bakış](expense-overview.md).
+Dynamics 365 Project Operations'ta gider özellikleri hakkında daha fazla bilgi için bkz. [Gidere genel bakış](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Temel gider yakalama
 
@@ -36,6 +36,10 @@ Tüm giderlerinizi yakalamayı tamamladıktan ve onaylanmak üzere hazırladıkt
 
 1. **Giderler**'e gidin ve bir gider seçin. Alternatif olarak, başlıktaki onay kutusunu kullanarak tüm giderleri seçin.
 2. **Gönder**'i seçin. Sistem, seçili girişleri işler ve gider onay istekleri oluşturur.
+
+## <a name="add-an-attachment"></a>Bir ek ekle
+
+Onaylayana, gideriniz hakkında ek belgeler sağlamanız gerekebilir. Gider girişinin zaman çizelgesinde bir makbuz ekleyebilirsiniz. **Zaman Çizelgesi** bölümünde **Düzenle** seçeneğini belirleyin ve makbuzunuzu eklemek için ataş simgesini seçin.
 
 ## <a name="recall-a-basic-expense"></a>Temel gideri geri çekme
 

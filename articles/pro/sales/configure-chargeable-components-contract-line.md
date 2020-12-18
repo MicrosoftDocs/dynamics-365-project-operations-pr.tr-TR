@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177175"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513903"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma -lite
 
@@ -34,7 +34,7 @@ Dahil edilen bileşenlerin bir alt kümesi, **Fatura Türü** alanı kullanılar
 
 Ücretlendirilebilir bileşenler görevlerde, rollerde ve işlem kategorilerinde tanımlanabilir.
 
-Borçlandırılabilirlik, bir proje sözleşme satırı için görevlerde tanımlanır ve o satıra dahil edilen tüm hareket sınıflarına uygulanır. Proje satırındaki **Görevleri dahil et** alanı **tüm proje** olarak ayarlandıysa veya boş bırakılırsa, **ücrete tabi görevler** sekmesi kullanılamaz.
+Borçlandırılabilirlik, bir proje sözleşme satırı için görevlerde tanımlanır ve o satıra dahil edilen tüm işlem sınıflarına uygulanır. Sözleşme satırındaki **Görevleri Dahil Et** alanı boşsa veya **Tüm proje** olarak ayarlanmışsa **Borçlandırılabilir görevler** sekmesi kullanılamaz.
 
 Borçlandırılabilirlik, bir teklif satırı için rollerde tanımlanır ve yalnızca **Zaman** işlem sınıfına uygulanır. Sözleşme satırına **Zamanı dahil et** alanı proje teklif satırında **Hayır** olarak ayarlanırsa **ücrete tabi roller** sekmesi kullanılamaz.
 
@@ -56,7 +56,7 @@ Bir rolün fatura türü, sözleşme satırının **Ücretlendirilebilir Roller*
 
 ### <a name="update-a-transaction-category-as-chargeable-or-non-chargeable"></a>Bir işlem kategorinin ücretlendirilebilir veya ücretlendirilemez olarak güncelleştirin
 
-Bir hareket kategorisi, belirli bir sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
+Bir işlem kategorisi, belirli bir sözleşme satırındaki Borçlandırılabilir veya borçlandırılamayan olabilir.
 
 Bir işlemin fatura türü, proje tabanlı sözleşme satırının **Ücretlendirilebilir Kategoriler** sekmesinde yapılandırılabilir. Bunu yapmak için, **Borçlandırılabilir Kategoriler** alt kılavuzundaki **faturalama türü** alanını güncelleştirin.
 

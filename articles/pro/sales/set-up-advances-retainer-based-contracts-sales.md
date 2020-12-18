@@ -1,5 +1,5 @@
 ---
-title: Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
+title: Avanslar ve elde tutulan tutar tabanlı sözleşmeler
 description: Bu konu, Project Operations'da elde kalana dayalı sözleşme modelleri veya avanslar hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180891"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596126"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
+# <a name="advances-and-retainer-based-contracts"></a>Avanslar ve elde tutulan tutar tabanlı sözleşmeler
 
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, elde kalan tabanlı sözleşmeleri destekler. Elde kalan tabanlı bir sözleşme, müşterinin bir proje süresi boyunca faturalandığı, anlaştığınız eşit dağıtılmış ödemeler kümesidir. Bu sözleşme türü genellikle müşteriye tahmin edilebilir bir fatura ve ödeme zamanlaması vermek için gereksinim duyan zaman ve malzeme veya tüketim tabanlı faturalama modelleri için kullanılır. Her döneme tahakkuk edilen gelir geliri, dönemin başlangıcındaki müşteriden alınan ödemeye göre mutabakat yapılır. Saat ve malzeme faturalama modelinin kavramıyla uyumlu olarak, her dönemde tahakkuk edilen gelir değerleri, tahakkuk eden maliyetlere göre farklılık gösterebilir. Tahakkuk eden gelir dönemin başlangıcında alınan tutardan daha fazla ise, proje teslim şirketi aşağıdakileri sağlayabilir:
+Dynamics 365 Project Operations, elde tutulan tutar tabanlı sözleşmeleri destekler. Elde kalan tabanlı bir sözleşme, müşterinin bir proje süresi boyunca faturalandığı, anlaştığınız eşit dağıtılmış ödemeler kümesidir. Bu sözleşme türü genellikle müşteriye tahmin edilebilir bir fatura ve ödeme zamanlaması vermek için gereksinim duyan zaman ve malzeme veya tüketim tabanlı faturalama modelleri için kullanılır. Her döneme tahakkuk edilen gelir geliri, dönemin başlangıcındaki müşteriden alınan ödemeye göre mutabakat yapılır. Saat ve malzeme faturalama modelinin kavramıyla uyumlu olarak, her dönemde tahakkuk edilen gelir değerleri, tahakkuk eden maliyetlere göre farklılık gösterebilir. Tahakkuk eden gelir dönemin başlangıcında alınan tutardan daha fazla ise, proje teslim şirketi aşağıdakileri sağlayabilir:
 
 - Yalnızca fazlası için müşteriyi faturalayın. 
 - Gelirin mutabakatını bir sonraki faturalama dönemine erteleyin ve kalan mutabakata getirilmemiş gelir için projenin sonundaki bir son fatura yapın.

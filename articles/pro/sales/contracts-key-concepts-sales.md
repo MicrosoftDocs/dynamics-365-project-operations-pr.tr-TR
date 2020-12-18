@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177085"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643062"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>Proje sözleşmeleri - Temel kavramlar - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'ta proje sözleşmelerini kullanmaya başlamadan önce dikkat edilecek temel kavramlar aşağıda verilmiştir:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Bu konu, Dynamics 365 Project Operations'ta Proje sözleşmelerini kullanmaya başlamadan önce bilmeniz gereken temel kavramları sağlar:
 
 ## <a name="contracting-unit"></a>Sözleşme Birimi
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180531"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513813"
 ---
 # <a name="manage-leads---lite"></a>Müşteri adaylarını yönetme - lite
 
@@ -23,7 +23,7 @@ Proje tabanlı müşteri adayları, Project Operations'ta yönetilebilir ve uygu
 
 ## <a name="list-of-project-sales-leads"></a>Proje satış müşteri adayları listesi
 
-**Satış** bölümündeki sol gezinti bölmesinde, sistemdeki tüm müşteri adayı kayıtlarının listesini görüntülemek için **Müşteri Adayları** listesi sayfasını açın. Gösterilen müşteri adayı listesi, iş tabanlı müşteri adayları ile Dynamics 365 Sales veya Dynamics 365 Field Service uygulamasına da sahipseniz oluşturulabilecek diğer müşteri adayı türlerinden oluşur.
+**Satış** bölümündeki sol gezinti bölmesinde, sistemdeki tüm müşteri adayı kayıtlarının listesini görüntülemek için **Müşteri Adayları** listesi sayfasını açın. Listedeki müşteri adayları, Dynamics 365 Sales veya Dynamics 365 Field Service uygulamalarına da sahipseniz oluşturulabilecek iş tabanlı ya da diğer türde müşteri adaylarıdır.
 
 Yalnızca proje tabanlı müşteri adaylarını görmek için **Tür** değerinde bir filtre oluşturarak filtrelenmiş görünüm elde edebilirsiniz. Örneğin, yalnızca iş tabanlı müşteri adaylarını göstermeyi seçebilirsiniz.
 

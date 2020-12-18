@@ -5,19 +5,20 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130872"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672255"
 ---
 # <a name="override-project-sales-price-lists"></a>Satış fiyat listelerinin projesini geçersiz kılma
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 ## <a name="customer-specific-project-price-lists"></a>Müşteriye özel proje fiyat listeleri
 
@@ -27,7 +28,7 @@ Müşteriye özel proje fiyat listesi ayarlamak için, **Satış** alanında fir
 
 1. **Firmalar** listesi sayfasını açın.
 2. **Firma** ayrıntıları sayfasını açmak için müşteri kaydını bulun ve çift tıklatın.
-3. **Proje fiyat listeleri** sekmesinde **+Yeni Proje fiyat listesi^^ öğesini seçin.
+3. **Proje Fiyat listeleri** sekmesinde, **+ Yeni Proje Fiyat Listesi**'ni seçin.
 4. **Yeni proje fiyat listesi** sayfasında, açılır listeden bir fiyat listesi seçin. Yalnızca içeriği **satış** olarak ayarlanmış ve para birimleri hesap para birimiyle eşleşen fiyat listeleri dahil edilir.
 5. İlişkilendirmeye adını girip **Kaydet**'i seçin. Müşteriye özel proje fiyat listesi oluşturulur. Bu fiyat listesi, teklif veya proje sözleşmesinin oluşturulma tarihinin fiyat listesinin Tarih efektindeki parçası olduğu bu müşteri için oluşturulan proje tekliflerindeki veya sözleşmelerdeki varsayılan proje fiyatlarında kullanılacak.
 
