@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086393"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144887"
 ---
 # <a name="create-custom-fields-and-entities"></a>Özel alanlar ve varlıklar oluşturma 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Power Apps platformunda özel bir seçenek kümesi veya varlık oluşturmak istediğinizde aşağıdaki adımları izleyin.  
 Bu konudaki yordamlar Project Service Automation'ın (PSA) web arabirimi kullanılarak tamamlanmalıdır.
@@ -39,20 +41,20 @@ Bir fiyatlandırma boyutu bir seçenek kümesi veya varlık olabilir. Her ikisin
 
 ### <a name="entity-based-dimensions"></a>Varlık tabanlı boyutlar
 
-1. PSA'da **Ayarlar** > **Çözümler** 'e tıklayın ve ardından **\<your organization name> fiyatlandırma boyutlarına** çift tıklayın.
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıkları** 'ı seçin.
-3. **Standart Başlık** adlı yeni bir varlık oluşturmak için **Yeni** 'ye tıklayın. Kalan gerekli bilgileri girin ve ardından **Kaydet** 'e tıklayın.
+1. PSA'da **Ayarlar** > **Çözümler**'e tıklayın ve ardından **\<your organization name> fiyatlandırma boyutlarına** çift tıklayın.
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıkları**'ı seçin.
+3. **Standart Başlık** adlı yeni bir varlık oluşturmak için **Yeni**'ye tıklayın. Kalan gerekli bilgileri girin ve ardından **Kaydet**'e tıklayın.
 
 > ![Standart başlık varlığı tanımı](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Seçenek kümesi tabanlı boyutlar 
-İki seçenek kümesi tabanlı boyut oluşturabilirsiniz. **Ana** konum çalışması ve **Yerinde** çalışma fiyatını izlemek için **Kaynak Çalışma Konumu** 'nu ve iş tamamlandığında kar payı uygulamak için **Normal** ve **Fazla Mesai** değerleriyle **Kaynak Çalışma saatleri** 'ni kullanın.
+İki seçenek kümesi tabanlı boyut oluşturabilirsiniz. **Ana** konum çalışması ve **Yerinde** çalışma fiyatını izlemek için **Kaynak Çalışma Konumu**'nu ve iş tamamlandığında kar payı uygulamak için **Normal** ve **Fazla Mesai** değerleriyle **Kaynak Çalışma saatleri**'ni kullanın.
 
 
-1. PSA'da **Ayarlar** > **Çözümler** 'e tıklayın ve ardından **\<your organization name> fiyatlandırma boyutlarına** çift tıklayın. 
-2. Çözüm Gezgininde, sol gezinti bölmesinde **Seçenek Kümeleri** 'ni seçin. 
-3. Yeni seçenek kümesi oluşturmak için **Yeni** 'ye tıklatın, kalan gerekli bilgileri girin ve ardından **Kaydet** 'e tıklatın.
+1. PSA'da **Ayarlar** > **Çözümler**'e tıklayın ve ardından **\<your organization name> fiyatlandırma boyutlarına** çift tıklayın. 
+2. Çözüm Gezgininde, sol gezinti bölmesinde **Seçenek Kümeleri**'ni seçin. 
+3. Yeni seçenek kümesi oluşturmak için **Yeni**'ye tıklatın, kalan gerekli bilgileri girin ve ardından **Kaydet**'e tıklatın.
 
 > ![Kaynak Çalışma Konumu olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu ](media/Option-set-PD-called-Resource-Work-Location.png)
 
@@ -63,8 +65,8 @@ Bir fiyatlandırma boyutu bir seçenek kümesi veya varlık olabilir. Her ikisin
 
 Varlık tabanlı boyutlarla ilgili verileri el ile veya Microsoft Excel içeri aktarma veya servis çağrılarını kullanarak oluşturabilirsiniz. Bu yordamdaki adımları, varlık tabanlı **Standart Başlık** boyutundan **Sistem Mühendisi** ve **Kıdemli Sistem Mühendisi** adında iki standart başlık oluşturmak için kullanın. Oluşturmak istediğiniz veriler küçük ise, aşağıdaki örnekte olduğu gibi standart bir form kullanabilirsiniz.
 
-1. PSA'da, **Gelişmiş Bul** 'a tıklayın. **Standart Başlık** varlığını seçin ve **Sonuçlar** öğesine tıklayın. **Standart Başlık** varlığındaki tüm satırlar gösterilir.
-2. **Yeni** düğmesine tıklayın. **Ad** alanına "Sistem Mühendisi" yazın ve **Kaydet** 'e tıklayın.
+1. PSA'da, **Gelişmiş Bul**'a tıklayın. **Standart Başlık** varlığını seçin ve **Sonuçlar** öğesine tıklayın. **Standart Başlık** varlığındaki tüm satırlar gösterilir.
+2. **Yeni** düğmesine tıklayın. **Ad** alanına "Sistem Mühendisi" yazın ve **Kaydet**'e tıklayın.
 3. Formu kapatın. 
 4. "Kıdemli Sistem Mühendisi" için başka standart başlık oluşturmak üzere 1-3 arasındaki adımları tekrarlayın.
 

@@ -17,18 +17,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5a81893c4a804deb09cf33e0ac3f1a25b8bca36
-ms.sourcegitcommit: a2b810219d381716d3eedb14c4eb6cdefb5b5845
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4183567"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143805"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Project Service Automation Güncelleştirme Sürümü 25, V3'teki yenilikler veya değişiklikler
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online çözümler sayfası için Yönetim Merkezi'ni ziyaret edin ve güncelleştirmeyi yükleyin. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
 
-Bu konu, yeni olan veya Project Service Automation V3 için değiştirilen özellikleri ve onarımları, güncelleştirme sürüm 25'i listelemektedir. Bu sürümde sürüm numarası V 3.10.43.76 şeklindedir ve genellikle 2020 ekim'de kendi kendini güncelleştirme aracılığıyla kullanılabilir.
+Bu konuda, Project Service Automation Güncelleştirme Sürümü 25 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürümde sürüm numarası V 3.10.43.76 şeklindedir ve genellikle Ekim 2020'de kendi kendini güncelleştirme aracılığıyla kullanılabilir.
 
 ## <a name="update-release-25"></a>Güncelleştirme Sürümü 25
 

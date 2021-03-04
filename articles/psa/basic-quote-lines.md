@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129477"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145157"
 ---
 # <a name="quotes-and-quote-lines"></a>Teklifler ve teklif satırları
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -59,7 +61,7 @@ PSA'daki proje tabanlı bir teklif satırı aşağıdaki faturalama yöntemlerin
 
 ### <a name="time-and-material"></a>Zaman ve malzeme
 
-Zaman ve malzeme faturalama yöntemi tüketime dayanır. Bu faturalandırma yöntemini seçtiğinizde, müşteri projede maliyet gerçekleştiğinde faturalandırılır. Faturalar tarih tabanlı dönemsel sıklık üzerinde oluşturulur. Satış işlemi sırasında, zaman ve malzeme bileşeninin teklif edilen değeri, müşteriye yalnızca son maliyetin tahminini sağlar. Satıcı, projeyi tam olarak teklif değerinde tamamlamakla yükümlü değildir. Zaman ve malzeme bileşenleri müşterinin riskini artırır. Müşteriler, risklerini en aza indirmek için, ek aşmama koşulları anlaşması isteyebilir. PSA, aşmama koşulları ayarlamayı desteklemez.
+Zaman ve malzeme faturalama yöntemi tüketime dayanır. Bu faturalandırma yöntemini seçtiğinizde, müşteri projede maliyet gerçekleştiğinde faturalanır. Faturalar tarih tabanlı dönemsel sıklık üzerinde oluşturulur. Satış işlemi sırasında, zaman ve malzeme bileşeninin teklif edilen değeri, müşteriye yalnızca son maliyetin tahminini sağlar. Satıcı, projeyi tam olarak teklif değerinde tamamlamakla yükümlü değildir. Zaman ve malzeme bileşenleri müşterinin riskini artırır. Müşteriler, risklerini en aza indirmek için, ek aşmama koşulları anlaşması isteyebilir. PSA, aşmama koşulları ayarlamayı desteklemez.
 
 ### <a name="fixed-price"></a>Sabit fiyat
 
@@ -88,7 +90,7 @@ Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla 
   
 Örneğin, bir teklif aşağıdaki iki teklif satırını içerebilir: 
 - Zaman ve ücret işlemi sınıflandırmalarının geçerli olduğu Zaman ve malzeme faturalama yöntemini kullanan danışmanlık işi. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm zaman ve ücret işlemleri, müşteriye kullanılan zaman ve malzemeye göre faturalanır. 
-- Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalandırılır.
+- Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalanır.
 
 > [!NOTE]
 > Proje ve bir teklif satırı veya sözleşme satırıyla ilişkili olan **Zaman**, **Gider** ve **Ücret** proje işlem sınıflandırmaları birleşimi benzersiz olmalıdır. Aynı proje ve işlem sınıfı birleşimi birden çok sözleşme satırı veya teklif satırıyla ilişkilendirilmişse, PSA düzgün çalışmaz.
@@ -126,6 +128,6 @@ Fatura sıklığı, fatura oluşturma sıklığını ifade eden öznitelik değe
 
 Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan faturalama kilometre taşları oluşturmak üzere **Fatura Zamanlaması** kılavuzunu kullanabilirsiniz.
 
-- Eşit olarak bölünmüş fatura kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
+- Eşit olarak bölünmüş faturalama kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
 - Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
 - Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.

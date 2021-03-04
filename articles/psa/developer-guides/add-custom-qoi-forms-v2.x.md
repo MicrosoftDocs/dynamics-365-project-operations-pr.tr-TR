@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086518"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144617"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Yeni özel varlık formları ekleme (Project Service Automation 2. x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Tür alanı 
 
-Dynamics 365 Project Service Automation, bu varlıkların **iş-tabanlı** sürümlerini **öğe-tabanlı** ve **servis-tabanlı** sürümlerden ayırmak için Fırsat, Teklif, Sipariş ve Fatura varlıklarının **Tür** ( **msdyn\_ordertype** ) alanını temel alır. Bu varlıkların iş tabanlı sürümleri PSA tarafından yönetilir. Çözümün istemci tarafı ve sunucu tarafındaki bir çok iş mantığı **Tür** alanına bağlıdır. Bu nedenle, varlıklar oluşturulduğunda alanın doğru bir değerle başlatılması önemlidir. Yanlış bir değer yanlış davranışlara neden olabilir ve bazı iş mantığı düzgün çalışmayabilir.
+Dynamics 365 Project Service Automation, bu varlıkların **iş-tabanlı** sürümlerini **öğe-tabanlı** ve **servis-tabanlı** sürümlerden ayırmak için Fırsat, Teklif, Sipariş ve Fatura varlıklarının **Tür** (**msdyn\_ordertype**) alanını temel alır. Bu varlıkların iş tabanlı sürümleri PSA tarafından yönetilir. Çözümün istemci tarafı ve sunucu tarafındaki bir çok iş mantığı **Tür** alanına bağlıdır. Bu nedenle, varlıklar oluşturulduğunda alanın doğru bir değerle başlatılması önemlidir. Yanlış bir değer yanlış davranışlara neden olabilir ve bazı iş mantığı düzgün çalışmayabilir.
 
 ## <a name="automatic-form-switching"></a>Otomatik form geçişi
 
@@ -37,7 +39,7 @@ Otomatik form geçişi mantığı **formId** değeri ile **msdyn\_ordertype** al
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Özel formlar ekleme ve form geçişi mantığını açma
 
-Aşağıdaki örnek, nasıl özel bir formun ( **Proje Bilgilerim** ) iş tabanlı fırsatlarla çalışacak şekilde nasıl ekleneceğini gösterir. Aynı süreç teklifler, siparişler ve faturalarla çalışacak şekilde özel formlar eklemek için de kullanılır.
+Aşağıdaki örnek, nasıl özel bir formun (**Proje Bilgilerim**) iş tabanlı fırsatlarla çalışacak şekilde nasıl ekleneceğini gösterir. Aynı süreç teklifler, siparişler ve faturalarla çalışacak şekilde özel formlar eklemek için de kullanılır.
 
 **Proje Bilgileri** formunun özel sürümünü oluşturmak için bu adımları izleyin.
 
@@ -47,7 +49,7 @@ Aşağıdaki örnek, nasıl özel bir formun ( **Proje Bilgilerim** ) iş tabanl
     > [!IMPORTANT]
     > Komut dosyalarını kaldırmayın. Aksi takdirde, bazı veriler yanlış başlatılabilir.
 
-3. Formda **Tür** **(msdyn\_ordertype** ) alanının bulunduğunu doğrulayın. 
+3. Formda **Tür** **(msdyn\_ordertype**) alanının bulunduğunu doğrulayın. 
 
     > [!IMPORTANT]
     > Bu alanı kaldırmayın. Aksi takdirde, başlatma komut dosyaları başarısız olur.

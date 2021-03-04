@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689434"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141231"
 ---
 # <a name="project-operations-updates"></a>Project Operations güncelleştirmeleri
 
@@ -26,36 +26,40 @@ _**Aşağıdakilere uygulanır:** Kaynağı/stoğu tutulmayanları temel alan se
 
 Dynamics 365 Project Operations, iki bileşenden oluşur:
 
-- Common Data Service (CDS) ortamında Project Operations: Proforma faturalama fırsatına yönelik yetenekleri kapsar. CDS, Lite dağıtımında ve Project Operations dağıtımında kaynağı/stoğu tutulamayan senaryolarda kullanılır.
+- Dataverse ortamında Project Operations, proforma faturalama fırsatına yönelik yetenekleri kapsar. Dataverse, lite dağıtımında ve Project Operations dağıtımında kaynağı/stoğu tutulmayan senaryolarda kullanılır.
 - Dynamics 365 Finance ortamdaki proje yönetimi ve hesaplaması: Bu bileşen gider yönetim yeteneklerini, proje hesaplarını ve gelir kabulünü kapsar. Finance and Operations uygulama ortamı, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations ve stok/üretim tabanlı senaryolar için Project Operations'ta kullanılır.
 
 ## <a name="project-operations-latest-version"></a>Project Operations son sürümü
 
-| CDS ortamıdna Project Operations | Finance and Operations uygulama ortamlarında proje yönetimi ve hesaplaması |
+| Dataverse ortamında Project Operations | Finance and Operations uygulama ortamlarında proje yönetimi ve hesaplaması |
 | --- | --- |
-| Kategori 4.5.0.134 | Kategori 10.0.15 |
+| Kategori 4.7.0.95 | Kategori 10.0.16 |
 
-[Kaynağı/stoğu tutulmayan öğeler](whats-new-dec-2020-resource-based.md) için Project Operations Aralık 2020 sürüm notları.
+[Kaynağı/stoğu tutulmayan öğeler](whats-new-feb-2021-resource-based.md), [Lite dağıtımı](../pro/whats-new/whats-new-feb-2021-lite.md) ve [stoklu/ürün](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) senaryoları için Project Operations Ocak 2021 sürüm notları.
 
-## <a name="release-schedule-for-project-operations-on-cds-environment"></a>CDS ortamında Project Operations için sürüm zamanlaması
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse ortamında Project Operations için sürüm zamanlaması
 
-CDS ortamında Project Operations için güncellemeler aylık olarak mevcuttur. 
+Dataverse ortamında Project Operations için güncelleştirmeler aylık olarak mevcuttur. 
 
 | İstasyon   | Bölge        | Güncel sürüm | Sonraki sürüm | Genel olarak kullanılabilir |
 |-----------|---------------|-----------------|--------------|---------------------|
+| İstasyon 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | İlk Sürüm |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
 | İstasyon 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Güney Amerika |  Kategori 4.5.0.134       | TBD     | 8 Ocak 2021           |
-|    &nbsp; | Kanada        |  Kategori 4.5.0.134       | TBD     | 8 Ocak 2021          |
-|   &nbsp;  | Hindistan         |  Kategori 4.5.0.134       | TBD     | 8 Ocak 2021           |
+|   &nbsp;  | Güney Amerika |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
+|    &nbsp; | Kanada        |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
+|   &nbsp;  | Hindistan         |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
+|   &nbsp;  | Fransa         |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
+|   &nbsp;  | Birleşik Arap Emirlikleri         |  Kategori 4.7.0.95       | TBD     | 19 Şubat 2021           |
 | İstasyon 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonya         |  Kategori 4.5.0.134       | TBD     | 15 Ocak 2021           |
-|   &nbsp;  | Asya Pasifik  |  Kategori 4.5.0.134       | TBD     | 15 Ocak 2021           |
-|   &nbsp;  | Büyük Britanya |  Kategori 4.5.0.134       | TBD     | 15 Ocak 2021           |
-|   &nbsp;  | Okyanusya       |  Kategori 4.5.0.134       | TBD     | 15 Ocak 2021           |
+|   &nbsp;  | Japonya         |  Kategori 4.7.0.95       | TBD     | 26 Şubat 2021           |
+|   &nbsp;  | Asya Pasifik  |  Kategori 4.7.0.95       | TBD     | 26 Şubat 2021           |
+|   &nbsp;  | Büyük Britanya |  Kategori 4.7.0.95       | TBD     | 26 Şubat 2021           |
+|   &nbsp;  | Okyanusya       |  Kategori 4.7.0.95       | TBD     | 26 Şubat 2021           |
 | İstasyon 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Avrupa        |  Kategori 4.4.0.70       | Kategori 4.5.0.134     | 11-Ara-20           |
+|   &nbsp;  | Avrupa        |  Kategori 4.6.0.161       | Kategori 4.7.0.95     | 12 Şubat 2021           |
 | İstasyon 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Kuzey Amerika |  Kategori 4.4.0.70       | Kategori 4.5.0.134     | 18-Ara-20           |
+|   &nbsp;  | Kuzey Amerika |  Kategori 4.6.0.161       | Kategori 4.7.0.95     | 19 Şubat 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations uygulama ortamında proje yönetimi ve muhasebe için sürüm zamanlaması
 
@@ -63,13 +67,13 @@ Proje yönetimi ve hesap güncelleştirmeleri için güncelleştirmeler yılda s
 
 | Desteklenen sürüm | Genel olarak kullanılabilir (kendini güncelleştirme) |
 | --- | --- |
+| Kategori 10.0.16 | 22 Ocak 2021 |
 | Kategori 10.0.15 | 4 Aralık 2020 |
-| Kategori 10.0.14 | 23 Ekim 2020 |
+
 
 Hedeflenen sürüm tarihleri değiştirilebilir. Daha fazla bilgi için bkz. [Servis güncelleme kullanılabilirliği](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Hedeflenen yayın tarihi | Genel olarak kullanılabilir (kendini güncelleştirme) |
 | --- | --- |
-| Kategori 10.0.16 | 22 Ocak 2021 |
-| Kategori 10.0.17 | 1 Şubat 2021 |
-
+| Kategori 10.0.17 | 19 Mart 2021 |
+| Kategori 10.0.18 | 16 Nisan 2021 |

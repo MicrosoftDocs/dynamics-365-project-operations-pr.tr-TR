@@ -17,20 +17,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086423"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145022"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Bu konu, ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar. Başlamadan önce, önceden bir fiyatlandırma boyutu çözümü oluşturmadıysanız yeni bir tane oluşturmanız gerekir. Zaten bir fiyatlandırma boyutu çözümünüz varsa değişikliklerinizi bu çözümde yapabilirsiniz. Kuruluşunuz için yeni bir fiyatlandırma boyutu çözümü oluşturmadıysanız [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) konu başlığındaki yordamları tamamlayın.
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Formlara ve görünümlere ayrılabilir kaynak ekleme
 Fiyatlandırma boyutu çözümünde, kullanıcı arabiriminde alanları görünür kılmak için önemli Project Service varlıklarının tüm formlarını ve görümlerini incelemeniz ve bu alanları bu varlıkların formlarına ve görünümlerine eklemeniz gerekir.
 Aşağıdaki tabloda, güncelleştirilmesi gereken, varlığa göre listelenen kullanıma hazır form ve görünümlerin kapsamlı bir listesi yer alır. Bu varlıklardaki özelleştirmelerinizde ek görünümler veya formlar varsa yeni alanları da bunlara ekleyin.
-Fiyatlandırma boyutu çözümü için Çözüm Gezgini'ni açın ve **Tüm Özelleştirmeleri Yayımla** 'ya tıklayın.
+Fiyatlandırma boyutu çözümü için Çözüm Gezgini'ni açın ve **Tüm Özelleştirmeleri Yayımla**'ya tıklayın.
 
 
 |   Varlık        | Formlar   |Görünümler        |
@@ -48,22 +51,22 @@ Fiyatlandırma boyutu çözümü için Çözüm Gezgini'ni açın ve **Tüm Öze
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı fiyatlandırma boyutu olarak ayarlama
 
-1. Web arabiriminde **Project Service** > **Ayarlar** > **Parametreler** 'e gidin. **Parametre** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, fiyatlandırma boyutları varlığındaki kayıtları gösteren sekmedeki ızgarayı not edin. 
+1. Web arabiriminde **Project Service** > **Ayarlar** > **Parametreler**'e gidin. **Parametre** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, fiyatlandırma boyutları varlığındaki kayıtları gösteren sekmedeki ızgarayı not edin. 
 2. Bu fiyatlandırma boyutları listesine **msdyn_bookableresource** olarak **Ayrılabilir Kaynak** ekleyin. 
 3. Ayrılabilir kaynağının bir fiyatlandırma boyutu olarak çalıştığı bağlamı belirtin ve **Maliyet için geçerli** ve **Satış için geçerli** değerlerini ayarlayın.
-4. **Boyut Türü** alanında, **Miktar tabanlı** 'yı seçin. 
-5. Ayrılabilir kaynak için maliyet ve satış önceliğini seçin. Tipik olarak, bir fiyatlandırma boyutu olarak eklendiğinde, ayrılabilir kaynak en yüksek önceliğe sahiptir ve bu nedenle **1** (veya önceliği nasıl saydığınıza bağlı olarak **0** ) olarak ayarlamak bu davranışın gerçekleştirilmesini sağlar.
+4. **Boyut Türü** alanında, **Miktar tabanlı**'yı seçin. 
+5. Ayrılabilir kaynak için maliyet ve satış önceliğini seçin. Tipik olarak, bir fiyatlandırma boyutu olarak eklendiğinde, ayrılabilir kaynak en yüksek önceliğe sahiptir ve bu nedenle **1** (veya önceliği nasıl saydığınıza bağlı olarak **0**) olarak ayarlamak bu davranışın gerçekleştirilmesini sağlar.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Fiyatlandırma boyutu alan adlarını ayarlama
 
 **Rol Fiyatı** tablosundaki fiyatlandırma boyutunun alan adı, fiyat varsayılan girişinin çalışması gereken diğer herhangi bir varlıktaki alan adından farklıysa, fiyatlandırma boyutu kaydının farklı adlar konusunda bilgilendirilmesi gerekir.    
-Ayrılabilir kaynak için, **Proje Takımı Üyeleri** varlığı, **Rol fiyatı** varlığındaki adından ( **msdyn_bookableresource** ) biraz farklı bir alan adına ( **msdyn_bookableresourceid** ) sahiptir. **msydn_bookableresource** için fiyatlandırma boyutu kaydının bunu bilmesi sağlanmalıdır. 
+Ayrılabilir kaynak için, **Proje Takımı Üyeleri** varlığı, **Rol fiyatı** varlığındaki adından (**msdyn_bookableresource**) biraz farklı bir alan adına (**msdyn_bookableresourceid**) sahiptir. **msydn_bookableresource** için fiyatlandırma boyutu kaydının bunu bilmesi sağlanmalıdır. 
 1. Bunu yapmak için **msdyn_bookableresource** boyut sayfasını açmak üzere **Fiyatlandırma Boyutları** ızgarasında satıra çift tıklayın.
-2. Boyut sayfasında **İlgili** sekmesinde, **Fiyatlandırma Boyutu Alan Adları** 'na tıklayın.
+2. Boyut sayfasında **İlgili** sekmesinde, **Fiyatlandırma Boyutu Alan Adları**'na tıklayın.
 
  ![Fiyatlandırma boyutu alan adları sekmesi](media/PD-fieldname.png)
 
-4. Açılan ilişkilendirilmiş görünümde **Yeni Fiyatlandırma Boyutu Alan Adı Ekle** 'ye tıklayın.
+4. Açılan ilişkilendirilmiş görünümde **Yeni Fiyatlandırma Boyutu Alan Adı Ekle**'ye tıklayın.
 
  ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle](media/Add-NewPD-fieldname.png)
 
