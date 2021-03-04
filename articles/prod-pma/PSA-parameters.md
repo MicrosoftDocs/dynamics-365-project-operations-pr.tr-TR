@@ -47,3 +47,6 @@ ms.locfileid: "4086464"
 | Faturalama türü varsayılanları  | Faturalama türü         | Varsayılan satır özelliklerini belirlemek üzere faturalama türünü seçebileceğiniz bir satır eklemek için **Yeni** 'yi tıklayın. Belirli bir faturalama türü, yapılandırmada yalnızca bir kez seçilebilir. |
 |                        | Satır özelliği        | Seçili faturalama türü için varsayılan satır özelliğini seçin. Yeni saat tahminleri, yeni masraf tahminleri veya yeni gerçek değerler Project Service Automation'dan eşitlendiğinde, **Satır özelliği** alanı faturalama türü için varsayılan değere ayarlanır. |
 | İşlevsellik kilitleme  | Uygulanamaz       | Project Service Automation tarafından oluşturulan projeler ve sözleşmeler için Finance'de devre dışı bırakılacak işlevselliği seçin. Örneğin, sözleşmeleri ve projeleri düzenleme, iş kırılım yapısı oluşturma ve Finance'e zaman çizelgelerini girme özelliklerini devre dışı bırakabilirsiniz. Muhasebe ile ilgili alanlar, parametre ayarı tarafından kullanılamaz duruma getirilse bile etkin kalacaktır. Varsayılan olarak, tüm işlevler etkindir. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

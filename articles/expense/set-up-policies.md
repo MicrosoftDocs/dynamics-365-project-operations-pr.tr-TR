@@ -53,3 +53,6 @@ Burada, gider yönetimi konusunda yeni ilkeler oluştururken size yardımcı ola
 ## <a name="when-to-evaluate-policies"></a>İlkeler ne zaman değerlendirilir
 
 Gider yönetimi parametrelerinde, bir satır kaydedildiğinde veya gider raporu gönderildiğinde gider yönetimi ilkelerini değerlendirmeyi seçebilirsiniz. Bir satır kaydedildiğinde değerlendirmeyi seçerseniz, kullanıcılar gider raporlarının hepsini aynı anda tamamlamak için ne yapmaları gerektiği konusunda daha önceden görünürlüğe sahip olur. Aksi takdirde, iş akışına gönderim sırasında ilke değerlendirmesini erteleyebilir ve sonda da doğrulayarak zaman kazanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

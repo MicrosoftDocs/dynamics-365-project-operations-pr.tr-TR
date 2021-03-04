@@ -27,3 +27,6 @@ Oluşturulmuş bir kaynak gereksinimini bir kaynak isteği olarak gönderebilirs
 Genel takım üyesinin istek durumu **Gönderildi** olarak değişir.
 
 İstek yerine getirildikten sonra kaynak yöneticisi, isteği adlandırılmış bir kaynağı ayırarak yerine getirirse genel kaynağın yerini adlandırılmış kaynak alır. Aksi takdirde, kaynak yöneticisi adlandırılmış bir kaynak önerirse genel kaynak, takımda kalır ve istek durumu **İnceleme Gerekiyor** olarak değişir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Aşağıdaki özellikler mevcut sayfada bulunur ancak henüz yeni sayfada yoktur
 - Satır düzeyi iş akışı
 - Geçici onaylayan desteği
 - Gelişmiş döküm
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

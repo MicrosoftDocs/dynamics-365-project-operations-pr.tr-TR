@@ -34,3 +34,6 @@ ms.locfileid: "5145742"
 Bir proje sırasında gerçekleşen tüm mali işlemler kaydedilir. Bu işlemler **fiili değerler** olarak kaydedilir. Aşağıdaki tablo, projenin zaman ve malzeme, sabit fiyatlı veya dahili bir proje olmasına veya ön satış aşamasında bulunup bulunmamasına bağlı olarak oluşturulan farklı fiili değer türlerini gösterir.
 
 > ![Fiili değerlerin kaydedilme biçimini gösteren tablo](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

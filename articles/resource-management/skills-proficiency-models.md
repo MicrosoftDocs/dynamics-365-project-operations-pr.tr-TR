@@ -43,3 +43,5 @@ Kaynak gereksinimlerine özellikler eklemek, kaynağın bir projedeki görevleri
 3. **Beceriler** alt ızgarasında, **+Yeni Gereksinim Özelliği Ekle**'yi seçin.
 4. Hızlı oluşturma bölmesinde, gerekli özellikleri bulup seçin ve bir **Derecelendirme Değeri** ekleyin.
 5. **Kaydet ve Kapat**'ı seçin.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

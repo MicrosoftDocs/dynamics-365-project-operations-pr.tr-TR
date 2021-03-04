@@ -36,3 +36,6 @@ Maliyet fiyatı listesi çözümlendikten sonra Zaman için tahmin satırındaki
 Gider için tahmin satırları, projedeki giderler ve gider tahmini satırları için teklif ve sözleşme satırı ayrıntılarına bakın.
 
 Maliyet fiyatı listesi çözümlendikten sonra sistem, gider tahmini satırındaki **Kategori** ve **Birim** alanlarının bir birleşimini çözümlenen fiyat listesindeki **Kategori Fiyatı** satırlarıyla eşleştirmek için kullanır. Sistem **Kategori** ve **Birim** alan birleşimi için maliyet oranına sahip bir kategori fiyat satırı bulursa, maliyet oranı varsayılan olarak. Sistem, **Kategori** ve **Birim** değerleriyle eşleşmiyorsa veya sistem, eşleşen bir kategori fiyatı satırı bulmasına rağmen fiyatlandırma yöntemi **Birim Fiyatı** değilse maliyet oranı varsayılan olarak sıfır (0) olur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Bu şekilde atanan kaynaklar, herhangi bir ayırma olmadan takıma eklenir. Bu, 
 
 3. Göreve atamak istediğiniz kaynağı seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

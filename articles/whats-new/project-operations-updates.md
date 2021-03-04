@@ -77,3 +77,6 @@ Hedeflenen sürüm tarihleri değiştirilebilir. Daha fazla bilgi için bkz. [Se
 | --- | --- |
 | Kategori 10.0.17 | 19 Mart 2021 |
 | Kategori 10.0.18 | 16 Nisan 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

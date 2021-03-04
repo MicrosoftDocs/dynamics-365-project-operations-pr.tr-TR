@@ -124,3 +124,6 @@ Aşağıdaki çizimde Veri tümleştirmede şablon görev eşlemesinin bir örne
 > Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
 [![Project Service Automation ile Finance şablon eşlemesi](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

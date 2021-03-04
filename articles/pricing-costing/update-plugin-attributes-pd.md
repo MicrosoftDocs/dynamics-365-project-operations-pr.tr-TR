@@ -52,3 +52,6 @@ Eklentileri güncelleştirmek ve yeniden kaydetmek için aşağıdaki adımları
 7. Sayfayı kapatmak için **Tamam**'ı seçin ve ardından **Güncelleştirme Adımı**'nı seçin.
 8. İkinci eklenti **PreOperationQuoteLineDetail** için 2 ile 7 arasındaki adımları tekrarlayın. Bu eklenti için **msdyn_quotelinetransaction güncelleştirmesi** adımını güncelleştirmeniz gerekir.
 9. **PluginRegistrationTool**'u kapatın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

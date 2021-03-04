@@ -96,3 +96,6 @@ Aşağıdaki örnek, nasıl özel bir formun (**Proje Bilgilerim**) iş tabanlı
     ```
 
 6. Özelleştirmeleri kaydedin ve yayımlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Proje yöneticisinin görevlerdeki çalışmayı yeniden tasarlamasının iki yo
 - Görevdeki gerçek ilerleme durumunun yeni bir tahminiyle varsayılan ilerleme durumu yüzdesini geçersiz kılın.
 
 Bu yaklaşımların her biri görevin ETC, tahmini tamamlanma (EAC) ve ilerleme durumu yüzdesinin yeniden hesaplanmasına ve bir görevde öngörülen çalışma farkına neden olur. EAC, ETC ve özet görevlerindeki ilerleme durumu yüzdesi yeniden hesaplanır ve yeni bir çalışma farkı projeksiyonu oluşturur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

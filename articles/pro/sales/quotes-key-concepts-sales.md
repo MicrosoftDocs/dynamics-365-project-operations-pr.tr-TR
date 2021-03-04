@@ -89,3 +89,6 @@ Project Operations teklifleri, Dynamics 365 Sales tekliflerini temel alarak olu�
 - Project Operations teklifleri kendi biçim ve kullanıcı arabirimi öğelerine, iş kurallarına, eklentilerdeki iş mantığına ve Sales tekliflerine göre benzersiz kılan istemci tarafı komut dosyalarına sahiptir.
 
 Bu nedenlerle, bir Sales teklifiyle Project Operations teklifini birbirinin yerine kullanmanız önerilmez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

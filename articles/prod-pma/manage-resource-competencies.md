@@ -53,3 +53,6 @@ Bir çalışana ait yetkinlikleri ayarlamak üzere, İnsan kaynakları'ndaki **�
 5. **Düzey tarihi** alanında, **14.01.2014** seçeneğini belirleyin.
 6. **Deneyim yılları** alanında, **10** girin.
 7. **Kaydet** 'i seçin ve sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

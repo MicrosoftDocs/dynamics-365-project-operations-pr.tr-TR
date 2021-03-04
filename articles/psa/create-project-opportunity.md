@@ -55,3 +55,6 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

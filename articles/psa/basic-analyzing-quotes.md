@@ -60,3 +60,6 @@ Aşağıdaki alanlar için değer girerseniz, teklifleri analiz edebilir ve zama
 Zamanlamaya ilişkin müşteri beklentileri hakkındaki analizler, teklif satırı ayrıntısının en son bitiş tarihi teklifteki tüm teklif satırlarındaki istenen teslimat tarihiyle karşılaştırılarak yapılır.
 
 Bütçe hakkında müşteri beklentileri analizi, toplam müşteri bütçesi tüm teklif satırlarındaki teklif edilen tutarla karşılaştırılarak yapılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

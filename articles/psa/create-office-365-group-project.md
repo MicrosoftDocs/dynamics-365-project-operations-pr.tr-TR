@@ -43,3 +43,6 @@ Bir projenin takım üyeleri için bir Office 365 Grubu oluşturarak takım üye
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

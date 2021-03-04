@@ -83,3 +83,6 @@ Eski bir sürüm kullanıyorsanız kaynak kullanılabilirliği için bkz. [Kayna
   
 ### <a name="additional-resources"></a>Ek kaynaklar  
  [Kaynak yöneticisi kılavuzu](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

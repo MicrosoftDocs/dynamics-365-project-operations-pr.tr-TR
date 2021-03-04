@@ -42,3 +42,6 @@ Tüm etkin ayrılabilir kaynakları aramak ve bunları herhangi bir yaprak düğ
 1. Görev ızgarasından, panodan veya zaman çizelgesinden **Atanan** hücresine gidin.
 2. Arama kutusuna bir ad yazmaya başlayın. Ad için arama sonuçları, **Diğer Kaynaklar** altındaki **Kaynak Seçicide** görüntülenir.
 3. Göreve atamak istediğiniz kaynağı seçin veya **Diğer Takım Kaynakları** altında kaynağın adını seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

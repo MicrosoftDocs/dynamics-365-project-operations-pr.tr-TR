@@ -51,3 +51,6 @@ Dynamics 365 Customer Engagement üzerinde Project Operations kullanan her bir t
   - **Fatura türü varsayılanları**: Project Operations, satır özellikleri finans ile eşlenmesi gereken sabit bir faturalama türü varsayılan kümesi kullanır. Her faturalama türü için bir kayıt oluşturun: **belirtilmemiş**, **Borçlandırılabilir**, **borçlandırılamayan**, **Kapanış** ve **kullanılamaz**.
   - **Proje kategorisi Varsayılanları**: her hareket türü için kullanılacak varsayılan Proje kategorilerini seçin. Bu varsayılanlar **Project Operations tümleştirme günlüğünde** ve proje fiili için herhangi bir hareket kategorisinin belirtilmediğinde tahminlerde kullanılır.
   - **Tahminler**: Zaman ve gider tahminlerinde kullanılacak tahmin modelini seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

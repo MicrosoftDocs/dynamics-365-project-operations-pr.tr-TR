@@ -101,3 +101,6 @@ Aşağıdaki örnekte, Contoso Robotics USA (USPM) ödünç alan tüzel kişilik
           - **Kaynak atayan şirket** = **Contoso Robotics UK**
           - **Fatura oranı** = **200 USD**
       9. **Satışlar** > **Proje sözleşmeleri**'ne gidin ve **Adventure Works fatura oranları** fiyat listesini proje sözleşmesinin Adventure Works proje fiyat listesine ekleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

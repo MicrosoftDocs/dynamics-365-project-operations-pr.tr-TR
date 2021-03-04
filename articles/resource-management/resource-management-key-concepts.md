@@ -35,3 +35,6 @@ Kaynaklar, servis tabanlı bir kuruluşun en önemli varlığıdır. Doğru kayn
 
 
 Projenize, Project Operations'ta genel veya adlandırılmış bir kaynak takımı ile personel ekleyebilirsiniz. Takım üyeleri ekleyip atamak ve takım üyelerinin ayırma ve atamalarını yönetmek için çeşitli yöntemler kullanabilirsiniz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

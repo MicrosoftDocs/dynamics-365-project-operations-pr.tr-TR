@@ -26,3 +26,5 @@ Kaynak gereksinimleri, proje üzerindeki çalışmayı yürütmek için gereken 
 3.  **Takım Üyesi** sekmesinde, takım üyesini seçin ve ardından **Gereksinim Oluştur**'u seçin.
 
 Kaynak gereksinimini değiştirmek üzere kaynak gereksiniminin değiştirilmesi hakkında bilgi için bkz. [Kaynak gereksinimi ayrıntılarını güncelleştirme](define-resource-requirements.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

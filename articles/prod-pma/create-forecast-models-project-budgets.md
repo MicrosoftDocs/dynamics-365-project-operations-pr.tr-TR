@@ -57,3 +57,6 @@ Bu konu, kalan bütçeler için bir tahmin modelinin nasıl oluşturulacağını
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

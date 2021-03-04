@@ -38,3 +38,6 @@ Bu SSS, işlem sınıfı Gider olarak ayarlanmış ve işlem türü Maliyet olan
 İlgili gider girişine gidin ve gider giriş alanında bir tutar bulunduğundan emin olun. Kaynak gider girişinde tutar alanı doldurulmadıysa, sorunu saptamış olursunuz.
  
 Bu sorunu çözmek için, gider girişini geçerli bir tutarla yeniden oluşturun ve onaylayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

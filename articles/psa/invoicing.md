@@ -117,3 +117,6 @@ Düzeltme faturasını onaylandıktan sonra, orijinal faturalanmış satış fii
 
 - Altı saat için faturalanmış satış fiili değeri.
 - Kalan iki saat için faturalanmamış bir satış fiili değeri. Müşteriyle yapılan anlaşmaya bağlı olarak bu hareket daha sonra faturalanabilir veya borçlandırılamaz olarak işaretlenebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

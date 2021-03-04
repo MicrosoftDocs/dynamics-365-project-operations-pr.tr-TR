@@ -43,3 +43,6 @@ Dynamics 365 Project Operations'tan bekleniniz aşağıdaki temel gereksinimleri
 - Projelere yönelik müşteriye yönelik faturalar oluşturmak için kurumsal sınıf satış vergisi ve Döviz Kuru altyapısı gerekir.
 - Uluslararası bir finans raporlama standartları (IFRS) uyumlu proje hesaplama ve gelir tanıma sistemi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -344,3 +344,6 @@ Bir kaynak için görev atamalarınızın olması ancak ayırmalarınızın olma
 ![Ayırmayı Uzat iletişim kutusu](media/Resource-Management-image58.png)
 
 Ardından proje yöneticisi veya kaynak yöneticisi, bir kaynağın kapasitesi üzerinde ayrılmış olan durumları yönetmek için Zamanlama panosunu kullanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Ayrılabilir bir kaynak için **Proje Takımı Üyeleri** varlığı, **Rol Fiya
 5. **msdyn_bookableresourceid** öğesini **Alan Adı**'na ekleyin.
 
  ![Yeni Fiyatlandırma boyutu alan adı formu](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

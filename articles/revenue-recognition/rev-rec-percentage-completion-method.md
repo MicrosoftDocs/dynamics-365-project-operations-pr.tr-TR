@@ -35,3 +35,6 @@ Sabit fiyatlı gelir tahminleri projelerini incelemek için aşağıdaki adımla
 
   Proje maliyeti, gelir profili, maliyet şablonu ve dönem kodu el ile ayarlanabilir. Bunlar, el ile ayarlanmazlarsa değerler, proje maliyeti ve gelir profilleri için yapılandırılmış kurallar kullanılarak proje için ilk tahmin hesaplaması sırasında ayarlanan değerlere varsayılan olarak ayarlanır.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

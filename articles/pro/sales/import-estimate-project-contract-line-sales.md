@@ -60,3 +60,6 @@ Kullanıcı, **İşlem sınıfı**, **Kategori** ve **Yaprak Düğüm Görevine*
 | A Görevi | Uçak bileti ücreti | 1.10.2020 | 4 | 400 | 1600 |
 | B Görevi | Otel | 1.10.2020 | 4 | 200 | 800 |
 | C Görevi | Otel | 1.11.2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

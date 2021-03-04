@@ -68,3 +68,6 @@ Karlılık hesaplamaları, **Maliyet** ve **Satış** için sözleşme satırı 
 
 > [!NOTE]
 > Para birimi yuvarlama hataları ve değişen kenar boşlukları, etkili Döviz kurları olmadığı için oluşabilir. Bu hesaplamaları yalnızca proje sözleşmelerinde, Döviz kurları tarihinin yuvarlanması ve kullanımı için daha yüksek hassasiyet gerektiren gerçek bir yasal veya başka bir raporlama için kullanın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

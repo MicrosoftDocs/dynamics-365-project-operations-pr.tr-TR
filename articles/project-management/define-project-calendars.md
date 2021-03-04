@@ -49,3 +49,6 @@ Proje zamanlaması oluşturmak için günlük çalışma saatleri sayısını ve
 8. **İş Şablonu** iletişim kutusunda iş şablonu için bir ad girin ve ardından **Uygula**'yı seçin. 
 
 Artık iş şablonunu proje takvimi şablonuyla ilişkilendirebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

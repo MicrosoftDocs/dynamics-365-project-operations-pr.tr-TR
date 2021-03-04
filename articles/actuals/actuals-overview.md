@@ -342,3 +342,6 @@ Project Operations, bir proje sırasında gerçekleşen finansal işlemleri kayd
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

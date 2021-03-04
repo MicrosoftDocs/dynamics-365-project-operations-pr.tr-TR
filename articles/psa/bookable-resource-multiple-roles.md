@@ -74,3 +74,6 @@ Bu Takım Üyesi kaydının satırını genişlettiğinizde bu görevlerin ikisi
 **Tahminler** ızgarasına gittiğinizde aynı kaynak için iki atamanın farklı fiyatlandırıldığını görürsünüz.
 A Görevinde kaynak için atama, **Danışman Müşteri Adayı**'nın **Rol** öznitelik değerini kullanarak fiyatlandırılır. B Görevinde aynı kaynak için atama, **Ağ Teknisyeni**'nin **Rol** öznitelik değerini kullanarak fiyatlandırılır.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

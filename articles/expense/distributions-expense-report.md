@@ -30,3 +30,6 @@ Nancy Frankfurt'tayken iki farklı projede çalıştığından, gider raporunu g
 | Tren ücreti   | 578 DKK              | 405 DKK                         | 173 DKK                         |
 | Otel        | 725 EUR              | 557 EUR                         | 168 EUR                         |
 | Yemekler        | 346 EUR              | 284 EUR                         | 62 EUR                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

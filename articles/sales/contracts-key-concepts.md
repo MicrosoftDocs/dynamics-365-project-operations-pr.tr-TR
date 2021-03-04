@@ -88,3 +88,6 @@ Fatura zamanlamaları her sözleşme satırına özgür ve otomatik faturalaman�
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales Siparişlerinden farkları
 
 Project Operations'daki sözleşmeler Dynamics 365 Sales'daki siparişler üzerine kurulmuştur. Ancak, işlevlerde önemli sapmalar ve farklılıklar vardır. Sözleşmeler kendi biçim ve kullanıcı arabirimi öğelerine, iş kurallarına, eklentilerdeki iş mantığına ve Siparişlere göre benzersiz kılan istemci tarafı komut dosyalarına sahiptir. Bu nedenlerden dolayı, birbirinin yerine bir Sales siparişi ve Project Operations sözleşmesi kullanmayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

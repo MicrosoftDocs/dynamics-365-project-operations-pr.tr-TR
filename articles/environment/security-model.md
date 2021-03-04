@@ -81,3 +81,6 @@ Project Operations aşağıdaki rolleri içerir:
 Finance'ta güvenlik hakkında daha fazla bilgi için bkz. [Rol tabanlı güvenlik](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

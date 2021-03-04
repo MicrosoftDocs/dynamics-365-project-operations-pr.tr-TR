@@ -35,3 +35,6 @@ Proje gerçek tutarlarına gelin ve ilgili dönem için maliyetlerin ve faturala
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje yöneticisi kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

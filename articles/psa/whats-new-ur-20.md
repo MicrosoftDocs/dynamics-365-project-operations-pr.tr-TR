@@ -62,3 +62,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **Kuruluş Birim Maliyet Fiyatı** listeleri, tarih geçerliliğinde çakışmalara izin verir.
 - Null bir başvuru özel durum hatasına neden olacağından, sipariş türü iş tabanlı olmadığında kullanıcılara **OrgUnit** öğesini değiştirme izni verilmez.
 - **Teklif Satırı Ayrıntıları** formundan, **Teklif** sekmesine geri gitmeye çalışırken form yenileniyor ve **Özet** sekmesi görüntüleniyor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

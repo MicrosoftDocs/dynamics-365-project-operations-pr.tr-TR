@@ -28,3 +28,6 @@ ms.locfileid: "4960046"
 *Harcırah*, iş için seyahat eden bir çalışana ödenen bir ücrettir. Gider yönetiminde, çeşitli seyahat durumları için harcırah kuralları oluşturabilirsiniz. Harcırah oranları yılın dönemini, seyahat edilen yeri veya her ikisini temel alabilir. Harcırah kuralı oluşturduğunuzda, bir çalışana ikram olarak sunulan yemekler veya hizmetler olduğunda harcırah oranının bir yüzdesinin kesilmesini belirleyebilirsiniz. Ayrıca bir çalışanın seyahatinde uygulanabilecek harcırah oranı için en düşük ve en yüksek çalışma saatlerini de ayarlayabilirsiniz.
 
 Toplam harcırah tutarı hesaplaması, **Harcırah** sayfasında her bir hesap için ayarlayabileceğiniz başlangıç ve bitiş tarihlerine dayanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

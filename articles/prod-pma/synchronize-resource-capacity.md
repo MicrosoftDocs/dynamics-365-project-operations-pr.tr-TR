@@ -49,3 +49,6 @@ Toplu iş seçeneğini kullanmanızı öneririz. Kapasite ayırmaların eşitlen
     | Bitiş tarihi    | Kaynak kapasitesi toplamasına yönelik eşitleme işleminin bitiş tarihini girin. |
 
 [![Eşitleme işlemi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

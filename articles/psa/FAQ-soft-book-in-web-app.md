@@ -87,3 +87,6 @@ Geçici olarak ayrılmış bir takım üyesi kaynağını, görevlere atayabilme
 2. Zamanlama panosu açılınca, kaynağı genişleterek ayırmalarını görünür hale getirin. Ayırmayı Geçici şeklinde işaretlenmiş olarak görürsünüz.
 3. Ayırmaya sağ tıklayın, Durumu Değiştir altında Kesin Ayırma'yı ve ardından Kesin'i seçin. Ayırma durumu artık Kesin'dir.
 4. Zamanlama panosunu kapattıktan sonra, takım üyesi kılavuzunda kaynağın saatlerinin Geçici'den Kesin'e çevrildiğini görürsünüz. Artık, kaynağı görevlere atayabilirsiniz (kesin ayrılmış saatler ve görev çalışma saatlerinin atama için tutarlı olması koşuluyla). Yukarıdaki madde 3'te genel kaynak karşılama adımlarını izlediyseniz, geçici ayrılmış ayrılabilir kaynağın durumunu değiştirip Kesin yaptığınız zaman genel takım üyesinin takımdan kaldırılacağını unutmayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

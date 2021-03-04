@@ -97,3 +97,6 @@ Hem ızgara hem de zaman aşamalı görünümde hangi alanların gösterileceği
 ## <a name="expense-estimates"></a>Gider tahminleri
 
 Kılavuz görünümündeki **Yeni Gider Tahmini Ekle** düğmesi projede ortaya çıkan tüm harcamaları kaydetmenize olanak tanır ancak bu, işçilikle doğrudan ilgili değildir. Belirli bir görev veya tüm proje için gider tahminlerini kaydedebilirsiniz. Gider kategorilerini ve giderin gerçekleşmesini beklediğiniz belirsiz bir tarih seçin. İlişkili maliyet fiyat listesi ve satış fiyatı listesi varsayılan fiyatlara sahipse (veya gider kategorileri için kar payı yüzdeleri tanımlanmışsa) ilişkilendirme gerçekleştiğinde tahmin satırına otomatik olarak girilirler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

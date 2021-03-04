@@ -68,3 +68,6 @@ Aşağıdaki adımlar, eklentileri kaydetme işleminde size yardımcı olur.
 
 9. Eklenti kaydı aracını kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

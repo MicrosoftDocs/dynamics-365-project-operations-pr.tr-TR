@@ -91,3 +91,6 @@ Onay teklifinin başarıyla kurtarıldığını göreceksiniz.
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS yapılandırması yükleme ve demo verileri ayarlama
 
 [Demo ayarlaması ve yapılandırma verileri uygulama](lite-apply-demo-setup-config-data.md) konusundaki yönergeleri izleyerek CDS yapılandırmasını yükleyin ve demo verileri ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

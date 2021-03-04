@@ -77,3 +77,6 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso ABD  |Hour | 145|USD     |
 | My company_Band2 | Contoso Hindistan |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

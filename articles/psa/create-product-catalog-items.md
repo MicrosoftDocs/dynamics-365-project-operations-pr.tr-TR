@@ -37,3 +37,6 @@ Proje teklifi veya tahminlerinize yazılım lisansları gibi ürünler eklemek i
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

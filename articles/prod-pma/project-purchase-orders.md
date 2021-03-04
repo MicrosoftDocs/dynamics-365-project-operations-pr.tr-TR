@@ -76,3 +76,6 @@ Proje yönetimi ve muhasebe modülünde bir satın alma siparişi oluşturmak i�
 
 Daha fazla bilgi için, bkz. [Madde gereksiniminden satınalma siparişindeki maddeleri alma](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

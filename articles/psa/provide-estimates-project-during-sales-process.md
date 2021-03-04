@@ -54,3 +54,6 @@ Satış işlemi sırasında, teklif satırları ile satış tahminlerini sıfır
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ PSA'da raporlama hakkında daha fazla bilgi için aşağıdaki konu başlıklar�
 - [Project Service veri modeliyle çalışma](reports-working-project-service-data-model.md)
 - [Panolar](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Hayır. Zamanlama tahmşnş şu anda saat olarak sınırlandırılmıştır ve d
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Birimler ve birim grupları düzenlenebilir, silinebilir ve eklenebilir mi?
 Evet. **Zaman** birim grubu ve **Saat** birimi dışında, tüm birimler silinebilir veya düzenlenebilir ve yeni birimler eklenebilir. PSA'da **Zaman** birimi grubu ve **Saat** birimi silinemez. Ancak, **Ad** alanı için çevrilmiş bir metinle güncelleştirilebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Her kuruluş bu rolleri **Etkin Kaynak Kategorileri** sayfasında ayarlamalıdı
 ## <a name="price-lists"></a>Fiyat listeleri
 
 Fiyat listeleri bir kuruluştaki kaynak rolleri için maliyet ve satış fiyatlarını, gider kategorilerini, ürünleri ve diğer öğeleri ayarlamanızı sağlar. Projenin teslim edilmesi gereken işi için mali tahminleri ayarlamadan önce destek maliyeti ve satış fiyat listesini oluşturmalısınız. Parametreler bölümünde kuruluşta oluşturulan tüm projeler için geçerli bir varsayılan maliyet ve satış fiyat listesi ayarlamalısınız. **Etkin Proje Parametreleri** sayfasında varsayılan bir maliyet ve satış fiyat listesi ayarladığınızdan emin olun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın d
 7. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve ardından **Adımı Güncelleştir**'i seçin.
 8. İkinci eklenti için 1 - 7 arasındaki adımları yineleyin:
 9. PluginRegistrationTool'u kapatın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

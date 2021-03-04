@@ -41,3 +41,6 @@ Kaynaklar, servis tabanlı bir kuruluşun en önemli varlığıdır. Doğru kayn
 - [Gereksinimleri geçici ayırma](resource-management-softbook-requirements.md)
 - [Beceriler ve yeterlilik modelleri](resource-management-skills-proficiency.md)
 - [Kaynak yönetimiyle ilgili SSS](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ Proje fırsatları Kazanıldı veya Kaybedildi olarak kapatılabilir. **Fırsat�
 Fırsatla ilişkili etkin teklifler varsa fırsatı kapatmanıza izin verilmez. Bir fırsatla ilişkili tüm etkin ve taslak teklifleri aynı anda kapatabilirsiniz. Ardından fırsatı kapatmanıza izin verilir.
 
 Fırsatları kapatma hakkında daha genel bilgiler için bkz. [Fırsatları kazanıldı veya kaybedildi olarak kapatma](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

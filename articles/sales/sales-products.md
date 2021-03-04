@@ -124,3 +124,6 @@ Sistem, yalnızca sayısal veri türüne sahip sayısal özellikleri veya ürün
 - **Ürün SKU'su** 
 
 **Kullanıcı Sayısı** ve **Ay Sayısı** özellikleri ürün satırının özellikleri düzenlenerek miktar faktörü olarak işaretlenebilir. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Power Query kullanmanız gerekiyorsa aşağıdaki kılavuzu izleyin:
 Aşağıdaki çizimde veri tümleştirmede şablon görev eşlemelerinin bir örneği gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
 [![Şablon eşlemesi](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

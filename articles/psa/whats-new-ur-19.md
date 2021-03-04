@@ -66,3 +66,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **GetBookableResourceIdFromUser** yalnızca birincil kimlik yerine ayrılabilir kaynaklara ait tüm sütunları aldığından müşteriler proje oluştururken performans sorunlarıyla karşılaşabilir.
 - **TransactionType** varlığında, kullanıcıların işlem türleri için geçerli olmayan **Birimler** ve **UnitGroups** girmesini önlemek için ön doğrulama güncelleştirmesi eklentisi yoktur.
 - **Kaldır** adımı, zaman girişi içeri aktarma için kullanılamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

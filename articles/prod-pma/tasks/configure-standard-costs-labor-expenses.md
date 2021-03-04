@@ -54,3 +54,6 @@ Bu konuda, bir projenin işçilik ve giderleri için standart maliyetlerin nası
 22. **Fiyat** alanına bir sayı girin. Bir çalışan gider günlüğüne hareketleri girdiğinde uygulanan gerçek satış fiyatı, en yüksek ayrıntı düzeyini içeren satış fiyatıdır. Örneğin, hem genel, hem de çalışana özgü satış fiyatı ayarlandıysa, çalışana özgü satış fiyatı kullanılır.  
 23. **Kaydet** 'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

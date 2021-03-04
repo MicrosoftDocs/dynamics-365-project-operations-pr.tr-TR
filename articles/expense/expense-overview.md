@@ -44,3 +44,6 @@ Daha fazla bilgi için bkz. [Gider girişi (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Gider dağıtımınızı belirleme
 Temel Gider yönetim dağıtımını çalıştırıp çalıştırmadığınızı belirlemek için adres URL'sinin **.crm.dynamics.com** ile bittiğini doğrulayın. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

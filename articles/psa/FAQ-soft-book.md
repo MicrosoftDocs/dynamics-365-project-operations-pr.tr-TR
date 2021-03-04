@@ -67,3 +67,6 @@ Geçici olarak ayrılmış bir takım üyesi kaynağını, kesin olarak ayrılm�
 2. Ayırmaya sağ tıklayın, **Durumu Değiştir** altında **Kesin Ayırma** \> **Kesin**'i seçin. Ayırma durumu artık **Kesin**'dir.
 3. Zamanlama panosunu kapattıktan sonra projeye dönün ve **Takım** sekmesini açın; **Adlandırılmış Takım Üyeleri** görünümünde, **Takım** sekmesinde, kaynağın saat sayısının **Geçici Ayrılan Saat Sayısı** sütunundan **Kesin Ayrılan Saat Sayısı** sütununa geçtiğini görürsünüz. Kaynak görevlere atandıysa, ayırmaları artık kesin olduğu için, **Mutabakat** sekmesinde bir ayırma eksikliği göstermeyecektir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

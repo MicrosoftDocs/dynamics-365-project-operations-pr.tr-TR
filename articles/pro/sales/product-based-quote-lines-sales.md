@@ -46,3 +46,6 @@ Bir teklif satırı bir ürün kataloğuna dayanıyorsa, satış fiyatını doğ
 **Fiyatlandırmayı geçersiz kıl** seçeneğini belirlerseniz varsayılan fiyat ayarlanmamış demektir. Bunun yerine teklif satırındaki ürün için bir fiyat girmeniz gerekir. **Varsayılanı kullan** seçeneğini belirlerseniz varsayılan satış fiyatı kullanılır ve alan düzenlenmek üzere kilitlenir.
 
 Varsayılan satış fiyatları bir teklifteki ürün tabanlı satırlara girilir. Ardından **Fiyatlandırma** alanı **Fiyatlandırmayı geçersiz kıl** olarak ayarlanır ve böylece teklif satırlarındaki varsayılan fiyatı düzenleyebilirsiniz. Bu, Dynamics 365 Sales içindeki ürün tabanlı satırlara yönelik Project Operations'a özgü geçersiz kılmanızı sağlar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

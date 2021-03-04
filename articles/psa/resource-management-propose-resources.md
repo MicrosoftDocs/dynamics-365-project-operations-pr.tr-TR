@@ -113,3 +113,6 @@ Dynamics 365 Field Service yüklüyse; Dynamics 365 Project Service Automation, 
 Tek tek kaynaklarla ilgili daha fazla ayrıntı görüntülemek için kaynağa sağ tıklayarak kaynak kartını açın.
 
 ![Kaynak kartı](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

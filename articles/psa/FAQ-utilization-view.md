@@ -101,3 +101,6 @@ Borçlandırılabilir kullanım görmüyorsanız, kontrol edebileceğiniz birka�
   - Projeyi destekleyen sözleşme satırındaki rol, Borçlandırılabilir olmayan ayarındadır.
   - Projede, ilişkili sözleşme satırı yok.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

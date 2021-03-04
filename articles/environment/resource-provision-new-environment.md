@@ -209,3 +209,6 @@ Finans ortamına demo verileri uyguladıysanız, CDS ortamına tanıtım veriler
 
 
 Project Operations ortamınız artık sağlanmış ve yapılandırılmıştır. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

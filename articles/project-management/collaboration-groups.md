@@ -26,3 +26,6 @@ Office Grupları, bir projeyi Common Data Service'te diğer takım üyeleriyle p
 > [!NOTE] 
 > Yalnızca **Gruplar** seçeneğine basıp kullanıcıları eklerseniz kullanıcılar gruba eklenir. Bu, Web için Project uygulamasının davranışından farklıdır. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

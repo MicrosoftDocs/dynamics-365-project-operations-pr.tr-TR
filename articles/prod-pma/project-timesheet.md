@@ -96,3 +96,6 @@ Zaman çizelgesini onay iş akışına göndermek için **Gönder** 'e tıklayı
 ## <a name="review-timesheets"></a>Zaman çizelgelerini gözden geçirme
 
 Gözden geçirilmesi gereken zaman çizelgelerinin listesi menüde bulunur. Bu seçenek yalnızca, bir iş akışı onaylayanı olarak atandığınızda kullanılabilir. Hem üstbilgi hem de satır onayı desteklenir. Satır düzeyi onay bir veya daha fazla satırı onay için işaretleme olanağını sunar. Zaman çizelgesi bilgilerini gözden geçirdikten sonra, iş akışına devam etmek için **Onayla** , **Temsilci** veya **Dön** 'ü tıklayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

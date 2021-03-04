@@ -90,3 +90,6 @@ Tahmin, durumu **Kaldırıldı** olarak değiştirir.
 Tüm elemeleri belirli bir tahmin tarihi ve **Elendi** tahmin durumuyla tersine çevirmek için bu sayfayı kullanın. Uygun alanları seçmeniz sonrasında işlem durumu değişir.
 
 Bu, proje aşaması bitmiş olarak ayarlanmışsa proje durumunu otomatik olarak **Devam ediyor** olarak değiştirir. Proje döneminin tahmin durumu **Gönderildi** olarak değişir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

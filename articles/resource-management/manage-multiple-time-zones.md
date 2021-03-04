@@ -68,3 +68,6 @@ Her kaynak için ayırmayı genişlet işlevi kullanıldıktan sonra her kaynağ
 Ayırmaların ayrıntılarına daha yakından bakıldığında ayırmaların başlangıç saatlerinde farklılıklar olduğu görülür. Ayırmaların başlangıcı, atama sınırının başlangıç zamanından ve kaynağın kullanılabilir başlangıç zamanından daha erken değildir.
 
 ![Zamanlama panosunda yeni kaynak ayırmaları](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

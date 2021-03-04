@@ -44,3 +44,6 @@ Aşağıdaki konular PSA'da teklif verme, fiyatlandırma ve faturalama işlevler
 - [Birim grupları ve birimler](advanced-units.md)
 - [Çok birimli para birimi](advanced-currency.md)
 - [Gerçek tutarları kaydetme](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

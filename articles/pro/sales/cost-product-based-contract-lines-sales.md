@@ -30,3 +30,6 @@ Katalog ürünü için ürün tabanlı sözleşme satırı oluşturulduğunda, s
 Ürün tabanlı sözleşme satırında birim maliyete sahip olmanın amacı bir ürünün her satışta farklı maliyetlere sahip olabilmesine izin vermektir. Her zaman gerekli olmasa da, ürün maliyetine tedarikçiye göre iskonto uygulanabilecek belirli senaryolar vardır. Aşağıdaki senaryoyu inceleyin:
 
 Fabrikam Robotics, A Datum Corporation'ın montaj hatlarına robotik kollar kuruyor. Fabrikam, kurulum hizmetleri sağlar ancak robotik kollar Trey Research'tendir. Adatum Corporation firmasına robotik kolların kurulumu, Trey Research şirketi yeni bir endüstriye açılan kapıysa Trey, Fabrikam'a bu anlaşma için özel bir iskonto sunabilir. Bu durumda Fabrikam, Robotic Arms için bir ürün tabanlı sözleşme satırı oluşturur. Bu sözleşme için birim başına maliyet girilir. Maliyet, Trey Research'ün robotik kollarının maliyetinden farklıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

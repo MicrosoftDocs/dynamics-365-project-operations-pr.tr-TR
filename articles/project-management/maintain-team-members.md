@@ -42,3 +42,6 @@ Seçim yaptığınızda kaynak, proje takımına eklenir ve göreve atanır anca
 Kaynağın kapasitesini projeye ayırmak için **Mutabakat** sekmesinin ayırmayı uzatma özelliğini veya **Zamanlama Panosu**'nu kullanabilirsiniz.
 
 Takım üyesi, projenize ayrıldıktan sonra ayırmalarını doğrudan yönetmek için **Ayırmaları koruma**'yı veya **Zamanlama Panosu**'nu kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

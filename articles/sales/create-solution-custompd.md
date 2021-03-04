@@ -64,3 +64,6 @@ Fiyatlandırma çözümünüzde önemli şema değişiklikleri yapmak için aşa
 5.  Seçilen varlıklar için bağımlı varlıklar eklemeniz istendiğinde **Hayır, gerekli bileşenleri ekleme** seçeneğini belirleyin.
 
     ![Bağımlı varlıklar ekleme](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

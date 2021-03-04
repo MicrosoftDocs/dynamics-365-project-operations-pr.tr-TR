@@ -55,3 +55,6 @@ Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerl
     | Geliştirici | Fabrikam ABD | $150 |
 
 3. Proje sözleşmesinin proje fiyat listesine veya belirli bir hesaba satış fiyatı listesini **Fabrikam ABD fatura fiyatları** iliştirin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Proje aşamaları, proje yaşam döngüsü için bir kılavuz olarak görev yapa
 4. Listede, değiştirmek istediğiniz önceden tanımlanmış veya kullanıcı tanımlı aşamayı seçin. 
 5. Proje aşaması alanına yeni adı girin.
 6. Kaydet 'i tıklatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

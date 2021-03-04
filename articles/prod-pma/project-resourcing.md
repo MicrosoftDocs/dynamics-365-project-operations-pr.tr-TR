@@ -55,3 +55,6 @@ Aşağıdaki konular kaynak projelerde çalışırken tamamlanması gereken gör
 - [Proje kaynak zamanlaması performansı](project-scheduling-performance.md)
 - [İş kırılım yapısı şablonlarında rolleri ayarlama](set-up-roles-wbs-template.md)
 - [Planlanan kaynaklar için kaynak karşılama](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Kaybedildi olarak kapatılan proje teklifi, herhangi bir satırında bir projeye
 
 > [!NOTE]
 > Project Operations'ta bir teklifin Kazanıldı veya Kaybedildi olarak kapatılması, Fırsat'ın bu durumunu etkilemez ve fırsat el ile kapatılana kadar açık kalır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

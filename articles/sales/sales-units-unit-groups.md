@@ -46,3 +46,6 @@ Bu konudaki adımları tamamlayabilmek için, Sistem Yöneticisi veya Sales Prof
 3. **Miktar** alanında, birimin içereceği miktarı girin. Örneğin, bir kutuda iki adet varsa "2" yazın. 
 4. **Temel birim** alanında, birime ait en düşük ölçü birimini oluşturmak için bir temel birim seçin. Örneğin, "Parça" seçeneğini kullanabilirsiniz.
 5. **Kaydet**'i seçin:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Bu görev kılavuzu, projede bir hareketin nasıl ayarlanacağını gösterir. A
 13. Listeden, seçili satırı işaretleyin. 
 14. Maliyet fiyatı alanına bir sayı girin. 
 15. Gönder'e tıklayın. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

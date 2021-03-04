@@ -34,3 +34,6 @@ Proje Fırsatları, yeni proje fırsatları oluşturmak için kolayca kopyalanab
     | Fiyatlandırmayı kopyala | Fırsattaki fiyatlandırmasının kaynak fırsattan kopyalanıp kopyalanmayacağını belirten bir Evet/Hayır değeri. | **Evet** seçilirse Fiyat listeleri kaynaktan hedef fırsata kopyalanır. **Hayır** seçilirse fiyat listeleri, ayarlanan en son fiyat listelerine göre yeniden varsayılan hale getirilir. |
 
 3. **Tamam**'ı seçin. Sistem, seçilen parametrelere göre proje fırsatının bir kopyasını oluşturur ve yeni proje fırsatı açılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

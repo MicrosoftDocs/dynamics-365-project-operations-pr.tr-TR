@@ -39,3 +39,6 @@ Kullanıcıyı gider temsilcisi olarak ayarlamak için aşağıdaki adımları t
 Temsilci, temsilci olarak atandığı var olan gider raporlarını hızlıca filtreleyebilir ve arayabilir. Temsilci ayrıca **Yeni gider raporu**'nu seçerek diğer kullanıcılar için hızlı bir şekilde yeni bir gider raporu oluşturabilir.
 
 Temsilciler, **Gider yönetimi** > **Giderlerim** > **Gider raporları**'na gidip **Diğer kullanıcıların giderlerini aç**'ı seçerek diğer çalışanlar için gider raporları oluşturabilir ve bunları yönetebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

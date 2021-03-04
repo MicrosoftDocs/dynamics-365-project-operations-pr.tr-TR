@@ -41,3 +41,6 @@ Aşağıda, Project Operations için benzersiz olan ve Sales tekliflerine göre 
 | Karlılık analizi | Teklif sekmesi | Sekme aşağıdaki ölçümleri gösterir:</br>- Toplam borçlandırılabilir maliyet</br></br>- Toplam borçlandırılamaz maliyet</br>- Toplam gelir</br>- Toplam gelir (taban)</br>- Brüt kar</br>- Düzeltilen brüt kar|
 | Müşteri Beklentileriyle Karşılaştırma | Teklif sekmesi | Bu sekme aşağıdaki ölçümleri gösterir:</br>- Tahmini tamamlanma zamanı</br>- İstenen tamamlanma</br>- Müşteri bütçesi</br>- Teklif değeri |
 | Teklif analizi | Teklif sekmesi | Bu sekmede bir proje teklifi için aşağıdaki başlıca KPI'lar özetlenmiştir</br>- Bütçe ve zamanlama için müşteri beklentileri karşılaştırması</br>- Brüt kar</br>- Düzeltilen brüt kar |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

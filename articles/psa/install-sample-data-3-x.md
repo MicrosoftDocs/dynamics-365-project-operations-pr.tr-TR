@@ -297,3 +297,6 @@ Bir kullanıcı seçin (örneğin Spencer Low) ve birden fazla kullanıcıya uyg
 
 > [!div class="mx-imgBorder"]
 > ![Etkin ayrılabilir kaynakların ekran görüntüsü](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

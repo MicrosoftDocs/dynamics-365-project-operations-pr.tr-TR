@@ -93,3 +93,6 @@ Project Operations sözleşmeleri, Dynamics 365 Sales sözleşmeleri üzerine ku
 - Project Operations sözleşmeleri kendi biçim ve kullanıcı arabirimi öğelerine, iş kurallarına, eklentilerdeki iş mantığına ve Sales sözleşmelerine göre benzersiz kılan istemci tarafı komut dosyalarına sahiptir.
 
 Bu nedenlerden dolayı, birbirinin yerine bir Sales sözleşmesi ve Project sözleşmesi kullanmayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

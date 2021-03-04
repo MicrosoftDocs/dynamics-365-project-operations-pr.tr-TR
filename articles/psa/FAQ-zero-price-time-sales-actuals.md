@@ -57,3 +57,6 @@ Zaman satış gerçek değerindeki fiyatlandırma boyutları için rol fiyatı �
 
 Yukarıdaki üç denetimi yaptıktan sonra zaman satış gerçek değerinizde geçerli bir fiyat görmüyorsanız, lütfen bir destek bileti oluşturun. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

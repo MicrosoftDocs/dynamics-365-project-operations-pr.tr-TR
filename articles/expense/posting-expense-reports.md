@@ -31,3 +31,6 @@ Gider raporundaki giderler, çalışanın bağlı olduğu şirketten başka bir 
 Gider raporunu deftere nakletmek için **Onaylanmış gider raporları** sayfasında, gider raporunu seçin ve ardından Eylem Bölmesi'nde **Deftere Naklet** seçeneğini belirleyin.
 
 Ayrıca listedeki tüm gider raporlarını aynı anda deftere nakledebilirsiniz. Tüm gider raporlarını seçin ve ardından **Deftere Naklet** seçeneğini belirleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

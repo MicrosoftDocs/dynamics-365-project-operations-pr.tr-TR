@@ -429,3 +429,6 @@ Zaman çizelgesi girişlerinde varsayılan proje kategorisi girişi üç düzeyd
 1. Uygulama, proje kaynağından varsayılan kategoriyi yerleştirmeye çalışır. Bu varsayılan kategori, **TSTimesheetSettingsService** sınıfındaki **getCurrentUserResource** ve **getDelegatedResourcesForCurrentUser** yöntemlerinde ayarlanır.
 2. Proje kaynak düzeyinde varsayılan kategori sağlanmamışsa, uygulama proje etkinliğinden almaya çalışır. Bu varsayılan kategori, **TSTimesheetProjectService** sınıfındaki **getActivitiesForProject** yönteminde ayarlanır.
 3. Proje etkinlik düzeyinde varsayılan kategori sağlanmamışsa, varsayılan kategori proje parametrelerinden alınır. Bu varsayılan kategori, **TSTimesheetProjectService** sınıfındaki **getProjectDetailsbyRule** yönteminde ayarlanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x yeni özellikler, yeni platform yete
 - [Zaman ve Gider değişiklikleri (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Kaynak yöneticisi değişiklikleri (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Project Service Automation 3.x'te kullanımdan kaldırılan web kaynakları](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

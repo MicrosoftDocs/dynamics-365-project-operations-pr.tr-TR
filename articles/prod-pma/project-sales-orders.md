@@ -41,3 +41,6 @@ Proje tabanlı satış siparişlerini iki şekilde oluşturabilirsiniz:
 - Projenin kendisine gidin. Eylem Bölmesi'nde, **Yönet > Madde görevleri > Satış siparişi** seçeneğini belirleyin. Proje bilgileri varsayılan olarak projede bulunan satış siparişinde kullanılır. Proje sözleşmesinde birden çok finansman kaynağı varsa, satış siparişinin ait olduğu müşteriyi ayarlamak üzere finansman kaynağını seçmeniz gerekir. Proje için yalnızca bir finansman kaynağı varsa, müşteri otomatik olarak ayarlanır.
 - **Tüm satış sipariş** listesi sayfasına gidin ve yeni bir satış siparişi oluşturun. Satış siparişi için projeyi seçmeniz gerekir. Proje seçildikten sonra, müşteri finansman kaynağından ayarlanır veya proje sözleşmesinde birden çok finansman kaynağı varsa, finansman kaynağını seçmeniz gerekir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

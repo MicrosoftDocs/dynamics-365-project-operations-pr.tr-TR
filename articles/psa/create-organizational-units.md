@@ -52,3 +52,6 @@ ms.locfileid: "5144752"
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Automation'ı yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Projenize, PSA'da genel veya adlandırılmış bir kaynak takımı ile personel 
 - [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](book-named-resource.md)
 - [Kaynak isteği gönderme](submit-resource-request.md)
 - [Kaynak isteğinden bir önerilen proje kaynağını kabul etme veya reddetme](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

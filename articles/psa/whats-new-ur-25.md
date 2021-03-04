@@ -70,3 +70,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **Kopyalama Projesi: Yardımcı Kaynağı Yönetimini Tahmin Eder**'den oluşturulan boş başvuru özel durumlarına yönelik olarak geliştirilmiş hata işleme
 - **Zaman ve Malzeme Faturalama Biriktirme listesi** üzerinde **faturalamaya hazır değil** fatura durumunu temizlemez.
 - **Rol fiyatı** ve **Katalog öğeleri** sekmesindeki yanlış etiketli **fiyatlar** düğmeleri düzeltildi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

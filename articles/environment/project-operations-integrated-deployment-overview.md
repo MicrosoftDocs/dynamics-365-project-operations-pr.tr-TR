@@ -43,3 +43,6 @@ Project Operations'tan beklentiniz aşağıdaki gereksinimleri de dahil tam proj
 - Projelere yönelik müşteriye yönelik faturalar oluşturmak için zengin, kurumsal sınıf satış vergisi ve Döviz Kuru altyapısı gerekir.
 - Uluslararası bir finans raporlama standartları (IFRS) uyumlu proje hesaplama ve gelir tanıma sistemi.
 - Finans veya Supply Chain Management uygulamaları ve proje tabanlı işlemlerin tümleştirilmesi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

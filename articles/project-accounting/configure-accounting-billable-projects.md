@@ -125,3 +125,6 @@ Sabit Fiyat – tamamlanan yüzde
 Proje maliyet ve gelir profili kuralları, faturalandırılabilir proje işlemleri işlenirken kullanılması gereken Proje maliyet ve gelir profilini belirler. Kuralları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Proje maliyet ve gelir profili kuralları**'na giderek tanımlayın.
 
 Kurallar proje sözleşmesine, proje grubuna veya belirli bir projeye göre tanımlanabilir. Sistem her zaman en yüksek ayrıntı düzeyi kuralını ilk olarak çeker.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

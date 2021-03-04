@@ -55,3 +55,6 @@ Henüz gönderilmeyen giderler silinebilir. Zaten gönderilmiş bir gideri silme
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [Onaylara genel bakış](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

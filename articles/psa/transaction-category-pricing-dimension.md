@@ -53,3 +53,6 @@ Aşağıdaki tabloda, yeni alanlarla güncelleştirilmesi gereken, varlığa gö
 2. **Parametreler** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, **Fiyatlandırma Boyutları** varlığındaki kayıtları gösteren sekmedeki ızgarayı not edin.
 3. **İşlem Kategorisi**'ni bu listeye ekleyin ve **Maliyet için Geçerli** ve **Satış için Geçerli** alanlarını **Evet** olarak ayarlayın.
 4. **Boyut Türü** alanında **Tutar tabanlı** öğesini ve ardından maliyet ve satışla ilgili **İşlem Kategorisi** için önceliği seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

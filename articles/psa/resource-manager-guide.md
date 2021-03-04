@@ -73,3 +73,6 @@ ms.locfileid: "5147362"
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)   
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

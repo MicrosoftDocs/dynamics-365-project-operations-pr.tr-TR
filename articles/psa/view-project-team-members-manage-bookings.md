@@ -57,3 +57,6 @@ Proje takımınızın bir listesini görüntüleyebilir ve buradan ayırma işle
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

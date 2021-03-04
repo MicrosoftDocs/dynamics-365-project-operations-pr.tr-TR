@@ -134,3 +134,6 @@ Common Data Service (CDS) uygulamasında verileri yapılandırmadan önce, aşa�
 13. **Kaydet**'i seçin. 
 
 ![Güncelleştirilmiş Proje Parametreleri](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

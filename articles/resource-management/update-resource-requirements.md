@@ -37,3 +37,5 @@ Proje yöneticisi olarak, bir takım üyesinin kaynak gereksinimini düzenlemek 
 ## <a name="edit-resource-assignment-contours"></a>Kaynak atama sınırlarını düzenleme
 
 Kaynak gereksinimlerinin ayrıntılarını düzenlemeye ek olarak, Proje yöneticisi **Desen Belirtin** işlevini kullanarak kaynak gereksiniminin bireysel sınırlarını güncelleştirebilir. **Desen Belirtin** seçeneği belirlendiğinde, bir sayfa açılır ve sınırları gün, hafta veya ay olarak zaman ölçeğine göre görüntüleyebilirsiniz. Her sınırın başlangıç saati, bitiş saati, belirli bir dönem içindeki toplam çalışma süresi ayarlanabilir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

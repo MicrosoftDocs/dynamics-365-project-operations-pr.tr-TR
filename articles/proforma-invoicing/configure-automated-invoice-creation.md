@@ -45,3 +45,6 @@ Fatura oluşturmaya yönelik toplu iş yinelenen bir iştir. Bu toplu iş birço
 
 > [!NOTE]
 > Toplu faturalama yalnızca fatura zamanlamalarında yapılandırılan proje sözleşme satırlarında çalışır. Sabit fiyatlı fatura yöntemine sahip bir sözleşme satırının kilometre taşları yapılandırılmış olmalıdır. Zaman ve malzeme faturalama yöntemi içeren bir proje sözleşmesi satırı, ayarlanmış bir tarih tabanlı fatura çizelgesine gereksinim duyar. Aynı şekilde, proje tabanlı bir sözleşme satırı için de geçerlidir.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

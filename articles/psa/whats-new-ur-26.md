@@ -74,3 +74,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - Teklif veya sözleşmede proje tabanlı bir satır seçerken **Öneri** düğmesinin yalnızca var olan bir ürünle ilişkili ürün tabanlı bir satır seçildiğinde görünür olması.
 - **Create_Product** ayrıcalığının **Create_ProjectContract** ayrıcalığından ayrılması.
 - Fatura satırının silinmesinin **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** üzerinde null başvuru hatasına neden olması.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

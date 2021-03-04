@@ -149,3 +149,6 @@ Varsayılan olarak, bir yaprak düğüm görevinin öncülleri yoksa başlangı�
 ### <a name="manual-scheduling"></a>El ile zamanlama
 
 Otomatik zamanlama kuralları gereksinimlerinizi karşılamıyorsa, görevin görev modunu **El ile Zamanlandı** olarak ayarlayabilirsiniz. Bu ayar, zamanlama altyapısının diğer zamanlama özniteliklerinin değerlerini hesaplamayı durdurur. Görev modu ne olursa olsun, görevlerde öncüller ayarlarsanız, her zaman bağımlı görevin başlangıç tarihini etkilersiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

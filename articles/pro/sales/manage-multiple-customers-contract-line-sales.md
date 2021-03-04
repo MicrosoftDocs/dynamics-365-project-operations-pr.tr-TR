@@ -43,3 +43,6 @@ Aşağıda, Proje tabanlı bir sözleşme satırının **sözleşme** satırı m
 Fatura bölme yüzdeleri kılavuz kullanılarak düzenlenebilir. Faturalama bölme yüzdeleri yüzde 100'e kadar toplamayan bir hata alırsınız. Fatura bölünmüş yüzdelerini düzenledikten sonra hatayı kapatmak için sayfayı yenileyin.
 
 Ayrıca, sözleşme satırı müşterilerinin alt ızgarasında da **dengeli dağıtım** seçmeyi deneyebilirsiniz. Bu eylem, fatura bölmelerini tüm sözleşme satırı müşterilerine eşit olarak ayırır. Bir yuvarlama faktörü varsa, bu müşteriye yuvarlama müşterisine eklenir. Bir sözleşme satırı müşterisi her zaman **yuvarlama** bayrağına sahip müşteri **yuvarlama** olarak **Evet** olarak etiketlenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

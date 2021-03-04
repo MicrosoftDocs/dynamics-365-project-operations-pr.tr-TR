@@ -84,3 +84,6 @@ Aşağıdaki web kaynakları kullanım dışı bırakıldı:
 > Kullanım dışı bırakılan kaynakların tam listesi için bkz. [Project Service Automation v3.x'te kullanımdan kaldırılan web kaynakları](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

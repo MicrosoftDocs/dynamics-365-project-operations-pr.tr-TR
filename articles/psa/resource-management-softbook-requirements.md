@@ -63,3 +63,6 @@ Aynı yöntemi kesin bir ayırmayı veya geçici bir ayırmayı Zamanlama Panosu
 Projenin **Takım** sekmesinde geçici ayrılan bir kaynağı kesin ayrılana dönüştürmek için kaynağı seçin ve ardından **Onayla**'yı seçin.
 
 ![Komutu onayla](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

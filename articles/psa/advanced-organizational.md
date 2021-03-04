@@ -167,3 +167,6 @@ Hiyerarşiniz benziyorsa, bunu aşağıda gösterildiği gibi düz bir liste ola
 Bir proje kendi kendine oluşturulduğunda, projenin varsayılan sözleşme birimi kendisini oluşturan kullanıcıyı temel alır. Bu kullanıcı aynı zamanda varsayılan proje yöneticisidir. Proje, teklif veya proje sözleşmesi gibi bir satış varlığına eşlenmişse, projedeki sözleşme birimi bunun yerine satış varlığını temel alır. Bu durumda proje tahminleri yeniden hesaplanabilir, çünkü sözleşme birimi değiştirilirse maliyet tahmini hesaplamak için kullanılan maliyet fiyat listesi değişir. Satış fiyat listesi, teklifteki proje fiyat listesiyle eşitlenmeleri için değiştirilecek satış tahminlerini hesaplamak için kullanılır.
 
 Projedeki **Sözleşme Birimi** ve **Para birimi** alanları düzenlemeye karşı kilitlidir çünkü bu alanları projenin eşlendiği satış varlığındaki (teklif veya proje sözleşmesi) değerlerle eşitlenmesi gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

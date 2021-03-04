@@ -72,3 +72,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - Teklife iliştirilen bir BPF son aşamada ise, teklif Kazanıldı olarak kapatıldığında oluşturulan sözleşmeye gitmez.
 - Bir zaman girişi geri alınırken **Faturalandıralınmamış satışların** ters işlemi özgün maliyete bağlıdır.
 - **Onay** düğmesini seçtikten sonra Fatura yenilenene kadar fatura durumu **Onaylandı** olarak değişmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

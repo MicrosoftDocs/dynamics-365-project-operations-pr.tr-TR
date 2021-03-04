@@ -69,3 +69,6 @@ Kaynak zamanlama performans geliştirmesini etkinleştirmek için aşağıdaki a
 
 > [!NOTE]
 > Bu, genel verileri ortamınızdaki tüm şirketler arasında **ResRollup** tablosuna dağıtır, bu nedenle toplu işlemin yalnızca bir yasal varlıkta çalıştırılması yeterlidir. Bu toplu işlem, tüm **Kaynak kullanılabilirliği** görünümleri için gereklidir. Bu toplu iş çalışmazsa, **ResRollup** verileri uçarak üzerinde oluşturulur ve bu da zaman alabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

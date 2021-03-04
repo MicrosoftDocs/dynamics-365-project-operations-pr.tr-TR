@@ -104,3 +104,6 @@ Kaynak ayırma sırasında, proje yöneticileri projelerde çalışabilecek rol 
 
 3. **Kaydet** 'i seçin ve sayfayı kapatın.
 4. **Yetkinlikler** sekmesinde, **ProjectMgmt** becerisini ve **PMP** sertifikasını ekleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

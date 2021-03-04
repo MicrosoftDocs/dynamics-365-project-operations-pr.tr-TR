@@ -23,3 +23,6 @@ Dynamics 365 Project Operations, onay aşamalarında doğru kayıt geçişini g�
 
   - Tüm destekleyici satırlar, günlük ve gerçek değerler gibi ilgili tablolarda oluşturulur.
   - Onaylayan, devam etmeden önce projede bir **proje onaylayan** olarak işaretlendi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

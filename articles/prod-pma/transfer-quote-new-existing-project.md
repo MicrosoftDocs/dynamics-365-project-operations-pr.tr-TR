@@ -36,3 +36,6 @@ Sihibrbazı kullanmak için bu adımları izleyin.
 1. **Proje yönetimi ve muhasebe** > **Teklifler** > **Proje teklifi** bölümüne gidin.
 2. Aktarmak istediğiniz teklifi seçin ve **izleme** sekmesinde, grubu **değiştir** 'de **projeye aktar** 'ı seçin.
 3. Teklifi ilişkilendirmek ve projeyle aktarmak için **teklifi projeye aktar** sihirbazını izleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

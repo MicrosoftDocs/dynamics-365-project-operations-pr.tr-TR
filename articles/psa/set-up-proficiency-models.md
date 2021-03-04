@@ -53,3 +53,6 @@ ms.locfileid: "5146777"
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

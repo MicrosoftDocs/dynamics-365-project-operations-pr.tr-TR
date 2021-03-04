@@ -46,3 +46,6 @@ Project Operations yalnızca sayısal veri türüne sahip sayısal özellikleri 
 7. Birlikte ürün tabanlı sözleşme satırı için miktarı oluşturan tüm özellikler için 2-6 arasındaki adımları yineleyin.
 
 Miktar faktörleri ayarlandığında, Kullanıcı bu ürün için bir sözleşme satırı oluşturduğunda, sözleşme satırının miktarı kilitlenir. Miktar daha sonra, bu sözleşme satırı için özellik değerlerinin bir ürünü olarak hesaplanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

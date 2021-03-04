@@ -55,3 +55,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **GetEstimatesForProject** eklentisi çağrıldığında boş bir başvuru özel durumu oluşturuluyor.
 - Kilometre taşı ızgarasındaki **Faturalamak için hazır olarak işaretle** seçeneği güncelleştirilmiş **InvoiceStatus** özniteliği dışında öznitelikleri yalnızca kısmen güncelleştiriyor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

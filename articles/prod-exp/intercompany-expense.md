@@ -35,3 +35,6 @@ Bir kuruluştaki tek bir varlık tarafından çalışan bir çalışanla aynı k
 
 Gider raporunuza ödünç alan (hedef) tüzel kişilik yerine ödünç veren (kaynak) tüzel kişilik ile ilişkili vergi gruplarını kullanabilmeniz için öncelikle Genel muhasebe satış vergisi kurulumunda işlevi etkinleştirmeniz gerekir. **Şirketler arası vergi ilanı için tüzel kişilik** parametresi **Kaynak** olarak ayarlandığında ve **Satış vergisi vergilendirme kuralları** **Hayır** olarak ayarlandığında ödünç veren tüzel kişilik için vergi kombinasyonu kullanılır. Aynı parametre **hedef** olarak ayarlandığında , yasal varlığın ödünç verilmesi için kullanılan vergi kombinasyonu kullanılır. ABD 'deki hukuk varlıkları için, parametre **kaynak** olarak ayarlandığında , **Satış vergisi alacakları** alanının da yeni **genel muhasebe deftere nakil grupları** sayfasında yapılandırılması gerekir. Muhasebe altyapısı, vergiyle ilgili muhasebe girişi için bu alandaki bilgileri kullanır.   
 Bu davranış, proje olmadan veya projesiyle deftere nakledilen masraf satırları için tutarlıdır.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

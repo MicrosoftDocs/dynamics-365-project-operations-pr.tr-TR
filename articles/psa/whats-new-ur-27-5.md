@@ -42,3 +42,6 @@ Bu konuda, Project Service Automation Güncelleştirme Sürümü 27.5 V3'te yeni
 Aşağıdaki sorunlar giderilmiştir:
 
 - Zamanlama yardımı arama performansının düşüşü
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

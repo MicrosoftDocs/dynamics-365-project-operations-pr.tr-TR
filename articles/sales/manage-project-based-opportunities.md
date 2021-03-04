@@ -65,3 +65,6 @@ Proje İşlemlerindeki fırsat satış süreci, satış uygulamasındaki fırsat
 > Proje tabanlı anlaşma bir Fırsatla başlatıldıysa, Fırsat satışları iş fırsatına göre önceliği vardır.
 
 Satış sürecinizi gerektiği gibi izlemek için ürün iş süreci akışı düzenleyebilir veya kendi iş süreci akışlarınızı oluşturabilirsiniz. İş süreci akışları hakkında daha fazla bilgi için bkz. [İş süreci akışlarına genel bakış](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

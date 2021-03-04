@@ -98,3 +98,6 @@ Dağıtımı tamamlamak için [Yeni bir ortam sağlama](resource-provision-new-e
 
 CDS kurulum ve yapılandırma verilerini [Common Data Service uygulamasında yapılandırma verilerini ayarlama ve uygulama](resource-apply-pro-setup-config-data.md) başlıklı konuda açıklandığı gibi yükleyin.
 Bu adımı ancak Finans demo ortamı dağıtıldıktan ve FO'daki demo verileri hazır olduktan sonra tamamlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

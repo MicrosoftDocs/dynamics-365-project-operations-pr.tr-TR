@@ -59,3 +59,6 @@ Her projede birkaç proje takımı üyesi vardır. Takım üyelerinden hangileri
 3. **Kaydet**'i seçin.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

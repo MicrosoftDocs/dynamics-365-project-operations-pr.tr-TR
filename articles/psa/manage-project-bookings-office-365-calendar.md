@@ -91,3 +91,6 @@ Kişisel randevuları, proje-iş ayırmalarını ve field service iş emri atama
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

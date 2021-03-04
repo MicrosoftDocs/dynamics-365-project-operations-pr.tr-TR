@@ -105,3 +105,6 @@ Dynamics 365, farklı para birimlerindeki tutarların toplamalarını otomatik o
 | Gider           | Faturalanmayan satış   | 17 Haz | Doğu  | Araba Kiralama           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Projedeki toplam faturalandırmayan satış değerini hesaplamak için, tüm ilgili faturalanmayan satış fiili değerleri üzerinde **Tutar** alanı için bir toplama alanı oluşturabilirsiniz. Toplama alanı, ilgili kayıtlarda hızlı formüllere olanak sağlayan bir Dynamics 365 yapısıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

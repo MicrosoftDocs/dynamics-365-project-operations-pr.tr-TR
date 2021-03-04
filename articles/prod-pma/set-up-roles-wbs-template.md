@@ -107,3 +107,6 @@ Kaynak atama işlevselliğini daha iyi kullanmak için IKY'ye ek seçenekler ekl
     > Belirtilen kaynağın artık 2 olduğunu bildiren bir uyarı alamazsınız, çünkü kaynak sayısı 1 olarak kalır.
 
 14. **İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve ardından **Kaydet** 'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

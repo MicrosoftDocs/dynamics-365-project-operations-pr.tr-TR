@@ -34,3 +34,6 @@ Dönem türleri oluşturmak ve dönem türleriyle çalışmak için aşağıdaki
 4. Dönem türü kaydını seçin ve ardından **Dönem oluştur** seçeneğini belirleyerek dönem türü için dönemler oluşturun. Seçtiğiniz dönem sıklığına bağlı olarak, dönem oluşturmak için bir başlangıç tarihi veya dönem sayısı belirtme seçeneğiniz olabilir.
 5. Oluşturulan dönemleri gözden geçirmek için **Dönemler**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

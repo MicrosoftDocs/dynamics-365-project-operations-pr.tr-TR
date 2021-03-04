@@ -83,3 +83,6 @@ Bu konuda, Gider yönetimindeki genel davranışları denetleyen parametreler a�
 | Yolsuzlukla mücadele beyanını görüntüleme   | Gider raporu oluşturulduğunda, yolsuzlukla mücadele metninin gösterilmesi için bu seçeneği belirleyin. Belirli gider kategorileri, gider raporunda yolsuzlukla mücadele beyanının seçilmesinin ardından etkinleşecek şekilde düzenlenebilir. Örneğin, kamu yetkilisi gideriyle ilgili bir hediye kategorisi, giderin kamu yetkilileriyle ilgili şirket ilkelerine uygun olduğunun çalışan tarafından onaylanmasını gerektirebilir. |
 | Gönderen için yolsuzlukla mücadele iletisi | Gider raporu oluşturan bir çalışana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
 | Onaylayan için yolsuzlukla mücadele iletisi  | Gider raporu oluşturulduğunda, onaylayana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

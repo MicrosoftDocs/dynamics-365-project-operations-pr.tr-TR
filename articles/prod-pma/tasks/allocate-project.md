@@ -44,3 +44,6 @@ Bütçe veya bütçe düzeltmesi tahsis edildikten sonra, bütçe veya bütçe d
 10. Tahsisat istediğiniz gibi olduğunda, bütçe veya bütçe düzeltmelerini onay iş akışına göndermek için Proje bütçesi sayfasında Gönder'i tıklayın.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

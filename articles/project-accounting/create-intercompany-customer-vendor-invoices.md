@@ -61,3 +61,6 @@ Tüm ödünç alan tüzel kişilikler için aynı anda birden fazla şirketler a
 ## <a name="post-the-intercompany-vendor-invoice"></a>Şirketler arası satıcı faturasını deftere nakletme
 
 Ödünç alan tüzel kişilikteki bir proje muhasebecisi, ilgili şirketler arası müşteri faturası deftere nakledildiğinde şirketler arası bekleyen satıcı faturalarını gözden geçirebilir. Finance'te ödünç alan tüzel kişilikte, **Borç hesapları** > **Faturalar** > **Bekleyen satıcı faturası**'na gidin. Bekleyen fatura numarası, şirketler arası müşteri faturası numarasıyla eşleşir. Faturanın doğru olduğundan emin olun ve ardından faturayı deftere nakledin. Şirketler arası satıcı faturasını deftere nakletme işlemi, ödünç alan tüzel kişilikteki işlem maliyetlerini yansıtan bir proje yardımcı defteri ve bir genel muhasebe işlemi oluşturur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

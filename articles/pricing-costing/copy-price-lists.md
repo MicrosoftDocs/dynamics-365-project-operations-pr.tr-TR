@@ -43,3 +43,6 @@ Fiyat listesinin kopyasını oluşturmak için aşağıdaki adımları izleyin.
 1. Bir fiyat listesinin **Rol**, **kategori** ve **Fiyat listesi öğesi** sekmelerinde, alt kılavuzdaki tüm fiyatlar için bir sair gider uygulamak üzere **Fiyatları Güncelleştir**'i seçebilirsiniz. 
 2. Açılan iletişim kutusunda, bir işaretleme girin. Ayrıca, belirli bir yüzdeye göre fiyatları azaltmak için negatif bir yüzde işareti de girebilirsiniz. 
 3. İletişim sayfasında **Tamam**'ı seçin ve ardından alt kılavuzdaki fiyatların yaptığınız değişiklikleri yansıttığından emin olun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

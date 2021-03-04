@@ -153,3 +153,6 @@ Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örn
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projeler ve Sözleşmelerdeki proje sözleşme satırı kilometre taşı eşlemesi (PSA 3.x Dynamics)-v2 şablonu:
 
 [![Proje sözleşme satırı dönüm noktası eşlemesi sürüm iki şablonuyla](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ Fatura oranları gibi, insan kaynaklarına yönelik maliyet oranları da fiyat l
     1. Kuruluş birimine iliştirilen maliyet fiyatı listesi.
     2. Proje hizmeti parametrelerine iliştirilen maliyet fiyatı listesi. Çok sayıda farklı para birimindeki maliyet fiyatı listeleri proje hizmeti parametrelerine iliştirilebildiğinden PSA proje, sözleşme veya teklifin sözleşme kuruluş birimi para birimi ile maliyet fiyatı listesinin para birimi arasında bir para birimi eşleşmesi yapar.
     3. Giderler için, maliyette ve maliyet üzerinden kar payı fiyatlandırma yöntemleri maliyet fiyatı listelerine uygulanmaz. Bu fiyatlandırma yöntemleri, işlem kategorisi maliyetlerini ayarlamak üzere maliyet fiyatı listesi satırlarında kullanılmasına rağmen, sistem bunları yoksayar ve varsayılan maliyet fiyatı girilmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

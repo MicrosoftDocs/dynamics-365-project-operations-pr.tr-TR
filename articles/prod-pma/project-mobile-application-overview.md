@@ -49,3 +49,6 @@ My timesheets (mobil için optimize edilmiştir) ve Timesheets for my review (mo
 - [Project Time Entry]( project-time-entry-mobile-workspace.md)
 - [Mobil cihazda Project Timesheets](Mobile-timesheets.md)
 - [iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

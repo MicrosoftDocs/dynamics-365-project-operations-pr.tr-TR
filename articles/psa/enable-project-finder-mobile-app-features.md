@@ -68,3 +68,6 @@ Kaynaklarınız, çalışacak yeni projeler bulmak ve becerilerini güncelleşti
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

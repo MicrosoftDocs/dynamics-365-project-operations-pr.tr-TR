@@ -198,3 +198,6 @@ Proje sözleşmesi satırındaki özgün kilometre taşındaki kilometre taşı 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

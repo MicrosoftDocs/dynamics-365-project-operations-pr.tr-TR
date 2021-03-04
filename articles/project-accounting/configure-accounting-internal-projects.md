@@ -32,3 +32,6 @@ Dynamics 365 Project Operations'da bir sözleşmeyle ilişkilendirilmemiş herha
 Hareketler projeye nakledildikten sonra, proje bir proje sözleşmesiyle ilişkilendirilmişse, sistem tüm birikmiş hareketleri ters çevirir ve yeni faturalandırılabilir hareketler oluşturur. Faturalandırılabilir hareketler, ilgili proje maliyet ve gelir profili ' nde tanımlanan hesap kurallarını izler.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

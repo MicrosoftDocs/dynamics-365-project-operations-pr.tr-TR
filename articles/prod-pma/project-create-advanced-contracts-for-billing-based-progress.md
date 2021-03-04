@@ -103,3 +103,6 @@ Bütçe kategorileri, her kategori için tamamlanan çalışma yüzdesinin fatur
 8. İsteğe bağlı: fatura kuralını ek projelere atayın. **Proje** Hızlı sekmesinde, **kullanılabilir projeler** bölümünde bir proje seçin ve ardından projeyi **Seçili projeler** bölümüne eklemek için sağ ok düğmesini seçin.
 9. İsteğe bağlı: müşterinin bir faturadaki ödemeler üzerinden tuttuğu yüzde tutarını hesaplayın. **Ödeme bekletme şartları** hızlı sekmesinde, komik kaynağı seçin ve sonra **bekletme yüzdesi** alanına bekletme yüzdesini girin.
 10. Proje sözleşmesiyle ilgili ek faturalama kuralları oluşturmak için bu adımları yineleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

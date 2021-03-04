@@ -60,3 +60,6 @@ Dynamics 365 Project Operations uygulamasında gelir tanıma ilkeleri, bir proje
 [Gelir tahminlerini yönetme](rev-rec-completed-contract-method.md)
 
 [Tamamlama maliyeti yöntemleri](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

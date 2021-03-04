@@ -65,3 +65,6 @@ Proje için çalışmalar tamamlandığında, proje yöneticisi aşamayı **Tama
 ## <a name="close"></a>Kapat
 
 Tüm işlemler kaydedildiğinde proje yöneticisi aşamayı **Kapat** olarak güncelleştirebilir. Bu noktada hiçbir işlem kaydedilemez ve proje salt okunur olarak ayarlanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

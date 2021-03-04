@@ -41,3 +41,6 @@ Gider temsilcisi, başka bir çalışan için gider raporları oluşturabilir ve
 Temsilci kullanıcı, temsil ettiği mevcut gider raporlarını hızlı bir şekilde filtreleyebilir ve arayabilir. Ayrıca **Yeni gider raporu**'nu seçerek diğer kullanıcılar için yeni bir gider raporu oluşturabilir.
 
 Temsilci kullanıcılar, **Gider yönetimi** > **Giderlerim** > **Gider raporları**'na gidip **Diğer kullanıcıların giderlerini aç** seçeneğini belirleyerek diğer çalışanlar için gider raporları oluşturabilir ve yönetebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

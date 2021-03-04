@@ -80,3 +80,6 @@ Müşteri Adayından Fırsata iş süreci aşağıdaki aşamaları destekler:
 | Geliştir | Fırsat | Mevcut çalışmalar, önemli paydaşlar ve rekabet hakkında daha fazla bilgi eklemek için fırsatı geliştirin. |
 | Teklif Et | Fırsat | Teklifi geliştirin ve dahili inceleme takımından onay alın. |
 | Kapat | Fırsat | Anlaşmaya varmak için fırsatı kazanın. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Bir zaman çizelgesini veya gideri onayladığınızda ya da PSA'da bir sözleş
 **İşlem Kaynağı** varlığı, **Gerçek** kaydının kaynağını kaydeder ve **İşlem Bağlantısı** varlığı, **Gerçek** kaydı için ilgili kayıtları kaydeder. Ek olarak; **Gerçek** kaydı proje, proje sözleşmesi (sipariş), ayrılabilir kaynak ve müşteri başvurularını içerir.
 
 ![İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram](media/PS-Reporting-image6.png "İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya
 
 Fırsat özetinin gelir yöntemi **Sistem Tarafından Hesaplanan** olduğunda, tahmini geliri hesaplamak için fırsat satırlarındaki müşteri bütçesi değerleri özetlenir. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

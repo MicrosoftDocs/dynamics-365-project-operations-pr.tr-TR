@@ -64,3 +64,6 @@ Bu konuda kuruluşunuzda iki şirket arasında proje faturalarının nasıl ayar
 32. **Fiyat** alanına bir sayı girin.
 33. **Kaydet** 'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

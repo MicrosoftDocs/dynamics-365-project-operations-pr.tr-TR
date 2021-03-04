@@ -52,3 +52,6 @@ Bir sözleşme müşterisi, **Proje sözleşmesi** sayfasındaki **müşteriler*
 Fatura bölme yüzdeleri satır içi kılavuz düzenleme deneyimi kullanılarak düzenlenebilir. Faturalama bölme yüzdeleri yüzde 100'e kadar toplamayan bir hata alırsınız. Fatura bölünmüş yüzdelerini düzenledikten sonra hatayı kapatmak için sayfayı yenileyin.
 
 Ayrıca, **sözleşme müşterileri** alt ızgarasında, fatura bölmelerini tüm sözleşme müşterilerine **eşit olarak tahsis etmek** için eşit dağıtmayı seçebilirsiniz. Bir yuvarlama faktörü varsa, bu müşteriye yuvarlama müşterisine eklenir. Sözleşmeden müşterilerden biri her zaman Müşteri **yuvarlama** olarak etiketlenir, bu da sözleşme müşterisi kaydının yuvarlama bayrağı **Evet** olarak ayarlanmış olduğu anlamına gelir. Genel olarak bu, sözleşmenin birincil müşteridir, ancak aynı zamanda değiştirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

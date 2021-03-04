@@ -51,3 +51,6 @@ Tahmin kapsamındaki bir projeyi elemek için bu projenin tamamlanması gerekir.
 5. Eliminasyon işlemi tamamlandıktan sonra, elenen tahmin projesi negatif bir değerle görüntülenir. 
 
 Bir tahmini elemeyi düşünmüyorsanız, elenen tahmini ve ardından **Elemeyi tersine çevir** seçebilirsiniz.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

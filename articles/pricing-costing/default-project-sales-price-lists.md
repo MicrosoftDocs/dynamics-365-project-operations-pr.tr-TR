@@ -57,3 +57,6 @@ Maliyet fiyat listeleri, Project Operations'taki herhangi bir varlık için vars
 5. Sistem daha sonra, gelen tahmin veya gerçek satırın tarihiyle eşleşen fiyat listelerinin tarih efekti'ni bakar. 
 6. Gelen tahmin veya fiili tarihte geçerli olan birden çok fiyat listesi varsa, en son oluşturulan fiyat listesi seçilir.
 7. Para birimi ve geçerlilik tarihiyle eşleşen proje parametrelerine bağlı maliyet fiyat listeleri yoksa, sistem gelen tahmin veya fiili satırda maliyet oranını sıfıra (0) varsayılan olarak alır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

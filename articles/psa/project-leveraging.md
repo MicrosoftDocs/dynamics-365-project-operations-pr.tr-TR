@@ -54,3 +54,6 @@ Zamanlama, çalışmayı görevlere bölmenizi, görevlerin hiyerarşisini korum
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Bir projeden tahminleri teklife içeri aktarma
 
 Proje tahminlerini tanımladıktan sonra, bunları teklif satırına içeri aktarabilirsiniz. **Teklif Satırı Ayrıntıları** sayfasında, proje tahminlerini işlem türüne, role veya görev düzeyine göre özetlemek için şeritteki **Tahminlerden al**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

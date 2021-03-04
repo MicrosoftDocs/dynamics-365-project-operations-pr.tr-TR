@@ -91,3 +91,6 @@ Yeni bir kaynak gereksiniminden ayırma gerçekleştirmek için aşağıdaki ad�
 
 4. Kaynak artık ayrıldığı için, görevleri el ile atamanız gerekir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

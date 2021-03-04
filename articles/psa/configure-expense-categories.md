@@ -55,3 +55,6 @@ Her bir gider kategorisi kendi birim grubuna ve birimine sahip olabilir. Gider k
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Automation'ı yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ GBPM'de çalışan geliştirici Molly Clark, proje yöneticisi tarafından onayl
     - Alacak: Proje – Tahakkuk Eden Gelir 120 USD
 
     Sistem artık şirketler arası müşteri faturası oluşturmaya hazırdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

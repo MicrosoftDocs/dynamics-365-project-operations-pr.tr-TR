@@ -112,3 +112,6 @@ Aşağıdaki örnekte, **removeNamedResources** parametre kümesiyle **CopyProje
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

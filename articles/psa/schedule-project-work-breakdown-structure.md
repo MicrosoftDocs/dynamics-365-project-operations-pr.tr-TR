@@ -152,3 +152,6 @@ Proje zamanlaması, çalışmanın gerçekleştirilmesi için gereken kaynaklarl
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje yöneticisi kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

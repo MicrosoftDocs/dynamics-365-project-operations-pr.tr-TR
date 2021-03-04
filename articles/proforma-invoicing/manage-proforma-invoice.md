@@ -135,3 +135,6 @@ Fatura oluşturulduktan sonra gelen fiili değerleri varsa, bu fiili değerleri 
 2. Taslak proforma faturayı açın ve şerit **Eylemleri**'nde **Fatura satırı hareketlerini Yenile**'yi tıklatın.
 
   Bu, tarihlenen ve **Faturaya hazır** olarak işaretlenen tüm fiili için fatura satırı ayrıntılarını oluşturur ancak faturaya dahil edilmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

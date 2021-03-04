@@ -81,3 +81,6 @@ Hiçbiri yöntemi ancak bir projede **Takım** sekmesinden ayırma yaptığını
 - Saatleri Eşit Dağıt
 
 Bu üç ayırma yönteminden birini kullanırken, fazladan kaynak ayırma bildirimi almazsınız. Fazladan ayırmayı düzeltmek için Zamanlama panosunu kullanmanız gerekecektir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

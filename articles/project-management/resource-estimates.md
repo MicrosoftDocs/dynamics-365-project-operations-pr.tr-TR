@@ -34,3 +34,6 @@ Satış fiyatları her anlaşma için bir kere uygulanır. Varsayılan satış f
 1. Kuruluş
 2. Müşteri
 3. Teklif/sözleşme
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Ayrıca, zaman girişi varlığı için tüm formları içeren herhangi bir öze
 
 ### <a name="currently-extended-time-entry-changes"></a>Şu anda uzatılmış zaman girişi değişiklikleri
 Zaman girişinin geçerli kullanıcılar üzerindeki etkisini en aza indirmek amacıyla, bu rol değişikliği zaman girişinden yararlanmaya devam etmek için gereken tek temel gereksinimdir. Özel görünümler veya ayrı zaman girişi deneyimleri oluşturduysanız, **Zaman Girişi Ayarı** alanlarını doğru PSA değerine ayarlamanız gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

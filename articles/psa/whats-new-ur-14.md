@@ -64,3 +64,6 @@ Bu konuda, PSA V3, Güncelleştirme Sürümü 14'te yeni veya değiştirilmiş �
      - Düzeltildi: Toplam satış fiyatı kullanıcı projedeki gider tahminleri için bir maliyet fiyatı girene kadar hesaplanmıyor.
      - Düzeltildi: İlişkili proje sözleşmesi **Taslak** durumunda değilse, teklif **Kazanıldı** olarak kapatılamıyor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

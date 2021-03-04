@@ -61,3 +61,6 @@ Proje takımı, kaynak projeden kopyalandığında, genel kaynaklar kopyalanır.
 Proje kopyalandığında, kaynak projeden kaynak ve gider tahmini satırları kopyalanır. 
 
 Program aracılığıyla uygulamasına yönelik kopyalama projesi hakkında daha fazla bilgi için bkz. [Kopyalama projesi ile proje şablonları geliştirme](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

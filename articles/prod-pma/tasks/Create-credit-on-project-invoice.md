@@ -39,3 +39,6 @@ ms.locfileid: "4086301"
 10. Tamam'ı tıklatın. 
 
 Bu adımdan sonra, Alacak Dekontu Fatura Teklifi için kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

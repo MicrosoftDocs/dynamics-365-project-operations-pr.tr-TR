@@ -55,3 +55,6 @@ Bu fiyatlandırma yöntemi bir satış fiyatı listesine bağlantılandırılmı
 
 ### <a name="markup-over-cost"></a>Maliyet üzerinde kar payı
 Bu fiyatlandırma yöntemi bir satış fiyatı listesine bağlantılandırılmış bir kategori fiyat satırında seçildiğinde, hem tahmin, hem de gerçek değer olarak kategori ve birim kombinasyonunun varsayılan değerleri hesaplanır. Örneğin, masraf hareket sınıfı için faturalandıralınmamış satış fiili değerleri. Bu birim fiyat, faturalanan satış fiili değerinin, tanımlanan biçimlendirme yüzdesi uygulandıktan sonra bu masraf için fiili maliyet üzerindeki birim fiyattan hesaplanan bir değere ayarlanmıştır. Maliyeti temel alan Fiyat varsayılanı, giderler için proje tahminlerine veya gider için teklif satırı ve sözleşme satırı ayrıntılarına yapılmaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

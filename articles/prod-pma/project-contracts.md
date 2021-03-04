@@ -344,3 +344,6 @@ Proje sözleşmesini ayarlarken, proje üzerinde zaman ve malzeme için her ay m
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

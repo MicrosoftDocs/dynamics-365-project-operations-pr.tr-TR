@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4124617"
 ---
 # <a name="sample-data-home-page"></a>Örnek veri giriş sayfası
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Yapılandırmaya başlamadan önce Dynamics 365 Project Operations için sağlan
     -   Ayrılabilir Kaynak Özelliği
 
     ![İçeri Aktarmayı Tamamlama](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

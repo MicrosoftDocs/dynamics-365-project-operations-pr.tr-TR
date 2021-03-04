@@ -81,3 +81,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **Gerçek Değerleri Yenile** düğmesi, özet görevleri düzgün hesaplamıyor.
 - Microsoft Project Eklentisi: Bir takım üyesi boş bir kaynak belirleme birimine sahipse null başvuru hatasını düzeltir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

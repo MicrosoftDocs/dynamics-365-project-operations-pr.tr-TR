@@ -68,3 +68,6 @@ Kilometre taşı oluşturmak için ihtiyacınız olan Sabit fiyatlı teklif sat�
 | Fatura durumu | Hızlı oluştur | Kilometre taşı oluşturulduğunda, bu durum her zaman **Faturalama için hazır değil** olarak ayarlanır. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Satır Tutarı | Hızlı oluştur | Müşteriye faturalanacak kilometre taşının tutarı veya değeri. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Vergi | Hızlı oluştur | Kilometre taşına uygulanacak vergi tutarı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

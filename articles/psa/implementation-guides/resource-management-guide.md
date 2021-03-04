@@ -44,3 +44,6 @@ daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşa�
 
 > [!NOTE]
 > Bu konu gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

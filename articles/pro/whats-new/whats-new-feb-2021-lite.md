@@ -38,3 +38,6 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | **Proje Planlama ve İzleme** | Kategori 2164035 | **Projeyi Kopyala** işleviyle ilgili sorunlar düzeltildi. |
 | **Zaman girişi** | Kategori 2129161 | Kullanıcıların gönderilen veya onaylanan bir zaman girişini değiştirememesini ve güncelleştirememesini sağlamak için daha sıkı kısıtlamalar uygulandı. |
 | **Zaman girişi** | Kategori 2103572 | Proje dışı zaman girişleri için zaman onayının proje onaylayanı rolünü aramaması gerekir. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

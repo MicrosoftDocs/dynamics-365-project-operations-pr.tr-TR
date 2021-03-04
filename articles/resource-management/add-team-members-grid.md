@@ -200,3 +200,6 @@ Zamanı daha yüksek düzeylerde görüntülediğinizde **Mutabakat** sekmesinde
 Kaynak için görev atamalarınızın olduğu ama ayırmalarınızın olmadığı bir durumda **Projeler** formundaki **Mutabakat** sekmesinde ayırma eksikliğini seçin ve ardından **Ayırmayı Uzat** seçeneğini belirleyin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. İletişim kutusu, kaynağın tüm projeler veya diğer zamanlanabilir varlıklarda var olan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam**'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
 
 Ardından Proje yöneticisi veya Kaynak yöneticisi, bir kaynağın kapasitesi üzerinde ayrılmış olan durumları yönetmek için Zamanlama Panosu'nu kullanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

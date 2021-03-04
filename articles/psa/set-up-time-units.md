@@ -47,3 +47,6 @@ Projelerinizi zamanlama ve faturalama için temel olarak kullanacağınız ürü
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

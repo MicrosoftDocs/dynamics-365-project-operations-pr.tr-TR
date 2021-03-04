@@ -61,3 +61,6 @@ Bu konuda, Project Service Automation Güncelleştirme Sürümü 12 V3'te yeni v
     - Düzeltildi: **Sözleşme ana** formunda bulunan yinelenen nesne kimlikleri.
     - Düzeltildi: Mantık, sekmenin meta veri kurulumunu görüntüleyebilmesi için **Teklif Analizi** sekmesini görünür yapacak şekilde güncelleştirildi.
     - Düzeltildi: Gerçek kayıttaki muhasebe tarihi artık onay tarihinden değil, zaman/gider giriş tarihinden alınıyor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

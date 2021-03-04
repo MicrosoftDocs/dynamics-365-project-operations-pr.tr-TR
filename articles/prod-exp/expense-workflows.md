@@ -50,3 +50,6 @@ Aşağıdaki tabloda, **Gider** öğesinde oluşturabileceğiniz iş akışı t�
 |      <strong>Nakit avans isteği</strong>      |         Nakit avans istekleri için onay iş akışları oluşturun.          |
 |        <strong>KDV vergisinden düşme</strong>        | Katma değer vergisinin (KDV) düşülmesi için onay iş akışları oluşturun.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

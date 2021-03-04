@@ -30,3 +30,6 @@ Proje yöneticisi, [Zaman ve malzeme faturalama biriktirme listesi](../proforma-
 [El ile bir proforma fatura oluşturabilir](../proforma-invoicing/create-manual-proforma-invoice.md) veya bir [dönemsel işlem](../proforma-invoicing/configure-automated-invoice-creation.md) kullanabilirsiniz. Proje yöneticisi gerektiğinde [taslak proforma fatura düzenleyebilir](../proforma-invoicing/manage-proforma-invoice.md) ve ardından onaylayabilir.
 
 Onaylanan proforma fatura, Finance uygulamasındaki **Proje yönetimi ve muhasebe** modülüne gönderilir. Proje muhasebecisi, proje faturası teklifini biçimlendirip güncelleştirir ve ardından belgeyi deftere kaydederek yazdırır. Gönderilen proje faturaları, Genel muhasebe defterinin yanı sıra Müşteri ve Proje alt defterlerine de kaydedilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

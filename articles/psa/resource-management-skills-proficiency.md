@@ -48,3 +48,6 @@ Kaynaklar için beceriler, uzmanlık modellerine göre derecelendirilir. Her der
 > ![Minimum ve maksimum derecelendirme tanımlandı](media/Resource-Management-image85.png)
 
 Bu derecelendirme değerleri; **Kaynak Gereksinimleri**, **Zamanlama Panosu** ve **Zamanlama Yardımcısı** filtrelerinde gösterilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

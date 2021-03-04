@@ -36,3 +36,6 @@ Dynamics 365 Project Operations ortamlarınızı yönetmek için Lifecycle Servi
 
 Project Operations ortamınızı dağıtmak için bu LCS projesini kullanın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

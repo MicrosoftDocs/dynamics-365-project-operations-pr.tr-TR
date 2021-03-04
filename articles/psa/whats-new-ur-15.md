@@ -63,3 +63,6 @@ Bu konuda, PSA V3, Güncelleştirme Sürümü 15'te yeni veya değiştirilmiş �
   - Düzeltildi: 1000'den fazla proje olduğunda, **Teklif Satırı** formundaki **Proje arama** hata iletisi artık görünmüyor.
   - Düzeltildi: İşçilik tahminleri ve gider tahminleri için **Tahminler** ızgarası artık doğru para birimi simgesiyle görüntüleniyor.
   - Düzeltildi: Bir kuruluş PSA'yı Güncelleştirme Sürümü 14'ten Güncelleştirme Sürümü 15'e güncelleştirdiğinde, **Zamanlama** sekmesi **Proje** formunda artık boş görünmüyor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

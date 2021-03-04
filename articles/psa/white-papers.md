@@ -45,3 +45,6 @@ Bu teknik incelemeler [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)
 
 ### <a name="see-also"></a>Ayrıca bkz.
  [Project Service'a Genel Bakış](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

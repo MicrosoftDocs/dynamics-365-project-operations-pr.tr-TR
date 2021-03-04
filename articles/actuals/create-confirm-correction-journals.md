@@ -89,3 +89,6 @@ Bir veya daha fazla gider girişini düzeltmek için aşağıdaki adımları uyg
 8. Proje sayfasında, **Gerçek değerler** sekmesinde, **Gerçek Değerler İlişkili Görünümü**'nü gözden geçirin. Orijinal girişler ve düzeltilen girişler listelenir. Aşağıdaki grafik orijinal gider girişi tutarlarını ve karşılık gelen düzeltilmiş gider girişi tutarlarını gösterir. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

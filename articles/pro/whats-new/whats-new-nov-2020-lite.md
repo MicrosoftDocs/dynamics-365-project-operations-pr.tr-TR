@@ -37,3 +37,6 @@ Aşağıdaki tabloda CD ortamı sürüm 4.4.0.70'te Project Operations için gü
 | Zaman ve hızlı gider girişi | Kategori 2047499          | Zaman girişi sayfasındaki **yeni** düğmesi **Yeni e-posta imza** sayfasını açar.                                                                                               |
 | Zaman ve hızlı gider girişi | Kategori 2059859          | Masraf girişi oluştururken beklenmeyen açılır pencere açılır.                                                                                                                         |
 | Diğer                        | Kategori 2044181          | [PO kaldırma]- **msdyn_ProjectServiceCore_Patch** ve msdyn Project Service çekirdek çözümlerini kaldırmaya çalıştığınızda "Kayıt kullanılamıyor" hatası oluşuyor.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

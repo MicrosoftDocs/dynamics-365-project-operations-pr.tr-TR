@@ -127,3 +127,6 @@ Microsoft Project Client'ı kullanarak yeni bir iş kırılım yapısı oluştur
 8.  Kaynak için kullanılacak **Takvimi** seçin.
 
 11. **Tamam** 'a tıklayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

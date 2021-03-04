@@ -116,3 +116,6 @@ Görev modunun, öncül/bağımlı görevlerin başlangıç ve bitiş tarihleri 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erişilebilirlik ve klavye kısayolları
 
 **Zamanlama** kılavuzu tam olarak erişilebilirdir ve Narrator, JAWS veya NVDA gibi ekran okuyucularla kullanılabilir. Ok tuşlarını kullanarak (Microsoft Excel'de olduğu gibi) ızgara alanında hareket edebilir, etkileşimli kullanıcı arabirimi öğeleri arasında ilerlemek için Sekme tuşunu kullanabilir ve açılan menüleri seçip açmak için Aşağı Ok tuşunu, Enter tuşunu veya Ara Çubuğunu kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

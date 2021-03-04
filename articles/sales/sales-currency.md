@@ -71,3 +71,6 @@ Bu yordama başlamadan önce, güvenlik rolünüzün sistem yöneticisi izinleri
 
 > [!IMPORTANT]
 >  Diğer kayıtlar tarafından kullanılan para birimlerini silemezsiniz, yalnızca devre dışı bırakabilirsiniz. Para birimi kayıtlarını devre dışı bırakmak fırsatlar veya siparişler gibi var olan kayıtlardaki para birimi bilgilerini kaldırmaz. Ancak devre dışı bırakılan para birimini yeni işlemler için seçemezsiniz.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

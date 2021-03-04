@@ -93,3 +93,6 @@ PSA'da, teklife yapılan düzeltmeleri izleyemezsiniz. Bunun yerine, varolan tek
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Tekliflerin ve proje sözleşmelerinin açıklamalarını ve onaylarını izleme
 Tekliflerin ve proje sözleşmelerini inceleme ve onaylama işlemini, kayıt duvarını ve gönderileri kullanarak yönetebilirsiniz. Kuurluşunuz, inceleme ve onaylama iş öğesi bildirimlerini atamak, yeniden yönlendirmek, ilerletmek ve yönetmek için özel iş akışları ve eklentiler oluşturabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

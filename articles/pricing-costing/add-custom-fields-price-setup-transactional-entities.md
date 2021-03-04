@@ -146,3 +146,6 @@ Aşağıdaki tabloda, yeni alanlarla güncelleştirilmesi gereken, varlığa gö
 |  Gerçek|• Bilgi<br>• Etkin Gerçek Tutarlar|• Gerçek Tutar İlişkili görünümü|
 
 Tanımladığınız öğeye bağlı olarak özel alanların iş kurallarına da eklenmesi gerekebilir. Kullanıma hazır bir örnek **Duruma göre Zaman Girişi düzenlenebilirliği** iş kuralı içindir. Bu kural, Zaman Girişi **Onaylandı** gibi düzenlenemeyen bir durumda olduğunda hangi alanların kilitlenmesi gerektiğini tanımlar. Alanların Zaman Girişi **Taslak** ve **Geri çevrildi** durumu dışında bir durumda olduğunda alanların düzenlemeye karşı kilitlenmesi için bu iş kuralına alanlar ekleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

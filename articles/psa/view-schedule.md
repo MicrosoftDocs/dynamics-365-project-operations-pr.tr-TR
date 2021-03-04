@@ -45,3 +45,6 @@ Hafta boyunca ne üzerinde çalıştığınızı görmek istediğinizde, zamanla
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

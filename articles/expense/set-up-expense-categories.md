@@ -61,3 +61,6 @@ Kurulum sürecine başlamadan önce her gider kategorisi için aşağıdaki kara
 
     - Vergiden düşmeden dışlanan alt kategoriler var mı?
     - Alt kategorilerin öğe satış vergisi grubu nedir?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

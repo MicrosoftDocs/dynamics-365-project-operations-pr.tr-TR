@@ -79,3 +79,6 @@ Tüm ayrıntıları yeni bir kayda girerek bir verme oluşturabilir veya varolan
 2. Değiştirilecek izni seçin.
 3. Eylem Bölmesi'ndeki **İzin** sekmesinde, **Sürüdr** grubunda **Düzenle** seçeneğini tıklayın.
 4. İzin ayrıntılarını gözden geçirin ve gerekli değişiklikleri yapın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

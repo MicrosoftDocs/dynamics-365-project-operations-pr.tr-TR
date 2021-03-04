@@ -101,3 +101,6 @@ Ayırmayı Uzat işlevi her kaynakta yürütüldükten sonra ayırmalar her kayn
 
 Ancak ayırmanın ayrıntılarına daha yakından bakıldığında ayırmaların başlangıç saatindeki farklılıklar görülür. Ayırmalar, atama sınırının başlangıç saatinden önce ve kaynağın kullanılabilir başlangıç saatinden önce başlamaz.
  ![Zamanlama panosunda yeni kaynak ayırmaları](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

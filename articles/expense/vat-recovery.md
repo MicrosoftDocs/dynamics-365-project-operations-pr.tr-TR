@@ -66,3 +66,6 @@ Arnie, gider raporu verilerini KDV'den düşme iadelerini dosyalayacak üçünc�
 Arnie, gider raporu işlemlerinin KDV'den düşme için uygun olduğunu ve dijital makbuzların raporlara eklendiğini doğrulamalıdır. Yurtiçi vergiden düşmeye uygun giderleri işlemeye başlamak için Arnie, **Gider vergisinden düşme** sayfasını açar ve doğrulama gerektiren gider raporunu seçer. Makbuzların çalışan yerine şirket adına olduğunu doğrular. (KDV'den düşme için makbuzların şirket adına olması gerekir.) Arnie ardından doğru satış vergisi grubu ve öğe satış vergisi kodlarının girildiğini doğrular.
 
 Arnie kağıt makbuzları aldığında, gider raporunun durumunu **Vergiden düşmeye hazır** olarak değiştirir. Ardından iadeyi ilgili vergi yetkilisine sunabilir. Bu örnekte, Amerika Birleşik Devletleri'nde ilgili vergi yetkilisi, Gelirler Dairesidir (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

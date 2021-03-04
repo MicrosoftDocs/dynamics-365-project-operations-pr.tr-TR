@@ -106,3 +106,6 @@ Project Operations harici bir zamanlama hizmetine dayanır. Hizmet, bir kullanı
   - Project Operations Sistemi
   - Proje Sistemi
   - Project Operations Çift Yazma Sistemi (Project Operations'ın kaynak/stoku tutulmayan öğeleri temel alan senaryolar dağıtıyorsanız bu rol gereklidir.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

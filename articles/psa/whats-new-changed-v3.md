@@ -257,3 +257,6 @@ Aşağıdaki grafik, özel fiyat listeleri oluşturulduktan sonraki durumu göst
 
 > [!NOTE]
 > Özel fiyat listesi oluştururken **Özel Fiyat Oluştur** öğesini tıklattığınızda kısa bir gecikme yaşanabilir. Birden çok kez tıklatmak yerine ızgarayı yenilemenizi öneririz. İlişkili fiyat listesi adında kendisine eklenen teklif adı veya proje sözleşmesi adı varsa özel fiyat listesi oluşturulmuştur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

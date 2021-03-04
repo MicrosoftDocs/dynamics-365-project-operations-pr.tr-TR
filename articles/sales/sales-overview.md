@@ -63,3 +63,6 @@ Project Operations'da, teklife yapılan düzeltmeleri izleyemezsiniz. Bunun yeri
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Tekliflerin ve proje sözleşmelerinin açıklamalarını ve onaylarını izleme
 Tekliflerin ve proje sözleşmelerini inceleme ve onaylama işlemini, kayıt duvarını ve gönderileri kullanarak yönetebilirsiniz. Kuruluşunuz, iş öğelerinin incelenmesi ve onaylanması ile ilgili bildirimlerini atamak, yeniden yönlendirmek, ilerletmek ve yönetmek için özel iş akışları ve eklentiler oluşturabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

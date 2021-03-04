@@ -143,3 +143,6 @@ Faturayı deftere nakletmeden önce görüntülemek için **Deftere Nakletme** o
 **Fatura teklifi** sayfasına ek olarak, fatura teklifleri ayrıca **Fatura tekliflerini deftere naklet** dönemsel işi çalıştırılarak da deftere nakledilebilir. Bu işi bulmak için **Proje yönetimi ve muhasebe** > **Dönemsel** > **Proje faturaları** > **Fatura tekliflerini deftere naklet**'e gidin.
 
 Bu sayfada deftere nakledilmeye hazır olan tüm fatura teklifleri gösterilir. **Toplu İş**'i seçerek Fatura tekliflerini deftere nakletmeyi zamanlayabilirsiniz. **Toplu işleme parametresi**'ni **Evet** olarak ayarlayın ve **Yineleme**'yi seçerek toplu işlemenin yinelemesini ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Proje tabanlı şirketler çoğu zaman projeler üzerinde çalışmak için fark
     | Geliştirici | Fabrikam ABD | Fabrikam ABD-Robotik | $150 |
 
 3. Proje sözleşmesinin proje fiyat listesine veya belirli bir hesaba satış fiyatı listesini **Fabrikam ABD fatura fiyatları** iliştirin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

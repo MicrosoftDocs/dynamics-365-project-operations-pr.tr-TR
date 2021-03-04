@@ -64,3 +64,6 @@ Bu konuda, PSA V3, Güncelleştirme Sürümü 16'te yeni veya değiştirilmiş �
 
     -   Düzeltildi: Kullanıcılar 2.X'ten 3. X'e yükseltme yaptığında, proje adı için NULL değerine sahip projelere izin verilecektir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

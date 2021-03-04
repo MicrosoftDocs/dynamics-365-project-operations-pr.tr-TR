@@ -38,3 +38,6 @@ Aşağıdaki öznitelikler her gider satırı öğesi için tanımlanır:
 - **Birim Maliyet Fiyatı**: Giderin maliyetini hesaplamak için kullanılan birim fiyatı.
 - **Birim Satış Fiyatı**: Giderin satış fiyatlarını hesaplamak için kullanılan birim fiyatı.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

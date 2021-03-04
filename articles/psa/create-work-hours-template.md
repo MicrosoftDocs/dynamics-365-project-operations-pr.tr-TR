@@ -65,3 +65,6 @@ Proje zamanlamalarını oluşturmadan önce, zamanlama ve işletmenin kapalı ol
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

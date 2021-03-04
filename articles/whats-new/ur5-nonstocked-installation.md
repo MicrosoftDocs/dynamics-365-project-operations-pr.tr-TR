@@ -125,3 +125,6 @@ Varlıklar için güvenlik ayrıcalıklarına yönelik aşağıdaki güncelleşt
  
  ![Kayıt Defteri eşleme eşitlemesi](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

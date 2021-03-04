@@ -47,3 +47,6 @@ Proje sözleşmesinin **Özet** sekmesindeki potansiyel müşteri, sözleşmenin
 Izgarayı düzenleyerek fatura bölme yüzdelerini düzenleyebilirsiniz. Faturala bölme yüzdeleri toplamı yüzde 100 olmazsa bir hata oluşur. Fatura bölme yüzdesini düzenledikten sonra hatayı kaldırmak için **Proje Sözleşmesi** sayfasını yenileyin.
 
 Ayrıca proje sözleşmesi müşterileri alt ızgarasında **Eşit Dağıt**'ı da seçebilirsiniz. Fatura bölmeleri, proje sözleşmesindeki tüm müşterilere eşit olarak tahsis edilir. Yuvarlama faktörü varsa bu faktör, yuvarlama müşterisine eklenir. Sözleşme müşterilerinden biri için her zaman **Yuvarlama** bayrağı **Evet** olarak ayarlanır. Bu müşteri, yuvarlama müşterisidir. Genel olarak yuvarlama müşterisi ayrıca sözleşmenin birincil müşteridir ancak bu gerekli değildir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

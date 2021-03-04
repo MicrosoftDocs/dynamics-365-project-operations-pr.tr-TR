@@ -48,3 +48,6 @@ Kaynak için görev atamalarınızın olması ancak ayırmalarınızın olmamas�
 **Ayırmayı Uzat** eylemiyle oluşturulan ayırmalar, birincil proje gereksinimi ile ilişkilendirilir. Uzatma başlatıldığında kaynak, proje için birden fazla gereksinimle ilişkilendirilebileceğinden uzatılması gereken özel gereksinim belirlenemez.
 
 Ardından proje yöneticisi veya kaynak yöneticisi, bir kaynağın kapasitesi üzerinde ayrılmış olan durumları yönetmek için Zamanlama panosunu kullanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

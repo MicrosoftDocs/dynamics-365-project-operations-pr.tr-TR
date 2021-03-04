@@ -49,3 +49,6 @@ Panolar ve raporlar, işinizin ne durumda olduğunu anlamanıza yardımcı olur.
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Katalog ürünü için ürün tabanlı bir teklif satırı oluşturulduğunda, �
 Fabrikam Robotics, A Datum Corporation'ın montaj hatlarına robotik kollar kuruyor. Fabrikam, kurulum hizmetleri sağlıyor ancak robotik kollar, Trey Robotics şirketinden sağlanıyor. A Datum Corporation firmasına robotik kolların kurulumu, Trey şirketinin robotik kolları için yeni bir endüstriye açılan kapıysa Trey, Fabrikam'a bu anlaşma için özel bir iskonto sunabilir.
 
 Bu durumda Fabrikam, Robotik Kollar için ürün tabanlı teklif satırı oluşturur ve bu teklif için birim başına özel bir maliyet girer. Bu maliyet, Trey Robotik Kollarının standart maliyetinden farklıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

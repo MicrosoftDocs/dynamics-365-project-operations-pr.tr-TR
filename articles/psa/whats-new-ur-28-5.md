@@ -42,3 +42,6 @@ Aşağıdaki sorunlar giderilmiştir:
 
 - Zamanlama yardımı arama performansının düşüşü
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Project Operations tümleştirme günlüğü satırlarında yalnızca aşağıda
 Tümleştirme günlüğü satırları silinebilir, ancak deftere nakledilmemiş satırlar, **Hazırlama tablosundan alma** periyodik işleminden yeniden çalıştırdıktan sonra günlükte yeniden eklenir .
 
 Tümleştirme günlüğünü deftere naklederken bir proje alt defteri ve genel muhasebe hareketleri oluşturulur. Bunlar, akış yönündeki müşteri faturalaması, gelir kabulü ve mali raporlamalar için kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Bir proje ayrıca onay iptal edildiğinde mali olarak da etkilenir. Öncelikle, 
 Ardından, Fiili değerler tablosunda ters işlem girişleri oluşturulur. Ters işlem girişleri oluşturmak için sistem özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalanmamaış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Tersine çevrilen fiili değerlerdeki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, faturalama durumu alanı da **İptal Edildi** olarak ayarlanır.
 
 Bu değişiklikler yapıldıktan sonra, projedeki harcandı olarak kaydedilen tutar ve gelir biriktirme listesi, bu fiili değerlerin temsil ettiği tutarları dikkate almaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

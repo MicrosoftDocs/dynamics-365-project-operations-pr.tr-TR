@@ -107,3 +107,6 @@ Proje varlığı için kendi iş süreci akışınızı oluşturmak üzere aşa�
 
    ![Proje varlığında görünümlerde değişiklik işleminin ekran görüntüsü](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

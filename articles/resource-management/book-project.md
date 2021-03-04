@@ -66,3 +66,6 @@ Proje yöneticisi olarak, bir projeye kaynak ayırmanız gerekebilir ancak kayna
 
 > [!NOTE]
 > Bu yöntem, kaynak için herhangi bir ayırma işlemi oluşturmaz. Bunun yerine, kaynağı takıma ekler. Takım üyesi projeye eklendikten sonra proje yöneticisi gerekli ayırmaları kaynağa eklemek için ayırma işlemlerini koruma veya ayırmaları uzatma özelliğini kullanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 **Gerçek değerler** varlığı, kaynak tabanlı fiyatlandırma için fiyatlandırma boyutları olarak kullanılabilen çok sayıda alana sahiptir. Örneğin, **Ayrılabilir Kaynak** sık kullanılan alanlardan biridir. 20-30'dan az faturalanabilir kaynağa sahip olan daha küçük şirketler için her kaynağa özgü fatura ve maliyet oranları daha basit bir yaklaşım olabilir. Ancak, faturalandırılabilir iş gücü büyüdükçe kaynağa özgü oranları korumak için gerçekçi olmaz. Kaynak maliyeti ve fatura oranları kaynak olarak öne çıkar, daha fazla deneyim kazanın veya farklı yetenekler kümesi alın. 
 
 Bir diğer örnek de işlem kategorisinde yer alır. Müşteriler ve Uygulayıcılar işlem kategorisini işi sınıflandırmak, alanı işin kategorisine göre fiyatlandırıp maliyetlendirmek için kullanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

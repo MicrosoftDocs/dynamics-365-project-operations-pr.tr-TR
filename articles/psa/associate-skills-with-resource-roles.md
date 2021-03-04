@@ -47,3 +47,6 @@ Kaynak rolleri eklerken, bazı yetenekleri onlara büyük olasılıkla zaten ili
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

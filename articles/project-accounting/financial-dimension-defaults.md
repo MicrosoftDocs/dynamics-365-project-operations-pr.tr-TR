@@ -62,3 +62,6 @@ Projeler, CDS uygulamasında oluşturulur ve sürdürülür. Projelerin muhasebe
 4. Mali boyut varsayılanlarını ayarlayın. Mali boyutların müşteri hesabından varsayılan olarak değiştiğine dikkat edin. Proje birden çok proje sözleşmesi müşterisi bulunan bir sözleşme satırıyla ilişkilendirilmişse, birincil müşteri varsayılan mali boyutlara göre kullanılır.
 
 Proje varsayılan mali boyutları **Project Operations tümleştirme günlüğündeki** ve ilgili proje fatura satırlarındaki zaman, masraf ve masraf işlemlerine yönelik günlük satırı varsayılanlarını ayarlamak için kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

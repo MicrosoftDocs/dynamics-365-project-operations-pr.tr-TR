@@ -160,3 +160,6 @@ Harcama raporu ilkelerini oluşturarak, organizasyonunuzun, çalışanlar adına
 - İlke ne zaman zaman aşımına uğrayacak?
 - İlke kuralı nedir?
 - İlke kuralının sonucu ne?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Aşağıdaki yordamda, proje ekibinin nasıl oluşturulacağı açıklanmıştı
 ## <a name="monitor-project-teams"></a>Proje ekiplerini izleme
 1. **Tüm projeler** sayfasında, **XYZ Yükseltme Aşama 2** projesinin **Proje kodu** bağlantısını seçin.
 2. **Proje ekibi ve zamanlama** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğundan emin olun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

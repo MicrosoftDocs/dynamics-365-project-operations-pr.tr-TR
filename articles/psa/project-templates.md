@@ -69,3 +69,6 @@ Proje tahmini satırları arasında kopyalama yaptığınızda fiyat listeleri g
 ### <a name="copying-a-project-team"></a>Proje takımını kopyalama
 
 Proje takımı proje şablonundan bir projeye kopyalandığında genel kaynaklar, şablonda tanımlanan beceriler ve uzmanlıklarla birlikte kopyalanır. Genel kaynak atamaları da proje şablonunda olduğu gibi korunur. Adlandırılmış kaynaklar proje şablonlarında desteklenmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

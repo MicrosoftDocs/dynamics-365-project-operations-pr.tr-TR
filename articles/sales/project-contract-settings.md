@@ -58,3 +58,6 @@ Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekm
 | Ortaya Çıkan Maliyet | Ürün tabanlı satırlar | Sözleşmeyle eşlenen tüm projelerde günlüğe kaydedilen tüm maliyet fiili değerlerinin toplamı. |
 | Brüt Kar | Proje tabanlı satırlar | Faturalanan tutar - Tahakkuk eden maliyet çapraz Tarih/faturalanan tutar |
 | Beklenen Marj | Ürün tabanlı satırlar | (Sözleşme satırı değeri-sözleşme satırı için tahmini maliyetler)/sözleşme satırı değeri |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

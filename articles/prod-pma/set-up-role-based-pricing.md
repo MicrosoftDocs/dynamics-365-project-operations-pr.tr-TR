@@ -34,3 +34,6 @@ Tüm maliyet, satış ve transfer fiyatları roller için ayarlanabilir. Fiyatla
 1. **Satış fiyatı (saat)** sayfasında, **Yeni** 'yi seçin ve geçerlilik tarihini girin.
 2. **Rol** sütunundan bir rol seçin.
 3. **Fiyatlandırma** sütununa, seçili kaynak rolü için bir fiyat girin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

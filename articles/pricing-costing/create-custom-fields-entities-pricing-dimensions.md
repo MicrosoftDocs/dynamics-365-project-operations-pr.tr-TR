@@ -77,3 +77,6 @@ Varlık tabanlı boyutlarla ilgili verileri el ile veya Microsoft Excel içe akt
 5. "Kıdemli Sistem Mühendisi" için başka standart başlık oluşturmak üzere 1-3 arasındaki adımları tekrarlayın.
 
 > ![Standart Başlık varlığı için örnek veriler](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

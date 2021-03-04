@@ -41,3 +41,6 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | **Fırsat Yönetimi** | Kategori 2040713 | Sözleşmeden fatura oluştururken ve Field Service yüklüyken oluşan betik hatası düzeltildi. |
 | **Proje Planlama ve İzleme** | Kategori 2090202 | Artık kullanılmayan iş kuralları **Kullanım Dışı** olarak işaretlendi. |
 | **Zaman ve Gider** | Kategori 2091249 | Kullanıcıların, gönderilen veya onaylanan bir zaman girişinde görevi değiştirememesi için denetimler sıkılaştırıldı. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

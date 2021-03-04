@@ -43,3 +43,6 @@ Kullanılabilirliğinin tanımlanabilmesi için proje üzerinde çalışan her a
 2. Güncelleştirmek üzere ızgara görünümünden en fazla 25 **Ayrılabilir Kaynak** seçin.
 3. **Takvim Ayarla**'yı seçtiğinizde bir iletişim kutusu, kullanılabilir çalışma saati şablonlarının listesini gösterir.
 4. Kullanmak istediğiniz şablonu seçin ve ardından **Uygula**'yı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

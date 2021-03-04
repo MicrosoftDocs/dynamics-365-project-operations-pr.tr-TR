@@ -67,3 +67,6 @@ Aşağıdaki sorunlar giderilmiştir:
 Aşağıdaki sorunlar giderilmiştir:
 
 - **Tüm İşlem Kategorilerini Al** seçeneğine çift tıklamak, birden çok satır oluşturuyor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

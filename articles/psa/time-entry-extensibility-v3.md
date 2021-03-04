@@ -132,3 +132,6 @@ Tek bir zaman girişi kaydında kullanılabilir olandan daha fazla bağlam gerek
 
 > [!IMPORTANT] 
 > Şu anda TBX sayfalarındaki bilinen bir sorun kullanıcıların bilgileri düzeltmesini ve bir güncelleştirme eklenti doğrulamasında başarısız olduğunda Bitti öğesini yeniden seçmelerini engellemektedir. Geçici çözüm olarak, bu durumu mümkün olduğunca fazla önlemek için iş kuralı doğrulamaları ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

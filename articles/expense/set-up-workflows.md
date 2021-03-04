@@ -48,3 +48,6 @@ Aşağıdaki tabloda, **Gider yönetimi** öğesinde oluşturabileceğiniz iş a
 |       <strong>Seyahat talebi</strong>       |          Seyahat istekleri için onay iş akışları oluşturun.           |
 |      <strong>Nakit avans isteği</strong>      |         Nakit avans istekleri için onay iş akışları oluşturun.          |
 |        <strong>KDV vergisinden düşme</strong>        | Katma değer vergisinin (KDV) düşülmesi için onay iş akışları oluşturun.  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

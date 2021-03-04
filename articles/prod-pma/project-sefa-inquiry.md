@@ -104,3 +104,6 @@ Federal ödüllere yönelik harcamaların zamanlaması aşağıdaki sütunları 
 - Federal yerli yardım kataloğu
 - Girişler
 - Masraflar
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

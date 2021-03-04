@@ -113,3 +113,6 @@ Bu örnekte, FRSI, USSI yasal varlığındaki bir müşteri olmalıdır ve USSI,
 Daha fazla bilgi için bkz. [Şirketlerarası proje faturalamayı yapılandırma](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

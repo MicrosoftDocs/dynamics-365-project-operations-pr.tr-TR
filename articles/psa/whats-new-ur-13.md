@@ -59,3 +59,6 @@ Bu konuda, Project Service Automation Güncelleştirme Sürümü 13 V3'te yeni v
      - Sabit: **Yeni Fırsat**, **Teklif**, **sipariş satırı** ve **Ürün ekle** için ekstra düğmeler, fırsatlar, teklifler, sipariş ürünleri ve proje tabanlı satırlar alt Kılavuzu komutlarında görünür.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

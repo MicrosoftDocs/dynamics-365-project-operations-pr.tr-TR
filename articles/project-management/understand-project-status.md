@@ -29,3 +29,6 @@ Esasen **Proje Varlığı** sayfasındaki **Durum** bölümü, maliyet ve çalı
 - İkinci olarak **Yorumlar** alanı, proje yöneticisinin durumla ilgili belirli yorumlar girmesini sağlar. 
 - Üçüncü olarak **Durum güncelleştirme tarihi** alanı düzenlenebilir değildir. Bu alandaki değer, durumun son güncelleştirme tarihini gösteren bir zaman damgasıdır.
 - **Zamanlama performansı** ve **Maliyet performansı** alanları izleme kılavuzundan itibaren ayarlanır. **Çalışma izleme** görünümündeki kök düğümün zamanlama ve maliyet farkı pozitif olduğunda bu alanları **İleride** olarak ayarlayabilirsiniz. Kök düğümün zamanlama ve maliyet farkı negatif olduğunda bu alanlar **Geride** olarak ayarlanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

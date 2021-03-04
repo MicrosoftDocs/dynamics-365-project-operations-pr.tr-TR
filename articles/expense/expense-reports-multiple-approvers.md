@@ -41,3 +41,6 @@ Gider raporunu birden çok onaylayan bulunması gerektiğine karar verdiğinizde
 
     1. Çalışanın yöneticisi gider raporunu onaylar.
     2. Bütçe sahibi gider raporunu onaylar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

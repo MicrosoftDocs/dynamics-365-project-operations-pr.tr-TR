@@ -56,3 +56,6 @@ Bu görevde USSI veri kümesi kullanılır.
 21. **Ürün girişi** alanına bir değer yazın.
 22. **Tamam** 'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

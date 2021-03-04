@@ -45,3 +45,6 @@ Aşağıdaki bilgiler **Kaynak**'tan **Hedef teklife** kopyalanmaz:
   - Müşteri bütçe bilgileri
 
 Bu bilgiler sözleşmelere özgü olduğu için bu alanlar ve kayıtlar kopyalanmaz. Projeler ve ürünler için sözleşme satırları, sözleşme satırı ayrıntılarına ilişkin tahminler ve sözleşme düzeyinde aşılmaz değerler kopyalanır. Varsayılan fiyat ve maliyet oranları **Parametreleri kopyala** iletişim sayfasında seçilen **Fiyatlandırmayı kopyala** alanına bağlıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

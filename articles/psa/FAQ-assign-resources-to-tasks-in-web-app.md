@@ -116,3 +116,6 @@ Genel kaynak için **Ayır**'ı seçtikten sonra, zamanlama panosunu kullanarak 
 Genel kaynak, adlandırılmış bir kaynakla karşılandığı zaman, genel kaynak takımdan kaldırılır ve genel kaynağın görev atamaları, genel kaynağın kaynak gereksinimini karşılayan adlandırılmış kaynağa atanır.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

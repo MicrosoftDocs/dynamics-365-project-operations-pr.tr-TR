@@ -57,3 +57,6 @@ Kural: bir proje ve belirli bir işlem sınıfı yalnızca bir sözleşmede bulu
 | C1       | CL2           | P1      | No           | Evet             | No          | Geçerli           | Proje P1 için zaman ve ücretler CL1'e eklenir. P1 projesindeki giderler CL2'ye dahildir. </br>   Her bir sözleşme satırına nelerin dahil edildiği ve bu nedenle geçerli olan bir çakışma yoktur.  |
 | C1       | CL1           | P1      | Evet          | Evet             | Evet         | Geçerli değil       | Kuralı ihlal ediyor. Proje P1 üzerinde zaman, masraf ve ücretler, iki sözleşmedeki satırlarına eklenir.                                                                                               |
 | CL2      | CL2           | P1      | Evet          | Evet             | Evet         | Geçerli değil       | Kuralı ihlal ediyor. Proje P1 üzerinde zaman, masraf ve ücretler, iki sözleşmedeki satırlarına eklenir.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

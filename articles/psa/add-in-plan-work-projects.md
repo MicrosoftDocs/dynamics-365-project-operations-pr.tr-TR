@@ -242,3 +242,6 @@ Aşağıdaki tabloda, Project Service Automation ile Micros arasında Proje Gör
 
 ### <a name="additional-resources"></a>Ek kaynaklar
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

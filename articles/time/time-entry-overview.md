@@ -27,3 +27,6 @@ Proje takımı üyeleri zaman girişleri oluşturur ve bunları onay için gönd
 
 Giriş oluşturma, gönderme veya geri çağırma hakkında bilgiler ve raporlarınızı tamamlamanıza yardımcı olacak diğer araçlar için bkz. [Zaman girişi kullanıcı davranışı](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

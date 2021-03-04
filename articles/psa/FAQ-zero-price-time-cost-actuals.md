@@ -66,3 +66,6 @@ Yukarıdaki üç denetimi yaptıktan sonra zaman maliyet gerçek değerinizde ge
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

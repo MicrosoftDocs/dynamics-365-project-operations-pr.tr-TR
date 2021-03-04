@@ -77,3 +77,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - **Satış fiyatı listesi çözümleme** mantığı zaman dilimlerini yanlış işler ve hatalı fiyat listesi seçimine neden olur.
 - Tek bir zaman girişi onaylandıktan sonra, projenin **toplam gerçek maliyeti** bir kesirli tutarla kapatılabilir.
 - **Alınan roleprice**, **'birincil birim'** ve **'birincil birim fiyatı'** alanlarındaki değerlere sahip değilse, **Fiyat çözümü** mantığı Kullanıcı dostu bir hata iletisi sağlamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

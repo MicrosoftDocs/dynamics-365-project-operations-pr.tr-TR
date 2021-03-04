@@ -50,3 +50,6 @@ Veri varlıkları hakkında daha fazla bilgi için bkz [Veri varlıkları](https
 Çalışan kaydı sonlandırıldıktan sonra, çalışanın Active Directory Domain Services (AD DS) hesabı devre dışı bırakılır. Ancak, hala gider kaydedilmesi ve geri ödenmesi gereken etkin kredi kartı hareketleri olabilir. **Kredi kartı hareketleri** sayfasından, ilişkili çalışanın işten ayrıldığı durumda çalışana herhangi bir kredi kartı hareketi için yeniden atama yapabilirsiniz.
 
 Bir veya daha fazla kredi kartı hareketi seçin ve sonra **Hareketleri yeniden ata**'yı seçin. Ardından, kredi kartı hareketleri atamak için başka bir çalışan seçebilirsiniz. Kredi kartı hareketleri yeniden atandığında, bir gider raporu için seçilebilir ve normal gider raporu yeniden ödeme sürecinde ödenmesi mümkündür.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

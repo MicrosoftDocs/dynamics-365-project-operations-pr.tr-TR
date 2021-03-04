@@ -41,3 +41,6 @@ Müşteri proje teklifini onayladığında, proje teklifindeki bilgileri bir pro
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örn
 [![Gider tahmini hareketlerinin şablon eşlemesi](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Gider tahminlerinin şablon eşlemesi](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

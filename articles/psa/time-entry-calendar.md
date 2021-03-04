@@ -42,3 +42,6 @@ Takvim tek tek takvim öğelerindeki eylemleri desteklemez. Ayrıca göndermek v
 ## <a name="extensibility"></a>Genişletilebilirlik
 
 Zaman girişi ızgarası olan **Zaman Girişleri** sayfasında özel alanlar ekleyebilir, arama alanları ayarlayabilir ve özel görünümler oluşturabilirsiniz. Ayrıca özel alanlara girilen veya seçili değerleri temel alan özel bir iş mantığı da ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

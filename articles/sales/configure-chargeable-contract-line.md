@@ -58,3 +58,6 @@ Bir tahmin veya gider için oluşturulan fiili, yalnızca sözleşme satırına 
 | No | Evet | Ayarlanamıyor | Borçlandırılamaz | Bir Zaman fiili faturalama: Kullanılamaz </br>Geçerli gider faturalama türü: Borçlandırılamaz |
 | Evet | No | Borçlandırılabilir | Ayarlanamıyor | Bir Zaman fiili faturalama: Ücretli </br>Geçerli gider faturalama türü: Kullanılamaz |
 | Evet | No | Borçlandırılamaz | Ayarlanamıyor | Bir Zaman fiili faturalama: Ücretlendirilemez </br> Geçerli gider faturalama türü: Kullanılamaz |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

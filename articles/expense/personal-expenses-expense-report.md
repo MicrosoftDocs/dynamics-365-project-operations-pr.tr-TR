@@ -28,3 +28,6 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
   - **Şirket tarafından ödendi**: Kuruluşunuz, şirket kredi kartı için tam fatura ödemesini yapar ve ardından kişisel giderler için çalışanın hesabını borçlandırır.
 
 Kuruluşunuzun kullandığı yöntemi **gider yönetimi parametreleri** sayfasında seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

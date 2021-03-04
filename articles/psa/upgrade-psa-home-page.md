@@ -65,3 +65,6 @@ Daha önce sözü edilen konuları inceledikten sonra ve PSA sürüm 3.x'e veya 
 
 > [!NOTE]
 > Field Service ve PSA uygulamalarının eski sürümlerini kullanırken en iyi deneyim için bu sürümler UCI'de düzgün yüklenecek şekilde tasarlanmadığından **Sistem ayarları** sayfasına gidin ve **Yalnızca yeni Birleşik Arabirim'i kullan (önerilen)** alanı için **Hayır**'ı seçin. UCI'yi kapattıktan sonra Field Service ve PSA'nın bu sürümlerini eski web istemcisini kullanarak açabilir ve çalıştırabilirsiniz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

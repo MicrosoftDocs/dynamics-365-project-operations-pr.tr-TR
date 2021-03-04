@@ -74,3 +74,6 @@ Sabit fiyatlı kilometre taşları, düzenli aralıklarla bölünmediğinde de e
 | Vergi | Hızlı Oluştur | Kilometre taşına uygulanan vergi tutarı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 
 3. **Kaydet ve Kapat**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

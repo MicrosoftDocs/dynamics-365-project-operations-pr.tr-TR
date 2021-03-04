@@ -48,3 +48,6 @@ Kaynaklarınızın nasıl ayrıldığına ilişkin genel bir görünüm elde etm
 
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Maliyet için teklif satırı ayrıntısının başlangıç tarihinde geçerli o
 Karlılık hesaplamaları, teklifte genel tahmini kar marjını raporlamak üzere maliyet ve satışlar için teklif satırı ayrıntılarındaki tutarı ortamın temel para birimine dönüştürür.
 
 Bu, güncel döviz kurlarının bulunmaması nedeniyle para birimi yuvarlama hatalarına ve değişen kar marjlarına neden olabilir. Bu hesaplamaları, Proje tekliflerinde yalnızca yaklaşık değerler olarak kullanın ve daha yüksek yuvarlama duyarlılığı ve güncel döviz kurlarının bilinmesini gerektiren gerçek yasal veya diğer raporları kullanmayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

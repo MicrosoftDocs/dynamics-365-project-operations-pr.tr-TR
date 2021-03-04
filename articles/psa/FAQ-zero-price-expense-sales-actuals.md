@@ -72,3 +72,6 @@ Gider kategorisi için fiyat ayarı geçerli değilse, sorunu izole etmişsinizd
 Yukarıdaki üç denetimi yaptıktan sonra gider satış gerçek değerinizde geçerli bir fiyat görmüyorsanız bir destek bileti oluşturun.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

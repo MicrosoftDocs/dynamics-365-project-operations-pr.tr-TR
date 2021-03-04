@@ -48,3 +48,6 @@ Aşağıda, bir proje oluşturulduktan ve mevcut güncelleştirmeler uygulandık
 - **Genel Proje Durumu**: Proje yöneticisinin sağladığı genel proje durumu.
 - **Yorumlar**: Proje yöneticisinin sağladığı, projenin geçerli durumuyla ilgili bir anlatım.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

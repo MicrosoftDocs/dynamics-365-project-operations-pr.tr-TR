@@ -110,3 +110,6 @@ Sözleşme projesinin kuruluş biriminden farklı bir kuruluş biriminin olduğu
  
 Oluşturulmamış takım üyelerinde farklı kaynak belirleme kuruluş birimlerinin varsayılan değerinin değişmesi nedeniyle kuruluş birimi atamalarının kaybedilmemesi için yükseltme işleminden önce genel kaynaklar içeren her projede takım oluşturmanızı veya yeniden oluşturmanızı öneririz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

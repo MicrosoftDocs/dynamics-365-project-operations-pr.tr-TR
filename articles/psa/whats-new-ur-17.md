@@ -57,3 +57,6 @@ Bu konuda, PSA V3, Güncelleştirme Sürümü 17'te yeni veya değiştirilmiş �
 - Düzeltildi: İşlem sınıfı **Zaman** olduğunda **UnitGroup**; **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** ve **ContractLineDetails** dahil tüm varlıklar için düzenlenebilir değildir. Ancak, **Birim** yalnızca **JournalLine** ve **InvoiceLineDetails** için düzenlenemez.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Project OPerations'taki elde tutulan müşteriye faturalanana kadar kullanılama
 | --- | --- | --- |
 | Kullanılabilir Tutar | Elde tutulan veya öncelikli kayıtta kullanılmak üzere kullanılabilir olan tutar. | Avans veya elde tutulan faturalanıncaya kadar bu kullanılabilir durumda değil, kullanılabilir tutar sıfır olacaktır. |
 | Kullanılan Tutar | Elde tutulan veya öncelikli kayıtta kullanılmak üzere kullanılabilir olan tutar. | Avans veya elde tutulan, önceden kullanılmış veya tüketildiği bir bölümü olan gerçek maliyetlere sahip bir faturada kısmen mutabakat yapılabilir. Gelecekteki veya elde tutulan tutarının kalan kısmı fiili maliyetlerle gelecekte mutabık kılmak için kullanılabilir. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

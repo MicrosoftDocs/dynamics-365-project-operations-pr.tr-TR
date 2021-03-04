@@ -33,3 +33,6 @@ Tüm proje teklifleri listesi, **Teklifler** listesi sayfasında görülebilir.
 2. Tekliflerin diğer filtre uygulanmış görünümlerini seçmek Için **görünüm değiştiriciyi** kullanın. Özel filtre ölçütlerini kullanarak kendi görünümlerinizi ve gezinme seçeneklerinizi yapılandırabilirsiniz.
 
 Teklifler, bu liste sayfasından veya ayrıntı sayfalarından oluşturulabilir veya silinebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

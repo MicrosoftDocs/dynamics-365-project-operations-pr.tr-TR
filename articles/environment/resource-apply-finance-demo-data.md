@@ -79,3 +79,6 @@ Bu işlemin tamamlanması birkaç dakika sürer. Yönetici kullanıcının başa
 18. Uzak masaüstü oturumunu kapatın ve beklendiği şekilde çalıştığını onaylamak üzere ortamda oturum açmak için LCS **Ortam ayrıntıları** sayfasını kullanın.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

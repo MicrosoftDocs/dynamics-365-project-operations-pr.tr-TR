@@ -90,3 +90,6 @@ Bu yöntem, teklif satırlarından görevlerin ilişkisini kaldırmak için en i
 
 >[!NOTE]
 > Bu yordam, görevi projeden silmez. Bu yalnızca proje tabanlı teklif satırından görev ilişkisini kaldırır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

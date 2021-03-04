@@ -60,3 +60,6 @@ Takım üyesi ızgarasından aşağıdaki eylemler gerçekleştirilebilir:
 
 - **Yeni**: Proje yöneticileri, zamanlamayı kullanarak doğrudan kaynak eklemenin yanı sıra takım üyesi ızgarasından adlandırılmış veya genel takım üyelerine yenilerini ekleyebilir.
 - **Sil**: Proje yöneticisi, artık projeye katılmayacak kaynakları bir veya daha fazla takım üyesi seçerek silebilir. Takım üyesinin silinmesi, ilişkili tüm kaynak atamalarını da siler ve var olan tüm ayırmaları iptal eder.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

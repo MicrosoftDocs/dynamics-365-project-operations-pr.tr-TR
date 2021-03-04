@@ -59,3 +59,6 @@ Gereksinimi açmak ve beceriler, tercih edilen kaynaklar, vb. eklemek için tak�
 
 ![Kaynak gereksinimi](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

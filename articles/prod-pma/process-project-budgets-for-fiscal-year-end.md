@@ -98,3 +98,6 @@ Kalan bütçe tutarlarını işlediğinizde, iletmek istediğiniz tutarların ge
 5. İşlemek istediğiniz her proje için, projenin satır başındaki seçeneğini belirleyin. 
 6. seçili projelere ait kalan bütçe tutarlarını seçili mali yıl transfer etmek için bir **Prosesi** seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

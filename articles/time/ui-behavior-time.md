@@ -85,3 +85,6 @@ Birkaç zaman girişi oluşturulduktan sonra, kullanıcılar aynı anda birden f
 
 ## <a name="import"></a>İçeri Aktarma
 Aynı temel işlem ayırmalar, atamalar ve alışverişlerden içeri aktarmak için kullanılır. Ayırmaların içe aktarılacağı tarih aralığını belirtebilir ve ardından taslak zaman girişlerine kopyalanması gereken ayırmaları açıkça seçebilirsiniz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

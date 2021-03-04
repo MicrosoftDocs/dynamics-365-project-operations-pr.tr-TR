@@ -53,3 +53,6 @@ Zamanlama Panosundan ayırmak için önce kaynak gereksinimleri oluşturmanız v
 Gereksinim, seçili kaynak kullanılarak yerine getirilir. **Ayırma Gereksinimleri** bölmesinde, gereksinimin güncelleştirildiğini ve kaynağın projede ayrıldığını göreceksiniz.
 
 ![Projede ayrılmış kaynak](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

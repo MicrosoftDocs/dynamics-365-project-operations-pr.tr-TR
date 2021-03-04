@@ -62,3 +62,6 @@ Dynamics 365 Field Service yüklüyse; Dynamics 365 Project Operations, Universa
 
 Tek tek kaynaklarla ilgili daha fazla ayrıntı görüntülemek için kaynağa sağ tıklayarak kaynak kartını açın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

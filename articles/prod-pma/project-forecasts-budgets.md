@@ -81,3 +81,6 @@ Proje tahminini kullandığınızda, modelleri alt modeller olarak tanımlayabil
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

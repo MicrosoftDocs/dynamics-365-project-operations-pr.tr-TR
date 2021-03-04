@@ -44,3 +44,6 @@ Bu konuda V3, Güncelleştirme Sürümü 17.5'te yeni veya değiştirilmiş öze
 - Düzeltildi: Görevlere hatalı şekilde ek bir gün ekleyen 24 saatlik çalışma saatli şablonlarıyla ilgili sorun giderildi.
 - Düzeltildi: Görevleri hatalı şekilde bir gün öne kaydıran +13 GMT çalışma saatleri şablonlarıyla ilgili sorun giderildi.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

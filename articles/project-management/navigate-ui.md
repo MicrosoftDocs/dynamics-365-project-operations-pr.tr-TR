@@ -102,3 +102,6 @@ Aşağıda, çeşitli proje planlama sekmelerinde bulunan tipik denetimlere kıs
 **Sütun ekle**: Kullanıcının ızgarada görünür sütunları tanımlamasına olanak tanır. **Proje Planlama** formunda ızgaralara yalnızca kullanıma hazır sütunlar eklenebilir.
 
 ![Sütun ekle düğmesi](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

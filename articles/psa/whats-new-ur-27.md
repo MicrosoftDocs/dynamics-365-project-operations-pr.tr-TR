@@ -81,3 +81,6 @@ Aşağıdaki sorunlar giderilmiştir:
 - Hem Dynamics 365 Field Service hem Project Service Automation yüklendiğinde, **Fiyatlandırmayı kilitle** ve **Geçerli Fiyatlandırmayı Kullan** seçenekleri **Fatura** sayfasında aynı anda görüntülenmiyor.
 - Japonca için, diğer takvim tabanlı sayfalarla tutarsız çeviri var.
 - Project Service Automation'da **Etkinleştir** ve **Devre Dışı Bırak** seçenekleri **Fiyat Listesi İlişkilendirmesi** varlıklarından kaldırıldı.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

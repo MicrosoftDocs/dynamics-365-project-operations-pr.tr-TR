@@ -79,3 +79,6 @@ Maliyet şablonları oluşturmak için şu adımları izleyin:
 7. **Kategoriler** sekmesinde, maliyet şablonu satırına dahil edilecek proje kategorilerini seçin.
 8. **Genel** sekmesinde, bu satırın tamamlanma yüzdesi hesaplamasına dahil edilip edilmeyeceğini seçin.
 9. Tamamlanma yüzdesini hesaplarken kullanılacak tamamlama maliyeti yöntemini seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

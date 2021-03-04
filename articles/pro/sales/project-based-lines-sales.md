@@ -32,3 +32,6 @@ Aşağıda, proje tabanlı fırsat satırındaki alanlar verilmiştir:
 | Veri Akışı Adı | Genel sekmesi | Bu düzenlenebilir metin alanı, satır öğesine kısa bir kimlik sağlamak için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırına taşınır. |
 | Müşteri Bütçesi | Genel sekmesi | Bu düzenlenebilir para birimi alanı müşterinin bu satır öğesine harcayabileceği tutarı izlemek için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır. |
 | Faturalama Yöntemi | Genel sekmesi | Bu düzenlenebilir alan aşağıdaki değerlere sahiptir:</br>- Zaman ve Malzeme</br>- Sabit Fiyat | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır. Teklif satırı oluşturulduktan sonra, alan kilitlenir ve değiştirilemez. Bu alan değerini mümkün olduğunca doğru atayın. Teklif satırında bu alanın değerini değiştirmeniz gerekirse teklif satırını silip yeniden oluşturun. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

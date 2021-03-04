@@ -54,3 +54,6 @@ Dynamics 365 Finance uygulamasında Proje yönetimi ve muhasebe hakkında daha f
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
 Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Yasal güncelleştirmeler hakkında bilgi edinmenin başka bir yolu, Lifecycle Services (LCS) portalında oturum açıp sorun arama aracını kullanarak planlanan mevzuat güncelleştirmelerini görüntülemektir. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

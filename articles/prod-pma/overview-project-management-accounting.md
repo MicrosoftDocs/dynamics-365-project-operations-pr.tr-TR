@@ -440,3 +440,6 @@ Rapor hesaplandıktan sonra, **Proje raporları** sayfasındaki çeşitli sekmel
 -   **Tüketim** : saatlerin, maddelerin, giderlerin ve bordro hareketlerinin tüketimi hakkında bilgiler.
 -   **Fatura:** : faturalar ve mahsup faturalamayla ilgili bilgiler.
 -   **Saatlik ücret** : gelire ve maliyet hesaplarına nakledilen saatlik birim fiyatlar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

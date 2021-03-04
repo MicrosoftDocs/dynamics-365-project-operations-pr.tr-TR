@@ -38,3 +38,6 @@ Bu görünümde, sistemdeki tüm proje sözleşmeleri arasında faturalanmamış
 Zaman ve malzeme faturalama yöntemi olan çok müşterili sözleşme satırlarında, saat ve giderler onaylandığında, sözleşme satırındaki her müşteri için tanımlanan faturalama yüzdesiyle ilgili olarak, sözleşme satırındaki her müşteri için faturalandırmayan bir satış fiili gerçek oluşturulur. **Zaman ve malzeme faturalama biriktirme listesi** görünümünde, müşteriye özgü bu bağımsız satışlar fiili değerlerini görürsünüz. Bu faturalandırılmamış satış fiili kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir.
 
 Bir taslak faturadaki faturalandırılmamış satış fiileri bu görünümde, **oluşturulan müşteri faturasının** **faturalama durumu** ile gösterilir. Taslak fatura teyit edildiğinde, bu kayıttaki faturalama durumu **deftere nakledilen müşteri fatura** olarak güncelleştirilir. Bu durum değerini bu durumdayken özel kod kullanarak güncelleştirmek önerilmez. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

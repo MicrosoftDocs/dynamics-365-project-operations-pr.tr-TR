@@ -31,3 +31,6 @@ Harcırah, iş için seyahat eden bir çalışana ödenen bir ücrettir. Gider y
     
 ## <a name="submit-expenses-using-per-diem"></a>Harcırah kullanarak giderleri gönderme
 Harcırahları kullanarak giderleri göndermek için bir gider raporu oluştururken **Harcırah** gider kategorisini kullanın. **Harcırah başlangıç tarihi**, **Harcırah bitiş tarihi** ve **Harcırah konumu** bilgilerini girin. Tutar, seçili konumun harcırah oranları temel alınarak ve yemek indirimi ise harcırah oranı katmanları temel alınarak hesaplanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

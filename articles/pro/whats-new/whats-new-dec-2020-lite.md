@@ -57,3 +57,6 @@ Aşağıdaki tabloda Dataverse ortamı sürüm 4.5.0.134'te Project Operations i
 | Zaman ve gider | Kategori 2034882 | Dynamics 365 Field Service yüklendiğinde zaman girişleri için **Yeni** düğmesi komut çubuğunda iki kez görüntüleniyor. |
 | Zaman ve gider | Kategori 2056028 | **Zaman Düzenlemesi** sayfasını, zaman çizgisini içerecek şekilde güncelleştirin. |
 | Zaman ve gider | Kategori 1983747 | Zaman girişi grafiği ek veriler gösteriyor. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

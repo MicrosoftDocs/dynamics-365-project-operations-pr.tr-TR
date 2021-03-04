@@ -32,3 +32,6 @@ Gider raporları için, bir hareketten alınan ve gider yönetiminde depolanan �
 Bir hareketin üzerinde görünen özgün gider raporuna detaya gitmek için hareketi seçin ve **özgün belge**'yi seçin.
 
 Tek hareketleri görüntülediğinizde, bir harekete iliştirilen tüm ek verileri de görüntüleyebilirsiniz. Örneğin, bir otel gideri için internet erişimi, telefon görüşmeleri ve oda servisi gibi ayrıntılı harcamalar görebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

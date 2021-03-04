@@ -42,3 +42,6 @@ Kaynaklar için beceriler, uzmanlık modellerine göre derecelendirilir. Her der
 
 
 Bu derecelendirme değerleri; **Kaynak Gereksinimleri**, **Zamanlama Panosu** ve **Zamanlama Yardımcısı** filtrelerinde gösterilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

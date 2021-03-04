@@ -149,3 +149,6 @@ Aşağıdaki tabloda, önceki iş akışı için İşlem bağlantısı varlığ�
 | Taslak Fatura Düzeltmesi       | Fatura Satırı İşlem GUID'i | Değiştirme          | msdyn_invoicelinetransaction | Faturalanan Satış GUID'i            | Orijinal           | msdyn_actual       |
 | Fatura Düzeltmesini Onayla     | Faturalanan Satış Tersine Çevirme GUID'i    | Tersine çevirme          | msdyn_actual                 | Faturalanan Satış GUID'i            | Orijinal           | msdyn_actual       |
 | Yeni Faturalanmamış Satış Fiili Değeri GUID'i | Değiştirme                     | msdyn_actual       | Faturalanan Satış GUID'i            | Orijinal                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

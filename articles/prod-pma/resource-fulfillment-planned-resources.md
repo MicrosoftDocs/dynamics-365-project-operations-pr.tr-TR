@@ -40,3 +40,6 @@ Proje yöneticisi bir proje için gerekli kaynak rolleri planlayabilir. Kaynak y
 7. Bir çalışanı ve ardından **Ata** 'yı seçin.
 8. **XYZ Yükseltme Projesi Aşama 2** projesi için **Yazılım geliştirici 1** satırının kaldırıldığından emin olun.
 9. **Proje ekibi ve zamanlama** sekmesinde, **XYZ Yükseltme Aşama 2** projesi için, önceki adımda seçtiğiniz çalışanın **Yazılım geliştiricisi** olarak eklendiğinden emin olun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan fatur
 - Eşit olarak bölünmüş fatura kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
 - Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
 - Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

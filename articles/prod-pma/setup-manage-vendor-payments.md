@@ -80,3 +80,6 @@ Bir satıcı bir proje üzerinde çalışmasını tamamladığında ve size bir 
 2. **Ödemeleri ödemeli yapan satıcı faturaları** sayfasında arama alanına, gözden geçirmek istediğiniz satıcı faturasını bulmak için değerleri girin ve **Arama** 'yı seçin.
 3. **Satıcı Fatura satırları** hızlı sekmesinde, değiştirmek istediğiniz satırları seçin.
 4. Fatura satırında **ödeme koşulları karşılanıyorsa** öde **satıcı ödemesini serbest bırak** 'ı seçin. **Ödeme yapılırken öde** seçeneği temizlenirse ve **ödeme için hazır** alanının değeri **Evet** olarak değiştirilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Varlık tabanlı boyutlarla ilgili verileri el ile veya Microsoft Excel içeri a
 > ![Standart Başlık varlığı için örnek veriler ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

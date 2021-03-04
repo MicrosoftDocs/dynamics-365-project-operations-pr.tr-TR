@@ -58,3 +58,6 @@ Firmalarınızı, projelerinizi ve kaynaklarını yönetmek üzere [!INCLUDE[pn_
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)   
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

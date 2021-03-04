@@ -43,3 +43,6 @@ Aşağıdaki diyagramda muhasebe olayları ve genel muhasebeye nakledilmesi bekl
 - [Şirketler arası faturalamayı yapılandırma](configure-intercompany-invoicing.md)
 - [Şirketler arası işlemleri kaydetme](create-intercompany-transactions.md)
 - [Şirketler arası müşteri ve satıcı faturaları oluşturma](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

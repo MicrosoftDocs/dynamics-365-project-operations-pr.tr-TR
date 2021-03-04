@@ -20,3 +20,6 @@ ms.locfileid: "4514601"
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Project Operations ortamınızda rolleri tanımlamak için Dynamics 365 Field Service'te sağlanan işlevi kullanabilirsiniz. Bu ayarı tamamlamak için bkz. [Ayrılabilir kaynak kategorilerini ayarlama](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

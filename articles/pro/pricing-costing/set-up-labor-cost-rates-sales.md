@@ -82,3 +82,6 @@ Fabrikam US-Robotics'in maliyet fiyat listesinde maliyet oranları şu şekilde 
 | Geliştirici | Fabrikam İngiltere | 115 GBP |
 
 Maliyet fiyat listesi birden çok para biriminde işçilik oranları sağlayabilir. Proje üzerinde bir maliyet tahmini oluştururken, Project Operations bu maliyet oranlarını proje para birimine dönüştürür ve kullanıcıya görüntüler. Bir zaman girişi onaylandığında ve bir maliyet fiili oluşturulduğunda, maliyet fiili, maliyet fiyat listesindeki eşleşen rol fiyat satırının para birimi cinsinden fiyatlandırılır. Tek bir projedeki zaman ait maliyet fiili, birden çok para birimine kaydedilebilir. Ancak, proje düzeyindeki gerçek işçilik maliyetlerini oluştururken veya özetlediğinizde, proje Işlemleri tüm işçilik maliyet tutarlarını kullanıcının görüntüleyebileceği proje para birimine dönüştürür.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

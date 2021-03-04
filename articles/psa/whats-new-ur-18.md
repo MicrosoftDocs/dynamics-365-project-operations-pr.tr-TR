@@ -63,3 +63,6 @@ Bu konuda, Project Service Automation Güncelleştirme Sürümü 18 V3'te yeni v
 **Sales**
 
 - Düzeltildi: Zaman girişleri yeniden onaylandığında (**Onayla > İptal Et >** yeniden onayla) yinelenen bir borçlandırılamaz gerçek değer oluşturulur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

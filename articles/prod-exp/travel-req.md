@@ -32,3 +32,6 @@ Kuruluşunuz, kuruluşunuzdan alınacak giderler, çalışanlar tarafından yap�
 Seyahat talepleri ve ilkeler, bütçe kontrolüne yardımcı olmak için kullanılabilir. Örneğin, kuruluşunuz seyahat yapılmasını gerektiren bir sabit fiyatlı projede çalışıyorsa projenin takım üyelerinin seyahat giderleri proje bütçesini aşmamalıdır. Seyahat giderlerinin harcanmadan önce onaylanmasını gerektirerek kuruluşun projenin bütçeyi aşmamasını sağlamasına yardımcı olabilir.
 
 **Seyahat istekleri** sayfasından seyahat taleplerle ilgili ilkeler ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

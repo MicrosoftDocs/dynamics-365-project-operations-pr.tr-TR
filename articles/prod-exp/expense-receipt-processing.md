@@ -95,3 +95,6 @@ Hayır, Microsoft makbuz işleme servisi için genel bir makine öğrenimi model
 Finance alan verilerini çıkarmak için Cognitive Services hizmetleriyle iletişim kurar. Cognitive Services, işlem sırasında makbuzunuzun bir kopyasını 24 saat boyunca saklar. İşlem tamamlandıktan sonra, Cognitive Services makbuzu siler. Makbuzlar Finance'de saklanmaya devam eder.
 
 Daha fazla bilgi için bkz. [Form Tanıma'nın yeni özelliği ile makbuz anlamayı etkinleştirme](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

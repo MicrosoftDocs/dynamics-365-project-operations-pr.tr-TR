@@ -75,3 +75,6 @@ Proje kaynak zamanlamasının işlevselliği yalnızca kaynak yöneticilerinin g
 - Kaynak isteklerini karşılayın.
 - Bir İKY'den bir personelli kaynak isteyin.
 - Personelli kaynak için istekte bulunmadan bir projeye kaynak ayırın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

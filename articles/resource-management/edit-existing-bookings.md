@@ -33,3 +33,6 @@ Proje yöneticisi, **Takım Üyesi** ızgarasından belirli bir kaynağı vurgul
 ## <a name="schedule-board"></a>Zamanlama Panosu
 
 Kaynak yöneticisi, **Zamanlama Panosu**'nda bir kuruluştaki tüm ayırmaların bir portföy görünümüne sahiptir. Kaynak yöneticisi bu görünümden **Ayırma İşlemlerini Koru**'da sunulan özelliklere benzer şekilde mevcut ayırmaları uzatabilir, kısaltabilir veya taşıyabilir. Kaynak yöneticisi ayrıca ayırmaya sağ tıklayıp **İkame Kaynak** seçeneğini belirleyerek belirli bir ayırmaya tahsis edilmiş mevcut kaynakları ikame edebilir. Kaynak yöneticileri ayırmaya sağ tıklayıp **Düzenle**'yi seçerek mevcut ayırmaların dağılımlarını da düzenleyebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

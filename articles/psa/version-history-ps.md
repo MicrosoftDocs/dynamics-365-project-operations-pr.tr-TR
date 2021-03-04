@@ -73,3 +73,6 @@ Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dy
 >[!Note]
 > - Kamu topluluğu bulutu (GCC) dışındaki tüm bölgelerde bulunan tarihler bir sonraki otomatik güncelleştirmenin zamanlamasını gösterir. GCC'deki tarihler sürüm kullanılabilirliğini gösterir; Bu aşamada, bu bölgeler için otomatik güncelleştirme yoktur.
 > - Diğer tüm bölgelerde güncelleştirmelerin çoğu zamanlanmış gecede tamamlanmalıdır ancak daha fazla zaman gerektiren güncelleştirmeler **Zamanlanmış tarih** sütununda gösterilen hafta sonu akşam saatlerinde tamamlanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

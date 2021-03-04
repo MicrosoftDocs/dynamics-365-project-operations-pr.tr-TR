@@ -107,3 +107,6 @@ Aşağıdaki çizim, geri çekildiklerinde onaylanan zaman girişlerinde gerçek
 Aşağıdaki çizim, geri çekildiklerinde onaylanan gider girişlerinde gerçekleşen değişiklikleri gösterir.
 
 ![Gider Girişi durum geçişleri](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

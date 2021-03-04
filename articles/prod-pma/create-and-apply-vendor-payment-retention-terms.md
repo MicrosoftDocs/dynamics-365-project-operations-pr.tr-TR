@@ -65,3 +65,6 @@ Bİr satıcı için satıcı elde tutma şartları oluşturduktan sonra şartlar
 6. Projenin satıcı için ayarlanmış ödeme ödemesi (PWP) koşulları varsa, proje için eşik yüzdesini **PWP eşik yüzdesi** alanına girin.
 
 Satıcı Bekletme koşulları, satıcı için oluşturduğunuz satınalma siparişlerinde de görüntülenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

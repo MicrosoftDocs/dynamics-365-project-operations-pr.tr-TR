@@ -82,3 +82,6 @@ Bu, görevlerin sözleşme satırlarıyla ilişkilendirmesini kaldırmak için d
 4. Açılan iletişim kutusunda, açılan listeden bir sözleşme satırı seçin.
 5. İlişkilendirmenin seçili görevlerdeki alt görevlerinden kaldırılmasını istiyorsanız, onay kutusunu seçin. Kutusunu işaretlediğinizde, Seçili görevlerin alt görevleri de sözleşme satırıyla ilişkilendirilmesi kaldırılır.
 6. **Tamam**'ı seçin. Bir uyarı iletisi, bu ilişkinin kaldırılmasının, görevde daha önceden kaydedilmiş fiili değerlerin tersine çevrilmesine neden olabileceğini gösterir. Görev ve proje tabanlı sözleşme satırı arasındaki ilişkilendirmeyi kaldırmak için uyarı iletişim kutusunda **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

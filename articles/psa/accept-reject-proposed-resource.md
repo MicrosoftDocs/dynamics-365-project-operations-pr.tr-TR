@@ -45,3 +45,6 @@ Teklifi reddetmek için **Kaynağı Reddet**'e tıklayın.
 ![Kaynak teklifini kabul etme](media/RM-how-to-20.png) 
 
 Adlandırılmış kaynağı bulunan genel kaynak isteğini doğrudan karşılamaya benzer şekilde, genel kaynak değiştirilir ve atanan görevler adlandırılmış takım üyesiyle güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Fiyatlandırma çözümünüz için aşağıdaki Project Service varlıklarını
 > ![İlgili tüm bileşenleri eklemeyin](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -316,3 +316,6 @@ Başka bir seçenek olarak, zamanlama hatalarını her görevdeki uyarı simgesi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

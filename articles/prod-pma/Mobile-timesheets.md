@@ -62,3 +62,6 @@ Android, hazır olduğunda platform güncelleştirmesi 16 ile uyumlu olacaktır.
 13. İsteğe bağlı: Ek zaman çizelgesi satırları girin.
 
 14. Zaman çizelgesi satırlarını girmeyi tamamladığınızda, zaman çizelgenizi iş akışı onay sürecine göndermek için **İş akışı** \> **Gönder** eylemini seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

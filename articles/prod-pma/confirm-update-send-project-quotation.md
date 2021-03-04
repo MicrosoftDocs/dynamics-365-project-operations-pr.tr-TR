@@ -57,3 +57,6 @@ Varolan bir proje teklifini değiştirmek için, teklif durumunun **oluşturulma
 
 > [!NOTE]
 > Durum **gönderildi** olarak değiştirildikten sonra proje teklifini değiştiremezsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

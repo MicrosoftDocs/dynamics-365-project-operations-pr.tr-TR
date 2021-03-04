@@ -47,3 +47,6 @@ Her bir rol için hedef kullanım oranı ayarlayın. Bu ayarlar projelerin kadro
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

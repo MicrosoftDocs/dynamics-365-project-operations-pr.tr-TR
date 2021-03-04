@@ -113,3 +113,6 @@ Finance and Operations mobil uygulamasını indirip ve yükleyin:
 11. Satır özelliğini seçin.
 12. İsteğe bağlı: Herhangi bir harici veya dahili yorum girin.
 13. **Bitti** 'yi seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

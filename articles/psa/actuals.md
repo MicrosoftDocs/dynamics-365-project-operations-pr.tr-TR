@@ -330,3 +330,6 @@ PSA bir proje sırasında gerçekleşen mali işlemleri kaydeder. Bu işlemler *
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

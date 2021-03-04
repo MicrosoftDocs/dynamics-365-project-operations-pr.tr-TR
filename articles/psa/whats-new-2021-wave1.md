@@ -43,3 +43,6 @@ Aşağıdaki sorunlar giderilmiştir:
 
 - Süre boşsa, bir zaman girişi oluşturulduğunda, bitiş tarihleri otomatik olarak doldurulur.
 - Kullanıcılar onaylanmış veya gönderilmiş bir zaman girişinde görevi değiştirebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

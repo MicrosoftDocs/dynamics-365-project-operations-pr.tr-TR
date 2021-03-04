@@ -56,3 +56,6 @@ Var olan bir teklif, bir Fırsata bağlanabilir. Var olan bir teklifin Fırsat b
    Fırsatı bu aşamaya taşıdığınızda, bu fırsatla ilişkili teklifler listesinden bu teklifi seçebilirsiniz. Bu teklifi seçmek, bu teklifte ilerlediğiniz anlamına gelir.
 
    Tekliflerden biri kazanılana kadar, Fırsatla ilişkili diğer tüm teklifler kullanılabilir ve etkin durumda kalır. Satış sürecini önceki aşama olan **Uygun Bul** aşamasına taşıyabilir ve ilerlemek için başka bir teklif seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Bu güncelleştirmenin içerdiği düzeltmeler hakkında bilgi için, Lifecycle 
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
 Dynamics 365 Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

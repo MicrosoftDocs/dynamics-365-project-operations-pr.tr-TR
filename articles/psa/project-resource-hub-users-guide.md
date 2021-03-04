@@ -105,3 +105,6 @@ Müşterilerinizin doğru biçimde faturalandırıldığından ve kaydettiğiniz
  [Project Service'a Genel Bakış](../psa/overview.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

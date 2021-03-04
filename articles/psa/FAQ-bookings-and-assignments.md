@@ -68,3 +68,6 @@ Ayırmalar ve atamalar kesin bir şekilde eşleştirilmediği için, görev sın
 > [!NOTE]
 > Kendi kendinize sınır koyduğunuz bir görevi taşıdığınız zaman bu sınırların korunmaz. Sınırlar, çalışma saatlerindeki ve tatillerdeki değişiklikleri hesaba katmak için proje takvimine göre yeniden üretilir. Sistem baştaki sınırın amacını bilmediği ve bu sınırı yeni bir dönemde korumanın anlamlı olup olmayacağına karar veremeyeceği için, bu kasten yapılır. Ayırmaların ve atamaların bağlantısı kaldırıldığı için, ayırmalar baştaki ayırma sınırlarını korur. Bu durumda, iptal etmeniz ve yeni atama sınırına göre yeniden ayırmanız gerekir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

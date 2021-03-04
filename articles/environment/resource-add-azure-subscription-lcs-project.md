@@ -70,3 +70,6 @@ Yetkilendirme işlemi artık tamamlanmıştır.
 Azure aboneliğinize başarıyla bağlandınız. Artık Dynamics 365 Finance bulutta barındırılan ortamlarını dağıtabilirsiniz.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

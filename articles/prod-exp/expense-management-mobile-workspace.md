@@ -240,3 +240,6 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 22. **Gönder**'i seçin.
 23. Onaylayan için herhangi bir yorum girin.
 24. **Bitti**'yi seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

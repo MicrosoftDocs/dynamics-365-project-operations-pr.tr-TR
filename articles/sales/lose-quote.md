@@ -45,3 +45,6 @@ Bu, kopyanın parametrelerini girebileceğiniz bir iletişim sayfası açar. Aş
 > - Proje bazlı teklif satırlarında proje başvurusu (Müşteri bütçe bilgileri)
 >
 >Bu bilgiler tekliflere özgü olduğu için bu alanlar ve kayıtlar kopyalanmaz. Projeler ve ürünler için teklif satırları, teklif satırı ayrıntılarına ilişkin tahminler ve teklif düzeyinde aşılmaz değerler kopyalanır. Varsayılan fiyat ve maliyet oranları **Parametreleri kopyala** iletişim sayfasında seçilen **Fiyatlandırmayı kopyala** seçeneğine bağlıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

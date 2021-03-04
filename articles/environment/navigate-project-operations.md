@@ -38,3 +38,6 @@ Finance uygulamasındaki **proje yönetimi ve muhasebe** modülüne gitmek için
 
 > [!NOTE]
 > Common Data Service ve **Proje yönetimi ve hesap** modülündeki proje işlemlerine, kendi URL'lerini kullanarak doğrudan erişebilirsiniz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Bu takım üyesi kaydı için satırı genişlettiğinizde her iki görev için 
 ### <a name="estimates-grid"></a>Tahminler ızgarası 
 
 **Tahminler** ızgarasında, aynı kaynağın iki ataması farklı fiyatlandırılır. **Görev A**'da kaynak için atama, **Danışman Müşteri Adayı**'nın **Rol** öznitelik değeri kullanılarak fiyatlandırılır. **Görev B**'de aynı kaynak için atama, **Ağ Teknisyeni**'nin **Rol** öznitelik değeri kullanılarak fiyatlandırılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

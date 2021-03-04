@@ -45,3 +45,6 @@ Project Operations yalnızca sayısal veri türüne sahip sayısal özellikleri 
 6. Formu kaydedin ve kapatın. Ürün tabanlı teklif satırının miktarını hesaplamak üzere tüm özellikler için bu adımları tekrarlayın.
 
 Ürün için ürün tabanlı bir teklif satırı oluşturduğunuzda, teklif satırının miktarı kilitlenir. Miktar, o teklif satırı için girdiğiniz özellik değerlerinin bir bileşimi olarak hesaplanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

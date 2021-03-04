@@ -26,3 +26,6 @@ Dynamics 365 Project Operations'ta proje yönetimi araçları, projeleri kolayca
 - Satış sürecinde proje tahminlerini kullanın.
 - Ardışık düzendeki projeler için kaynak gereksinimlerini tahmin edin.
 - Süreci ve maliyet tüketimini izleyerek projeleri başarıyla teslim edin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

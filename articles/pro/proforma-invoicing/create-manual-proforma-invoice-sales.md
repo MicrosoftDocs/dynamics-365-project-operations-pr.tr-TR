@@ -35,3 +35,6 @@ Oluşturulan tüm proje faturaları **Satış** alanının **faturalama** bölü
 **Proje Sözleşmesi** ayrıntıları sayfasından da bir proforma fatura oluşturulabilir. Sistem, proje sözleşmesinin bugünün tarihinden önceki tarihli bir **Faturalanmaya Hazır** biriktirme listesine sahip olduğunu doğrular. Bu sözleşmelerdeki sistem, her sözleşme satırındaki Müşteri sayısına bağlı olarak taslak proforma faturalar oluşturur.
 
 Tek bir Proforma faturası oluşturulduğunda **Fatura** sayfası açılır. Söz konusu proje sözleşmesi için birden fazla fatura oluşturulursa oluşturulan tüm faturaları görüntülemek için **Faturalar** listesi sayfası açılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

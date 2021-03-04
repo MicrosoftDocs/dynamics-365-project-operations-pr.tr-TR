@@ -37,3 +37,6 @@ Project Operations'tan bekleniniz aşağıdaki gereksinimleri de dahil tam proje
 - Planlar için dahili ve Faturalanabilen projeleri proje satışlardan faturalamaya kadar yöneten tümleşik bir sistemdir.
 - Project Operations ile tümleştirmek için üçüncü taraf kurumsal kaynak planlaması (ERP/mali muhasebe sistemi).
 - Satış vergileri, Döviz kurları, masraf geri ödemeleri ve proje dışı giderlerle çalışmak için üçüncü taraf bir sistemdir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

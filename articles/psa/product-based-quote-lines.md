@@ -82,3 +82,6 @@ PSA, yalnızca sayısal veri türüne sahip sayısal özellikleri veya ürün ö
 
 > ![Kullanıcı sayısı ve Ay sayısını kalite faktörleri olarak işaretleme](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

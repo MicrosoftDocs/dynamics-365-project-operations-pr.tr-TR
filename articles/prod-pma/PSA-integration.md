@@ -75,3 +75,6 @@ Project Service Automation ile Finance arasındaki tümleştirmesi çözümünü
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Project Service Automation örneğinizde Project Service Automation'dan Finance'e tümleştirme çözümünü yükleme
 
 Project Service Automation'dan Finance'e tümleştirme çözümünü [Microsoft Yükleme Merkezi](https://www.microsoft.com/download/details.aspx?id=57016)'nden indirin ve çözüme dahil edilen yönergeleri izleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

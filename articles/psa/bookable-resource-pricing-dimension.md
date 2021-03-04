@@ -76,3 +76,6 @@ Bu, **msdyn_bookableresource** için **Yeni Fiyatlandırma boyutu alan adı** sa
 5. **msdyn_projectteam** öğesini **Varlık Mantıksal Adı** alanına **msdyn_bookableresourceid** öğesini **Alan Adı** alanına ekleyin. Kaydı kaydedin.
 
  ![Yeni Fiyatlandırma boyutu alan adı formu](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

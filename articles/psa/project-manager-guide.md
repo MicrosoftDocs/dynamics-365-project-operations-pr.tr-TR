@@ -95,3 +95,6 @@ Bu kılavuz, proje oluşturmak ve yönetmek için gereken bilgileri sağlar:
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Tüm proje sözleşmelerinin listesi, **sözleşmeler** listesi sayfasında gör
 2. Diğer filtre uygulanmış görünümleri seçmek için **görünüm değiştiriciyi** (görünümün adının yanındaki açılan ok) seçin. Özel filtre ölçütlerinde kendi görünümlerinizi oluşturabilirsiniz.
 
 Sözleşmeler, bu liste sayfasından veya ayrıntı sayfalarından oluşturulabilir veya silinebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

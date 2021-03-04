@@ -56,3 +56,6 @@ Onaylamak istediğiniz seyahat talebini seçin ve ardından **İş Akışı** > 
 
 > [!NOTE]
 > Gider raporunu, onaylanmış bir seyahat talebiyle eşlediğinizde işlem tutarı, yetkilendirilmiş tutardan daha fazla olamaz. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

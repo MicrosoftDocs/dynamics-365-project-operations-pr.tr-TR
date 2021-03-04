@@ -144,3 +144,6 @@ Fatura oluşturulduktan sonra gelen fiili değerleri varsa, bu fiili değerleri 
 Project Operations'ta, proje tabanlı fatura satırlarıyla birlikte, herhangi bir projeye veya tüm projelere uygulanabilen ürünler için fatura satırları oluşturabilirsiniz. Bu fatura satırları ürün tabanlı sözleşme satırları olarak oluşturulur ve bunlar, faturaya hazır olarak işaretlendikten sonra, ürün tabanlı fatura satırları olarak eklenir.
 
 Ürün tabanlı fatura satırlarını ekledikten sonra, bunlar değiştirilemez. Ancak bunlar taslak proforma faturadan silinebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

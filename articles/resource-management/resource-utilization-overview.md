@@ -45,3 +45,6 @@ Ek olarak, her ayrılabilir kaynağa varsayılan bir rol atanması gerekir. **Ka
 **Project Service** sekmesinde, kaynak için ayrı bir hedef kullanımı da ayarlayabilirsiniz. Sonrasında kullanım hesaplaması kaynağın hedefini değerlendirmek için kaynağın varsayılan rolünün hedefi yerine bu hedef kullanımını kullanır.
 
 Kaynağın kullanımı, yalnızca söz konusu kaynağın ızgarada gösterilen dönem içinde borçlandırılabilir bir zaman olduğu onaylanırsa gösterilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

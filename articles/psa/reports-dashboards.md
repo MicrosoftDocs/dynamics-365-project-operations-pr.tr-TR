@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation iki sistem panosu içerir: **Uygulama Y�
 ## <a name="resource-manager"></a>Kaynak Yöneticisi 
 
 **Kaynak Yöneticisi** panosu; kaynak yöneticilerine kaynak isteklerini, kaynak talebini ve kullanımı izlemek için grafiksel bir pano deneyimi sağlar. Ayrıca kaynak yöneticilerinin izlenen bilgileri çeşitli boyutlarda dilimlemelerine olanak sağlar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

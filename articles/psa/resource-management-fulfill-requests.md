@@ -46,3 +46,6 @@ Zamanlama Yardımcısı görüntülenir ve gereksinimlere göre filtrelenir. Kay
 > ![Kaynak seçildi](media/Resource-Management-image61.png)
 
 Genel takım üyesi, proje takımında kesin ayrılmış bir adlandırılmış kaynak ve proje zamanlamasındaki görev atamaları ile değiştirilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

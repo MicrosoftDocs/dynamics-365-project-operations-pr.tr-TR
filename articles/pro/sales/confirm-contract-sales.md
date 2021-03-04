@@ -35,3 +35,6 @@ Kaybedilen Proje sözleşmesi, satırlarındaki bir projeye başvuru içeriyorsa
 
 > [!NOTE]
 > Dynamics 365 Project Operations, bir proje sözleşmesini kayıp olarak kapatmak, ilişkilendirilmiş fırsatın durumunu etkilemez. Fırsat açık kalacak ve el ile kapatılması gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

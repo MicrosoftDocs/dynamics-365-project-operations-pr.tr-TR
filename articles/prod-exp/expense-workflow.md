@@ -55,3 +55,6 @@ Aşağıdaki işlem, gider raporu için gider yönetimi iş akışına bir örne
 Bu gereksinimler doğrulandıktan sonra, gider raporu deftere nakledilir.
 
 Gider raporu deftere nakledildikten sonra, gider raporu için ödeme yetkilidir ve çalışana geri ödeme yapılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

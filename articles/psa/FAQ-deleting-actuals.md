@@ -33,3 +33,6 @@ ms.locfileid: "5148982"
 
 Project Service Automation (PSA), genel muhasebe gibi aşağı akış sistemlerinde finansal etkileri olan işlemler için gerçeklik kaynağı olarak hizmet verdiklerinden fiili değerleri silmenize izin vermez. Fiili değerler silinebilirse, mali raporlama işlemlerinin bütünlüğü sorgulanabilir. Bir denetim kaydı oluşturmak için, müşteriler telafi işlemleri oluşturmak üzere günlükleri kullanmalıdır.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

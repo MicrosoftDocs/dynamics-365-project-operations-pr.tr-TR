@@ -48,3 +48,6 @@ Kaynağı doğrudan bir projeye ayırma:
 Kaynak gereksinimden bir kaynak ayırma:
 - [Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

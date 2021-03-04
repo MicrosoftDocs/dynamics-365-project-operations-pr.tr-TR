@@ -36,3 +36,6 @@ Zaman ve giderlerinizi mobil cihazınızda girmek istiyorsanız, [Telefonlar ve 
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

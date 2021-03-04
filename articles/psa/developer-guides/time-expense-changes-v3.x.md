@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation sürüm 3.0'da, Zaman ve Gider görünü
 Daha önce, Zaman ve Gider için takvim ve ızgara görünümleri DHTMLX denetimleri olarak uygulanmıştır. Takvimin ve ızgara görünümlerinin bu uygulamasıyla ilgili yapıtlar artık kullanılmamaktadır (kullanım dışı).
 
 Kullanımdan kaldırılmış kaynakların tam listesi için [Project Service Automation 3.x'te kullanımdan kaldırılan Web kaynakları](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

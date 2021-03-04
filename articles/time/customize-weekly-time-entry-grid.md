@@ -144,3 +144,6 @@ Tek bir zaman girişi kaydında kullanılabilir olandan daha fazla bağlam gerek
 
 ### <a name="copying-time-entries"></a>Zaman girişlerini kopyalama
 Zaman girişi sırasında kopyalanması gereken alanların listesini tanımlamak için görünüm **Kopya Süresi Giriş Sütunlarını** kullanın. **Tarih** ve **Süre** gerekli alanlardır ve görünümden kaldırılmamalıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

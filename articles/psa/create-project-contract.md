@@ -47,3 +47,6 @@ Projeniz için teklifi kazandığınıza göre, müşteriniz ile bir sözleşme 
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

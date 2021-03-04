@@ -57,3 +57,6 @@ Filtre bölmesi, aşağıdakiler dahil işle ilgili seçenekleri gösterir:
 -   Kaynak atayan şirket
 -   Kaynak türleri
 -   Tercih edilen kaynaklar
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Kaynağın kapasitesini projeye ayırmak için **Mutabakat** sekmesinin ayırmay
 ![Kaynak mutabakatı sekmesinde bir takım üyesi için ayırmaları uzatma](media/RM-how-to-7.png)
 
 Bir takım üyesi projenize ayrıldıktan sonra, ayırmaları doğrudan yönetmek için ayırmaları sürdür özelliğini veya Zamanlama Panosunu kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Kuruluşa ve müşteriye özel varsayılan proje fiyat listeleriniz olduktan son
 
 1. **Proje Teklifi**'ndeki **Proje Fiyat Listesi** sekmesinde alt ızgarada seçilen özel fiyat listesi kaydı olmadığını doğrulayın.
 2. **Özel Fiyat Oluştur**'u seçin. Bu işlem, şu anda teklifle ilişkili tüm standart fiyat listelerinin kopyalarını yapar ve bu kopyaları teklifle ilişkilendirir. Standart fiyat listeleri için mevcut ilişkiler kaldırılır. Ardından satış temsilcisi bu kopyalardaki fiyatlarda düzenlemeler yapmaya başlayabilir. Bu değiştirilen fiyatlar yalnızca bu proje teklifi için geçerlidir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

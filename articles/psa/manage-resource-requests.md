@@ -51,3 +51,6 @@ Hesap yöneticileri ve proje yöneticileri projeleri için düzenli olarak kayna
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

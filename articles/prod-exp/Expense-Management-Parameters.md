@@ -89,3 +89,6 @@ Parametreler gider yönetiminde geel davranışı denetler.
 | <strong>Gönderen için yolsuzlukla mücadele iletisi</strong> |                                                                                             Yeni bir gider raporu oluştururken çalışana görüntülenecek metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için <strong>Çeviriler</strong>'i seçin.                                                                                             |
 | <strong>Onaylayan için yolsuzlukla mücadele iletisi</strong>  |                                                                                             Yeni bir gider raporu oluştururken onaylayana görüntülenecek metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için <strong>Çeviriler</strong>'i seçin.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

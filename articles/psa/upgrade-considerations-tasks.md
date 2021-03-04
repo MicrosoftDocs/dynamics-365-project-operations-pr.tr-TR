@@ -96,3 +96,6 @@ Başarılı bir yükseltme yapıldığından emin olmak için aşağıdaki iliş
 
 - Tüm proje görevi bağımlılıkları aynı projeyle ilişkili olmalıdır.
 - Bir görev için aynı bağımlılığa birden başvuru yapılamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

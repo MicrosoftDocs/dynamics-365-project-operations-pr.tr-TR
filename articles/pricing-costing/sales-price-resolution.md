@@ -54,3 +54,6 @@ Satışlar için fiyat listesi çözüldüğünde, sistem birim satış fiyatın
     | &nbsp; | Maliyet üzerinde kar payı | İlgili maliyetin gerçek olduğu birim maliyet oranına göre, kategori fiyatı satırıyla tanımlanan bir sair gider uygular. |
 
 4. Sistem **Kategori** ve **birim** alanı değerlerini eşleyemediğinde satış fiyatı varsayılan olarak sıfırdır (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Ayırmaların aksine atamalar, kaynakların proje taahhüdündeki proje görevle
 Tipik olarak bir kaynağın toplam sayısı, kaynağın atamalarının bir veya daha fazla görev üzerinden toplamına eşittir. Ancak Project Operations bu uyuşmayı zorunlu kılmaz. **Mutabakat** görünümü; Proje yöneticisine, bir kaynağın ayırma ve atamalarının uyuşmadığı yerleri gösterir.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Proje ayırmalarından ve atamalardan verileri içeri aktarabilirsiniz. Verileri
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Gruplama ölçütü, sıralama, arama ve filtreleme özellikleri
 
 Zaman girişlerini sütunlarda belirtilen boyutlara göre gruplandırabilir ve filtre uygulayabilirsiniz. **Gruplama ölçütü** alanında, zaman girişlerini filtrelemek için kullanılacak boyutu seçin. Ayrıca, sütun başlıklarındaki sıralama okunu kullanarak, zaman girişi kayıtlarını artan veya azalan düzende sıralayabilirsiniz. Ayrıca, sütun başlıklarındaki **Filtrele** düğmesini seçip ardından **Arama** kutusunda zaman girişlerini proje adına, proje görevine, zaman girişine veya kaynağa göre aramak için kullanılacak metni girerek girişleri gösterebilir veya gizleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

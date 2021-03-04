@@ -63,3 +63,6 @@ Zaten almış olduğunuz nakit avans için bir gider raporu oluşturup gönderdi
 ### <a name="example"></a>Örnek
 Konferans için Seattle'dan New York'a seyahat etmeyi planlıyorsunuz. Konferans bileti, uçuş, otel, yemek ve taksinin tahmini maliyetine bağlı olarak 3.000,00 USD tutarında bir nakit avans isteği oluşturdunuz. Yöneticiniz bu isteği onaylamadıkça size ödeme yapılmaz. Yöneticiniz onayladıktan sonra istenen nakit avans 3000,00 ABD doları olarak banka hesabınıza ödenir. Sonrasında konferansa katıldınız. Seyahatinizi tamamladıktan sonra toplam giderin yalnızca 2790,00 USD olduğunu gördünüz. **Ödeme yöntemi** alanında, **Nakit**'i seçin ve 2.790,00 USD tutarındaki giderinizi girin. Gönderdiğiniz gider tutarı, size ödenen 3000,00 USD nakit avansa göre otomatik olarak ayarlanır. Şu andaki bakiyeniz 210,00 USD (3.000,00 - 2.790,00) ve bu bakiyeyi **Nakit iadesi** gider kategorisini kullanarak şirkete iade edebilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Gider kategorilerinin bir üst kümesini tanımlamak için işlem kategorileri a
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

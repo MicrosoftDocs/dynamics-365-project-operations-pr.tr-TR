@@ -73,3 +73,6 @@ ms.locfileid: "5150152"
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)   
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)   
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

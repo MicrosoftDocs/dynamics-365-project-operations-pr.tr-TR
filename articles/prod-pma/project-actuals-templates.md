@@ -140,3 +140,6 @@ Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örn
 [![Şablon eşlemesi-gerçek değerler güncellemesi](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Şablon eşlemesi- İşlem güncellemesi](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

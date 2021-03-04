@@ -273,3 +273,6 @@ Faturalanan bir satış, ürün tabanlı sözleşme satırından gelen miktar ve
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

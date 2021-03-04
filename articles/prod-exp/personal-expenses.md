@@ -33,3 +33,6 @@ Bir çalışanın kişisel giderlerini işlemek için iki yöntem vardır:
 - **Şirket tarafından ödenen** – Kuruluşunuz, şirket kredi kartı için tüm faturayı ödemekte ve ardından kişisel giderler için çalışanın firmasından borçlandırır.
 
 Kuruluşunuzun kullandığı yöntemi **gider yönetimi parametreleri** sayfasında seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

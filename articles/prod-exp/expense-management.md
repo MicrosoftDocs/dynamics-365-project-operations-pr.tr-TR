@@ -58,3 +58,6 @@ Ek Yardım, görev kılavuzları olarak kullanılabilir. Görev kılavuzlarına 
 ### <a name="videos"></a>Videolar
 
 [Microsoft Dynamics 365 YouTube kanalda](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına bakın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

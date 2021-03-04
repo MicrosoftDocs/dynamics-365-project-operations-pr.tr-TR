@@ -52,3 +52,6 @@ Aşağıdaki konular; PSA'da desteklenen araçları kullanarak proje yöneticile
 - [Proje şablonları](project-templates.md)
 - [Proje aşamaları](project-stages.md)
 - [Proje ayarları](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Bir maliyet fiyat listesi çözüldükten sonra, sistem Fiyat listesinde rol fiy
 Gider için tahmin satırları, projedeki giderler ve gider tahmini satırları için teklif ve sözleşme satırı ayrıntılarına bakın.
 
 Bir maliyet fiyat listesi çözüldükten sonra, sistem Fiyat listesinde rol fiyat satırları ile maç için Zaman için tahmin satırında **Ktegori**, **Ünite** ve **Kategori fiyatı** alanlarını kullanır. Sistem **Kategori** ve **Birim** alan birleşimi için maliyet oranına sahip bir kategori fiyat satırı bulursa, maliyet oranı varsayılan olarak. Sistem **Kategori** ve **Birim** değerleriyle eşleşemezse veya eşleşen bir kategori fiyat satırı bulabiliyorsa ancak fiyatlandırma yöntemi **Birim Başına Fiyat** değilse, maliyet oranı sıfır(0) olarak varsayılan olarak verilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

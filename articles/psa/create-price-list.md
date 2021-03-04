@@ -71,3 +71,6 @@ Fiyat listeleri rol ve gider kategorilerine dayanır, bu nedenle bir fiyat liste
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Automation'ı yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

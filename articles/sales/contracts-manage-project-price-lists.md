@@ -72,3 +72,6 @@ Müşterilerinizle bir ana fiyatlandırma anlaşması konusunda anlaştığını
 ## <a name="custom-pricing-on-a-project-contract"></a>Proje sözleşmesi üzerinde özel fiyatlandırma
 
 Kuruluş ve müşteriye özel varsayılan proje fiyat listeleri aldıktan sonra, proje sözleşmeleriniz bu proje fiyat listesi ilişkilendirmeleriyle otomatik olarak oluşturulur. Ancak, bir proje sözleşmesindeki proje fiyat listeleri her zaman bunlara eklenen tarih ve sözleşme adıyla birlikte kopyalanır. Daha sonra firma ve proje yöneticileri bu kopyalarda fiyatlarda düzenlemeler yapmaya başlayabilir. Bu değiştirilen fiyatlar yalnızca bu proje sözleşmesine uygulanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
