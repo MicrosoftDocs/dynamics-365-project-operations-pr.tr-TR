@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086365"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151322"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Proje tabanlı kuruluşlarda işçi ücretlerini ve maliyetleri ayarlamak için kullanılan boyutlar aşağıdaki özniteliklerden etkilenir:
 
@@ -33,12 +35,12 @@ Proje tabanlı kuruluşlarda işçi ücretlerini ve maliyetleri ayarlamak için 
 
 İşin ve işi gerçekleştirmesi gereken kişilerin bu özniteliklerinin genel yapısına bakıldığında Project Service Automation'da iki tür fiyatlandırma boyut değeri vardır: 
 
-- **Seçenek kümeleri** : Bir değerler kümesi için sabit numaralandırmalar olan öznitelikler.
-- **Varlık tabanlı değerler** : Sınırlı olan ancak zaman içinde değişebilen değişken değer kümesi olabilecek öznitelikler.
+- **Seçenek kümeleri**: Bir değerler kümesi için sabit numaralandırmalar olan öznitelikler.
+- **Varlık tabanlı değerler**: Sınırlı olan ancak zaman içinde değişebilen değişken değer kümesi olabilecek öznitelikler.
 
 ## <a name="pricing-dimensions"></a>Fiyatlandırma boyutları
 
-PSA varsayılan fiyatlandırma boyutları kümesiyle gelir. Bunları, **Project Service** > **Parametreler** 'e giderek görüntüleyebilirsiniz. Parametre kaydında, **Tutar tabanlı fiyatlandırma boyutları** sekmesinde, rolün ( **msdyn_resourcecategory** ) ve kaynak kuruluş biriminin ( **msdyn_organizationalunit** ) **Satış için geçerli** ve **Maliyet için geçerli** alanlarının **Evet** olarak ayarlanmış olduğunu doğrulayın. Bu, her rol ve kuruluş birimi birleşimi için fiyatı ve maliyeti ayarlamanıza olanak sağlar.
+PSA varsayılan fiyatlandırma boyutları kümesiyle gelir. Bunları, **Project Service** > **Parametreler**'e giderek görüntüleyebilirsiniz. Parametre kaydında, **Tutar tabanlı fiyatlandırma boyutları** sekmesinde, rolün (**msdyn_resourcecategory**) ve kaynak kuruluş biriminin (**msdyn_organizationalunit**) **Satış için geçerli** ve **Maliyet için geçerli** alanlarının **Evet** olarak ayarlanmış olduğunu doğrulayın. Bu, her rol ve kuruluş birimi birleşimi için fiyatı ve maliyeti ayarlamanıza olanak sağlar.
 
 !["Satış için geçerli" seçeneğinin vurgulandığı Project Service parametreleri ekran görüntüsü](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Kaynaklarınız için ek öznitelikleri kullanarak fiyat veya maliyet almanız g
 ## <a name="pricing-human-resource-time"></a>İnsan kaynağı zamanını fiyatlandırma
 Bir kuruluşun insan kaynağı zamanını nasıl fiyatlandırdığı genellikle kuruluşun karlılığını doğrudan etkileyen önemli bir stratejik husustur. Kuruluşunuz, insan kaynağı süresi için fatura ve maliyet oranlarını nasıl ayarlamak istediğini belirlediğinde, finans takımları ve uygulama liderleriyle birlikte çalışın.
 
-Fiyatlandırma için dikkate alınan diğer hususlar, geçerli fiyatlandırma boyutları olmayan ancak kuruluşunuz için bir fiyatlandırma boyutu olarak uygulanan alanları veya varlıkları yeniden kullanmayı içerir. **İşlem Kategorisi** ( **msdyn_transactioncategory** ) ve **Ayrılabilir Kaynak** ( **bookableresource** ) gibi alanlar aday boyutlara örnektir. 
+Fiyatlandırma için dikkate alınan diğer hususlar, geçerli fiyatlandırma boyutları olmayan ancak kuruluşunuz için bir fiyatlandırma boyutu olarak uygulanan alanları veya varlıkları yeniden kullanmayı içerir. **İşlem Kategorisi** (**msdyn_transactioncategory**) ve **Ayrılabilir Kaynak** (**bookableresource**) gibi alanlar aday boyutlara örnektir. 
 
 Fiyatlandırma boyutunuzun bir tablo mu yoksa seçenek kümesi mi olacağını da unutmayın. Bir boyutun değerlerinde 10 veya 12'den fazla değişiklik öngörüyorsanız ve bu değerler üzerinde ek özniteliklere gereksinim varsa seçenek kümesi yerine bir varlık oluşturun. Bir seçenek kümesini yönetmek için (değer ekleme veya kaldırma gibi) bir yönetici veya geliştirici gerekir ancak tabloya yeni satırlar eklemek çoğu iş kullanıcısı tarafından yapılabilir.
 
