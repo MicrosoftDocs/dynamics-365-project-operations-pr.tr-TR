@@ -1,12 +1,12 @@
 ---
-title: Microsoft Project'te işlerinizi planlamak için Project Service Eklentisi'ni kullanma | MicrosoftDocs
-description: Bu konu, Microsoft Project Service için Microsoft Project eklentisini ekleme, yapılandırma ve kullanma hakkında bilgi sağlar.
+title: Microsoft Project'te işlerinizi Project Service eklentisiyle planlama
+description: Bu konuda, Microsoft Project Service için Microsoft Project eklentisini kullanma hakkında bilgiler sağlanmaktadır.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-ms.date: 04/06/2019
+ms.date: 01/07/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,22 +18,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.openlocfilehash: 87387ff870a7ef3ed0689f4ae38daad8cf220b46
 ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146012"
+ms.locfileid: "5145967"
 ---
-# <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project'te işlerinizi planlamak için Project Service Automation Eklentisi'ni kullanma
+# <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Microsoft Project'te işlerinizi Project Service eklentisiyle planlama
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] tahminler içeren proje planlaması yapmanızı kolaylaştırır. İşi maliyetler, çaba ve satış değeri son teklifin gönderildiği gibi açık olacak şekilde tanımlayabilirsiniz.  
 
- Şimdi [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] uygulamasını yükleyebilir ve işlerinizi [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'in tanıdık ortamında planlayabilirsiniz. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'in sağlam planlama ve yönetim yeteneklerini kullanın ve proje planınızı Project Service Automation'da güncelleştirin.  
+[!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] uygulamasını yükleyebilir ve planlama işinizi [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'in tanıdık ortamında yapabilirsiniz. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'in sağlam planlama ve yönetim yeteneklerini kullanın ve proje planınızı Project Service Automation'da güncelleştirin.  
 
 > [!IMPORTANT]
 > - SharePoint belge yönetimi özelliğini [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projeleri için [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dosyalarınızı depolamakta kullanmak isterseniz [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] yöneticinizin belge yönetimini açması gerekir. 
@@ -44,66 +44,66 @@ ms.locfileid: "5146012"
 
 1.  Yükleme Merkezi'nden desteklenen Project Service sürümü [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) veya [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) için eklentiyi indirin.  
 
-2.  İndirme bağlantısına tıklayın.  
+2.  İndirme bağlantısını seçin.  
 
-3.  İndirme işlemi tamamlandığında, eklentiyi yüklemek için **Evet**'e tıklayın.  
+3.  İndirme işlemi tamamlandığında, eklentiyi yüklemek için **Evet**'i seçin.  
 
 ## <a name="configure-the-add-in"></a>Eklentiyi yapılandırma  
 
-1. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i açın ve **Project Service** sekmesine tıklayın.  
+1. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i açın ve **Project Service** sekmesini seçin.  
 
-2. **Bağlan**'a tıklayın.  
+2. **Bağlan**'ı seçin.  
 
-3. Oturum açma bilgilerinizi girin ve **Oturum aç**'a tıklayın.  
+3. Oturum açma bilgilerinizi girin ve ardından **Oturum aç**'ı seçin.  
 
    Artık eklentiyi kullanmaya başlayabilirsiniz.  
 
 ## <a name="read-from-a-template"></a>Şablondan okuma  
  Proje planlamanıza başlamak için [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] içinde oluşturduğunuz ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] içine kopyaladığınız bir şablondan okuyun. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Proje şablonu oluşturma (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  **Project Service** sekmesinden, **Okuma** > **Project Service Automation Proje Şablonu**'na tıklayın.  
+1.  **Project Service** sekmesinden, **Oku** > **Project Service Automation Proje Şablonu**'nu seçin.  
 
-2.  Listeden bir proje şablonu seçin ve **Aç**'a tıklayın.  
+2.  Listeden bir proje şablonu seçin ve ardından **Aç**'ı seçin.  
 
     > [!NOTE]
     >  Varsayılan olarak şablondan Project'e kopyalanan görevler el ile zamanlanmış olarak ayarlanır.  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>Proje kaynaklarına [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] rolleri atama  
 
-1.  Projeyi açın ve **Görev** şeridine tıklayın.  
+1.  Projeyi açın ve **Görev** şeridini seçin.  
 
-2.  **Gantt Grafiği** menüsüne tıklayın ve **Kaynak Sayfası**'nı seçin.  
+2. **Gantt Grafiği** menüsünü ve ardından **Kaynak Sayfası**'nı seçin.  
 
-3.  Kaynak Sayfası üzerinde, **Project Service Kaynak Rolü** açılan menüsüne tıklayın ve bir Project Service Automation rolü seçin.  
+3. Kaynak Sayfası üzerinde, **Project Service Kaynak Rolü** açılan menüsünü ve bir Project Service Automation rolü seçin.  
 
 ## <a name="staff-your-project-with-resources"></a>Kaynaklarla projenize personel atama  
 
-1.  Project Service sekmesinden bir satır seçin ve **Kaynakları Bul**'a tıklayın.  
+1.  Project Service sekmesinden bir satır seçin ve **Kaynakları Bul** seçeneğini belirleyin.  
 
 2.  **Kaynak Ayır** ekranında, proje için kullanmak istediğiniz kaynağı seçin.  
 
-3.  **Ayır**'a ve sonra da **Tamam**'a tıklayın.  
+3.  **Ayır**'ı ve ardından **Tamam**'ı seçin.  
 
 ## <a name="publish-your-project"></a>Projenizi yayımlama  
 Proje planlamanız tamamlandığında, bir sonraki adım projenizi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasında içeri aktarmak ve yayımlamaktır.  
 
-Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasına içeri aktarılır. Fiyatlandırma ve takım oluşturma işlemi uygulanır. Projeyi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasında açın ve takım, proje tahminleri ve iş kırılım yapısının oluşturulup oluşturulmadığına bakın. Aşağıdaki tabloda sonuçların yeri gösterilmektedir:
+Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasına içeri aktarılır. Fiyatlandırma ve takım oluşturma işlemi uygulanır. Projeyi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasında açın ve takım, proje tahminleri ve iş kırılım yapısının oluşturulup oluşturulmadığına bakın. Aşağıdaki tabloda sonuçların yeri gösterilmektedir.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**Gantt Grafiği**   | [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **İş Kırılım Yapısı** ekranına içeri aktarır. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kaynak Sayfası** |   İçine aktarır [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **proje takım üyelerinin** ekranı.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kullanım kullanma**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proje tahminleri** ekranına içeri aktarır.     |
 
 **Projenizi içeri aktarmak ve yayımlamak için**  
-1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi**'ne tıklayın.  
+1. **Project Service** sekmesinde, **Yayımla** > **Yeni Project Service Automation Projesi**'ne gidin.  
 
 2. **Yeni bir Project Service projesine yayımla** iletişim kutusunda, **Proje Adı** alanını doldurun ve **Müşteri**'yi seçin.  
 
-3. İsteğe bağlı olarak, plan Project dosyasını Project Service Automation ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini işaretleyin.  
+3. İsteğe bağlı olarak, plan Project dosyasını Project Service Automation ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini belirleyin.  
 
-4. **Yayımla** öğesine tıklayın.  
+4. **Yayımla** öğesini seçin.  
 
    Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a bağlamak Project dosyasını ana dosya yapar ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'daki iş kırılım yapısını salt okunur olarak ayarlar.  Proje planında değişiklikler yapmak için, bunları [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te yapmanız ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a güncelleştirme olarak yayımlamanız gerekir.  
 
@@ -114,21 +114,21 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 - Dosyanın bağlantısını kaldırın ve doğrudan Project Service içinde düzenleyin. Varsayılan olarak, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'ten yüklenen bir proje kilitlidir ve yalnızca Project içinde düzenlenebilir. Dosyayı [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da düzenlemek için dosyanın bağlantısının kaldırılmış olması gerekir.  
 
-### <a name="edit-in-pn_microsoft_project"></a>[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] içinde düzenleme  
+### <a name="edit-in-pn_microsoft_project"></a>[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'ta düzenle  
 
-1. Ana menüden, **Project Service** > **Projeler**'e tıklayın.  
+1. Ana menüde, **Project Service** > **Projeler**'e gidin.  
 
 2. Proje listesinden, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te oluşturduğunuz projeyi açın.  
 
-3. Şeritteki **MS Project'te aç** öğesine tıklayın. Bu işlem, bağlantılı ana dosyayı [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açar.  
+3. Şeritten **MS Project'te Aç**'ı seçin. Bu işlem, bağlantılı ana dosyayı [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açar.  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>Dosyanın bağlantısını kaldırma ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service'te düzenleme  
 
-1. Ana menüden, **Project Service** > **Projeler**'e tıklayın.  
+1. Ana menüde, **Project Service** > **Projeler**'e gidin.  
 
 2. Proje listesinden, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te oluşturduğunuz projeyi açın.  
 
-3. Şeritteki **MS Project bağlantısını kaldır** öğesine tıklayın.  
+3. Şeritten **MS Project bağlantısını kaldır**'ı seçin.  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>Project dosyasını SharePoint veya Office Grupları'na yükleme  
  Project dosyanızı SharePoint'e yükleyebilir ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projenizin İlişkili Belgeler bölümünde bulabilirsiniz.  Yöneticinizin SharePoint belge yönetimini yapılandırması ve Proje varlığı için açması gerekir. 
@@ -137,42 +137,42 @@ Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md
 
 ### <a name="upload-a-file-for-sharepoint"></a>SharePoint için dosya yükleme  
 
-1. Ana menüden, **Project Service** > **Karşıya Yükle** öğesine tıklayın.  
+1. Ana menüde, **Project Service** > **Yükle**'ye gidin.  
 
 2. **Project Service Automation Proje Belgelerine** öğesini seçin.  
 
-3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır** öğesini seçin.  
+3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır**'ı seçin.  
 
-   - **Evet**'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Project dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
+   - **Evet** seçeneğini belirlerseniz Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesini seçebilir, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Project dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
 
-   - **Hayır**'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
+   - **Hayır** seçeneğini belirlerseniz **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesi çalışmaz.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dosyası belirli bir [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projesinin **Belgeler** bölümü altındaki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bulunabilir.  
 
 ### <a name="upload-a-file-for-office-groups"></a>Office Grupları için dosya yükleme  
 
-1. Ana menüden, **Project Service** > **Karşıya Yükle** öğesine tıklayın.  
+1. Ana menüde, **Project Service** > **Yükle**'ye gidin.  
 
 2. **Project Service Automation Proje Belgelerine** öğesini seçin.  
 
-3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır** öğesini seçin.  
+3. **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te açmayı etkinleştir** iletişim kutusunda, **Evet** veya **Hayır**'ı seçin.  
 
-   - **Evet**'e tıkladığınızda, Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesini seçebilir ve [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Project dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
+   - **Evet** seçeneğini belirlerseniz Project Service Automation'da **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesini seçebilir, [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'i başlatıp Project dosyasını SharePoint belge kitaplığından yükleyebilirsiniz.  
 
-   - **Hayır**'a tıkladığınızda, **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesinin bağlantısı çalışmaz.  
+   - **Hayır** seçeneğini belirlerseniz **[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te Aç** düğmesi çalışmaz.  
 
 4. [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] dosyası belirli bir [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projesinin **Belgeler** bölümü altındaki [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bulunabilir.  
 
 ## <a name="publish--your-project-as-a-template"></a>Projenizi şablon olarak yayımlama  
- Projenizi kaydedebilir ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bir proje şablonu olarak kaydederek yeniden kullanabilirsiniz.  Proje şablonları [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] içinde yeniden kullanılabilen planlardır. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Proje şablonu oluşturma (Project Service Automation)](../psa/create-project-template.md)  
+ Projenizi kaydedebilir ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'da bir proje şablonu olarak kaydederek yeniden kullanabilirsiniz. Proje şablonları [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] içinde yeniden kullanılabilen planlardır. Daha fazla bilgi için bkz. [Proje şablonu oluşturma (Project Service Automation)](../psa/create-project-template.md). 
 
-1. **Project Service** sekmesinden, **Yayımla** > **Yeni Project Service Automation Projesi Şablonu**'na tıklayın.  
+1. **Project Service** sekmesinde, **Yayımla** > **Yeni Project Service Automation Proje Şablonu**'na gidin.  
 
 2. **Yeni bir Project Service proje şablonuna yayımla** iletişim kutusunda, **Proje şablonu adı**'nı girin.  
 
-3. İsteğe bağlı olarak, Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini işaretleyin.  
+3. İsteğe bağlı olarak, Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ile bağlamak için **Proje planını Project Service Automation'a bağla** seçeneğini belirleyin.  
 
-4. **Yayımla** öğesine tıklayın.  
+4. **Yayımla** öğesini seçin.  
 
 Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a bağlamak Project dosyasını ana dosya yapar ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] şablonundaki iş kırılım yapısını salt okunur olarak ayarlar.  Proje planında değişiklikler yapmak için, bunları [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'te yapmanız ve [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]'a güncelleştirme olarak yayımlamanız gerekir.
 
@@ -181,53 +181,64 @@ Project dosyasını [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
 Project Service Automation'dan proje okurken kaynağın takvimi, masaüstü istemcisiyle eşitlenmez. Görev süreleri, çaba veya bitişte farklılıklar varsa bunun nedeni büyük olasılıkla kaynakların ve masaüstü istemcisinin projeye uygulanan aynı çalışma saati şablonu takvimine sahip olmamasıdır.
 
 
-## <a name="data-synchronization"></a>Veri Eşitleme
+## <a name="data-synchronization"></a>Veri eşitleme
+Bu bölümdeki tablolarda, Project Service Automation ve Microsoft Project masaüstü eklentisi arasında varlık verilerinin eşitlenmesi hakkında bilgiler sağlanmaktadır.
 
-Aşağıdaki tabloda, verilerin Project Service Automation ile Microsoft Project masaüstü eklentisi arasında nasıl eşitleneceği açıklanmaktadır.
-
-| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
-| --- | --- | --- | --- |
-| Proje Görevi | Son Tarih | ● | - |
-| Proje Görevi | Tahmini Efor | ● | - |
-| Proje Görevi | MS Project İstemci Kimliği | ● | - |
-| Proje Görevi | Ana Görev | ● | - |
-| Proje Görevi | Project | ● | - |
-| Proje Görevi | Proje görevi | ● | - |
-| Proje Görevi | Proje Görevi Adı | ● | - |
-| Proje Görevi | Kaynak belirleme birimi (v3.0'da kullanımdan kaldırıldı) | ● | - |
-| Proje Görevi | Zamanlanan Süre | ● | - |
-| Proje Görevi | Başlangıç Tarihi | ● | - |
-| Proje Görevi | İKY Kimliği | ● | - |
+### <a name="project-task-entity-table"></a>Proje Görevi varlık tablosu
+Aşağıdaki tabloda, Project Service Automation ile Microsoft Project masaüstü eklentisi arasında Proje Görevi varlık verilerinin nasıl eşitlendiği açıklanmaktadır.
 
 | **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
 | --- | --- | --- | --- |
-| Takım Üyesi | MS Project İstemci Kimliği | ● | - |
-| Takım Üyesi | Pozisyon Adı | ● | - |
-| Takım Üyesi | proje | ● | ● |
-| Takım Üyesi | Proje Takımı | ● | ● |
-| Takım Üyesi | Kaynak Belirleme Birimi | - | ● |
-| Takım Üyesi | Rol | - | ● |
+| Proje Görevi | Son Tarih | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Tahmini Çalışma | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | MS Project İstemci Kimliği | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Ana Görev | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Project | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Proje görevi | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Proje Görevi Adı | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Kaynak belirleme birimi (v3.0'da kullanımdan kaldırıldı) | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Zamanlanan Süre | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | Başlangıç Tarihi | Eşitlendi | Eşitlenmedi |
+| Proje Görevi | İKY Kimliği | Eşitlendi | Eşitlenmedi |
+
+### <a name="team-member-entity-table"></a>Takım Üyesi varlık tablosu
+Aşağıdaki tabloda, Project Service Automation ile Micros arasında Takım Üyesi varlık verilerinin nasıl eşitlendiği açıklanmaktadır
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Takım Üyesi | MS Project İstemci Kimliği | Eşitlendi | Eşitlenmedi |
+| Takım Üyesi | Pozisyon Adı | Eşitlendi | Eşitlenmedi |
+| Takım Üyesi | proje | Eşitlendi | Eşitlendi |
+| Takım Üyesi | Proje Takımı | Eşitlendi | Eşitlendi |
+| Takım Üyesi | Kaynak Belirleme Birimi | Eşitlenmedi | Eşitlendi |
+| Takım Üyesi | Rol | Eşitlenmedi | Eşitlendi |
 | Takım Üyesi | Çalışma Saatleri | Eşitlenmedi | Eşitlenmedi |
 
-| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
-| --- | --- | --- | --- |
-| Kaynak Atama | Başlangıç Tarihi | ● | - |
-| Kaynak Atama | Saat Sayısı | ● | - |
-| Kaynak Atama | MS Project İstemci Kimliği | ● | - |
-| Kaynak Atama | Planlanan İş | ● | - |
-| Kaynak Atama | Project | ● | - |
-| Kaynak Atama | Proje Takımı | ● | - |
-| Kaynak Atama | Kaynak Atama | ● | - |
-| Kaynak Atama | Görev | ● | - |
-| Kaynak Atama | Bugüne Kadar | ● | - |
+### <a name="resource-assignment-entity-table"></a>Kaynak Atama varlık tablosu
+Aşağıdaki tabloda, Project Service Automation ile Micros arasında Kaynak Atama varlık verilerinin nasıl eşitlendiği açıklanmaktadır
 
 | **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
 | --- | --- | --- | --- |
-| Proje Görevi Bağımlılıkları | Proje Görevi Bağımlılığı | ● | - |
-| Proje Görevi Bağımlılıkları | Bağlantı Türü | ● | - |
-| Proje Görevi Bağımlılıkları | Öncül Görev | ● | - |
-| Proje Görevi Bağımlılıkları | Project | ● | - |
-| Proje Görevi Bağımlılıkları | Ardıl Görev | ● | - |
+| Kaynak Atama | Başlangıç Tarihi | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Saat Sayısı | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | MS Project İstemci Kimliği | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Planlanan İş | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Project | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Proje Takımı | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Kaynak Atama | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Görev | Eşitlendi | Eşitlenmedi |
+| Kaynak Atama | Bugüne Kadar | Eşitlendi | Eşitlenmedi |
 
-### <a name="see-also"></a>Ayrıca bkz.  
+### <a name="project-task-dependencies-entity-table"></a>Proje Görevi Bağımlılıkları varlık tablosu
+Aşağıdaki tabloda, Project Service Automation ile Micros arasında Proje Görevi Bağımlılıkları varlık verilerinin nasıl eşitlendiği açıklanmaktadır
+
+| **Varlık** | **Alan** | **Microsoft Project'ten Project Service Automation'a** | **Project Service Automation'dan Microsoft Project'e** |
+| --- | --- | --- | --- |
+| Proje Görevi Bağımlılıkları | Proje Görevi Bağımlılığı | Eşitlendi | Eşitlenmedi |
+| Proje Görevi Bağımlılıkları | Bağlantı Türü | Eşitlendi | Eşitlenmedi |
+| Proje Görevi Bağımlılıkları | Öncül Görev | Eşitlendi | Eşitlenmedi |
+| Proje Görevi Bağımlılıkları | Project | Eşitlendi | Eşitlenmedi |
+| Proje Görevi Bağımlılıkları | Ardıl Görev | Eşitlendi | Eşitlenmedi |
+
+### <a name="additional-resources"></a>Ek kaynaklar
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
