@@ -3,19 +3,19 @@ title: Nakit avans
 description: Bu konuda, nakit avanslar hakkında bilgiler sağlanmaktadır.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122773"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098908"
 ---
 # <a name="cash-advance"></a>Nakit avans
 
@@ -24,8 +24,9 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Nakit avans, çalışanların herhangi bir gider tahakkuk etmeden önce şirketlerinden borç almalarına olanak tanır. İstenen nakit avans onaylanıp ödendikten sonra çalışan, tahakkuk etmek üzere olan iş giderleri için bu tutarı kullanabilir. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Nakit avans isteği oluşturma ve gönderme
+Yeni bir nakit avans oluşturmak ve nakit avans isteği göndermek için aşağıdakileri yapın: 
 
-1. Yeni bir nakit avans oluşturmak için **Giderlerim** altında **Nakit avanslar** > **Yeni**'yi seçin. 
+1. **Giderlerim** altında, **Nakit avanslar** > **Yeni**'yi seçin. 
 2. **Yeni nakit avans isteği** sayfasında, gider amacını girin ve giderin tahakkuk edeceği konumu seçin.
 3. İstenen tutarı ve para birimini girin ve ardından **Kaydet**'i seçin. 
 4. Nakit avans isteğini göndermeye hazır olduğunuzda **Nakit avans isteği** sayfasında, **İş Akışı** > **Gönder**'i seçin.
@@ -34,7 +35,7 @@ Nakit avans, çalışanların herhangi bir gider tahakkuk etmeden önce şirketl
 
 Onay için gönderilmediyse bir nakit avans isteğini değiştirebilirsiniz.
 
-1. **Giderlerim: Nakit Avanslar** altında, düzenlemek istediğiniz nakit avansını bulup seçin.
+1. **Giderlerim: Nakit Avanslar** altında, düzenlemek istediğiniz nakit avansı bulun ve seçin.
 2. **Düzenle**'yi seçin ve nakit avans isteğinde gerekli değişiklikleri yapın. 
 3. **Kaydet ve kapat**'ı seçin.
 
@@ -52,12 +53,13 @@ Taslak halinde, gönderilen, incelemede olan veya ödenen tüm nakit avansların
 ## <a name="pay-cash-advances"></a>Nakit avansları ödeme 
 Aşağıdaki yordam genellikle bir muhasebeci veya muhasebe izinleri olan bir kullanıcı tarafından tamamlanır.
 
-1. Onaylanan nakit avansları göndermek için **Onaylanmış nakit avanslar**'ı ve ardından **Öde ve aktar**'ı seçin.  
+1. Onaylanan nakit avansları deftere kaydetmek için **Onaylanmış nakit avanslar**'ı ve ardından **Öde ve aktar**'ı seçin.  
 2. Nakit avanslar için yevmiye defteri ayrıntılarını girin ve ardından **Tamam**'ı seçin. 
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Ödenmiş bir nakit avans için gider raporu gönderme 
 
-Önceden aldığınız bir nakit avans için gider raporu oluşturup gönderdiğinizde giderler bu avans için otomatik olarak ayarlanır. Nakit avansınız gider kaydedilen tutardan yüksekse **Nakit iadesi** gider kategorisini kullanarak bakiyeyi şirkete iade etmeniz gerekir. Şirket tarafından ödenen nakit avans, gider kaydettiğiniz tutardan düşükse şirketin bakiyeyi size geri ödemesi gerekir. 
+Zaten almış olduğunuz nakit avans için bir gider raporu oluşturup gönderdiğinizde, harcamalar bu avansa göre otomatik olarak ayarlanır. Nakit avansınız gider kaydedilen tutardan yüksekse **Nakit iadesi** gider kategorisini kullanarak bakiyeyi şirkete iade etmeniz gerekir. Şirket tarafından ödenen nakit avans, harcadığınız tutardan düşükse şirketin bakiyenizi size geri ödemesi gerekir. 
 
 ### <a name="example"></a>Örnek
-Bir konferans için Seattle'dan New York'a seyahat etmeyi planlıyorsunuz. Konferans bileti, uçuşlar, otel, yemek ve taksi maliyetini yaklaşık olarak tahmin ederek 3000,00 ABD doları tutarında bir nakit avans isteği oluşturdunuz. Yöneticiniz bu isteği onaylamadıkça ödemeniz yapılmaz. Yöneticiniz onayladıktan sonra istenen nakit avans 3000,00 ABD doları olarak banka hesabınıza ödenir. Sonrasında konferansa katıldınız. Seyahatinizi tamamladıktan sonra toplam giderin yalnızca 2790,00 USD olduğunu gördünüz. **Ödeme yöntemi** alanında **Nakit**'i seçin ve giderinizi 2790,00 USD olarak gönderin. Gönderdiğiniz gider tutarı, size ödenen 3000,00 USD nakit avansa göre otomatik olarak ayarlanır. Artık şirkete 210,00 USD (3000,00-2790,00) borçlanmış olursunuz ve bu bakiyeyi **Nakit iadesi** gider kategorisini kullanarak şirkete iade edebilirsiniz. 
+Konferans için Seattle'dan New York'a seyahat etmeyi planlıyorsunuz. Konferans bileti, uçuş, otel, yemek ve taksinin tahmini maliyetine bağlı olarak 3.000,00 USD tutarında bir nakit avans isteği oluşturdunuz. Yöneticiniz bu isteği onaylamadıkça size ödeme yapılmaz. Yöneticiniz onayladıktan sonra istenen nakit avans 3000,00 ABD doları olarak banka hesabınıza ödenir. Sonrasında konferansa katıldınız. Seyahatinizi tamamladıktan sonra toplam giderin yalnızca 2790,00 USD olduğunu gördünüz. **Ödeme yöntemi** alanında, **Nakit**'i seçin ve 2.790,00 USD tutarındaki giderinizi girin. Gönderdiğiniz gider tutarı, size ödenen 3000,00 USD nakit avansa göre otomatik olarak ayarlanır. Şu andaki bakiyeniz 210,00 USD (3.000,00 - 2.790,00) ve bu bakiyeyi **Nakit iadesi** gider kategorisini kullanarak şirkete iade edebilirsiniz.
+

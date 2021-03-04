@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086483"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960496"
 ---
 # <a name="expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanı
-
-[!include [banner](../includes/banner.md)]
 
 Bu konuda, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlanır. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir. Ayrıca, onaylayanlar **Gider yönetimi** mobil çalışma alanını kendilerine atanan gider raporlarını görüntülemek için kullanabilir ve bu gider raporlarını onaylayabilir veya reddedebilir.
 
@@ -117,7 +115,7 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
     - **Fotoğraf çek** öğesini seçtiyseniz, şu adımları izleyin:
 
-        1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam** 'ı seçin.
+        1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam**'ı seçin.
         2. İsteğe bağlı: Fotoğraf için bir ad ve notları girin.
 
     - **Görüntü seç** öğesini seçtiyseniz, şu adımları izleyin:
@@ -125,11 +123,11 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
         1. Listeden bir görüntü seçin.
         2. İsteğe bağlı: Görüntü için bir ad ve notları girin.
 
-5. **Bitti** 'yi seçin.
+5. **Bitti**'yi seçin.
 
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak giderleri hızlıca girme
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Hızlı gider girişi** 'ni seçin.
+2. **Hızlı gider girişi**'ni seçin.
 3. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
 4. Giderin hareket tarihini girin.
 5. İsteğe bağlı: Giderin satıcı öğesini girin.
@@ -138,14 +136,14 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 8. **Fotoğraf çek** veya **Görüntü Seç** öğesini belirleyin.
 9. Aşağıdaki adımlardan birini uygulayın:
 
-    - **Fotoğraf çek** öğesini seçtiğinizde mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam** 'ı seçin.
-    - **Görüntü Seç** 'i seçtiyseniz , listeden bir görüntü seçin.
+    - **Fotoğraf çek** öğesini seçtiğinizde mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam**'ı seçin.
+    - **Görüntü Seç**'i seçtiyseniz , listeden bir görüntü seçin.
 
-10. **Bitti** 'yi seçin.
+10. **Bitti**'yi seçin.
 
 ## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobile çalışma alanını kullanarak bir gider raporunu onaylama (Temmuz 2017 güncelleştirmesini kullanıyorsanız)
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Gider onayları** , onaylamanız için size atanan gider raporu sayısını gösterir. Sayı her 30 dakikada bir güncelleştirilir. **Gider onayları** seçeneğini belirleyin.
+2. **Gider onayları**, onaylamanız için size atanan gider raporu sayısını gösterir. Sayı her 30 dakikada bir güncelleştirilir. **Gider onayları** seçeneğini belirleyin.
 
     Onaylamanız için size atanan gider raporu listesi gösterilir.
     
@@ -153,28 +151,28 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 4. Ayrıntılarını görüntülemek için bir gider seçin. Bir gider için gösterilen bilgiler, tüm makbuz, konuk ve döküm ayrıntılarını içerir.
 5. **Gider raporu** sayfasına geri döndüğünüzde gider raporunu onaylamayı veya reddetmeyi seçin.
 6. Onay eylemi için herhangi bir yorum girin.
-7. **Bitti** 'yi seçin.
+7. **Bitti**'yi seçin.
 
 ## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobile çalışma alanını kullanarak yeni bir gider raporu oluşturma ve onaya gönderme (Temmuz 2017 güncelleştirmesini kullanıyorsanız)
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Gider girişi** 'ni seçin.
-3. **Yeni rapor** 'u seçin veya listeden varolan bir gider raporu seçin.
+2. **Gider girişi**'ni seçin.
+3. **Yeni rapor**'u seçin veya listeden varolan bir gider raporu seçin.
 4. Yeni gider raporları için, amacı ve elinizdeki tüm ek bilgileri girin. Bu bilgiler, gider yönetiminin şirketiniz için yapılandırılma şekline bağlı olarak değişir.
-5. **Bitti** 'yi seçin.
-6. Kredi kartı hareketleri gibi var olan giderleri gider raporuna eklemek için **İliştir** 'i seçin.
+5. **Bitti**'yi seçin.
+6. Kredi kartı hareketleri gibi var olan giderleri gider raporuna eklemek için **İliştir**'i seçin.
 7. Listeden bir veya daha fazla gider seçin.
-8. **Bitti** 'yi seçin.
-9. Gider raporuna yeni bir gider eklemek için **Yeni gider** 'i seçin.
+8. **Bitti**'yi seçin.
+9. Gider raporuna yeni bir gider eklemek için **Yeni gider**'i seçin.
 10. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
 11. İsteğe bağlı: Giderin satıcı öğesini girin.
 12. Giderin hareket tarihini girin.
 13. Giderin miktarını girin.
 14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen para birimi kodları listesi gösterilir. Varsayılan olarak, 400 para birimi yüklüdür, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. Para biriminiz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Para birimine göre arayın veya ada göre arama yapmak için geçiş yapın.
-15. **Bitti** 'yi seçin.
-16. Gidere daha fazla ayrıntı eklemek için, **Daha ayrıntıları ekle** 'yi seçin. Kullanılabilir alanlar, şirketiniz için gider yönetiminin yapılandırmasına bağlıdır.
-17. Şirket ilkesi gider için bir makbuz gerektiriyorsa, **Makbuzlar** 'ı seçin ve şu adımları izleyin:
+15. **Bitti**'yi seçin.
+16. Gidere daha fazla ayrıntı eklemek için, **Daha ayrıntıları ekle**'yi seçin. Kullanılabilir alanlar, şirketiniz için gider yönetiminin yapılandırmasına bağlıdır.
+17. Şirket ilkesi gider için bir makbuz gerektiriyorsa, **Makbuzlar**'ı seçin ve şu adımları izleyin:
 
-    1. **Makbuz yakala** veya **Makbuz iliştir** 'i seçin.
+    1. **Makbuz yakala** veya **Makbuz iliştir**'i seçin.
     2. Aşağıdaki adımlardan birini uygulayın:
 
         - **Makbuz yakala** öğesini seçtiyseniz, şu adımları izleyin:
@@ -184,7 +182,7 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
                 - **Fotoğraf çek** öğesini seçtiyseniz, şu adımları izleyin:
 
-                    1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam** 'ı seçin.
+                    1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam**'ı seçin.
                     2. İsteğe bağlı: Fotoğraf için bir ad ve notları girin.
 
                 - **Görüntü seç** öğesini seçtiyseniz, şu adımları izleyin:
@@ -192,18 +190,18 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
                     1. Listeden bir görüntü seçin.
                     2. İsteğe bağlı: Görüntü için bir ad ve notları girin.
 
-            3.  **Bitti** 'yi seçin.
+            3.  **Bitti**'yi seçin.
 
         - **Makbuz iliştir** öğesini seçtiyseniz, şu adımları izleyin:
 
             1.  Listeden bir veya daha fazla görüntü seçin.
-            2.  **Bitti** 'yi seçin.
+            2.  **Bitti**'yi seçin.
 
     3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
 
-18. Şirket ilkesi gider için konukları gerektiriyorsa, **Konuklar** 'ı seçin ve şu adımları izleyin:
+18. Şirket ilkesi gider için konukları gerektiriyorsa, **Konuklar**'ı seçin ve şu adımları izleyin:
 
-    1. **Konuk** , **Önceki konuklar** veya **İş arkadaşları** 'nı seçin.
+    1. **Konuk**, **Önceki konuklar** veya **İş arkadaşları**'nı seçin.
     2. Aşağıdaki adımlardan birini uygulayın:
 
         - **Konuk** öğesini seçtiyseniz, şu adımları izleyin:
@@ -211,34 +209,34 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
             1. Konuğun adını girin.
             2. İsteğe bağlı: Konuğun kuruluşunu ve/veya ülkesini girin.
             3. İsteğe bağlı: Konuğun unvanını girin.
-            4. **Bitti** 'yi seçin.
+            4. **Bitti**'yi seçin.
 
         - **Önceki konuklar** öğesini seçtiyseniz, şu adımları izleyin:
 
             1. Listeden bir veya daha fazla önceki konuk seçin. Çevrimdışı kullanım için uygulamanıza yüklenen önceki gider raporlarına eklediğiniz önceki konukların listesini görürsünüz. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. Önceki konuğunuz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya kuruluş, ülke veya unvana göre arama yapmak için geçiş yapın.
-            2. **Bitti** 'yi seçin.
+            2. **Bitti**'yi seçin.
 
         - **İş arkadaşları** öğesini seçtiyseniz, şu adımları izleyin:
 
             1. Listede bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenen iş arkadaşı listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. İş arkadaşlarınız listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya şirket veya unvana göre arama yapmak için geçiş yapın.
-            2. **Bitti** 'yi seçin.
+            2. **Bitti**'yi seçin.
 
     3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
 
-19. Şirket ilkesi giderlerin dökümünü gerektiriyorsa, **Döküm al** 'ı seçin ve şu adımları izleyin:
+19. Şirket ilkesi giderlerin dökümünü gerektiriyorsa, **Döküm al**'ı seçin ve şu adımları izleyin:
 
     1. Döküm almaya başlayacağınız tarihi seçin.
-    2. **Döküm ekle** 'yi seçin.
+    2. **Döküm ekle**'yi seçin.
     3. Gider dökümü için alt kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider alt kategorilerinin listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page) bölümüne başvurabilir. Alt kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider alt kategorisinin adına göre arayın.
     4. Döküm için hareket tutarını girin.
     5. Gerekirse hareket tarihini düzenleyin.
-    6. **Bitti** 'yi seçin.
+    6. **Bitti**'yi seçin.
     7. Seçili tarih için tüm dökümleri eklemeyi tamamlayana kadar önceki adımları tekrarlayın.
     8. Ek günler için, dökümleri sonraki güne kopyalamak için **Sonraki güne kopyala** seçeneğini belirleyebilirsiniz. Başka bir seçenek olarak, ilk tarih için yaptığınız gibi, döküm alınacak tarihi seçebilir, sonra döküm ekleyebilirsiniz.
     9. Gideri döküm ettikten sonra, gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
 
 20. **Gider raporu** sayfasına dönmek için **Geri** düğmesini seçin.
 21. Tüm giderleri eklemeyi tamamlayana kadar yukarıdaki adımları tekrarlayın.
-22. **Gönder** 'i seçin.
+22. **Gönder**'i seçin.
 23. Onaylayan için herhangi bir yorum girin.
-24. **Bitti** 'yi seçin.
+24. **Bitti**'yi seçin.

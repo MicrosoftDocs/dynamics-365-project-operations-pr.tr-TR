@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: ab99c0ec769eb2e0914fc7d993f83d20e2c327f6
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650118"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960721"
 ---
 # <a name="set-up-expense-policies"></a>Gider ilkelerini ayarlama
-
-[!include [banner](../includes/banner.md)]
 
 Gider raporlarını ve seyahat taleplerini girerken ve gönderirken çalışanlarınızın izlemesi gereken ilkeleri tanımlayabilirsiniz.         
 Gider ilkelerinin uygulanması, giderleri etkin şekilde yönetmenize yardımcı olur.         
@@ -48,7 +46,7 @@ yapılandırabilirsiniz.
 Burada, gider yönetimi konusunda yeni ilkeler oluştururken size yardımcı olabilecek birkaç öneriye yer verilmektedir. 
 * İlkeler tarih etkindir; giderin gerçekleştiği tarihten sonraki bir tarihte oluşturulmuşsa ilkenin geçerli olmayacağı anlamına gelir. Örneğin, $50 en fazla yemek gideri kullanmaya zorlamak için bugün yeni bir ilke oluşturuyorsanız, dün olarak girilen tüm varolan giderler bu ilkeye göre denetlenmez.
 * Dökümü alınabilecek bir gider kategorisi için ilke oluştururken, masraf satırı türü için bir koşul eklemeyi gözden geçirin. Alındı bilgisi gerektirme gibi bazı ilkeler, dökümü bulunmayan satırlar için anlamlı olmayabilir ve yalnızca başlık satırına veya bir satır oluşturulmamış satıra uygulanmalıdır. 
-* Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketlerarası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki "Gider ilkesini ödünç alan tüzel kişiye göre değerlendir" özelliğini etkinleştirin.
+* Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketler arası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki "Gider ilkesini ödünç alan tüzel kişiye göre değerlendir" özelliğini etkinleştirin.
 
 ## <a name="when-to-evaluate-policies"></a>İlkeler ne zaman değerlendirilir
 

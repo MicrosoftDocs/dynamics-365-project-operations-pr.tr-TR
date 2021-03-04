@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086368"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960406"
 ---
 # <a name="expense-management-parameters"></a>Gider yönetimi parametreleri
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 Parametreler gider yönetiminde geel davranışı denetler.
 
@@ -37,11 +34,11 @@ Parametreler gider yönetiminde geel davranışı denetler.
 |----------------------------------------------------------|---------------------------------------------------------------------|
 | **Standart mesafe oranı**                             | Mesafe giderleri için geri ödeme oranını girin. Bu oran, gider için girilen mesafe ile çarpılarak seyahat gideri için geri ödenen tutarın hesaplanmasında kullanılır.                       |
 |**Kişisel giderleri ödeyen**                             | Kişisel olarak sınıflandırılan kredi kartı işlem tutarlarının ödenmesinden sorumlu olan kişiyi seçin.                                                                                                     |
-|**Detaylı incelemede gider raporunun tamamını görüntüleme**               | Gider raporu gönderildiğinde oluşturulan belirli bir makbuzun özgün kopyasına ait ayrıntılar görüntülendiğinde bir gider raporundaki giderlerin tamamını görüntülemek için bu seçeneği belirleyin.              |
+|**Detaylı incelemede gider raporunun tamamını görüntüleme**               | Gider raporu deftere kaydedildiğinde oluşturulan belirli bir makbuzun özgün kopyasına ait ayrıntılar görüntülendiğinde bir gider raporundaki giderlerin tamamını görüntülemek için bu seçeneği belirleyin.              |
 |**Seyahatin önceden yetkilendirilmesi zorunludur**                 | Çalışanın gider raporu sunabilmesi için seyahat talebinin gönderilmesini ve onaylanmasını zorunlu kılmak üzere bu seçeneği belirleyin.                                                                    |
-|**Gönderme öncesinde dağıtımların düzenlenmesine izin verme**            | Gider raporuna ait dağıtımların rapor gönderilmeden önce düzenlenip düzenlenemeyeceğini seçin.                                                                                                                 |
+|**Deftere kaydetmeden önce dağıtımların düzenlenmesine izin verme**            | Gider raporuna ait dağıtımların rapor deftere kaydedilmeden önce düzenlenip düzenlenemeyeceğini seçin.                                                                                                                 |
 |**Gider yönetimi ilkelerini değerlendirme**                     | Gider ilkesinin ihlal edilip edilmediğinin belirlenmesi için giderlerin hangi aşamada değerlendirileceğini seçin. Giderler, gider girişleri tamamlanıp kaydedildiğinde veya onay için gönderildiklerinde ihlaller açısından değerlendirilebilir. Makbuzlar için gerekli olan ilke kuralları, gider satırı kaydedildiğinde değerlendirilir.                   |
-|**Şirketlerarası gider satırlarına izin verme**                         | Diğer tüzel kişiliklere ait giderlerin bir gider raporuna girilip girilemeyeceğini seçin.                                                                                                          |
+|**Şirketler arası gider satırlarına izin verme**                         | Diğer tüzel kişiliklere ait giderlerin bir gider raporuna girilip girilemeyeceğini seçin.                                                                                                          |
 |**Kredi kartı giderleri için döviz kurunu düzenlemeye izin verme** | Kullanıcının, içe aktarılan kredi kartı giderleri için döviz kurunun düzenlemesine izin vermek üzere bu seçeneği belirleyin.                                                                        |
 |**Görüntülenecek çok düzeyli hiyerarşi alanları**                  | İş akışı atama türü bir hiyerarşi olarak ayarlandığında hangi onaylayan alanlarının gösterileceğini seçtiğinizde Hiyerarşi seçimi, onay hiyerarşisini çok düzeyli gider onayını kullanacak şekilde ayarlar. Çok düzeyli onay hiyerarşisi bir iş akışı için kullanıldığında seçilen alanlar, gider raporunda gösterilir ve düzenlenebilir. |
 |**Çalışanın kredi kartı numarasını girme (Temmuz 2017 güncellemesi)**     | Çalışanın **Kredi kartları** sayfasındaki **Kart Kimliği** alanına 15 karakter veya 16 karakterden oluşan bir numaranın girilip kaydedilebileceğini seçin.                                                                          |
@@ -80,7 +77,7 @@ Parametreler gider yönetiminde geel davranışı denetler.
 
 | **Alan**                      | **Veri Akışı Açıklaması**            |
 |--------------------------------|-----------------------------------------------------------------------------|
-| **Yönergeler**                   | Çalışanların, gider raporu ile ilgili makbuzları göndermek için kullandıkları faksın kapak sayfasını oluştururken takip etmeleri gereken yönergeleri girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler** 'i seçin. |
+| **Yönergeler**                   | Çalışanların, gider raporu ile ilgili makbuzları göndermek için kullandıkları faksın kapak sayfasını oluştururken takip etmeleri gereken yönergeleri girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
 |**Kullanıcı Kimliği (Barkod bilgileri)** | Çalışanın benzersiz tanıtıcısını faksın kapak sayfasında kullanılan barkodda depolamak için bu seçeneği belirleyin.                 |
 |**Barkod**                      | Faksın kapak sayfasında kullanılan barkodu seçin. Gider yönetiminde kod 39 ve kod 128 barkodları desteklenir.               |
 

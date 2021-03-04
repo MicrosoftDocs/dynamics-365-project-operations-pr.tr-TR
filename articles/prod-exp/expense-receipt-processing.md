@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086482"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960316"
 ---
 # <a name="expense-receipt-processing"></a>Gider girişi işleme
-
-[!include [banner](../includes/banner.md)]
 
 Gider girişi, girişler için optik karakter tanıma (OCR) işleminin eklenmesiyle geliştirilmiştir. Bu özellik, gider raporları oluştururken kullanıcı deneyimini geliştirmek için tasarlanmıştır.
 
@@ -45,7 +43,7 @@ Bir gider raporu oluşturulduğunda kredi kartı hareketlerini içeren makbuzlar
 
 Bir gider oluşturmak veya bir makbuzdan bir gider ile eşleştirmek için aşağıdaki adımları izleyin:
 
-  1. Gider raporunda, **Makbuzlar** sekmesinde, **Makbuzları ekle** 'yi seçerek bir makbuz iliştirin.
+  1. Gider raporunda, **Makbuzlar** sekmesinde, **Makbuzları ekle**'yi seçerek bir makbuz iliştirin.
   2. Makbuzun karşıya yüklenen görüntüsünün altında, **Oluştur** ve **Eşleştir** seçeneklerine dikkat edin.
 
       - El ile girilen bir masraf hareketini oluşturmak için **Oluştur** öğesini seçin ve makbuzdan çıkarılan değerleri doldurun.
@@ -58,12 +56,12 @@ Bu özellik, masraf deneyimini basitleştirmeye yardımcı olmak için **Gider r
 Bu gelişmiş gider özelliklerini kullanmak için, Microsoft Dynamics 365 Finance için Gider Yönetimi Hizmeti eklentisini yükledikten sonra, örneğinizde özellikleri açın. Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden eklentiye erişebilirsiniz.
 
 1. LCS'de oturum açın ve istenen ortamı açın.
-2. **Tüm ayrıntılar** 'a gidin.
-3. **Koruma** 'yı seçin veya **Ortam eklentileri** hızlı sekmesine kaydırın.
-4. **Yeni eklenti ekle** 'yi seçin.
-5. **Gider Yönetim Hizmeti** 'ni seçin.
+2. **Tüm ayrıntılar**'a gidin.
+3. **Koruma**'yı seçin veya **Ortam eklentileri** hızlı sekmesine kaydırın.
+4. **Yeni eklenti ekle**'yi seçin.
+5. **Gider Yönetim Hizmeti**'ni seçin.
 6. Yükleme kılavuzunu izleyin, koşulları ve hükümleri kabul edin.
-7. **Yükle** 'yi seçin.
+7. **Yükle**'yi seçin.
 
 **Özellik Yönetimi** çalışma alanında, aşağıdaki özellikleri açın:
 

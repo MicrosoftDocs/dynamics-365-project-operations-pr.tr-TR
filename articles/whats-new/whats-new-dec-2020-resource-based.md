@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700704"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727904"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Aralık 2020'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -24,6 +24,8 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 
 - Dataverse ortamı sürüm 4.5.0.134'te Project Operations
 - Dynamics 365 Finance uygulama ortamı sürüm 10.0.15'te proje yönetimi ve hesaplaması
+
+Bu sürümü güncelleştirme hakkında bilgi için bkz. [Finance ortamınızda Project Operations'ı güncelleştirme](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 Bu sürümde aşağıdaki özellikler yer almaktadır:
@@ -85,7 +87,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Proje yönetimi ve muhasebe | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989)           | Project Operations tümleştirilmiş senaryosunda fatura teklif satırlarını silebilme özelliği                                                                                                                                                                                    |
 | Proje yönetimi ve muhasebe | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Dataverse tümleştirmesi olmadan birden çok sözleşme satırı özelliğini etkinleştirmeyi önler                                                                                                                                                                                        |
 | Proje yönetimi ve muhasebe | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527)           | Hesapta faturalandırma = Kar ve zarar olduğunda tahmin, faturalanan geliri sıfır (0) gösteriyor                                                                                                                                                                          |
-| Proje yönetimi ve muhasebe | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364)           | Şirketler arası proje faturalamasında WIP satış değeri kaydı beklenmeyen bir hesap seçiyor                                                                                                                                                                           |
+| Proje yönetimi ve muhasebe | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364)           | Şirketler arası proje faturalamasında WIP satış değerinin gönderimi beklenmeyen bir hesap seçiyor                                                                                                                                                                           |
 | Proje yönetimi ve muhasebe | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799)           | Project Operations etkinken tahmin/gelir tanıma eylemi gerçekleştirilemiyor                                                                                                                                                                         |
 | Seyahat ve Gider                | [378738](https://fix.lcs.dynamics.com/Issue/Details/?bugId=378738)           | Temsilci tarafından girilen gider, temsilciye değil gider kullanıcısına iade edilir                                                                                                                                                                                           |
 | Seyahat ve Gider                | [409489](https://fix.lcs.dynamics.com/Issue/Details/?bugId=409489)           | Gider raporu iş akışı temsilci kullanıcısı gönderim iş akışı, iş akışı kaynağı olarak tanımlanamıyor                                                                                                                                                             |
@@ -98,7 +100,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Seyahat ve Gider                | [477831](https://fix.lcs.dynamics.com/Issue/Details/?bugId=477831)            | Gider raporu, bir gider kategorisi için yanlış alt kategorinin girilmesine izin veriyor                                                                                                                                                                                       |
 | Seyahat ve Gider                | [478630](https://fix.lcs.dynamics.com/Issue/Details/?bugId=478630)            | Gider raporu tutarı nakit avans tutarından fazla olduğunda gider raporuna sahip nakit avans mutabakatı beklendiği gibi çalışmıyor                                                                                                           |
 | Seyahat ve Gider                | [486680](https://fix.lcs.dynamics.com/Issue/Details/?bugId=486680)            | ProjProjectLookup ile ilgili sorguların performans sorunları. Sorgunun yürütülmesi uzun sürdüğü için müşteri engellendi.                                                                                                                     |
-| Seyahat ve Gider                | [487531](https://fix.lcs.dynamics.com/Issue/Details/?bugId=487531)            | **İşlemlerin mahsup ödeme hesabına göre gruplandırılmasına izin ver** ve **Deftere nakil sırasında Muhasebe Tarihini düzeltme** açıkken kaydedilen gider raporları, muhasebe tarihlerinin **Muhasebe dağıtımı** tablosunda gruplanmadığını gösteriyor ve bu da satış vergisi kayıtlarını etkiliyor |
+| Seyahat ve Gider                | [487531](https://fix.lcs.dynamics.com/Issue/Details/?bugId=487531)            | **İşlemlerin mahsup ödeme hesabına göre gruplandırılmasına izin ver** ve **Deftere nakil sırasında Muhasebe Tarihini düzeltme** seçenekleri etkinken deftere nakledilen gider raporları, muhasebe tarihlerinin **Muhasebe dağıtımı** tablosunda gruplanmadığını gösteriyor ve bu da satış vergisi kayıtlarını etkiliyor |
 | Seyahat ve Gider                | [491759](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491759)            | Yabancı para birimiyle içeri aktarılan kredi kartı işlemleri, gider raporu satırlarında **Tersine ücretlendirilmiş KDV** kullanılırsa yanlış satıcı işlemleri oluşturuyor                                                                                                                     |
 | Seyahat ve Gider                | [506175](https://fix.lcs.dynamics.com/Issue/Details/?bugId=506175)            | Proje Kimliği, başlık düzeyinde eklenirse şirketler arası gider raporu oluşturulamıyor                                                                                                                                                                 |
 | Seyahat ve Gider                | [509491](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509491)            | Gider tutarı, nakit avans tutarından fazla olduğunda oluşan gider ödeme sorunu                                                                                                                                                                          |

@@ -3,17 +3,17 @@ title: Deneme sürümü kurulumu ve yapılandırma verilerini uygulama - lite
 description: Bu konuda, Project Operations'ta deneme sürümü kurulumu ve yapılandırma verilerini uygulama hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 11/04/2020
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 421c9d28088c92617687641d93b3ad5d6bfea73c
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642117"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089143"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations için tanıtım kurulumu ve yapılandırma verilerini uygulama - lite 
 
@@ -32,47 +32,45 @@ Yapılandırmaya başlamadan önce Dynamics 365 Project Operations için sağlan
 2. *ProjOpsDemoDataSetupAndMaster - Integrated CMT* adlı dosyaya gidin ve *DataMigrationUtility* adlı yürütülebilir dosyayı çalıştırın.
 3. Common Data Service Yapılandırma Geçişi (CMT) Sihirbazı'nın 1. sayfasında **Verileri İçeri Aktar**'ı ve ardından **Devam**'ı seçin.
 
-![Yapılandırma Geçişi](./media/1ConfigurationMigration.png)
+    ![Yapılandırma Geçişi](./media/1ConfigurationMigration.png)
 
 4. CMT Sihirbazı'nın 2. sayfasında **Dağıtım Türü** olarak **Microsoft 365** seçeneğini belirleyin.
 5. **Kullanılabilir kuruluşların listesini görüntüle** ve **Gelişmiş Ayarları Göster** onay kutularını seçin.
 6. Kiracınızın bölgesini seçin, kimlik bilgilerinizi girin ve ardından **Oturum Aç**'ı seçin.
 
-![Oturum Açma Yapılandırması](./media/2ConfigurationSignin.png)
+   ![Oturum Açma Yapılandırması](./media/2ConfigurationSignin.png)
 
 7. 3. sayfada, Kiracı üzerindeki Kuruluşlar listesinden demo verileri içeri aktarmak istediğiniz kuruluşu seçin ve ardından **Oturum Aç** seçeneğini belirleyin.
 8. 4. sayfada, paketi açılan *ProjOpsDemoDataSetupAndMaster - Integrated CMT* klasöründen *MasterAndSetupData* adlı zip dosyasını seçin.
 
-![Sıkıştırılmış dosya](./media/3ZipFile.png)
+   ![Sıkıştırılmış dosya](./media/3ZipFile.png)
 
-![Bir dosya seçin](./media/4SelectAFile.png)
+   ![Bir dosya seçin](./media/4SelectAFile.png)
 
 9. Zip dosyası seçildikten sonra, **Verileri İçeri Aktar**'ı seçin.
 
-![Verileri al](./media/5ImportData.png)
+   ![Verileri al](./media/5ImportData.png)
 
 10. Verileri içeri aktarma işlemi, ağ hızınıza bağlı olarak iki ila on dakika arası sürer. İşlem tamamlandıktan sonra CMT Sihirbazı'ndan çıkın. 
 11. Kuruluşunuzun aşağıdaki 20 varlıktaki verilerini denetleyin:
 
--   Para birimi
--   Hesap
--   Kuruluş Birimi
--   İletişim
--   Vergi Grubu
--   Müşteri Grubu
--   Birim
--   Birim Grubu
--   Fiyat Listesi
--   Proje Parametresi Fiyat Listesi 
--   Fatura Sıklığı
--   Ayrılabilir Kaynak Kategorisi
--   İşlem Kategorisi
--   Gider Kategorisi
--   Rol Fiyatı
--   İşlem Kategorisi Fiyatı
--   Özellik
--   Ayrılabilir Kaynak
--   Ayrılabilir kaynak kategorisi İlişkisi
--   Ayrılabilir Kaynak Özelliği
+    -   Para birimi
+    -   Hesap
+    -   Kuruluş Birimi
+    -   İlgili kişi
+    -   Birim
+    -   Birim Grubu
+    -   Fiyat Listesi
+    -   Proje Parametresi Fiyat Listesi 
+    -   Fatura Sıklığı
+    -   Ayrılabilir Kaynak Kategorisi
+    -   İşlem Kategorisi
+    -   Gider Kategorisi
+    -   Rol Fiyatı
+    -   İşlem Kategorisi Fiyatı
+    -   Özellik
+    -   Ayrılabilir Kaynak
+    -   Ayrılabilir kaynak kategorisi İlişkisi
+    -   Ayrılabilir Kaynak Özelliği
 
-![İçeri Aktarmayı Tamamlama](./media/6CompleteImport.png)
+    ![İçeri Aktarmayı Tamamlama](./media/6CompleteImport.png)

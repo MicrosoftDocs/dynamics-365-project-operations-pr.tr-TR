@@ -16,22 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086478"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960541"
 ---
 # <a name="set-up-expense-management-workflows"></a>Gider yönetimi çalışma akışları ayarlama
-
-[!include [banner](../includes/banner.md)]
 
 Seyahat ve gider belgelerini gözden geçirmek ve onaylamak için kullanılan bir iş akışı işlemi ayarlayabilirsiniz. İş akışlarının tanımlanabildiği belgelere gider raporları, seyahat talepleri ve nakit avans talepleri dahildir.
 
 Bir iş akışı, bir iş işlemini temsil eder. Bir belgenin sistemde nasıl akar ve bir görevi tamamlamasını veya belgeyi onaylaması gerektiğini gösterir. Kuruluşunuzda iş akışı sistemi kullanmanın birçok yararı vardır:
 
--   **Tutarlı işlemler** : Satınalma talepleri ve gider raporları gibi belirli belgeler için onay süreci tanımlayabilirsiniz. İş akışı sistemi kullanılması, belgelerin tutarlı ve verimli bir şekilde işlenmesini ve onaylanmasını sağlar.
+-   **Tutarlı işlemler**: Satınalma talepleri ve gider raporları gibi belirli belgeler için onay süreci tanımlayabilirsiniz. İş akışı sistemi kullanılması, belgelerin tutarlı ve verimli bir şekilde işlenmesini ve onaylanmasını sağlar.
 
 -   İşlem görünürlüğü: Belirli bir iş akışı örneğinin durumunu, geçmişini ve performans ölçümlerini izleyebilirsiniz. Bu, verimliliği artırmak için iş akışına değişikliklerin yapılması gerekip gerekmediğini belirlemenize yardımcı olur.
 

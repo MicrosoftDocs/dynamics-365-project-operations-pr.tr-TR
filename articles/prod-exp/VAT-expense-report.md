@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1be96521cdb486dd5a702cded615d3e1015b364
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49397592ea002b9da872ac1aa455719b6ca2292e
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086366"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960226"
 ---
 # <a name="vat-recovery"></a>KDV kurtarma 
-
-[!include [banner](../includes/banner.md)]
 
 Uygun katma değer vergisi (KDV) işlemlerinde para iadelerini almak için bir şirket veya kuruluşun doğru bilgileri tanımlaması, toplaması, doğrulaması ve göndermesi gerekir. Bu süreç birden fazla görev içerir ve şirketinizin büyüklüğüne bağlı olarak birkaç çalışanı veya rolü içerebilir.
 
@@ -49,7 +47,7 @@ Aşağıdaki bölümlerde, Contoso çalışanlarının her adımı nasıl tamaml
 
 Amerika Birleşik Devletleri'nde bir Contoso satış temsilcisi olan Nancy, kısa süre önce Birleşik Krallık'a yaptığı bir satış seyahatinden dönmüştür. Nancy seyahati sırasında yemek için bazı kişisel kredi kartı harcamaları yapar. Nancy şimdi giderleri mutabık kılmak için bir gider raporu oluşturmalıdır.
 
-Nancy bilgileri gider raporuna girdiğinde **Gider raporu düzenleme** sayfasında **Ülke/bölge** alanında **Birleşik Krallık** 'ı seçer. Satış vergisi grupları listesi, yalnızca Birleşik Krallık için geçerli olan grupları gösterecek şekilde filtrelenir. Nancy **Birleşik Krallık 001** satış vergisi grubunu seçer ve ardından satış vergisi grubu için **Yemek** 'i seçer. Bundan sonra Nancy konaklama için yeni bir işlem ekler. Birleşik Krallık'ta konaklama için yalnızca bir satış vergisi grubu ve bir öğe satış vergisi grubu olduğundan, bu bilgiler Nancy'nin gider raporunda otomatik olarak doldurulur.
+Nancy bilgileri gider raporuna girdiğinde **Gider raporu düzenleme** sayfasında **Ülke/bölge** alanında **Birleşik Krallık**'ı seçer. Satış vergisi grupları listesi, yalnızca Birleşik Krallık için geçerli olan grupları gösterecek şekilde filtrelenir. Nancy **Birleşik Krallık 001** satış vergisi grubunu seçer ve ardından satış vergisi grubu için **Yemek**'i seçer. Bundan sonra Nancy konaklama için yeni bir işlem ekler. Birleşik Krallık'ta konaklama için yalnızca bir satış vergisi grubu ve bir öğe satış vergisi grubu olduğundan, bu bilgiler Nancy'nin gider raporunda otomatik olarak doldurulur.
 
 Contoso ilkesine göre, tüm giderlerde eşleşen bir makbuz olmalıdır. Bu nedenle, Nancy gider raporunu kaydettiğinde gider raporunda listelediği her işlem için bir makbuz eklemesi gerektiğini belirten bir ileti alır. Nancy, gider raporuna her işlem makbuzunun dijital bir görüntüsünü eklediğini doğrular ve ardından raporunu onay için gönderir. Daha sonra kağıt makbuzları arka ofis işleme takımına gönderir. Bu takım, KDV'den düşme verilerini Contoso için uluslararası KDV'den düşme iadelerini dosyalayan üçüncü taraf satıcıya gönderir.
 
@@ -67,7 +65,7 @@ Arnie, kağıt makbuzları Nancy'den aldığında bunları dijital makbuzlara g�
 
 ## <a name="send-vat-recovery-data-to-the-third-party-vendor-to-file-international-recovery-returns"></a>Uluslararası vergiden düşme para iadelerini dosyalamak için KDV'den düşme verilerini üçüncü taraf satıcıya gönderin.
 
-Arnie, gider raporu verilerini KDV'den düşme iadelerini dosyalayacak üçüncü taraf satıcıya göndermeye hazır olduğunda, **Gider vergisinden düşme** sayfasını açar. Sayfayı yalnızca **Vergiden düşmeye hazır** olarak işaretlenmiş gider raporlarını gösterecek şekilde filtreler. Arnie ardından **Dosya** &gt; **Excel'e Aktar** 'ı seçer. Gider raporlarından alınan KDV bilgileri, Microsoft Excel çalışma sayfasına dışarı aktarılır. Arnie bu çalışma sayfasını üçüncü taraf satıcıya gönderir ve kağıt makbuzların kurye ile gönderildiğini belirten bir ileti ekler.
+Arnie, gider raporu verilerini KDV'den düşme iadelerini dosyalayacak üçüncü taraf satıcıya göndermeye hazır olduğunda, **Gider vergisinden düşme** sayfasını açar. Sayfayı yalnızca **Vergiden düşmeye hazır** olarak işaretlenmiş gider raporlarını gösterecek şekilde filtreler. Arnie ardından **Dosya** &gt; **Excel'e Aktar**'ı seçer. Gider raporlarından alınan KDV bilgileri, Microsoft Excel çalışma sayfasına dışarı aktarılır. Arnie bu çalışma sayfasını üçüncü taraf satıcıya gönderir ve kağıt makbuzların kurye ile gönderildiğini belirten bir ileti ekler.
 
 ## <a name="process-expenses-for-domestic-vat-recovery"></a>Yurtiçi KDV'den düşme için giderleri işleme
 

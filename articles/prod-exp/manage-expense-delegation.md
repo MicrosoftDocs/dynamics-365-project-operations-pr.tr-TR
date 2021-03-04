@@ -1,6 +1,6 @@
 ---
 title: Gider temsilcisi seçmeyi yönetme
-description: Bir gider temsilcisi kullanıcısı, kuruluştaki başka bir çalışanın adına gider raporları oluşturabilir ve yönetebilir.
+description: Gider temsilcisi kullanıcısı, kuruluştaki başka bir çalışan için gider raporları oluşturabilir ve yönetebilir.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086476"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960811"
 ---
 # <a name="manage-expense-delegation"></a>Gider temsilcisi seçmeyi yönetme
 
-[!include [banner](../includes/banner.md)]
+Gider temsilcisi, başka bir çalışan için gider raporları oluşturabilir ve bunları yönetebilir.
 
-Bir gider temsilcisi kullanıcısı, kuruluştaki başka bir çalışanın adına gider raporları oluşturabilir ve yönetebilir.
+## <a name="configure-expense-delegation"></a>Gider temsilcisi yapılandırma
 
-## <a name="configuring-expense-delegation"></a>Gider temsilcisini yapılandırma
+1. Kullanıcıyı gider temsilcisi olarak ayarlamak için **Gider yönetimi > Kurulum > Genel > Temsilciler**'e gidin.
+2. **Temsilciler** sayfasında **Yeni**'yi seçin.
+3. Temsilci olarak tanımlanacak çalışanı seçin. 
+4. Temsilci kullanıcının diğer adını ve temsilci atama döneminin başlangıç ve bitiş tarihini girin.
 
-Bir kullanıcıyı bir gider temsilcisi olarak ayarlamak için, **Temsilciler** sayfasını açmak üzere **Gider Yönetimi > Kurulum > Genel > Temsilciler** 'e gidin. **Yeni** 'yi seçin ve ardından tanımlanmış bir temsilciye sahip olacak çalışanı seçin. Temsilci kullanıcının diğer adını ve temsilci atama döneminin başlangıç ve bitiş tarihini girin.
+## <a name="manage-expense-delegation-for-another-employee"></a>Başka bir çalışan için gider temsilcisini yönetme
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a>Gider temsilcilerini başka bir çalışan adına yönetme
+Özellik yönetimi anahtarı olan **Gider temsilcileri listesini etkinleştir sayfası** etkinleştirildiğinde **Temsil ettiğim giderler** liste sayfası kullanılabilir. **Gider yönetimi** > **Giderlerim** > **Temsil ettiğim giderler**'e gidin.
 
-Özellik yönetimi anahtarının **gider temsilcileri listesine izin ver sayfası** etkinleştirilmişse **Temsilci seçilen giderler** listesi sayfası etkin olarak **Gider yönetimi > giderlerim > harcamaları** arasında gezerek kullanılabilir.
+Temsilci kullanıcı, temsil ettiği mevcut gider raporlarını hızlı bir şekilde filtreleyebilir ve arayabilir. Ayrıca **Yeni gider raporu**'nu seçerek diğer kullanıcılar için yeni bir gider raporu oluşturabilir.
 
-Temsilci, temsilci olarak atandığı var olan gider raporlarını hızlıca filtreleyebilir ve arayabilir. Kullanıcı ayrıca **Yeni gider raporu** 'nu seçerek diğer kullanıcılar için hızlı bir şekilde yeni bir gider raporu oluşturabilir.
-
-Temsilciler, **Gider yönetimi > Giderlerim > Gider raporları** 'na gidip **Diğer kullanıcıların giderlerini aç** 'ı seçerek diğer çalışanlar için gider raporları oluşturabilir ve bunları yönetebilir.
+Temsilci kullanıcılar, **Gider yönetimi** > **Giderlerim** > **Gider raporları**'na gidip **Diğer kullanıcıların giderlerini aç** seçeneğini belirleyerek diğer çalışanlar için gider raporları oluşturabilir ve yönetebilir.

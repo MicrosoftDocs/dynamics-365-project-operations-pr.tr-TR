@@ -3,17 +3,18 @@ title: Yeni bir ortam sağlama
 description: Bu konuda, yeni bir Project Operations ortamı sağlama hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643016"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727814"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
@@ -60,17 +61,15 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 
 ![Dağıtım Onayı](./media/2DeploymentConsent.png)
 
-7. Sihirbazdaki kalan gerekli alanları doldurun ve dağıtımı onaylayın. Ortam sağlama süresi ortam türüne göre değişir. Sağlama işlemi altı saat kadar sürebilir.
+7. İsteğe bağlı:Demo verilerini ortama uygulayın. **Gelişmiş ayarlar**'a gidin, **SQL Veritabanı Yapılandırmasını Özelleştir**'i seçin ve **Uygulama veritabanı için bir veri kümesi belirtin**'i **Demo** olarak ayarlayın.
+
+8. Sihirbazdaki kalan gerekli alanları doldurun ve dağıtımı onaylayın. Ortamın sağlanması için gereken süre ortam türüne göre değişir. Sağlama işlemi altı saat kadar sürebilir.
 
   Dağıtım başarıyla tamamlandıktan sonra, ortam **Dağıtıldı** olarak görünür.
 
-8. Ortamın başarıyla dağıtıldığını doğrulamak için **Oturum Aç**'ı seçin ve onaylamak üzere ortamda oturum açın.
+9. Ortamın başarıyla dağıtıldığını doğrulamak için **Oturum Aç**'ı seçin ve onaylamak için ortamda oturum açın.
 
 ![ Ortam Ayrıntıları](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance demo verilerini uygulama (isteğe bağlı adım)
-
-Project Operations Finance demo verilerini 10.0.13 hizmet sürümü Bulutta Barındırılan Ortama [bu makalede](resource-apply-finance-demo-data.md) anlatıldığı gibi uygulayın.
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Finance ortamına güncelleştirmeleri uygulama
 
@@ -152,6 +151,21 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 
 ![Yenileme Onayı](./media/19RefreshConfirmation.png)
 
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Dataverse'te Project Operations güvenlik ayarlarını güncelleştirin
+
+1. Dataverse ortamınızda Project Operations'a gidin. 
+2. **Ayarlar** > **Güvenlik** > **Güvenlik rolleri**'ne gidin. 
+3. **Güvenlik rolleri** sayfasındaki roller listesinde, **çift yazma uygulaması kullanıcısı** seçeneğini belirleyin ve **Özel Varlıklar** sekmesini seçin.  
+4. Rolün aşağıdakiler için **Okuma** ve **Şuna Ekle** izinlerinin olduğunu doğrulayın:
+      
+      - **Para Birimi Döviz Kuru Türü**
+      - **Hesap Grafiği**
+      - **Mali Takvim**
+      - **Kayıt Defteri**
+
+5. Güvenlik rolü güncelleştirildikten sonra, **Ayarlar** > **Güvenlik** > **Takımlar**'a gidin ve **Yerel İşletme Sahibi** takım görünümünde varsayılan takımı seçin.
+6. **Rolleri Yönet**'i seçin ve bu takıma **çift yazma uygulaması kullanıcı** güvenlik ayrıcalığının uygulandığını doğrulayın.
+
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations Çift Yazma eşlemelerini çalıştırma
 
 1. LCS projenizde **Ortam ayrıntıları** sayfasına gidin.
@@ -163,7 +177,7 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 | **Tüm Şirketler için Proje Kaynak Rolleri (bookableresourcecategories)** | No | Evet | Common Data Service | No | Yok |
 | **Tüzel kişilikler (cdm\_companies)** | No | Evet | Finance and Operations uygulamaları | No | Yok |
 | **Kayıt Defteri (msdyn_ledgers)** | No | Evet | Finance and Operations uygulamaları | Evet | Evet, Finance and Operations uygulamaları |
-| **Project Operations tümleştirme gerçek değerleri (msdyn\_actuals)** | No | No | Yok | Evet | No |
+| **Project Operations tümleştirmesi gerçek değerleri (msdyn\_actuals)** | No | No | Yok | Evet | No |
 | **Proje sözleşme satırları (salesorderdetails)** | No | No | Yok | No | No |
 | **Proje işlem ilişkilerine ait tümleştirme varlığı (msdyn\_transactionconnections)** | No | No | Yok | No | Yok |
 | **Project Operations tümleştirme sözleşme satırı kilometre taşları (msdyn\_contractlinesscheduleofvalues)** | No | No | Yok | No | Yok |
