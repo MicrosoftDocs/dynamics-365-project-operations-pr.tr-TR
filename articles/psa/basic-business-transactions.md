@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 048bd2d98e6332e6c48a24f4eacee5b937ef04a9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127002"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149927"
 ---
 # <a name="business-transactions"></a>İş işlemleri
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -93,7 +95,7 @@ Aşağıdaki örnekte, bir PSA proje yaşam döngüsünde zaman girişlerinin ti
 1. Bir zaman girişinin gönderilmesi iki günlük satırı oluşturulmasına neden olur: biri maliyet diğeri de faturalandırmamış satış içindir.
 2. Bir zaman girişinin nihai onayı iki fiili değer oluşturulmasına neden olur: biri maliyet diğeri de faturalandırmamış satış içindir.
 3. Kullanıcı bir proje faturası oluşturduğunda, fatura satırı işlemi faturalanmamış satış fiili değerindeki veriler kullanılarak oluşturulur. 
-4. Fatura onaylandıktan sonra, iki yeni fiili değer oluşturulur: faturalandırılmamış bir satış ters işlemi ve faturalanmış satış fiili değeri.
+4. Fatura onaylandıktan sonra, iki yeni fiili değer oluşturulur: faturalanmamış bir satış ters işlemi ve faturalanmış satış fiili değeri.
 
 Bu olayların her biri zaman girişi, yevmiye günlüğ satırı, fiili değerler ve fatura satırı ayrıntılarında oluşturulan bu kayıtlar arasındaki ilişkilerin izlenebilmesine yardımcı olmak için İşlem kaynağı ve İşlem bağlantısı varlıklarında kayıtlar oluşturulmasını tetikler.
 

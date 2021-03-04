@@ -2,6 +2,7 @@
 title: Yükseltme giriş sayfası
 description: Bu konu, Dynamics 365 Project Service Automation uygulamasındaki yeni ve değiştirilen özellikler hakkında önemli bilgileri nerede bulabileceğinizi ve en yeni sürüme yükseltme işlemini gösterir.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121782"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150107"
 ---
 # <a name="upgrade-home-page"></a>Yükseltme giriş sayfası
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ ms.locfileid: "4121782"
 
 ### <a name="existing-instances"></a>Var olan kurulumlar
 
-Daha önce, PSA sürüm 2.x kurulumuna sahip olan ve PSA'nın Birleşik istemci arabirimi tabanlı (UCI) sürümü olan sürüm 3.x'e yükseltmesi gereken müşterilerin destek birimine başvurması ve kurulumlarının ayrıntılarını vermeleri gerekiyordu. Böylece destek birimi kurulumu sürüm 3.x'e yükseltmek üzere etkinleştirebiliyordu. 1 Mart 2020'den itibaren, PSA sürüm 2.x kurulumuna sahip olan ve 3.x sürümüne yükseltme yapmak isteyen müşteriler, kurulumlarını Microsoft Desteği'ne başvurmalarına gerek olamadan doğrudan Yönetim portalından yükseltebilecekler.  
+Daha önce, PSA sürüm 2.x kurulumuna sahip olan ve PSA'nın Birleşik istemci arabirimi tabanlı (UCI) sürümü olan sürüm 3.x'e yükseltmesi gereken müşterilerin, Microsoft Desteği'ne başvurması ve kurulumlarının ayrıntılarını sağlamaları gerekir. Böylece destek, kurulumu sürüm 3.x'e yükseltmek için etkinleştirebilir. 1 Mart 2020 tarihinden itibaren, PSA sürüm 2.x kurulumuna sahip olan ve PSA'nın Birleşik istemci arabirimi tabanlı (UCI) sürümü olan sürüm 3.x'e yükseltmesi gereken müşteriler, Microsoft Desteği'ne başvurmak zorunda kalmadan kurulumlarını doğrudan Yönetici portalından yükseltebilir.  
 
 > [!NOTE]
 > PSA sürüm 3. x önemli değişiklikler içerir. Daha iyi bir kullanıcı deneyimi sağlamaya yardımcı olmak için Birleşik Arabirim çerçevesi üzerine kurulmuştur. Yeniden tasarlanan uygulama tutarlı, tek tip bir kullanıcı arabirimi (UI) sağlar ve tüm ekran boyutlarında veya cihazlarda en iyi görüntüleme için dinamik tasarım ilkelerini takip eder. Uygulamanın tamamında başka değişiklikler de yapılmıştır. Değiştirilen bazı alanlar arasında fiyatlandırma, kaynak ayırma ve atama, zaman, giderler ve onaylar verilebilir.
@@ -58,7 +61,7 @@ Daha önce sözü edilen konuları inceledikten sonra ve PSA sürüm 3.x'e veya 
 
 17 Mayıs 2019 tarihinden itibaren tüm yeni kurulumlarda varsayılan istemci olarak UCI bulunacaktır. Bu değişikliğe uyum sağlamak üzere bu sürümler UCI istemcisiyle çalışacak şekilde tasarlandığından PSA sürüm 3.x ve Field Service sürüm 8.x varsayılan olarak sağlanacaktır.
 
-1 Mart 2020' itibaren, Dynamics PSA müşterileri daha eski PSA sürümleri (örneğin, PSA sürüm 2. x veya daha düşük) ile yeni ortamlar oluşturamayacak. Her yeni ortam, yalnızca PSA 3.x sürümü ile oluşturulabilecek.
+1 Mart 2020 tarihinden itibaren, Dynamics PSA müşterileri artık PSA'nın eski sürümleriyle (örneğin, PSA sürüm 2.x veya önceki) yeni bir ortam oluşturamaz. Her yeni ortam, yalnızca PSA 3.x sürümü ile oluşturulabilecek.
 
 > [!NOTE]
 > Field Service ve PSA uygulamalarının eski sürümlerini kullanırken en iyi deneyim için bu sürümler UCI'de düzgün yüklenecek şekilde tasarlanmadığından **Sistem ayarları** sayfasına gidin ve **Yalnızca yeni Birleşik Arabirim'i kullan (önerilen)** alanı için **Hayır**'ı seçin. UCI'yi kapattıktan sonra Field Service ve PSA'nın bu sürümlerini eski web istemcisini kullanarak açabilir ve çalıştırabilirsiniz. 

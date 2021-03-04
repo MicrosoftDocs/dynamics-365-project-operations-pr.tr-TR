@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb90c1ac2880dc07414276618a8259d17932b4a0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132582"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149162"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Temel teklif verme, fiyatlama ve faturalama kılavuzu
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 

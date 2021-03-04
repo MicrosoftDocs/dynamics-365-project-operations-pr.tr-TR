@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5ecd3d38c11ffe17fbe967dc83db4c27d53807a3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 30af778c31dc7dfc1f80f8f8295f8791873a05dd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128982"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150287"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Project Service Automation'da oturum açma
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

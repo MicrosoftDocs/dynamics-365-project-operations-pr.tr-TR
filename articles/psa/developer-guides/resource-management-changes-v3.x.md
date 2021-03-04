@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148667"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Kaynak yöneticisi değişiklikleri (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Bu konunun bölümleri, Dynamics 365 Project Service Automation sürüm 3.x'in Kaynak yönetimi alanında yapılan değişiklikler hakkında bilgi sağlar.
 
 ## <a name="project-estimates"></a>Proje tahminleri
 
-Proje tahminleri **msdyn\_projecttask** varlığını ( **Proje Görevi** ) temel almak yerine **msdyn\_resourceassignment** varlığını ( **Kaynak Atama** ) temel alır. Kaynak atamaları, görev zamanlama ve fiyatlandırma için "gerçeğin kaynağı" haline geldi.
+Proje tahminleri **msdyn\_projecttask** varlığını (**Proje Görevi**) temel almak yerine **msdyn\_resourceassignment** varlığını (**Kaynak Atama**) temel alır. Kaynak atamaları, görev zamanlama ve fiyatlandırma için "gerçeğin kaynağı" haline geldi.
 
 ## <a name="line-tasks"></a>Satır görevleri
 
@@ -65,7 +67,7 @@ PSA 3.x'te atanmamış bir atama, bir **BOŞ** takım üyesine ve bir **BOŞ** k
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Proje Görevi varlığındaki zamanlama alanları
 
-**msdyn\_projecttask** varlığındaki alanlar kullanım dışı bırakıldı veya **msdyn\_resourceassignment** varlığına taşındı ya da bu alanlara artık **msdyn\_projectteam** varlığından ( **Proje Takım Üyesi** ) başvuruluyor.
+**msdyn\_projecttask** varlığındaki alanlar kullanım dışı bırakıldı veya **msdyn\_resourceassignment** varlığına taşındı ya da bu alanlara artık **msdyn\_projectteam** varlığından (**Proje Takım Üyesi**) başvuruluyor.
 
 | msdyn\_projecttask (Proje Görevi) varlığındaki kullanım dışı alan | msdyn\_resourceassignment (Kaynak Atama) varlığındaki yeni alan | Açıklama |
 |---|---|---|
@@ -77,15 +79,15 @@ PSA 3.x'te atanmamış bir atama, bir **BOŞ** takım üyesine ve bir **BOŞ** k
 
 ## <a name="schedule-contour"></a>Zamanlama sınırı
 
-Zamanlama sınırı her **Kaynak Atama** varlığının ( **msdyn\_resourceassignment** ) **Planlanan İş** alanında ( **msdyn\_plannedwork** ) depolanır.
+Zamanlama sınırı her **Kaynak Atama** varlığının (**msdyn\_resourceassignment**) **Planlanan İş** alanında (**msdyn\_plannedwork**) depolanır.
 
 ### <a name="structure"></a>Yapı
 
 Zamanlama sınırının yeni yapısı, zamanlamanın her günü için tanımlanan esnek zaman dilimlerinden oluşur. Her zaman dilimi aşağıdaki özellikleri sahiptir:
 
-- **Başlangıç** : Proje takvimine göre günün çalışma saatlerinin başlangıcı.
-- **Bitiş** : Proje takvimine göre günün çalışma saatlerinin bitişi.
-- **Saatler** : Günde atanan saat sayısı.
+- **Başlangıç**: Proje takvimine göre günün çalışma saatlerinin başlangıcı.
+- **Bitiş**: Proje takvimine göre günün çalışma saatlerinin bitişi.
+- **Saatler**: Günde atanan saat sayısı.
 
 **Örnek**
 
@@ -139,7 +141,7 @@ Bu örnekte, görev iki kaynağa atanmıştır ve üç günde 36 saat için (3 A
 
 ## <a name="pricing-dimensions"></a>Fiyatlandırma boyutları
 
-PSA 3.x'te, kaynağa özel fiyatlandırma boyutu alanları ( **Rol** ve **Kuruluş Birimi** ), **msdyn\_projecttask** varlığından kaldırılmıştır. Bu alanlar artık proje tahminleri üretildiğinde kaynak atamasının ( **msdyn\_resourceassignment** ) ilgili proje takımı üyesinden ( **msdyn\_projectteam** ) alınabilir. **msdyn\_projectteam** varlığına yeni bir alan ( **msdyn\_organizationalunit** ) eklendi.
+PSA 3.x'te, kaynağa özel fiyatlandırma boyutu alanları (**Rol** ve **Kuruluş Birimi**), **msdyn\_projecttask** varlığından kaldırılmıştır. Bu alanlar artık proje tahminleri üretildiğinde kaynak atamasının (**msdyn\_resourceassignment**) ilgili proje takımı üyesinden (**msdyn\_projectteam**) alınabilir. **msdyn\_projectteam** varlığına yeni bir alan (**msdyn\_organizationalunit**) eklendi.
 
 | msdyn\_projecttask (Proje Görevi) varlığındaki kullanım dışı alan | Bunun yerine msdyn\_projectteam varlığından (Proje Takımı Üyesi) kullanılan alan |
 |---|---|

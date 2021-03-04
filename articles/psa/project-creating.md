@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123267"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148442"
 ---
 # <a name="project-schedules"></a>Proje zamanlamaları 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -110,11 +112,11 @@ Ek zamanlama öznitelikleri şunlardır:
 
 Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Varolan bir kaynağı arayabilir veya **Oluştur**'a tıklayabilir veya  **Hızlı Oluştur** bölmesinde proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
 
-**Rol**, **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri görev zamanlamasıyla birlikte bu görevi yapmak için kullanılabilir kaynakları bulmak üzere kullanılır.
+**Rol**, **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri, görev zamanlamasıyla birlikte bu görevi gerçekleştirmek üzere kullanılabilir kaynakları bulmak için kullanılır.
 
 **Rol** - Görevi gerçekleştirmek için gereken kaynak türünü belirtin.
 
-**Kaynak Atama birimi** - Görevle ilgili kaynakların atanması gereken birimi belirtin. Kaynağın maliyet ve fatura oranı kaynak birimlerine göre ayarlandıysa, bu öznitelik görevin maliyet ve satış tahminini etkiler.
+**Kaynak belirleme birimi**: Görevle ilgili kaynakların atanması gereken birimi belirtin. Kaynağın maliyet ve fatura oranı kaynak birimlerine göre ayarlandıysa, bu öznitelik görevin maliyet ve satış tahminini etkiler.
 
 **Pozisyon adı** – İşi yapacak kaynak için yer tutucu görevi gören genel kaynağa yönelik bir ad girin.
 

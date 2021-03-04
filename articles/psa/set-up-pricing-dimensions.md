@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086539"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150377"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Başlamadan önce, bu konunun [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) ve [Fiyat ayarı ve işlem tabanlı varlıklara özel alanlar ekleme](field-references.md) konu başlıklarındaki yordamları tamamladığınızı varsaydığını bilmeniz gerekir. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
 
@@ -34,7 +36,7 @@ Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi veri
 - **msdyn_OrganizationalUnit** (Kuruluş Birimi)
 
 > [!IMPORTANT]
-> Bu satırları silmeyin. Ancak bu satırlara ihtiyacınız yoksa, **Maliyet için Geçerli** , **Satış için Geçerli** ve **Satın Alma için Geçerli** seçeneklerini **Hayır** olarak ayarlayarak belirli bir bağlamda geçersiz duruma getirebilirsiniz. Bu öznitelik değerlerinin **Hayır** olarak ayarlanması alanın bir fiyatlandırma boyutu olmamasıyla aynı etkiye sahiptir.
+> Bu satırları silmeyin. Ancak bu satırlara ihtiyacınız yoksa, **Maliyet için Geçerli**, **Satış için Geçerli** ve **Satın Alma için Geçerli** seçeneklerini **Hayır** olarak ayarlayarak belirli bir bağlamda geçersiz duruma getirebilirsiniz. Bu öznitelik değerlerinin **Hayır** olarak ayarlanması alanın bir fiyatlandırma boyutu olmamasıyla aynı etkiye sahiptir.
 
 Bir alanın fiyatlandırma boyutu olması için:
 
@@ -43,7 +45,7 @@ Bir alanın fiyatlandırma boyutu olması için:
 
 ![Tutar Tabanlı Fiyatlandırma Boyutu Satırları](media/Amt-based-PD.png)
 
-Kaynak Çalışma saatlerinin ( **msdyn_resourceworkhours** ) kar payı tabanlı bir boyut olarak eklendiğini ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklendiğini unutmayın.
+Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklendiğini ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklendiğini unutmayın.
 
 ![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları](media/Markup-based-PD.png)
 
@@ -60,8 +62,8 @@ Bu değer özel fiyatlandırma boyutlarının **Rol Fiyatı** tablosuna eklenen 
 ### <a name="type-of-dimension"></a>Boyut türü
 İki tür fiyatlandırma boyutu vardır:
   
-  - **Tutar tabanlı boyutlar** : Giriş bağlamlarından alınan boyut değerleri **Rol Fiyatı** satırındaki boyut değerleriyle eşleştirilir ve fiyat/maliyet varsayılan olarak doğrudan **Rol Fiyatı** tablosundan ayarlanır.
-  - **Kar payı tabanlı boyutlar** : Bunlar Project Service'in fiyat/maliyet almak için aşağıdaki 3 adımlı işlemi kullanacağı boyutlardır
+  - **Tutar tabanlı boyutlar**: Giriş bağlamlarından alınan boyut değerleri **Rol Fiyatı** satırındaki boyut değerleriyle eşleştirilir ve fiyat/maliyet varsayılan olarak doğrudan **Rol Fiyatı** tablosundan ayarlanır.
+  - **Kar payı tabanlı boyutlar**: Bunlar Project Service'in fiyat/maliyet almak için aşağıdaki 3 adımlı işlemi kullanacağı boyutlardır
  
     1. Project Service taban fiyatı almak için giriş bağlamından kar payı tabanlı olmayan boyut değerlerini Rol Fiyatı satırıyla eşleştirir.
     2. Project Service kar payı yüzdesi almak için giriş bağlamından tüm boyut değerlerini **Rol Fiyatı Kar Payı** satırıyla eşleştirir.
@@ -90,5 +92,5 @@ Bu değer **Evet** olarak ayarlandığında satınalma fiyatı alınırken **Rol
 ### <a name="priority"></a>Öncelik
 Boyut önceliğinin ayarlanması Project Service fiyatlandırma işlevinin giriş boyutu değerleri ve **Rol Fiyatı** veya **Rol Fiyatı Kar Payı** tablolarından alınan değerler arasında tam bir eşleşme bulamadığında bile bir fiyat üretmesine yardımcı olur. Bu senaryoda Project Service boyutları öncelik sıralarına göre ölçerek eşleşmeyen boyut değerleri için null değerler kullanır.
 
-- **Maliyet Önceliği** : Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
-- **Satış Önceliği** : Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+- **Maliyet Önceliği**: Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+- **Satış Önceliği**: Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.

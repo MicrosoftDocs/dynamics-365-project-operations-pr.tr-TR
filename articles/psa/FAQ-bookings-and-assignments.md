@@ -18,15 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125038"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149972"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Kaynak ayırmaları ve görev atamaları ile ilişkilendirilmeleri
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Aadlandırılmış kaynakların bir proje takımına ayrılması ve proje görevlerine atanması iki yolla yapılabilir:
 

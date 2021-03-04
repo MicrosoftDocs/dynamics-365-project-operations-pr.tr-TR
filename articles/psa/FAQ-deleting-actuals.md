@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9b45e3ae0cd9273af4d2a5cd9cce30502c0aa78
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 36cd241c7c7a2ff6ae018c94d691bc95d1f0c912
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127182"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148982"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Fiili Değerler varlığından gelen kayıtları neden silemiyorum?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
