@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642162"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278667"
 ---
 # <a name="project-contracts---key-concepts"></a>Proje Sözleşmeleri - Temel kavramlar
 

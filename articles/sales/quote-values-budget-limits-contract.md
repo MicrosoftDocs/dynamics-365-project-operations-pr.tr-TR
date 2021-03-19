@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180261"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277587"
 ---
 # <a name="project-quote-settings"></a>Proje teklifi ayarları
 
@@ -22,7 +22,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Bu makalede, bir proje teklifi için geçerli olan bilgiler açıklanmaktadır. Bu, tüm teklif satırlarını etkileyen ayarları ve proje teklifinin KPI'larını yönlendiren tüm satır öğelerinde özetlenen teklifle ilgili bilgileri içerir.
 
-Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales tekliflerine göre bazı önemli değişiklikleri olan bir proje teklifinde özet bilgi alanları listelenmiştir.
+Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales tekliflerinden davranış olarak bazı önemli değişiklikler içeren proje teklifindeki özet bilgileri alanları listelenmektedir.
 
 | **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |

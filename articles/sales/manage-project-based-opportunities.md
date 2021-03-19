@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277857"
 ---
 # <a name="manage-project-based-opportunities"></a>Proje tabanlı fırsat yönetimi
 
@@ -21,7 +21,7 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Proje tabanlı şirketlerin, genellikle birden çok ülkeye ve coğrafi bölgelerde teslimat işlemleri vardır. Projenin yürütülme ve teslimat maliyeti, teslimi hangi Coğrafya veya bölmenin yönetmediğini temel alarak değişiklik gösterebilir. Bunun için, bu işlem, anlaşma kenar boşluklarını etkileyebilir. Proje tabanlı servislerin teslimatı genellikle büyük miktarda insan kaynakları süresi, seyahat için önemli giderler, malzeme maliyetleri ve diğer giderler içerir.
 
-Dynamics 365 Project Operations'taki proje tabanlı fırsatlar Dynamics 365 Sales'teki uzantılarıyla tasarlanır. Konu, proje tabanlı şirketlerin proje bazlı fırsatları yönetmesi için gereken ek işlevselliğe dahil edilen farklı alanlar ve iş mantığı hakkında ayrıntılar sağlar.
+Dynamics 365 Project Operations'ta proje tabanlı fırsatlar, Dynamics 365 Sales için uzantılarla tasarlanmıştır. Konu, proje tabanlı şirketlerin proje bazlı fırsatları yönetmesi için gereken ek işlevselliğe dahil edilen farklı alanlar ve iş mantığı hakkında ayrıntılar sağlar.
 
 ## <a name="view-all-project-based-opportunities"></a>Proje tabanlı fırsatları görüntüleme
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125607"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278352"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Proje için tahminleri proje tabanlı teklif satırına içe aktarma
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181167"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277632"
 ---
 # <a name="project-contract-settings"></a>Proje sözleşme ayarları
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Bu konu, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere tüm proje sözleşmesi için uygulanan alanlar hakkında bilgi sağlar. Tüm satır öğeleri boyunca özetlenen sözleşmeyle ilgili bilgileri, proje sözleşmesinin sürücü KPI 'Ları olarak da içerir.
 
-Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales'taki satış siparişlerine göre bazı önemli değişiklikleri olan bir proje teklifinde alanları listelenmiştir.
+Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales'teki satış siparişlerinden davranış olarak bazı önemli değişiklikler içeren proje sözleşmesindeki alanlar listelenmektedir.
 
 | Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- | --- |

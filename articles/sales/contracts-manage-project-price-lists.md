@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278622"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Proje sözleşmelerinde proje fiyat listelerini yönetme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations içindeki proje sözleşmeleri, bir sözleşmede bulunan çok etkin satış fiyatı listelerini desteklemek üzere tasarlanmıştır. Project Operations, **Proje fiyat listeleri** olarak adlandırılan yeni bir ilişkili varlık vardır. Bu varlık bir proje sözleşmesiyle bire çok ilişkiye sahiptir.
+Dynamics 365 Project Operations'ta proje sözleşmeleri, bir sözleşmede birden fazla tarihe duyarlı satış fiyat listesini desteklemek için tasarlanmıştır. Project Operations, **Proje fiyat listeleri** olarak adlandırılan yeni bir ilişkili varlık vardır. Bu varlık bir proje sözleşmesiyle bire çok ilişkiye sahiptir.
 
 Proje fiyat listeleri, projedeki fiyat süresi ve gider hareketleri için kullanılır. Bir sözleşmede bir veya daha fazla proje fiyat listesi varsa, bu fiyat listeleri, sözleşme satırı üzerinden sözleşmeyle ilişkili projelerde zaman ve gider tahminlerine ve gerçek tutarların fiyatı olarak kullanılır.
 

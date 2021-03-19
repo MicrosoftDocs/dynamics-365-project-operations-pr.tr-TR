@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c707a664230cc56e2ac8114279f091936f446153
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: da803300f0e416be2544420d2b7e6e633923f65b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279792"
 ---
 # <a name="define-resource-requirements"></a>Kaynak gereksinimlerini tanımlama
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126417"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278397"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırına tahmin aktarma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Dynamics 365 Project Operations'ta, tahminleri bir projeden proje tabanlı bir sözleşme satırına aktarabilirsiniz.
+Dynamics 365 Project Operations'ta, proje tabanlı sözleşme satırına bir projedeki tahminleri içeri aktarabilirsiniz.
 
 1. Proje tabanlı sözleşme satırındaki **proje** alanının doldurulduğunu doğrulayın.
 2. Sekme **sözleşme satırı ayrıntıları** sekmesinde, alt ızgarada **Proje tahmininden ithal et**'i seçin. Özetleme seçenekleri bulunan bir iletişim kutusu sayfası açılır. Kullanılabilir özetleme seçenekleri, **İşlem sınıfı**, **Kategori**, **Rol** ve **Proje görevi**'dir. Özelleştirme seçiminize bağlı olarak, bu sözleşme satırındaki tüm işlem sınıfları için projeden alınan tahmin, üzerine kopyalanır. 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513858"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278082"
 ---
 # <a name="manage-leads"></a>Müşteri adaylarını yönetme
 

@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121332"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277542"
 ---
 # <a name="quotes---key-concepts"></a>Teklifler: temel kavramlar
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations içinde iki tür teklif vardır: proje ve satış teklifleri. İki tür teklif aşağıdaki açılardan farklılık gösterir:
+Dynamics 365 Project Operations'ta, iki tür teklif, proje ve satış vardır. İki tür teklif aşağıdaki açılardan farklılık gösterir:
 
 - **Satır öğeleri için gruplar**: Satış teklifinde, satır öğeleri için yalnızca bir grup vardır. Proje teklifinde satır öğeleri için iki grup vardır. Bir grup proje satırları, diğer grup ise ürün satırları içindir.
 - **Etkinleştirme ve düzeltmeler**: Satış teklifleri etkinleştirme ve düzeltmeleri destekler. Bu işlemler proje teklifinde desteklenmez.
@@ -59,7 +59,7 @@ Project Operations'daki proje tabanlı bir teklif satırı aşağıdaki faturala
 
 ### <a name="time-and-material"></a>Zaman ve malzeme
 
-Zaman ve malzeme faturalama yöntemi tüketime dayanır. Bu faturalandırma yöntemini seçtiğinizde, müşteri projede maliyet gerçekleştiğinde faturalandırılır. Faturalar tarih tabanlı dönemsel sıklık üzerinde oluşturulur. Satış işlemi sırasında, zaman ve malzeme bileşeninin teklif edilen değeri, müşteriye yalnızca son maliyetin tahminini sağlar. Satıcı, projeyi tam olarak teklif değerinde tamamlamakla yükümlü değildir. Zaman ve malzeme bileşenleri müşterinin riskini artırır. Müşteriler, risklerini en aza indirmek için, ek aşmama koşulları anlaşması isteyebilir. Project Operations, aşmama koşulları ayarlamayı desteklemez.
+Zaman ve malzeme faturalama yöntemi tüketime dayanır. Bu faturalandırma yöntemini seçtiğinizde, müşteri projede maliyet gerçekleştiğinde faturalanır. Faturalar tarih tabanlı dönemsel sıklık üzerinde oluşturulur. Satış işlemi sırasında, zaman ve malzeme bileşeninin teklif edilen değeri, müşteriye yalnızca son maliyetin tahminini sağlar. Satıcı, projeyi tam olarak teklif değerinde tamamlamakla yükümlü değildir. Zaman ve malzeme bileşenleri müşterinin riskini artırır. Müşteriler, risklerini en aza indirmek için, ek aşmama koşulları anlaşması isteyebilir. Project Operations, aşmama koşulları ayarlamayı desteklemez.
 
 ### <a name="fixed-price"></a>Sabit fiyat
 
@@ -87,7 +87,7 @@ Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla 
 Örneğin, bir teklif aşağıdaki iki teklif satırını içerebilir: 
 
 - Zaman ve ücret işlemi sınıflandırmalarının geçerli olduğu Zaman ve malzeme faturalama yöntemini kullanan danışmanlık işi. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm zaman ve ücret işlemleri, müşteriye kullanılan zaman ve malzemeye göre faturalanır. 
-- Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalandırılır.
+- Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalanır.
 
 > [!NOTE]
 > Proje ve bir teklif satırı veya sözleşme satırıyla ilişkili olan **Zaman**, **Gider** ve **Ücret** proje işlem sınıflandırmaları birleşimi benzersiz olmalıdır. Aynı proje ve işlem sınıfı birleşimi birden çok sözleşme satırı veya teklif satırıyla ilişkilendirilmişse, Project Operations düzgün çalışmaz.
@@ -125,7 +125,7 @@ Fatura sıklığı, fatura oluşturma sıklığını ifade eden öznitelik değe
 
 Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan faturalama kilometre taşları oluşturmak üzere **Fatura Zamanlaması** kılavuzunu kullanabilirsiniz.
 
-- Eşit olarak bölünmüş fatura kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
+- Eşit olarak bölünmüş faturalama kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
 - Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
 - Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.
 
