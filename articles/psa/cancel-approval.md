@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 40ac37c1070e1c4da01e96bbc4248977b2b6d284
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150602"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290878"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Önceden onaylanan zaman veya gider girişlerini iptal etme
 

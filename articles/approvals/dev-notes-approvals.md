@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9e4e910d0ff0a5f2603148fcc5daa0d423a4d174
-ms.sourcegitcommit: a9dbcd3aff4c6ae495412e4980e105ae160fd1ec
+ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "4483972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290293"
 ---
 # <a name="developer-notes-for-approvals"></a>Onaylar için geliştirici notları
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, onay aşamalarında doğru kayıt geçişini güvence altına alan doğrulama mantığını içerir. Kayıt geçişlerini düzeltme: 
+Dynamics 365 Project Operations, onay aşamalarında doğru kayıt geçişini sağlayan doğrulama mantığı içerir. Kayıt geçişlerini düzeltme: 
 
   - Tüm destekleyici satırlar, günlük ve gerçek değerler gibi ilgili tablolarda oluşturulur.
   - Onaylayan, devam etmeden önce projede bir **proje onaylayan** olarak işaretlendi.

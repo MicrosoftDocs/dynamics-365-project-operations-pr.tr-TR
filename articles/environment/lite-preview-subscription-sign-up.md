@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175915"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290068"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Önizleme aboneliğine kaydolma - lite 
 
-Bu konuda, önizleme iş ortağı teklifine kaybolma ve Dynamics 365 Project Operations Lite dağıtımını (anlaşmadan proforma faturaya) yapma hakkında bilgiler sağlanmaktadır.
+Bu konuda, önizleme iş ortağı teklifine abone olma ve Dynamics 365 Project Operations lite dağıtımı: anlaşmadan proforma faturaya açıklanmaktadır.
 
 > [!NOTE]
 > Bu işlem, Project Operations'ın yaklaşan sürümlerinde değişecektir.
@@ -32,17 +32,17 @@ Bu konuda, önizleme iş ortağı teklifine kaybolma ve Dynamics 365 Project Ope
 
 [Önizleme isteği](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) onayı aldığınızda Microsoft'tan e-posta ile iki teklif alırsınız. Bu teklifler, Project Operations Önizlemesi'ni dağıtmanıza olanak tanır:
 
-- Dynamics 365 Project Operations (CRM) -Önizleme Denemesi
+- Dynamics 365 Project Operations (CRM) - Önizleme Denemesi
 - Office 365 Project Operations - Önizleme Denemesi
 
 > [!IMPORTANT]
 > Kuruluşta bu görevi, kiracı yönetici olarak yalnızca bir kişinin gerçekleştirmesi gerekir. Bu sürüme abone değilseniz kuruluşunuzun kaydolup kullanıcı kimlik bilgilerinizi alana kadar bekleyin.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) -Önizleme Denemesi 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Önizleme Denemesi 
 
 Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kullanıcı çalışma hesabının bulunduğu bir tarayıcıda oturum açtığınızdan emin olun.
 
-1. İlk teklif kodu olan **Dynamics 365 Project Operations (CRM) - Önizleme Denemesi**'ni tarayıcı URL'sine yapıştırarak kullan.
+1. Tarayıcı URL'sine yapıştırarak **Dynamics 365 Project Operations (CRM) - Önizleme Denemesi** ilk teklif kodunu kullanın.
 
 ![Teklifi Kullanma](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Onay teklifinin başarıyla kurtarıldığını göreceksiniz.
 
 ![Lisans Atama](./media/15AssignLicenses.png)
 
-3. **Dynamics 365 Proje Operations (CRM) Önizleme** ve **Office 365 Proje İşlemleri - Önizleme** lisanlarının seçildiğini doğrulayın. 
+3. **Dynamics 365 Project Operations (CRM) Önizlemesi** ve **Office 365 Project Operations - Önizlemesi** lisanslarının seçildiğini doğrulayın. 
 4. **Değişiklikleri Kaydet**'i seçin.
 
 ## <a name="create-a-new-cds-environment"></a>Yeni CDS ortamı oluşturma
@@ -84,7 +84,7 @@ Onay teklifinin başarıyla kurtarıldığını göreceksiniz.
 
 ![Veritabanı ekle](./media/20CreateEnvironment1.png)
 
-4. Ortam oluşturulduktan sonra **Microsoft Dynamics 365 Project Operations** çözümlerini yükleyin. 
+4. Ortam oluşturulduktan sonra **Microsoft Dynamics 365 Project Operations** çözümünü yükleyin. 
 
 ![Çözüm Yükleme](./media/21InstallSolution.png)
 

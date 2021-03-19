@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367290"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291868"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kasım 2020 Yenilikler - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 

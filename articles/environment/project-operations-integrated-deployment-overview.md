@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365650"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289978"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations dağıtım genel bakışı
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Kaynak/stoklamayan tabanlı senaryolar için Dynamics 365 Project Operations dağıtım türü proje tabanlı şirketlerde aşağıdaki olanaklardan oluşur:
+Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Dynamics 365 Project Operations dağıtım türünde, proje tabanlı şirketlere yönelik aşağıdaki özellikler bulunur:
 
 - Web için Microsoft Project kullanarak proje planlama
 - İşçilik kaynakları için birden çok boyutlu fiyatlandırma ve maliyetlendirme

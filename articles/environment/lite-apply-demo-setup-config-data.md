@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089143"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290158"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations için tanıtım kurulumu ve yapılandırma verilerini uygulama - lite 
 

@@ -1,6 +1,6 @@
 ---
 title: Gerçek değerler
-description: Bu konuda, Microsoft Dynamics 365 Project Operations'ta gerçek değerlerle çalışma hakkında bilgiler sağlanmaktadır.
+description: Bu konuda, Microsoft Dynamics 365 Project Operations'ta gerçek tutarlarla çalışma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291823"
 ---
-# <a name="actuals"></a>Gerçek değerler 
+# <a name="actuals"></a>Fiili Değerler 
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
@@ -70,7 +70,7 @@ Gider girişlerinde, birim başına varsayılan fiyatların kategori tabanlı gi
 Giriş yevmiye defterlerini malzeme, ücret, zaman, gider veya vergi işlemi sınıflarında maliyeti veya geliri kaydetmek için kullanabilirsiniz. Yevmiye defterleri aşağıdaki amaçlar için kullanılabilir:
 
 - Projedeki gerçek malzeme ve satış maliyetini kaydedin.
-- İşlem gerçek değerlerini başka bir sistemden Microsoft Dynamics 365 Project Operations'a taşıyın.
+- İşlem gerçek tutarlarını başka bir sistemden Microsoft Dynamics 365 Project Operations'a taşıyın.
 - Başka bir sistemde gerçekleşen maliyetleri kaydedin. Bu maliyetler, satın alma veya alt yüklenici maliyetlerini içerebilir.
 
 > [!IMPORTANT]
@@ -119,7 +119,7 @@ Project Operations, bir proje sırasında gerçekleşen finansal işlemleri kayd
 <td rowspan="2">Maliyet fiili değeri</td>
 </tr>
 <tr>
-<td>Faturalandırılmamış satış fiili değer - Borçlandırılabilir</td>
+<td>Faturalanmayan satış gerçek değeri - Borçlandırılabilir</td>
 <td>Proje sözleşmesi para birimi</td>
 </tr>
 <tr>
@@ -243,7 +243,7 @@ Project Operations, bir proje sırasında gerçekleşen finansal işlemleri kayd
 <td rowspan="4">Maliyet fiili değeri</td>
 </tr>
 <tr>
-<td>Faturalandırılmamış satış fiili değer - Borçlandırılabilir</td>
+<td>Faturalanmayan satış gerçek değeri - Borçlandırılabilir</td>
 <td>Proje sözleşmesi para birimi</td>
 </tr>
 <tr>
