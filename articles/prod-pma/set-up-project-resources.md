@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086496"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288763"
 ---
 # <a name="set-up-project-resources"></a>Proje kaynaklarını ayarlama
 
@@ -38,7 +38,7 @@ Aşağıdaki yordamlarda, bir çalışanın şirketinizdeki bir proje kaynağı 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Çalışanı proje kaynağı olarak ayarlama
 
 1. **Çalışanlar** sayfasında, **Çalışanlar** listesinde, proje kaynağı olarak eklemekte olduğunuz çalışanı seçin ve çalışan kaydını açın.
-2. Eylem bölmesinde **Proje** &gt; **Kurulum** &gt; **Proje kurulumu** 'nu seçin.
+2. Eylem bölmesinde **Proje** &gt; **Kurulum** &gt; **Proje kurulumu**'nu seçin.
 3. Bir takvim seçin ve sonra sayfayı kapatın.
 
 Ön atama türü olarak bir kaynak için varsayılan projelerini de belirtebilirsiniz. Kaynak yöneticisi veya proje yöneticisi kaynağın önceden hangi projelerde çalışacağını bildiği ön atamalar özelliği kullanılabilir. Ön atamalar, proje sponsoru ya da müşteri talebine dayanabilir. Bir projeyi önceden atamak için **Proje ata** sayfasında **Projeler** sekmesinde, **Kalan projeler** listesinden uygun projeyi seçin.
@@ -50,9 +50,9 @@ Bir çalışanı şirketlerarası kaynak olarak ayarladığınızda, ayarı hem 
 ### <a name="in-the-lending-company"></a>Ödünç veren şirkette
 
 1. Finance'de, ödünç veren şirketinin seçili olduğunu doğrulayın ve ardından önceki "Çalışanı proje kaynağı olarak ayarlama" bölümündeki yordamı tamamlayın.
-2. **Şirketlerarası muhasebe** sayfasında, **Yeni** 'yi seçin.
-3. **Tüzel kişilik kodu** alanında, ödünç veren şirketi seçin. Alanları uygun şekilde doldurun ve ardından **Kaydet** 'i seçin.
-4. **Transfer fiyatları** sayfasında, **Yeni** 'yi seçin.
+2. **Şirketlerarası muhasebe** sayfasında, **Yeni**'yi seçin.
+3. **Tüzel kişilik kodu** alanında, ödünç veren şirketi seçin. Alanları uygun şekilde doldurun ve ardından **Kaydet**'i seçin.
+4. **Transfer fiyatları** sayfasında, **Yeni**'yi seçin.
 5. **Ödünç alan tüzel kişilik** alanında, uygun şirketi seçin.
 6. Ödünç alan şirkete yalnızca bu bölümün başlangıcında oluşturduğunuz kaynağı vermek için, **Kaynak** alanında, oluşturduğunuz kaynağın adını seçin. Ödünç veren şirketteki tüm kaynakların ödünç alan şirket tarafından kullanılabilir olmasını sağlamak için **Kaynak** alanını boş bırakın.
 7. **Proje yönetimi ve muhasebe parametreleri** sayfasında, **Şirketlerarası** sekmesinde, **Şirketlerarası kaynak planlama ve zaman çizelgelerini etkinleştir** seçeneğini **Evet** olarak ayarlayın.

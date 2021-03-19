@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086383"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288403"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Şirketlerarası proje faturalamayı yapılandırma
 
@@ -32,37 +32,37 @@ Bu konuda kuruluşunuzda iki şirket arasında proje faturalarının nasıl ayar
 
 1. Gezinti bölmesinde, **Modüller > Borç hesabı > Satıcılar > Tüm satıcılar** modüllerine gidin.
 2. **Tüm satıcılar** listesinde, istenen kaydı bulup seçin.
-3. Eylem Bölmesi'nden **Genel** 'i seçin.
+3. Eylem Bölmesi'nden **Genel**'i seçin.
 4. **Şirketlerarası** öğesini seçin.
 5. Şirketlerarası ticareti etkinleştirmek için **Etkin** seçeneğini **Evet** olarak ayarlayın.
 6. **Müşteri şirketi** alanına bir değer girin veya bir değeri seçin.
 7. **Hesabım** alanına bir değer girin veya bir değeri seçin.
-8. **Kaydet** 'i seçin.
+8. **Kaydet**'i seçin.
 9. Giriş sayfasına geri dönmek için sayfaları kapatın.
 10. Gezinti bölmesinde, **Modüller > Proje yönetimi ve muhasebe > Kurulum > Proje yönetimi ve muhasebe parametreleri** modülüne gidin.
 11. **Şirketlerarası** sekmesini seçin.
 12. Şirketlerarası kaynak zamanlama ve zaman çizelgelerini etkinleştirmek için kaydırıcıyı **Evet** seçeneğine getirin.
 13. Listeden, seçili satırı işaretleyin.
-14. **Yeni** 'yi seçin.
+14. **Yeni**'yi seçin.
 15. **Ödünç alma tüzel kişiliği** alanına bir değer girin veya bir değeri seçin.
 16. **Gelir tahakkuku** onay kutusunu işaretleyin.
 17. **Varsayılan zaman çizelgesi kategorisi** alanına bir değer girin veya bir değeri seçin.
 18. **Varsayılan gider kategorisi** alanına bir değer girin veya bir değeri seçin.
-19. **Kaydet** 'i seçin.
+19. **Kaydet**'i seçin.
 20. Sayfayı kapatın.
 21. Gezinti bölmesinde, **Modüller > Proje yönetimi ve muhasebe > Kurulum > Deftere nakil > Deftere nakil kurulumu** modülüne gidin.
 22. **Genel muhasebe hesap tipleri** alanından, bir seçenek belirleyin.
-23. **Yeni** 'yi seçin.
+23. **Yeni**'yi seçin.
 24. Yeni satırın **Ana hesap** alanında, istediğiniz değerleri belirtin.
-25. **Kaydet** 'i seçin.
+25. **Kaydet**'i seçin.
 26. Sayfayı kapatın.
 27. Gezinti bölmesinde, **Modüller > Proje yönetimi ve muhasebe > Kurulum > Fiyatlar > Transfer fiyatı** modülüne gidin.
-28. **Yeni** 'yi seçin.
+28. **Yeni**'yi seçin.
 29. **Yürürlük tarihi** alanına bir tarih girin.
 30. **Ödünç alma tüzel kişiliği** alanına bir değer girin veya bir değeri seçin.
 31. **Transfer fiyatı modeli** alanında, bir seçeneği belirleyin.
 32. **Fiyat** alanına bir sayı girin.
-33. **Kaydet** 'i seçin.
+33. **Kaydet**'i seçin.
 
 
 

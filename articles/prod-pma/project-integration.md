@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086385"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289348"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client tümleştirmesi
 
@@ -39,15 +39,15 @@ Microsoft Project Client ile tümleştirmeyi etkinleştirmek için Microsoft Dyn
 
 • Çalışma alanının **Bağlantılar** > **Kurulum** bölümünden **Proje istemcisi eklentisini yapılandır** seçeneğini tıklayın.
 
-• **Aç** 'a tıklayıp ardından sorulduğunda **Çalıştır** 'a tıklayın.
+• **Aç**'a tıklayıp ardından sorulduğunda **Çalıştır**'a tıklayın.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Microsoft Project Client'da var olan bir taslak iş kırılım yapısını açma ve düzenleme
-Dynamics 365 Finance'deki bir projede iş kırılım yapısı oluşturulmuşsa, iş kırılım yapısı; taslak durumdaysa, Microsoft Project Client uygulamasında açılabilir. **Proje** sayfasında açmak için, **Plan** sekmesinden **Microsoft Project'te aç** 'ı tıklayın. Bu sayfa, **Microsoft Dynamics 365** sekmesinden **Aç** 'a tıklayarak Microsoft Project Client uygulaması içinden de açılabilir. Listeden **Yasal varlığı** ve **Proje** 'yi seçin.
+Dynamics 365 Finance'deki bir projede iş kırılım yapısı oluşturulmuşsa, iş kırılım yapısı; taslak durumdaysa, Microsoft Project Client uygulamasında açılabilir. **Proje** sayfasında açmak için, **Plan** sekmesinden **Microsoft Project'te aç**'ı tıklayın. Bu sayfa, **Microsoft Dynamics 365** sekmesinden **Aç**'a tıklayarak Microsoft Project Client uygulaması içinden de açılabilir. Listeden **Yasal varlığı** ve **Proje**'yi seçin.
 
 > [!NOTE]
-> Tarayıcı olarak Internet Explorer uygulamasını kullanıyorsanız, dosyanın karşıdan yüklendiği konumdan el ile açmak için **Kaydet** 'e tıklamanız gerekir. Veya dosyayı Microsoft Project Client'da açmak için **Kaydet ve Aç** 'ı tıklayın. Kaydederken dosya adını yeniden adlandırmayın.
+> Tarayıcı olarak Internet Explorer uygulamasını kullanıyorsanız, dosyanın karşıdan yüklendiği konumdan el ile açmak için **Kaydet**'e tıklamanız gerekir. Veya dosyayı Microsoft Project Client'da açmak için **Kaydet ve Aç**'ı tıklayın. Kaydederken dosya adını yeniden adlandırmayın.
 
-Microsoft Project Client'ı kullanarak dosyada herhangi bir değişiklik yapmadan önce, onu kullanıma almanız gerekir. **Microsoft Dynamics 365** sekmesinde **Kullanıma al** 'a tıklayın. Bu, diğer kullanıcıların, iş kırılım yapısını aynı anda Finance içinden düzenlemelerini engeller. Herhangi bir düzenleme yaptıktan sonra iş kırılım yapısını yayımlamak için, **Microsoft Dynamics 365** sekmesinde **Teslim et** öğesini tıklayın.
+Microsoft Project Client'ı kullanarak dosyada herhangi bir değişiklik yapmadan önce, onu kullanıma almanız gerekir. **Microsoft Dynamics 365** sekmesinde **Kullanıma al**'a tıklayın. Bu, diğer kullanıcıların, iş kırılım yapısını aynı anda Finance içinden düzenlemelerini engeller. Herhangi bir düzenleme yaptıktan sonra iş kırılım yapısını yayımlamak için, **Microsoft Dynamics 365** sekmesinde **Teslim et** öğesini tıklayın.
 
 Proje ekibi Finance içindeki projeye zaten eklenmişse, kaynak listesi takım üyeleriyle doldurulur. Proje ekibi henüz projeye eklenmemişse, **Microsoft Dynamics 365** sekmesindeki **Kaynaklar** düğmesini tıklayarak kaynakları seçebilir ve ekibi Microsoft Project Client içinde oluşturabilirsiniz. 
 
@@ -86,7 +86,7 @@ Microsoft Project Client kullanarak iş kırılım yapısı oluşturmak için a�
 
 3.  Projeye ait **Yasal varlık** öğesini seçin.
 
-4.  **Proje** 'yi seçin.
+4.  **Proje**'yi seçin.
 
 5.  **Microsoft Dynamics 365** sekmesinde **Kullanıma al** seçeneğini tıklayın.
 
@@ -103,9 +103,9 @@ Microsoft Project Client'ı kullanarak yeni bir iş kırılım yapısı oluştur
 
 4.  Projeye ait **Yasal varlık** öğesini seçin.
 
-5.  **Proje** 'yi seçin.
+5.  **Proje**'yi seçin.
 
-6.  **Tamam** 'a tıklayın.
+6.  **Tamam**'a tıklayın.
 
 ## <a name="create-a-new-project-from-within-microsoft-project-client"></a>Microsoft Project Client içinden yeni proje oluşturma
 
@@ -122,11 +122,11 @@ Microsoft Project Client'ı kullanarak yeni bir iş kırılım yapısı oluştur
 
 6.  **Proje adını** girin.
 
-7.  **Proje türünü** , **Proje grubunu** ve **Proje sözleşme kimliğini** seçin. Alternatif olarak, **Yeni** 'yi tıklayarak yeni bir proje sözleşmesi oluşturabilirsiniz.
+7.  **Proje türünü**, **Proje grubunu** ve **Proje sözleşme kimliğini** seçin. Alternatif olarak, **Yeni**'yi tıklayarak yeni bir proje sözleşmesi oluşturabilirsiniz.
 
 8.  Kaynak için kullanılacak **Takvimi** seçin.
 
-11. **Tamam** 'a tıklayın.
+11. **Tamam**'a tıklayın.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

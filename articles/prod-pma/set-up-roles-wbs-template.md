@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086304"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288673"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>İş kırılım yapısı şablonlarında rolleri ayarlama
 
@@ -31,7 +31,7 @@ ms.locfileid: "4086304"
 
 Proje yöneticileri, yeni projeler için iş kırılım yapısı (WBS) oluştururken uygulayacakları İKY şablonlarını ayarlayabilir. Proje yöneticileri, bir şablon oluştururken roller ekleyebilirler. Bir İKY şablonuna rol atamak için aşağıdaki yordamı kullanın.
 
-1. **Proje yönetimi ve muhasebe** > **Kurulum** > **Projeler** > **İş kırılım yapısı şablonları** 'nı seçin.
+1. **Proje yönetimi ve muhasebe** > **Kurulum** > **Projeler** > **İş kırılım yapısı şablonları**'nı seçin.
 2. Seçili İKY şablonu için **Ayrıntıları** seçin.
 3. Listeden bir görev seçin ve **Rol** alanında göreve atanacak bir rol seçin.
 
@@ -80,8 +80,8 @@ Kaynak atama işlevselliğini daha iyi kullanmak için IKY'ye ek seçenekler ekl
 </table>
 
 1. **Tüm projeler** sayfasında, **XYZ Yükseltme Aşama 2** projesini seçin.
-2. **Plan** > **Etkinlikleri** > **İş kırılım yapısı** 'nı seçin.
-3. Aşağıdaki düzey bir etkinlikleri İKY'ye eklemek için **Yeni** 'yi seçin:
+2. **Plan** > **Etkinlikleri** > **İş kırılım yapısı**'nı seçin.
+3. Aşağıdaki düzey bir etkinlikleri İKY'ye eklemek için **Yeni**'yi seçin:
 
     - Başlatma
     - Planlama
@@ -93,20 +93,20 @@ Kaynak atama işlevselliğini daha iyi kullanmak için IKY'ye ek seçenekler ekl
 
     [![Tarih ve çalışma ayarlama](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. **Başlatma** görev satırını seçin ve **Rol** alanında, **Kıdemli Proje Yöneticisi** 'ni seçin.
+5. **Başlatma** görev satırını seçin ve **Rol** alanında, **Kıdemli Proje Yöneticisi**'ni seçin.
 6. **Yayımla** öğesini seçin.
-7. Aynı satırda, **Kaynak** alanında **Daniel Goldschmidt** 'i seçin ve **Kabul et** 'i seçin.
-8. **Planlama** görev satırını seçin ve **Rol** alanında, **İş analisti** 'ni seçin.
+7. Aynı satırda, **Kaynak** alanında **Daniel Goldschmidt**'i seçin ve **Kabul et**'i seçin.
+8. **Planlama** görev satırını seçin ve **Rol** alanında, **İş analisti**'ni seçin.
 9. **Yayınla** öğesini seçin ve sonra **Otomatik takım üret** seçeneğini belirleyin.
-10. Görüntülenen ileti kutusunda **Evet** 'i seçin.
+10. Görüntülenen ileti kutusunda **Evet**'i seçin.
 11. **Kaynak** alanında, değerin **İş analisti 1** olduğunu doğrulayın.
-12. **İş analisti 1** kaynağı için aramayı açın ve **Kaynak atamalarını başlat** 'ı seçin. Ardından görev için bir çalışan seçin.
+12. **İş analisti 1** kaynağı için aramayı açın ve **Kaynak atamalarını başlat**'ı seçin. Ardından görev için bir çalışan seçin.
 13. **Geçici atama** &gt; **Tam kapasite** seçeneğini belirleyin.
 
     > [!NOTE] 
     > Belirtilen kaynağın artık 2 olduğunu bildiren bir uyarı alamazsınız, çünkü kaynak sayısı 1 olarak kalır.
 
-14. **İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve ardından **Kaydet** 'i seçin.
+14. **İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve ardından **Kaydet**'i seçin.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

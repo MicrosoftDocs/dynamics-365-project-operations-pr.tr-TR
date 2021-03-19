@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288898"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Project Time Entry mobil çalışma alanı
 
@@ -112,7 +112,7 @@ Finance and Operations mobil uygulamasını indirip ve yükleyin:
 
 11. Satır özelliğini seçin.
 12. İsteğe bağlı: Herhangi bir harici veya dahili yorum girin.
-13. **Bitti** 'yi seçin.
+13. **Bitti**'yi seçin.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

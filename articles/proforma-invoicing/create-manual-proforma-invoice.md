@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128082"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287802"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>El ile proforma fatura oluşturma
 
@@ -99,7 +99,7 @@ Bir taslak proje faturası oluşturduğunuzda, zaman ve gider girişleri onaylan
 - Miktarı ve faturalandırma türünü düzenlemek ve ayarlamak.
 - Zaman, gider ve ücretleri faturadaki işlemler olarak doğrudan eklemek. Bu işlem sınıflarına izin veren bir sözleşme satırıyla eşlenmiş fatura satırı varsa, bu özelliği kullanabilirsiniz.
 
-Bir faturayı onaylamak için **Onayla**'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalandırılmamış bir satış fiili değerine başvuruyorsa, sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
+Bir faturayı onaylamak için **Onayla**'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalanmamış bir satış fiili değerine başvuruyorsa sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
 
 ### <a name="correct-a-confirmed-invoice"></a>Onaylanmış faturayı düzeltme
 

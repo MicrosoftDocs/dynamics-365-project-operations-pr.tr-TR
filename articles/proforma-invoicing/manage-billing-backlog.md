@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287757"
 ---
 # <a name="manage-the-billing-backlog"></a>Fatura biriktirme listesini yönetme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations ile çalışmanıza ve faturalama biriktirme listesine yönetmenize yardımcı olacak iki adanmış görünüme sahiptir. Bunlar **Sabit fiyatlı kilometre taşları** ve **zaman ve malzeme faturalama biriktirme listesi** olarak bir görünüm seçmek için, Project Operations'nin **satış** alanında, sol gezinti sayfasında, **fatura**'yı seçin. Fatura biriktirme listesi bağlantıları orada depolanır.
+Dynamics 365 Project Operations'ta, fatura biriktirme listesiyle çalışmanıza ve bunu yönetmenize yardımcı olmak için iki ayrılmış görünüm bulunur. Bunlar **Sabit fiyatlı kilometre taşları** ve **zaman ve malzeme faturalama biriktirme listesi** olarak bir görünüm seçmek için, Project Operations'nin **satış** alanında, sol gezinti sayfasında, **fatura**'yı seçin. Fatura biriktirme listesi bağlantıları orada depolanır.
 
 ## <a name="fixed-price-milestones"></a>Sabit Fiyat Kilometre Taşları
 

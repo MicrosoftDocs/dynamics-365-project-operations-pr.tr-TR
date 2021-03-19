@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086455"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289573"
 ---
 # <a name="project-contracts"></a>Proje sözleşmeleri
 
@@ -252,11 +252,11 @@ Müşteriyle bir proje sözleşmesi üzerinde anlaştığınızda, bir projedeki
 
 Aşağıdaki faturalama kuralı türlerini ayarlayabilirsiniz:
 
--   **Sevkiyat birimi** : Bir teslimat birimini tamamladığınızda müşteriye fatura edin. Sözleşmede teslimat birimlerini tanımlarsınız.
--   **İlerleme** : Projenin belirtilen bir yüzdesini tamamladığınızda bir müşteriye faturalayın. Tamamlanan çalışma yüzdesini otomatik olarak hesaplamak için bir faturalama kuralı ayarlayabilir veya tamamlanan çalışma yüzdesini ve müşteriyi faturalanacak miktarı el ile hesaplayabilirsiniz.
--   **Kilometre taşı** : Kilometre taşına ulaşıldığında proje kilometre taşına ilişkin tüm miktarı bir müşteriye fatura edin.
--   **Ücret** : Servislerinizi ve tipik olarak servis ücretinin bir yüzdesinden oluşan yönetim ücretini müşteriye fatura edin.
--   **Zaman ve malzeme** : Bir projede kullanılan zamanın ve malzemelerin değerini müşteriye faturalayın.
+-   **Sevkiyat birimi**: Bir teslimat birimini tamamladığınızda müşteriye fatura edin. Sözleşmede teslimat birimlerini tanımlarsınız.
+-   **İlerleme**: Projenin belirtilen bir yüzdesini tamamladığınızda bir müşteriye faturalayın. Tamamlanan çalışma yüzdesini otomatik olarak hesaplamak için bir faturalama kuralı ayarlayabilir veya tamamlanan çalışma yüzdesini ve müşteriyi faturalanacak miktarı el ile hesaplayabilirsiniz.
+-   **Kilometre taşı**: Kilometre taşına ulaşıldığında proje kilometre taşına ilişkin tüm miktarı bir müşteriye fatura edin.
+-   **Ücret**: Servislerinizi ve tipik olarak servis ücretinin bir yüzdesinden oluşan yönetim ücretini müşteriye fatura edin.
+-   **Zaman ve malzeme**: Bir projede kullanılan zamanın ve malzemelerin değerini müşteriye faturalayın.
 
 Tüm faturalama kuralı türleri için, bir proje üzerinde anlaşılan bir aşamaya ulaşılana kadar müşteri faturalarından kesilecek bir bekletme yüzdesi belirtebilirsiniz. Ödeme bekletme yüzdesi proje sözleşmesinde belirtilir. Tutar, bir müşteri faturasındaki satırların toplam değeri temel alınarak hesaplanır ve bunlardan çıkarılır. 
 
@@ -289,8 +289,8 @@ Yazılım danışmanlık firması olan kuruluşunuz, müşterinin geliştirdiği
 
 Yazılım geliştirme firması olan kuruluşunuz, bir müşteri için 30.000 değerinde bir bordro muhasebe paketi geliştirmeyi kabul eder. Müşteri, iş için kuruluşunuza tamamlanan işin yüzdesine göre ödeme yapmayı kabul eder. Proje maliyetlerinin 20.000 olduğunu tahmin ediyorsunuz. Proje sözleşmesi, faturalandırma sürecinde kullandığınız iş kategorilerini belirtir. Her kategori için tamamlanan çalışma yüzdesinin fatura tutarlarını otomatik olarak hesaplayan fatura kurallarını ayarlarsınız. Her kategori için bir bütçe ayarlarsınız:
 
--   **Geliştirme** : 15.000'lik maliyeti ve 20.000'lik gelir
--   **Yükleme** : 5.000'lik maliyet ve 10.000'lik gelir
+-   **Geliştirme**: 15.000'lik maliyeti ve 20.000'lik gelir
+-   **Yükleme**: 5.000'lik maliyet ve 10.000'lik gelir
 
 Bir müşteri faturasını ilk kez oluşturduğunuzda, fatura tutarı otomatik olarak aşağıdaki bilgiler temel alınarak hesaplanır:
 

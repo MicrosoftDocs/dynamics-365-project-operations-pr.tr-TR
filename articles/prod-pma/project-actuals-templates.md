@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289708"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
 
@@ -50,7 +50,7 @@ Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleş
 
 ### <a name="template-and-tasks"></a>Şablon ve görevler
 
-Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler** 'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje** 'yi seçin.
+Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler**'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje**'yi seçin.
 
 Project Service Automation uygulamasından Finance uygulamasına proje gerçek değerlerini eşitlemek için şu şablon ve temel görevler kullanılır:
 
@@ -88,8 +88,8 @@ Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek 
 #### <a name="contract-organizational-unit"></a>Sözleşme kuruluş birimi
 Şablondaki eklenen koşullu sütunu güncelleştirmek için eşlemeyi açmak üzere **Eşleme** okunu tıklayın. Power Query öğesini açmak için **Gelişmiş sorgu ve Filtreleme** bağlantısını seçin.
 
-- Varsayılan Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız, Power Query uygulamasında, **Uygulanan adımlar** bölümünden son **Eklenen Koşul** öğesini seçin. **İşlev** girişinde, **USSI** 'yi, tümleştirmeyle kullanılması gereken yasal varlığın adıyla değiştirin. **İşlev** girişine gereksinim duydukça ek koşullar ekleyin ve **USMF** 'den **else** koşulunu doğru yasal varlığa güncelleştirin.
-- Yeni bir şablon oluşturuyorsanız, şirketlerarası zaman ve giderleri desteklemek için sütun eklemeniz gerekir. **Koşullu Sütun Ekle** 'yi seçin ve sütun için **LegalEntity** gibi bir ad girin. Sütun için bir koşul girin; burada **msdyn\_contractorganizationalunitid.msdyn\_name**\<organizational unit\>, ardından \<enter the legal entity\> ; boş olur.
+- Varsayılan Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız, Power Query uygulamasında, **Uygulanan adımlar** bölümünden son **Eklenen Koşul** öğesini seçin. **İşlev** girişinde, **USSI**'yi, tümleştirmeyle kullanılması gereken yasal varlığın adıyla değiştirin. **İşlev** girişine gereksinim duydukça ek koşullar ekleyin ve **USMF**'den **else** koşulunu doğru yasal varlığa güncelleştirin.
+- Yeni bir şablon oluşturuyorsanız, şirketlerarası zaman ve giderleri desteklemek için sütun eklemeniz gerekir. **Koşullu Sütun Ekle**'yi seçin ve sütun için **LegalEntity** gibi bir ad girin. Sütun için bir koşul girin; burada **msdyn\_contractorganizationalunitid.msdyn\_name**\<organizational unit\>, ardından \<enter the legal entity\> ; boş olur.
 
 ### <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
 

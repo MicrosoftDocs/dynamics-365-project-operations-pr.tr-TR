@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086452"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289483"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Proje tahminlerini Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitleme
 
@@ -46,7 +46,7 @@ Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleş
 
 ### <a name="template-and-tasks"></a>Şablon ve görevler
 
-Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler** 'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje** 'yi seçin.
+Hazır şablonlara erişmek için, Microsoft Power Apps yönetim merkezinde, **Projeler**'i seçin ve ardından sağ üst köşeden, ortak şablonları seçmek için **Yeni proje**'yi seçin.
 
 Project Service Automation uygulamasından Finance uygulamasına proje saat tahminlerini eşitlemek için şu şablon ve temel görevler kullanılır:
 
@@ -83,7 +83,7 @@ Proje saat tahminleri şablonunda, aşağıdaki görevleri gerçekleştirmek iç
 Şablondaki varsayılan tahmin model kodunu güncelleştirmek için eşlemeyi açmak üzere **Eşleme** okunu tıklayın. Ardından **Gelişmiş sorgu ve Filtreleme** bağlantısını seçin.
 
 - Varsayılan Proje saat tahminleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız, **Uygulanan adımlar** listesinden **Eklenen Koşul** öğesini seçin. **İşlev** girişinde, **O\_forecast** öğesini tümleştirmeyle kullanılması gereken tahmin model kodu ile değiştirin. Varsayılan şablonunda demo verilerine ait bir tahmin modeli kodu vardır.
-- Yeni bir şablon oluşturuyorsanız, bu sütunu eklemeniz gerekir. Power Query'de **Koşullu Sütun Ekle** 'yi seçin ve sütun için **ModelID** gibi bir ad girin. Sütun için bir koşul girin; proje görevi null değilse ardından \<enter the forecast model ID\>; diğer null'dur.
+- Yeni bir şablon oluşturuyorsanız, bu sütunu eklemeniz gerekir. Power Query'de **Koşullu Sütun Ekle**'yi seçin ve sütun için **ModelID** gibi bir ad girin. Sütun için bir koşul girin; proje görevi null değilse ardından \<enter the forecast model ID\>; diğer null'dur.
 
 #### <a name="filter-out-resource-specific-records"></a>Kaynağa özgü kayıtları filtreleme
 
@@ -144,7 +144,7 @@ Proje gideri tahminleri (PSA'dan Fin and Ops'a) şablonunda yalnızca tümleşti
 Şablondaki varsayılan tahmin model kodunu güncelleştirmek için **Gider tahminleri** görevini seçip ardından eşlemeyi açmak üzere **Eşleme** okunu tıklayın. **Gelişmiş Sorgu ve Filtreleme** bağlantısını seçin.
 
 - Varsayılan Proje gider tahminleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız, Power Query uygulamasında, **Uygulanan adımlar** bölümünden ilk **Eklenen Koşul** öğesini seçin. **İşlev** girişinde, **O\_forecast** öğesini tümleştirmeyle kullanılması gereken tahmin model kodu ile değiştirin. Varsayılan şablonunda demo verilerine ait bir tahmin modeli kodu vardır.
-- Yeni bir şablon oluşturuyorsanız, bu sütunu eklemeniz gerekir. Power Query'de **Koşullu Sütun Ekle** 'yi seçin ve sütun için **ModelID** gibi bir ad girin. Sütun için bir koşul girin; Tahmin satırı kimliği null değilse ardından \<enter the forecast model ID\>; diğer null'dur.
+- Yeni bir şablon oluşturuyorsanız, bu sütunu eklemeniz gerekir. Power Query'de **Koşullu Sütun Ekle**'yi seçin ve sütun için **ModelID** gibi bir ad girin. Sütun için bir koşul girin; Tahmin satırı kimliği null değilse ardından \<enter the forecast model ID\>; diğer null'dur.
 
 #### <a name="transform-the-billing-types"></a>Faturalama türlerini dönüştürme
 

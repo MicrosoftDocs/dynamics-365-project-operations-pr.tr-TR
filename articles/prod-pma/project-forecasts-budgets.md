@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086437"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289438"
 ---
 # <a name="project-forecasts-and-budgets"></a>Proje tahminleri ve bütçeler
 
@@ -61,9 +61,9 @@ Tahmin modelleri, projelerde denetim mekanizması olarak tahmin azaltma özelli�
 
 Proje tahminlerini düzeltebilir, kopyalayabilir, silebilir veya genel bir muhasebe bütçesine aktarabilirsiniz. Ancak süreç denetimi yoktur. Bir tahmin formu için izinlere sahip olan herhangi bir çalışan, gözden geçirme olmaksızın bilgileri düzeltebilir.
 
--   **Düzelt** : Tahmin hareketini, başlangıç girişlerinin gerçekleştirildiği aynı formlarda düzeltebilirsiniz.
--   **Kopyala veya sil** : Tahmin hareketlerini kopyaladığınızda, bir tahmin modelinin hareket satırlarını başka bir tahmin modeline kopyalarsınız. Bir tahmini sildiğinizde, tahmin hareketleri bir tahmin modelinden silinir. Kopyalanan veya silinen tahmin hareketlerini sınırlandırmak için, belirli hareket türlerini ve tarihleri seçin. Bu, bir tahminin yalnızca belirli bölümlerini kopyalamanıza veya silmenize olanak sağlar.
--   **Transfer** : Bir proje tahminini genel muhasebe bütçesine aktardığınızda, tahmin modelinin tahmin hareketlerini genel muhasebe bütçesine aktarırsınız. Proje tahminini aktardığınız genel muhasebe bütçesinde önceden aktarılmış hareketlerin üzerine yazabilirsiniz.
+-   **Düzelt**: Tahmin hareketini, başlangıç girişlerinin gerçekleştirildiği aynı formlarda düzeltebilirsiniz.
+-   **Kopyala veya sil**: Tahmin hareketlerini kopyaladığınızda, bir tahmin modelinin hareket satırlarını başka bir tahmin modeline kopyalarsınız. Bir tahmini sildiğinizde, tahmin hareketleri bir tahmin modelinden silinir. Kopyalanan veya silinen tahmin hareketlerini sınırlandırmak için, belirli hareket türlerini ve tarihleri seçin. Bu, bir tahminin yalnızca belirli bölümlerini kopyalamanıza veya silmenize olanak sağlar.
+-   **Transfer**: Bir proje tahminini genel muhasebe bütçesine aktardığınızda, tahmin modelinin tahmin hareketlerini genel muhasebe bütçesine aktarırsınız. Proje tahminini aktardığınız genel muhasebe bütçesinde önceden aktarılmış hareketlerin üzerine yazabilirsiniz.
 
 ## <a name="project-budgets"></a>Proje bütçeleri
 Proje bütçeleme, tahmin modelleriyle bütünleşmesine rağmen, tahminden daha basit bir yöntemdir. Özgün bütçe ayrıntıları ve düzeltmeleri için tek bir giriş formu kullanır ve yalnızca miktar, kategori veya etkinliği temel alan projeksiyonlar yapılmasına olanak sağlar. 

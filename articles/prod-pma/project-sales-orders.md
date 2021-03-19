@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74a90ea0bdb8f760273c0f6b1c61bffcb70b6c8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289078"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Zaman ve malzeme projeleri için proje satış siparişleri
 

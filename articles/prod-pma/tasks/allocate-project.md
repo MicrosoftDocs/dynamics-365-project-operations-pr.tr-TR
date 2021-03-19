@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b332be67ffdab0156997eb223d8a31af6ced3ef
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a2533ae9432d5a410811b44ba818dc458515a132
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288448"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Dönem boyunca proje bütçesi veya bütçe düzeltmesi tahsis etme
 

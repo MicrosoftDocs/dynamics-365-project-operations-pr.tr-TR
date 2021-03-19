@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288627"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
 
@@ -49,12 +49,12 @@ Bir proje için PWP şartlarını ayarlarken, satıcıya ödeme yapmadan önce, 
 
 1. **Proje yönetimi ve muhasebe** \> **Projeler** \> **Tüm projeler** bölümüne gidin.
 2. PWP şartlarını ayarlamak istediğiniz projeyi bulun ve açın.
-3. **Satıcı anlaşmaları** hızlı sekmesinde **satır ekle** 'yi seçin.
-3. **Hesap kodu alanında** , aşağıdakilerden birini seçin:
+3. **Satıcı anlaşmaları** hızlı sekmesinde **satır ekle**'yi seçin.
+3. **Hesap kodu alanında**, aşağıdakilerden birini seçin:
 
-    - **Tablo** : PWP koşulları tek bir satıcı için uygulanır.
-    - **Grup** : PWP koşulları bir satıcı grubundaki tüm satıcılar için uygulanır.
-    - **Tümü** : PWP koşulları tüm satıcılara uygulanır.
+    - **Tablo**: PWP koşulları tek bir satıcı için uygulanır.
+    - **Grup**: PWP koşulları bir satıcı grubundaki tüm satıcılar için uygulanır.
+    - **Tümü**: PWP koşulları tüm satıcılara uygulanır.
 
 4. Önceki adımda **tablo** veya **grup** seçeneğini belirlediyseniz, **satıcı/satıcı grubu** alanında, PWP şartlarını uyguladığınız satıcı veya satıcı grubunu seçin. Önceki adımda **tümü** seçeneğini belirlediyseniz, **satıcı/satıcı grubu** alanı düzenlenemez.
 5. Satıcı Bekletme koşulları projede satıcı için ayarlanmışsa, **satıcı bekletme şartları** alanında, bekletme koşullarının kural kimliğini seçin.
@@ -65,7 +65,7 @@ Bir proje için PWP şartlarını ayarlarken, satıcıya ödeme yapmadan önce, 
 Bir satıcıdan bir faturayı deftere naklettiğinizde, satıcı PWP terimlerine tabi olursa, bu terimler PO satırlarında gösterilir. PWP koşullarına sahip bir PO oluşturmak için aşağıdaki adımları izleyin.
 
 1. **Satın alma ve kaynak** \> **satınalma siparişleri** \> **tüm satınalma siparişleri** bölümüne gidin.
-2. Eylem Bölmesi'nden **Yeni** seçin. Ardından, **Satınalma siparişi oluştur** iletişim kutusunda, gerekli bilgileri girin ve **Tamam** 'ı seçin.
+2. Eylem Bölmesi'nden **Yeni** seçin. Ardından, **Satınalma siparişi oluştur** iletişim kutusunda, gerekli bilgileri girin ve **Tamam**'ı seçin.
 
     Alternatif olarak, **tüm satınalma siparişleri** listesi sayfasında varolan BIR Po öğesini açın.
 
@@ -76,10 +76,10 @@ Bir satıcıdan bir faturayı deftere naklettiğinizde, satıcı PWP terimlerine
 
 Bir satıcı bir proje üzerinde çalışmasını tamamladığında ve size bir fatura gönderdiğinde, proje durumu ve müşteri faturalarını gözden geçirerek, tüm projede PWP şart olup olmadığını belirleyebilirsiniz. Satıcının PWP şartları karşılanıyorsa, projenin müşteri ödemelerini temel alarak, satıcı faturasındaki hangi satırların ödeme yapılacağını belirleyebilirsiniz. PWP koşulları karşılanmasa da satıcıya ücret ödemeniz gerektiğine karar verirseniz, satıcı faturasındaki PWP şartlarını **ödemeli sayfasını ödeyle geçersiz kılabilirsiniz**.
 
-1. **Proje yönetimi ve hesaplama** \> **sorgulamalar ve raporlar** \>**bekletme sorguları** \> **ödeme yaptığınızda ödemesine sahip satıcı faturası** 'na gidin.
-2. **Ödemeleri ödemeli yapan satıcı faturaları** sayfasında arama alanına, gözden geçirmek istediğiniz satıcı faturasını bulmak için değerleri girin ve **Arama** 'yı seçin.
+1. **Proje yönetimi ve hesaplama** \> **sorgulamalar ve raporlar** \>**bekletme sorguları** \> **ödeme yaptığınızda ödemesine sahip satıcı faturası**'na gidin.
+2. **Ödemeleri ödemeli yapan satıcı faturaları** sayfasında arama alanına, gözden geçirmek istediğiniz satıcı faturasını bulmak için değerleri girin ve **Arama**'yı seçin.
 3. **Satıcı Fatura satırları** hızlı sekmesinde, değiştirmek istediğiniz satırları seçin.
-4. Fatura satırında **ödeme koşulları karşılanıyorsa** öde **satıcı ödemesini serbest bırak** 'ı seçin. **Ödeme yapılırken öde** seçeneği temizlenirse ve **ödeme için hazır** alanının değeri **Evet** olarak değiştirilir.
+4. Fatura satırında **ödeme koşulları karşılanıyorsa** öde **satıcı ödemesini serbest bırak**'ı seçin. **Ödeme yapılırken öde** seçeneği temizlenirse ve **ödeme için hazır** alanının değeri **Evet** olarak değiştirilir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

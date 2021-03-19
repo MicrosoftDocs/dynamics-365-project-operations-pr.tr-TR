@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289798"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proje yönetimi ve muhasebeye genel bakış
 
@@ -116,7 +116,7 @@ Finance uygulamasında altı tür proje oluşturabilirsiniz. Her proje türü, m
 
 ### <a name="assign-workers-categories-and-resources"></a>Çalışan, kategori ve kaynak atama
 
-Bir projenin gereksinimleri ve zamanlamasında ya da çalışanların becerilerine ve kullanılabilirliğine göre çalışan kaynaklarını zamanlayabilirsiniz. Kaynak zamanlama yeteneklerini kullanarak, kuruluşunuzun çalışanlarını verimli ve etkili bir şekilde dağıtabilirsiniz. Projenizde çalışmak için kullanılabilir olan en nitelikli çalışanları hızlı bir şekilde bulabilirsiniz. Ayrıca, proje süresince bu çalışanların daha etkin şekilde nasıl kullanılabilir olabileceğini de kolayca görebilirsiniz. 
+Bir projenin gereksinimleri ve zamanlamasına ya da çalışanların becerilerine ve kullanılabilirliğine göre çalışan kaynaklarını zamanlayabilirsiniz. Kaynak zamanlama yeteneklerini kullanarak, kuruluşunuzun çalışanlarını verimli ve etkili bir şekilde dağıtabilirsiniz. Projenizde çalışmak için kullanılabilir olan en nitelikli çalışanları hızlı bir şekilde bulabilirsiniz. Ayrıca, proje süresince bu çalışanların daha etkin şekilde nasıl kullanılabilir olabileceğini de kolayca görebilirsiniz. 
 
 Kaynak zamanlama işlevini kullanabilmenin yollarından bazıları şunlardır:
 
@@ -128,7 +128,7 @@ Kaynak zamanlama işlevini kullanabilmenin yollarından bazıları şunlardır:
 -   Çalışanların kullanılma biçimini optimize etmek amacıyla gün, hafta veya ay gibi çeşitli zaman birimleri için kaynak atamalarını değiştirin.
 
 ## <a name="execute-the-project"></a>Projeyi yürütme
-Projenin yürütülmesi sırasında, takım üyeleri veya yöneticiler iş çizelgelerini, gider raporlarını ve diğer iş belgelerini kullanarak tahakkuk edilen çalışmayı ve giderleri kaydeder. Proje yöneticileri, proje için bütçelenen tutarların tüketimini izlemelerine olanak sağlayan araçlara sahiptir. Proje yöneticileri aynı zamanda, satınalma siparişlerini ve diğer iş belgelerini kullanarak projeler için malzeme sipariş edebilir, temin edilebilir veya satın alabilir. Faturalar hazırlanıp onaylanınca müşteriler devam eden işler için faturalandırılabilir. Son olarak, bu işlem sırasında organizasyonun mali işlemlerini etkilemek için gelir tanınır.
+Projenin yürütülmesi sırasında takım üyeleri veya yöneticiler; zaman çizelgelerini, gider raporlarını ve diğer iş belgelerini kullanarak tahakkuk edilen çalışmayı ve giderleri kaydeder. Proje yöneticileri, proje için bütçelenen tutarların tüketimini izlemelerine olanak sağlayan araçlara sahiptir. Proje yöneticileri aynı zamanda, satınalma siparişlerini ve diğer iş belgelerini kullanarak projeler için malzeme sipariş edebilir, temin edilebilir veya satın alabilir. Faturalar hazırlanıp onaylanınca müşteriler devam eden işler için faturalandırılabilir. Son olarak, bu işlem sırasında organizasyonun mali işlemlerini etkilemek için gelir tanınır.
 
 ### <a name="manage-work-breakdown-structures"></a>İş kırılım yapılarını yönetme
 
@@ -148,10 +148,10 @@ Projeyle ilgili bir üretim emri bir satış siparişine veya bir madde gereksin
 
 Bu etkenlerin birleşimlerine göre, aşağıdaki yöntemlerden birini kullanın:
 
-- **Tamamlanan madde/sipariş bağlantısı** : Projeyi bir satış siparişine veya bir madde gereksinimine bağlayın. Bu yöntemi kullandığınızda, gerçek proje maliyetleri, satış siparişi faturalandığında veya madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde deftere nakledilir. Maliyet, tamamlanmış bir madde olarak deftere nakledilir.
-- **Tamamlanan madde/sipariş bağlantısı yok** : Bir maddenin üretim döngüsü **Sona ermiş** durumuna ulaşıncaya kadar gerçek maliyetler deftere nakledilemez. Tamamlanan maddenin maliyeti tek bir hareket olarak deftere nakledilir.
-- **Tüketilen madde/sipariş bağlantısı** : Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretim **Başlatıldı** durumuna sahip olduğunda veya tamamlandı olarak bildirildiğinde gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için tüketilen hammadde ve saatler için birden çok proje maddesi hareketi olarak nakledilir. Madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde hiçbir proje maliyeti nakledilmez. Ayrıca, üretimdeki projelerin izlendiği ürün reçeteleri (BOM) hiyerarşisindeki düzeyi de tanımlayabilirsiniz.
-- *<strong><em>Tüketilen madde/sipariş bağlantısı yok</em></strong>* : Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretim <strong>Başlatıldı</strong> durumuna sahip olduğunda veya tamamlandı olarak bildirildiğinde gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için tüketilen hammadde ve saatler için birden çok proje maddesi hareketi olarak nakledilir. Ayrıca, üretimdeki projelerin izlendiği BOM hiyerarşisindeki düzeyi de tanımlayabilirsiniz.
+- **Tamamlanan madde/sipariş bağlantısı**: Projeyi bir satış siparişine veya bir madde gereksinimine bağlayın. Bu yöntemi kullandığınızda, gerçek proje maliyetleri, satış siparişi faturalandığında veya madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde deftere nakledilir. Maliyet, tamamlanmış bir madde olarak deftere nakledilir.
+- **Tamamlanan madde/sipariş bağlantısı yok**: Bir maddenin üretim döngüsü **Sona ermiş** durumuna ulaşıncaya kadar gerçek maliyetler deftere nakledilemez. Tamamlanan maddenin maliyeti tek bir hareket olarak deftere nakledilir.
+- **Tüketilen madde/sipariş bağlantısı**: Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretim **Başlatıldı** durumuna sahip olduğunda veya tamamlandı olarak bildirildiğinde gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için tüketilen hammadde ve saatler için birden çok proje maddesi hareketi olarak nakledilir. Madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde hiçbir proje maliyeti nakledilmez. Ayrıca, üretimdeki projelerin izlendiği ürün reçeteleri (BOM) hiyerarşisindeki düzeyi de tanımlayabilirsiniz.
+- *<strong><em>Tüketilen madde/sipariş bağlantısı yok</em></strong>*: Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretim <strong>Başlatıldı</strong> durumuna sahip olduğunda veya tamamlandı olarak bildirildiğinde gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için tüketilen hammadde ve saatler için birden çok proje maddesi hareketi olarak nakledilir. Ayrıca, üretimdeki projelerin izlendiği BOM hiyerarşisindeki düzeyi de tanımlayabilirsiniz.
 
 ### <a name="procure-products-and-services"></a>Ürünler ve hizmetleri satın alma
 
@@ -180,7 +180,7 @@ Satınalma siparişinin amacı satınalma siparişinin ne zaman tüketilip, madd
 <td>Bir proje üzerinde tüketim amacıyla harici bir satıcıdan maddeler satın alın. Satınalma siparişi aşağıdaki şekilde oluşturulabilir:
 <ul>
 <li>Projenin kendisinden. Bu durumda, proje satınalma siparişi için önceden tanımlanmıştır.</li>
-<li>Proje satın alma siparişine giderek. Satınalma siparişi oluşturmak için hem satıcıyı, hem de projeyi seçmeniz gerekir.</li>
+<li>Proje satın alma siparişine giderek. Satınalma siparişi oluşturmak için hem satıcıyı, hem de projeyi seçmeniz gerekir.</li>
 </ul></td>
 <td>Maddeler, satıcı faturası güncelleştirildiğinde tüketilir.</td>
 </tr>
@@ -205,7 +205,7 @@ Bir projede tüketmek için şirketin envanterinden maddeleri sipariş edebilirs
 
 Maddeleri sipariş etmenin yolu, sipariş ettiğiniz yere bağlıdır:
 
--   Şirketin envanterinden sipariş etmek için, siparişi bir madde gereksinimi olarak girmeniz gerekir. **Madde gereksinimleri** sayfasını kullanırsanız, maddeleri kısmi teslimatlar olarak almak için gereksinimi ayarlayabilirsiniz.Bu nedenle, maddeler gerekli oluncaya kadar maddelerin miktarlarının tüketimini erteleyebilirsiniz.
+-   Şirketin envanterinden sipariş etmek için, siparişi bir madde gereksinimi olarak girmeniz gerekir. **Madde gereksinimleri** sayfasını kullanırsanız, maddeleri kısmi teslimatlar olarak almak için gereksinimi ayarlayabilirsiniz. Bu nedenle, maddeler gerekli oluncaya kadar maddelerin miktarlarının tüketimini erteleyebilirsiniz.
 -   Harici bir satıcıdan maddeleri sipariş etmek için, siparişi **Satınalma siparişi** sayfasında satınalma siparişi olarak oluşturmanız gerekir.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Proje faturalarını işleme hakkında daha fazla bilgi için bkz. [Proje fatura
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projenin tamamlanma maliyetini hesaplama
 
-Bir tahmin oluşturduğunuzda, projenin tamamlanma maliyetini hesaplamak için kullanılan yöntemi seçebilirsiniz. **Tahmin oluştur** sayfasında **Tamamlama maliyeti yöntemi** alanından bir yöntem seçersiniz. Seçtiğiniz yöntem, maliyet tahminindeki her maliyet satırına ayrı ayrı uygulanır. Bir satırın durumu **Oluşturuldu** ise, **Maliyet tahmini** sayfasında uygulanan yöntemi değiştirebilirsiniz. 
+Bir tahmin oluşturduğunuzda, projenin tamamlanma maliyetini hesaplamak için kullanılan yöntemi seçebilirsiniz. **Tahmin oluştur** sayfasında **Tamamlama maliyeti yöntemi** alanından bir yöntem seçersiniz. Seçtiğiniz yöntem, maliyet tahminindeki her maliyet satırına ayrı ayrı uygulanır. Bir satırın durumu **Oluşturuldu** ise **Maliyet tahmini** sayfasında uygulanan yöntemi değiştirebilirsiniz. 
 
 Aşağıdaki tabloda, bir projenin tamamlanma maliyetini hesaplama yöntemleri açıklanmıştır.
 
@@ -300,22 +300,22 @@ Kurulumunuza bağlı olarak, seçili bir proje için nakit girişlerini tahmin e
 -   **Proje tarihi:** 5 Mart 2012.
 -   **Fatura tarihi:** 31 Mart 2012. Bu tarih, fatura sıklığına göre belirlenir. Bu örnek için, fatura sıklığını geçerli aya ayarlarsınız. Bu nedenle, Mart ayında nakledilen tüm hareketler ayın son gününde faturalandırılır.
 -   **Son tarih:** 14 Nisan 2012. Bu tarih, proje için ayarlanan ödeme vadesine göre belirlenir. Bu örnekte, 14 günlük ödeme vadesi seçtiniz. Bu nedenle, vade tarihine (14 Nisan 2012) ulaşmak için fatura tarihine 14 gün eklenir.
--   **Beklenen satış ödemesi tarihi:** 27 Nisan 2012. Bu tarih, **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Genel tampon gün sayısı** alanına **Proje sözleşmeleri** sayfasındaki **Tek tampon gün sayısı** alanında bulunan gün sayısı eklenerek ve **Son tarih** alanındaki gün sayısına toplam eklenerek hesaplanır. Bu örnek için, **Genel tampon gün sayısı** alanına **3** ve **Tek tampon gün sayısı** alanına **10** girdiniz. Bu nedenle, beklenen satış ödeme tarihine (27 Nisan 2012) ulaşmak için vade tarihine 13 gün eklenir.
+-   **Beklenen satış ödemesi tarihi:** 27 Nisan 2012. Bu tarih, **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Genel tampon gün sayısı** alanına **Proje sözleşmeleri** sayfasındaki **Tek tampon gün sayısı** alanında bulunan gün sayısını ekleyip toplamı, **Son tarih** alanındaki gün sayısına ekleyerek hesaplanır. Bu örnek için, **Genel tampon gün sayısı** alanına **3** ve **Tek tampon gün sayısı** alanına **10** girdiniz. Bu nedenle, beklenen satış ödeme tarihine (27 Nisan 2012) ulaşmak için vade tarihine 13 gün eklenir.
 
 Genel tampon gün sayısı, tek tampon gün sayısını değiştirilebilir veya tek tampon gün sayısına eklenebilir:
 
--   Genel tampon gün sayısını tek tampon gün sayısının yerine kullanmak için, müşterilere ait vade tarihi ile gerçek ödeme tarihi arasındaki ortalama gün sayısını girin.
--   Tek tampon gün sayısına genel tampon gün sayısını eklemek için, **Genel tampon gün sayısı** alanına, müşterinin ödemeyi gönderdiği gün ile kuruluşunuzun ödemeyi aldığı gün arasındaki tahmini gün sayısını girin.
+-   Genel tampon gün sayısını tek tampon gün sayısının yerine kullanmak için müşterilere ait son tarih ile gerçek ödeme tarihi arasındaki ortalama gün sayısını girin.
+-   Tek tampon gün sayısına genel tampon gün sayısını eklemek için **Genel tampon gün sayısı** alanına, müşterinin ödemeyi gönderdiği gün ile kuruluşunuzun ödemeyi aldığı gün arasındaki tahmini gün sayısını girin.
 
 Projenin sözleşmesinde tek tampon sayısını ayarlayın. Günler, hem satış faturası vade tarihi, hem de müşterinizin ödeme kalıplarıyla ilgili kuruluşunuzun deneyimlerine göre hesaplanır.
 
 #### <a name="actual-cash-inflow"></a>Gerçek nakit girişi
 
-Gerçek nakit girişi tahmine benzer, ancak hesaplamalarınıza ilk fatura tarihinden başlayabilirsiniz. İşte bir örnek:
+Gerçek nakit girişi, tahmine benzer ancak hesaplamalarınıza ilk fatura tarihinden başlayabilirsiniz. İşte bir örnek:
 
 -   **Fatura tarihi:** 2 Mart 2012.
 -   **Vade tarihi:** 16 Mart 2012. Ödeme vadesi 14 gün olarak ayarlanır.
--   **Beklenen satış ödemesi tarihi:** 29 Mart 2012. Bu hesaplamada üç genel tampon gün sayısı ile 10 tek tampon gün sayısı bulunur.
+-   **Beklenen satış ödemesi tarihi:** 29 Mart 2012. Bu hesaplamada, üç genel tampon gün sayısı ile 10 tek tampon gün sayısı bulunur.
 
 #### <a name="cost-forecasting"></a>Maliyet tahmini
 
@@ -323,9 +323,9 @@ Tanımlanan günlere göre, maliyet ödeme tarihi proje tarihinden farklı olabi
 
 Örneğin, hareketin proje tarihi 5 Mart 2012 ve aşağıdaki ödeme vadeleri ayarlanmıştır:
 
--   **Saatler:** Geçerli ay ( **A** )
--   **Giderler:** 14 gün ( **D14** )
--   **Maddeler:** 30 gün ( **D30** )
+-   **Saatler:** Geçerli ay (**A**)
+-   **Giderler:** 14 gün (**D14**)
+-   **Maddeler:** 30 gün (**D30**)
 
 Bu ayarlara göre, her hareket türü için maliyet ödeme tarihi aşağıda verilmiştir:
 
@@ -366,35 +366,35 @@ Kuruluşunuzun bir proje sırasında girdiği maliyetleri **Maliyet kontrolü** 
 
 **Proje yönetimi ve muhasebe parametreleri** sayfasında maliyet kontrol yöntemi olarak **Kalan bütçe** seçilmişse, **Maliyet kontrolü** sayfası gerçek olarak nakledilmemiş veya kabul edildi olarak işaretlenmemiş maliyetleri hesaplar. Özellikle, **Maliyet kontrolü** sayfasının alt bölmesindeki **Genel** sekmesinde bulunan tutarlar aşağıdaki yollarla hesaplanır:
 
--   **Gerçek maliyet** : seçili maliyet satırı için projede harcanan toplam tutar. Gerçek maliyet tutarı **Genel muhasebe güncelleştirmeleri** sayfasında hesaplanır.
--   **Taahhüt edilen maliyet** : yasal varlığın ödemeyi taahhüt ettiği ek giderler. Belirli taahhüt edilen maliyet tutarları **Taahhüt edilen maliyetler** sayfasında hesaplanır.
--   **Kalan bütçe** : seçili maliyet satırı için halen kullanılabilir olan başlangıçtaki bütçelenmiş tutar. Kalan bütçe tutarı, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
--   **Toplam maliyet** : gerçek maliyet, taahhüt edilen maliyet ve kalan bütçe tutarlarının toplamı.
+-   **Gerçek maliyet**: seçili maliyet satırı için projede harcanan toplam tutar. Gerçek maliyet tutarı **Genel muhasebe güncelleştirmeleri** sayfasında hesaplanır.
+-   **Taahhüt edilen maliyet**: yasal varlığın ödemeyi taahhüt ettiği ek giderler. Belirli taahhüt edilen maliyet tutarları **Taahhüt edilen maliyetler** sayfasında hesaplanır.
+-   **Kalan bütçe**: seçili maliyet satırı için halen kullanılabilir olan başlangıçtaki bütçelenmiş tutar. Kalan bütçe tutarı, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
+-   **Toplam maliyet**: gerçek maliyet, taahhüt edilen maliyet ve kalan bütçe tutarlarının toplamı.
 
 **Maliyet kontrolü** sayfasında **Sapma** sekmesinde, toplam beklenen maliyet ile başlangıçtaki bütçenin karşılaştırmasını görebilirsiniz. Bu karşılaştırma bu tutarlarla arasındaki farkları gösterir. Bu nedenle, verilerin nerede eşleşmediğini görebilirsiniz. Sapma miktarları aşağıdaki yollarla hesaplanır:
 
--   **Orijinal bütçe** : seçili maliyet satırı için başlangıçta bütçelenmiş tutar. Orijinal bütçe tutarı, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
--   **Toplam maliyet** : **Genel** sekmesinde raporlandığı gibi gerçek maliyet, taahhüt edilen maliyet ve kalan bütçe tutarlarının toplamı.
--   **Sapma** : toplam maliyet ve orijinal bütçe arasındaki fark.
--   **Miktara göre fark** : orijinal tahmin ve toplam tahmin arasındaki toplam fark. Bu fark matematiksel olarak şöyle ifade edilebilir: (Toplam tahmin miktarı) × (Orijinal ortalama fiyat – Toplam ortalama fiyat). Bu hesaplama yalnızca proje saatleri için geçerlidir.
--   **Fiyata göre fark** : orijinal tahmin ve toplam tahmin arasındaki toplam fark. Bu fark matematiksel olarak şöyle ifade edilebilir: (Orijinal tahmin fiyatı) × (Orijinal tahmin miktarı – Toplam tahmin miktarı). Bu hesaplama yalnızca proje saatleri için geçerlidir.
+-   **Orijinal bütçe**: seçili maliyet satırı için başlangıçta bütçelenmiş tutar. Orijinal bütçe tutarı, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
+-   **Toplam maliyet**: **Genel** sekmesinde raporlandığı gibi gerçek maliyet, taahhüt edilen maliyet ve kalan bütçe tutarlarının toplamı.
+-   **Sapma**: toplam maliyet ve orijinal bütçe arasındaki fark.
+-   **Miktara göre fark**: orijinal tahmin ve toplam tahmin arasındaki toplam fark. Bu fark matematiksel olarak şöyle ifade edilebilir: (Toplam tahmin miktarı) × (Orijinal ortalama fiyat – Toplam ortalama fiyat). Bu hesaplama yalnızca proje saatleri için geçerlidir.
+-   **Fiyata göre fark**: orijinal tahmin ve toplam tahmin arasındaki toplam fark. Bu fark matematiksel olarak şöyle ifade edilebilir: (Orijinal tahmin fiyatı) × (Orijinal tahmin miktarı – Toplam tahmin miktarı). Bu hesaplama yalnızca proje saatleri için geçerlidir.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Kalan toplam bütçelenmiş tutarları görüntüleme
 
-**Proje yönetimi ve muhasebe parametreleri** sayfasında maliyet denetimi yöntemi olarak **Toplam bütçe** seçilmişse, **Maliyet kontrolü** sayfası gerçek maliyetler ile toplam maliyetler arasındaki herhangi bir farkı tespit etmenize yardımcı olmak için projeye ait bu iki değeri hesaplar. Özellikle, **Maliyet kontrolü** sayfasında **Genel** sekmesinin alt bölmesindeki sütunlarda bulunan tutarlar aşağıdaki yollarla hesaplanır:
+**Proje yönetimi ve muhasebe parametreleri** sayfasında maliyet denetimi yöntemi olarak **Toplam bütçe** seçilmişse, **Maliyet kontrolü** sayfası gerçek maliyetler ile toplam maliyetler arasındaki herhangi bir farkı tespit etmenize yardımcı olmak için projeye ait bu iki değeri hesaplar. Özellikle **Maliyet kontrolü** sayfasında, **Genel** sekmesinin alt bölmesindeki sütunlarda bulunan tutarlar aşağıdaki yollarla hesaplanır:
 
--   **Toplam bütçelenmiş maliyet** : seçili maliyet satırı için toplam bütçelenen tutar.
--   **Gerçek maliyet** : seçili maliyet satırları için projede bugüne kadar ortaya çıkan maliyetlerin toplam tutarı.
--   **Taahhüt edilen maliyet** : seçili maliyet satırı için projede taahhüt edilen toplam tutar.
--   **Fark** : gerçek ve taahhüt edilen maliyetlerin toplamı ile toplam maliyet arasındaki fark. Fark, toplam bütçe için ek maliyetlerin belirtilmesinin gerekip gerekmediğini gösterir.
+-   **Toplam bütçelenmiş maliyet**: seçili maliyet satırı için toplam bütçelenen tutar.
+-   **Gerçek maliyet**: seçili maliyet satırları için projede bugüne kadar ortaya çıkan maliyetlerin toplam tutarı.
+-   **Taahhüt edilen maliyet**: seçili maliyet satırı için projede taahhüt edilen toplam tutar.
+-   **Fark**: gerçek ve taahhüt edilen maliyetlerin toplamı ile toplam maliyet arasındaki fark. Fark, toplam bütçe için ek maliyetlerin belirtilmesinin gerekip gerekmediğini gösterir.
 
 **Maliyet kontrolü** sayfasında **Sapma** sekmesinde, aşağıdaki alanlara bakarak toplam bütçe ile orijinal bütçe arasındaki farkı görüntüleyebilirsiniz:
 
--   **Orijinal bütçe** : maliyet satırı için başlangıçta bütçelenmiş tutar. Orijinal bütçe, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
--   **Bütçelendirilen toplam maliyet** : maliyet satırı için başlangıçta bütçelenmiş toplam maliyet. Bütçelendirilen toplam maliyet, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
--   **Sapma** : maliyet satırındaki sapma. Bu tutar, orijinal bütçeden toplam maliyet çıkarılarak hesaplanır.
--   **Miktara göre fark** : orijinal bütçe ve toplam bütçe arasındaki toplam fark. Bu tutar, orijinal bütçe saatlerinden toplam bütçe saatlerini çıkararak ve farkı bütçelendirilen maliyet fiyatı ile çarparak hesaplanır. Bu fark matematiksel olarak şöyle ifade edilebilir: (Bütçelendirilen orijinal maliyet fiyatı) × (Orijinal bütçedeki saatler – Toplam bütçe saatleri). Bu hesaplama yalnızca proje saatleri için geçerlidir.
--   **Fiyata göre fark** : Bu tutar, orijinal bütçe saatlerinden toplam bütçe saatlerini çıkararak ve farkı tüketilen toplam saat sayısı ile çarparak hesaplanır. Bu fark matematiksel olarak şöyle ifade edilebilir: (Toplam tüketilen saatler) × (Orijinal bütçedeki saatler – Toplam bütçe saatleri). Bu hesaplama yalnızca proje saatleri için geçerlidir.
+-   **Orijinal bütçe**: maliyet satırı için başlangıçta bütçelenmiş tutar. Orijinal bütçe, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
+-   **Bütçelendirilen toplam maliyet**: maliyet satırı için başlangıçta bütçelenmiş toplam maliyet. Bütçelendirilen toplam maliyet, **Genel muhasebe önizlemesi** sayfasında hesaplanır.
+-   **Sapma**: maliyet satırındaki sapma. Bu tutar, orijinal bütçeden toplam maliyet çıkarılarak hesaplanır.
+-   **Miktara göre fark**: orijinal bütçe ve toplam bütçe arasındaki toplam fark. Bu tutar, orijinal bütçe saatlerinden toplam bütçe saatlerini çıkararak ve farkı bütçelendirilen maliyet fiyatı ile çarparak hesaplanır. Bu fark matematiksel olarak şöyle ifade edilebilir: (Bütçelendirilen orijinal maliyet fiyatı) × (Orijinal bütçedeki saatler – Toplam bütçe saatleri). Bu hesaplama yalnızca proje saatleri için geçerlidir.
+-   **Fiyata göre fark**: Bu tutar, orijinal bütçe saatlerinden toplam bütçe saatlerini çıkararak ve farkı tüketilen toplam saat sayısı ile çarparak hesaplanır. Bu fark matematiksel olarak şöyle ifade edilebilir: (Toplam tüketilen saatler) × (Orijinal bütçedeki saatler – Toplam bütçe saatleri). Bu hesaplama yalnızca proje saatleri için geçerlidir.
 
 ### <a name="analyze-utilization"></a>Kullanımı çözümle
 
@@ -404,22 +404,22 @@ Bir çalışanın kullanım oranı, faturalanabilen saat sayısını belirli bir
 
 Bir çalışan için kullanım oranını hesapladığınızda, faturalandırılabilir oranı veya verimlilik oranını hesaplayabilirsiniz:
 
--   **Faturalandırılabilir oran** : faturalandırılabilir saatler ile faturalandırılamayan saatler veya norm saatler arasındaki fark.
--   **Verimlilik oranı** : üretime yönelik saatler ile üretime yönelik olmayan saatler veya norm saatler arasındaki fark. Üretime yönelik saatler, çalışanın belirli bir projeye katkıda bulunduğu saattir. Üretime yönelik saatler, dahili projeler dışında genellikle müşterilere faturalandırılır. Üretime yönelik olmayan saatlerin hiçbir zaman müşteriye faturalandırılmaz.
+-   **Faturalandırılabilir oran**: faturalandırılabilir saatler ile faturalandırılamayan saatler veya norm saatler arasındaki fark.
+-   **Verimlilik oranı**: üretime yönelik saatler ile üretime yönelik olmayan saatler veya norm saatler arasındaki fark. Üretime yönelik saatler, çalışanın belirli bir projeye katkıda bulunduğu saattir. Üretime yönelik saatler, dahili projeler dışında genellikle müşterilere faturalandırılır. Üretime yönelik olmayan saatlerin hiçbir zaman müşteriye faturalandırılmaz.
 
 Kullanım oranlarını **Saat kullanımı** sayfasında hesaplayabilirsiniz. Hesaplamalar varsayılan tercihleri temel alır. Bu tercihler ayrıca her proje türüne yönelik **Kullanım** veya **Yük** atayarak saatlerin nasıl hesaplandığını belirtir. Bu, faturalanabilen ücret hesaplamaları ve verimlilik oranı hesaplamaları için geçerlidir.
 
--   **Kullanım** : Seçili proje türü için bildirilen saatler her zaman faturalandırılabilir veya verimlilik kullanımı olarak değerlendirilir.
--   **Yük** : Seçili proje türü için bildirilen saatler her zaman faturalandırılamayan veya verimli olmayan kullanım olarak değerlendirilir.
--   **Satır özelliğine göre** : Belirli bir saat hareketine ait satır özellikleri, saatlerin faturalandırılabilir veya verimlilik kullanımı için dikkate alınıp alınmayacağını belirler.
--   **Dahil edilmeyen** : Saatler faturalandırılabilir veya verimlilik kullanımı hesaplamasına göre kullanılamaz.
+-   **Kullanım**: Seçili proje türü için bildirilen saatler her zaman faturalandırılabilir veya verimlilik kullanımı olarak değerlendirilir.
+-   **Yük**: Seçili proje türü için bildirilen saatler her zaman faturalandırılamayan veya verimli olmayan kullanım olarak değerlendirilir.
+-   **Satır özelliğine göre**: Belirli bir saat hareketine ait satır özellikleri, saatlerin faturalandırılabilir veya verimlilik kullanımı için dikkate alınıp alınmayacağını belirler.
+-   **Dahil edilmeyen**: Saatler faturalandırılabilir veya verimlilik kullanımı hesaplamasına göre kullanılamaz.
 
-**Saat kullanımı** sayfasında çalışan veya proje için genel kullanım oranı yüzdesinin yanı sıra, aşağıdaki her saat türüne ait kullanım oranı hesaplamaları için kullanılan saat sayısını görüntüleyebilirsiniz:
+**Saat kullanımı** sayfasında, çalışan veya proje için genel kullanım oranı yüzdesinin yanı sıra aşağıdaki her saat türüne ait kullanım oranı hesaplamaları için kullanılan saat sayısını görüntüleyebilirsiniz:
 
--   **Dahil edilmeyen saatler** : Bu saatler saat kullanım oranına dahil edilmez.
--   **Dahil edilen saatler** : Bu saatler, kullanım saatleri ve yük saatleri eklenerek hesaplanır. Bu saatler, kullanım oranına dahil edilir.
--   **Yük saatleri** : Faturalandırılabilir bir oran hesapladığınızda, bu saatler borçlandırılamayan saatlerle aynı şeydir. Verimlilik oranı hesapladığınızda, bu saatler üretime yönelik olmayan saatlerle aynı şeydir.
--   **Kullanım saatleri** : Faturalandırılabilir bir oran hesapladığınızda, bu saatler borçlandırılabilen saatlerle aynı şeydir. Verimlilik oranı hesapladığınızda, bu saatler üretime yönelik olan saatlerle aynı şeydir.
+-   **Dahil edilmeyen saatler**: Bu saatler saat kullanım oranına dahil edilmez.
+-   **Dahil edilen saatler**: Bu saatler, kullanım saatleri ve yük saatleri eklenerek hesaplanır. Bu saatler, kullanım oranına dahil edilir.
+-   **Yük saatleri**: Faturalandırılabilir bir oran hesapladığınızda bu saatler borçlandırılamayan saatlerle aynıdır. Verimlilik oranı hesapladığınızda, bu saatler üretime yönelik olmayan saatlerle aynı şeydir.
+-   **Kullanım saatleri**: Faturalandırılabilir bir oran hesapladığınızda, bu saatler borçlandırılabilen saatlerle aynı şeydir. Verimlilik oranı hesapladığınızda, bu saatler üretime yönelik olan saatlerle aynı şeydir.
 
 Bir çalışan için kullanım oranı hesapladığınızda, norm saatleri veya dahil edilen saatleri kullanabilirsiniz. Dahil edilen saatleri kullanırsanız, hesaplama girilen saatlerin yüzdesi olarak ifade edildiğinden çalışanların, zaman çizelgesi dönemlerine yönelik tüm çalışma sürelerini kaydetmesini sağlamalısınız. Bir proje, proje sözleşmesi, müşteri kaydı veya kategori için saat kullanım oranı hesapladığınızda, hesaplamanızda dahil edilen saatleri kullanmanız gerekir.
 
@@ -434,12 +434,12 @@ Projenin ilerlemesine yönelik hızlı bir şekilde bilgi almak için proje rapo
 
 Rapor hesaplandıktan sonra, **Proje raporları** sayfasındaki çeşitli sekmelerde aşağıdaki bilgileri görüntüleyebilirsiniz:
 
--   **Genel** : projenin temel kar ve zarar yapısıyla ilgili genel bilgiler.
--   **Kar ve zarar** : tahakkuk eden gelir hakkında bilgiler.
--   **WIP** : süren iş hesap bakiyeleri hakkında bilgiler.
--   **Tüketim** : saatlerin, maddelerin, giderlerin ve bordro hareketlerinin tüketimi hakkında bilgiler.
--   **Fatura:** : faturalar ve mahsup faturalamayla ilgili bilgiler.
--   **Saatlik ücret** : gelire ve maliyet hesaplarına nakledilen saatlik birim fiyatlar.
+-   **Genel**: projenin temel kar ve zarar yapısıyla ilgili genel bilgiler.
+-   **Kar ve zarar**: tahakkuk eden gelir hakkında bilgiler.
+-   **WIP**: süren iş hesap bakiyeleri hakkında bilgiler.
+-   **Tüketim**: saatlerin, maddelerin, giderlerin ve bordro hareketlerinin tüketimi hakkında bilgiler.
+-   **Fatura:**: faturalar ve mahsup faturalamayla ilgili bilgiler.
+-   **Saatlik ücret**: gelire ve maliyet hesaplarına nakledilen saatlik birim fiyatlar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

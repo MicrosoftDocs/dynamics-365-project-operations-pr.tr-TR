@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181476"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287712"
 ---
 # <a name="manage-a-proforma-invoice"></a>Proforma faturaları yönetme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Dynamics 365 Project Operations'ta, proforma faturaları, Dynamics 365 Sales içindeki faturalara uzantı olarak oluşturulur. Ancak Faturalandırma sırasında Sales ve Project Operations arasındaki faturalama işleminde çok çeşitli farklılıklar vardır. Örneğin, Project Operations'ta **fatura listesi** sayfasından yeni bir fatura oluşturmak mümkün değildir ancak satış içinde bunu yapmak mümkündür. Bu farklılıklar ve uzantılar, bir satış siparişi için tipik bir faturadan farklı olan projeler için faturalama işlemlerini desteklemek için kullanılan yerdir.
+Dynamics 365 Project Operations'ta proforma faturalar, Dynamics 365 Sales'teki faturalar için uzantı olarak oluşturulur. Ancak Faturalandırma sırasında Sales ve Project Operations arasındaki faturalama işleminde çok çeşitli farklılıklar vardır. Örneğin, Project Operations'ta **fatura listesi** sayfasından yeni bir fatura oluşturmak mümkün değildir ancak satış içinde bunu yapmak mümkündür. Bu farklılıklar ve uzantılar, bir satış siparişi için tipik bir faturadan farklı olan projeler için faturalama işlemlerini desteklemek için kullanılan yerdir.
 
 > [!IMPORTANT]
 > Farklardan dolayı, Sales ve Project Operations'da faturaları birbirinin yerine kullanmayın.

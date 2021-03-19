@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086491"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288252"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Madde gereksiniminden satınalma siparişindeki maddeleri alma
 
@@ -35,26 +35,26 @@ Bu görevde USSI veri kümesi kullanılır.
 
 1. Gezinti bölmesinde, **Modüller > Proje yönetimi ve muhasebe > Projeler > Tüm projeler** modülüne gidin.
 2. Listeden, istenilen satırdaki bağlantıyı seçin.
-3. Eylem Bölmesi'nden **Plan** 'ı seçin.
-4. **Madde gereksinimleri** 'ni seçin.
-5. **Yeni** 'yi seçin.
+3. Eylem Bölmesi'nden **Plan**'ı seçin.
+4. **Madde gereksinimleri**'ni seçin.
+5. **Yeni**'yi seçin.
 6. Yeni satırda, **Madde numarası** alanına bir değer girin veya bir değeri seçin.
 7. **Miktar** alanına bir numara girin.
-8. **Kaydet** 'i seçin.
-9. Eylem Bölmesi'nden **Yönet** 'i seçin.
-10. **İşlevler** 'i seçin.
+8. **Kaydet**'i seçin.
+9. Eylem Bölmesi'nden **Yönet**'i seçin.
+10. **İşlevler**'i seçin.
 11. **Bir satınalma emri oluştur** seçeneğini belirleyin.
 12. **Tümünü dahil et** onay kutusunu seçin.
 13. **Satıcı hesabı** alanına bir değer girin veya bir değeri seçin.
-14. **Tamam** 'ı seçin.
+14. **Tamam**'ı seçin.
 15. Gezinti bölmesinde, **Modüller > Borç hesabı > Satınalma siparişleri > Tüm satın alma siparişleri** modüllerine gidin.
 16. Listeden, istenilen satırdaki bağlantıyı seçin.
-17. Eylem Bölmesi'nden **Satın al** 'ı seçin.
-18. **Onayla** 'yı seçin.
-19. Eylem Bölmesi'nden **Al** 'ı seçin.
-20. **Ürün girişi** 'ni seçin.
+17. Eylem Bölmesi'nden **Satın al**'ı seçin.
+18. **Onayla**'yı seçin.
+19. Eylem Bölmesi'nden **Al**'ı seçin.
+20. **Ürün girişi**'ni seçin.
 21. **Ürün girişi** alanına bir değer yazın.
-22. **Tamam** 'ı seçin.
+22. **Tamam**'ı seçin.
 
 
 

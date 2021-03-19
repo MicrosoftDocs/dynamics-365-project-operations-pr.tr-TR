@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289753"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Mali yıl sonunda proje bütçelerini aktarma
 
@@ -35,16 +35,16 @@ ms.locfileid: "4086457"
 
 Projelere ait yıl sonu bütçe tutarlarını gözden geçirmek için aşağıdaki adımları uygulayın, ancak tutarları öne taşımaz.
 
-1. **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı** 'y gidin. 
-2. **Proje bütçesi (ileriye doğru işlem sayfası)** , **yıl sonu seçenekleri** sekmesinde, **kalan proje bütçe tutarlarını ileri doğru olarak taşıdığınızı** doğrulayın.
+1. **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı**'y gidin. 
+2. **Proje bütçesi (ileriye doğru işlem sayfası)**, **yıl sonu seçenekleri** sekmesinde, **kalan proje bütçe tutarlarını ileri doğru olarak taşıdığınızı** doğrulayın.
 3. **Parametreler** sekmesinde, **proje bütçe yılı** alanında, kalan bütçe tutarını görüntülemek istediğiniz mali yıl seçin. 
 4. **Mali yıl açılışı** alanında, kalan bütçe tutarını görüntülemek istediğiniz mali yıl seçin. 
-5. **Tahmin modeli** alanında **kalan bütçe** 'yi seçin. 
-6. Seçtiğiniz ölçüte uyan ve kalan bütçeyi olmayan projeleri dahil etmek için, **kalan sıfırı göster** 'i seçin.  
-7. **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al** 'ı seçin ve ardından **proses** 'i seçin. 
-8. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al** 'ı seçin.
+5. **Tahmin modeli** alanında **kalan bütçe**'yi seçin. 
+6. Seçtiğiniz ölçüte uyan ve kalan bütçeyi olmayan projeleri dahil etmek için, **kalan sıfırı göster**'i seçin.  
+7. **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al**'ı seçin ve ardından **proses**'i seçin. 
+8. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al**'ı seçin.
 
-Bölmesindeki belirli bir satır hakkında daha fazla bilgi için, satırı seçin ve **Bütçe ayrıntılarını görüntüle** veya **firmaları görüntüle** 'yi seçin.
+Bölmesindeki belirli bir satır hakkında daha fazla bilgi için, satırı seçin ve **Bütçe ayrıntılarını görüntüle** veya **firmaları görüntüle**'yi seçin.
 
 ## <a name="carry-forward-remaining-budget-amounts"></a>Kalan bütçe tutarlarını ileri taşır 
 
@@ -55,14 +55,14 @@ Kalan bütçe tutarlarını işlediğinizde, iletmek istediğiniz tutarların ge
 
 ## <a name="carry-forward-budget-amounts-and-create-general-ledger-transactions"></a><a name="carry-forward"></a>Bütçe tutarlarını ileriye ve genel muhasebe hareketleri oluşturmayı taşır
 
-1.  **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı** 'y gidin. 
-2. **Proje bütçesi kayıtları-ileriye doğru işlem** sayfasında **Yıl sonu** 'nu seçin ve sonra **Kalan proje bütçe tutarlarını ileri sar** ve **genel muhasebede bütçe kayıt girişleri oluştur** 'u seçin. 
+1.  **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı**'y gidin. 
+2. **Proje bütçesi kayıtları-ileriye doğru işlem** sayfasında **Yıl sonu**'nu seçin ve sonra **Kalan proje bütçe tutarlarını ileri sar** ve **genel muhasebede bütçe kayıt girişleri oluştur**'u seçin. 
 3. **Parametreler** sekmesinde, **Proje parametreleri** alan grubunda, aşağıdakileri seçin:
 
-   - **Proje bütçe yılı** : Kalan bütçe tutarını görüntülemek istediğiniz mali yıl seçin. 
-   - **Kar ve zarar** : genel muhasebede kar ve zarar hareketleri oluşturun. 
-   -  **WIP** : genel muhasebedeki süren iş (WIP) hareketleri oluşturun.
-   -  **Bordro** : genel muhasebede Bordro tahsisatı hareketleri oluşturun. 
+   - **Proje bütçe yılı**: Kalan bütçe tutarını görüntülemek istediğiniz mali yıl seçin. 
+   - **Kar ve zarar**: genel muhasebede kar ve zarar hareketleri oluşturun. 
+   -  **WIP**: genel muhasebedeki süren iş (WIP) hareketleri oluşturun.
+   -  **Bordro**: genel muhasebede Bordro tahsisatı hareketleri oluşturun. 
 
 5. Özet sekmesinde **Genel muhasebe** bölümünde, aşağıdaki bilgileri sağlayın: 
 
@@ -73,27 +73,27 @@ Kalan bütçe tutarlarını işlediğinizde, iletmek istediğiniz tutarların ge
 
    - **İlk tahmin modeli** alanında, projeler için transfer etmek istediğiniz kalan bütçe tutarlarla ilişkili proje bütçe tahmin modelini seçin. 
    - **Kayıt defteri bütçe modeli** alanında, projeler için transfer etmek istediğiniz kalan bütçe tutarlarla ilişkili proje bütçe tahmin modelini seçin. 
-   -  Projelere ait bütçe tutarlarını aktardığınızda oluşturulan genel muhasebe hareketlerine yönelik olarak projeye ait satış para birimini kullanmak için **transfer satış para birimi** 'ni seçin. Bu seçenek işaretli değilse, hareketler muhasebe para birimini kullanır. 
-   -  Kalan bütçe miktarları olmayan projeleri dahil etmek için **sıfır değerini göster** 'i seçin, ancak alt bölmede görüntülenen projelerde seçtiğiniz diğer ölçütleri karşılamaktadır.
+   -  Projelere ait bütçe tutarlarını aktardığınızda oluşturulan genel muhasebe hareketlerine yönelik olarak projeye ait satış para birimini kullanmak için **transfer satış para birimi**'ni seçin. Bu seçenek işaretli değilse, hareketler muhasebe para birimini kullanır. 
+   -  Kalan bütçe miktarları olmayan projeleri dahil etmek için **sıfır değerini göster**'i seçin, ancak alt bölmede görüntülenen projelerde seçtiğiniz diğer ölçütleri karşılamaktadır.
 
-7. **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al** 'ı seçin. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al** 'ı seçin.
+7. **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al**'ı seçin. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al**'ı seçin.
 8. İşlemek istediğiniz her proje için, projenin satır başındaki seçeneğini belirleyin.
 
     > [!TIP]
     > Projelerin tümünü veya bir çoğunu seçmek için, sol üst köşedeki onay işaretini seçin. Herhangi bir projeyi işlemeyi dışlamak için, o projenin onay işaretini kaldırın.
 
-9. Seçili projelerin kalan bütçe tutarlarını seçili mali yıl transfer etmek ve genel muhasebede bütçe kaydı ayrıntıları oluşturmak için, **proses** 'i seçin.
+9. Seçili projelerin kalan bütçe tutarlarını seçili mali yıl transfer etmek ve genel muhasebede bütçe kaydı ayrıntıları oluşturmak için, **proses**'i seçin.
 
 ## <a name="carry-forward-budget-amounts-without-creating-general-ledger-transactions"></a>Bütçe tutarlarını ileriye ve genel muhasebe hareketleri oluşturmadan taşır
 
-1. **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı** 'y gidin.
-2. **Proje bütçesi (ileriye doğru işlem sayfası)** , **yıl sonu seçenekleri** alanında, **kalan proje bütçe tutarlarını ileri doğru olarak taşıdığınızı** seçin.
+1. **Proje yönetimi ve muhasebe** > **dönemsel** > **bütçeler** > **ileriye doğru taşı**'y gidin.
+2. **Proje bütçesi (ileriye doğru işlem sayfası)**, **yıl sonu seçenekleri** alanında, **kalan proje bütçe tutarlarını ileri doğru olarak taşıdığınızı** seçin.
 3. **Parametreler** grubunda, **proje bütçe yılı** alanında, kalan bütçe tutarını görüntülemek istediğiniz mali yıl seçin.
 4. **Kopyala** bölümünde, aşağıdaki bilgileri sağlayın:
 
    - **İlk tahmin modeli** alanında, projeler için transfer etmek istediğiniz kalan bütçe tutarlarla ilişkili proje bütçe tahmin modelini seçin. 
-   - Kalan bütçeyi olmayan ama seçtiğiniz diğer kriterleri içeren projeleri dahil etmek için, **kalan sıfırı göster** 'i seçin.
-   - **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al** 'ı seçin. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al** 'ı seçin.
+   - Kalan bütçeyi olmayan ama seçtiğiniz diğer kriterleri içeren projeleri dahil etmek için, **kalan sıfırı göster**'i seçin.
+   - **Bütçe Seç** sekmesinde, Seçilen ölçütünüze uyan tüm bütçeleri yüklemek için **Tüm Bütçeleri Al**'ı seçin. Belirli bir bütçe kümesini bölmeye yükleyen bir veritabanı sorgusu tasarlamak için, **Seçili bütçeleri Al**'ı seçin.
 
 5. İşlemek istediğiniz her proje için, projenin satır başındaki seçeneğini belirleyin. 
 6. seçili projelere ait kalan bütçe tutarlarını seçili mali yıl transfer etmek için bir **Prosesi** seçin.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086505"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289393"
 ---
 # <a name="project-grants"></a>Proje izinleri
 
@@ -51,7 +51,7 @@ Tüm ayrıntıları yeni bir kayda girerek bir verme oluşturabilir veya varolan
     Aşağıdaki listede, ayrıntıları ver sayfasının her bir hızlı sekmesinde belirtilen bilgiler açıklanmaktadır:
 
     - **Genel** – İzin adını, durumunu, açıklamasını, amacını ve tutarını girin.
-    - **İlgili kişi bilgileri** – Personel üyeleriyle ilgili ayrıntıları, izini yöneten departmanı ve iznin müşteri ya da organizasyon verme kaynağını girin. Ayrıca, organizasyonunuzun, izni alan ve sonra başka bir alıcıya aktaran bir doğrudan varlık olup olmadığını da belirtebilirsiniz. İzin sağlayan kuruluş için telefon numaraları ve e-posta adresleri gibi ilgili kişi bilgilerini eklemek için **Ekle** 'yi seçin.
+    - **İlgili kişi bilgileri** – Personel üyeleriyle ilgili ayrıntıları, izini yöneten departmanı ve iznin müşteri ya da organizasyon verme kaynağını girin. Ayrıca, organizasyonunuzun, izni alan ve sonra başka bir alıcıya aktaran bir doğrudan varlık olup olmadığını da belirtebilirsiniz. İzin sağlayan kuruluş için telefon numaraları ve e-posta adresleri gibi ilgili kişi bilgilerini eklemek için **Ekle**'yi seçin.
     - **Tarihler ve son tarihler** – İzin ve izin uygulamasıyla ilgili tarihleri girin. Örnekler arasında uygulama son tarihi, gönderim tarihi ve iznin onaylandığı veya reddedildiği tarih bulunur.
     - **İlişkili projeler ve proje sözleşmeleri** – yalnızca **genel** hızlı sekmesindeki **izin durumu** alanı **etkin** veya **verilen** olarak ayarlanmışsa , bu hızlı sekmeye bilgi girebilirsiniz. İlgili görevi gerçekleştirmek için aşağıdaki seçenekler arasından seçim yapın:
 
@@ -69,7 +69,7 @@ Tüm ayrıntıları yeni bir kayda girerek bir verme oluşturabilir veya varolan
 ## <a name="create-a-new-grant-from-a-copy"></a>Kopyadan yeni bir izin oluşturma
 
 1. **Proje yönetimi ve muhasebe** \> **İzinler** \> **İzinler** bölümüne gidin.
-2. **Yeni** \> **İzinden kopyala** 'yı seçin.
+2. **Yeni** \> **İzinden kopyala**'yı seçin.
 3. Yeni izin ver için alfasayısal bir tanımlayıcı ve ad girin ve **Tamam** 'ı seçin.
 4. Verme ayrıntıları sayfasında, kopyalanan kaydın ayrıntılarını gözden geçirin ve gerekli değişiklikleri yapın. Sayfadaki alanların çoğu isteğe bağlıdır.
 

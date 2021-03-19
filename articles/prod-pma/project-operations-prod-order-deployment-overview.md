@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289258"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Stoklu/üretim tabanlı senaryolar için Project Operations dağıtım genel bakışı
 
@@ -35,7 +35,7 @@ Bu dağıtım türü, proje tabanlı şirketler için aşağıdaki özellikleri 
 
 Bu dağıtım türü, Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarının sağladığı işlevselliğe bir uzantı sağlar.
 
-Dynamics 365 Project Operations'tan bekleniniz aşağıdaki temel gereksinimleri de dahil tam proje yaşam döngüsünü kullanmak ise bu dağıtım türünü kullanın:
+Aşağıdaki temel gereksinimler dahil olmak üzere tam proje yaşam döngüsü için Dynamics 365 Project Operations'ı kullanmak üzere bu dağıtım türünü seçin:
 
 - Stoğa alınan maddeleri ve planlar ve mali projeler için, dahili ve faturalandırılabilir projelere yönelik iş/üretim emri maliyetlendirimi yöneten kapsamlı bir proje yönetim sistemi.
 - Kuruluşta zaten Dynamics 365 Finance veya Dynamics 365 Supply Chain ve Manufacturing uygulamaları vardır ve proje tabanlı işlemler tümleştiriliyor veri erişimi ve raporlama ihtiyaçları basitleştirilmesine sahip olur.
