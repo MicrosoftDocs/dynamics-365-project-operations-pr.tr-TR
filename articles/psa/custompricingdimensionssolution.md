@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1d8117d6f6bcedc97264401fc941470f34efb1ae
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285012"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Fiyatlandırma boyutları için özel çözümler oluşturma
 

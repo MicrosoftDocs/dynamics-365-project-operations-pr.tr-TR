@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a32bc6b8687dfac941dde9944c6e6b4fd8f723f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1114685a8299c0096d0c13830a9d39d187883534
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148532"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284607"
 ---
 # <a name="enter-expenses-project-service"></a>Giderleri girme (Project Service)
 

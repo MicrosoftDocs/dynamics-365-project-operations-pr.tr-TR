@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9c9e31dc6d4d5a8ad5cc568f2d7d673c8703936d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284877"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Yeni özel varlık formları ekleme (Project Service Automation 2. x)
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ec6ef1827b71d887524a04c511b44824688749fb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283797"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Proje Kaynak Merkezi için kullanıcı kılavuzu
 
