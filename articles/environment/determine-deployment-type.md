@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401242"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479588"
 ---
 # <a name="determine-your-deployment-type"></a>Dağıtım türünüzü belirleme
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 > [!IMPORTANT]
-> Lisansı satın aldıktan sonra, [Destekli yükleme akışını](https://aka.ms/provisionprojectoperations) kullanarak en iyi Dynamics 365 Project Operations dağıtım modelini belirlemeye başlayın.
+> Lisansı satın aldıktan sonra [Rehberli yükleme akışını](https://aka.ms/provisionprojectoperations) kullanarak en iyi Dynamics 365 Project Operations dağıtım modelini belirlemek için buradan başlayın.
 > Destekli yükleme akışını tamamladıktan sonra, yükleme işleminizi tamamlamak üzere doğru yönetim portalına yönlendirilirsiniz. Yüklemeyi tamamlamak için aşağıdaki dağıtım ayrıntılarına bakın.
 
 
@@ -31,6 +31,9 @@ Project Operations, Project Service Automation ile birlikte gönderilen özellik
 
 Proje yönetimi ve muhasebe işlevselliğini kullanan Finans için varolan müşteriler bunu olduğu gibi kullanmaya devam edebilir. Bkz. [Stoklu/üretim siparişi senaryoları için Project Operations](#pma).
 
+
+## <a name="deployment-regions"></a>Dağıtım bölgeleri
+Project Operations dağıtımını hangi bölgelerin desteklediğini belirlemek için bkz. [Dynamics 365 ve Power Platform raporu için coğrafi kullanılabilirlik](https://dynamics.microsoft.com/en-us/geographic-availability/). Desteklenen bölgeleri görüntülemek için **Raporu Görüntüle**'yi seçin ve **Dynamics 365 > Operations Uygulamaları > Dynamics 365 Project Operations**'ı genişletin.
 
 ## <a name="deployment-types"></a>Dağıtım türleri
 Project Operations gereksinimlerinize uygun birden çok dağıtım seçeneğini destekler. İster yeni ister eski bir Dynamics 365 müşterisi olun, Project Operations ihtiyaçlarınızı destekleyebilir.

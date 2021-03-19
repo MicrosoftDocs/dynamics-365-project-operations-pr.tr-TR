@@ -3,17 +3,17 @@ title: Zaman girişi kullanıcı arabirimi davranışı
 description: Bu konuda, Zaman Girişi için kullanıcı arabiriminin davranışı hakkında bilgiler sağlanmaktadır.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124527"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499638"
 ---
 # <a name="time-entry-ui-behavior"></a>Zaman girişi kullanıcı arabirimi davranışı
 
@@ -21,6 +21,19 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 
 **Haftalık zaman girişi** ızgarası, **Boyutlar** ve **Süre** olmak üzere iki ana bölüme sahip özel bir denetimdir.
+
+## <a name="keyboard-shortcuts"></a>Klavye kısayolları
+| Eylem        | Kısayol                  |
+|------------   |------------------------   |
+| Yeni           | Alt + Shift + n           |
+| Satırı kopyala      | Alt + Shift + c           |
+| Girişi düzenle    | Alt + Shift + e           |
+| Satırı düzenle      | Alt + Shift + Ctrl + e    |
+| Girişi aç    | Alt + Shift + o           |
+| Gönder        | Alt + Shift + s           |
+| Geri çek        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Haftayı kopyala     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Boyutlar
 **Boyutlar** bölümünde, zamanın girilebileceği boyutlar gösterilir. Aşağıdaki boyutlar kullanıma hazır şekilde desteklenir:

@@ -1,9 +1,9 @@
 ---
 title: Gider raporlarını yeniden tasarlama
-description: Bu konuda, gider raporu girişi için yeniden tasarlanan ve yeniden düşünülen deneyim hakkında bilgiler sağlanmaktadır.
+description: Bu konuda, gider raporu girişi için yeniden tasarlanan ve düşünülen deneyim açıklanmaktadır.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122832"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499740"
 ---
 # <a name="expense-reports-reimagined"></a>Gider raporlarını yeniden tasarlama
 
@@ -59,25 +59,22 @@ Yeni deneyimi başlatmak için **Özellik yönetimi** çalışma alanını kulla
 | İleti çubuğundaki iletilerde azalma| Bilgi günlüğü iletilerinin sayısı azaltılmıştır ve birçok durumda yinelenen iletilerin görünmesini engellemek için çalışma yapılmıştır. |
 | Birlikte gruplanan ortak eylemler | Arabirim, ortak satır düzeyinde eylemlerin çoğu için yeni bir eylemler düğmesinin eklenmesi ve başlık ve diğer az kullanılan eylemler için üç nokta düğmesinin (...) eklenmesi ile temizlenmiştir. |
 | Görünürlüğü artırmak için yeni çalışma alanı | Yeni bir çalışma alanı, kullanıcıların farklı alanlara geçmesine olanak tanıyan özellikleri ve bağlantıları birleştirir. |
-| Gider oluşturma sırasında mevcut giderleri ve makbuzları ekleme | Gider raporları oluştururken giderlerin ve makbuzların tümünü veya içlerinden seçtiklerinizi ekleyebilirsiniz. |
+| Gider oluşturma sırasında mevcut giderleri ve makbuzları ekleme | Gider raporları oluşturduğunuzda tüm giderleri ekleyebilir veya eklenmemiş giderleri seçebilirsiniz. Eklenmemiş giderler, kurumsal kredi kartı akışından içeri aktarılan giderler veya kullanıcı tarafından el ile oluşturulan ancak bir gider raporuna eklenmemiş giderlerdir.|
 | Döviz kuru hesap makinesi | Cepten yapılan birden fazla para birimli işlemler için döviz kurunu hesaplamanıza olanak tanıyan bir döviz kuru hesap makinesi. |
 | Yeni gider satırları kaydetme ve ekleme | Gider satırlarını hızlıca girmenize yardımcı olmak için yeni giderleri girerken **Kaydet** ve **Yeni** düğmelerini kullanabilirsiniz. |
 | Bölünmüş ve dökümü alınmış satırlar için daha iyi görünürlük | Dökümü alınmış ve bölünmüş satırlar, görünürlüğü artırmak ve hata olup olmadığını kolayca belirlemenize yardımcı olmak için doğrudan gider listesine eklenir. |
 | Döküm sırasında makbuzları gösterme | Makbuzlar döküm sırasında gösterilebilir. |
+| Nakit avans seçimi | Tek bir gider işlemini karşılamak için bir veya daha fazla nakit avans seçin. |
+| Nakit avans bakiyesi | Onaylanan ve ödenen nakit avanslara karşı bir gider girişi oluşturduğunuzda nakit avans bakiyesini gerçek zamanlı olarak inceleyin. |
 
 Gider girişi senaryolarında ilk sürüme odaklanılır. Gider raporu inceleme veya onay senaryolarında, mevcut gider girişi sayfası kullanılmaya devam eder.
 
-Aşağıdaki özellikler mevcut sayfada bulunur ancak henüz yeni sayfada yoktur. Bu özellikler sonraki birkaç sürümde yeniden sunulacaktır:
+Yeniden Tasarlanan Gider Çalışma Alanı'nda aşağıdaki özellikler desteklenmez:
 
-- Onaylar
-- Borç hesabı onayları ve muhasebeyi düzenleme özelliği
-- Birden çok giriş noktası
 - Seyahat talebi tümleştirmesi
-- Gider alanı görünürlüğü için veri varlığı
-- Harcırah giderleri girişi
-- Satır düzeyi iş akışı
+- Harcırah gider girişi
 - Geçici onaylayan desteği
-- Gelişmiş döküm
+- İş akışı geçmişini görüntüleme özelliği
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

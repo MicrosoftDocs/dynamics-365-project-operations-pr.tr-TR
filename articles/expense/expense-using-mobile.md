@@ -1,5 +1,5 @@
 ---
-title: Mobil kullanarak gider oluşturma
+title: Gider mobil uygulaması
 description: Bu konuda, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlanır.
 author: suvaidya
 manager: AnnBe
@@ -15,16 +15,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120927"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499920"
 ---
-# <a name="expense-using-mobile"></a>Mobil kullanarak gider oluşturma
+# <a name="mobile-expense-app"></a>Gider mobil uygulaması
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Bu konuda, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlanır. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir. Ayrıca, onaylayanlar **Gider yönetimi** mobil çalışma alanını kendilerine atanan gider raporlarını görüntülemek için kullanabilir ve bu gider raporlarını onaylayabilir veya reddedebilir.
 
