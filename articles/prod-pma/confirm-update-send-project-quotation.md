@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270837"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Proje teklifini onaylama, güncelleştirme ve gönderme
 
@@ -39,21 +39,21 @@ Varolan bir proje teklifini e-posta yoluyla veya yazdırılmış bir kopya olara
 2. **Proje teklifi** sayfasında, onay için göndermek istediğiniz teklifi seçin. 
 3. **izleme** sekmesinde, **oluşturma** grubunda **onayla** ' yı seçin. 
 4. **Teklif Onayla** sayfasında, gerekli parametreleri ayarlayın. Örneğin, onayı yazdırmak için, **yazdırma** seçenekleri altında, **yazdırma onayını** açın ve **Tamam** ' ı seçin.
-5. **Teklif Gönder** sayfasında, **Seçenekler** 'i seçin ve **hedef yazdırma ayarları** sayfasında, teklifin **Ekran** , **e-postaya** , **dosyaya** , **Yazdırma arşivine** veya **yazıcıya** gönderilmesini isteyip istemediğinizi seçin ve **Belirtim** alanında istediğiniz ayarlamaları teklif rotası olarak belirtin.
-6. **Hedef ayarlarını yazdır** sayfasında **Tamam** 'ı seçin.  
+5. **Teklif Gönder** sayfasında, **Seçenekler**'i seçin ve **hedef yazdırma ayarları** sayfasında, teklifin **Ekran**, **e-postaya**, **dosyaya**, **Yazdırma arşivine** veya **yazıcıya** gönderilmesini isteyip istemediğinizi seçin ve **Belirtim** alanında istediğiniz ayarlamaları teklif rotası olarak belirtin.
+6. **Hedef ayarlarını yazdır** sayfasında **Tamam**'ı seçin.  
 
 ## <a name="update-a-project-quotation"></a>Proje teklifini güncelleştirme
 
 Varolan bir proje teklifini değiştirmek için, teklif durumunun **oluşturulması** gerekir. Varolan bir teklifi güncelleştirmek için aşağıdaki adımları izleyin. 
 
 1. **Proje yönetimi ve muhasebe** > **Teklifler** > **Proje teklifi** bölümüne gidin.
-2. **Proje teklifleri** sayfasında, güncelleştirmek istediğiniz teklifi seçin ve eylem bölmesinde, **Düzenle** 'yi seçin.
-3. Gerekli alan bilgilerini güncelleştirin ve eylem bölmesinde **Kaydet** 'i seçin.  
+2. **Proje teklifleri** sayfasında, güncelleştirmek istediğiniz teklifi seçin ve eylem bölmesinde, **Düzenle**'yi seçin.
+3. Gerekli alan bilgilerini güncelleştirin ve eylem bölmesinde **Kaydet**'i seçin.  
 
 ## <a name="send-a-project-quotation-to-a-customer"></a>Müşteriye proje teklifi gönder 
 
-1. **Proje yönetimi ve hesaplama** > **teklifler** > **Proje teklifleri** 'ne gidin ve göndermek istediğiniz proje teklifini seçin.
-2. **Proje teklifleri** sayfasında, **teklif** sekmesinde, **İşlem** grubunda, **Teklif Gönder** 'i seçin. Teklif durumu **gönderilir** olarak güncelleştirilir.
+1. **Proje yönetimi ve hesaplama** > **teklifler** > **Proje teklifleri**'ne gidin ve göndermek istediğiniz proje teklifini seçin.
+2. **Proje teklifleri** sayfasında, **teklif** sekmesinde, **İşlem** grubunda, **Teklif Gönder**'i seçin. Teklif durumu **gönderilir** olarak güncelleştirilir.
 
 > [!NOTE]
 > Durum **gönderildi** olarak değiştirildikten sonra proje teklifini değiştiremezsiniz.

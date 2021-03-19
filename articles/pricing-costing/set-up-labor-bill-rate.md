@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180741"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274842"
 ---
 # <a name="set-up-labor-bill-rates"></a>İşçilik fatura oranlarını ayarlama
 
 **Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
-Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations için fatura kurları, Fiyat listesi başlığındaki para birimi olan yalnızca bir para birimi olarak ayarlanabilir.
+Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations'ta zaman için fatura oranları yalnızca tek bir para biriminde ayarlanabilir ve bu, Fiyat listesi başlığındaki para birimidir.
 
 1. Bir satış fiyatı listesi için işçilik fatura tarifesinin ayarlanması için fiyat listesi başlığına dayanan bir fiyat listesi oluşturun. 
 2. **Rol Fiyatlar** sekmesinde, alt kılavuzda **+ Yeni Rol Fiyatı**'nı seçin. 

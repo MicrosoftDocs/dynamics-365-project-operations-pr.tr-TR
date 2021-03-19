@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275607"
 ---
 # <a name="default-price-lists"></a>Varsayılan fiyat listeleri
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 ## <a name="sales-price-lists"></a>Satış fiyatı listeleri
 
-Dynamics 365 Project Operations'ta her proje teklifi ve sözleşmesi varsayılan satış fiyat listesi içerir. 
+Dynamics 365 Project Operations'taki her proje teklifi ve sözleşme, varsayılan bir satış fiyat listesi içerir. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Proje tekliflerinde fiyat listesi varsayılan
 Sistem, proje teklifinde hangi fiyat listesinin varsayılan olarak belirlemek için aşağıdaki işlemi tamamlar:

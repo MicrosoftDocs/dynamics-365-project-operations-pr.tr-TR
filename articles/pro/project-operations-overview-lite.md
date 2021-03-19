@@ -1,6 +1,6 @@
 ---
 title: Lite dağıtımına genel bakış
-description: Bu konu, Dynamics 365 Project Operations'ta Lite dağıtımı hakkında bilgi sağlar.
+description: Bu konuda, Dynamics 365 Project Operations'ın Lite dağıtımı hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 11/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365656"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273987"
 ---
-# <a name="lite-deployment-overview"></a>Lite dağıtımına genel bakış
+# <a name="lite-deployment-overview"></a>Lite dağıtıma genel bakış
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations Lite dağıtım türü proje tabanlı şirketlerde aşağıdaki olanaklardan oluşur:
+Dynamics 365 Project Operations'ın Lite dağıtımı türünde, proje tabanlı şirketler için aşağıdaki özellikler bulunur:
 
 - Web için Microsoft Project kullanarak proje planlama
 - İşçilik kaynakları için birden çok boyutlu fiyatlandırma ve maliyetlendirme

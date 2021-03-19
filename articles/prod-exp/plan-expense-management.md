@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271377"
 ---
 # <a name="configure-expense-management"></a>Gider yönetimini yapılandırma
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086459"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270747"
 ---
 # <a name="create-a-new-project"></a>Yeni bir proje oluşturun
 
@@ -31,14 +31,14 @@ ms.locfileid: "4086459"
 
 Yeni bir proje oluşturmak için aşağıdaki adımları tamamlayın.
 
-1. **Proje yönetimi** sayfasında **Yeni proje** 'yi seçin ve aşağıdaki değerleri girin:
+1. **Proje yönetimi** sayfasında **Yeni proje**'yi seçin ve aşağıdaki değerleri girin:
 
     - **Proje türü:** Zaman ve malzeme
     - **Proje adı:** XYZ Yükseltme Aşaması 2
     - **Proje grubu:** TM\_WIP
     - **Proje sözleşmesi kodu:** 00000002
 
-2. **Proje oluştur** 'u seçin.
+2. **Proje oluştur**'u seçin.
 
 ## <a name="assign-a-resource-to-a-project"></a>Projeye kaynak atama
 
@@ -55,29 +55,29 @@ Proje yöneticisi proje için gerekli olan rolleri oluşturmak için proje kayna
 
 [![Rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Senaryo:** : Contoso, onaylı proje tüzüğü olan zaman ve malzeme projesini gerçekleştirmek için işe alındı. Yardımcı proje yöneticisi hala proje kapsamını tamamlıyor. Kaynak yöneticisi şu anda yeni projede çalışmak üzere ayrılacak belirli kaynakları tanımlıyor. Projenin kritik doğası nedeniyle proje sponsoru Uzman proje yöneticisi rolünün de dahil edilmesini istedi. Proje planlaması sırasında, yardımcı proje yöneticisi kaynak bilgisine gerek duyar diye kaynak yöneticisi yeni kaynağı almalıdır ve sistemde rolü tanımlamalıdır.
+**Senaryo:**: Contoso, onaylı proje tüzüğü olan zaman ve malzeme projesini gerçekleştirmek için işe alındı. Yardımcı proje yöneticisi hala proje kapsamını tamamlıyor. Kaynak yöneticisi şu anda yeni projede çalışmak üzere ayrılacak belirli kaynakları tanımlıyor. Projenin kritik doğası nedeniyle proje sponsoru Uzman proje yöneticisi rolünün de dahil edilmesini istedi. Proje planlaması sırasında, yardımcı proje yöneticisi kaynak bilgisine gerek duyar diye kaynak yöneticisi yeni kaynağı almalıdır ve sistemde rolü tanımlamalıdır.
 
 Aşağıdaki adımlarda, kaynak yöneticisinin Kıdemli Proje Yöneticisi rolünü nasıl ayarlayabileceği ve bununla kaynak özelliklerini nasıl ilişkilendirebileceği gösterilmektedir. Daha sonra, rol gerekli kaynak yetkinlikleri ile eşleşen kullanılabilir kaynakları aramak için kullanılabilir.
 
-1. **Ayar rolleri** sayfasında **Yeni** 'yi seçin ve aşağıdaki değerleri girin:
+1. **Ayar rolleri** sayfasında **Yeni**'yi seçin ve aşağıdaki değerleri girin:
 
     - **Rol kodu:** Kıdemli Proje Yöneticisi
     - **Açıklama:** Kıdemli Proje Yöneticisi
 
-2. **Oluştur** 'u seçin.
-3. **Kıdemli Proje Yöneticisi** rolünü seçin ve **Özellikleri yapılandır** 'ı seçin.
-4. **Özellikler türü** alanında, **Beceri** 'yi seçin.
+2. **Oluştur**'u seçin.
+3. **Kıdemli Proje Yöneticisi** rolünü seçin ve **Özellikleri yapılandır**'ı seçin.
+4. **Özellikler türü** alanında, **Beceri**'yi seçin.
 5. **Kullanılabilir özellikler** alanına, aranacak beceriyi girin.
-6. **Özellik türü** alanında, **Sertifika** 'yı seçin.
+6. **Özellik türü** alanında, **Sertifika**'yı seçin.
 7. **Kullanılabilir özellikler** alanına, aranacak sertifika türünü girin.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Projeye proje kaynağı atama
 
 1. **Tüm projeler** sayfasında, **XYZ Yükseltme Aşama 2** projesini seçin.
-2. **Proje ekibi ve zamanlama** sekmesinde **Ekle** 'yi seçin.
-3. **Rol** alanında, **Takım üyesi** 'ni seçin.
+2. **Proje ekibi ve zamanlama** sekmesinde **Ekle**'yi seçin.
+3. **Rol** alanında, **Takım üyesi**'ni seçin.
 4. **Takvimden rezerve et** seçeneğini belirleyin.
-5. **Kaynak kullanılabilirliği** sayfasında **Ayarları görüntüle** 'yi seçin.
+5. **Kaynak kullanılabilirliği** sayfasında **Ayarları görüntüle**'yi seçin.
 6. **Görünüm ayarlarını ayarla** sayfasında, aşağıdaki değerleri girin:
 
     - **Tarih aralığı görünümü biçimi:** Gün
@@ -95,14 +95,14 @@ Kaynak ayırma sırasında, proje yöneticileri projelerde çalışabilecek rol 
 
 **Senaryo:** Onaylanmış bir proje başlatıldı ve Kıdemli proje yöneticisi rolü proje planlama aşaması sırasında planlanmış bir kaynak olarak ayrıldı. Kaynak yöneticisi artık Kıdemli proje yöneticisi rolünü karşılamak için bir kaynak aldı.
 
-1. **Kaynaklar listesi** sayfasında **Daniel Goldschmidt** 'i seçin.
-2. **Kaynak rolleri** sayfasında **Yeni** 'yi seçin ve aşağıdaki değerleri girin:
+1. **Kaynaklar listesi** sayfasında **Daniel Goldschmidt**'i seçin.
+2. **Kaynak rolleri** sayfasında **Yeni**'yi seçin ve aşağıdaki değerleri girin:
 
     - **Etkin:** Geçerli tarihi girin.
-    - **Süre sonu** : **Hiçbir zaman** değerini girin.
-    - **Rol** : **Kıdemli Proje Yöneticisi** rolünü girin.
+    - **Süre sonu**: **Hiçbir zaman** değerini girin.
+    - **Rol**: **Kıdemli Proje Yöneticisi** rolünü girin.
 
-3. **Kaydet** 'i seçin ve sayfayı kapatın.
+3. **Kaydet**'i seçin ve sayfayı kapatın.
 4. **Yetkinlikler** sekmesinde, **ProjectMgmt** becerisini ve **PMP** sertifikasını ekleyin.
 
 

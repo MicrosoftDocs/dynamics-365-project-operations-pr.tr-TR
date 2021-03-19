@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128442"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276102"
 ---
 # <a name="define-expense-policies"></a>Gider ilkelerini tanımla
 
@@ -48,7 +48,7 @@ Burada, gider yönetimi konusunda yeni ilkeler oluştururken size yardımcı ola
 
 - İlkeler tarih etkindir; giderin gerçekleştiği tarihten sonraki bir tarihte oluşturulmuşsa ilkenin geçerli olmayacağı anlamına gelir. Örneğin, bugün yemek giderinin 50 doları aşmayacağı şekilde yeni bir ilke oluşturabilirsiniz. Dün girilen tüm var olan giderler bu ilkeye göre denetlenmez.
 - Dökümü alınabilecek bir gider kategorisi için ilke oluştururken, masraf satırı türü için bir koşul eklemeyi gözden geçirin. Makbuz istenmesi gibi bazı ilkeler, dökümü bulunmayan satırlar için anlamlı olmayabilir. Bu durumda ilke yalnızca başlık satırına veya dökümü alınmamış bir satıra uygulanır. 
-- Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketlerarası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki **Gider ilkesini ödünç alan tüzel kişiye göre değerlendir** özelliğini etkinleştirin.
+- Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketler arası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki **Gider ilkesini ödünç alan tüzel kişiye göre değerlendir** özelliğini etkinleştirin.
 
 ## <a name="when-to-evaluate-policies"></a>İlkeler ne zaman değerlendirilir
 

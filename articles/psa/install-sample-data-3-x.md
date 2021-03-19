@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275112"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service uygulaması için örnek veri kurulumu
 

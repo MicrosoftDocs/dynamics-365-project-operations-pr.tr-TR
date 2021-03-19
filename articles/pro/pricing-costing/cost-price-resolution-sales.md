@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2afaa2231f4044dbcbfa24b91aec39289275a91
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764618"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274573"
 ---
 # <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Tahminlerde ve gerçek değerlerde maliyet fiyatlarını çözümleyin - lite
 

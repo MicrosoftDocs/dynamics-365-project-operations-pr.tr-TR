@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273852"
 ---
 # <a name="confirm-a-project-contract"></a>Proje sözleşmesi onaylama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations Proje sözleşmesi, **Onaylanma** nedeni ile etkin olabilir veya **kaybedilme** nedeni ile kapatılabilir. Bir proje sözleşmesini onaylamadığınızda, durum **taslak** durumundan **etkin** durumuna güncelleştirilir ve durum açıklaması **Onaylandı** şeklindedir. Etkin veya kapanmış bir sözleşme düzenlenemez veya yeniden açılamaz. 
+Dynamics 365 Project Operations'ta proje sözleşmesi, **Onaylandı** açıklamasıyla etkin olabilir veya **Kaybedildi** açıklamasıyla kapatılabilir. Bir proje sözleşmesini onaylamadığınızda, durum **taslak** durumundan **etkin** durumuna güncelleştirilir ve durum açıklaması **Onaylandı** şeklindedir. Etkin veya kapanmış bir sözleşme düzenlenemez veya yeniden açılamaz. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>Bir proje sözleşmesini onaylama hakkında finansal etki
 
@@ -34,7 +34,7 @@ Bir proje sözleşmesini kayıp olarak kapattığınızda, sözleşmenin durumu,
 Kaybedilen Proje sözleşmesi, satırlarındaki bir projeye başvuru içeriyorsa, bu proje de kapatıldığı gibi işaretlenir. Bu günden ileriye doğru kaynak kayıtları iptal edilir. Proje sözleşmesindeki fatura üzerinde bulunmayan ve faturalanmamış satış fiili değerleri ters işlem uygulanacak.
 
 > [!NOTE]
-> Dynamics 365 Project Operations, bir proje sözleşmesini kayıp olarak kapatmak, ilişkilendirilmiş fırsatın durumunu etkilemez. Fırsat açık kalacak ve el ile kapatılması gerekir.
+> Dynamics 365 Project Operations'ta bir proje sözleşmesinin kaybedildi olarak kapatılması, ilişkili fırsatın durumunu etkilemez. Fırsat açık kalacak ve el ile kapatılması gerekir.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

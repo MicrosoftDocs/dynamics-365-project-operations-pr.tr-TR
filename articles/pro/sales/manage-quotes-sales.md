@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177850"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272952"
 ---
 # <a name="manage-project-quotes"></a>Proje tekliflerini yönetme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'ta proje teklifleri, proje çalışması için teklifleri oluşturmaya yardımcı olmak için tasarlanmıştır. Project Operations'da proje teklifinin yapısı, aşağıdaki bileşenlerle proje teklifleri için yapılandırılmıştır:
+Dynamics 365 Project Operations'ta proje teklifleri, proje çalışması için teklifler oluşturmaya yardımcı olmak için tasarlanmıştır. Project Operations'da proje teklifinin yapısı, aşağıdaki bileşenlerle proje teklifleri için yapılandırılmıştır:
 
   - Yüksek düzeyli bileşenler olarak sunulacak çalışmanın ayrı bileşenlerini tanımlayan teklif satırları.
   - Her bir üst düzey bileşen veya teklif satırı için çalışmayı tanımlayan ve tahmin eden teklif satırı ayrıntıları. Zamanlama veya tarih tahminleri, teklif satırına bağlı çalışmanın zamanlamasını ve mali yönlerini içerir.

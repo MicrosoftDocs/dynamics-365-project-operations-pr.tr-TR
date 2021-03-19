@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180216"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275517"
 ---
 # <a name="set-up-price-lists"></a>Fiyat listelerini ayarlama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'taki fiyat listeleri oranlar kataloğunu temsil eder. Hızlı maliyet, satış ve fatura oranları oranları. Fiyat listesinin maliyet oranlarını mı, yoksa Satışlar ve fatura oranlarını ifade etmek istediğinize bağlı olarak, Fiyat listesi bağlamı **Satış** veya **maliyet** olur.
+Dynamics 365 Project Operations'ta fiyat listeleri bir oran kataloğunu temsil eder. Hızlı maliyet, satış ve fatura oranları oranları. Fiyat listesinin maliyet oranlarını mı, yoksa Satışlar ve fatura oranlarını ifade etmek istediğinize bağlı olarak, Fiyat listesi bağlamı **Satış** veya **maliyet** olur.
 
 Aşağıdaki uzantılar Project Operations'a Işlemlerine özeldir ve Dynamics 365 Sales'den fiyat listelerine uygulanır.
 

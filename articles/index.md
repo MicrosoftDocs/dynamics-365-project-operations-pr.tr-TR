@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275922"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations, daha fazla anlaşma kazanmak, proje teslimini hızlandırmak ve karlılığı en üst düzeye çıkarmak için satış, kaynak belirleme, proje yönetimi ve finans takımlarını tek bir uygulamada birbirine bağlar.
+Microsoft Dynamics 365 Project Operations, daha fazla anlaşma kazanmak, proje teslimatını hızlandırmak ve karlılığı en üst düzeye çıkarmak için tek bir uygulamada satış, kaynak belirleme, proje yönetimi ve finans takımlarını bağlar.
 
 -   **Liderler, işle ilgili içgörüler edinerek** tüm takımlar, veriler ve süreçler genelinde görünürlüğü artırır ve daha iyi ve daha hızlı iş kararları için yapay zeka yeteneklerinden faydalanır.
 -   **Satış etkinleştirilerek** hızlı ve doğru teklifler, esnek fiyatlandırma ve tahminden uygulamaya sorunsuz geçişlerle daha fazla anlaşma kazanılır ve satış döngüsünü hızlandırılır.
@@ -40,7 +40,7 @@ Project Operations kendi başına güçlüdür ancak Dynamics 365'teki ek yetene
 Daha fazla bilgi edinmek için bkz.
 
 - [Project Operations'a Genel Bakış](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operations 2020 sürümü dalga 1'e Genel Bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Dynamics 365 Project Operations 2020 sürümü dalga 1'e genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

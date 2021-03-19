@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ec8973df1def3f707603019cdd45147423c1ae3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180666"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273312"
 ---
 # <a name="work-with-projectbased-contract-lines---lite"></a>Proje tabanlı sözleşme satırlarıyla çalışma - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'taki proje tabanlı sözleşme satırları, bir görevlendirmede proje çalışmasının belirli bileşenleri için tahmin ve fatura anlaşmalarını tutacak şekilde tasarlanmıştır. Proje tabanlı bir sözleşme satırının yapısı, aşağıdaki kavramlarla proje tahminleri ve fatura senaryoları için genişletilir:
+Dynamics 365 Project Operations'taki proje tabanlı sözleşme satırları, bir etkileşimde proje çalışmasının belirli bileşenleri için tahmin ve fatura anlaşmalarını tutacak şekilde tasarlanmıştır. Proje tabanlı bir sözleşme satırının yapısı, aşağıdaki kavramlarla proje tahminleri ve fatura senaryoları için genişletilir:
 
 - Faturalama yöntemi
 - Proje ve Görev Eşleme

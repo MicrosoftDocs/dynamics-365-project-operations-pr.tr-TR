@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086378"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271017"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama
 
@@ -44,8 +44,8 @@ Bu konu, Apple iOS ve Google Android cihazlarda kullanılabilen Microsoft Dynami
 
 **TSTimesheetCustomField** sınıfı, zaman çizelgesi işlevselliği için özel bir alanla ilgili bilgileri temsil eden X++ veri sözleşmesi sınıfıdır. Özel alan nesnelerinin listeleri, mobil uygulamadaki özel alanları göstermek için hem TSTimesheetDetails veri sözleşmesine hem de TSTimesheetEntry veri sözleşmesine aktarılır.
 
-- **TSTimesheetDetails** : zaman çizelgesi başlığı sözleşmesi.
-- **TSTimesheetEntry** : zaman çizelgesi hareket sözleşmesi. Aynı proje bilgilerine ve **timesheetLineRecId** değerine sahip olan bu nesnelerin grupları bir satır oluşturur.
+- **TSTimesheetDetails**: zaman çizelgesi başlığı sözleşmesi.
+- **TSTimesheetEntry**: zaman çizelgesi hareket sözleşmesi. Aynı proje bilgilerine ve **timesheetLineRecId** değerine sahip olan bu nesnelerin grupları bir satır oluşturur.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Türler)
 
@@ -73,8 +73,8 @@ Bu konu, Apple iOS ve Google Android cihazlarda kullanılabilen Microsoft Dynami
 
 Bu özelliği, gerçek değerleri para birimi olarak biçimlendirmek için kullanabilirsiniz. Bu yaklaşım yalnızca **fieldBaseType** değeri **Gerçek** olduğunda uygulanabilir.
 
-- **TSCustomFieldExtendedType:None** : Hiçbir biçimlendirme uygulanmaz.
-- **TSCustomFieldExtendedType::Para birimi** : Değeri para birimi olarak biçimlendirir.
+- **TSCustomFieldExtendedType:None**: Hiçbir biçimlendirme uygulanmaz.
+- **TSCustomFieldExtendedType::Para birimi**: Değeri para birimi olarak biçimlendirir.
 
     Para birimi olarak biçimlendirme etkin olduğunda, **stringValue** alanı, uygulamada gösterilmesi gereken para birimi kodunu aktarmak için kullanılabilir. Salt okunur bir değerdir.
 
@@ -84,8 +84,8 @@ Bu özelliği, gerçek değerleri para birimi olarak biçimlendirmek için kulla
 
 Özel alanın uygulamada nerede görüntüleneceğini belirtmek için bu özelliği kullanabilirsiniz.
 
-- **TsccustomFieldSection::Başlık** : Alan, uygulamada **Daha fazla ayrıntı görüntüle** bölümünde gösterilir. Bu alanlar her zaman salt okunurdur.
-- **TSCustomFieldSection::Satır** : Alan, zaman çizelgesi girişlerindeki tüm hazır satır alanlarından sonra görüntülenir. Bu alanlar düzenlenebilir ya da salt okunur olabilir.
+- **TsccustomFieldSection::Başlık**: Alan, uygulamada **Daha fazla ayrıntı görüntüle** bölümünde gösterilir. Bu alanlar her zaman salt okunurdur.
+- **TSCustomFieldSection::Satır**: Alan, zaman çizelgesi girişlerindeki tüm hazır satır alanlarından sonra görüntülenir. Bu alanlar düzenlenebilir ya da salt okunur olabilir.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -181,7 +181,7 @@ Bu kod, uygulamadaki alanla ilgili görüntü ayarlarını denetler. Örneğin, 
 
 Aşağıdaki örnekte zaman girişlerinde bir dize alanı gösterilmektedir. Bu alanda, seçenek düğmeleri (radyo düğmeleri) aracılığıyla kullanılabilen **First option** ve **Second option** olan iki seçenek bulunur. Uygulamadaki alan, TSTimesheetLine tablosuna eklenen **TestLineString** alanıyla ilişkilidir.
 
-Özel alan özelliklerinin başlatılmasını kolaylaştıracak **TSTimesheetCustomField::newFromMetatdata()** yönteminin kullanımına dikkat edin: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** ve **numberOfDecimals**. Ayrıca, bu parametreleri dilerseniz el ile de ayarlayabilirsiniz.
+Özel alan özelliklerinin başlatılmasını kolaylaştıracak **TSTimesheetCustomField::newFromMetatdata()** yönteminin kullanımına dikkat edin: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ve **numberOfDecimals**. Ayrıca, bu parametreleri dilerseniz el ile de ayarlayabilirsiniz.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ Veritabanı düzeyindeki zaman çizelgesi işlevselliği için var olan mantık,
 
 - Bir zaman çizelgesi satırı için kaydetme işlemi sırasında TSTimesheetLine tablosunda **validatewrite** **false** değerini döndürürse, mobil uygulamada bir hata iletisi görüntülenir.
 - Bir zaman çizelgesi satırı için gönderme işlemi sırasında TSTimesheetTable tablosunda **validateSubmit** **false** değerini döndürürse, kullanıcıya hata iletisi gösterilir.
-- **insert** yöntemi sırasında, TSTimesheetLine tablosundaki alanları (örneğin, **Satır Özelliği** ) dolduran mantık çalışmaya devam eder.
+- **insert** yöntemi sırasında, TSTimesheetLine tablosundaki alanları (örneğin, **Satır Özelliği**) dolduran mantık çalışmaya devam eder.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Kullanıma hazır alanları yapılandırma aracılığıyla salt okunur olarak gizleme ve işaretleme
 

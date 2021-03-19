@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273042"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Proje tekliflerinde proje fiyat listelerini yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Proje teklifleri, birden çok tarihte etkin satış fiyatı listelerini desteklemek için tasarlanmıştır. Dynamics 365 Project Operations ile **Proje fiyat listeleri** adı verilen yeni bir ilişkili varlık eklenir. Bu varlıkta, proje teklifi için 1-çok ilişkisi bulunur.
+Proje teklifleri, birden çok tarihte etkin satış fiyatı listelerini desteklemek için tasarlanmıştır. Dynamics 365 Project Operations ile, **Proje fiyat listeleri** adı verilen yeni bir ilişkili varlık eklenir. Bu varlıkta, proje teklifi için 1-çok ilişkisi bulunur.
 
 Proje fiyat listeleri, projedeki fiyat süresi ve gider hareketleri için kullanılır. Bir teklifte bir veya daha fazla proje fiyat listesi olduğunda bu fiyat listeleri, teklif satırı üzerinden teklifle ilişkilendirilen projelerdeki zaman ve gider tahminlerini ve gerçek değerleri fiyatlandırmak için kullanılır.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270657"
 ---
 # <a name="manage-resource-competencies"></a>Kaynak yetkinliklerini yönetme
 
@@ -41,18 +41,18 @@ Bir çalışana ait yetkinlikleri ayarlamak üzere, İnsan kaynakları'ndaki **�
 
 1. **Çalışanlar** listesi sayfasında, çalışanın sertifika bilgilerini eklemek için bir satır seçin.
 2. Eylem Bölmesi'ndeki **Çalışan** sekmesinde, **Yetkinlikler** grubunda **Sertifikalar** seçeneğini tıklayın.
-3. **Yeni** seçeneğini, ardından **Sertifika türü** alanında **PMP** 'yi belirleyin.
-4. **Başlangıç tarihi** alanında, **1.10.2015** tarihini seçin ve **Kaydet** 'i seçin.
+3. **Yeni** seçeneğini, ardından **Sertifika türü** alanında **PMP**'yi belirleyin.
+4. **Başlangıç tarihi** alanında, **1.10.2015** tarihini seçin ve **Kaydet**'i seçin.
 
 ## <a name="set-up-competencies-skills"></a>Yetkinlik ayarla: Beceriler
 
 1. **Çalışanlar** listesi sayfasında, önceki yordamda kullandığınız çalışanın hala seçili olduğundan emin olun. Ardından Eylem Bölmesi'ndeki **Çalışan** sekmesinde, **Yetkinlikler** grubunda **Beceriler** seçeneğini tıklayın.
-2. **Yeni** 'yi seçin.
-3. **Beceri** alanında, **Proje yönetimi** 'ni seçin.
+2. **Yeni**'yi seçin.
+3. **Beceri** alanında, **Proje yönetimi**'ni seçin.
 4. **Düzey** alanında, **5 Uzman** seçeneğini belirleyin.
 5. **Düzey tarihi** alanında, **14.01.2014** seçeneğini belirleyin.
 6. **Deneyim yılları** alanında, **10** girin.
-7. **Kaydet** 'i seçin ve sayfayı kapatın.
+7. **Kaydet**'i seçin ve sayfayı kapatın.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

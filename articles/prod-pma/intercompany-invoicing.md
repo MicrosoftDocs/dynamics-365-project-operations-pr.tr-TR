@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086350"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270792"
 ---
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
@@ -44,12 +44,12 @@ Hedef, şirketlerarası hareketler için maliyet kontrolü, gelir kabulü, vergi
 -   Ödünç veren tüzel kişiliğin gelir kabulünü ve ödünç alan tüzel kişiliğin maliyeti kabul etmesi gereken zamanı ertelemek.
 -   Ödünç veren tüzel kişilikte süren işin (WIP) gelirini biriktirmek.
 -   Çeşitli fiyatlandırma modellerine dayanan transfer fiyatlarını ayarlamak. İşte bazı örnekler:
-    -   **Miktar** : **Fiyatlandırma** alanına girdiğiniz tutar, miktar veya birim başına gerçek maliyet olur.
-    -   **Masraf tutarı** : Hareket başına fiyat/maliyet ile **Fiyatlandırma** alanına girdiğiniz masraf tutarı.
-    -   **Maliyet Yüzdesi** : Transfer fiyatı, **Fiyatlandırma** alanına girdiğiniz masraf yüzdesi ile çarpılan hareket başına fiyat/maliyet değeridir.
-    -   **Satış fiyatı yüzdesi** : Ödünç veren tüzel kişiliğe aktarılan satış fiyatının yüzdesi.
-    -   **Satış fiyatı altındaki tutar** : Ödünç veren tüzel kişiliğe transfer etmeden önce, ödünç alan tüzel kişiliğin satış fiyatından alıkoyduğu tutar.
-    -   **Katkı oranı** : **Fiyatlandırma** alanına girdiğiniz sayı, satış fiyatının bir yüzdesi olarak ifade edilen katkı oranıdır.
+    -   **Miktar**: **Fiyatlandırma** alanına girdiğiniz tutar, miktar veya birim başına gerçek maliyet olur.
+    -   **Masraf tutarı**: Hareket başına fiyat/maliyet ile **Fiyatlandırma** alanına girdiğiniz masraf tutarı.
+    -   **Maliyet Yüzdesi**: Transfer fiyatı, **Fiyatlandırma** alanına girdiğiniz masraf yüzdesi ile çarpılan hareket başına fiyat/maliyet değeridir.
+    -   **Satış fiyatı yüzdesi**: Ödünç veren tüzel kişiliğe aktarılan satış fiyatının yüzdesi.
+    -   **Satış fiyatı altındaki tutar**: Ödünç veren tüzel kişiliğe transfer etmeden önce, ödünç alan tüzel kişiliğin satış fiyatından alıkoyduğu tutar.
+    -   **Katkı oranı**: **Fiyatlandırma** alanına girdiğiniz sayı, satış fiyatının bir yüzdesi olarak ifade edilen katkı oranıdır.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Örnek 1: şirketlerarası faturalamayla ilgili parametreleri ayarlama
 Bu örnekte, USSI ödünç veren tüzel kişiliktir ve kaynakları, son müşteriyle sözleşmenin sahibi olan ve ödünç alan tüzel kişilik durumunda olan FRSI için zamanı kaydeder. USSI çalışanları tarafından kaydedilen saat ve giderler FRSI tarafından üretilen proje faturasına dahil edilebilir. Buna ek olarak, ödünç veren tüzel kişilik (örnekte USSI) bağlı kuruluşlara (FRSI) satıcı hizmetleri sunup maliyetlerini bağlı kuruluşlardaki projelere aktardığında ödünç veren tüzel kişilikten kaynaklanan üçüncü hareket kaynakları ortaya çıkar. Tüm eşleşen fatura belgeleri ve vergi hesaplamaları Finance tarafından tamamlanır. 
@@ -67,7 +67,7 @@ Bu örnekte, FRSI, USSI yasal varlığındaki bir müşteri olmalıdır ve USSI,
 
 2. **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Proje Yönetimi muhasebe parametreleri** seçeneğini tıklayın ve ardından **Şirketlerarası** sekmesini tıklayın. Parametreleri ayarlama yönteminiz, ödünç alan tüzel kişilik veya ödünç veren tüzel kişilik olmanıza bağlıdır.
    -   Ödünç alan tüzel kişilikseniz otomatik olarak oluşturulan, satıcı faturaları ile eşleştirmek için kullanılması gereken satın alma kategorisini seçin.
-   -   Ödünç veren tüzel kişilikseniz, ödünç alan her varlık için her hareket türüne ait bir varsayılan proje kategorisi seçin. Proje kategorileri, şirketlerarası hareketlerde faturalanan kategori yalnızca ödünç alan tüzel kişilikte bulunduğunda vergi konfigürasyonu için kullanılır. Şirketlerarası hareketlere yönelik gelir biriktirme seçeneğini belirleyebilirsiniz. Bu biriktirilen miktar hareketler deftere nakledildiğinde yapılır ve şirketlerarası fatura deftere nakledildiğinde tersine çevrilir.
+   -   Ödünç veren tüzel kişilikseniz, ödünç alan her varlık için her hareket türüne ait bir varsayılan proje kategorisi seçin. Proje kategorileri, şirketler arası işlemlerde faturalanan kategori yalnızca ödünç alan tüzel kişilikte bulunduğunda vergi konfigürasyonu için kullanılır. Şirketlerarası hareketlere yönelik gelir biriktirme seçeneğini belirleyebilirsiniz. Bu biriktirilen miktar hareketler deftere nakledildiğinde yapılır ve şirketlerarası fatura deftere nakledildiğinde tersine çevrilir.
 
 3. **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Fiyatlar** &gt; **Transfer fiyatı** seçeneğini tıklayın.
 4. Bir para birimi, hareket türü ve transfer fiyatı modeli seçin. Faturada kullanılan para birimi, ödünç veren tüzel kişilikte ödünç alan tüzel kişiliğe ait müşteri kaydı için yapılandırılan para birimidir. Para birimi, transfer fiyatı tablosundaki girişleri eşleştirmek için kullanılır.
@@ -94,11 +94,11 @@ Bu örnekte, FRSI, USSI yasal varlığındaki bir müşteri olmalıdır ve USSI,
 
 | Adım | Giriş noktası                                                                                             | Açıklama                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturası**  | **Şirketlerarası fatura oluştur** sayfasını açmak için **Yeni** 'yi tıklatın.                                                                                  |
-| K    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturaları** | **Şirketlerarası fatura oluştur** sayfasında, yasal varlığı girin, dahil edilecek hareketi belirtin ve ardından **Ara** 'yı tıklayın. |
-| C    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturaları** | Faturalanacak hareketleri seçin veya listedeki tüm hareketleri faturalamak için **Tümünü Seç** 'i tıklayın ve sonra **Tamam** 'ı tıklayın.                  |
+| A    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturası**  | **Şirketlerarası fatura oluştur** sayfasını açmak için **Yeni**'yi tıklatın.                                                                                  |
+| K    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturaları** | **Şirketlerarası fatura oluştur** sayfasında, yasal varlığı girin, dahil edilecek hareketi belirtin ve ardından **Ara**'yı tıklayın. |
+| C    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Şirketlerarası müşteri faturaları** | Faturalanacak hareketleri seçin veya listedeki tüm hareketleri faturalamak için **Tümünü Seç**'i tıklayın ve sonra **Tamam**'ı tıklayın.                  |
 | D    | **Şirketlerarası fatura** sayfası                                                                       | Şirketlerarası müşteri faturası teklifi gösterilir.                                                                                             |
-| E    | **Şirketlerarası fatura** sayfası                                                                       | **Gönder** 'e tıklayın.                                                                                                                                  |
+| E    | **Şirketlerarası fatura** sayfası                                                                       | **Gönder**'e tıklayın.                                                                                                                                  |
 
 ## <a name="example-5-post-the-vendor-invoice-and-invoice-the-customer"></a>Örnek 5: satıcı faturasını deftere nakletme ve müşteriyi faturalama
 Ödünç veren tüzel kişilik olan USSI, şirketlerarası müşteri faturasını deftere nakleder, ödünç alan tüzel kişilik olan FRSI'de eşleşen bir bekleyen satıcı faturası oluşturulur. Bu satıcı faturası deftere nakledildikten sonra, FRSI girilen USSI tarafından girilen saatleri de proje müşterisine faturalandırır. Bu görev için gereken adımları gerçekleştirmek için üç giriş noktası vardır.
@@ -107,7 +107,7 @@ Bu örnekte, FRSI, USSI yasal varlığındaki bir müşteri olmalıdır ve USSI,
 |------|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | A    | **Borç hesabı** &gt; **Faturalar** &gt; **Bekleyen satıcı faturaları**                            | Zaman çizelgesi değerlerinin dahil edildiğini doğrulamak için faturayı gözden geçirin ve ardından satıcı faturasını deftere nakledin.                  |
 | K    | **Proje yönetimi ve muhasebe** &gt; **Proje faturaları** &gt; **Proje faturası teklifleri** | Proje için yeni bir proje faturası oluşturun ve nakledilen saat hareketlerinin göründüğünü doğrulayın.            |
-| C    | **Proje faturası** sayfası                                                                       | Proje faturasını seçin ve maliyet ve satış tutarını gözden geçirmek için **Ayrıntıları görüntüle** 'yi tıklayın. Ardından faturayı deftere nakledin. |
+| C    | **Proje faturası** sayfası                                                                       | Proje faturasını seçin ve maliyet ve satış tutarını gözden geçirmek için **Ayrıntıları görüntüle**'yi tıklayın. Ardından faturayı deftere nakledin. |
 
 
 Daha fazla bilgi için bkz. [Şirketlerarası proje faturalamayı yapılandırma](tasks/configure-intercompany-project-invoicing.md).

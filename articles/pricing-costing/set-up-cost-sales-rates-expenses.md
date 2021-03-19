@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274932"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Giderler için maliyet ve satış oranlarını ayarlama
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'daki hareket kategorileri için maliyet ve satış fiyatları ayarlayabilirsiniz. Maliyet ve satış fiyatları giderler için tasarlandığından, bunları içeren her bir hareket kategorisi de masraf kategorisi olarak ayarlanmalıdır. Bu ayarlar, akış yönündeki işlevsellik için doğruluk sağlar. Hareket kategorilerinin maliyet ve satış fiyatları yalnızca tek bir para birimi cinsinden listelenebilir ve bu, Fiyat listesi başlığında para birimi olması gerekir.
+Dynamics 365 Project Operations'ta işlem kategorileri için maliyeti ve satış fiyatlarını ayarlayabilirsiniz. Maliyet ve satış fiyatları giderler için tasarlandığından, bunları içeren her bir hareket kategorisi de masraf kategorisi olarak ayarlanmalıdır. Bu ayarlar, akış yönündeki işlevsellik için doğruluk sağlar. Hareket kategorilerinin maliyet ve satış fiyatları yalnızca tek bir para birimi cinsinden listelenebilir ve bu, Fiyat listesi başlığında para birimi olması gerekir.
 
 Hareket kategorileri için maliyet ve satış oranları ayarlamak üzere aşağıdaki adımları izleyin. 
 

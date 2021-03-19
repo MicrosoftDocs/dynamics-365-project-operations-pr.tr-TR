@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181047"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272547"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Proje tabanlı fırsat satırları - lite
 
@@ -27,7 +27,7 @@ Aşağıda, proje tabanlı fırsat satırındaki alanlar verilmiştir:
 
 | **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
-| Ürün Türü | Genel sekmesi (gizli) | Aşağıdaki seçeneklerden birini belirleyebilirsiniz:</br>- Proje tabanlı hizmet (yalnızca Dynamics 365 Project Operations yüklendiğinde kullanılabilir)</br>- Ürün (yalnızca Project Operations ve Dynamics 365 Sales yüklendiğinde kullanılabilir) | Fırsat üzerinde proje tabanlı satırlar ızgarasından proje tabanlı fırsat satırı oluşturduğunuzda bu alanın değeri **Proje tabanlı hizmet** olarak ayarlanır. <br> Bu değeri değiştirirseniz veya geçersiz kılarsanız proje işlevi, proje tabanlı satır öğelerinizde etkinleştirilmez. |
+| Ürün Türü | Genel sekmesi (gizli) | Aşağıdaki seçeneklerden birini belirleyebilirsiniz:</br>- Proje tabanlı servis (yalnızca Dynamics 365 Project Operations yüklendiğinde kullanılabilir)</br>- Ürün (yalnızca Project Operations ve Dynamics 365 Sales yüklendiğinde kullanılabilir) | Fırsat üzerinde proje tabanlı satırlar ızgarasından proje tabanlı fırsat satırı oluşturduğunuzda bu alanın değeri **Proje tabanlı hizmet** olarak ayarlanır. <br> Bu değeri değiştirirseniz veya geçersiz kılarsanız proje işlevi, proje tabanlı satır öğelerinizde etkinleştirilmez. |
 | Fırsat | Genel sekmesi | Bu alan salt okunurdur ve bu satır öğesinin ait olduğu üst Fırsat kaydını ifade eder. | Bu alanda aşağı yönlü etki yoktur. |
 | Veri Akışı Adı | Genel sekmesi | Bu düzenlenebilir metin alanı, satır öğesine kısa bir kimlik sağlamak için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırına taşınır. |
 | Müşteri Bütçesi | Genel sekmesi | Bu düzenlenebilir para birimi alanı müşterinin bu satır öğesine harcayabileceği tutarı izlemek için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır. |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273236"
 ---
 # <a name="manage-project-contracts"></a>Proje sözleşmelerini yönet
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations içindeki proje sözleşmeleri, bir projenin sözleşmede onaylanan taahhütleri ve faturalama ayrıntılarını yakalar ve yönetir. Project Operations'da proje sözleşmesinin yapısı, aşağıdaki bileşenlerle proje tabanlı işler için tasarlanmıştır:
+Dynamics 365 Project Operations'taki proje sözleşmeleri, bir projenin sözleşmede onaylanan taahhütleri ve faturalama ayrıntılarını yakalar ve yönetir. Project Operations'da proje sözleşmesinin yapısı, aşağıdaki bileşenlerle proje tabanlı işler için tasarlanmıştır:
 
 - Bir proje faturasında yüksek düzeyli bileşenler olarak sunulacak çalışmanın ayrı bileşenlerini tanımlayan sözleşme satırları.
 - Her bir üst düzey bileşen veya sözleşme satırı için çalışmayı tanımlayan ve tahmin eden sözleşme satırı ayrıntıları. Tahmin, sözleşme satırına bağlı çalışmanın zamanlamasını ve mali yönlerini içerir.

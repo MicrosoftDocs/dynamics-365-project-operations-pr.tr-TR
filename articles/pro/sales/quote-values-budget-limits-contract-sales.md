@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272457"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Proje teklifiyle ilgili özet bilgiler - lite
 
@@ -21,7 +21,7 @@ _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya
 
 Bu makalede, bir proje teklifi için geçerli olan bilgiler açıklanmaktadır. Bu, tüm teklif satırlarını etkileyen ayarları ve proje teklifinin KPI'larını yönlendiren tüm satır öğelerinde özetlenen teklifle ilgili bilgileri içerir.
 
-Aşağıdaki tabloda Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales tekliflerine göre bazı önemli değişiklikleri olan bir proje teklifinde özet bilgi alanları listelenmiştir.
+Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales tekliflerinden davranış olarak bazı önemli değişiklikler içeren proje teklifindeki özet bilgileri alanları listelenmektedir.
 
 | **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |

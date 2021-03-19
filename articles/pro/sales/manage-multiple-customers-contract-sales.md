@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 3c9804c77cc0931352b026f15fd764f43361757f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273177"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations içindeki proje sözleşmeleri, sözleşmeli bir anlaşmanın bir anlaşmayı planladığı birden çok müşteriyi içerdiği senaryosunu destekler. **Proje sözleşmesi** sayfasındaki **Özet** sekmesi **müşteri** alanını içerir. Bu alan, satış işleminin birincil müşterisini tanımlar. Bu anlaşma için diğer müşteriler **Proje sözleşmesi** sayfasının **Müşteriler** sekmesinde ayarlanabilir.
+Dynamics 365 Project Operations'ta proje sözleşmeleri, sözleşmeli bir anlaşmanın, anlaşmayı finanse eden birden çok müşteriyi içerdiği senaryoyu destekler. **Proje sözleşmesi** sayfasındaki **Özet** sekmesi **müşteri** alanını içerir. Bu alan, satış işleminin birincil müşterisini tanımlar. Bu anlaşma için diğer müşteriler **Proje sözleşmesi** sayfasının **Müşteriler** sekmesinde ayarlanabilir.
 
 Proje sözleşmesi için oluşturulan tüm yeni proje tabanlı sözleşme satırlarındaki sözleşme satırı müşterileri olarak proje sözleşmesi varsayılan konumunda listelenen tüm sözleşme müşterileri. Varolan proje tabanlı sözleşme satırları, yeni kayıtlar oluşturulurken yeni sözleşme müşterileri devralınmaz.
 

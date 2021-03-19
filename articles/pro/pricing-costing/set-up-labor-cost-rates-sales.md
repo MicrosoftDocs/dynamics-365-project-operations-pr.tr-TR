@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180755"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274392"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>İşçilik maliyet oranlarını ayarlama - lite
 
@@ -38,7 +38,7 @@ Aşağıdaki tablo, maliyet fiyat listesinde işçilik oranları oluştururken �
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Bölümünüz veya tüzel kişiliğiniz dışındaki kaynaklar için fiyatlandırma ve maliyet aktarımı
 
-Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerlerinden çalışanları kullanmaları için. Bir proje tek bir tüzel kişi tarafından yürütülebilir, ancak proje üzerinde çalışan çalışanlar veya danışmanlar aynı tüzel kişiden veya farklı bir tüzel kişiden gelebilir veya her ikisinin bir kombinasyonu olabilir. Dynamics 365 Project Operations'nde, projenin teslimine sahip tüzel kişi **Sahibi Şirket**, teslimin sahibi ise **Yüklenici Birimdir**. Kaynak sağlayan diğer tüzel kişiler **Kaynak şirketleri** ve kaynak sağlayan bölümler **Kaynak üniteler**'dir. Çoğu ülkede, şirketlerin kaynak tüzel kişi veya bölüm sağlamak için, kaynak kullanımı için sahibi şirket ve sözleşme birimi ücret gereklidir.
+Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerlerinden çalışanları kullanmaları için. Bir proje tek bir tüzel kişi tarafından yürütülebilir, ancak proje üzerinde çalışan çalışanlar veya danışmanlar aynı tüzel kişiden veya farklı bir tüzel kişiden gelebilir veya her ikisinin bir kombinasyonu olabilir. Dynamics 365 Project Operations'te, projenin teslimatına sahip tüzel kişilik **Sahibi Olan Şirket**'tir ve teslimata sahip bölüm **Sözleşme Birimi**'dir. Kaynak sağlayan diğer tüzel kişiler **Kaynak şirketleri** ve kaynak sağlayan bölümler **Kaynak üniteler**'dir. Çoğu ülkede, şirketlerin kaynak tüzel kişi veya bölüm sağlamak için, kaynak kullanımı için sahibi şirket ve sözleşme birimi ücret gereklidir.
 
 Örneğin, Fabrikam şirketi, Fabrikam Hindistan-Robotik'in Fabrikam ABD-Robotik veya Fabrikam İngiltere-Robotik ile bir maliyet oranı kartı üzerinde anlaşma sağladığından emin olmalıdır.
 
