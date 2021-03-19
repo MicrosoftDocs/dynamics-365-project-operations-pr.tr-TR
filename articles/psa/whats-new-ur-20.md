@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147137"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280692"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, Güncelleştirme Sürümü 20, V3
 
@@ -42,7 +42,7 @@ Aşağıdaki sorunlar giderilmiştir:
 
 - Belirtilen saatler sıfır olduğunda, proje ekibi üyelerini saat gerektiren bir tahsisat yöntemiyle içeri aktarmak belirsiz bir hata iletisine yol açıyor.
 - Bir proje görevinin **Açıklama** alanına maksimum karakter sayısı girildiğinde kullanıcılar yanlış bir hata alıyor.
-- **Microsoft Dynamics 365 Project Service Automation eklentisi indirme** sayfası, kullanıcı dil ayarları Japonca olarak ayarlandığında İngilizce indirme sayfasına yönlendiriliyor.
+- **Microsoft Dynamics 365 Project Service Automation eklenti indirme** sayfası, kullanıcının dil ayarları Japonca olarak ayarlandığında İngilizce indirme sayfasına yönlendiriyor.
 - Bir sunucu hatası oluştuğunda, **Proje** formunun **Zamanlama** sekmesindeki eşitleme etiketi bazen gitmiyor.
 - Bir görev değiştirildiğinde sunucuya gereksiz görev güncelleştirmeleri gönderiliyor.
 

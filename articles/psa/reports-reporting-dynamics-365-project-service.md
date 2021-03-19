@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283302"
 ---
 # <a name="reporting-home-page"></a>Raporlama giriş sayfası
 
@@ -31,7 +31,7 @@ ms.locfileid: "5147722"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation proje tabanlı kuruluşların işletmelerinin işlemlerini verimli bir şekilde yönetmesine olanak tanır. Her tür projede, takım üyelerinin fırsatı yönetmesi, işin teklifini hazırlaması ve planlaması, projenin kaynaklarını belirlemesi, işi plana göre yönetmesi, işi faturalaması ve projeyi tamamlamak için gereken işi yapması gerekir. İşlemler hakkında rapor oluşturabilme özelliği kuruluşun durumunu belirlemede ve gereken düzeltici eylemleri gerçekleştirmede çok önemlidir. PSA tüm raporlama işlerinde Microsoft Dynamics 365 raporlama yöntemlerini ve teknolojilerini kullanır. Raporlama seçenekleri hakkında daha fazla bilgi için bkz. [Dynamics 365 Customer Engagement (on-premises) rapor yazma kılavuzu, sürüm 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation, proje tabanlı kuruluşların işlerine dair işlemleri verimli şekilde yönetmesine olanak tanır. Her tür projede, takım üyelerinin fırsatı yönetmesi, işin teklifini hazırlaması ve planlaması, projenin kaynaklarını belirlemesi, işi plana göre yönetmesi, işi faturalaması ve projeyi tamamlamak için gereken işi yapması gerekir. İşlemler hakkında rapor oluşturabilme özelliği kuruluşun durumunu belirlemede ve gereken düzeltici eylemleri gerçekleştirmede çok önemlidir. PSA tüm raporlama işlerinde Microsoft Dynamics 365 raporlama yöntemlerini ve teknolojilerini kullanır. Raporlama seçenekleri hakkında daha fazla bilgi için bkz. [Dynamics 365 Customer Engagement (on-premises) rapor yazma kılavuzu, sürüm 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Rapor Sihirbazı
 
@@ -43,7 +43,7 @@ Rapor Sihirbazı, uygulama geliştiricisi olmayan kişiler için basit raporlar 
 
 ## <a name="power-bi-insights-apps"></a>Power BI öngörüleri uygulamaları
 
-Microsoft Power BI ve Dynamics 365 birlikte verilerinizle öngörü uygulamaları biçiminde çalışmak için güçlü bir yöntem sunar. Öngörü uygulamalarının kullanılabilirliği hakkında bilgi için [Power BI öngörüleri uygulamaları sayfasına](https://powerbi.microsoft.com/power-bi-insights-apps/) bakın.
+Microsoft Power BI ve Dynamics 365 birlikte öngörü uygulamaları biçiminde verilerinizle çalışmanız için güçlü bir yöntem sunar. Öngörü uygulamalarının kullanılabilirliği hakkında bilgi için [Power BI öngörüleri uygulamaları sayfasına](https://powerbi.microsoft.com/power-bi-insights-apps/) bakın.
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar

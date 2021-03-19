@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280107"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Takım üyesi kılavuzundan takım üyeleri ekleme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, kuruluşun tamamında kaynak talebine ve kullanımına ilişkin görsel genel bakış sağlayan bir Kaynak yöneticisi panosu içerir. Aşağıdaki bilgileri görselleştirmek için bu panodaki grafikleri kullanabilirsiniz:
+Dynamics 365 Project Operations, kuruluşun tamamında kaynak talebine ve kullanımına ilişkin görsel bir genel bakış sağlayan bir Kaynak yöneticisi panosu içerir. Aşağıdaki bilgileri görselleştirmek için bu panodaki grafikleri kullanabilirsiniz:
 
 - **Kaynak talebi**: **Etkin Kaynak İsteği** grafiği, gönderilen kaynakları gösterir. Kaynaklar role veya projeye göre toplanır.
 - **Gönderilmemiş kaynak isteği**: **Atanmamış Kaynak İsteği** grafiği, gönderilmemiş kaynak gereksinimlerinin tamamını gösterir. Bu grafik, Kaynak yöneticilerinin kesin olmayan ve bir kaynak isteği üzerinden gönderilen talepleri görüntülemesine yardımcı olur.

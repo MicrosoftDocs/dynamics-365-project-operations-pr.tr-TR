@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 954fba6a9e52935ae11b52520109fa44301d45c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 779255971ed4f48bc9410fee76d6591ca13383b9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146777"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282447"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>Uzmanlık modellerini ayarlama (Project Service)
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 016c1691c9005953cc24de7630436923931097e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147587"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283077"
 ---
 # <a name="resource-management-home-page"></a>Kaynak yönetimi giriş sayfası
 

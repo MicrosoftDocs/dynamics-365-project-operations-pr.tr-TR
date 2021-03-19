@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149657"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282087"
 ---
 # <a name="customize-weekly-time-entry"></a>Haftalık zaman girişini özelleştirme 
 
@@ -31,7 +31,7 @@ ms.locfileid: "5149657"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation sürüm 3.3'te, Microsoft proje kaynaklarının bir defada bir haftaya kadar hızlı bir şekilde zaman girmesine olanak tanıyan modern bir ızgara tanıttı. Yeni haftalık zaman girişi ızgarası, tarihe, satıra veya haftaya göre yapılan girişlerin toplamını gösterebilir. Kaynaklar, hafta içinde yapılan zaman girişlerinin kopyalarını oluşturabilir ve ayrıca önceki haftalardan toplu kopyalama gerçekleştirebilir. Sistem özelleştiriciler, alanlar ekleyerek, başka varlıklara aramalar ekleyerek ve kuruluşun uygulamalarını desteklemek için özel iş kuralları uygulayarak görünümü özelleştirebilir.
+Microsoft, Microsoft Dynamics 365 Project Service Automation sürüm 3.3'te proje kaynaklarının bir defada bir haftaya kadar hızlı şekilde zaman girmesine olanak tanıyan modern bir ızgara tanıttı. Yeni haftalık zaman girişi ızgarası, tarihe, satıra veya haftaya göre yapılan girişlerin toplamını gösterebilir. Kaynaklar, hafta içinde yapılan zaman girişlerinin kopyalarını oluşturabilir ve ayrıca önceki haftalardan toplu kopyalama gerçekleştirebilir. Sistem özelleştiriciler, alanlar ekleyerek, başka varlıklara aramalar ekleyerek ve kuruluşun uygulamalarını desteklemek için özel iş kuralları uygulayarak görünümü özelleştirebilir.
 
 Zaman girişi ve yeni haftalık zaman ızgarasına site haritası aracılığıyla erişilir. Önceki PSA sürümlerinin parçası olan genişletilebilir olmayan özel zaman girişi deneyiminin yerini, genişletilebilir haftalık zaman girişi ızgarası ile salt okunur ızgara ve takvimdeki alternatif deneyim alır. Bu değişiklikle kullanıcılar haftalık miktarlarda zaman girebilirler.
 

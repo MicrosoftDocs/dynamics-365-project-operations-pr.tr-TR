@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f31327df6be375dd82c615b2a9e8194145fcd19c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144077"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281457"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>Proje tahminlerini görüntüleme ve düzenleme (Project Service)
 
