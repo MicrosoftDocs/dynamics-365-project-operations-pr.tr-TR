@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7032af78168c742ac64cb2a7174cabcbda579ff8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5d815210ee78f3c728c0722e03bab2f790c953ee
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286137"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Zamanlama panosundan bir proje ayırma oluşturma
 

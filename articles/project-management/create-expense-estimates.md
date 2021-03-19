@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287082"
 ---
 # <a name="expense-estimates"></a>Gider tahminleri
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, Proje yöneticilerinin kaynak tabanlı tahminlerin yanı sıra, her proje için proje tabanlı giderler tanımlamasına da olanak tanır. Her gider öğesi, belirli bir proje görevi veya gider kategorisiyle ilişkilendirilebilir. Gider kategorileri genellikle kuruluş düzeyinde tanımlanır. Her gider kategorisinin fiyatlandırması genellikle aşağıdaki hiyerarşiye göre tanımlanır:
+Dynamics 365 Project Operations, kaynak tabanlı tahminleri tanımlamanın yanı sıra Proje yöneticilerinin her proje için proje tabanlı giderler tanımlamasına da olanak tanır. Her gider öğesi, belirli bir proje görevi veya gider kategorisiyle ilişkilendirilebilir. Gider kategorileri genellikle kuruluş düzeyinde tanımlanır. Her gider kategorisinin fiyatlandırması genellikle aşağıdaki hiyerarşiye göre tanımlanır:
 
 - Kuruluş
 - Müşteri

@@ -1,6 +1,6 @@
 ---
 title: Tahmin projelerine genel bakış
-description: Bu konuda, Dynamics 365 Project Operations'ta tahminler hakkında bilgiler sağlanmaktadır.
+description: Bu konu Dynamics 365 Project Operations'da tahminler hakkında bilgi sağlar.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131592"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286902"
 ---
 # <a name="estimate-projects-overview"></a>Tahmin projelerine genel bakış
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Proje tabanlı bir teklifte, bir projeyi teslim etmek için gereken çalışmayı tahmin etmek üzere **Teklif satırı ayrıntısı** varlığını kullanabilirsiniz. Daha sonra bu tahmini müşteriyle paylaşabilirsiniz.
 
-Proje tabanlı teklif satırlarında teklif satırı sıfır da olabilir, birden çok da olabilir. Teklif satırı ayrıntıları zaman, gider veya ücretleri tahmin etmek için kullanılır. Microsoft Dynamics 365 Project Operations teklif satırı ayrıntılarında malzeme tahminlerine izin vermez. Bunlar işlem sınıfları olarak adlandırılır. Ayrıca, tahmini vergi tutarları bir işlem sınıfına girilebilir.
+Proje tabanlı teklif satırlarında teklif satırı sıfır da olabilir, birden çok da olabilir. Teklif satırı ayrıntıları zaman, gider veya ücretleri tahmin etmek için kullanılır. Microsoft Dynamics 365 Project Operations, teklif satırı ayrıntılarında malzeme tahminlerine izin vermez. Bunlar işlem sınıfları olarak adlandırılır. Ayrıca, tahmini vergi tutarları bir işlem sınıfına girilebilir.
 
 İşlem sınıflarına ek olarak, teklif satırı ayrıntıları bir işlem türüne sahiptir. Teklif satırı ayrıntıları için iki hareket türü desteklenir: **Maliyet** ve **Proje Sözleşmesi**.
 
@@ -35,7 +35,7 @@ Sözleşme satırı ayrıntıları zaman, gider veya ücretleri tahmin etmek iç
 
 Sözleşme satırı ayrıntılarında malzeme tahminlerine izin verilmez.
 
-Bir proje sözleşmesinde desteklenen işlemler fatura oluşturma ve onaydır. Fatura oluşturma, geçerli tarihe kadar faturalandırılmamış tüm satış fiili değerlerini içeren proje tabanlı bir faturanın taslağını oluşturur.
+Bir proje sözleşmesinde desteklenen işlemler fatura oluşturma ve onaydır. Fatura oluşturma, geçerli tarihe kadar faturalanmamış tüm satış fiili değerlerini içeren proje tabanlı bir faturanın taslağını oluşturur.
 
 Onay sözleşmenin salt okunur olmasını sağlar ve durumunu **Taslak** durumundan **Onaylandı** değiştirir. Bu eylemi gerçekleştirdikten sonra, geri alamazsınız. Bu eylem kalıcı olduğundan, sözleşmeyi **Taslak** durumunda tutmak en iyi uygulamadır.
 

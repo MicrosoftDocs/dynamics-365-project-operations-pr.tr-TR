@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287667"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Faturalanabilir projeler için muhasebeyi yapılandırma
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, zaman ve malzeme ile sabit fiyatlı işlemler içeren faturalanabilir projeler için çeşitli muhasebe seçeneklerini destekler.
+Dynamics 365 Project Operations, zaman ve malzeme işlemlerini ve sabit fiyatlı işlemleri içeren faturalanabilir projeler için çeşitli muhasebe seçeneklerini destekler.
 
 - **Zaman ve malzeme işlemleri**: Bu işlemler, iş ilerledikçe projede tüketilen saatlere, giderlere, öğelere veya ücretlere göre faturalanır. Bu işlem maliyetleri her işlemdeki gelirle eşleştirilebilir ve proje, iş ilerledikçe faturalanır. Proje geliri de işlemin gerçekleştiği sırada tahakkuk edilebilir. Faturalama sırasında gelir tanınır ve mümkünse, tahakkuk eden gelir tersine çevrilir.
 - **Sabit fiyatlı işlemler**: Bu işlemler, proje sözleşmesini temel alan bir fatura zamanlamasına göre faturalandırılır. Sabit fiyatlı işlemlere yönelik gelir, **Tamamlanan sözleşme** veya **Tamamlanan yüzde** yöntemlerine göre faturalanma sırasında tanınabilir veya düzenli olarak hesaplanıp deftere nakledilebilir.

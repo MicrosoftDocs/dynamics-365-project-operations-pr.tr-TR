@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4e23b5cd4b625736e02e62624ee838926e4dd325
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127587"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286722"
 ---
 # <a name="project-management-overview"></a>Proje yönetimine genel bakış
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'ta proje yönetimi araçları, projeleri kolayca çalıştırmanıza yardımcı olur. Zamanlama araçları, proje yöneticilerinin ve takımların üretken kalmalarını sağlar. Araçların yardımcı olduğu bazı görevler şunları içerir:
+Dynamics 365 Project Operations'taki proje yönetimi araçları, projeleri kolayca çalıştırmanıza yardımcı olur. Zamanlama araçları, proje yöneticilerinin ve takımların üretken kalmalarını sağlar. Araçların yardımcı olduğu bazı görevler şunları içerir:
 
 - Çalışma zamanlaması ve tahminlerini kullanarak projeleri planlayın.
 - Proje maliyetlerini ve gelirini tahmin edin ve izleyin.

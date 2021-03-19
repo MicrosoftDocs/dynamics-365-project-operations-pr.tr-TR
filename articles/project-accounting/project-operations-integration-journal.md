@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133466"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287262"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations, bir araçla ilgili olarak hareketleri gözden geçirmek ve muhasebe niteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
+Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations bir araçla ilgili olarak hareketleri incelemek ve muhasebe özniteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
 
 ![Tümleştirme günlüğü akışı](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın i
 Project Operations Tümleştirme Günlüğündeki kayıtlar dönemsel işlem kullanılarak oluşturulur, **hazırlama tablosundan alınır**. Bu işlemi, **Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **Periyodik** > **Project Operations Tümleştirmesi** > **Hazırlama tablosundan alma**'ya giderek çalıştırabilirsiniz. İşlemi etkileşimli olarak çalıştırabilir veya gerektiği gibi arka planda çalışacak şekilde yapılandırabilirsiniz.
 
 Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme günlüğüne eklenmemiş olan gerçek değerler bulunur. Her fiili hareket için bir günlük satırı oluşturulur.
-**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** _ sekmesinde Project Operations) seçilen değere bağlı olarak günlük satırlarını ayrı günlüklere ayırır. Bu alan için olası değerler şunlardır:
+**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** sekmesinde Project Operations) seçilen değere bağlı olarak yevmiye defteri satırlarını ayrı yevmiye defterlerine ayırır. Bu alan için olası değerler şunlardır:
 
-  - _*Günler**: Fiili değerler hareket tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
+  - **Günler**: Gerçek tutarlar, işlem tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
   - **Aylar**: Gerçek değerler takvim ayına göre gruplandırılır. Her ay için ayrı bir günlük oluşturulur.
   - **Yıllar**: Gerçek değerler takvim yılına göre gruplandırılır. Her yıl için ayrı bir günlük oluşturulur.
   - **Tümü**: tüm fiili hareketler aynı tümleştirme günlüğüne dahil edilir. Periyodik işlem çalışırken günlük kullanılamıyorsa, örneğin günlük hareketleri deftere nakletme sürecinizde ise yeni bir günlük oluşturulur.

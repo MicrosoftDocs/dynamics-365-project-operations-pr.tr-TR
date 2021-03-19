@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841415"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287037"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -92,6 +92,8 @@ Aşağıdaki tabloda ek zamanlama öznitelikleri gösterilmektedir.
 | Başlat | Başlangıç tarihi ve saati. |
 | Adı | Görevin adı. |
 | Kimlik | İş kırılım yapısındaki görevin kimliği. |
+
+Yönetici olarak, görev varlığında özel alanlar tanımlayabilirsiniz. Ancak alanlar, zamanlama ızgarasında görüntülenemez. Özel alanlarınızı görmek için bunları **Proje Görevi** ayrıntıları sayfasına ekleyin.
 
 ## <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f6ea664f9f38621ce5d1b0dd033d7df491f845ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 742b0b9c495b4b3ecb4705be3ece5656f0322ca9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146372"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285884"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>Fiyat neden gider maliyet gerçek değerlerinde varsayılan olarak sıfır oluyor
 
