@@ -1,838 +1,904 @@
 ---
-title: Proje tabanlı teklif satırlarına genel bakış - lite
-description: Bu konuda, proje çalışmaları için proje tabanlı teklif satırlarını kullanma hakkında bilgiler sağlanmaktadır. (Pro)
+title: Proje tabanlı teklif satırlarına genel bakış
+description: Bu konuda, proje çalışmaları için proje tabanlı teklif satırlarını kullanma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272997"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858722"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a><span data-ttu-id="2443d-104">Proje tabanlı teklif satırlarına genel bakış - lite</span><span class="sxs-lookup"><span data-stu-id="2443d-104">Project-based quote lines overview - lite</span></span>
+# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="2baf4-103">Proje tabanlı teklif satırlarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="2baf4-103">Project-based quote lines overview</span></span> 
 
-<span data-ttu-id="2443d-105">_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_</span><span class="sxs-lookup"><span data-stu-id="2443d-105">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="2baf4-104">_**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_</span><span class="sxs-lookup"><span data-stu-id="2baf4-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="2443d-106">Proje tabanlı teklif satırları, bir etkileşimdeki proje çalışmalarının tahmin edilmesine yardımcı olmak için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="2443d-106">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="2443d-107">Proje tabanlı teklif satırının yapısı, aşağıdaki kavramlarla proje tahminleri için genişletilmiştir:</span><span class="sxs-lookup"><span data-stu-id="2443d-107">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+<span data-ttu-id="2baf4-105">Proje tabanlı teklif satırları, bir etkileşimdeki proje çalışmalarının tahmin edilmesine yardımcı olmak için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="2baf4-106">Proje tabanlı teklif satırının yapısı, aşağıdaki kavramlarla proje tahminleri için genişletilmiştir:</span><span class="sxs-lookup"><span data-stu-id="2baf4-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- <span data-ttu-id="2443d-108">Faturalama Yöntemi</span><span class="sxs-lookup"><span data-stu-id="2443d-108">Billing Method</span></span>
-- <span data-ttu-id="2443d-109">Proje ve Görev Eşleme</span><span class="sxs-lookup"><span data-stu-id="2443d-109">Project and Task Mapping</span></span>
-- <span data-ttu-id="2443d-110">Dahil Edilen İşlem sınıfları</span><span class="sxs-lookup"><span data-stu-id="2443d-110">Included Transaction classes</span></span>
-- <span data-ttu-id="2443d-111">Aşılamaz Limit</span><span class="sxs-lookup"><span data-stu-id="2443d-111">Not-to-Exceed Limit</span></span>
-- <span data-ttu-id="2443d-112">Borçlandırılabilirlik ayarı</span><span class="sxs-lookup"><span data-stu-id="2443d-112">Chargeability setup</span></span>
-- <span data-ttu-id="2443d-113">Teklif Satırı Ayrıntılarını kullanarak tahmin yürütme</span><span class="sxs-lookup"><span data-stu-id="2443d-113">Estimation using Quote Line Details</span></span>
-- <span data-ttu-id="2443d-114">Teklif satırı Müşterileri</span><span class="sxs-lookup"><span data-stu-id="2443d-114">Quote line Customers</span></span>
+- <span data-ttu-id="2baf4-107">Faturalama Yöntemi</span><span class="sxs-lookup"><span data-stu-id="2baf4-107">Billing Method</span></span>
+- <span data-ttu-id="2baf4-108">Proje ve Görev Eşleme</span><span class="sxs-lookup"><span data-stu-id="2baf4-108">Project and Task Mapping</span></span>
+- <span data-ttu-id="2baf4-109">Dahil Edilen İşlem sınıfları</span><span class="sxs-lookup"><span data-stu-id="2baf4-109">Included Transaction classes</span></span>
+- <span data-ttu-id="2baf4-110">Aşılamaz Limit</span><span class="sxs-lookup"><span data-stu-id="2baf4-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="2baf4-111">Borçlandırılabilirlik ayarı</span><span class="sxs-lookup"><span data-stu-id="2baf4-111">Chargeability setup</span></span>
+- <span data-ttu-id="2baf4-112">Teklif Satırı Ayrıntılarını kullanarak tahmin yürütme</span><span class="sxs-lookup"><span data-stu-id="2baf4-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="2baf4-113">Teklif satırı Müşterileri</span><span class="sxs-lookup"><span data-stu-id="2baf4-113">Quote line Customers</span></span>
 
-<span data-ttu-id="2443d-115">Aşağıdaki tabloda proje tabanlı teklif satırının **Genel** sekmesindeki alanlar hakkında bilgi sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2443d-115">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="2443d-116">Bu alanlar, proje çalışmaları için ayrıntılı, baştan sona bir tahmin için temel oluşturulmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2443d-116">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+<span data-ttu-id="2baf4-114">Aşağıdaki tabloda proje tabanlı teklif satırının **Genel** sekmesindeki alanlar hakkında bilgi sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="2baf4-115">Bu alanlar, proje çalışmaları için ayrıntılı, baştan sona bir tahmin için temel oluşturulmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2baf4-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| <span data-ttu-id="2443d-117">**Alan**</span><span class="sxs-lookup"><span data-stu-id="2443d-117">**Field**</span></span> | <span data-ttu-id="2443d-118">**Açıklama**</span><span class="sxs-lookup"><span data-stu-id="2443d-118">**Description**</span></span> | <span data-ttu-id="2443d-119">**Aşağı yönlü etki**</span><span class="sxs-lookup"><span data-stu-id="2443d-119">**Downstream impact**</span></span> |
+| <span data-ttu-id="2baf4-116">**Alan**</span><span class="sxs-lookup"><span data-stu-id="2baf4-116">**Field**</span></span> | <span data-ttu-id="2baf4-117">**Açıklama**</span><span class="sxs-lookup"><span data-stu-id="2baf4-117">**Description**</span></span> | <span data-ttu-id="2baf4-118">**Aşağı yönlü etki**</span><span class="sxs-lookup"><span data-stu-id="2baf4-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="2443d-120">Veri Akışı Adı</span><span class="sxs-lookup"><span data-stu-id="2443d-120">Name</span></span> | <span data-ttu-id="2443d-121">Tahmin edilen teklifin farklı olan bileşenini belirlemenize yardımcı olması gereken teklif satırının adı.</span><span class="sxs-lookup"><span data-stu-id="2443d-121">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="2443d-122">Teklif kazanıldığında, bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-122">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-123">Faturalama Yöntemi</span><span class="sxs-lookup"><span data-stu-id="2443d-123">Billing Method</span></span> | <span data-ttu-id="2443d-124">Fırsattan oluşturulan bir teklifte bu değer, fırsat satırındaki ilgili alandan kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-124">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="2443d-125">Bu alan, Dynamics 365 Project Operations tarafından desteklenen iki ana sözleşme modeli içerir:</span><span class="sxs-lookup"><span data-stu-id="2443d-125">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="2443d-126">- Sabit fiyat</span><span class="sxs-lookup"><span data-stu-id="2443d-126">- Fixed price</span></span></br><span data-ttu-id="2443d-127">- Zaman ve malzeme.</span><span class="sxs-lookup"><span data-stu-id="2443d-127">- Time and material.</span></span>| <span data-ttu-id="2443d-128">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-128">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-129">Project</span><span class="sxs-lookup"><span data-stu-id="2443d-129">Project</span></span> | <span data-ttu-id="2443d-130">Bu etkileşimde kullanılacak projeyi belirleyerek çalışmayı teslim etmek için bu isteğe bağlı alanı kullanın.</span><span class="sxs-lookup"><span data-stu-id="2443d-130">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="2443d-131">Proje bir teklif satırına eşlendiğinde, borçlandırılabilir görevler oluşturulmasına ve ayrıca proje bazlı bir tahminin teklif satırına teklif satırı ayrıntıları olarak getirilmesine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2443d-131">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="2443d-132">Proje, proje bazlı bir teklif satırına eşlenmediğinde tahmin, her bir teklif satırı ayrıntısının el ile oluşturulmasıyla elde edilmelidir.</span><span class="sxs-lookup"><span data-stu-id="2443d-132">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="2443d-133">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-133">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
-| <span data-ttu-id="2443d-134">Dahil Edilen Görevler</span><span class="sxs-lookup"><span data-stu-id="2443d-134">Included Tasks</span></span> | <span data-ttu-id="2443d-135">Bu teklif satırının seçilen projenin görevlerinin tümünde veya bazılarında kullanılıp kullanılmadığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="2443d-135">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="2443d-136">Bu alan aşağıdaki olası değerlere sahiptir:</span><span class="sxs-lookup"><span data-stu-id="2443d-136">This field has the following possible values:</span></span></br><span data-ttu-id="2443d-137">- Tüm proje görevleri</span><span class="sxs-lookup"><span data-stu-id="2443d-137">- All project tasks</span></span></br><span data-ttu-id="2443d-138">- Yalnızca seçili proje görevleri</span><span class="sxs-lookup"><span data-stu-id="2443d-138">- Selected project tasks only</span></span></br><span data-ttu-id="2443d-139">Bu alandaki boş bir değer **Tüm proje görevleri** seçeneğinin eşdeğeridir.</span><span class="sxs-lookup"><span data-stu-id="2443d-139">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="2443d-140">Proje sayfasında **Yalnızca seçili proje görevleri** seçildiğinde, **Görev faturalama ayarları** sekmesi belirli görevleri, bu teklif satırıyla ilişkilendirmek için seçmenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-140">When **Selected project tasks only** is selected then on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="2443d-141">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-141">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-142">Zaman Ekle</span><span class="sxs-lookup"><span data-stu-id="2443d-142">Include Time</span></span> | <span data-ttu-id="2443d-143">**Evet**/**Hayır** bayrağı, seçilen projedeki zaman işlemlerinin veya işçilik maliyetlerinin bu teklif satırındaki tahmine dahil edilip edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-143">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-144">**Hayır** değeri, zaman işlemlerinin veya işçilik maliyetinin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-144">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-145">**Evet** değeri, zaman işlemlerinin veya işçilik maliyetinin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-145">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2443d-146">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-146">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-147">Gider Ekle</span><span class="sxs-lookup"><span data-stu-id="2443d-147">Include Expense</span></span> | <span data-ttu-id="2443d-148">**Evet**/**Hayır** bayrağı, seçilen projedeki gider maliyetlerinin bu teklif satırındaki tahmine dahil edilip edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-148">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-149">**Hayır** değeri, gider maliyetinin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-149">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-150">**Evet** değeri, gider maliyetinin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-150">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2443d-151">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırının üzerine kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-151">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-152">Ücret Ekle</span><span class="sxs-lookup"><span data-stu-id="2443d-152">Include Fee</span></span> | <span data-ttu-id="2443d-153">**Evet**/**Hayır** bayrağı, seçilen projedeki ücretlerin bu teklif satırındaki tahmine dahil edilip edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-153">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-154">**Hayır** değeri, Ücretlerin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-154">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2443d-155">**Evet** değeri, Ücretlerin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2443d-155">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2443d-156">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan Proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-156">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-157">Teklif Edilen Tutar</span><span class="sxs-lookup"><span data-stu-id="2443d-157">Quoted Amount</span></span> | <span data-ttu-id="2443d-158">Bu, proje tabanlı teklif satırında tahmin edilen tüm çalışmalar için müşteriye teklif edilecek tutardır.</span><span class="sxs-lookup"><span data-stu-id="2443d-158">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="2443d-159">Fırsattan oluşturulan bir teklifte, bu değer fırsat satırındaki **Müşteri Bütçesi** alanından kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-159">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="2443d-160">Proje tabanlı teklif satırı satır ayrıntılarına sahip olduğunda, bu alan düzenlemeye kilitlenir ve teklif satırı ayrıntılarındaki tutardan özetlenir.</span><span class="sxs-lookup"><span data-stu-id="2443d-160">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="2443d-161">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-161">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-162">Tahmini Vergi</span><span class="sxs-lookup"><span data-stu-id="2443d-162">Estimated Tax</span></span> | <span data-ttu-id="2443d-163">Bu, kullanıcının teklif satırına tahmini vergi tutarını ekleyebileceği düzenlenebilir bir alandır.</span><span class="sxs-lookup"><span data-stu-id="2443d-163">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="2443d-164">Proje tabanlı teklif satırı, satır ayrıntılarına sahip olduğunda, bu alan düzenlemeye kilitlenir ve teklif satırı ayrıntılarındaki vergi tutarından özetlenir.</span><span class="sxs-lookup"><span data-stu-id="2443d-164">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="2443d-165">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-165">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-166">Vergi Sonrası Teklif Tutarı</span><span class="sxs-lookup"><span data-stu-id="2443d-166">Quoted Amount after Tax</span></span> | <span data-ttu-id="2443d-167">Bu alan, vergi sonrası teklif satırı tutarıdır ve salt okunurdur.</span><span class="sxs-lookup"><span data-stu-id="2443d-167">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="2443d-168">Bu alandaki tutar *Teklif Tutarı + Vergi* olarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-168">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="2443d-169">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-169">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-170">Aşılamaz Limit</span><span class="sxs-lookup"><span data-stu-id="2443d-170">Not-to-exceed Limit</span></span> | <span data-ttu-id="2443d-171">Bu alan, düzenlenebilirdir ve yalnızca **Zaman ve Malzeme** faturalama yöntemine sahip proje bazlı teklif satırlarında kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-171">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="2443d-172">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-172">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="2443d-173">Müşteri Bütçesi</span><span class="sxs-lookup"><span data-stu-id="2443d-173">Customer Budget</span></span> | <span data-ttu-id="2443d-174">Bu alan, düzenlenebilirdir ve teklif bir fırsattan oluşturulmuşsa fırsat satırındaki ilgili alandan kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-174">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="2443d-175">Bu alanın değeri, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-175">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-119">Adı</span><span class="sxs-lookup"><span data-stu-id="2baf4-119">Name</span></span> | <span data-ttu-id="2baf4-120">Tahmin edilen teklifin farklı bileşenini belirlemenize yardımcı olan teklif satırı adı.</span><span class="sxs-lookup"><span data-stu-id="2baf4-120">The name of quote line that helps you to identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="2baf4-121">Teklif kazanıldığında, bu teklif satırından oluşturulan proje sözleşme satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-122">Faturalama Yöntemi</span><span class="sxs-lookup"><span data-stu-id="2baf4-122">Billing Method</span></span> | <span data-ttu-id="2baf4-123">Fırsattan oluşturulan bir teklifte bu değer, fırsat satırındaki ilgili alandan kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="2baf4-124">Bu alan, Dynamics 365 Project Operations tarafından desteklenen iki ana sözleşme modeli içerir:</span><span class="sxs-lookup"><span data-stu-id="2baf4-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="2baf4-125">- Sabit fiyat</span><span class="sxs-lookup"><span data-stu-id="2baf4-125">- Fixed price</span></span></br><span data-ttu-id="2baf4-126">- Zaman ve malzeme.</span><span class="sxs-lookup"><span data-stu-id="2baf4-126">- Time and material.</span></span>| <span data-ttu-id="2baf4-127">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-127">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-128">Project</span><span class="sxs-lookup"><span data-stu-id="2baf4-128">Project</span></span> | <span data-ttu-id="2baf4-129">Bu etkileşimde kullanılacak projeyi belirleyerek çalışmayı teslim etmek için bu isteğe bağlı alanı kullanın.</span><span class="sxs-lookup"><span data-stu-id="2baf4-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="2baf4-130">Proje bir teklif satırına eşlendiğinde, borçlandırılabilir görevler oluşturulmasına ve ayrıca proje bazlı bir tahminin teklif satırına teklif satırı ayrıntıları olarak getirilmesine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2baf4-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="2baf4-131">Proje, proje bazlı bir teklif satırına eşlenmediğinde tahmin, her bir teklif satırı ayrıntısının el ile oluşturulmasıyla elde edilmelidir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="2baf4-132">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-132">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
+| <span data-ttu-id="2baf4-133">Dahil Edilen Görevler</span><span class="sxs-lookup"><span data-stu-id="2baf4-133">Included Tasks</span></span> | <span data-ttu-id="2baf4-134">Bu teklif satırının seçilen projenin görevlerinin tümünde veya bazılarında kullanılıp kullanılmadığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-134">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="2baf4-135">Bu alan aşağıdaki olası değerlere sahiptir:</span><span class="sxs-lookup"><span data-stu-id="2baf4-135">This field has the following possible values:</span></span></br><span data-ttu-id="2baf4-136">- Tüm proje görevleri</span><span class="sxs-lookup"><span data-stu-id="2baf4-136">- All project tasks</span></span></br><span data-ttu-id="2baf4-137">- Yalnızca seçili proje görevleri</span><span class="sxs-lookup"><span data-stu-id="2baf4-137">- Selected project tasks only</span></span></br><span data-ttu-id="2baf4-138">Bu alandaki boş bir değer **Tüm proje görevleri** seçeneğinin eşdeğeridir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-138">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="2baf4-139">Proje sayfasında **Yalnızca seçili proje görevleri** seçeneği belirlendiğinde **Görev fatura ayarı** sekmesi, bu teklif satırıyla ilişkilendirmek üzere belirli görevleri seçmenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="2baf4-139">When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="2baf4-140">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-140">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-141">Zaman Ekle</span><span class="sxs-lookup"><span data-stu-id="2baf4-141">Include Time</span></span> | <span data-ttu-id="2baf4-142">**Evet**/**Hayır** değeri, seçili projedeki zaman hareketlerinin veya işçilik maliyetlerinin bu teklif satırı tahminine dahil edilip edilmeyeceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-142">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-143">**Hayır** değeri, zaman işlemlerinin veya işçilik maliyetinin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-143">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-144">**Evet** değeri, zaman işlemlerinin veya işçilik maliyetinin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-144">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2baf4-145">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-145">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-146">Gider Ekle</span><span class="sxs-lookup"><span data-stu-id="2baf4-146">Include Expense</span></span> | <span data-ttu-id="2baf4-147">**Evet**/**Hayır** değeri, seçili projedeki gider maliyetlerinin bu teklif satırı tahminine dahil edilip edilmeyeceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-147">A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-148">**Hayır** değeri, gider maliyetinin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-148">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-149">**Evet** değeri, gider maliyetinin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-149">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2baf4-150">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-150">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-151">Malzeme Ekle</span><span class="sxs-lookup"><span data-stu-id="2baf4-151">Include Material</span></span> | <span data-ttu-id="2baf4-152">**Evet**/**Hayır** değeri, seçili projedeki malzeme maliyetlerinin bu teklif satırı tahminine dahil edilip edilmeyeceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-152">A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-153">**Hayır** değeri, malzeme maliyetlerinin bu teklif satırı tahminine dahil edilmeyeceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-153">A **No** value indicates that the material costs will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-154">**Evet** değeri, malzeme maliyetlerinin bu teklif satırı tahminine dahil edileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-154">A **Yes** value indicates that the material costs will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2baf4-155">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-155">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-156">Ücret Ekle</span><span class="sxs-lookup"><span data-stu-id="2baf4-156">Include Fee</span></span> | <span data-ttu-id="2baf4-157">**Evet**/**Hayır** değeri, seçili projedeki ücretlerin bu teklif satırı tahminine dahil edilip edilmeyeceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-157">A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-158">**Hayır** değeri, ücretlerin bu teklif satırındaki tahmine dahil edilmeyeceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-158">A **No** value indicates that the fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="2baf4-159">**Evet** değeri, ücretlerin bu teklif satırındaki tahmine dahil edileceğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-159">A **Yes** value indicates that the fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="2baf4-160">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan Proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-160">This value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-161">Teklif Edilen Tutar</span><span class="sxs-lookup"><span data-stu-id="2baf4-161">Quoted Amount</span></span> | <span data-ttu-id="2baf4-162">Bu, proje tabanlı teklif satırındaki tüm tahmin edilen çalışma için müşteriye teklif edilecek tutardır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-162">This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="2baf4-163">Fırsattan oluşturulan bir teklifte, bu değer fırsat satırındaki **Müşteri Bütçesi** alanından kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-163">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="2baf4-164">Proje tabanlı teklif satırı satır ayrıntılarına sahip olduğunda, bu alan düzenlemeye kilitlenir ve teklif satırı ayrıntılarındaki tutardan özetlenir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-164">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="2baf4-165">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-165">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-166">Tahmini Vergi</span><span class="sxs-lookup"><span data-stu-id="2baf4-166">Estimated Tax</span></span> | <span data-ttu-id="2baf4-167">Bu, kullanıcının teklif satırına tahmini vergi tutarını ekleyebileceği düzenlenebilir bir alandır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-167">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="2baf4-168">Proje tabanlı teklif satırı, satır ayrıntılarına sahip olduğunda, bu alan düzenlemeye kilitlenir ve teklif satırı ayrıntılarındaki vergi tutarından özetlenir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-168">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="2baf4-169">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-169">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-170">Vergi Sonrası Teklif Tutarı</span><span class="sxs-lookup"><span data-stu-id="2baf4-170">Quoted Amount after Tax</span></span> | <span data-ttu-id="2baf4-171">Bu alan, vergi sonrası teklif satırı tutarıdır ve salt okunurdur.</span><span class="sxs-lookup"><span data-stu-id="2baf4-171">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="2baf4-172">Bu alandaki tutar *Teklif Tutarı + Vergi* olarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-172">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="2baf4-173">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-173">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-174">Aşılamaz Limit</span><span class="sxs-lookup"><span data-stu-id="2baf4-174">Not-to-exceed Limit</span></span> | <span data-ttu-id="2baf4-175">Bu alan, düzenlenebilirdir ve yalnızca **Zaman ve Malzeme** faturalama yöntemine sahip proje bazlı teklif satırlarında kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-175">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="2baf4-176">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-176">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="2baf4-177">Müşteri Bütçesi</span><span class="sxs-lookup"><span data-stu-id="2baf4-177">Customer Budget</span></span> | <span data-ttu-id="2baf4-178">Bu alan, düzenlenebilirdir ve teklif bir fırsattan oluşturulmuşsa fırsat satırındaki ilgili alandan kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-178">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="2baf4-179">Bu değer, teklif kazanıldığında bu teklif satırından oluşturulan proje sözleşmesi satırına kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-179">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="2443d-176">Proje tabanlı teklif satırlarının Genel sekmesindeki alanları için doğrulama kuralları</span><span class="sxs-lookup"><span data-stu-id="2443d-176">Validation rules for fields on the General tab of project-based quote lines</span></span>
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="2baf4-180">Proje tabanlı teklif satırlarının Genel sekmesindeki alanları için doğrulama kuralları</span><span class="sxs-lookup"><span data-stu-id="2baf4-180">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-<span data-ttu-id="2443d-177">**Kural 1**: **Eklenen Görevler** alanı boşsa veya bu alan **Tüm proje görevleri** olarak ayarlanmışsa teklif satırına bir proje dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-177">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
+<span data-ttu-id="2baf4-181">**Kural 1**: **Eklenen Görevler** alanı boşsa veya bu alan **Tüm proje görevleri** olarak ayarlanmışsa teklif satırına bir proje dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-181">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
 
-<span data-ttu-id="2443d-178">**Kural 2**: **Eklenen Görevler** alanı boşsa veya bu alan **Tüm proje görevleri** olarak ayarlanmışsa bir proje ve belirli bir işlem sınıfı, bir teklifin yalnızca proje tabanlı bir teklif satırına dahil edilebilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-178">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
+<span data-ttu-id="2baf4-182">**Kural 2**: **Eklenen Görevler** alanı boşsa veya bu alan **Tüm proje görevleri** olarak ayarlanmışsa bir proje ve belirli bir işlem sınıfı, bir teklifin yalnızca proje tabanlı bir teklif satırına dahil edilebilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-182">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
 
-<span data-ttu-id="2443d-179">**Kural 3**: **Eklenen Görevler** alanı **Yalnızca seçili proje görevleri** olarak ayarlanmışsa bir proje ve belirli bir işlem sınıfı, bir teklifin birden çok proje tabanlı teklif satırına dahil edilebilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-179">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
+<span data-ttu-id="2baf4-183">**Kural 3**: **Eklenen Görevler** alanı **Yalnızca seçili proje görevleri** olarak ayarlanmışsa bir proje ve belirli bir işlem sınıfı, bir teklifin birden çok proje tabanlı teklif satırına dahil edilebilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-183">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
 
-<span data-ttu-id="2443d-180">**Kural 4**: Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-180">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+<span data-ttu-id="2baf4-184">**Kural 4**: Bir fırsatın birden fazla teklifi varsa hepsi aynı projeye atıfta bulunan ve aynı işlem sınıfını içeren farklı tekliflerden teklif satırları olabilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-184">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-<span data-ttu-id="2443d-181">**Kural 5**: Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.</span><span class="sxs-lookup"><span data-stu-id="2443d-181">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+<span data-ttu-id="2baf4-185">**Kural 5**: Teklifler aynı fırsata ait değilse aynı projeyi ve işlem sınıfını içeremezler.</span><span class="sxs-lookup"><span data-stu-id="2baf4-185">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
-                <p><span data-ttu-id="2443d-182">
+            <td width="59" valign="top">
+                <p><span data-ttu-id="2baf4-186">
                     <strong>Fırsat</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-182">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-186">
                     <strong>Opportunity</strong>
                 </span></span></p>
             </td>
-            <td width="41" valign="top">
-                <p><span data-ttu-id="2443d-183">
+            <td width="39" valign="top">
+                <p><span data-ttu-id="2baf4-187">
                     <strong>Teklif</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-183">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-187">
                     <strong>Quote</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="2443d-184">
+            <td width="40" valign="top">
+                <p><span data-ttu-id="2baf4-188">
                     <strong>Teklif satırı</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-184">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-188">
                     <strong>Quote line</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="2443d-185">
+            <td width="41" valign="top">
+                <p><span data-ttu-id="2baf4-189">
                     <strong>Project</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-185">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-189">
                     <strong>Project</strong>
                 </span></span></p>
             </td>
-            <td width="90" valign="top">
-                <p><span data-ttu-id="2443d-186">
+            <td width="77" valign="top">
+                <p><span data-ttu-id="2baf4-190">
                     <strong>Dahil edilen görevler</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-186">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-190">
                     <strong>Included tasks</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="2443d-187">
+            <td width="45" valign="top">
+                <p><span data-ttu-id="2baf4-191">
                     <strong>Zaman Ekle</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-187">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-191">
                     <strong>Include Time</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="2443d-188">
+            <td width="46" valign="top">
+                <p><span data-ttu-id="2baf4-192">
                     <strong>Gider Ekle</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-188">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-192">
                     <strong>Include Expense</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="2443d-189">
+            <td width="43" valign="top">
+                <p><span data-ttu-id="2baf4-193">
+                    <strong>Malzeme Ekle</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-193">
+                    <strong>Include Material</strong>
+                </span></span></p>
+            </td>
+            <td width="41" valign="top">
+                <p><span data-ttu-id="2baf4-194">
                     <strong>Ekle</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-189">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-194">
                     <strong>Include</strong>
                 </span></span></p>
-                <p><span data-ttu-id="2443d-190">
+                <p><span data-ttu-id="2baf4-195">
                     <strong>Ücret</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-190">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-195">
                     <strong>Fee</strong>
                 </span></span></p>
             </td>
-            <td width="54" valign="top">
-                <p><span data-ttu-id="2443d-191">
+            <td width="49" valign="top">
+                <p><span data-ttu-id="2baf4-196">
                     <strong>Geçerli/Geçerli değil</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-191">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-196">
                     <strong>Valid/ Not valid</strong>
                 </span></span></p>
             </td>
-            <td width="308" valign="top">
-                <p><span data-ttu-id="2443d-192">
+            <td width="200" valign="top">
+                <p><span data-ttu-id="2baf4-197">
                     <strong>Neden</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="2443d-192">
+                </span><span class="sxs-lookup"><span data-stu-id="2baf4-197">
                     <strong>Reason</strong>
                 </span></span></p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-193">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-193">O1</span></span> </p>
+<span data-ttu-id="2baf4-198">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-198">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-199">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-199">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-200">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-200">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-194">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-194">Q1</span></span> </p>
+<span data-ttu-id="2baf4-201">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-201">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-195">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-195">QL1</span></span> </p>
+<span data-ttu-id="2baf4-202">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-202">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-196">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-196">P1</span></span> </p>
+<span data-ttu-id="2baf4-203">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-203">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-197">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-197">Blank</span></span> </p>
+<span data-ttu-id="2baf4-204">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-204">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-198">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-198">Yes</span></span> </p>
+<span data-ttu-id="2baf4-205">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-205">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-199">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-199">Yes</span></span> </p>
+<span data-ttu-id="2baf4-206">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-206">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-200">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-200">Yes</span></span> </p>
+<span data-ttu-id="2baf4-207">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2baf4-207">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-201">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2443d-201">Not valid</span></span> </p>
+<span data-ttu-id="2baf4-208">Kural 2'nin ihlali.</span><span class="sxs-lookup"><span data-stu-id="2baf4-208">Violation of Rule #2.</span></span> <span data-ttu-id="2baf4-209">P1 projesindeki Zaman, Gider ve Ücretler, QL1 ve QL2 teklif satırlarına dahil edilir</span><span class="sxs-lookup"><span data-stu-id="2baf4-209">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+        </tr>
+        <tr>
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-202">Kural 2'nin ihlali.</span><span class="sxs-lookup"><span data-stu-id="2443d-202">Violation of Rule #2.</span></span> <span data-ttu-id="2443d-203">P1 projesindeki Zaman, Gider ve Ücretler, QL1 ve QL2 teklif satırlarına dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-203">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="2baf4-210">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-210">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-211">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-211">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-212">QL2</span><span class="sxs-lookup"><span data-stu-id="2baf4-212">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-213">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-213">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="2baf4-214">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-214">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="2baf4-215">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-215">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="2baf4-216">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-216">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="2baf4-217">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-217">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-218">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-218">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="2baf4-219">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-219">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-220">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-220">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-221">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-221">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-222">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-222">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="2baf4-223">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-223">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="2baf4-224">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-224">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="2baf4-225">No</span><span class="sxs-lookup"><span data-stu-id="2baf4-225">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="2baf4-226">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-226">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-227">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-227">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="2baf4-228">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2baf4-228">Not valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="2baf4-229">Kural 2'nin ihlali.</span><span class="sxs-lookup"><span data-stu-id="2baf4-229">Violation of Rule #2.</span></span> <span data-ttu-id="2baf4-230">P1 projesindeki Zaman, Malzeme ve Ücretler, QL1 ve QL2 teklif satırlarına dahil edilir</span><span class="sxs-lookup"><span data-stu-id="2baf4-230">Time, Material, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="2baf4-231">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-231">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-232">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-232">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-233">QL2</span><span class="sxs-lookup"><span data-stu-id="2baf4-233">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-234">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-234">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="2baf4-235">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-235">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="2baf4-236">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-236">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="2baf4-237">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-237">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="2baf4-238">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-238">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-239">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-239">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="2baf4-240">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-240">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-241">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-241">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-242">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-242">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-243">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-243">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="2baf4-244">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-244">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="2baf4-245">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-245">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="2baf4-246">No</span><span class="sxs-lookup"><span data-stu-id="2baf4-246">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="2baf4-247">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-247">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="2baf4-248">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-248">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="2baf4-249">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2baf4-249">Valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="2baf4-250">P1 projesindeki Zaman, Malzeme ve Ücretler QL1'e dahil edilir</span><span class="sxs-lookup"><span data-stu-id="2baf4-250">Time, Material, and Fees on P1 project are included on QL1</span></span> <br>
+<span data-ttu-id="2baf4-251">P1 projesindeki giderler QL2'ye dahildir</span><span class="sxs-lookup"><span data-stu-id="2baf4-251">Expense on P1 project is included on QL2</span></span> <br>
+<span data-ttu-id="2baf4-252">Her bir teklif satırına dahil edilenler arasında çakışma yok ve bu nedenle geçerli.</span><span class="sxs-lookup"><span data-stu-id="2baf4-252">No overlap in what is being included on each quote line and therefore valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-204">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-204">O1</span></span> </p>
+<span data-ttu-id="2baf4-253">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-253">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-254">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-254">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-255">QL2</span><span class="sxs-lookup"><span data-stu-id="2baf4-255">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-205">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-205">Q1</span></span> </p>
+<span data-ttu-id="2baf4-256">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-256">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-206">QL2</span><span class="sxs-lookup"><span data-stu-id="2443d-206">QL2</span></span> </p>
+<span data-ttu-id="2baf4-257">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-257">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-207">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-207">P1</span></span> </p>
+<span data-ttu-id="2baf4-258">No</span><span class="sxs-lookup"><span data-stu-id="2baf4-258">No</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-208">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-208">Blank</span></span> </p>
+<span data-ttu-id="2baf4-259">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-259">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-209">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-209">Yes</span></span> </p>
+<span data-ttu-id="2baf4-260">No</span><span class="sxs-lookup"><span data-stu-id="2baf4-260">No</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-210">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-210">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-211">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-211">Yes</span></span> </p>
+<span data-ttu-id="2baf4-261">No</span><span class="sxs-lookup"><span data-stu-id="2baf4-261">No</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-212">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-212">O1</span></span> </p>
+<span data-ttu-id="2baf4-262">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-262">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-263">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-263">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-264">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-264">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-213">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-213">Q1</span></span> </p>
+<span data-ttu-id="2baf4-265">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-265">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-214">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-214">QL1</span></span> </p>
+<span data-ttu-id="2baf4-266">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2baf4-266">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-215">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-215">P1</span></span> </p>
+<span data-ttu-id="2baf4-267">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-267">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-216">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-216">Blank</span></span> </p>
+<span data-ttu-id="2baf4-268">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-268">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-217">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-217">Yes</span></span> </p>
+<span data-ttu-id="2baf4-269">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-269">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-218">No</span><span class="sxs-lookup"><span data-stu-id="2443d-218">No</span></span> </p>
+<span data-ttu-id="2baf4-270">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-270">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-219">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-219">Yes</span></span> </p>
+<span data-ttu-id="2baf4-271">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2baf4-271">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-220">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2443d-220">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
+<span data-ttu-id="2baf4-272">Kural 2'nin ihlali</span><span class="sxs-lookup"><span data-stu-id="2baf4-272">Violation of Rule #2</span></span> </p>
                 <p>
-<span data-ttu-id="2443d-221">Kural 2'nin ihlali.</span><span class="sxs-lookup"><span data-stu-id="2443d-221">Violation of Rule #2.</span></span> <span data-ttu-id="2443d-222">P1 projesindeki Zaman ve Ücretler, QL1 ve QL2 teklif satırlarına dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-222">Time and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="2baf4-273">Q1'e, proje P1 üzerindeki bir görev alt kümesinde Zaman, Malzeme, Giderler ve Ücretler dahildir</span><span class="sxs-lookup"><span data-stu-id="2baf4-273">Q1 includes Time, Material, Expenses and Fees on a subset of tasks on project P1</span></span> </p>
+                <p>
+<span data-ttu-id="2baf4-274">QL2 tüm proje P1 için Zaman, Giderler ve Ücretleri içerir, bu nedenle Q1'in içerdiği verilerle örtüşür.</span><span class="sxs-lookup"><span data-stu-id="2baf4-274">QL2 includes Time, Expenses, and Fees for the whole project P1 and therefore overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-223">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-223">O1</span></span> </p>
+<span data-ttu-id="2baf4-275">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-275">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-276">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-276">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-277">QL2</span><span class="sxs-lookup"><span data-stu-id="2baf4-277">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-224">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-224">Q1</span></span> </p>
+<span data-ttu-id="2baf4-278">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-278">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-225">QL2</span><span class="sxs-lookup"><span data-stu-id="2443d-225">QL2</span></span> </p>
+<span data-ttu-id="2baf4-279">Boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-279">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-226">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-226">P1</span></span> </p>
+<span data-ttu-id="2baf4-280">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-280">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-227">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-227">Blank</span></span> </p>
+<span data-ttu-id="2baf4-281">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-281">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-228">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-228">Yes</span></span> </p>
+<span data-ttu-id="2baf4-282">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-282">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-229">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-229">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-230">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-230">Yes</span></span> </p>
+<span data-ttu-id="2baf4-283">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-283">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-231">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-231">O1</span></span> </p>
+<span data-ttu-id="2baf4-284">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-284">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-285">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-285">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-286">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-286">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-232">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-232">Q1</span></span> </p>
+<span data-ttu-id="2baf4-287">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-287">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-233">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-233">QL1</span></span> </p>
+<span data-ttu-id="2baf4-288">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2baf4-288">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-234">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-234">P1</span></span> </p>
+<span data-ttu-id="2baf4-289">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-289">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-235">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-235">Blank</span></span> </p>
+<span data-ttu-id="2baf4-290">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-290">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-236">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-236">Yes</span></span> </p>
+<span data-ttu-id="2baf4-291">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-291">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-237">No</span><span class="sxs-lookup"><span data-stu-id="2443d-237">No</span></span> </p>
+<span data-ttu-id="2baf4-292">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-292">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-238">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-238">Yes</span></span> </p>
+<span data-ttu-id="2baf4-293">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2baf4-293">Valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-239">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2443d-239">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-<span data-ttu-id="2443d-240">P1 projesindeki Zaman ve Ücretler, QL1'e dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-240">Time and Fees on P1 project are included on QL1.</span></span>
-<span data-ttu-id="2443d-241">P1 projesindeki giderler QL2'ye dahildir.</span><span class="sxs-lookup"><span data-stu-id="2443d-241">Expense on P1 project is included on QL2.</span></span>
-<span data-ttu-id="2443d-242">Dahil edilen teklif satırlarının hiçbirinin birbiriyle çakışması yoktur ve hepsi geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="2443d-242">There is no overlap in what is being included on each quote line and is valid.</span></span>
+<span data-ttu-id="2baf4-294">Kural 3 uyarınca,</span><span class="sxs-lookup"><span data-stu-id="2baf4-294">Per Rule #3,</span></span> </p>
+                <p>
+<span data-ttu-id="2baf4-295">Q1'e, proje P1 üzerindeki bir görev alt kümesinde Zaman, Malzeme, Giderler ve Ücretler dahildir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-295">Q1 includes Time, Material, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="2baf4-296">QL2'e, proje P1 üzerindeki bir görev alt kümesi için Zaman, Malzeme ve Giderler dahildir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-296">QL2 includes Time, Material, Expenses, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="2baf4-297">Yalnızca tek bir ek doğrulama yapılır. Bu doğrulamanın amacı, çakışmaları önlemek için QL1 üzerindeki alt görevlerin QL2 üzerindeki alt görevlerden farklı olmasını kontrol etmektir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-297">The only additional validation is around the subset of tasks on QL1 which is different from the subset of tasks on QL2 to ensure that there is no overlap.</span></span> <span data-ttu-id="2baf4-298">Bu, görevler ilişkilendirildiğinde sistem tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="2baf4-298">This is done by the system when tasks are associated.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-243">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-243">O1</span></span> </p>
+<span data-ttu-id="2baf4-299">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-299">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-300">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-300">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-301">QL2</span><span class="sxs-lookup"><span data-stu-id="2baf4-301">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-244">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-244">Q1</span></span> </p>
+<span data-ttu-id="2baf4-302">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-302">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-245">QL2</span><span class="sxs-lookup"><span data-stu-id="2443d-245">QL2</span></span> </p>
+<span data-ttu-id="2baf4-303">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2baf4-303">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-246">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-246">P1</span></span> </p>
+<span data-ttu-id="2baf4-304">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-304">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-247">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-247">Blank</span></span> </p>
+<span data-ttu-id="2baf4-305">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-305">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-248">No</span><span class="sxs-lookup"><span data-stu-id="2443d-248">No</span></span> </p>
+<span data-ttu-id="2baf4-306">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-306">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-249">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-249">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-250">No</span><span class="sxs-lookup"><span data-stu-id="2443d-250">No</span></span> </p>
+<span data-ttu-id="2baf4-307">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-307">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-251">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-251">O1</span></span> </p>
+<span data-ttu-id="2baf4-308">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-308">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-309">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-309">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-310">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-310">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-252">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-252">Q1</span></span> </p>
+<span data-ttu-id="2baf4-311">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-311">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-253">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-253">QL1</span></span> </p>
+<span data-ttu-id="2baf4-312">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-312">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-254">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-254">P1</span></span> </p>
+<span data-ttu-id="2baf4-313">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-313">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-255">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2443d-255">Selected tasks only</span></span> </p>
+<span data-ttu-id="2baf4-314">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-314">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-256">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-256">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-257">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-257">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-258">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-258">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-259">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="2443d-259">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-260">Kural 2'nin yukarıdaki ihlali</span><span class="sxs-lookup"><span data-stu-id="2443d-260">Violation of Rule #2 above</span></span> </p>
-                <p>
-<span data-ttu-id="2443d-261">Q1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir.</span><span class="sxs-lookup"><span data-stu-id="2443d-261">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="2443d-262">QL2, P1 projesinin tamamı için Zaman, Giderler ve Ücretleri içerir ve Q1'e dahil olanlarla örtüşür.</span><span class="sxs-lookup"><span data-stu-id="2443d-262">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="2443d-263">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-263">O1</span></span> </p>
+<span data-ttu-id="2baf4-315">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-315">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-264">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-264">Q1</span></span> </p>
+<span data-ttu-id="2baf4-316">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-316">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-265">QL2</span><span class="sxs-lookup"><span data-stu-id="2443d-265">QL2</span></span> </p>
+<span data-ttu-id="2baf4-317">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2baf4-317">Valid</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-266">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-266">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="2443d-267">Boş</span><span class="sxs-lookup"><span data-stu-id="2443d-267">Blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-268">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-268">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-269">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-269">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-270">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-270">Yes</span></span> </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="2443d-271">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-271">O1</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="2443d-272">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-272">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-273">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-273">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-274">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-274">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="2443d-275">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2443d-275">Selected tasks only</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-276">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-276">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-277">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-277">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-278">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-278">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-279">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2443d-279">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-280">Yukarıdaki Kural 3'e göre,</span><span class="sxs-lookup"><span data-stu-id="2443d-280">Per Rule #3 above,</span></span> </p>
-                <p>
-<span data-ttu-id="2443d-281">Q1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir.</span><span class="sxs-lookup"><span data-stu-id="2443d-281">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="2443d-282">QL2, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir.</span><span class="sxs-lookup"><span data-stu-id="2443d-282">QL2 includes Time, Expenses, and Fees for a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="2443d-283">Tek ek doğrulama, QL2'deki görevlerin alt kümesinden farklı olan QL1'deki görevlerin alt kümesiyle ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="2443d-283">The only additional validation is around the subset of tasks on QL1 which are different from the subset of tasks on QL2.</span></span> <span data-ttu-id="2443d-284">Bu sayede hiçbir çakışma olmaması sağlanır.</span><span class="sxs-lookup"><span data-stu-id="2443d-284">This ensures that there are no overlaps.</span></span> <span data-ttu-id="2443d-285">Bu, görevler ilişkilendirildiğinde sistem tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="2443d-285">This is done by the system when tasks are associated.</span></span>
+<span data-ttu-id="2baf4-318">Kural 5 uyarınca, Q1 ve Q2 aynı fırsata yönelik iki tekliftir, bu nedenle ikisi de aynı proje bileşenleri için tahminde bulunabilir.</span><span class="sxs-lookup"><span data-stu-id="2baf4-318">Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-286">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-286">O1</span></span> </p>
+<span data-ttu-id="2baf4-319">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-319">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-320">Ç2</span><span class="sxs-lookup"><span data-stu-id="2baf4-320">Q2</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-321">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-321">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-287">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-287">Q1</span></span> </p>
+<span data-ttu-id="2baf4-322">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-322">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-288">QL2</span><span class="sxs-lookup"><span data-stu-id="2443d-288">QL2</span></span> </p>
+<span data-ttu-id="2baf4-323">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-323">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-289">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-289">P1</span></span> </p>
+<span data-ttu-id="2baf4-324">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-324">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-290">Yalnızca seçili görevler</span><span class="sxs-lookup"><span data-stu-id="2443d-290">Selected tasks only</span></span> </p>
+<span data-ttu-id="2baf4-325">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-325">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-291">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-291">Yes</span></span> </p>
+<span data-ttu-id="2baf4-326">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-326">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-292">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-292">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-293">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-293">Yes</span></span> </p>
+<span data-ttu-id="2baf4-327">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-327">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-294">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-294">O1</span></span> </p>
+<span data-ttu-id="2baf4-328">O1</span><span class="sxs-lookup"><span data-stu-id="2baf4-328">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-329">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-329">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-330">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-330">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-295">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-295">Q1</span></span> </p>
+<span data-ttu-id="2baf4-331">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-331">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-296">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-296">QL1</span></span> </p>
+<span data-ttu-id="2baf4-332">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-332">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-297">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-297">P1</span></span> </p>
+<span data-ttu-id="2baf4-333">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-333">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-298">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2443d-298">All project tasks or blank</span></span> </p>
+<span data-ttu-id="2baf4-334">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-334">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-299">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-299">Yes</span></span> </p>
+<span data-ttu-id="2baf4-335">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-335">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-300">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-300">Yes</span></span> </p>
+<span data-ttu-id="2baf4-336">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-336">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-301">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-301">Yes</span></span> </p>
+<span data-ttu-id="2baf4-337">Geçerli Değil</span><span class="sxs-lookup"><span data-stu-id="2baf4-337">Not Valid</span></span> </p>
             </td>
-            <td width="54" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="2443d-302">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2443d-302">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-303">Kural 5'e göre, Q1 ve Q2 aynı fırsatta iki tekliftir; böylelikle projenin aynı bileşenleri için ikisi de tahmin edilebilir.</span><span class="sxs-lookup"><span data-stu-id="2443d-303">Based on Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+<span data-ttu-id="2baf4-338">Kural 4 uyarınca, Q1 ve Q2 farklı fırsatlara yönelik iki tekliftir, bu nedenle ikisi de aynı projenin aynı bileşenleri için tahminde bulunamaz.</span><span class="sxs-lookup"><span data-stu-id="2baf4-338">Per Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="2443d-304">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-304">O1</span></span> </p>
+<span data-ttu-id="2baf4-339">O2</span><span class="sxs-lookup"><span data-stu-id="2baf4-339">O2</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="2baf4-340">Ç1</span><span class="sxs-lookup"><span data-stu-id="2baf4-340">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="2baf4-341">QL1</span><span class="sxs-lookup"><span data-stu-id="2baf4-341">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-305">Ç2</span><span class="sxs-lookup"><span data-stu-id="2443d-305">Q2</span></span> </p>
+<span data-ttu-id="2baf4-342">P1</span><span class="sxs-lookup"><span data-stu-id="2baf4-342">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="2443d-306">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-306">QL1</span></span> </p>
+<span data-ttu-id="2baf4-343">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2baf4-343">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="2443d-307">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-307">P1</span></span> </p>
+<span data-ttu-id="2baf4-344">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-344">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="2443d-308">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2443d-308">All project tasks or blank</span></span> </p>
+<span data-ttu-id="2baf4-345">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-345">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="2443d-309">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-309">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-310">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-310">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-311">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-311">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="2443d-312">O1</span><span class="sxs-lookup"><span data-stu-id="2443d-312">O1</span></span> </p>
+<span data-ttu-id="2baf4-346">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-346">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="2443d-313">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-313">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-314">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-314">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-315">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-315">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="2443d-316">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2443d-316">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-317">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-317">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-318">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-318">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-319">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-319">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="2443d-320">Geçerli</span><span class="sxs-lookup"><span data-stu-id="2443d-320">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="2443d-321">Kural #4 göre, Q1 ve Q2 farklı fırsatlarda iki tekliftir; bu nedenle aynı projenin aynı bileşenleri için tahmin edilemezler.</span><span class="sxs-lookup"><span data-stu-id="2443d-321">Based on Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="2443d-322">O2</span><span class="sxs-lookup"><span data-stu-id="2443d-322">O2</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="2443d-323">Ç1</span><span class="sxs-lookup"><span data-stu-id="2443d-323">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-324">QL1</span><span class="sxs-lookup"><span data-stu-id="2443d-324">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-325">P1</span><span class="sxs-lookup"><span data-stu-id="2443d-325">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="2443d-326">Tüm proje görevleri veya boş</span><span class="sxs-lookup"><span data-stu-id="2443d-326">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-327">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-327">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="2443d-328">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-328">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="2443d-329">Evet</span><span class="sxs-lookup"><span data-stu-id="2443d-329">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="2443d-330">Geçerli Değil</span><span class="sxs-lookup"><span data-stu-id="2443d-330">Not Valid</span></span> </p>
+<span data-ttu-id="2baf4-347">Evet</span><span class="sxs-lookup"><span data-stu-id="2baf4-347">Yes</span></span> </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

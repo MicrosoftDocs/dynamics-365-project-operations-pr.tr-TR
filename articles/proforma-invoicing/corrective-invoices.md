@@ -1,41 +1,264 @@
 ---
-title: Düzeltilen faturalar
-description: Bu konu düzeltilen faturalar hakkında bilgi sağlar.
+title: Düzeltici proje tabanlı faturalar
+description: Bu konu, Project Operations'ta düzeltici proje tabanlı fatura oluşturma ve onaylama hakkında bilgi sağlar.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287847"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867065"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="bce9b-103">Düzeltilen faturalar</span><span class="sxs-lookup"><span data-stu-id="bce9b-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="8d1a0-103">Düzeltici proje tabanlı faturalar</span><span class="sxs-lookup"><span data-stu-id="8d1a0-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="bce9b-104">_**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_</span><span class="sxs-lookup"><span data-stu-id="bce9b-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="8d1a0-104">_**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_</span><span class="sxs-lookup"><span data-stu-id="8d1a0-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="bce9b-105">Onaylanan faturalar düzenlenebilir.</span><span class="sxs-lookup"><span data-stu-id="bce9b-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="bce9b-106">Onaylı bir faturayı düzeltirken, düzeltilen faturaya ait bir taslak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="bce9b-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="bce9b-107">Orijinal faturadaki tüm hareketleri ve miktarları tersine çevirmek istediğiniz varsayıldığından, düzeltilen fatura orijinal faturadaki tüm işlemleri içerir ve üzerindeki tüm miktarlar 0 (sıfır) olur.</span><span class="sxs-lookup"><span data-stu-id="bce9b-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="8d1a0-105">Onaylı proje faturaları müşteri ve proje yöneticisiyle görüşülür, değişiklikleri veya kredileri işlemek için düzeltilebilir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="bce9b-108">Herhangi bir hareketin düzeltilmesi gerekmiyorsa, bunları taslak düzeltme faturasından kaldırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bce9b-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="bce9b-109">Yalnızca kısmi miktarı ters çevirmek veya geri döndürmek için, satır ayrıntısında Miktar alanını düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bce9b-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="bce9b-110">Fatura satırı ayrıntısını açarsanız, orijinal fatura miktarını görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bce9b-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="bce9b-111">Ardından, geçerli fatura miktarını, orijinal fatura miktarından az veya daha fazla olacak şekilde düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bce9b-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="8d1a0-106">Onaylı bir faturada düzenlemeler yapmak için, onaylanan faturayı açın ve **Bu faturayı Düzelt**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="bce9b-112">Düzeltme faturasını onaylandıktan sonra, orijinal faturalanmış satış fiili değeri tersine çevrilir ve yeni bir faturalanmış satış fiili değeri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="bce9b-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="bce9b-113">Miktar azaltılırsa, fark faturalanmamış yeni bir satış fiili değeri oluşturulmasına neden olur.</span><span class="sxs-lookup"><span data-stu-id="bce9b-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="bce9b-114">Örneğin, orijinal faturalanmış satış sekiz saat içinse ve düzeltilen fatura satır ayrıntısı altı saatlik bir miktar içeriyorsa, orijinal faturalanan satış satırı ters çevrilir ve iki yeni gerçek değer oluşturulur:</span><span class="sxs-lookup"><span data-stu-id="bce9b-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="8d1a0-107">Proje faturası onaylanmadıkça veya proje tabanlı faturada avanslar veya elde tutulan tutar ya da avansların veya elde tutulan tutarların mutabakatları yoksa bu seçim kullanılamaz.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="bce9b-115">Altı saat için faturalanmış satış fiili değeri.</span><span class="sxs-lookup"><span data-stu-id="bce9b-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="bce9b-116">Kalan iki saat için faturalandırılmamış bir satış fiili değeri.</span><span class="sxs-lookup"><span data-stu-id="bce9b-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="bce9b-117">Müşteriyle yapılan anlaşmaya bağlı olarak bu hareket daha sonra faturalanabilir veya borçlandırılamaz olarak işaretlenebilir.</span><span class="sxs-lookup"><span data-stu-id="bce9b-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="8d1a0-108">Onaylanan faturadan yeni bir taslak fatura oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="8d1a0-109">Daha önce onaylanan faturadan tüm fatura satırı ayrıntıları yeni taslağın kopyası alınır.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="8d1a0-110">Yeni düzeltilen fatura hakkındaki satır ayrıntılarını anlamak için aşağıda yer alan önemli noktaların bazıları aşağıda verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="8d1a0-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="8d1a0-111">Tüm miktarlar sıfıra güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-111">All quantities are updated to zero.</span></span> <span data-ttu-id="8d1a0-112">Dynamics 365 Project Operations, tüm faturalanan maddelerin tam olarak alacaklandırıldığını varsayar.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="8d1a0-113">Gerekirse, bu miktarları, alacaklandırılan miktarı değil, faturalanan miktarı yansıtacak şekilde el ile güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="8d1a0-114">Girdiğiniz miktara bağlı olarak, uygulama alacaklı miktarı hesaplar.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="8d1a0-115">Bu miktar, düzeltilen fatura onaylandığı zaman oluşturulan fiili değerlere yansıtılır.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="8d1a0-116">Vergi tutarında değişiklikler yapıyorsanız, alacak kaydedilen vergi tutarını değil, doğru vergi tutarını girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="8d1a0-117">Kilometre taşı düzeltmeleri her zaman tam kredi olarak işlenir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="8d1a0-118">Önceden faturalandırılmış diğer giderlere yönelik düzeltmeler olan fatura satırı ayrıntılarının **Düzeltme** alanı, **Evet** olarak ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="8d1a0-119">Düzeltilmiş fatura satırı ayrıntıları olan faturaların **Düzeltmeler var** alanı, **Evet** olarak ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="8d1a0-120">Bir düzeltici fatura onaylandığında oluşturulan gerçek değerler</span><span class="sxs-lookup"><span data-stu-id="8d1a0-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="8d1a0-121">Aşağıdaki tabloda, bir düzeltici fatura onaylandıktan sonra oluşturulan gerçek değerler listelenmiştir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="8d1a0-122">
+                    <strong>Senaryo</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="8d1a0-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="8d1a0-123">
+                    <strong>Onayda oluşturulan fiililer</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="8d1a0-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-124">Daha önce faturalandırılmış bir zaman hareketinin tam kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-125">Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-126">Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için yeni faturalandırılmış satış fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-127">Bir zaman hareketinde kısmi kredi faturalama.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-128">Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-129">Düzenlenen fatura satırı ayrıntısı üzerindeki saat ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-130">Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan saatler ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-131">Daha önce faturalandırılmış bir gider hareketinin tam kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-132">Gider için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-133">Gider için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için yeni faturalandırılmamış satış fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-134">Daha önce faturalandırılmış bir gider hareketinin kısmi kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-135">Gider için orijinal fatura satırı ayrıntısında faturalandırılan miktar ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-136">Doğrulanan fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-137">Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan miktar ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-138">Daha önce faturalanmış bir malzeme hareketinin tam kredisinin faturalanması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-139">Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve tutar için faturalanmış satışı tersine çevirme işlemi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-140">Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve tutar için yeni faturalanmamış satış gerçek değeri.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-141">Malzeme hareketindeki kısmi kredinin faturalanması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-142">Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve faturalanan tutar için faturalanmış satışı tersine çevirme işlemi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-143">Düzenlenen fatura satırı ayrıntısındaki miktar ve tutar için borçlandırılabilen yeni faturalanmayan satış gerçek değeri, bunun tersine çevrilmesi ve eşdeğer faturalanan satış gerçek değeri.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-144">Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan miktar ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-145">Daha önce faturalandırılmış bir ücret hareketinin tam kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-146">Ücret için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-147">Ücret için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için yeni faturalandırılmamış satış fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-148">Daha önce faturalandırılmış bir ücret hareketinin kısmi kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-149">Ücret için orijinal fatura satırında faturalanan miktar ve tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-150">Doğrulanan fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-151">Daha önce faturalandırılmış bir dönüm noktasının tam kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-152">Dönüm noktası için orijinal fatura satırı ayrıntısındaki tutarı için faturalandırılmış satış tersi.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="8d1a0-153">Kilometre taşının fatura durumu, <b>Deftere Nakledilen Müşteri Faturası</b> durumundan <b>Faturalanmaya Hazır</b> durumuna güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-154">Daha önce faturalandırılmış bir dönüm noktasının kısmi kredisinin faturalandırılması.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="8d1a0-155">Bu senaryo desteklenmez.</span><span class="sxs-lookup"><span data-stu-id="8d1a0-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
