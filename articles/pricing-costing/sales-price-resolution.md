@@ -3,17 +3,17 @@ title: Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
 description: Bu konu, tahminler ve fiili olarak satış fiyatlarının nasıl çözüldüğü hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274977"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877469"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
 
@@ -54,6 +54,17 @@ Satışlar için fiyat listesi çözüldüğünde, sistem birim satış fiyatın
     | &nbsp; | Maliyet üzerinde kar payı | İlgili maliyetin gerçek olduğu birim maliyet oranına göre, kategori fiyatı satırıyla tanımlanan bir sair gider uygular. |
 
 4. Sistem **Kategori** ve **birim** alanı değerlerini eşleyemediğinde satış fiyatı varsayılan olarak sıfırdır (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Malzemenin gerçek ve tahmin satırlarında satış oranlarını çözme
+
+Project Operations'ta malzemenin tahmin satırları, malzemelerin teklif satırı ve sözleşme satırı ayrıntılarına ve projedeki malzeme tahmin satırlarını belirtmek için kullanılır.
+
+Satışlar için fiyat listesi çözüldüğünde, sistem birim satış fiyatının varsayılan olması için aşağıdaki adımları tamamlar.
+
+1. Sistem, malzemeyi çözülen fiyat listesindeki fiyat listesi maddesi satırlarıyla eşleştirmek için tahmin satırındaki **Ürün** ve **Birim** alanlarının birleşimini kullanır.
+2. Sistem, **Ürün** ve **Birim** alan birleşimi için satış oranına sahip bir fiyat listesi maddesi satırı bulursa ve fiyatlandırma yöntemi **Para birimi tutarı** ise fiyat listesinde belirtilen satış fiyatı kullanılır.
+3. **Ürün** ve **Birim** değerleri eşleşmiyorsa satış oranı varsayılan olarak sıfır olur.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

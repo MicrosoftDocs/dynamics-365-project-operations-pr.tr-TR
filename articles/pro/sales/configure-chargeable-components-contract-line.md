@@ -1,5 +1,5 @@
 ---
-title: Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma -lite
+title: Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
 description: Bu konu, Project Operations'daki sözleşme satırlarına ücretlendirilebilir bileşenlerin nasıl eklenebilir olduğu hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273942"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858497"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma -lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_
 
 Proje tabanlı bir sözleşme satırı *dahil edilen* bileşenler ve *Borçlandırılabilir* bileşenler kavramıdır.
 
@@ -62,23 +62,582 @@ Bir işlemin fatura türü, proje tabanlı sözleşme satırının **Ücretlendi
 
 ### <a name="resolve-chargeability"></a>Şarj edilebilirliği çözme
 
-Bir tahmin veya zaman için oluşturulan fiili, yalnızca sözleşme satırına **saat** dahil edildiğinde Borçlandırılabilir olarak değerlendirilir ve **görev** ve **rol** sözleşme satırında Borçlandırılabilir olarak yapılandırılır.
+Zaman için oluşturulan bir tahmin veya gerçek değer yalnızca aşağıdaki durumlarda değiştirilebilir:
 
-Bir tahmin veya gider için oluşturulan fiili, yalnızca sözleşme satırına **Gider** dahil edildiğinde Borçlandırılabilir olarak değerlendirilir ve **görev** ve **İşlem kategorisi** sözleşme satırında Borçlandırılabilir olarak yapılandırılır.
+   - **Zaman**, sözleşme satırına dahildir.
+   - **Rol**, sözleşme satırında borçlandırılabilir olarak yapılandırılmıştır.
+   - **Dahil Edilen Görevler**, sözleşme satırında **Seçili görevler** olarak ayarlanmıştır.
+ 
+ Bu üç durum doğruysa görev Borçlandırılabilir olarak yapılandırılır. 
+
+Gider için oluşturulan bir tahmin veya gerçek değer yalnızca aşağıdaki durumlarda değiştirilebilir:
+
+   - **Gider**, sözleşme satırına dahildir
+   - **Hareket kategorisi**, sözleşme satırında borçlandırılabilir olarak yapılandırılmıştır
+   - **Dahil Edilen Görevler**, sözleşme satırında **Seçili görev** olarak ayarlanmıştır
+  
+ Bu üç durum doğruysa **Görev** Borçlandırılabilir olarak yapılandırılır. 
+
+Malzeme için oluşturulan bir tahmin veya gerçek değer yalnızca aşağıdaki durumlarda değiştirilebilir:
+
+   - **Malzemeler**, sözleşme satırına dahildir
+   - **Dahil Edilen Görevler**, sözleşme satırında **Seçili görevler** olarak ayarlanmıştır
+
+Bu iki durum doğruysa **Görev** Borçlandırılabilir olarak yapılandırılır. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Zaman dahil eder</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Gider içerir</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Malzemeleri Ekler</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Dahil Edilen Görevler</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Rol</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Kategori</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Görev</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Borçlandırılabilirlik etkisi</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılabilir</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılabilir</strong>
+                </p>
+                <p>
+Malzeme gerçek değeri faturalama türü: <strong>Borçlandırılabilir</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılabilir</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılabilir</strong>
+                </p>
+                <p>
+Malzeme gerçek değeri faturalama türü: <strong>Borçlandırılabilir</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Geçerli gider faturalama türü: Borçlandırılabilir </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Malzeme gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Malzeme gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Borçlandırılabilir</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Kullanılamaz</strong>
+                </p>
+                <p>
+Geçerli gider faturalama türü: Borçlandırılabilir </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Kullanılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir Zaman fiili faturalama: Ücretli </p>
+                <p>
+Gider gerçek değeri faturalama türü:<strong> Kullanılamaz</strong>
+                </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü:<strong> Kullanılamaz</strong>
+                </p>
+                <p>
+Geçerli malzemede faturalama türü: Borçlandırılabilir </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Borçlandırılabilir </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir Zaman fiili faturalama: Ücretli </p>
+                <p>
+Geçerli gider faturalama türü: Borçlandırılabilir </p>
+                <p>
+Malzeme gerçek değeri faturalama türü: <strong> Kullanılamaz</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Tüm Proje </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Borçlandırılamaz</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Ayarlanamıyor </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Bir zaman gerçek değeri faturalama: <strong>Borçlandırılamaz</strong>
+                </p>
+                <p>
+Gider gerçek değeri faturalama türü:<strong> Borçlandırılamaz </strong>
+                </p>
+                <p>
+Malzeme gerçek değeri faturalama türü:<strong> Kullanılamaz</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Zaman dahil eder | Gider içerir | Dahil Edilen Görevler | Rol           | Kategori       | Görev                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Evet           | Evet              | Tüm Proje | Borçlandırılabilir     | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Ücretli** </br> Geçerli gider faturalama türü: **Borçlandırılabilir**           |
-| Evet           | Evet              | Seçili görevler | Borçlandırılabilir     | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Ücretli** </br> Geçerli gider faturalama türü: **Borçlandırılabilir**           |
-| Evet           | Evet              | Seçili görevler | Borçlandırılamaz | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Ücretlendirilemez** </br> Geçerli gider faturalama türü: **Borçlandırılabilir**       |
-| Evet           | Evet              | Seçili görevler | Borçlandırılabilir     | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Ücretlendirilemez** </br> Geçerli gider faturalama türü: **Borçlandırılamaz** |
-| Evet           | Evet              | Seçili görevler | Borçlandırılamaz | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Ücretlendirilemez** </br> Geçerli gider faturalama türü: **Borçlandırılamaz** |
-| Evet           | Evet              | Seçili görevler | Borçlandırılamaz | Borçlandırılamaz | Bir Zaman fiili faturalama: **Ücretlendirilemez** </br> Geçerli gider faturalama türü: **Borçlandırılamaz** |
-| No            | Evet              | Tüm Proje | Ayarlanamıyor   | Borçlandırılabilir     | Bir Zaman fiili faturalama: **Kullanılamaz**</br>Geçerli gider faturalama türü: **Borçlandırılabilir**          |
-| No            | Evet              | Tüm Proje | Ayarlanamıyor   | Borçlandırılamaz | Bir Zaman fiili faturalama: **Kullanılamaz**</br> Geçerli gider faturalama türü: **Borçlandırılamaz**     |
-| Evet           | No               | Tüm Proje | Borçlandırılabilir     | Ayarlanamıyor   | Bir Zaman fiili faturalama: **Ücretli** </br> Geçerli gider faturalama türü: **Kullanılamaz**        |
-| Evet           | No               | Tüm Proje | Borçlandırılamaz | Ayarlanamıyor   | Bir Zaman fiili faturalama: **Ücretlendirilemez** </br>Geçerli gider faturalama türü: **Kullanılamaz**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,17 +3,17 @@ title: Proje sözleşmelerinde proje fiyat listelerini yönetme
 description: Bu konu proje sözleşmeleri üzerinde proje fiyat listelerinin yönetilmesi hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278622"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858587"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Proje sözleşmelerinde proje fiyat listelerini yönetme
 
@@ -21,13 +21,13 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Dynamics 365 Project Operations'ta proje sözleşmeleri, bir sözleşmede birden fazla tarihe duyarlı satış fiyat listesini desteklemek için tasarlanmıştır. Project Operations, **Proje fiyat listeleri** olarak adlandırılan yeni bir ilişkili varlık vardır. Bu varlık bir proje sözleşmesiyle bire çok ilişkiye sahiptir.
 
-Proje fiyat listeleri, projedeki fiyat süresi ve gider hareketleri için kullanılır. Bir sözleşmede bir veya daha fazla proje fiyat listesi varsa, bu fiyat listeleri, sözleşme satırı üzerinden sözleşmeyle ilişkili projelerde zaman ve gider tahminlerine ve gerçek tutarların fiyatı olarak kullanılır.
+Proje fiyat listeleri, bir projedeki süre, malzeme ve gider hareketlerinin fiyatlarını belirlemek için kullanılır. Bir sözleşmede bir veya daha fazla proje fiyat listesi varsa bu fiyat listeleri, sözleşme satırı üzerinden sözleşmeyle ilişkili projelerde zaman, malzeme, gider tahminleri ve gerçek değerler için fiyat sağlamak amacıyla kullanılır.
 
-Bir proje sözleşmesinde proje fiyat listesi olmadığında, proje fiyat listelerinin ve tahminlerinizin, fiili proje çalışmasının ve giderlerin fiyatlandırılmaz olmadığını belirten bir uyarı iletisi görüntülenir. Satış değerleri için fiyat yoktur.
+Bir proje sözleşmesinde proje fiyat listesi olmadığında, proje fiyat listelerinin olmadığına ve tahminlerinizin, gerçek proje çalışmasının, malzemenin ve günlüğe kaydedilen giderlerin fiyatlandırılmayacağını belirten bir uyarı iletisi görürsünüz. Satış değerleri için fiyat yoktur.
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>Proje sözleşmesindeki proje fiyat listesini ilişkilendirme veya ilişkilendirmeyi kaldırma
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>Proje tabanlı iş ve giderleri tahmin etmek için belirli bir fiyat listesi oluşturma veya ilişkilendirme
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>Proje tabanlı çalışmayı, malzemeyi ve giderleri tahmin etmek için belirli bir fiyat listesi oluşturma veya ilişkilendirme
 
 1. Proje sözleşmesinde, **Proje fiyat listeleri** sekmesini seçin.
 2. Alt ızgarada, **+ Yeni proje fiyat listesi Ekle**'yi seçin.
@@ -52,7 +52,7 @@ Bir proje sözleşmesinde proje fiyat listesi olmadığında, proje fiyat listel
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>Bir sözleşmede proje fiyat listelerinin otomatik olarak varsayılan durumunu ayarlama
 
-Proje fiyat listesi, proje sözleşmesi üzerinde varsayılan liste olarak ayarlanabilir. Bu kurulum, kuruluşunuzdaki tüm sözleşmelerin her zaman için bu fiyat dönemi için standart bir fiyat listesiyle başlamasını sağlamaya yardımcı olur.
+Bir proje fiyat listesi, varsayılan proje fiyat listesi olarak ayarlanabilir. Bu kurulum, kuruluşunuzdaki tüm sözleşmelerin her zaman için bu fiyat dönemi için bir standart proje fiyat listesiyle başlamasını sağlar.
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>Proje fiyat listeleri için organizasyon varsayılanını ayarlama
 

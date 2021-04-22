@@ -1,31 +1,41 @@
 ---
-title: Tahmin projelerine genel bakış
-description: Bu konu Dynamics 365 Project Operations'da tahminler hakkında bilgi sağlar.
-author: ruhercul
+title: Mali tahmin kavramları
+description: Bu konu, Project Operations'ta projelerin mali tahminleri hakkında bilgi sağlar.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286902"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701760"
 ---
-# <a name="estimate-projects-overview"></a>Tahmin projelerine genel bakış
+# <a name="financial-estimation-concepts"></a>Mali tahmin kavramları
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
+Dynamics 365 Project Operations'ta artık iki aşamada projelerinizin mali tahminini gerçekleştirebilirsiniz: 
+1. Anlaşma yapılmadan, satış öncesi aşaması sırasında. 
+2. Proje sözleşmesi oluşturulduktan sonra, yürütme aşaması sırasında. 
+
+Aşağıdaki 3 sayfadan birini kullanarak, proje tabanlı çalışmalar için bir mali tahmin oluşturabilirsiniz:
+- **Teklif satırı** sayfası, teklif satırı ayrıntılarını kullanarak.  
+- **Teklif sözleşmesi satırı** sayfası, sözleşme satırı ayrıntılarını kullanarak. 
+- **Proje** sayfası, **Görevler** veya **Gider Tahminleri** sekmesi sayfalarını kullanarak.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Tahmin oluşturmak için bir proje teklifi kullanma
 Proje tabanlı bir teklifte, bir projeyi teslim etmek için gereken çalışmayı tahmin etmek üzere **Teklif satırı ayrıntısı** varlığını kullanabilirsiniz. Daha sonra bu tahmini müşteriyle paylaşabilirsiniz.
 
 Proje tabanlı teklif satırlarında teklif satırı sıfır da olabilir, birden çok da olabilir. Teklif satırı ayrıntıları zaman, gider veya ücretleri tahmin etmek için kullanılır. Microsoft Dynamics 365 Project Operations, teklif satırı ayrıntılarında malzeme tahminlerine izin vermez. Bunlar işlem sınıfları olarak adlandırılır. Ayrıca, tahmini vergi tutarları bir işlem sınıfına girilebilir.
 
 İşlem sınıflarına ek olarak, teklif satırı ayrıntıları bir işlem türüne sahiptir. Teklif satırı ayrıntıları için iki hareket türü desteklenir: **Maliyet** ve **Proje Sözleşmesi**.
 
-## <a name="estimate-by-using-a-contract"></a>Sözleşme kullanarak tahmin etme
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Tahmin oluşturmak için bir proje sözleşmesi kullanma
 
 Proje tabanlı bir sözleşme oluştururken bir teklif kullandıysanız, teklifteki her teklif satırı için yaptığınız tahmin proje sözleşmesine kopyalanır. Bir proje sözleşmesinin yapısı satır, satır ayrıntıları ve fatura zamanlamaları bulunan Proje teklifinin yapısına benzer.
 
@@ -35,23 +45,17 @@ Sözleşme satırı ayrıntıları zaman, gider veya ücretleri tahmin etmek iç
 
 Sözleşme satırı ayrıntılarında malzeme tahminlerine izin verilmez.
 
-Bir proje sözleşmesinde desteklenen işlemler fatura oluşturma ve onaydır. Fatura oluşturma, geçerli tarihe kadar faturalanmamış tüm satış fiili değerlerini içeren proje tabanlı bir faturanın taslağını oluşturur.
+## <a name="use-a-project-to-create-an-estimate"></a>Tahmin oluşturmak için bir proje kullanma 
 
-Onay sözleşmenin salt okunur olmasını sağlar ve durumunu **Taslak** durumundan **Onaylandı** değiştirir. Bu eylemi gerçekleştirdikten sonra, geri alamazsınız. Bu eylem kalıcı olduğundan, sözleşmeyi **Taslak** durumunda tutmak en iyi uygulamadır.
-
-Taslak sözleşmeler ve onaylanan sözleşmeler arasındaki tek fark durumları ve onaylı sözleşmeler düzenlemediği halde taslak sözleşmelerin düzenlenebilmesidir. Fatura oluşturma ve fiili değerleri izleme, hem taslak sözleşmelerde hem de onaylanan sözleşmelerde yapılabilir.
-
-Project Operations, sözleşmelerde veya projelerde siparişi değiştirmeyi desteklemez.
-
-## <a name="estimating-projects"></a>Projeleri tahmin etme
-
-Projelerde zaman ve giderleri tahmin edebilirsiniz. Project Operations, projelerde malzeme ve ücret tahminlerine izin vermez.
+Projelerde zaman ve giderleri tahmin edebilirsiniz. Project Operations, projelerde malzeme veya ücret tahminlerini desteklemez.
 
 Zaman tahminleri, görev oluşturduğunuzda ve görevi gerçekleştirmek için gereken genel bir kaynağın özniteliklerini tanımladığınızda oluşturulur. Zaman tahminleri zamanlama görevlerinden oluşturulur. Zamanlama bağlamının dışında genel takım üyeleri oluşturursanız zaman tahminleri oluşturulmaz.
 
-Gider tahminleri, **Tahminler** sayfasındaki ızgaraya girilebilir.
+Gider tahminleri, **Gider Tahminleri** sayfasındaki ızgaraya girilebilir.
 
-## <a name="understanding-estimation"></a>Tahminleri anlama
+Proje planındaki her bir görevde işçilik veya zaman ve giderler için alttan üste ayrıntılı tahminler oluşturabildiğiniz için bir proje için tahmin oluşturma en iyi uygulama olarak kabul edilir. Daha sonra bu ayrıntılı tahmini, her teklif satırı için tahminler oluşturmak ve müşteri için daha güvenilir bir teklif oluşturmak amacıyla kullanabilirsiniz. Proje planını kullanarak teklif satırında ayrıntılı bir tahmin içe aktardığınızda veya oluşturduğunuzda, Project Operations bu tahminlerin satış değerlerini ve maliyet değerlerini içe aktarır. İçe aktarma işleminden sonra proje teklifinde kârlılık, marjlar ve uygulanabilirliği görüntüleyebilirsiniz.
+
+## <a name="understanding-estimates"></a>Tahminleri anlama
 
 Tahmin aşamasında iş mantığını anlamak için kılavuz olarak aşağıdaki tabloyu kullanın.
 

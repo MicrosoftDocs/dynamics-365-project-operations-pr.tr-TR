@@ -1,26 +1,26 @@
 ---
-title: Proforma faturaları onaylama - lite
-description: Bu konuda, Project Operations'ta proforma faturaların onaylanması hakkında bilgiler sağlanmaktadır.
+title: Proforma proje faturalarını onaylama
+description: Bu konu, Project Operations'ta proforma proje faturalarının onaylanmasının hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 144c1b6a49951af8be0c619f41808e7617e59c92
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274302"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867112"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Proforma faturaları onaylama - lite
+# <a name="confirm-a-proforma-project-invoice"></a>Proforma proje faturalarını onaylama 
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 
-Proforma fatura onaylandıktan sonra, proje faturasının durumu **Onaylandı** güncellenir. Bir fatura onaylandığında, salt okunur olur. İleriye dönük olarak, fatura yalnızca müşteri tarafından başlatılan düzeltmeler veya krediler varsa veya ödeme olarak işaretlendiğinde düzeltilebilir.
+Proforma fatura onaylandıktan sonra, proje faturasının durumu **Onaylandı** güncellenir. Bir fatura onaylandığında, salt okunur olur. Devam ederseniz fatura yalnızca müşteri tarafından başlatılan düzeltmeler veya kredi varsa düzeltilebilir.
 
 Aşağıdaki tabloda sistem tarafından oluşturulan fiili listeler. Bu fiili işlemler, onaylanmadan önce taslak proje faturasında belirli işlemler gerçekleştirildiğinde oluşturulur.
 
@@ -225,6 +225,70 @@ Orijinal gider onayının miktarı ve tutarı için faturalandırılmamış sat�
             <td width="408" valign="top">
                 <p>
 Düzenlenen fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, faturalandırılmamış satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Taslak faturasında herhangi bir düzenleme yapmadan bir malzeme hareketini faturalama.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Orijinal malzeme kullanımı onayındaki miktar ve tutar için faturalanmamış satışı tersine çevirme işlemi.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Orijinal malzeme kullanımı onayındaki miktar ve tutar için faturalanmış satış gerçek değeri.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Miktarı azaltmak için düzenlenen bir malzeme hareketini faturalama.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Orijinal zaman onayındaki miktar ve tutar için faturalanmamış satışı tersine çevirme işlemi.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Düzenlenen fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, faturalandırılmamış satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Düzenlenen fatura satırı ayrıntısı üzerindeki doğrulanan rakamlar çıkarıldıktan sonra kalan miktar ve tutar için ücretlendirilemeyen yeni bir faturalanmamış satış fiili, faturalandırılmamış satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Miktarı artırmak için düzenlenen bir malzeme hareketini faturalama.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Orijinal malzeme kullanımı onayındaki miktar ve tutar için faturalanmamış satışı tersine çevirme işlemi.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Düzenlenen fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, faturalandırılmamış satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
                 </p>
             </td>
         </tr>

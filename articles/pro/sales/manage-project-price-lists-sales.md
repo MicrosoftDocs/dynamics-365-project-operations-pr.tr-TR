@@ -1,27 +1,27 @@
 ---
-title: Proje tekliflerinde proje fiyat listelerini yönetme - lite
-description: Bu konuda, tekliflerde proje fiyat listeleriyle çalışma hakkında bilgiler sağlanmaktadır. (Sales)
+title: Proje tekliflerinde proje fiyat listelerini yönetme
+description: Bu konuda, tekliflerde proje fiyat listeleriyle çalışma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273042"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858632"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Proje tekliflerinde proje fiyat listelerini yönetme - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Proje tekliflerinde proje fiyat listelerini yönetme 
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Proje teklifleri, birden çok tarihte etkin satış fiyatı listelerini desteklemek için tasarlanmıştır. Dynamics 365 Project Operations ile, **Proje fiyat listeleri** adı verilen yeni bir ilişkili varlık eklenir. Bu varlıkta, proje teklifi için 1-çok ilişkisi bulunur.
 
-Proje fiyat listeleri, projedeki fiyat süresi ve gider hareketleri için kullanılır. Bir teklifte bir veya daha fazla proje fiyat listesi olduğunda bu fiyat listeleri, teklif satırı üzerinden teklifle ilişkilendirilen projelerdeki zaman ve gider tahminlerini ve gerçek değerleri fiyatlandırmak için kullanılır.
+Proje fiyat listeleri, bir projedeki süre, malzeme ve gider hareketlerinin fiyatlarını belirlemek için kullanılır. Bir teklifte bir veya daha fazla proje fiyat listesi varsa bu fiyat listeleri, teklif satırı üzerinden teklifle ilişkili projelerde zaman, malzeme, gider tahminleri ve gerçek değerlerin fiyatlarını belirlemek amacıyla kullanılır.
 
 Proje teklifinde proje fiyat listesi olmadığında bir uyarı iletisi alırsınız. İletide, proje fiyat listesi olmadığından tahmini ve gerçek proje işi ve giderlerinin fiyatlandırılmayacağı belirtilir. Bunun yerine, satış değerleri için fiyat sıfır (0) olur.
 

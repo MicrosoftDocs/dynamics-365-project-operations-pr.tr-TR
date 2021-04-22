@@ -3,7 +3,7 @@ title: Gerçek değerler
 description: Bu konuda, Microsoft Dynamics 365 Project Operations'ta gerçek tutarlarla çalışma hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -16,18 +16,18 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291823"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852568"
 ---
 # <a name="actuals"></a>Fiili Değerler 
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Fiili değerler, bir projeki tamamlanmış iş tutarıdır. Zaman ve gider girişleri, yevmiye defteri girişleri ve faturaların sonucu olarak oluşturulurlar.
+Fiili değerler, projedeki incelenen ve onaylanan finansal ve zamanlama ilerlemesini yansıtır. Bunlar; zaman, gider, malzeme kullanım girişlerinin ve günlük girişlerinin ve faturaların onaylanmasının bir sonucu olarak oluşturulur.
 
 ## <a name="journal-lines-and-time-submission"></a>Yevmiye defteri satırları ve zaman gönderimi
 
@@ -45,7 +45,7 @@ Gönderilen bir zaman girişi, sabit fiyatlı bir sözleşme satırına eşlenen
 
 Varsayılan fiyatların oluşturulacağı mantık, yevmiye defteri satırında yer alır. Zaman girişindeki alan değerleri yevmiye defteri satırına kopyalanır. Bu değerler; işlem tarihini, projenin eşlendiği sözleşme satırını ve ilgili fiyat listesindeki para birimi sonucunu içerir.
 
-**Rol** ve **Kuruluş Birimi** gibi varsayılan fiyatlandırmayı etkileyen alanlar, yevmiye defteri satırında uygun fiyatı belirlemek için kullanılır. Zaman girişine özel bir alan ekleyebilirsiniz. Alan değerinin gerçek değerlere doldurulmasını isterseniz alanı Gerçek değerler varlığında oluşturun ve alanı zaman girişinden gerçek değere kopyalamak için alan eşlemelerini kullanın.
+**Rol** ve **Kaynak Birimi** gibi varsayılan fiyatlandırmayı etkileyen alanlar, günlük satırında uygun fiyatın belirlenmesinde kullanılır. Zaman girişine özel bir alan ekleyebilirsiniz. Alan değerinin, fiili değerlere doldurulmasını istiyorsanız bu alanı **Fiili değerler** ve **Yevmiye Defteri Satırı** tablolarında oluşturun. Seçilen alan değerini, Zaman Girişi'nden Fiili Değerlere hareket kaynaklarını kullanarak yevmiye defteri satırı üzerinden yaymak için özel kod kullanın. Hareket kaynakları ve bağlantılar hakkında daha fazla bilgi için [Fiili değerleri özgün kayıtlara bağlama konusuna bakın](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Yevmiye defteri satırları ve temel gider gönderimi
 
@@ -57,24 +57,42 @@ Gönderilen bir temel gider girişi, bir zaman ve malzeme sözleşme satırına 
 
 ### <a name="fixed-price"></a>Sabit fiyat
 
-Gönderilen bir temel gider girişi, sabit fiyatlı bir sözleşme satırına eşlenen bir projeye bağlandığında sistem, maliyet için bir yevmiye defteri satırı oluşturur.
+Gönderilen gider girişi, sabit fiyat sözleşme satırıyla eşlenen bir projeye bağlandığında sistem, maliyet için bir yevmiye defteri satırı oluşturur.
 
 ### <a name="default-pricing"></a>Varsayılan fiyatlandırma
 
-Giderler için varsayılan fiyatların girilmesi mantığı, gider kategorisini temel alır. İşlemin tarihini, projenin eşlendiği sözleşme satırı ve ilgili fiyat listesindeki para birimi sonucu uygun fiyat listesini belirlemek için kullanılır. Ancak varsayılan olarak fiyatın kendisi için girilen tutar, maliyet ve satışlar için ilgili gider yevmiye defteri satırlarında doğrudan ayarlanır.
+Giderler için varsayılan fiyatların girilmesi mantığı, gider kategorisini temel alır. İşlemin tarihini, projenin eşlendiği sözleşme satırı ve ilgili fiyat listesindeki para birimi sonucu uygun fiyat listesini belirlemek için kullanılır. **Hareket Kategorisi** ve **Birim** gibi varsayılan fiyatlandırmayı etkileyen alanlar, yevmiye defteri satırında uygun fiyatın belirlenmesinde kullanılır. Ancak, bu yalnızca fiyat listesindeki fiyatlandırma yöntemi **Birim başına fiyat** olduğunda çalışır. Fiyatlandırma yöntemi **Maliyette** veya **Maliyet üzerinden kar payı** ise maliyet için masraf girişi oluşturulduğunda girilen fiyat kullanılır ve Satış yevmiye defteri satırındaki fiyat, fiyatlandırma yöntemi temel alınarak hesaplanır. 
 
-Gider girişlerinde, birim başına varsayılan fiyatların kategori tabanlı girişi kullanılamaz.
+Gider girişinde bir özel alan ekleyebilirsiniz. Alan değerinin, fiili değerlere doldurulmasını istiyorsanız bu alanı **Fiili değerler** ve **Yevmiye Defteri Satırı** tablolarında oluşturun. Seçilen alan değerini, Zaman Girişi'nden Fiili Değerlere hareket kaynaklarını kullanarak yevmiye defteri satırı üzerinden yaymak için özel kod kullanın. Hareket kaynakları ve bağlantılar hakkında daha fazla bilgi için [Fiili değerleri özgün kayıtlara bağlama konusuna bakın](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
+
+## <a name="journal-lines-and-material-usage-log-submission"></a>Günlük satırları ve malzeme kullanım günlüğü gönderimi
+
+Gider girişi hakkında daha fazla bilgi için [Malzeme Kullanımı Günlüğü konusuna bakın](../material/material-usage-log.md).
+
+### <a name="time-and-materials"></a>Zaman ve malzemeler
+
+Gönderilen malzeme kullanım günlüğü girişi bir zaman ve malzeme sözleşmesi satırıyla eşlenen bir projeye bağlandığında, sistem biri maliyet ve biri faturalanmamış satış için olmak üzere iki yevmiye defteri satırı oluşturur.
+
+### <a name="fixed-price"></a>Sabit fiyat
+
+Gönderilen malzeme kullanımı günlüğü girişi, sabit fiyat sözleşme satırıyla eşlenen bir projeye bağlandığında sistem, maliyet için bir yevmiye defteri satırı oluşturur.
+
+### <a name="default-pricing"></a>Varsayılan fiyatlandırma
+
+Malzemenin varsayılan fiyatlarını girme mantığı, ürün ve birim birleşimine dayanır. İşlemin tarihini, projenin eşlendiği sözleşme satırı ve ilgili fiyat listesindeki para birimi sonucu uygun fiyat listesini belirlemek için kullanılır. **Ürün Kimliği** ve **Birim** gibi varsayılan fiyatlandırmayı etkileyen alanlar, günlük satırında uygun fiyatın belirlenmesinde kullanılır. Ancak bu yalnızca katalog ürünleri için geçerlidir. Serbest ürünler için kullanım kütüğü girişi oluşturulduğunda girilen fiyat, yevmiye defteri satırlarındaki maliyet ve satış fiyatı için kullanılır. 
+
+**Malzeme Kullanımı Günlüğü** girişinde bir özel alan ekleyebilirsiniz. Alan değerinin, fiili değerlere doldurulmasını istiyorsanız bu alanı **Fiili değerler** ve **Yevmiye Defteri Satırı** tablolarında oluşturun. Seçilen alan değerini, Zaman Girişi'nden Fiili Değerlere hareket kaynaklarını kullanarak yevmiye defteri satırı üzerinden yaymak için özel kod kullanın. Hareket kaynakları ve bağlantılar hakkında daha fazla bilgi için [Fiili değerleri özgün kayıtlara bağlama konusuna bakın](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
 
 ## <a name="use-entry-journals-to-record-costs"></a>Maliyetleri kaydetmek için giriş yevmiye defterlerini kullanma
 
 Giriş yevmiye defterlerini malzeme, ücret, zaman, gider veya vergi işlemi sınıflarında maliyeti veya geliri kaydetmek için kullanabilirsiniz. Yevmiye defterleri aşağıdaki amaçlar için kullanılabilir:
 
-- Projedeki gerçek malzeme ve satış maliyetini kaydedin.
 - İşlem gerçek tutarlarını başka bir sistemden Microsoft Dynamics 365 Project Operations'a taşıyın.
 - Başka bir sistemde gerçekleşen maliyetleri kaydedin. Bu maliyetler, satın alma veya alt yüklenici maliyetlerini içerebilir.
 
 > [!IMPORTANT]
 > Uygulama, yevmiye defteri satırı türünü veya yevmiye defteri satırına girilen ilgili fiyatlandırmayı doğrulamaz. Bu nedenle, yalnızca gerçek değerlerin proje üzerindeki muhasebe etkisinin tam olarak farkında olan bir kullanıcı, gerçek değerleri oluşturmak için giriş yevmiye defterlerini kullanmalıdır. Bu yevmiye defteri türünün etkisi nedeniyle giriş yevmiye defteri oluşturma işlemine kimlerin erişimi olacağını dikkatlice seçmelisiniz.
+
 ## <a name="record-actuals-based-on-project-events"></a>Proje olaylarına göre gerçek değerleri kaydetme
 
 Project Operations, bir proje sırasında gerçekleşen finansal işlemleri kaydeder. Bu işlemler fiili değerler olarak kaydedilir. Aşağıdaki tablolar, projenin zaman ve malzeme veya sabit fiyatlı proje olmasına, ön satış aşamasında bulunmasına veya dahili bir proje olmasına bağlı olarak oluşturulan farklı fiili değer türlerini gösterir.

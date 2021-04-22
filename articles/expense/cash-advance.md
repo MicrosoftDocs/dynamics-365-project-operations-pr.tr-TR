@@ -3,19 +3,19 @@ title: Nakit avans
 description: Bu konuda, nakit avanslar hakkında bilgiler sağlanmaktadır.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276732"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715584"
 ---
 # <a name="cash-advance"></a>Nakit avans
 
@@ -60,7 +60,22 @@ Aşağıdaki yordam genellikle bir muhasebeci veya muhasebe izinleri olan bir ku
 
 Zaten almış olduğunuz nakit avans için bir gider raporu oluşturup gönderdiğinizde, harcamalar bu avansa göre otomatik olarak ayarlanır. Nakit avansınız gider kaydedilen tutardan yüksekse **Nakit iadesi** gider kategorisini kullanarak bakiyeyi şirkete iade etmeniz gerekir. Şirket tarafından ödenen nakit avans, harcadığınız tutardan düşükse şirketin bakiyenizi size geri ödemesi gerekir. 
 
-### <a name="example"></a>Örnek
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Giderlerinize uygulanacak nakit avansları seçin
+Bir gider raporunu göndermeden önce, rapordaki gider hareketleriyle hizalı nakit avans seçeneğini belirleyebilirsiniz. Bu işlevi kullanmak için **Özellik yönetimi** çalışma alanından aşağıdaki iki özelliğin etkinleştirilmesi gerekir:
+
+  - Gider raporlarını yeniden tasarlama
+  - Nakit avanslarını gider satırlarına eşleme özelliği
+ 
+ Bu özellikler etkinleştirildiğinde:
+ 
+  - Her gider satırı için bir veya daha fazla nakit avansı ekleyebilirsiniz.
+  - Bir gider raporu kaydedildiğinde, nakit avansın kullanılabilir bakiyesi gerçek zamanlı olarak görünür. Bu, aynı anda masraf hareketlerini işlemenize ve nakit hareketini iade etmenize olanak sağlar.
+  - Bir gider satırı için birden fazla nakit avansı seçebilirsiniz.
+  - Nakit avans mutabakatı verilerine bir sorgu kullanarak erişebilirsiniz. 
+ 
+Bu özellikleri kullanmazsanız bir masraf gönderildikten sonra, mevcut nakit avanslar otomatik olarak azaltıldığında işlevsellik aynı kalır.
+
+### <a name="example"></a>Örnek 
 Konferans için Seattle'dan New York'a seyahat etmeyi planlıyorsunuz. Konferans bileti, uçuş, otel, yemek ve taksinin tahmini maliyetine bağlı olarak 3.000,00 USD tutarında bir nakit avans isteği oluşturdunuz. Yöneticiniz bu isteği onaylamadıkça size ödeme yapılmaz. Yöneticiniz onayladıktan sonra istenen nakit avans 3000,00 ABD doları olarak banka hesabınıza ödenir. Sonrasında konferansa katıldınız. Seyahatinizi tamamladıktan sonra toplam giderin yalnızca 2790,00 USD olduğunu gördünüz. **Ödeme yöntemi** alanında, **Nakit**'i seçin ve 2.790,00 USD tutarındaki giderinizi girin. Gönderdiğiniz gider tutarı, size ödenen 3000,00 USD nakit avansa göre otomatik olarak ayarlanır. Şu andaki bakiyeniz 210,00 USD (3.000,00 - 2.790,00) ve bu bakiyeyi **Nakit iadesi** gider kategorisini kullanarak şirkete iade edebilirsiniz.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Proje tabanlı sözleşme satırlarıyla çalışma - lite
+title: Proje tabanlı sözleşme satırlarına genel bakış
 description: Bu konu proje tabanlı sözleşme satırlarıyla çalışma hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273312"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858182"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a>Proje tabanlı sözleşme satırlarıyla çalışma - lite
+# <a name="project-based-contract-lines-overview"></a>Proje tabanlı sözleşme satırlarına genel bakış
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Project Operations'taki proje tabanlı sözleşme satırları, bir etkileşimde proje çalışmasının belirli bileşenleri için tahmin ve fatura anlaşmalarını tutacak şekilde tasarlanmıştır. Proje tabanlı bir sözleşme satırının yapısı, aşağıdaki kavramlarla proje tahminleri ve fatura senaryoları için genişletilir:
 
@@ -35,14 +35,15 @@ Aşağıdaki tabloda , ayrıntılı, bir kara-yukarı tahmin ve proje tabanlı �
 | --- | --- | --- |
 | **Ad** | Sözleşme satırının adı. Bu, tahmini olan sözleşmenin kesikli bileşenini tanımlar. Tekliften oluşturulan bir proje sözleşmesi için bu değer, proje tabanlı teklif satırının karşılık gelen değerinden kopyalanır. | Kopyalanan ad, Fatura oluşturulduğunda bu sözleşme satırından oluşturulan proje fatura satırına kopyalanır. |
 | **Faturalama Yöntemi** | Tekliften oluşturulan bir proje sözleşmesi için bu değer, teklif satırında karşılık gelen alandan kopyalanır. Bu, proje işlemleri tarafından desteklenen iki ana sözleşme modelini gösteren bir seçenek kümesi:</br>- **Sabit Fiyat**</br>- **Zaman ve Malzeme** | Başvurulan sözleşme satırının faturalama yöntemine dayalı olarak gerçek hareket işlenir. Gerçek tarafından başvurulan sözleşme satırı bir zaman ve malzeme faturalama yöntemi içeriyorsa, bir maliyet ve faturalanalınmamış satış fiili kaydı oluşturulur. Gerçek tarafından başvurulan sözleşme satırı sabit fiyatlı bir faturalama yöntemi içeriyorsa, yalnızca bir fiili maliyet oluşturulmuştur. |
-| **Project** | Bu görevlendirmede iş teslim etmek için kullanılacak projeyi tanımlamak için bu alanı kullanın. | Bu değer, **eklenen görevler** ve **dahil edilen hareket sınıfları** ile bağlantılı olarak, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için kullanılır. |
+| **Project** | Bu görevlendirmede iş teslim etmek için kullanılacak projeyi tanımlamak için bu alanı kullanın. | Bu değer, gerçek veya tahmin satır kaydındaki sözleşme satırı referansını çözmek için **Dahil Edilen Görevler** ve **Dahil Edilen İşlem Sınıfları** ile birlikte kullanılır. |
 | **Dahil Edilen Görevler** | Bu sözleşme satırının Seçili projeyle ilgili tüm proje görevlerini mi yoksa yalnızca görevlerin bir alt kümesi mi içerdiğini gösterir. Bu, aşağıdaki olası değerlere sahip bir seçenek kümesidir:</br>- **Tüm Proje Görevleri**</br>- **Yalnızca seçili proje görevleri**. Bu alandaki boş bir değer, **Tüm proje görevlerini** seçmek için eşittir. | **Yalnızca seçili görevler** seçiliyse, belirli görevleri seçebilir ve **Proje** sayfasındaki **Görev faturalama ayarı** sekmesinde Bu sözleşme satırıyla ilişkilendirebilirsiniz. Değer, **Proje** ve **dahil edilen işlem** sınıfları ile bağlantılı olarak, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için kullanılır. |
-| **Zaman Ekle** | Bir bayrak Seçili projedeki zaman hareketlerinin veya işçilik maliyetlerinin Bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, zaman hareketlerinin veya işçilik maliyetinin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, fiili veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için Proje ile birlikte kullanılır. |
-| **Gider Ekle** | Bir bayrak Seçili projedeki gider maliyetlerinin Bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, gider maliyetlerinin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, fiili veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için Proje ile birlikte kullanılır. |
-| **Ücret Ekle** | Bir bayrak Seçili projedeki ücretlerin Bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, ücretlerin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, fiili veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için Proje ile birlikte kullanılır. |
+| **Zaman Ekle** | **Evet**/**Hayır** değeri, seçili projedeki zaman hareketlerinin veya işçilik maliyetlerinin bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, zaman hareketlerinin veya işçilik maliyetinin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için projeyle birlikte kullanılır. |
+| **Gider Ekle** | **Evet**/**Hayır** değeri, seçili projedeki gider maliyetlerinin bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, gider maliyetlerinin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için projeyle birlikte kullanılır. |
+| **Malzemeleri Dahil Et** | **Evet**/**Hayır** değeri, seçili projedeki malzeme maliyetlerinin bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hayır** değeri, malzeme maliyetlerinin bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için projeyle birlikte kullanılır. |
+| **Ücret Ekle** | **Evet**/**Hayır** değeri, seçili projedeki ücretlerin bu sözleşme satırına dahil edilip edilmeyeceğini gösterir. **Hiçbir** değer, ücretlerin Bu sözleşme satırına dahil edilmeyeceğini gösterir. Bir **Evet** değeri bunların olacağını belirtir. | Bu değer, gerçek veya tahmin satırı kaydında sözleşme satırı başvurusunu düzeltmek için projeyle birlikte kullanılır. |
 | **Sözleşme Tutarı** | Sabit fiyatlı sözleşme satırında bu tutar, bu sözleşme satırıyla ilişkilendirilmiş tüm iş bileşenleri için müşteriye Faturalanacak, üzerinde anlaşılan değer olarak kullanılır. Zaman ve materyal sözleşme satırında bu tutar, bu sözleşme satırıyla ilişkilendirilmiş tüm iş bileşenleri için müşteriye Faturalanacak, üzerinde anlaşılan değer olarak kullanılır. Tekliften oluşturulan bir proje sözleşmesi için bu değer, teklif satırında karşılık gelen alandan kopyalanır. Proje tabanlı bir sözleşme satırının satır ayrıntıları varsa, bu alan düzenleme için kilitlenir ve sözleşme satırı ayrıntılarındaki tutardan özetlenir. | Sözleşme satırının satır ayrıntıları varsa, bu değer satır ayrıntılarındaki tutarlar değiştirilerek değiştirilebilir. Sabit fiyat sözleşmesi satırındaki bu değer, dönemsel faturalama kilometre taşları üzerindeki vergi öncesindeki tutarı oluşturmak için kullanılır. |
 | **Tahmini Vergi** | Kullanıcı, sözleşme satırındaki tahmini vergi tutarını girmek için bu alanı düzenleyebilir. Proje tabanlı bir sözleşme satırının satır ayrıntıları varsa, bu alan düzenleme için kilitlenir ve sözleşme satırı ayrıntılarındaki vergi tutarından özetlenir. | Sözleşme satırının satır ayrıntıları varsa, bu değer satır ayrıntılarındaki vergi tutarları değiştirilerek değiştirilebilir. Sabit fiyat sözleşmesi satırındaki bu değer, dönemsel faturalama kilometre taşları üzerindeki vergi oluşturmak için kullanılır. |
-| **Vergi Sonrası Sözleşme Tutarı** | Vergi Sonrası Sözleşme Tutarı. Bu alan salt okunurdur ve **sözleşme gören tutar + vergi** olarak hesaplanır. | Sabit fiyat sözleşmesi satırındaki bu değer, dönemsel faturalama kilometre taşları oluşturmak için kullanılır. |
+| **Vergi Sonrası Sözleşme Tutarı** | Vergi Sonrası Sözleşme Tutarı. Bu alan salt okunurdur ve **Sözleşme Gören Tutar + Vergi** olarak hesaplanır. | Sabit fiyat sözleşmesi satırındaki bu değer, dönemsel faturalama kilometre taşları oluşturmak için kullanılır. |
 | **Aşılamaz limit** | Kullanıcı bu alanı düzenleyebilir ve yalnızca zaman ve malzeme faturalama yöntemi bulunan proje tabanlı sözleşme satırlarında kullanılabilir. | Kullanıcı bu alanı düzenleyebilir. Gerçek bir zaman veya gider, bu sözleşme satırına saat ve malzeme için başvurduğunda, fiili üzerindeki tutar bu sözleşme satırındaki en fazla aşan sınıra göre değerlendirilir. Bu değerlendirme, zaten harcanan ve taahhüt edilen tutarların muhasebesi yapıldıktan sonra tamamlanır. |
 | **Müşteri Bütçesi** | Bu alan düzenlenebilirdir ve sözleşme tekliften oluşturulduysa teklif satırında karşılık gelen alandan kopyalanır. | Bu alan yalnızca bilgi için kullanılır ve herhangi bir aşağı akış önemi içermez. |
 
@@ -54,18 +55,559 @@ Kural 2: **dahil edilen görevler** alanı boş veya **Tüm Proje görevlerine**
 
 Kural 3: **Dahil edilen görevler** alanı boş veya **Yalnızca seçili Proje görevlerine** açık olarak ayarlandığında proje ve belirli bir hareket sınıfı yalnızca bir sözleşmenin birdne çok proje tabanlı sözleşme satırına dahil edilebilir.
 
-| Sözleşme | Sözleşme Satırı | Project | Dahil edilen görevler      | Zaman ekle | Gider ekle | Ücret Ekle | Geçerli/geçerli değil | Nedeni                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | P1      | Boş               | Evet          | Evet             | Evet         | Geçerli değil       | Kural 2'nin ihlali. Proje P1 üzerinde zaman, masraf ve ücretler, CL1 ve CL2 sözleşme satırlarına eklenir.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | P1      | Boş               | Evet          | Evet             | Evet         | Geçerli değil       | Kural 2'nin ihlali. Proje P1 üzerinde zaman, masraf ve ücretler, CL1 ve CL2 sözleşme satırlarına eklenir.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | P1      | Boş               | Evet          | No              | Evet         | Geçerli değil       | Kural 2'nin ihlali. Proje P1 üzerinde zaman ve ücretler, CL1 ve CL2 sözleşme satırlarına eklenir.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Boş               | Evet          | Evet             | Evet         | Geçerli değil       | Kural 2'nin ihlali. Proje P1 üzerinde zaman ve ücretler, CL1 ve CL2 sözleşme satırlarına eklenir.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Boş               | Evet          | No              | Evet         | Geçerli           | Proje P1 için zaman ve ücretler CL1'e eklenir. P1 projesindeki giderler CL2'ye dahildir. </br>   Her bir sözleşme satırına nelerin dahil edildiği ve bu nedenle geçerli olan bir çakışma yoktur.                                                                                                                                                                                                                         |
-| C1       | CL2           | P1      | Boş               | No           | Evet             | No          | Geçerli           | Proje P1 için zaman ve ücretler CL1'e eklenir. P1 projesindeki giderler CL2'ye dahildir. </br>   Her bir sözleşme satırına nelerin dahil edildiği ve bu nedenle geçerli olan bir çakışma yoktur.                                                                                                                                                                                                                         |
-| C1       | CL1           | P1      | Yalnızca seçili görevler | Evet          | Evet             | Evet         | Geçerli değil       | Kural 2'nin ihlali.   </br>- C1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br>- CL2 tüm proje P1 için saat, masraf ve ücretleri içerir, bu nedenle C1'in içerdiği verilerle örtüşür.                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Boş               | Evet          | Evet             | Evet         | Geçerli değil       | Kural 2'nin ihlali.   </br>- C1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br>- CL2 tüm proje P1 için saat, masraf ve ücretleri içerir, bu nedenle C1'in içerdiği verilerle örtüşür.                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Yalnızca seçili görevler | Evet          | Evet             | Evet         | Geçerli           | Kural başına #3</br>- C1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br> - CL2, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br> Yalnızca, CL1 üzerinde bulunan görevlerin alt kümesinde yer alır, bu da CL2 üzerindeki görev alt kümesinden farklıdır ve bu da örtüşmelere dikkat edin. Bu doğrulama, görevler ilişkilendirildiğinde sistem tarafından tamamlanır. |
-| C1       | CL2           | P1      | Yalnızca seçili görevler | Evet          | Evet             | Evet         | Geçerli           | Kural başına #3</br>- C1, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br> - CL2, proje P1 üzerinde bir görev alt kümesinde Zaman, Giderler ve Ücretleri içerir. </br> Yalnızca, CL1 üzerinde bulunan görevlerin alt kümesinde yer alır, bu da CL2 üzerindeki görev alt kümesinden farklıdır ve bu da örtüşmelere dikkat edin. Bu doğrulama, görevler ilişkilendirildiğinde sistem tarafından tamamlanır. |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Sözleşme</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Sözleşme Satırı</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Dahil edilen görevler</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Zaman Ekle</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Gider Ekle</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Malzemeleri Dahil Et</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Ekle</strong>
+                </p>
+                <p>
+                    <strong>Ücret</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Geçerli/Geçerli değil</strong>
+                </p>
+            </td>
+            <td width="250" valign="top">
+                <p>
+                    <strong>Neden</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Geçerli değil </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kural 2'nin ihlali. P1 projesindeki Zaman, Gider, Malzeme ve Ücretler hem CL1 hem de CL2 Sözleşme satırlarına dahil edilir.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Geçerli değil </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kural 2'nin ihlali. P1 projesindeki Zaman, Malzemeler, ve Ücretler hem CL1 hem de CL2 Sözleşme satırlarına dahil edilir.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Geçerli </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+P1 projesindeki Zaman, Malzemeler ve Ücretler CL1'e dahil edilir.
+                </p>
+                <ul>
+                    <li>
+P1 projesindeki giderler CL2'ye dahildir.
+                    </li>
+                </ul>
+                <p>
+Her bir sözleşme satırına dahil edilenler arasında çakışma yok ve bu nedenle geçerli.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+No </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Geçerli değil </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kural 2'nin ihlali </p>
+                <p>
+C1'e, proje P1 üzerindeki bir görev alt kümesinde Zaman, Malzemeler, Giderler ve Ücretler dahildir.
+                </p>
+                <p>
+CL2'ye tüm proje P1 için Zaman, Malzemeler, Giderler ve Ücretler dahildir ve bu nedenle C1'e dahil edilenlerle çakışır.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Boş </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL1 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+Geçerli </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+Kural başına #3 </p>
+                <p>
+C1'e, proje P1 üzerindeki bir görev alt kümesinde Zaman, Giderler ve Ücretler dahildir.
+                </p>
+                <p>
+CL2'e, proje P1 üzerindeki bir görev alt kümesi için Zaman, Giderler ve Ücretler dahildir.
+                </p>
+                <p>
+Yalnızca tek bir ek doğrulama yapılır. Bu doğrulamanın amacı, çakışmaları önlemek için CL1 üzerindeki alt görevlerin CL2 üzerindeki alt görevlerden farklı olmasını kontrol etmektir. Bu, görevler ilişkilendirildiğinde sistem tarafından yapılır.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+C1 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+CL2 </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+P1 </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+Yalnızca seçili görevler </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+Evet </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

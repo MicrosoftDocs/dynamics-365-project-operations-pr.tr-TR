@@ -1,28 +1,24 @@
 ---
-title: Gider tahminleri
+title: Projelerdeki giderler için mali tahminler
 description: Bu konuda, proje tabanlı giderleri tanımlama veya tahmin etme hakkında bilgiler sağlanmaktadır.
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287082"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701806"
 ---
-# <a name="expense-estimates"></a>Gider tahminleri
+# <a name="financial-estimates-for-expenses-on-projects"></a>Projelerdeki giderler için mali tahminler
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, kaynak tabanlı tahminleri tanımlamanın yanı sıra Proje yöneticilerinin her proje için proje tabanlı giderler tanımlamasına da olanak tanır. Her gider öğesi, belirli bir proje görevi veya gider kategorisiyle ilişkilendirilebilir. Gider kategorileri genellikle kuruluş düzeyinde tanımlanır. Her gider kategorisinin fiyatlandırması genellikle aşağıdaki hiyerarşiye göre tanımlanır:
-
-- Kuruluş
-- Müşteri
-- Teklif/sözleşme
+Dynamics 365 Project Operations, Proje yöneticilerinin her proje ya da görev için proje tabanlı giderler tanımlamalarına izin verir. Her gider maddesi, belirli bir proje göreviyle ilişkilendirilebilir. Giderler, kuruluş düzeyinde tanımlanan farklı masraf kategorilerine kategorilere ayrılır. Her bir gider kategorisi için fiyatlandırma ve maliyetlendirme, fiyat listesinde tanımlanır. 
 
 Proje giderini görüntülemek, eklemek veya silmek için aşağıdaki adımları tamamlayın.
 
@@ -30,14 +26,20 @@ Proje giderini görüntülemek, eklemek veya silmek için aşağıdaki adımlar�
 2. **Proje Tahminleri** sekmesini seçin ve proje giderleri listesini görüntüleyin.
 3. Gider eklemek için **Yeni Gider**'i seçin. Alternatif olarak, silinecek gideri seçin ve ardından **Gideri Sil** seçeneğini belirleyin.
 
-Aşağıdaki öznitelikler her gider satırı öğesi için tanımlanır:
+Aşağıdaki tabloda, bir projedeki **Masraf Tahmini satırındaki** alanlar hakkında bilgi verilmiştir. 
 
-- **Kategori**: Projede oluşan tüm giderleri tanımlamak için kullanılan ortak gruplar.
-- **Başlangıç Tarihi**: Giderin oluşacağı tahmin edilen tarih.
-- **Miktar**: Belirli bir kategori için gider öğelerinin tahmini sayısı.
-- **Birim Maliyet Fiyatı**: Giderin maliyetini hesaplamak için kullanılan birim fiyatı.
-- **Birim Satış Fiyatı**: Giderin satış fiyatlarını hesaplamak için kullanılan birim fiyatı.
-
+| **Alan** | **Açıklama** | **Aşağı yönlü etki** |
+| --- | --- | --- |
+| Görev | Projedeki görevlerin bir listesi. Buna, özet ve yaprak düğüm görevleri dahildir. | Bir masraf tahmin satırı için bir görev seçilmesi, görevin tahmini gider maliyeti ve tahmini gider satışlarını etkiler. Bu alan boş bırakılırsa gider tahmini yalnızca proje düzeyinde izlenir ve özetlenir. |
+| Kategori | Uygulamada bağlantılı gider kategorileri bulunan hareket kategorilerinin bir listesi. | Bir kategori seçildiğinde, masraf tahmini satırındaki fiyatlandırmayı ve maliyetlendirmeyi harekete geçirir. |
+| Başlangıç tarihi | Giderin gerçekleşeceği tahmini tarih. | Bu alanda aşağı yönlü etki yoktur. |
+| Birim grubu | Bu alandaki varsayılan değer, seçilen kategoride varsayılan olarak ayarlanan birim grubundan alınır. Başka bir birim grubunu seçerek bu alanı güncelleştirebilirsiniz. | Bu alanda aşağı yönlü etki yoktur. |
+| Birim | Bu alandaki değer, varsayılan olarak seçili kategorinin varsayılan birimidir. Başka bir birim seçerek bu alanı güncelleştirebilirsiniz. | Birim değiştirildiğinde, farklı bir varsayılan birim fiyatı ve maliyet elde edilir. |
+| Miktar | Karşılayacağınız tahmini giderin miktarı. | Bu alanda aşağı yönlü etki yoktur. |
+| Birim Maliyeti | Seçilen kategori ve birim birleşiminin, geçerli maliyet fiyatı listesinde ayarlandığı üzere maliyeti | Birim maliyeti her zaman projenin maliyet para biriminde gösterilir. |
+| Birim Fiyatı | Seçilen kategori ve birim birleşiminin, geçerli satış fiyatı listesinde ayarlandığı üzere fiyatı. | Birim fiyatı her zaman projenin satış para biriminde gösterilir. |
+| Toplam Maliyet | Miktar \* birim maliyeti olarak hesaplanan maliyet tutarı.| Maliyet tutarı her zaman projenin maliyet para biriminde gösterilir. |
+| Toplam Satış | Miktar \* birim fiyatı olarak hesaplanan satış tutarı. | Satış tutarı her zaman projenin satış para biriminde gösterilir. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

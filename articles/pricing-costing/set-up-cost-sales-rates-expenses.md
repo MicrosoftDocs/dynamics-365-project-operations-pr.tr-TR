@@ -3,17 +3,17 @@ title: Giderler için maliyet ve satış oranlarını ayarlama
 description: Bu konu, işlem ve gider kategorileri için maliyet ve satış oranlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274932"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877244"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Giderler için maliyet ve satış oranlarını ayarlama
 
@@ -23,9 +23,10 @@ Dynamics 365 Project Operations'ta işlem kategorileri için maliyeti ve satış
 
 Hareket kategorileri için maliyet ve satış oranları ayarlamak üzere aşağıdaki adımları izleyin. 
 
-1. Fiyat listesi başlığına dayanan bir fiyat listesi oluşturun. 
-2. **Kategori fiyatları**'nın alt ızgara menüsünde, **+ Yeni kategori fiyatı**'nı seçin. 
-3. **Hızlı kayıt** sayfasında, için yeni fiyatı oluşturacağınız hareket kategorisini ve birimi girin.
+1. **Satış** > **Müşteriler** > **Fiyat Listeleri**'ne gidin.
+2. Yeni fiyat listesi oluşturmak için **Yeni**'yi seçin. 
+3. **Kategori fiyatları**'nın alt ızgara menüsünde, **Yeni Kategori Fiyatı**'nı seçin. 
+4. **Hızlı kayıt** sayfasında, için yeni fiyatı oluşturacağınız hareket kategorisini ve birimi girin.
 
 Aşağıdaki tabloda, **genel** sekmesindeki alanlar ve bir satış fiyatı listesinde rol fiyatları oluştururken aklınızda bulundurmanız gereken bir rol fiyatı satırının **hızlı kayıt** bölmesi yer almaktadır:
 

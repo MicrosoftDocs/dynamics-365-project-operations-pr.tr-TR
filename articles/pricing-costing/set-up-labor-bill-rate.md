@@ -3,17 +3,17 @@ title: İşçilik fatura oranlarını ayarlama
 description: Bu konuda Project Operations'ta iş gücü faturalandırma fiyatlarını ayarlama hakkında bilgi sağlanır.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274842"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877424"
 ---
 # <a name="set-up-labor-bill-rates"></a>İşçilik fatura oranlarını ayarlama
 
@@ -21,8 +21,8 @@ ms.locfileid: "5274842"
 
 Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations'ta zaman için fatura oranları yalnızca tek bir para biriminde ayarlanabilir ve bu, Fiyat listesi başlığındaki para birimidir.
 
-1. Bir satış fiyatı listesi için işçilik fatura tarifesinin ayarlanması için fiyat listesi başlığına dayanan bir fiyat listesi oluşturun. 
-2. **Rol Fiyatlar** sekmesinde, alt kılavuzda **+ Yeni Rol Fiyatı**'nı seçin. 
+1. Bir satış fiyatı listesinin işçilik fatura oranlarını ayarlamak için **Satış** > **Müşteriler** > **Fiyat Listeleri**'ne gidin yeni bir fiyat listesi oluşturmak için **Yeni**'yi seçin. 
+2. **Rol Fiyatlar** sekmesinde, alt ızgarada **Yeni Rol Fiyatı**'nı seçin. 
 3. **Hızlı kayıt** bölmesinde, fatura oranı ayarlamanız gereken rolü ve organizasyon birimi bileşimini girin.
 
    Aşağıdaki tabloda, **genel** sekmesindeki alanlar ve bir satış fiyatı listesinde rol fiyatları oluştururken aklınızda bulundurmanız gereken bir rol fiyatı satırının **hızlı kayıt** bölmesi yer almaktadır:

@@ -1,29 +1,27 @@
 ---
-title: Otomatik fatura oluşturmayı yapılandırma - lite
-description: Bu konuda, proforma faturaların otomatik oluşturulmasının yapılandırılması hakkında bilgiler sağlanmaktadır.
+title: Otomatik fatura oluşturmayı ayarla
+description: Bu konu, proforma faturalarının otomatik olarak oluşturulmasını ayarlama ve yapılandırma hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274347"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866841"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>Otomatik fatura oluşturmayı yapılandırma - lite
+# <a name="set-up-automatic-invoice-creation"></a>Otomatik fatura oluşturmayı ayarla 
  
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_
 
 Dynamics 365 Project Operations'ta otomatik fatura oluşturmayı yapılandırabilirsiniz. Sistem, her proje sözleşmesi ve sözleşme satırı için fatura planına dayalı olarak bir taslak proforma fatura oluşturur. Fatura zamanlamaları, sözleşme satırı düzeyinde yapılandırılır. Bir sözleşmedeki her satırın ayrı bir fatura çizelgesi olabilir veya sözleşmenin her satırına aynı fatura çizelgesi eklenebilir.
 
-Bir fatura oluşturduğunuzda, sistem her zaman proje sözleşmesi başına en az bir fatura oluşturur. Bazı durumda, birden çok fatura oluşturulmuş olabilir.
-
-Örneğin, sözleşmenin birden çok müşterisi varsa, bu proje sözleşmesinde faturalamak için faturalandırılabilir hareketlere sahip olan müşteri sayısı olarak aynı fatura oluşturulur.
+Bir fatura oluşturduğunuzda, sistem her zaman proje sözleşmesi başına en az bir fatura oluşturur. Bazı durumda, birden çok fatura oluşturulmuş olabilir. Örneğin, sözleşmenin birden çok müşterisi varsa, bu proje sözleşmesinde faturalamak için faturalandırılabilir hareketlere sahip olan müşteri sayısı olarak aynı fatura oluşturulur.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Hareketlerin faturaya nasıl dahil edildiğini anlama 
 

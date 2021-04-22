@@ -3,17 +3,17 @@ title: Faturalanabilir projeler için muhasebeyi yapılandırma
 description: Bu konuda, faturalanabilir projelerin muhasebe seçenekleri hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287667"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858677"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Faturalanabilir projeler için muhasebeyi yapılandırma
 
@@ -58,13 +58,25 @@ Yeni bir proje maliyet ve gelir profili oluşturmak için aşağıdaki adımlar�
 
          - **Bakiye**: Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *WIP - Maliyet değeri* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlanan şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** > **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır. Muhasebeci, bu maliyeti dönemsel olarak taşımak bir bakiye hesabından kar ve zarar hesabına için **Maliyetleri deftere naklet** işlevini kullanır.
         - **Kar ve zarar**: Project Operations entegrasyon günlüğüne nakledilirken, gider işlemi maliyeti *Maliyet* Kayıt Defteri hesap türüne **Kayıt defterine nakletme ayarı** sayfasındaki **Maliyet** sekmesinde tanımlandığı şekilde borç ve yevmiye defteri satırındaki fark hesabına alacak olarak kaydedilir. Gider için varsayılan fark hesapları **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Deftere nakil** \> **Giderler için varsayılan fark hesabı** ile tanımlanır.
+      
+    - **Deftere nakletme maliyetleri– madde**:
+
+         - **Bakiye**: Project Operations Tümleştirme günlüğü deftere nakledilirken, madde hareket maliyeti **Genel muhasebe deftere nakletme kurulumu** sayfasındaki **Maliyet** sekmesinde belirlendiği üzere *WIP - Maliyet değeri - madde* Genel Muhasebe hesap türüne borçlandırılır ve alacak olarak aşağıdakilere kaydedilir:
+    
+              - Kullanım belge türü için: **Genel muhasebe deftere nakletme kurulumu**'nda **Maliyet - madde** hesabı.  
+              - Satınalma belge türü için: **Proje Yönetimi ve muhasebe parametreleri**'nde **Tedarik tümleştirme hesabı**.
+           Muhasebeci, bu maliyeti dönemsel olarak taşımak bir bakiye hesabından kar ve zarar hesabına için **Maliyetleri deftere naklet** işlevini kullanır.
+        - **Kar ve zarar**: Project Operations Tümleştirme günlüğü deftere nakledilirken, madde hareket maliyeti **Genel muhasebe deftere nakletme kurulumu** sayfasındaki **Maliyet** sekmesinde belirlendiği üzere *Maliyet* Genel Muhasebe hesap türüne borçlandırılır ve alacak olarak aşağıdakilere kaydedilir:
+         
+             - Kullanım belge türü için: **Genel muhasebe deftere nakletme kurulumu**'nda **Maliyet - madde** hesabı.  
+             - Satınalma belge türü için: **Proje Yönetimi ve muhasebe parametreleri**'nde **Tedarik tümleştirme hesabı**.
        
     - **Hesapta faturalama**:
 
         - **Bakiye**: Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *WIP Faturalanan - hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir.
          - **Kar ve zarar**: Proje fatura teklifi deftere nakledilirken, **Kayıt defterine nakletme ayarı** sayfasındaki **Gelir** sekmesinde tanımlanan şekilde *Faturalanan gelir- hesapta* Kayıt Defteri hesap türüne alacak ve Müşteri bakiye hesabına borç olarak kaydedilir. Müşteri bakiye hesapları **Alacak hesabı** \> **Kurulum** \> **Müşteri deftere nakil profilleri**'nde tanımlanır.
 
-   Zaman ve malzeme faturalama yöntemleri için deftere nakil profillerini tanımladığınızda geliri işlem türüne göre (saat, gider ve ücret) tahakkuk etme seçeneğiniz vardır. **Gelir tahakkuku** seçeneği **Evet** olarak ayarlandığında, Project Operations Entegrasyon günlüğündeki faturalanmamış satış işlemleri genel muhasebeye kaydedilir. Satış değeri, **WIP - satış değeri hesabına** borç ve **Gelir** sekmesindeki **Kayıt defterine nakletme ayarı** sayfasında ayarlanmış **Tahakkuk eden gelir - satış değeri** hesabına alacak olarak kaydedilir. 
+   Zaman ve malzeme faturalama yöntemlerinin nakil profillerini tanımladığınızda, hareket türü başına geliri (zaman, gider, madde ve ücret) tahakkuk etme seçeneğiniz vardır. **Gelir tahakkuku** seçeneği **Evet** olarak ayarlandığında, Project Operations Entegrasyon günlüğündeki faturalanmamış satış işlemleri genel muhasebeye kaydedilir. Satış değeri, **WIP - satış değeri hesabına** borç ve **Gelir** sekmesindeki **Kayıt defterine nakletme ayarı** sayfasında ayarlanmış **Tahakkuk eden gelir - satış değeri** hesabına alacak olarak kaydedilir. 
   
   > [!NOTE]
   > **Gelir tahakkuku** seçeneği yalnızca ilgili işlem türü olan **Maliyet**, kar ve zarar hesabına nakledildiğinde kullanılabilir.

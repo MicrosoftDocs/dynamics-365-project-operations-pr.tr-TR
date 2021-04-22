@@ -1,21 +1,21 @@
 ---
-title: Tahminler ve gerçek değerler için satış fiyatlarını çözümleme - lite
-description: Bu konu, tahminler ve fiili olarak satış fiyatlarının nasıl çözüldüğü hakkında bilgi sağlar.
+title: Proje tahminleri ve gerçek değerler için satış fiyatlarını çözümleme
+description: Bu konu, proje tahminleri ve gerçek değerlerinde satış fiyatlarının çözümlenmesi hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274527"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877380"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Tahminler ve gerçek değerler için satış fiyatlarını çözümleme - lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Proje tahminleri ve gerçek değerler için satış fiyatlarını çözümleme
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -55,5 +55,14 @@ Satışlar için fiyat listesi çözüldüğünde, sistem birim satış fiyatın
 
 4. Sistem **Kategori** ve **birim** alanı değerlerini eşleyemediğinde satış fiyatı varsayılan olarak sıfırdır (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Malzemenin gerçek ve tahmin satırlarında satış oranlarını çözme
+
+Project Operations'ta malzemenin tahmin satırları, malzemelerin teklif satırı ve sözleşme satırı ayrıntılarına ve projedeki malzeme tahmin satırlarını belirtmek için kullanılır.
+
+Satışlar için fiyat listesi çözüldüğünde, sistem birim satış fiyatının varsayılan olması için aşağıdaki adımları tamamlar.
+
+1. Sistem, malzemeyi çözülen fiyat listesindeki fiyat listesi maddesi satırlarıyla eşleştirmek için tahmin satırındaki **Ürün** ve **Birim** alanlarının birleşimini kullanır.
+2. Sistem, **Ürün** ve **Birim** alan birleşimi için satış oranına sahip bir fiyat listesi maddesi satırı bulursa ve fiyatlandırma yöntemi **Para birimi tutarı** ise fiyat listesinde belirtilen satış fiyatı kullanılır.
+3. **Ürün** ve **Birim** değerleri eşleşmiyorsa satış oranı varsayılan olarak sıfır olur.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
-title: Tahminlerde ve gerçek değerlerde maliyet fiyatlarını çözümleyin - lite
-description: Bu konu, tahminler ve fiili olarak maliyet fiyatlarının nasıl çözüldüğü hakkında bilgi sağlar.
+title: Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını çözümleme
+description: Bu konu, proje tahminleri ve gerçek değerlerinde maliyet fiyatlarının nasıl çözümleneceği hakkında bilgi sağlar.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274573"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877289"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Tahminlerde ve gerçek değerlerde maliyet fiyatlarını çözümleyin - lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını çözümleme 
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -36,6 +36,12 @@ Maliyet fiyatı listesi çözümlendikten sonra Zaman için tahmin satırındaki
 Gider için tahmin satırları, projedeki giderler ve gider tahmini satırları için teklif ve sözleşme satırı ayrıntılarına bakın.
 
 Maliyet fiyatı listesi çözümlendikten sonra sistem, gider tahmini satırındaki **Kategori** ve **Birim** alanlarının bir birleşimini çözümlenen fiyat listesindeki **Kategori Fiyatı** satırlarıyla eşleştirmek için kullanır. Sistem **Kategori** ve **Birim** alan birleşimi için maliyet oranına sahip bir kategori fiyat satırı bulursa, maliyet oranı varsayılan olarak. Sistem, **Kategori** ve **Birim** değerleriyle eşleşmiyorsa veya sistem, eşleşen bir kategori fiyatı satırı bulmasına rağmen fiyatlandırma yöntemi **Birim Fiyatı** değilse maliyet oranı varsayılan olarak sıfır (0) olur.
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Malzemenin gerçek ve tahmin satırlarında maliyet oranlarını çözme
+
+Malzemenin tahmin satırları, malzemelerin teklif ve sözleşme satırı ayrıntılarına ve projedeki malzeme tahmin satırları anlamına gelir.
+
+Maliyet fiyatı listesi çözüldükten sonra, sistem çözülmüş fiyat listesindeki **Fiyat Listesi Öğeleri** satırlarına uyacak bir malzeme tahmini için tahmin satırındaki **Ürün** ve **Birim** alanlarının bir birleşimini kullanır. Sistem, **Ürün** ve **Birim** alan birleşimi için maliyet oranına sahip bir ürün fiyatı satırı bulursa maliyet oranı varsayılan olarak alınır. Sistem, **Ürün** ve **Birim** değerlerini eşleştiremiyorsa veya eşleşen bir fiyat listesi öğesi satırı bulmasına rağmen fiyatlandırma yöntemi Standart maliyeti veya Geçerli maliyeti temel alıyor ve bunların ikisi de üründe tanımlı değilse birim maliyeti sıfır olarak varsayılır.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

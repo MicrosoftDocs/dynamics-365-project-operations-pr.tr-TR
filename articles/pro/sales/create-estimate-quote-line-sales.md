@@ -3,54 +3,58 @@ title: Proje tabanlı bir teklif satırını tahmin etme
 description: Bu konuda, proje tabanlı teklif satırında nasıl tahmin oluşturulacağı hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dbd3876e555ee6bc70308ef11a3528a5dd8b6a32
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273576"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858232"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Proje tabanlı bir teklif satırını tahmin etme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
 Proje tabanlı teklif satırında, teklif satırını teslim etmek için mevcut işin maliyetini ve potansiyel gelirini tahmin etmeye yardımcı olan ayrıntılar bulunur.
 
 Proje tabanlı teklif satırını tahmin etmek için proje tabanlı teklif satırında **Teklif Satırı Ayrıntısı** sekmesini seçin. Proje tabanlı teklif satırında bir tahmin oluşturmanın iki yolu vardır:
 
-- Teklif satırı ayrıntılarını kullanarak teklif satırında elle doğrudan teklif oluşturma 
+- Teklif satırı ayrıntılarını kullanarak teklif satırında elle doğrudan teklif oluşturun. 
 - Bir proje ve proje planı oluşturun ve ardından projeyi ve projedeki görevleri teklif satırıyla ilişkilendirin. Proje planındaki tahminleri sağladığınız bilgilere göre teklif satırında içeri aktarma işlemi etkinleştirilir.
 
 ## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Proje tabanlı teklif satırında doğrudan tahminler oluşturma
 
 Proje tabanlı teklif satırında bir tahmin oluşturmak için **Teklif Satırı Ayrıntısı** sekmesini seçin. Bu sekmede oluşturduğunuz satır öğesi, bu teklif satırının teklif değerini özetler. 
 
-Teklif satırı ayrıntıları oluşturmak için **teklif satırı ayrıntıları** alt ızgarasında **yeni teklif satırı ayrıntısı ekle**'yi seçin. Hızlı oluşturma kaydırıcısı açılır. **Teklif Satırı** formunda aşağıdaki alanlar:
+Teklif satırı ayrıntıları oluşturmak için **Teklif Satırı Ayrıntıları** alt ızgarasında **Yeni Teklif Satırı Ayrıntısı**'nı seçin. Hızlı oluşturma kaydırıcısı açılır. Aşağıdaki tabloda, **Teklif Satırı Ayrıntısı** sayfasındaki alanlarla ilgili ayrıntılar ve değerlerin işlevselliği nasıl etkilediğiyle ilgili bilgiler yer alır.
 
-| **Alan** | **Konum** | **Açıklama** | **Aşağı yönlü etki** |
+| **Alan** | **Location** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- | --- |
-| Veri Akışı Açıklaması | Hızlı oluştur | Belirli bir tahminin açıklaması. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| İşlem Sınıfı | Hızlı oluştur | Bu açılan listede, proje tabanlı teklif satırının **Genel** sekmesine dahil edilen işlem sınıfları sağlanır.  | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Rol | Hızlı oluştur | Bu işi gerçekleştirecek veya bu gideri üstlenecek kişi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Kategori | Hızlı oluştur | İş veya giderin kategorisi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Başlangıç Tarihi | Hızlı oluştur | İşin başlangıç tarihi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Bitiş Tarihi | Hızlı oluştur | İşin bitiş tarihi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Kaynak Belirleme Birimi | Hızlı oluştur | Bu maliyeti üstlenecek ve üzerinde çalışılacak kaynağı sağlayacak kaynak belirleme birimi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. Bu alan, maliyet fiyatı alma işleminde de kullanılır. |
-| Birim zamanlaması | Hızlı oluştur | İş veya giderin birim grubu. Birimler, bir birim zamanlamasına veya birim grubuna aittir. Örneğin, Mil ve KM'ler, mesafeyi tanımlayan bir birim grubuna ait birimlerdir. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Birim | Hızlı oluştur | İş veya giderin birimi. | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Miktar | Hızlı oluştur | İş veya giderin miktarı | Bu alan, otomatik olarak oluşturulan maliyetin ilgili teklif satırı ayrıntısı için varsayılan değerdir. |
-| Birim fiyatı | Hızlı oluştur | İşi gerçekleştiren rolün fatura oranı veya gider kategorisinin Satış fiyatı. Bu alan, başlangıç tarihinde geçerli olan proje fiyat listesinde rol ve kaynak birimi birleşimine göre Zaman için varsayılan değerdir. Giderler için bu alan, başlangıç tarihinde geçerli olan proje fiyat listesinde işlem kategorisinin fiyat ayarında varsayılan değerdir. İşlem kategorisi için fiyatlandırma yöntemi, birim başına fiyat değilse varsayılan değer yoktur ve bu alan boş bırakılır. | İşi gerçekleştiren rolün maliyet oranı veya gider kategorisinin birim başına maliyeti. Bu alan, başlangıç tarihinde geçerli olan Teklif fiyat listesinin Sözleşme biriminin fiyatında rol ve kaynak birimi birleşimine göre Zaman için varsayılan değerdir. Giderler için bu alan, başlangıç tarihinde geçerli olan Sözleşme biriminin maliyet fiyatı listesinde işlem kategorisinin fiyat ayarında varsayılan değerdir. İşlem kategorisi için fiyatlandırma yöntemi, birim başına fiyat değilse varsayılan değer yoktur ve bu alan boş bırakılır. |
+| Açıklama | Hızlı oluştur | Belirli bir tahminin açıklaması. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| İşlem Sınıfı | Hızlı oluştur | Bu açılır liste, proje tabanlı teklif satırının **Genel** sekmesinde yer alan hareket sınıflarının bir listesini sağlar.  | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Ürün Seç | Hızlı oluştur | Hareket sınıfı **Malzeme** olduğunda geçerlidir. Bu tahmin satırının, **Varolan** (katalog) bir ürün için mi **Serbest** bir ürün için mi olduğunu belirleyebilirsiniz. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Ürün | Hızlı oluştur | Ürün kataloğundan ürün kimliği. Bu alan, yalnızca **Ürün Seç** alanında **Varolan** öğesi seçilmişse etkinleştirilir. Kimlik, teklifteki proje fiyat listesinden satış fiyatını almak için kullanılır. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Serbest Eklenen Ürün | Hızlı oluştur | Ürünün adını yazmak için bir metin kutusu. Bu alan, yalnızca **Ürün Seç** alanında **Serbest** öğesi seçilirse etkinleştirilir.| Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Rol | Hızlı oluştur | Bu çalışmayı gerçekleştirecek veya bu gideri karşılayacak kişinin rolü. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Kategori | Hızlı oluştur | İş veya gider kategorisi. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Başlangıç Tarihi | Hızlı oluştur | İşin başlangıç tarihi. | Bu alan, otomatik olarak oluşturulan maliyet için teklif satırı ayrıntılarına varsayılan olarak alınır. |
+| Bitiş Tarihi | Hızlı oluştur | İşin bitiş tarihi. | Bu alan, otomatik olarak oluşturulan maliyet için teklif satırı ayrıntılarına varsayılan olarak alınır. |
+| Kaynak Belirleme Birimi | Hızlı oluştur | Bu maliyeti karşılayacak ve üzerinde çalışılması için kaynağı sağlayacak kaynak birimi. | Bu değer, otomatik olarak oluşturulan ve maliyet fiyatı almada kullanılan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Birim zamanlaması | Hızlı oluştur | İş, ürün veya giderin birim grubu. Birimler, bir birim zamanlamasına veya birim grubuna aittir. Örneğin, mil ve kilometre mesafeyi açıklayan bir birim grubuna ait birimlerdir. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Birim | Hızlı oluştur | İş, ürün veya giderin birimi. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Miktar | Hızlı oluştur | İş, ürün veya giderin miktarı. | Bu değer, otomatik olarak oluşturulan maliyet için ilgili teklif satırı detaylarına varsayılan olarak alınır. |
+| Birim fiyatı | Hızlı Oluştur |Çalışmayı gerçekleştiren rolün fatura oranı, ürünün birim fiyatı veya ürün ya da gider kategorisinin satış fiyatı. Bu alan için varsayılan, başlangıç tarihi için geçerli proje fiyatı listesinin rol fiyatı satırında bulunan fiyatlandırma boyutu değerlerinin birleşimine dayanan **Zaman**'dır. **Giderler** için bu alanın varsayılan ayarı, proje fiyat listesindeki, başlangıç tarihi için geçerli olan hareket kategorisine yönelik fiyat kurulumundan alınır. Hareket kategorisinin fiyatlandırma yöntemi birim başına fiyat değilse varsayılan olmaz ve bu alan boş bırakılır. Ürünler için varsayılan, başlangıç tarihi için geçerli proje fiyat listesindeki **Fiyat listesi maddesi** satırına dayanır.| Çalışmayı gerçekleştiren rolün maliyet oranı, gider kategorisinin birim başına maliyeti veya ürünün birim maliyeti. Bu alan için varsayılan, başlangıç tarihi için geçerli proje fiyatı listesinin rol fiyatı satırında bulunan fiyatlandırma boyutu değerlerinin birleşimine dayanan **Zaman**'dır. **Giderler** için bu alanın varsayılan ayarı, proje fiyat listesindeki, başlangıç tarihi için geçerli olan hareket kategorisine yönelik fiyat kurulumundan alınır. Hareket kategorisinin fiyatlandırma yöntemi birim başına fiyat değilse varsayılan olmaz ve bu alan boş bırakılır. Ürünler için varsayılan, başlangıç tarihi için geçerli proje fiyat listesindeki **Fiyat listesi maddesi** satırına dayanır.|
 | Tahmini Vergi | Hızlı oluştur | Bu iş veya gider için tahmini vergiyi el ile girebilirsiniz. | Bu alanda aşağı yönlü etki yoktur. |
 | Miktar | Hızlı oluştur | **Miktar** ve **Fiyat** alanları boş bırakılırsa bilgileri bu alana el ile girebilirsiniz. Bu alanlar boş değilse bu alan salt okunur hale gelir ve (Miktar \* Birim fiyat) + Vergi olarak hesaplanır. | Bu alanda aşağı yönlü etki yoktur. |
 
+
 ## <a name="update-prices-on-quote-line-details"></a>Teklif satırı ayrıntılarında fiyatları güncelleştirme
 
-Teklife ekli proje fiyat listesinde veya sözleşme biriminin maliyet fiyatı listesinde fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere tek tek teklif satırı ayrıntılarındaki fiyatları yenilemek için **Teklif** sayfasında **Yeniden Hesapla** seçeneğini belirleyebilirsiniz. **Yeniden Hesapla** seçeneğini belirlediğinizde, bu teklifteki tüm teklif satırları için teklif satırı ayrıntılarındaki fiyatların sıfırlanacağını bildiren bir uyarı oluşur. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet**'i seçin.
+Teklifle ilişkili proje fiyat listesindeki veya sözleşme biriminin maliyet fiyatı listesindeki fiyatları değiştirdiyseniz bu değişikliği yansıtmak üzere her bir teklif satırı ayrıntılarında fiyatları yenilemek için **Teklif** sayfasında **Yeniden hesapla**'yı seçebilirsiniz. **Yeniden hesapla**'yı seçtiğinizde, bu teklifteki tüm teklif satırlarıyla ilgili teklif satırı ayrıntılarının sıfırlanacağını bildiren bir uyarı görüntülenir. Satış ve maliyet teklif satırı ayrıntıları için fiyatları yenilemek üzere **Evet**'i seçin.
 
 ## <a name="access-quote-line-details-for-cost"></a>Maliyet için teklif satırı ayrıntılarına erişme
 
@@ -66,7 +70,8 @@ Maliyet için teklif satırı ayrıntısının başlangıç tarihinde geçerli o
 
 Karlılık hesaplamaları, teklifte genel tahmini kar marjını raporlamak üzere maliyet ve satışlar için teklif satırı ayrıntılarındaki tutarı ortamın temel para birimine dönüştürür.
 
-Bu, güncel döviz kurlarının bulunmaması nedeniyle para birimi yuvarlama hatalarına ve değişen kar marjlarına neden olabilir. Bu hesaplamaları, Proje tekliflerinde yalnızca yaklaşık değerler olarak kullanın ve daha yüksek yuvarlama duyarlılığı ve güncel döviz kurlarının bilinmesini gerektiren gerçek yasal veya diğer raporları kullanmayın.
+> [!DİKKAT EDİN
+> > Para birimi yuvarlama hataları ve değişen kenar boşlukları, etkili Döviz kurları olmadığı için oluşabilir. Bu hesaplamaları yalnızca proje sözleşmelerinde kullanın. Bunlar, yaklaşık değerler değildir veya döviz kurları için geçerlilik tarihinin yuvarlanması ve farkındalığına yönelik daha yüksek hassasiyet gerektiren gerçek bir meşru veya başka bir raporlama için değildir.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

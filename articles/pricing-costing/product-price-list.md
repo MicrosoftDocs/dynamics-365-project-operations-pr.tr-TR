@@ -3,7 +3,7 @@ title: Ürün fiyat listeleri
 description: Bu konu, proje teklifleri ve sözleşmeler için kullanılan katalog fiyatındaki fiyat listeleriyle ilgili bilgi sağlar.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275382"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877515"
 ---
 # <a name="product-price-lists"></a>Ürün fiyat listeleri
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Fiyat listeleri ve fiyat listesi öğesi varlıkları, ürün kataloğu fiyatlandırmasını destekler. Çoğu bölüm için bu işlevsellik proje teklifleri ve proje sözleşmelerindeki katalog tabanlı satırlar için kullanılır.
-
-Proje tabanlı satırlarda, sözleşme kazanılan anlaşmayı temsil eder. Anlaşma işlemi genellikle kazanmadan önce olduğundan, teklife iliştirilen fiyatlandırma her zaman yeni bir fiyat listesine olduğu gibi kopyalanır ve sözleşmeye iliştirilen fiyattır. Bu yeni fiyat listesi sözleşmenin kapsamı dışında değiştirilemez. Bu sınırlama, ana fiyat listesinde ortaya çıkan herhangi bir fiyat değişikliği üzerinde anlaşılan bir oran kartının korunmasına yardımcı olur.
+ Project Operations'taki **Ürün fiyatı listeleri** ve ilgili fiyat listesi maddesi varlıkları, ürün tabanlı teklif ve sözleşme satırlarındaki fiyatlandırma ürünleri için işlevselliği destekler. Projelerde kullanılan ürünlerinde, fiyat listesi maddesi kaydetme işlemini kullanılan proje fiyat listeleri için gerçekleştirir. 
 
 Ürünler, ürün kataloğunda varsayılan maliyet ve fiyat listelerine sahip olacak şekilde ayarlanmalıdır. Varsayılan maliyet ve liste fiyatlarını yapılandırmak için liste fiyatı, standart maliyet ve geçerli maliyeti kullanın. Varsayılan liste fiyatları yalnızca, bir teklif satırında veya proje sözleşmesi satırında, yalnızca siste, teklif veya proje sözleşmesiyle ilgili ürün fiyatı listesinde bu ürün için bir fiyat listesi satırı bulamazsa kullanılır.
 
@@ -40,9 +38,7 @@ Proje tabanlı satırlarda, sözleşme kazanılan anlaşmayı temsil eder. Anla�
 
 Ürün kataloğundaki ürünleri farklı fiyat listelerine ekleyebilirsiniz. Ürünlerin fiyat listesi satırları her zaman belirli bir birime başvuruda bulunur. Fiyat listesi öğelerindeki bir ürünün fiyatlandırması para birimi tutarı olarak yapılandırılabilir. Bunun yerine liste fiyatı, geçerli maliyet veya standart maliyetin bir işlevi olarak da yapılandırılabilir.
 
-Fiyatlar fiyat listesi fiyatı, standart maliyet veya geçerli maliyet işlevi olarak yapılandırıldığında, PSA çeşitli yuvarlama seçeneklerini destekler. Birden çok fiyatlandırma yönteminden ve yuvarlama seçeneğinden yararlanmaya ek olarak, indirim listelerini fiyat listesi öğeleriyle ilişkilendirebilirsiniz. 
-
-**Proje Teklifi** sayfasında **Özel Fiyatlandırma Oluştur** seçeneğini belirleyerek bir teklif için yeni bir özel fiyat listesi oluşturduğunuzda, fiyat listesinin bir kopyası oluşturulur ve yeni fiyat listesinin başlığındaki **Varlık** alanı **Satış Varlığı** olarak ayarlanır. Yeni fiyat listesinin adı, teklifin adı ve bir zaman damgasıyla birlikte eklenir. Özel fiyatlandırma kullanan teklifler için ek gözden geçirme ve onaylar tetiklemek için yeni fiyat listesinin adını ve teklifin adını özel iş akışlarında da kullanabilirsiniz.
+Ürün fiyatları liste fiyatı, standart maliyet veya geçerli maliyet işlevi olarak yapılandırıldığında, fiyatlandırma işlevi çeşitli yuvarlama seçeneklerini destekler. Birden çok fiyatlandırma yönteminden ve yuvarlama seçeneğinden yararlanmaya ek olarak, indirim listelerini fiyat listesi öğeleriyle ilişkilendirebilirsiniz. 
 
  
 ## <a name="default-product-price-list"></a>Varsayılan ürün fiyat listesi
@@ -57,7 +53,7 @@ Fırsat, Teklif ve Proje Sözleşmesi varlıkları varsayılan ürün fiyatı li
 
 Varsayılan olarak, teklif satırındaki **Ürün** alanı, teklifin ürün fiyatı listesindeki tüm etkin ürünleri listeler. Ürün devre dışı bırakılmışsa veya bir taslak ürünse, fiyat listesinde olsa bile listelenmez. 
 
-Ürün kataloğu satırları, proje sözleşmesi için oluşturulan ilk faturaya fatura satırları olarak eklenir. Bir taslak faturada, bu fatura satırları silinebilir. Bu durumda, satırlar faturalanıncaya veya fatura müşteriye gönderilene kadar bir sonraki faturada görüntülenir. Ürün fatura satırındaki kısmi bir miktarı faturalayamazsınız. Proje sözleşmesindeki ürün satırları faturalandığında, fiili değerler oluşturulur. Ancak, bu fiili değerler ilgili proje varlığına bağlanmaz. Başka bir deyişle, ürün tabanlı proje sözleşme satırları proje tabanlı kullanımdan bağımsızdır. Projelerdeki malzeme tüketimi izlenmez.
+Ürün kataloğu satırları, proje sözleşmesi için oluşturulan ilk faturaya fatura satırları olarak eklenir. Bir taslak faturada, bu fatura satırları silinebilir. Bu durumda, satırlar faturalanıncaya veya fatura müşteriye gönderilene kadar bir sonraki faturada görüntülenir. Ürün fatura satırındaki kısmi bir miktarı faturalayamazsınız. Proje sözleşmesindeki ürün satırları faturalandığında, fiili değerler oluşturulur. Ancak, bu fiili değerler ilgili proje varlığına bağlanmaz. Başka bir deyişle, ürün tabanlı proje sözleşme satırları proje tabanlı kullanımdan bağımsızdır. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
