@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Her tüzel kişilik için Project Operations tümleştirmesini yapılandırma
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Çift yazma tümleştirmesini yapılandırma
+          items:
+            - name: Çift yazma tümleştirmesine genel bakış
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations çift yazma eşlemesi sürümleri
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations kurulumu ve yapılandırma verileri tümleştirmesi
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Proje tahminleri ve gerçek değerler tümleştirmesi
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Proje faturası tümleştirmesi
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Gider yönetimi tümleştirmesi
+              href: environment/resource-dual-write-expense.md
+            - name: Satıcı faturası tümleştirmesi
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Yenilikler
       items:
         - name: Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Proje takvimlerini tanımlama
           href: project-management/define-project-calendars.md
+        - name: Zamanlama modları
+          href: project-management/scheduling-modes.md
         - name: Projeyi güncelleştirme
           href: project-management/update-project.md
         - name: Projeyi kopyalama
@@ -404,6 +422,12 @@
           items:
             - name: Düzeltme günlükleri oluşturma ve onaylama
               href: actuals/create-confirm-correction-journals.md
+    - name: Tedarik
+      items:
+        - name: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
+          href: procurement/configure-materials-nonstocked.md
+        - name: Bekleyen satıcı faturaları kullanan projeler için stoğu tutulmayan malzemeleri tedarik etme
+          href: procurement/pending-vendor-invoices.md
     - name: Faturalama
       items:
         - name: Faturalama işlemine genel bakış
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Proje tabanlı fatura otomasyonunu yapılandırma
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Proje faturası tekliflerini yönetme
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Proje muhasebesi
       items:
         - name: Mali boyut varsayılanları
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Proje takvimlerini tanımlama
           href: project-management/define-project-calendars.md
+        - name: Zamanlama modları
+          hreF: project-management/scheduling-modes.md
         - name: Projeyi güncelleştirme
           href: project-management/update-project.md
         - name: Projeyi kopyalama
@@ -848,6 +876,8 @@
   items:
     - name: Yenilikler
       items:
+        - name: Nisan 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mart 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Ocak 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
@@ -871,9 +901,9 @@
     - name: Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Satın alma girişlerinde proje maliyeti tahakkuku
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Proje faturalama
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Proje faturası teklif performansı
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Proje sözleşmeleri
@@ -998,6 +1028,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 31, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-31.md
         - name: 'Güncelleştirme Sürümü 30, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-30.md
         - name: 'Güncelleştirme Sürümü 29.5 Düzeltmesi, V3''teki yenilikler veya değişiklikler'
@@ -1327,7 +1359,7 @@
             - name: Kaynak kullanımını görüntüleme
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Proje yöneticisi kılavuzu
           items:
             - name: Proje yöneticisi kılavuzu (Project Service)
