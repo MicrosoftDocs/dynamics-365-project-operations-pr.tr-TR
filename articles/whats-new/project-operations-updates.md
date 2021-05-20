@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877559"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948263"
 ---
 # <a name="project-operations-updates"></a>Project Operations güncelleştirmeleri
 
@@ -49,23 +49,23 @@ Dataverse ortamında Project Operations için güncelleştirmeler aylık olarak 
 | İstasyon   | Bölge        | Güncel sürüm | Sonraki sürüm | Genel olarak kullanılabilir |
 |-----------|---------------|-----------------|--------------|---------------------|
 | İstasyon 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | İlk Sürüm |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
+|   &nbsp;  | İlk Sürüm |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
 | İstasyon 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Güney Amerika |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
-|    &nbsp; | Kanada        |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
-|   &nbsp;  | Hindistan         |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
-|   &nbsp;  | Fransa         |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
-|   &nbsp;  | Birleşik Arap Emirlikleri         |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
-|   &nbsp;  | Güney Afrika         |  Kategori 4.9.0.221       | TBD     | 23-Nis-21           |
+|   &nbsp;  | Güney Amerika |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|    &nbsp; | Kanada        |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|   &nbsp;  | Hindistan         |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|   &nbsp;  | Fransa         |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|   &nbsp;  | Birleşik Arap Emirlikleri         |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|   &nbsp;  | Güney Afrika         |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
 | İstasyon 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japonya         |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
-|   &nbsp;  | Asya Pasifik  |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
-|   &nbsp;  | Büyük Britanya |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
-|   &nbsp;  | Okyanusya       |  Kategori 4.9.0.221       | TBD     | 30-Nis-21           |
+|   &nbsp;  | Japonya         |  Kategori 4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Asya Pasifik  |  Kategori 4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Büyük Britanya |  Kategori 4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Okyanusya       |  Kategori 4.9.0.221       | TBD     | 07-May-21           |
 | İstasyon 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Avrupa        |  Kategori 4.8.0.92       | Kategori 4.9.0.221     | 16 Nisan 2021           |
+|   &nbsp;  | Avrupa        |  Kategori 4.9.0.221       | TBD     | 14-May-21           |
 | İstasyon 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Kuzey Amerika |  Kategori 4.8.0.92       | Kategori 4.9.0.221     | 23-Nis-21           |
+|   &nbsp;  | Kuzey Amerika |  Kategori 4.9.0.221       | TBD     | 21-May-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations uygulama ortamında proje yönetimi ve muhasebe için sürüm zamanlaması
 
@@ -73,15 +73,15 @@ Proje yönetimi ve hesap güncelleştirmeleri için güncelleştirmeler yılda s
 
 | Desteklenen sürüm | Genel olarak kullanılabilir (kendini güncelleştirme) |
 | --- | --- |
+| Kategori 10.0.18 | 16 Nisan 2021 |
 | Kategori 10.0.17 | 19 Mart 2021 |
 | Kategori 10.0.16 | 22 Ocak 2021 |
 
 
-Hedeflenen sürüm tarihleri değiştirilebilir. Daha fazla bilgi için bkz. [Servis güncelleme kullanılabilirliği](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
+Hedeflenen sürüm tarihleri değiştirilebilir. Daha fazla bilgi için bkz. [Servis güncelleme kullanılabilirliği](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 | Hedeflenen yayın tarihi | Genel olarak kullanılabilir (kendini güncelleştirme) |
 | --- | --- |
-| Kategori 10.0.18 | 16 Nisan 2021 |
 | Kategori 10.0.19 | 18 Haziran 2021 |
 | Kategori 10.0.20 | 16 Temmuz 2021 |
 

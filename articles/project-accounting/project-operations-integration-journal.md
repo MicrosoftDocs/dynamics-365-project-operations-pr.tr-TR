@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287262"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948354"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
@@ -38,7 +38,7 @@ Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme gü
 Günlük satırları proje fiili değerleri temel alınarak oluşturulur. Aşağıdaki listede, daha fazla sayıda varsayılan ve dönüşüm kuralı yer almaktadır:
 
   - Her proje fiili hareketinin Project Operations tümleştirme günlüğünde bir satırı vardır. Zaman ve malzeme faturalama türü için maliyet ve faturalanmış olmayan satış hareketleri ayrı satırlarda gösterilir.
-  - **Tarih** alanı hareketin tarihini temsil eder. **Muhasebe tarihi** alanı hareketin genel muhasebeye kaydedildiği tarihi temsil eder. Hesap tarihi [kapatılmış bir mali dönemse](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ve **Hesaplama tarihini açık genel muhasebe dönemi olarak ayarla** parametresi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasının **mali** sekmesinde sistem hareketin hesap tarihini sonraki açık defter periyodunda yer alan ilk tarihe ayarlar.
+  - **Tarih** alanı hareketin tarihini temsil eder. **Muhasebe tarihi** alanı hareketin genel muhasebeye kaydedildiği tarihi temsil eder. Hesap tarihi [kapatılmış bir mali dönemse](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ve **Hesaplama tarihini açık genel muhasebe dönemi olarak ayarla** parametresi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasının **mali** sekmesinde sistem hareketin hesap tarihini sonraki açık defter periyodunda yer alan ilk tarihe ayarlar.
   - **Fiş** alanı her fiili hareketin fiş numarasını gösterir. Fiş numarası serisi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasında **Numara serileri** sekmesinde tanımlanır. Her satıra yeni bir numara atanır. Fiş deftere nakledildikten sonra, **Fiş hareketi** sayfasında **ilgili fişler** seçilerek maliyet ve faturalanmış olmayan satış hareketinin nasıl ilişkili olduğunu görebilirsiniz .
   - **Kategori** alanı, ilgili proje fiili için işlem kategorisine göre proje hareketini ve Varsayılanlarını temsil eder.
     - **Hareket kategorisi** Proje gerçeğinde ayarlandıysa ve belirli bir tüzel kişilideki ilgili **proje kategorisi** varsa, kategori varsayılan olarak bu proje kategorisini alır.

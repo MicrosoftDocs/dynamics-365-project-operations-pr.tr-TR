@@ -3,17 +3,17 @@ title: LCS projesine Azure aboneliği ekleme
 description: Bu konuda, Azure aboneliğinizi bir LCS projesine bağlama hakkında bilgiler sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289933"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880562"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS projesine Azure aboneliği ekleme
 
@@ -62,7 +62,7 @@ Yetkilendirme işlemi artık tamamlanmıştır.
 3. **Azure Resource Manager'ı kullanmak için yapılandır** alanında **Evet**'i seçin.
 4. Azure'un Abonelik AAD Kiracısı Etki Alanı'nın kullandığınız etki alanının sahibi olan Azure aboneliğiyle eşleştiğinden emin olun ve **İleri**'yi seçin.
 5. **Microsoft Azure Kurulumu** ekranında, onaylamak için **İleri**'yi seçin. Bu ekranda bir hata alırsanız bu konudaki [Azure aboneliğine Dynamics Dağıtım Hizmetleri erişimi sağlama](#provide) bölümüne dönün ve tüm adımları tamamladığınızdan emin olun.
-6. Azure Yönetim Sertifikası'nı bilgisayarınızda yerel bir klasöre indirin ve ardından **Ayarlar** > **Yönetim Sertifikaları**'na giderek Azure Yönetim Portalı'na yükleyin. Bu sertifika, LCS'nin sizin adınıza Azure ile iletişim kurmasına olanak tanır. Kullanıcınızın aboneliğe erişimi varsa bu adımı atlayabilirsiniz.
+6. Azure Yönetim sertifikasını bilgisayarınızdaki yerel bir klasöre indirin. Aboneliği seçip **ayarlar** > **yönetim sertifikalarına** giderek Azure abonelik Yöneticinizden sertifikayı Azure yönetim portalına yüklemesini için isteyin. Bu sertifika, LCS'nin sizin adınıza Azure ile iletişim kurmasına olanak tanır. Kullanıcınızın aboneliğe erişimi varsa bu adımı atlayabilirsiniz.
 7. **İleri**'yi seçin.
 8. Dağıtımın yapılacağı Azure bölgesini seçin ve bu sistemi kullanmayı planladığınız yere yakın bir veri merkezi seçin.
 9.  **Bağlan**'ı seçin.

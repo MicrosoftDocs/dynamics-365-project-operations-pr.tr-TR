@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284337"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947948"
 ---
 # <a name="install-and-customize-project-service"></a>Yükleme ve özelleştirme (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284337"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service yükleme  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] tercih edilen bir çözümdür. Çözümü satın almanın birkaç yolu vardır. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Kuruluşunuzun ve kullanıcılarınızın katılmasını sağlayın](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] tercih edilen bir çözümdür. Çözümü satın almanın birkaç yolu vardır. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Kuruluşunuzun ve kullanıcılarınızın katılmasını sağlayın](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] formlarını ve raporlarını özelleştirin  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] formları, panoları veya raporlarından herhangi birini özelleştirmek isterseniz aşağıdaki bağlantılarda daha fazla bilgiye ulaşabilirsiniz:  
   
-- [Uygulama yapmaya ve özelleştirmeye başlama](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Uygulama yapmaya ve özelleştirmeye başlama](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Form oluşturma ve tasarlama](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Form oluşturma ve tasarlama](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Panoları oluşturma ve düzenleme](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Panoları oluşturma ve düzenleme](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [İşlemler oluşturma ve düzenleme](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [İşlemler oluşturma ve düzenleme](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Raporlama ve analizlere giriş](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Raporlama ve analizlere giriş](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Yönetici Kılavuzu](../psa/admin-guide.md)   

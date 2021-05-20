@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284472"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947993"
 ---
 # <a name="get-the-apps-project-service"></a>Uygulamaları edinme (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284472"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Zaman ve giderlerinizi mobil cihazınızda girmek istiyorsanız, [Telefonlar ve tabletler için Dynamics 365 edinin ve yükleyin](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
+Zaman ve giderlerinizi mobil cihazınızda girmek istiyorsanız, [Telefonlar ve tabletler için Dynamics 365 edinin ve yükleyin](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).  
   
  Ayrıca, üzerinde çalışmak ve başvurmak için yeni bir proje bulmak üzere telefonunuzda Project Finder Mobile uygulamasını da kullanabilirsiniz. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sonraki projenizi Project Finder Mobile uygulamasıyla bulun](../psa/find-next-project-finder-mobile-app.md) 
   

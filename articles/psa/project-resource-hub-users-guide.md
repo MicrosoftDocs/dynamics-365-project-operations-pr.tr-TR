@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283797"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948173"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Proje Kaynak Merkezi için kullanıcı kılavuzu
 
@@ -48,7 +48,7 @@ Proje Kaynak Merkezi uygulamasıyla istediğiniz yerde çalıştığınız proje
 ## <a name="install-the-mobile-app"></a>Mobil uygulamayı yükleme
 Proje Kaynak Merkezi uygulamasını kullanmaya başlamadan önce cihazınıza mobil uygulamasını yüklemeniz gerekir. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Telefonlar ve tabletler için Dynamics 365'i yükleme](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Telefonlar ve tabletler için Dynamics 365'i yükleme](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Temel Gezinti
 1.  Mobil uygulamada oturum açtığınızda, erişiminiz bulunan uygulamaların listesini içeren MyApps sayfasını göreceksiniz. 
@@ -99,7 +99,7 @@ Müşterilerinizin doğru biçimde faturalandırıldığından ve kaydettiğiniz
 5. Hafta için giderleri girmeye devam edin. Bitirdiğinizde ve her şey doğru göründüğünde, **Gönder**'e dokunun. Bir yönetici giderlerinizi gözden geçirecek ve onaylayacaktır.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Mobil uygulama kullanımı hakkında genel bilgiler 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobil Temel Bilgiler Kılavuzu](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobil Temel Bilgiler Kılavuzu](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service'a Genel Bakış](../psa/overview.md)   

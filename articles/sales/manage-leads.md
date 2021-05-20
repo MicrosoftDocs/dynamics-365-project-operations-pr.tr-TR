@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278082"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947903"
 ---
 # <a name="manage-leads"></a>Müşteri adaylarını yönetme
 
@@ -55,7 +55,7 @@ Aşağıdaki tabloda, bir müşteri adayının önemli alan bilgileri ve bu alan
 - Müşteri adayının **Ad** ve **Soyadı** alanlarındaki değerlere bağlı olarak firma ile ilişkilendirilen bir ilgili kişi kaydı.
 - **Tür** alanı **İş tabanlı** olarak ayarlanmış proje tabanlı bir fırsat.
 
-Müşteri adaylarını uygun bulma hakkında daha ayrıntılı bilgi için bkz. [Müşteri adaylarını uygun bulma veya dönüştürme](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Müşteri adaylarını uygun bulma hakkında daha ayrıntılı bilgi için bkz. [Müşteri adaylarını uygun bulma veya dönüştürme](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Müşteri adayı yeterliliği ve tüzel kişilik bilgileri 
 

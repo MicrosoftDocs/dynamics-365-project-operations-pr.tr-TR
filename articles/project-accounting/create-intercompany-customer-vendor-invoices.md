@@ -3,17 +3,17 @@ title: Şirketler arası müşteri ve satıcı faturaları oluşturma
 description: Bu konu, şirketler arası müşteri ve satıcı faturalarının nasıl oluşturulacağı hakkında bilgi sağlar.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287487"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948419"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Şirketler arası müşteri ve satıcı faturaları oluşturma
 
@@ -25,7 +25,9 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Proje işlemleri için el ile şirketler arası müşteri faturası oluşturma 
 
-Proje işlemleri için el ile şirketler arası müşteri faturası oluşturmak için bu yordamı kullanın. Ödünç alan tüzel kişiliklerde projelerde çalışanlar tarafından deftere nakledilen saatleri ve ödünç alan tüzel kişilikler adına tüzel kişiliğiniz tarafından uygulanan giderleri arayın. Tüzel kişilik adı, proje sözleşmesi numarası, proje numarası, tarih aralığı veya bu seçeneklerin birleşimine göre arama yapabilirsiniz. Arama sonuçlarında şirketler arası faturaya eklenecek işlemleri seçin.
+Proje işlemleri için el ile şirketler arası müşteri faturası oluşturmak için bu yordamı kullanın. Ödünç alan tüzel kişiliklerde projelerde çalışanlar tarafından deftere nakledilen saatleri ve ödünç alan tüzel kişilikler adına tüzel kişiliğiniz tarafından uygulanan giderleri arayın. Tüzel kişilik adı, proje sözleşmesi numarası, proje numarası, tarih aralığı veya bu seçeneklerin birleşimine göre arama yapabilirsiniz. Arama sonuçlarında şirketler arası faturaya eklenecek işlemleri seçin. 
+
+Aşağıdaki adımlar ödünç verme hukuk varlığında gerçekleştirilmelidir. 
 
 1. Dynamics 365 Finance'te **Proje yönetimi ve muhasebe** > **Proje faturaları** > **Şirketler arası müşteri faturaları**'na gidin. **Şirketler arası müşteri faturaları** listesi sayfasında Eylem Bölmesi'nde **Yeni**'yi seçin.
 2. **Şirketler arası fatura oluşturma** sayfasında **Tüzel kişilik** alanında bir ödünç alan tüzel kişilik seçin.
@@ -35,9 +37,9 @@ Proje işlemleri için el ile şirketler arası müşteri faturası oluşturmak 
 6. Arama sonuçlarında, şirketler arası fatura teklifine dahil edilecek işlemleri seçin ve ardından **Tamam** seçeneğini belirleyin.
 7. **Şirketler arası müşteri faturası** sayfasında, arama sonuçlarından seçtiğiniz şirketler arası proje işlemleri görüntülenir. Faturayı ödünç alan tüzel kişiliğe göndermeden önce işlemleri değiştirmek için aşağıdakileri yapın:
   
-    1. **Fatura teklifi oluştur** sayfasını açın. Geçerli fatura için ek şirketler arası işlemler seçin ve ardından **Satır ekle** seçeneğini belirleyin.
+    1. **Şirketlerarası müşteri faturası** sayfasında, fatura ayrıntılarını açın ve **Satır ekle**'yi seçin.
     2. Satır kaldırmak için satırı seçin ve ardından **Kaldır** seçeneğini belirleyin.
-    3. **Fatura satırları** hızlı sekmesinde seçilen bir satır hakkında yorumları, açıklamaları, mali boyutları ve diğer bilgileri görüntüleyin.
+    3. Fatura satırı ayrıntılarında seçili bir satırla ilgili yorum, neden, mali Boyutlar ve diğer bilgileri görüntüleyin.
     
 8. Şirketler arası müşteri faturasını deftere nakletmek için Eylem Bölmesi'nde **Deftere Naklet**'i seçin.
 
@@ -52,7 +54,7 @@ Tüm ödünç alan tüzel kişilikler için aynı anda birden fazla şirketler a
 2. **Şirketler arası müşteri faturaları oluştur** sayfasında **Şirket** alanında fatura için bir tüzel kişilik seçin. Şirket seçmezseniz tüm ödünç veren tüzel kişilikler için arama ölçütlerine uyan tüm işlemler görüntülenir.
 3. **Her biri için fatura oluştur** bölümünde, bir projeye veya ödünç alan tüzel kişiliğe göre şirketler arası işlemler için fatura oluşturulup oluşturulmayacağını seçin.
 4. İsteğe bağlı: Şirketler arası faturalar oluşturmak için belirli bir proje ve proje sözleşmesi seçmek üzere **Seç**'e tıklayın. **Sorgu** sayfasında, **Ölçütler** alanında proje sözleşmesi, proje numarası veya ikisini birden seçin ve ardından **Tamam** seçeneğini belirleyin.
-5. **Toplu** sekmesinde, yinelenen şekilde şirketler arası faturalar oluşturmak için bir toplu işlem ayarlayın. Daha fazla bilgi için bkz. [Bir formdan toplu işleme işi gönderme](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. **Toplu** sekmesinde, yinelenen şekilde şirketler arası faturalar oluşturmak için bir toplu işlem ayarlayın. Daha fazla bilgi için bkz. [Bir formdan toplu işleme işi gönderme](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Şirketler arası faturaları deftere nakletmek için Eylem Bölmesi'nde **Deftere Naklet**'i seçin.
 
 > [!NOTE]

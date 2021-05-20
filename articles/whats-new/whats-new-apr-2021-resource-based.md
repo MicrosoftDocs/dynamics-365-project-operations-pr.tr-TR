@@ -3,18 +3,18 @@ title: Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için
 description: Bu konu, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations ile ilgili 2021 Nisan sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868017"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935498"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations konusundaki yenilikler
 
@@ -33,8 +33,26 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
   - Projenin satış döngüsü sırasında stoğu tutulmayan malzemelerin tahmini ve fiyatlandırması. Daha fazla bilgi için bkz. [Katalog ürünleri için maliyet ve satış oranlarını ayarlama - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Proje teslimatı sırasında stoğu tutulmayan malzemelerin kullanımını izleme. Daha fazla bilgi için bkz. [Projelerde ve proje görevlerinde malzeme kullanımını kaydetme](../material/material-usage-log.md).
   - Kullanılan stoğu tutulmayan malzeme maliyetlerini faturalama. Daha fazla bilgi için bkz. [Fatura biriktirmeyi yönetme](../proforma-invoicing/manage-billing-backlog.md).
+  - Bu özelliği yapılandırma hakkında bilgi için bkz. [Stoklanmayan malzemeleri ve bekleyen satıcı faturalarını konfigüre etme](../procurement/configure-materials-nonstocked.md)
 - Görev tabanlı faturalama: Proje sözleşme satırlarını proje görevleriyle ilişkilendirme özelliği eklenmiştir. Bu sayede bunları sözleşme satırında yer aldığı şekilde aynı fatura yöntemine, fatura sıklığına ve müşterilere tabi tutabilirsiniz. Bu ilişkilendirme, proje görevlerinde bu kuruluma uygun şekilde faturalama, muhasebe, gelir tahmini ve algılamanın doğru şekilde yapılmasını sağlar.
 - Dynamics 365 Dataverse'teki yeni API'ler, **Zamanlama varlıklarıyla** faaliyetler oluşturma, güncelleştirme ve silme olanağı tanır. Daha fazla bilgi için bkz. [Zamanlama varlıklarıyla işlemler gerçekleştirmek için Zamanlama API'lerini kullanma](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations çift yazma eşlemesi güncellemeleri
+
+Aşağıdaki listede Project Operations 2021 Nisan Sürümünde değiştirilmiş veya eklenmiş olan çift yazılır eşlemeler gösterilmektedir.
+
+| **Varlık eşlemesi** | **Güncellenmiş sürüm** | **Açıklamalar** |
+| --- | --- | --- |
+| Project Operations tümleştirmesi gerçek değerleri (msdyn\_actuals) | Kategori 1.0.0.14 | Malzeme proje gerçek değerlerini eşitlemek için eşleme değiştirildi. |
+| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimateslines) | Kategori 1.0.0.2 | Görev tabanlı fatura desteği için Finance and Operations uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments) | Kategori 1.0.0.5 | Görev tabanlı fatura desteği için Finance and Operations uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Dataverse'ten Finance and Operations uygulamalarına Malzeme tahminlerini eşitlemek için yeni tablo Haritası. |
+| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn\_projectvendorinvoices) | Kategori 1.0.0.0 | Finance and Operations uygulamalarından Dataverse'e satıcı faturası başlıkları eşitlemek için yeni tablo Haritası. |
+| Project Operations tümleştirme projesi satıcı fatura satırı dışa aktarma varlığı (msdyn\_projectvendorinvoicelines) | Kategori 1.0.0.0 | Finance and Operations uygulamalarından Dataverse'e satıcı faturası satırları eşitlemek için yeni tablo Haritası. |
+
+Ortamınızda eşlemenin en son sürümünü her zaman çalıştırmanız ve Project Operations Dataverse çözümü ve Finance and Operations çözüm sürümünü güncelleştirirken tüm ilgili tablo haritalarını etkinleştirmeniz gerekir. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. Haritanın etkin sürümünü **ikili yazma** sayfasındaki **sürüm** sütununda görebilirsiniz . Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek etkinleştirebilirsiniz. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+
+Eşlemeyi başlatma ile ilgili bir sorunla karşılaşırsanız, ikili yazma sorun giderme kılavuzunun [Haritalarda eksik tablo sütunları sorunu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) başlıklı yönergeleri izleyin.
 
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 
@@ -67,7 +85,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 
 | **Özellik alanı** | **Referans numarası** | **Kalite güncelleştirmeleri** |
 | --- | --- | --- |
-| Proje yönetimi ve muhasebe | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Tahmin elemesini tersine çevirme, **Dönemsel**'de çalışmıyor.  |
+| Proje yönetimi ve muhasebe | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Tersine çevrilmiş tahmini eleme işlemi **Dönemsel** bölümünde çalışmıyor.  |
 | Proje yönetimi ve muhasebe | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **Muhasebe ayarlama** özelliği, **El ile girişe izin verme** seçeneğinin belirlendiği genel muhasebe hesaplarının sorun olarak gösterilmesine neden olur. |
 | Proje yönetimi ve muhasebe | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Elde tutulan tutar veya uygulanan elde tutulan tutar dahil olmak üzere düzeltme faturalarını işlemek için iş mantığı eklendi. |
 | Proje yönetimi ve muhasebe | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Şirketler arası proje faturalamasında WIP satış değerinin gönderimi beklenmeyen bir hesap seçiyor. |

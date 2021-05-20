@@ -3,17 +3,17 @@ title: Şirketler arası işlemler oluşturma
 description: Bu konu, şirketler arası işlemlerin nasıl oluşturulacağı hakkında bilgi sağlar.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287442"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880472"
 ---
 # <a name="create-intercompany-transactions"></a>Şirketler arası işlemler oluşturma
 
@@ -62,7 +62,7 @@ GBPM'de çalışan geliştirici Molly Clark, proje yöneticisi tarafından onayl
     4. Para birimini **USD** olarak ayarlayın.
     5. Kaydı kaydedin.
 3. **Satış** > **Proje Sözleşmeleri**'ne gidin ve Adventure Works için yeni bir proje sözleşmesi oluşturun.
-    1. Sahibi olan şirketi **USPM** olarak ve sözleşme birimini **Contoso Robotics US** olarak ayarlayın.
+    1. Sahip olan şirketi **USPM** ve ölçü birimi olarak **Contoso Robotics US**'e ayarlayın.
     2. Müşteri olarak Adventure Works'ü seçin.
     3. Bir ürün fiyat listesi seçin ve kaydı kaydedin.
     4. **Sözleşme Satırları** sekmesinde, yeni bir sözleşme satırı oluşturun. Bir ad ayarlayın ve faturalama yöntemi olarak **Zaman ve Malzemeler**'i seçin.
@@ -94,7 +94,7 @@ GBPM'de çalışan geliştirici Molly Clark, proje yöneticisi tarafından onayl
     Bu faturalanmayan satış artık faturalama için hazırdır. Adventure Works müşterisi için fatura, gerektiğinde mali olarak deftere nakledilebilir.
 
 10. **GBPM** muhasebecisi olarak oturum açın. Project Operations'ın Finance kurulumunu ve **GBPM** şirketini açın. 
-11. **Proje yönetimi ve muhasebe** > **Dönemsel** > **Customer Engagement'ta Project Operations** > **Hazırlamadan içeri aktar**'a gidin ve Project Operations Entegrasyon günlüğünde doldurmak için dönemsel işlemi çalıştırın.
+11. **Proje yönetimi ve muhasebe** > **Periyodik** > **Project Operations tümleştirmesi** > **hazırlama tablosundan alma**'ya gidin ve Project Operations tümleştirme günlüğünü doldurmak için periyodik süreci çalıştırın.
 12. **Proje yönetimi ve muhasebe** > **Yevmiye Defterleri** > **Project Operations entegrasyon günlüğü**'ne gidin ve satırları inceleyin. Sistem aşağıdaki satırları oluşturur.
 
     | **İşlem türü** | **Fiyat** | **İşlem para birimi** | **Tutar** |
