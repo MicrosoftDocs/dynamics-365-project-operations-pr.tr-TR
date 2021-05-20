@@ -1,9 +1,9 @@
 ---
 title: Proje takvimlerini tanımlama
-description: Bu konu proje zamanlamasını izlemek için proje takvimi kullanma hakkında bilgi sağlar.
+description: Bu konu, proje zamanlamasını izlemek için takvim şablonunun projeye nasıl uygulanacağı hakkında bilgi sağlar.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286992"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981324"
 ---
 # <a name="define-project-calendars"></a>Proje takvimlerini tanımlama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Proje zamanlaması oluşturmak için günlük çalışma saatleri sayısını ve işletmenin kapalı olduğu tüm tarihleri tanımlayan bir proje takvimi şablonu oluşturun. Proje takvimi şablonu oluşturmak için bir iş şablonunu projenin **Takvim şablonu** alanıyla ilişkilendirin. İş şablonu oluşturmak için aşağıdaki adımları uygulayın.
+Bir proje oluşturmak ve yönetmek için projeye bir takvim şablonu uygulamanız gerekir. Takvim şablonu aşağıdaki proje özniteliklerini tanımlar:
 
-1. Sol gezinti bölmesinde, **Kaynaklar**'ı seçin. 
-2. **Kaynaklar** listesi sayfasında bir kullanıcı kaydı açın ve ardından **Çalışma Saatlerini Göster**'i seçin.
+- Başlangıç ve bitiş saati dahil çalışma saatleri
+- Çalışma günleri
+- Çalışılmayan günler gibi takvim özel durumları
 
-  > [!NOTE]
-  > Tarayıcı sayfasında açılır pencerelere izin verdiğinizden emin olun. Bu, kaynak için ayarlanmış çalışma saatlerini görmenizi sağlar.
-  
-3. **Aylık Görünüm** sekmesinde **Ayarla**'yı seçin. Üç seçenekli bir liste görünür: 
+Bir projeye uygulanan takvim şablonu, kuruluşunuzun ayarlarında tanımlanan takvim şablonunun bir kopyasıdır.
 
-  - Yeni Haftalık Zamanlama
-  - Bir Gün için Çalışma Zamanlaması
-  - İzin
+> [!NOTE]
+> Takvim şablonunu değiştirirseniz, bu değişiklikler projenin çalışma saatlerine yayılmaz. Projenin çalışma saatlerini değiştirmek için yeni bir şablon uygulanması gerekir.
 
-4. **Yeni Haftalık Zamanlama**'yı seçin ve ardından bu kaynak zamanlaması için seçenekleri ayarlayın. Yinelenen haftalık zamanlama, günlük saat parametreleri, işletme kapanışları ve daha fazlasını ayarlayabilirsiniz.
-5. Tarih aralığını ayarlayın, **Kaydet**'i seçin ve ardından **Kapat**'ı seçin. 
-6. **Kaynaklar** listesi sayfasına geri dönün ve çalışma saatlerini ayarladığınız kaynağı seçin. 
-7. İş şablonunu ayarlamak için **Takvimi Farklı Ayarla**'yı seçin. 
-8. **İş Şablonu** iletişim kutusunda iş şablonu için bir ad girin ve ardından **Uygula**'yı seçin. 
+Kuruluşunuz için bir takvim şablonu oluşturmak üzere, iki önemli gereksinim vardır:
+
+- Şablonun istenen çalışma saatlerini yeni veya varolan bir takılabilir kaynak kullanarak tanımlayın.
+- Yeni bir takvim şablonu oluşturun ve şablonu ayrılabilir kaynağı ile ilişkilendirin.
+
+**Şablonun çalışma saatlerini tanımlayın**
+
+1. **Kaynaklar** \> **Kaynaklar**'a gidin.
+2. Takvim şablonuna başvuracak yeni bir kaynak oluşturun veya varolan bir kaynağı seçin.
+3. Kaynağın **çalışma saatleri** sekmesini seçin ve Takvim kurallarını yapılandırmak için [bir kaynak için çalışma saatleri ayarla](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) alanındaki yönergeleri doldurun.
+
+**Yeni bir takvim şablonu oluşturun**
+
+1. **Ayarlar** \> **Takvim Şablonu**'na gidin.
+2. **Yeni**'yi seçin ve bir ad, açıklama ve şablon kaynağı girin.
+
+> [!NOTE]
+> Takvim şablonunda bir kaynağa başvurulduğunda, kaynağın takvimin bir kopyası takvim şablonuyla ilişkilidir. Kopyalanan şablonun çalışma saatlerini değiştirirseniz, bu değişiklikler takvim şablonuna yansımaz.
 
 Artık iş şablonunu proje takvimi şablonuyla ilişkilendirebilirsiniz.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
