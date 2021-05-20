@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290113"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950288"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations dağıtın - lite
 
@@ -34,14 +34,14 @@ Project Operations birden çok dağıtım modelini destekler. En iyi dağıtım 
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations'ı yeni bir CDS ortamına yükleme
 
-1. Project Operations lisansına sahip [Genel Yönetici veya Power Platform Yöneticisi](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) olarak [PowerPlatform yönetim merkezi](https://admin.powerplatform.com)'nde yeni bir CDS ortamı oluşturun. **CDS veritabanı** ve **Dynamics 365 Uygulamaları**'nın etkinleştirildiğinden emin olun. Daha fazla bilgi için bkz. [Power Platform yönetim merkezinde ortamlar oluşturma ve yönetme](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Project Operations lisansına sahip [Genel Yönetici veya Power Platform Yöneticisi](/power-platform/admin/global-service-administrators-can-administer-without-license) olarak [PowerPlatform yönetim merkezi](https://admin.powerplatform.com)'nde yeni bir CDS ortamı oluşturun. **CDS veritabanı** ve **Dynamics 365 Uygulamaları**'nın etkinleştirildiğinden emin olun. Daha fazla bilgi için bkz. [Power Platform yönetim merkezinde ortamlar oluşturma ve yönetme](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Dynamics 365 uygulamaları dağıtım listesinden **Microsoft Dynamics 365 Project Operations**'ı seçin.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations'ı var olan bir CDS ortamına yükleme
 
-1. Project Operations lisansına sahip [Genel Yönetici Power Platform Yöneticisi](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) olarak Project Operations'ı yüklemek istediğiniz [PowerPlatform yönetim merkezi](https://admin.powerplatform.com)'nde ortamı bulun.
-2. Dynamics 365 uygulamaları dağıtım listesinden **Microsoft Dynamics 365 Project Operations**'ı yükleyin. Daha fazla bilgi için bkz. [Dynamics 365 uygulamalarını yönetme](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Project Operations lisansına sahip [Genel Yönetici Power Platform Yöneticisi](/power-platform/admin/global-service-administrators-can-administer-without-license) olarak Project Operations'ı yüklemek istediğiniz [PowerPlatform yönetim merkezi](https://admin.powerplatform.com)'nde ortamı bulun.
+2. Dynamics 365 uygulamaları dağıtım listesinden **Microsoft Dynamics 365 Project Operations**'ı yükleyin. Daha fazla bilgi için bkz. [Dynamics 365 uygulamalarını yönetme](/power-platform/admin/manage-apps).
 
 
 

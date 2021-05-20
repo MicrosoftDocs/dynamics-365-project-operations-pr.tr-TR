@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275112"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950603"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service uygulaması için örnek veri kurulumu
 
@@ -149,7 +149,7 @@ Demo verileri paket altı kullanıcıların gerektirir. Paket doğru bir şekild
 
 5. İlk kullanıcının takvimini (içinde **userstocreateandconfigure** etiketi) gösteri verilerinin alınması üzerindeki ayrılabilir tüm kaynaklar için çalışma saatleri doldurmak için kullanılır. **Ayarları** > **güvenlik** > **kullanıcılar**, "Spencer Low" kullanıcısını bulun ve "Çalışma saatlerini" seçeneğini açın. Seçimi varolan çalışma saatlerini düzenleyin **haftalık zamanlama başlangıçtan bitişe kadar yinelenen tüm** seçeneği. **Çalışma saatlerini Pazartesi, Cuma ve saat dilimi Pasifik Saati (ABD ve Kanada) ayarlama 8:00 - 18:00 için (9 saat)** ayarlanmış olduğundan emin olun. Bu, proje ve zamanlama tablosu beklendiği gibi gösterilmesini sağlamak için gereklidir.
 
-**Öneri:** Örnek veri yüklemesi sırasında bir şeyler ters giderse başlangıç noktanıza dönmenizin gerektiği durumda artık kuruluşunuzun bir yedeğini oluşturmayı düşünün. Daha fazla bilgi için bkz. [Kurulumları yedekleme ve geri yükleme](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Öneri:** Örnek veri yüklemesi sırasında bir şeyler ters giderse başlangıç noktanıza dönmenizin gerektiği durumda artık kuruluşunuzun bir yedeğini oluşturmayı düşünün. Daha fazla bilgi için bkz. [Kurulumları yedekleme ve geri yükleme](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Package Deployer'nı çalıştırma
 

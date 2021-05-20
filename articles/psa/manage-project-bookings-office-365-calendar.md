@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275067"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950333"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Takviminizde projeleri ve ayırmaları yönetme (Project Service)
 
@@ -52,7 +52,7 @@ Kişisel randevuları, proje-iş ayırmalarını ve field service iş emri atama
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Genel Yöneticisi veya Sistem Yöneticisi kimlik bilgilerine sahip olmanız gerekir.  
   
-- Yöneticinizin e-posta sunucusu profilini ve her kullanıcının da posta kutularını yapılandırması gerekir. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sunucu tarafı eşitlemesi ile e-posta işlemeyi ayarlama](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Yöneticinizin e-posta sunucusu profilini ve her kullanıcının da posta kutularını yapılandırması gerekir. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sunucu tarafı eşitlemesi ile e-posta işlemeyi ayarlama](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Kuruluşunuz için eşitlemeyi açma (yönetici görevi)  
   

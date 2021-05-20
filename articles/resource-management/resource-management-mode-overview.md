@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279477"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949973"
 ---
 # <a name="resource-management-modes-overview"></a>Kaynak yönetimi modlarına genel bakış
 
@@ -29,11 +29,11 @@ Merkezi mod, kaynakların projelere tahsisatını merkezileştiren kuruluşlara 
 
 Merkezi modda kaynakları yönetmek için bkz:
 
-- [Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Kaynak isteği gönderme](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Kaynak isteğini karşılama](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Kaynak isteğinden bir önerilen proje kaynağını kabul etme veya reddetme](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](/dynamics365/project-service/book-named-resource)
+- [Kaynak isteği gönderme](/dynamics365/project-service/submit-resource-request)
+- [Kaynak isteğini karşılama](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Kaynak isteğinden bir önerilen proje kaynağını kabul etme veya reddetme](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Karma mod
 Karma mod, kaynakların tahsisatında esneklik isteyen kuruluşlarda Proje yöneticilerinin ve Kaynak yöneticilerinin kaynakları ayırabilmelerini sağlar.
@@ -43,11 +43,11 @@ Karma mod, kaynakların tahsisatında esneklik isteyen kuruluşlarda Proje yöne
 Desteklenen Merkezi mod işlemine ek olarak, Karma modda desteklenen diğer tüm ayırma akışlarını yönetmek için aşağıdaki konulara bakın:
 
 Kaynağı doğrudan bir projeye ayırma:
-- [Proje takımına adlandırılmış ayrılabilir kaynaklar ayırma ve görevler atama](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Proje takımına adlandırılmış ayrılabilir kaynaklar ayırma ve görevler atama](/dynamics365/project-service/assign-named-bookable-resource)
 
 Kaynak gereksinimden bir kaynak ayırma:
-- [Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Göreve genel ayrılabilir kaynaklar atama ve kaynak gereksinimleri oluşturma](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Kaynak gereksinimlerinden adlandırılmış kaynaklar ayırma](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

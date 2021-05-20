@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288898"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950198"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Project Time Entry mobil çalışma alanı
 
@@ -48,7 +48,7 @@ Günlük çalışmanın bir parçası olarak, proje kaynakları çoğu zaman tes
 Kuruluşunuz için dağıtılan Microsoft Dynamics 365 sürümüne bağlı olarak ön koşullar farklılık gösterir.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance kullananlar için ön koşullar
-Finans kuruluşunuz için dağıtılmışsa, sistem yöneticisinin **Project time entry** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz. [Mobil çalışma alanı yayınlama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Finans kuruluşunuz için dağıtılmışsa, sistem yöneticisinin **Project time entry** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz. [Mobil çalışma alanı yayınlama](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Platform Güncelleştirme 3 veya daha sonrasını içeren 1611 sürümünü kullananlar için ön koşullar
 Kuruluşunuz için Platform güncelleştirmesi 3 veya daha sonraki bir sürümü bulunan 1611 sürümü dağıtılmışsa, sistem yöneticisi aşağıdaki ön koşulları tamamlamalıdır. 
@@ -68,17 +68,17 @@ Kuruluşunuz için Platform güncelleştirmesi 3 veya daha sonraki bir sürümü
 <td>Sistem yöneticisi</td>
 <td>KB 4018050, <strong>Project time entry</strong> mobil çalışma alanını içeren bir X + + güncelleştirmesi veya meta veri düzeltmesidir. KB 4018050 uygulamak için, sistem yöneticinizin aşağıdaki adımları izlemesi gerekir.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Microsoft Dynamics Lifecycle Services'ten (LCS) meta veri düzeltmesini indirin</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini yükleyin</a>.</li>
-<li><strong>ApplicationSuite</strong> ve <strong>ProjectMobile</strong> modellerini içeren <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">dağıtılabilir bir paket oluşturun</a> ve ardından dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Microsoft Dynamics Lifecycle Services'ten (LCS) meta veri düzeltmesini indirin</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini yükleyin</a>.</li>
+<li><strong>ApplicationSuite</strong> ve <strong>ProjectMobile</strong> modellerini içeren <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">dağıtılabilir bir paket oluşturun</a> ve ardından dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td><strong>Project time entry</strong> mobil çalışma alanını yayımlayın.</td>
 <td>Sistem yöneticisi</td>
-<td>Bkz. <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
+<td>Bkz. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Finance and Operations mobil uygulamasını indirip ve yükleyin:
 2.  **Time Entry** bölümünü seçin. Geçerli haftanın takvim tarihleri gösterilir.
 3.  Seçili bir tarih için, **Eylemler** &gt; **Yeni giriş** seçeneğini belirleyin.
 4.  Kaydedilecek saat sayısını girin.
-5.  Zaman girişi için projeyi seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen projeler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Zaman girişi için projeyi seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen projeler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Projeniz listede yoksa, **Ara** seçeneğini belirleyin. Ada göre arayın veya proje adına veya müşteriye göre arama yapmak için geçiş yapın.
-7.  Bir kategori seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen kategoriler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Bir kategori seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen kategoriler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Kategoriniz listede yoksa, **Ara** seçeneğini belirleyin. Kategoriye göre arayın veya kategori adına göre arama yapmak için geçiş yapın.
-9.  Etkinlik seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen etkinlikler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Etkinlik seçin. Listede çevrimdışı kullanım için uygulamanıza yüklenen etkinlikler gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Etkinliğiniz listede yoksa, **Ara** seçeneğini belirleyin. Etkinlik numarasına göre arayın veya amaca göre aramaya geçiş yapın.
 
 11. Satır özelliğini seçin.

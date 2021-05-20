@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284202"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949658"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation nedir?
 
@@ -47,10 +47,10 @@ Buna ek olarak, proje tabanlı çalışmanız için maliyetleri izlemenize ve de
 ## <a name="whats-new-in-psa"></a>PSA'daki yenilikler
 Takım olarak en son güncelleştirmeleri bildirmekten heyecan duyuyoruz! Kullanıcı arabiriminde yapılan iyileştirmeler, hataları gidermeler ve eklenen önemli yeni özellikler ve yetenekler. İsteklerinize kulak verdik.
 
-En yeni geliştirmelerimizi ve eklemelerimizi görmek için [Ekim 2019 Sürüm Notlarına](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) göz atın.
+En yeni geliştirmelerimizi ve eklemelerimizi görmek için [Ekim 2019 Sürüm Notlarına](/dynamics365-release-plan/2019wave2/index) göz atın.
 
 ### <a name="in-development"></a>Geliştirme aşamasında
-Yakın gelecek için neleri planladığımızı görmek üzere [Dynamics 365: 2020 sürümü dalga 1 planına](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) bakın.
+Yakın gelecek için neleri planladığımızı görmek üzere [Dynamics 365: 2020 sürümü dalga 1 planına](/dynamics365-release-plan/2020wave1/index) bakın.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA 3.x ile ilgili yardım alma
 Uygulamanızı planlamanıza yardımcı olacak kaynaklar mı arıyorsunuz? Bu indirilebilir kılavuzlara göz atın.

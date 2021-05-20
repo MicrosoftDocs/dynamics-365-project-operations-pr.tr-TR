@@ -3,17 +3,17 @@ title: Proje faturası tekliflerini yönetme
 description: Bu konuda, kaynağı/stoku tutulmayanları temel alan senaryolar için Project Operations ile müşteriye yönelik faturaların işlenmesi hakkında ayrıntılar sağlanmaktadır.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275877"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950738"
 ---
 # <a name="manage-project-invoice-proposals"></a>Proje faturası tekliflerini yönetme
 
@@ -80,7 +80,8 @@ Dataverse'te yeni bir faturalama kilometre taşı oluşturulduğunda, **Satış 
     - **Müşteri**: Faturalama satış vergisi grubunu her zaman varsayılan olarak müşteriden alır.
     - **Arama**: Bu listedeki tüm varlıklarda arama yapar ve kullanılabilir ilk değeri seçer. Arama **Proje** varlığı ile başlar, ardından **Proje sözleşmesi** varlığı ile devam eder ve ardından **Müşteri** varlığı ile yapılır.
 
-- **Sabit fiyat kilometre taşı öğesi satış vergisi grubu**, değeri **Öğe satış vergisi grubu** alanına varsayılan olarak ayarlamak için kullanılır.
+- **Sabit fiyatlı kilometre taşı öğesi satış vergisi grubu**, Fatura kilometre taşı için **madde satış vergisi grubu** alanında varsayılan değer olarak kullanılır. Muhasebeci, **hesaba mahsup işlemler** sayfasında bu değeri gözden geçirebilir ve değiştirebilirler. Sistem, Proje Fatura teklif satırı oluştururken bu değeri mahsup hareketten kullanır.
+ 
 
 ### <a name="financial-dimensions"></a>Mali boyutlar
 
@@ -132,7 +133,7 @@ Proje muhasebecisi, **Fatura teklifini biçimlendirme** sayfasını ve yazdırma
 
 Yazdırma yönetimi, fatura için yazdırmak, hedefleri belirtmek ve alt bilgi metnini özelleştirmek için farklı rapor dosyaları kullanır. Yazdırma yönetimi modül düzeyinde ayarlanabilir ancak bu ayarlar belirli bir müşteri, sözleşme veya fatura teklifi için geçersiz kılınabilir. Bu işleve **Proje faturası teklifi** sayfasında erişmek için **Yazdır** > **Yazdırma yönetimi**'ni seçin.
 
-Yazdırma yönetimi ayarı bir ağaç görünümü olarak görüntülenir. Burada her düğüm düzeyi, ayarlanacak kullanılabilir belgeleri görüntüler. Özel çıktıları modül, müşteri, sözleşme veya fatura teklifi belge düzeyinde atayabilirsiniz. Özgün belge çıktısında değişiklik yapmak için istediğiniz düğümü genişletin ve **Özgün öğe**'yi seçin. **Rapor biçimi** alanında, yazdırmak için kullanılacak rapor biçimini seçin. [İş Belgesi Yönetimi Çerçevesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)'ni kullanarak özel rapor biçimleri kullanabilirsiniz.
+Yazdırma yönetimi ayarı bir ağaç görünümü olarak görüntülenir. Burada her düğüm düzeyi, ayarlanacak kullanılabilir belgeleri görüntüler. Özel çıktıları modül, müşteri, sözleşme veya fatura teklifi belge düzeyinde atayabilirsiniz. Özgün belge çıktısında değişiklik yapmak için istediğiniz düğümü genişletin ve **Özgün öğe**'yi seçin. **Rapor biçimi** alanında, yazdırmak için kullanılacak rapor biçimini seçin. [İş Belgesi Yönetimi Çerçevesi](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)'ni kullanarak özel rapor biçimleri kullanabilirsiniz.
 
 ## <a name="post-invoice-proposals"></a>Fatura tekliflerini deftere nakletme
 

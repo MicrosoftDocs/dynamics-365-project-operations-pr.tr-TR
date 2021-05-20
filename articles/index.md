@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 108fc9b25b112e7af69147a151929fb2c2d887a6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275922"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950694"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -30,17 +30,17 @@ Microsoft Dynamics 365 Project Operations, daha fazla anlaşma kazanmak, proje t
 
 -   **Liderler, işle ilgili içgörüler edinerek** tüm takımlar, veriler ve süreçler genelinde görünürlüğü artırır ve daha iyi ve daha hızlı iş kararları için yapay zeka yeteneklerinden faydalanır.
 -   **Satış etkinleştirilerek** hızlı ve doğru teklifler, esnek fiyatlandırma ve tahminden uygulamaya sorunsuz geçişlerle daha fazla anlaşma kazanılır ve satış döngüsünü hızlandırılır.
--   **Kaynak belirleme kaynak kullanımını en iyi duruma getirmek için ayarlanarak** doğru becerilere sahip doğru kişileri doğru projelerle uyumlu hale getirir. Bu, kaliteyi iyileştirir ve en iyi performans gösterenleri korumaya yardımcı olur.
+-   **Kaynak belirleme kaynak kullanımını en iyi duruma getirmek için ayarlanarak** doğru becerilere sahip doğru kişileri doğru projelerle uyumlu hale getirir. Bu hizalama kaliteyi artırır ve önde gelen Performers 'ı korumaya yardımcı olur.
 -   Proje yöneticileri tanıdıkları, kullanımı kolay Microsoft Project özelliklerini kullanan son teknoloji ürünü, yerleşik proje yönetimi ile **proje teslimlerini hızlandırabilir**.
 -   Takım üyeleri, Microsoft Teams tümleştirmesiyle **üretkenliği, iş birliğini ve görünürlüğü artırabilir** ve her yerden zaman girişlerini yapabilir, giderlerini gönderebilir.
 -   Finans; zaman ve gider izleme idaresi, proje maliyetlendirme, bütçeleme, faturalama, gelir tanıma, uyumluluk ve görünürlük özellikleri ile önemli iş durumu ölçümlerini izleyerek **proje muhasebesini basitleştirebilir**.
 
-Project Operations kendi başına güçlüdür ancak Dynamics 365'teki ek yeteneklere ihtiyaç duyan müşterilerimiz tarafından genişletilebilir. Buna Pazarlama, İnsan Kaynakları, Müşteri Hizmetleri ve daha fazlası dahildir. Başka bir Dynamics 365 uygulamasının ek işlevselliğini veya Power Apps ile oluşturulmuş özel bir uygulama eklemeyi isteyebilirsiniz. Her şey birlikte uyum içinde beklediğiniz gibi çalışır çünkü güvenli, özel ve uyumlu bir bulut tabanlı çözümün ortak temelini paylaşırlar.
+Project Operations, kendi başına güçlüdür, ancak Dynamics 365'den daha fazla yeteneğe gereksinim duyan müşterilerimize de genişletilebilir. Bu özellikler arasında Marketing, Human Resources, Customer Service ve daha pek çoğu yer almaktadır. Başka bir Dynamics 365 uygulamasının ek işlevselliğini kullanmak ya da Power Apps uygulamasında oluşturulmuş özel bir uygulamaya eklemek istiyorsanız her şey birlikte çalışır ve bir güvenli, özel ve uyumlu bulut teslim edildi çözümünün ortak temelini paylaştıkları için beklediğiniz gibi çalışır.
 
 Daha fazla bilgi edinmek için bkz.
 
 - [Project Operations'a Genel Bakış](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operations 2020 sürümü dalga 1'e genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Dynamics 365 Project Operations 2020 sürümü dalga 1'e genel bakış](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

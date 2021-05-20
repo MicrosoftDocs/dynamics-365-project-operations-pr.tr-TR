@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289618"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950423"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'tan Finance'e eşitleme 
 
@@ -109,8 +109,8 @@ Proje Service Automation ile Finance tümleştirme çözümü uygulandığında,
 ## <a name="prerequisites-and-mapping-setup"></a>Ön koşullar ve eşleme ayarı
 
 - Proje sözleşmelerinin ve projelerin eşitlenmesi gerçekleştirilmeden önce hesapları eşitlemeniz gerekir.
-- Bağlantı kümenize **msdyn\_organizationalunits** için **msdyn\_name \[Name\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Bağlantı kümenize **msdyn\_projects** için **msdyn\_projectnumber \[Poject Number\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Bağlantı kümenize **msdyn\_organizationalunits** için **msdyn\_name \[Name\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](/powerapps/administrator/data-integrator).
+- Bağlantı kümenize **msdyn\_projects** için **msdyn\_projectnumber \[Poject Number\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](/powerapps/administrator/data-integrator).
 - Proje sözleşmeleri ve projelere ait **SourceDataID**, farklı bir değere güncelleştirilebilir veya eşleştirmeden kaldırılabilir. Varsayılan şablon değeri şudur: **Project Service Automation**.
 - **PaymentTerms** eşlemesinin, Finance içindeki geçerli ödeme koşullarını yansıtması için güncelleştirilmesi gerekir. Ayrıca, proje görevinden eşleşmeyi kaldırabilirsiniz. Varsayılan değer eşleşmesi, demo verileri için varsayılan değerlere sahiptir. Aşağıdaki tabloda Project Service Automation'daki değerler gösterilmektedir.
 
@@ -131,7 +131,7 @@ Aşağıdaki koşullar karşılanırsa verileri filtrelemek üzere Excel için M
 Power Query kullanmanız gerekiyorsa şu yönergeleri izleyin:
 
 - Projeler ve sözleşmeler (PSA'dan Fin and Ops'a) şablonuna yalnızca **İş öğesi (msdyn\_ordertype = 192350001)** türünde satış siparişleri içeren bir varsayılan filtre vardır. Bu filtre, Finance içindeki satış siparişleri için proje sözleşmelerinin oluşturulmasının sağlanmasına yardımcı olur. Kendi şablonunuzu oluşturursanız, bu filtreyi eklemeniz gerekir.
-- Yalnızca tümleştirme bağlantısı kümesinin yasal varlığıyla eşitlenmesi gereken sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USSI yasal varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USMF hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
+- Yalnızca tümleştirme bağlantısı kümesinin yasal varlığıyla eşitlenmesi gereken sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US'nin sözleşme kuruluş birimiyle bize sahip olduğunuz proje sözleşmeleri USSI hukuk varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimiyle sahip olduğunuz proje sözleşmeleri usmf hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
 
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
 
