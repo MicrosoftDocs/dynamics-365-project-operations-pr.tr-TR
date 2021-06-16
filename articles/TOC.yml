@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Yenilikler
       items:
+        - name: Mayıs 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mart 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Gider kategorilerini ayarlama
               href: expense/set-up-expense-categories.md
+            - name: Mesafe oranı katmanlarını kullanarak mesafeyi ayarlama
+              href: expense/set-up-mileage.md
         - name: Kişisel giderler
           href: expense/personal-expenses-expense-report.md
         - name: Şirketler arası giderler
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
+        - name: Mayıs 2021 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nisan 2021 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Mart 2021 - lite dağıtımındaki yenilikler
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 32, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-32.md
         - name: 'Güncelleştirme Sürümü 31, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-31.md
         - name: 'Güncelleştirme Sürümü 30, V3''teki yenilikler veya değişiklikler'
@@ -1266,9 +1274,11 @@
               href: psa/time-entry-calendar.md
             - name: Haftalık zaman girişini özelleştirme
               href: psa/time-entry-extensibility-v3.md
+            - name: Onay kümeleri
+              href: psa/approval-set.md
     - name: SSS ve sorun giderme (3.x)
       items:
-        - name: Fiyat neden gider maliyet gerçek değerlerinde varsayılan olarak sıfır oluyor?
+        - name: Fiyat neden gider maliyeti gerçek değerlerinde varsayılan olarak sıfır oluyor?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Fiyat neden gider satış gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
