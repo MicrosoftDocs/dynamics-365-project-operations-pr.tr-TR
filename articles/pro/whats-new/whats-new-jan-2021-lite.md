@@ -2,19 +2,17 @@
 title: "Ocak 2021'deki Yenilikler: Project Operations lite dağıtımı"
 description: Bu konuda, Project Operations lite dağıtımının Ocak 2021 sürümünde bulunan kalite güncelleştirmeleri hakkında bilgiler sağlanmaktadır.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 460240c90f98f268dfda11858897b47c61e8af4e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d302b3870e99467ba2e22cd98719b94a48c1fcf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272142"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993980"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Ocak 2021'deki Yenilikler: Project Operations lite dağıtımı
 

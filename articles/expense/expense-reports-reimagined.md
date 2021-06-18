@@ -2,11 +2,9 @@
 title: Gider raporlarını yeniden tasarlama
 description: Bu konuda, gider raporu girişi için yeniden tasarlanan ve düşünülen deneyim açıklanmaktadır.
 author: suvaidya
-manager: AnnBe
 ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
-ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
+ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5717719"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995375"
 ---
 # <a name="expense-reports-reimagined"></a>Gider raporlarını yeniden tasarlama
 

@@ -2,11 +2,9 @@
 title: Gider yönetimi parametreleri
 description: Aşağıdaki parametreler gider yönetiminde davranışı denetler.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 498d597fe811192ce313a1b0384de81e7ef55c58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 41d78726f6d0aa6b5e647dbb359824950cb6ca72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271949"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993755"
 ---
 # <a name="expense-management-parameters"></a>Gider yönetimi parametreleri
 

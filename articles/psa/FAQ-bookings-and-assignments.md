@@ -2,8 +2,6 @@
 title: Kaynak ayırmaları ve görev atamaları ile ilişkilendirilmeleri
 description: Bu konu adlandırılmış kaynakların, kaynak ayırmalarının ve görev atamalarının ve bunların birbiriyle nasıl ilişkili olacağını yönetme hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 83b1bf39c71275f2e8e4ec20082f711154696586
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 72c741d8a0644589004ba20afbcd0baff7cfcb06
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286227"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993215"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Kaynak ayırmaları ve görev atamaları ile ilişkilendirilmeleri
 

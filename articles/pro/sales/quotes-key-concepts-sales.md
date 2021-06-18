@@ -2,18 +2,16 @@
 title: Teklifler - Temel kavramlar - lite
 description: Bu konuda, Project Operations'ta proje tekliflerinin kullanılması hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: bd225bfea6e04839b57dfcc9436315fe1cd6a204
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663995"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994296"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Proje tekliflerine özel kavramlar
 

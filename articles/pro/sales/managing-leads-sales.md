@@ -2,18 +2,16 @@
 title: Müşteri adaylarını yönetme - lite
 description: Bu konuda, proje tabanlı müşteri adaylarını (pro) yönetme hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 67480459478ffb8a157a2943af919dc63721b779
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949748"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994745"
 ---
 # <a name="manage-leads---lite"></a>Müşteri adaylarını yönetme - lite
 

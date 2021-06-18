@@ -2,19 +2,17 @@
 title: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 description: Bu konu, stoklanmayan malzemelerin ve bekleyen satıcı faturalarının nasıl etkinleştirileceğini açıklar.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993935"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 
@@ -61,11 +59,11 @@ Standart gösteri verilerini kullanıyorsanız, ilk eşitleme ile aşağıdaki v
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Satıcı varlığına göre firmalar oluşturmak için iş akışını etkinleştirin.
 
-Çift yazma düzenleme çözümü, [satıcı ana tümleştirmesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping) sağlar. Bu özelliğin ön koşul olarak, satıcı verilerinin **firmalar** varlığında oluşturulması gerekir. [Satıcı tasarımları arasında geçiş](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type) olarak açıklandığı gibi **firmalar** tablosunda satıcılar oluşturmak için bir şablon iş akışı işlemini etkinleştirin.
+Çift yazma düzenleme çözümü, [satıcı ana tümleştirmesi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md) sağlar. Bu özelliğin ön koşul olarak, satıcı verilerinin **firmalar** varlığında oluşturulması gerekir. [Satıcı tasarımları arasında geçiş](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) olarak açıklandığı gibi **firmalar** tablosunda satıcılar oluşturmak için bir şablon iş akışı işlemini etkinleştirin.
 
 ### <a name="set-products-to-be-created-as-active"></a>Ürünleri etkin olarak oluşturulacak şekilde ayarlama
 
-Stoklanmayan malzemeler, Finance'te içinde **serbest bırakılan ürünler** olarak konfigüre edilmiş olmalıdır . Çift Yazma Düzenleme çözümü, [Dataverse ürün kataloğuna yayınlanmış kullanıma hazır ürün entegrasyonu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) sağlar. Varsayılan olarak, Finance ürünleri Dataverse'e taslak olarak eşitlenir. Malzeme kullanımı veya bekleyen satıcı faturalarında doğrudan kullanılabilmesi için ürünü etkin bir durumla eşitlemek için, **sistem** > **Yönetim** > **Sistem Yönetimi** > **sistem ayarları**'na gidin ve **Satışlar** sekmesinde, **etkin durumdayken ürün oluştur**'u **Evet**'e ayarlayın.
+Stoklanmayan malzemeler, Finance'te içinde **serbest bırakılan ürünler** olarak konfigüre edilmiş olmalıdır . Çift Yazma Düzenleme çözümü, [Dataverse ürün kataloğuna yayınlanmış kullanıma hazır ürün entegrasyonu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) sağlar. Varsayılan olarak, Finance ürünleri Dataverse'e taslak olarak eşitlenir. Malzeme kullanımı veya bekleyen satıcı faturalarında doğrudan kullanılabilmesi için ürünü etkin bir durumla eşitlemek için, **sistem** > **Yönetim** > **Sistem Yönetimi** > **sistem ayarları**'na gidin ve **Satışlar** sekmesinde, **etkin durumdayken ürün oluştur**'u **Evet**'e ayarlayın.
 
 ## <a name="configure-prerequisites-in-finance"></a>Finance'te Ön koşulları yapılandırma
 
