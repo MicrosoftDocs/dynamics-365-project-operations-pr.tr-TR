@@ -2,18 +2,16 @@
 title: Proje satışı izleme
 description: Bu konu, Project Operations'ın bir projedeki işçilik gelirine ilişkin ilerlemeyi nasıl izlediği hakkında bilgiler sağlar.
 author: rumant
-manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 438c44dcfaf9677075eb07688c1e65c6e7053755
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.openlocfilehash: 3f9873dc3e709453a56cb53273b35cc1cd312127
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5711097"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996995"
 ---
 # <a name="project-sales-tracking"></a>Proje satışı izleme
 

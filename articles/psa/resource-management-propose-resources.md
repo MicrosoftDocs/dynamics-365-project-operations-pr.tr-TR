@@ -2,8 +2,6 @@
 title: Proje kaynakları önerme
 description: Bu konu, proje kaynağının nasıl önerileceği hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283032"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997985"
 ---
 # <a name="propose-project-resources"></a>Proje kaynakları önerme
 

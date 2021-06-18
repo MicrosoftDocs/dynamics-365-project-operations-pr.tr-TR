@@ -2,18 +2,16 @@
 title: Proje tabanlı fırsat yönetimi
 description: Bu konu, projelerle ilgili fırsatlarla nasıl çalışılacağı hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: aebff4d3a94735e76bcb9cafd25a058207dae846
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948444"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996365"
 ---
 # <a name="manage-project-based-opportunities"></a>Proje tabanlı fırsat yönetimi
 

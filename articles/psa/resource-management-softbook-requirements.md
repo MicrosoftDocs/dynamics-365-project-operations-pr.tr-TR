@@ -2,8 +2,6 @@
 title: Gereksinimleri geçici ayırma
 description: Bu konu, gereksinimleri geçici ayırma hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 736d59976ad0f456a694cedbb28b516c90632fe6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282942"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997940"
 ---
 # <a name="soft-book-requirements"></a>Gereksinimleri geçici ayırma
 

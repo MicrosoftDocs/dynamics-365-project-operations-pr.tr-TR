@@ -2,18 +2,16 @@
 title: Takım üyelerini koruma
 description: Bu konuda, proje takımlarına adlandırılmış kaynaklar ayırma ve bunları görevlere atama hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00312c5a701768e0042e7e0236477c192690ded3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286857"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998660"
 ---
 # <a name="maintain-team-members"></a>Takım üyelerini koruma
 

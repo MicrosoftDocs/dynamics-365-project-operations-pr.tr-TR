@@ -2,8 +2,6 @@
 title: Çalışma saatleri şablonu oluşturma
 description: Bu konuda Project Service'ta çalışma saatleri şablonu oluşturma açıklanmaktadır.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981279"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997220"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Çalışma saatleri şablonu oluşturma (Project Service)
 
@@ -51,7 +49,7 @@ Kuruluşunuz için bir takvim şablonu oluşturmak üzere, iki önemli gereksini
 
 1. **Kaynaklar** \> **Kaynaklar**'a gidin.
 2. Takvim şablonuna başvuracak yeni bir kaynak oluşturun veya varolan bir kaynağı seçin.
-3. Kaynağın **çalışma saatleri** sekmesini seçin ve Takvim kurallarını yapılandırmak için [bir kaynak için çalışma saatleri ayarla](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) alanındaki yönergeleri doldurun.
+3. Kaynağın **çalışma saatleri** sekmesini seçin ve Takvim kurallarını yapılandırmak için [bir kaynak için çalışma saatleri ayarla](/dynamics365/field-service/set-work-hours-resource.md) alanındaki yönergeleri doldurun.
 
 **Yeni bir takvim şablonu oluşturun**
 
