@@ -2,11 +2,9 @@
 title: Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
 description: Bu konuda, proje gerçek değerlerini Microsoft Dynamics 365 Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitlemek için kullanılan şablonlar ve temel görevler açıklanır.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289708"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999920"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
 

@@ -2,18 +2,16 @@
 title: Kaynak kullanımına genel bakış
 description: Bu konu Project Operations'ta kaynak kullanımı hakkında bilgi sağlar.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279342"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000820"
 ---
 # <a name="resource-utilization-overview"></a>Kaynak kullanımına genel bakış
 

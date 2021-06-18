@@ -2,8 +2,6 @@
 title: Zaman girişleri oluşturma
 description: Bu konu, zaman girişleri oluşturma hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8f86f69090e869bf5e6a7505a4cb1ad1c69b475b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bc8e52fef0aa02505e412c746343ce1410c40ac3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282177"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999290"
 ---
 # <a name="create-time-entries"></a>Zaman girişleri oluşturma
 

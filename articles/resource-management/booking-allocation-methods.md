@@ -2,11 +2,9 @@
 title: Ayırma tahsisat yöntemleri
 description: Bu konu, ayırma tahsisat yöntemlerinin Proje Operations'da nasıl çalıştığı hakkında bilgi sağlar.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280062"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998795"
 ---
 # <a name="booking-allocation-methods"></a>Ayırma tahsisat yöntemleri
 

@@ -2,18 +2,16 @@
 title: Common Data Service'te yapılandırma verileri kurulumu ve uygulama
 description: Bu konuda, Project Operations'ta yapılandırma verilerini ayarlama ve uygulama hakkında bilgiler sağlanmaktadır.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289843"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001315"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service'te yapılandırma verileri kurulumu ve uygulama 
 
@@ -23,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 ## <a name="prerequisites"></a>Ön koşullar
 
-Common Data Service (CDS) uygulamasında verileri yapılandırmadan önce, aşağıdaki önkoşulların karşılanması gerekir:
+Common Data Service'de (CDS) verileri yapılandırmaya başlamadan önce aşağıdaki önkoşulların karşılanması gerekir:
 
 1.  Bir CDS ortamı ve Project Operations içni Dynamics 365 Finance ortamı sağlayın.
 2.  Yasal varlık bilgileri, Dynamics 365 Finance, CDS ortamıyla paylaşılır. Bu, CDS'deki **Şirket** varlığının aşağıdaki şirket kayıtlarına sahip olduğu anlamına gelir:
@@ -33,7 +31,7 @@ Common Data Service (CDS) uygulamasında verileri yapılandırmadan önce, aşa�
 
 ## <a name="install-setup-and-configuration-data"></a>Kurulum ve yapılandırma verilerini yükleme
 
-1. [Kurulum ve Yapılandırma Verileri Paketi](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)'ni indirin, engelini kaldırın ve açın.
+1. [Kurulum ve Yapılandırma Verileri Paketi](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip)'ni indirin, engelini kaldırın ve açın.
 2. Sıkıştırması açılmış klasöre gidin ve *DataMigrationUtility* adlı yürütülebilir dosyayı çalıştırın.
 3. Common Data Service Yapılandırma Geçişi (CMT) Sihirbazı'nın 1. sayfasında **Verileri İçeri Aktar**'ı ve ardından **Devam**'ı seçin.
 
@@ -57,13 +55,20 @@ Common Data Service (CDS) uygulamasında verileri yapılandırmadan önce, aşa�
 ![Veri Al](./media/5ImportData.png)
 
 10. Verileri içeri aktarma işlemi, ağ hızınıza bağlı olarak iki ila on dakika arası sürer. İçeri aktarma işlemi tamamlandıktan sonra CMT Sihirbazı'ndan çıkın. 
-11. Kuruluşunuzun aşağıdaki 19 varlıktaki verilerini denetleyin:
+11. Kuruluşunuzun aşağıdaki 26 varlıktaki verilerini denetleyin:
 
   - Para birimi
+  - Hesap Grafiği
+  - Mali Takvim
+  - Para Birimi Döviz Kuru Türleri
+  - Ödeme Günü
+  - Ödeme Zamanlaması
+  - Ödeme Koşulu
   - Kuruluş Birimi
   - İletişim
   - Vergi Grubu
   - Müşteri Grubu
+  - Satıcı Grubu
   - Birim
   - Birim Grubu
   - Fiyat Listesi

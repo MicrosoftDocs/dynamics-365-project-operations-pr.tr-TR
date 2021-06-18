@@ -2,18 +2,16 @@
 title: Proje için ayırma
 description: Bu konuda, bir projeye kaynak ayırma hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dff8107864f95c87d25a421dfeeafe9081e98e25
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15de5735ba6d25994a68192ebdf80aefec772d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280018"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998840"
 ---
 # <a name="book-to-a-project"></a>Proje için ayırma
 
