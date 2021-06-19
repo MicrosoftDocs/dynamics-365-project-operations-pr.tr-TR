@@ -2,19 +2,17 @@
 title: Gider raporundaki kişisel giderlerle çalışma
 description: Bu konuda, iş amaçlı seyahat sırasında çalışanların harcadığı kişisel giderlerle nasıl çalışılacağı hakkında bilgiler sağlanmaktadır.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276263"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025708"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Gider raporundaki kişisel giderlerle çalışma
 
@@ -28,6 +26,15 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
   - **Şirket tarafından ödendi**: Kuruluşunuz, şirket kredi kartı için tam fatura ödemesini yapar ve ardından kişisel giderler için çalışanın hesabını borçlandırır.
 
 Kuruluşunuzun kullandığı yöntemi **gider yönetimi parametreleri** sayfasında seçebilirsiniz.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Kişisel tutar alanında tanımlanmış değer olduğunda tutarı böl işlevini etkinleştir
+
+**Kişisel tutar alanında tanımlanmış değer olduğunda tutarı böl işlevini etkinleştir** özelliği, yalnızca satır düzeyinde bir iş akışı kullanılarak onaylanan gider raporlarına uygulanır. Raporları onaylamak için **Gider raporlarını işle** > **Bana atanan gider raporları** > **Gider raporunu aç** bölümüne gidin. 
+
+Bu özelliği etkinleştirmek için, **Çalışma alanları** > **Özellik Yönetimi** bölümüne gidin, **Kişisel tutar alanında tanımlanmış değer olduğunda tutarı böl işlevini etkinleştir**'i seçin ve ardından **Şimdi etkinleştir**'i seçin. 
+
+Özellik etkinleştirildiğinde, bu işlevi kullanan gider satırları rapor gönderildiğinde iki satır üretir. İki satır oluşturulur; böylece onaylayan kişi her satırı ayrı olarak onaylayabilir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

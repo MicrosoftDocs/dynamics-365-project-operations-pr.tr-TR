@@ -2,18 +2,16 @@
 title: Zamanlama varlıklarıyla işlemler gerçekleştirmek için Zamanlama API'lerini kullanma
 description: Bu konu, Zamanlama API'leri kullanımına yönelik bilgiler ve örnekler sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950828"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116821"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıklarıyla işlemler gerçekleştirmek için Zamanlama API'lerini kullanma
 
@@ -268,7 +266,6 @@ Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 - Her bir kullanıcının açık en fazla 10 **OperationSet**'i olabilir.
 - Project Operations şu anda bir proje üzerinde en fazla 500 toplam görevi desteklemektedir.
 - **OperationSet** hata durumu ve hata günlükleri şu anda kullanılamıyor.
-- Zamanlama API'leri Genel önizlemededir. Bu API'lerin Üretim ortamlarında kullanımı Microsoft tarafından desteklenmez.
 - [Projelerde ve görevlerde sınırları ve sınırları](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Hata işleme

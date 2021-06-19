@@ -2,18 +2,16 @@
 title: Zamanlama modları
 description: Bu konu zamanlama modları hakkında bilgi sağlar.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981459"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116731"
 ---
 # <a name="scheduling-modes"></a>Zamanlama modları
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations, kuruluşların, iş dökümü yapısı içindek
 Project Operations'da kullanılabilir üç zamanlama modu vardır:
 
   - Sabit süre (Bu, varsayılan moddur)
-  - Sabit iş
+  - Sabit çaba (*Çalışma*)
   - Sabit birimler
 
 Belirli bir zamanlama modunun tanımı tarafından etkilenen değerler aşağıdaki formüle göre belirlenir:
 
-  Efor (*çalışma*) = süre x birimler
+  Çaba = Süre x Birim
 
 Bir projenin zamanlama modunu tanımladığınızda, bu değerlerden birini ayarlamaktan sonra değiştirilemezler. Bu değer sabit olarak tutulurken, sisteme diğer iki değer değiştiğinde onu değiştirmemesini bildiren bu değer bir öncelik verir. Aşağıdaki tabloda, belirli bir modu seçmenin etkileri hakkında bilgiler verilmektedir.
 
