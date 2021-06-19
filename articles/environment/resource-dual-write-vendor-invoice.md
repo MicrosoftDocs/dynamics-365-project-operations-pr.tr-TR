@@ -2,19 +2,17 @@
 title: Satıcı faturası tümleştirmesi
 description: Bu konu, Project Operations'ta satıcı faturası tümleştirmesi hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955854"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002304"
 ---
 # <a name="vendor-invoice-integration"></a>Satıcı faturası tümleştirmesi
 

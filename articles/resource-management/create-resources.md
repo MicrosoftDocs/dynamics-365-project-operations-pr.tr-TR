@@ -2,18 +2,16 @@
 title: Kaynak oluşturma
 description: Bu konu, ayrılabilir kaynaklar oluşturma hakkında bilgiler için bir bağlantı sağlar.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8ce1277344cadcc708cbe7f2333f55626a0e06a6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ae0b5f9e72fc4baf53262dea2a5798add9f83531
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950063"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002960"
 ---
 # <a name="create-resources"></a>Kaynak oluşturma
 

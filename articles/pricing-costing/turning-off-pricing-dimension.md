@@ -2,11 +2,9 @@
 title: Fiyatlandırma boyutunu kapatma
 description: Bu konuda, özel fiyatlandırma boyutlarının kapatılması hakkında bilgi verilmektedir.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274752"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004555"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Fiyatlandırma boyutunu kapatma
 
@@ -38,10 +36,10 @@ Ancak bunu yaptığınızda, **İlişkili fiyat kayıtları varsa fiyatlandırma
 
 Bu hata iletisi, kapatılan boyut için daha önceden ayarlanmış fiyat kayıtları olduğunu belirtir. Bir boyutla ilgili **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** kayıtları, boyutun uygulanabilirliği **Hayır** olarak ayarlanmadan önce silinmelidir. Bu kural, hem kullanıma hazır fiyatlandırma boyutları hem de oluşturmuş olabileceğiniz özel fiyatlandırma boyutları için geçerlidir. Bu doğrulamanın nedeni, her **Rol Fiyatı** kaydının benzersiz bir boyut birleşimine sahip olması gerektiğidir. Örneğin, **ABD Maliyet Oranları 2018** adlı bir fiyat listesinde aşağıdaki **Rol Fiyatı** satırları bulunur. 
 
-| Standart Başlık         | Kuruluş Birimi    |Birim   |Fiyat  |Para Birimi  |
+| Standart Başlık         | Kuruluş Birimi    |Birim   |Fiyat  |Para birimi  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistem Mühendisi|Contoso ABD|Hour| 100|USD|
-| Kalfa Sistem Mühendisi|Contoso ABD|Hour| 150| USD|
+| Sistem Mühendisi|Contoso ABD|Saat| 100|USD|
+| Kalfa Sistem Mühendisi|Contoso ABD|Saat| 150| USD|
 
 
 **Standart Başlık**'ı fiyatlandırma boyutu olarak kapattığınızda ve fiyatlandırma altyapısı bir fiyat için arama yaptığında yalnızca giriş bağlamından **Kuruluş Birimi** değerini kullanır. Giriş bağlamının **Kuruluş Birimi** "Contoso ABD" ise her iki satır da eşleşeceğinden sonuç belirleyici olmaz. Bu senaryoyu önlemek için sistem, **Rol Fiyatı** kayıtları oluştururken boyut birleşiminin benzersiz olduğunu doğrular. **Rol Fiyatı** kayıtları oluşturulduktan sonra boyut kapatılırsa bu kısıtlama ihlal edilebilir. Bu nedenle bir boyutu kapatmadan önce bu boyut değeriyle doldurulmuş tüm **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** satırlarını silmeniz gerekir.

@@ -2,18 +2,16 @@
 title: Malzemeler için maliyet ve satış oranlarını ayarlama
 description: Bu konu, projelerde kullanılan malzemelerin maliyet ve satış oranlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 05abefcec5c64632d00e2317107fe7a84ded4908
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 3deea480222af00ee49a34bd49c7c951937323f0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877811"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004780"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Malzemeler için maliyet ve satış oranlarını ayarlama
 
@@ -27,6 +25,6 @@ Dynamics 365 Project Operations'ta, ürünler için maliyet ve satış fiyatlar�
 2. **Fiyat listesi maddeleri**'ndeki alt ızgara menüsünde **Yeni fiyat listesi maddesi**'ni seçin. 
 3. **Hızlı Oluştur** sayfasında, adına yeni fiyatı oluşturduğunuz ürün ve birimi girin.
 
-Katalog maddeleri için fiyatların nasıl tanımlanacağı hakkında daha fazla bilgi için bkz. [Ürünler için fiyatlandırmayı ayarlama](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) ve [Para birimi ve fiyatlandırmada ondalık hane duyarlılığı](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
+Katalog maddeleri için fiyatların nasıl tanımlanacağı hakkında daha fazla bilgi için bkz. [Ürünler için fiyatlandırmayı ayarlama](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) ve [Para birimi ve fiyatlandırmada ondalık hane duyarlılığı](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

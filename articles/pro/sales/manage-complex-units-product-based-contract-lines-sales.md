@@ -2,18 +2,16 @@
 title: Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme - lite
 description: Bu konu, abonelik tabanlı ürünlerin satışını destekleme hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86da5a96919438e883b56fc8ecfe765f70a789ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273357"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003205"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme - lite
 

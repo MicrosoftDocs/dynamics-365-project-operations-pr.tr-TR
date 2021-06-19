@@ -2,18 +2,16 @@
 title: İşçilik fatura oranlarını ayarlama
 description: Bu konuda Project Operations'ta iş gücü faturalandırma fiyatlarını ayarlama hakkında bilgi sağlanır.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 7d2dd7b6001ddb475d381d35a4863dcc4b322214
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877424"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004690"
 ---
 # <a name="set-up-labor-bill-rates"></a>İşçilik fatura oranlarını ayarlama
 

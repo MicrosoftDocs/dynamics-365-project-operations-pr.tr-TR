@@ -2,18 +2,16 @@
 title: Şirketler arası faturalamaya genel bakış
 description: Bu konu, projeler için şirketler arası faturalandırma hakkında bilgi ve örnekler sağlar.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287352"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002665"
 ---
 # <a name="intercompany-invoicing-overview"></a>Şirketler arası faturalamaya genel bakış
 
@@ -21,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Kuruluşunuzun, projeler için ürünleri ve servisleri birbirine aktarabilecek birden çok bölümü, yan kuruluşları ve diğer tüzel kişilikler olabilir. Hizmet veya ürün sağlayan tüzel kişiliğe *ödünç veren tüzel kişilik* denir. Hizmet veya ürün alan tüzel kişiliğe *ödünç alan tüzel kişilik* denir.
 
-Aşağıdaki resimde iki tüzel kişilik olan Contoso Robotics USA (ödünç alan tüzel kişilik) ve Contoso Robotics UK şirketlerinin (ödünç veren tüzel kişilik) müşterisi olan Adventure Works'e bir proje sunmak için kaynakları paylaştığı tipik bir senaryo gösterilmektedir. Bu senaryoda, işi Adventure Works'e teslim etmesi için Contoso Robotics USA ile sözleşme imzalanmıştır.
+Aşağıdaki resimde, Contoso Robotics ABD (ödünç alan tüzel kişilik) ve Contoso Robotics UK (ödünç veren tüzel kişilik) adlı iki tüzel kişiliğin Adventure works müşterisine bir projeyi teslim etmek için kaynakları paylaştığı tipik bir senaryo gösterilmektedir. Bu senaryoda Contoso Robotics ABD, işi Adventure Works'e teslim etmek üzere sözleşme yapmıştır.
 
 ![Şirketler arası faturalama](./media/IntercompanyScenario.png) 
 

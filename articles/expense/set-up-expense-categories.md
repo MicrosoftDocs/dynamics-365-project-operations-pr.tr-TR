@@ -2,18 +2,16 @@
 title: Gider kategorilerini ayarlama
 description: Bu konuda, gider raporları için gider kategorilerini ve paylaşılan kategorileri ayarlama hakkında bilgiler sağlanmaktadır.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1589cf82626e744d35f31fef8e8437a5ad71360d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d66df1ffd2be2ff884561010c46cda255a2d2189
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276147"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001837"
 ---
 # <a name="set-up-expense-categories"></a>Gider kategorilerini ayarlama
 

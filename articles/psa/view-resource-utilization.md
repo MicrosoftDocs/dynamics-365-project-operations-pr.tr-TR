@@ -2,8 +2,6 @@
 title: Kaynak kullanımını görüntüle
 description: Project Service'ta kaynak kullanımını görüntüleme
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8024d99441136e4ca28caf5bf4c81743e3a4dc71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 06d6807d63207a0dedbc98b6bd7a874a684bd5ac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002575"
 ---
 # <a name="view-resource-utilization-project-service"></a>Kaynak kullanımını görüntüleme (Project Service)
 

@@ -2,18 +2,16 @@
 title: Lite dağıtımına genel bakış
 description: Bu konuda, Dynamics 365 Project Operations'ın Lite dağıtımı hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273987"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003835"
 ---
 # <a name="lite-deployment-overview"></a>Lite dağıtıma genel bakış
 
