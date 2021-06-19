@@ -2,18 +2,16 @@
 title: Mali boyut varsayılanları
 description: Bu konu mali boyutun varsayılan ayarlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950153"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013330"
 ---
 # <a name="financial-dimension-defaults"></a>Mali boyut varsayılanları
 

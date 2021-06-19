@@ -2,11 +2,9 @@
 title: Madde gereksiniminden satınalma siparişindeki maddeleri alma
 description: Bu konuda, bir madde gereksiniminden satınalma siparişindeki maddelerin nasıl alınacağını açıklanır.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0e0c4a75f1d86538cc773af1f7c0ae3c83ef0ad5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288252"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011710"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Madde gereksiniminden satınalma siparişindeki maddeleri alma
 

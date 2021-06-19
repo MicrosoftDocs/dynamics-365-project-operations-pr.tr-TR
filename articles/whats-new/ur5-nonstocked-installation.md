@@ -2,19 +2,17 @@
 title: Finance ortamınızda Project Operations uygulamasını güncelleştirme
 description: Bu konuda, Dynamics 365 Finance ortamınızda Project Operations uygulamasını nasıl güncelleştireceğiniz hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d68296ec59f0bd58f848154c90e02c58f275ab12
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292003"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011080"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance ortamınızda Project Operations uygulamasını güncelleştirme
 

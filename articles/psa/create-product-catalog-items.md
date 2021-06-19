@@ -2,8 +2,6 @@
 title: Ürün kataloğu öğeleri oluştur
 description: Project Service'ta ürün kataloğu maddeleri oluşturma
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a0722cc41c53635b689681aad889407b361b04f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950378"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012430"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Ürün kataloğu maddeleri oluşturma (Project Service)
 

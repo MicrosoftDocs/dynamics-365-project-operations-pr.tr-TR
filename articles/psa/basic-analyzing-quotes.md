@@ -2,8 +2,6 @@
 title: Proje tekliflerinin analizi
 description: Bu konu proje tekliflerinin analizleri hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d1b79a61147bfccf13b0a33179464af91b45121e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acb3f1a2020cfd59f60f828e9092bd7ccde00077
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291283"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012475"
 ---
 # <a name="analysis-of-project-quotes"></a>Proje tekliflerinin analizi
 
