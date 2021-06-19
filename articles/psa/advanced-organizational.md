@@ -2,8 +2,6 @@
 title: Kuruluş birimleri
 description: Bu konu Dynamics 365 Project Service Automation uygulamasındaki kuruluş birimleri hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291688"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009640"
 ---
 # <a name="organizational-units"></a>Kuruluş birimleri 
 
@@ -98,7 +96,7 @@ Kuruluş birimi, şirket içinde diğer bölümlere veya harici müşterilere sa
 
 Contoso, Ltd.'nin iki geliştirme merkezi vardır: Contoso ABD ve Contoso Hindistan. Bu iki geliştirme merkezi arasında kaynak maliyetleri büyük ölçüde farklılık gösterir.
 
-Contoso BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
+Contoso, BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
 
 Contoso ABD ve Contoso Hindistan kuruluş birimleri olarak ayarlanmış olmalıdır ve her kuruluş biriminin kendi maliyet fiyat listesi olmalıdır. Asya Pasifik, Latin Amerika, Kuzey Amerika, Batı Avrupa ve Orta Doğu satış bölgeleri olarak ayarlanmış olmalıdır ve her satış bölgesi kendi satış fiyatı listesine sahip olmalıdır.
 
@@ -124,7 +122,7 @@ Hayır. Geçerli PSA sürümünde, kuruluş birimleri hiyerarşik değildir. Bu,
 Bir dizi maliyet merkezi, bölüm, fatura ofisi, vb. içeren karmaşık bir hiyerarşiniz olduğunda, bu hiyerarşinin yaprak düğümlerini farklı kuruluş birimleri olarak ayarlayın.
 Aşağıdaki örnek tipik bir hiyerarşi gösterir:
 
-**Contoso Hindistan**
+**ContosoHindistan**
 
   - SAP Uygulaması 
 

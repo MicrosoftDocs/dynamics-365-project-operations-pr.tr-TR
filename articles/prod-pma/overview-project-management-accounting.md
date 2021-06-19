@@ -2,11 +2,9 @@
 title: Proje yönetimi ve muhasebeye genel bakış
 description: Proje yönetimi ve muhasebe işlevselliği, servis sağlamak, ürün oluşturmak veya sonuca ulaşmak için birden çok sektörde kullanılabilir.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950513"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008155"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proje yönetimi ve muhasebeye genel bakış
 

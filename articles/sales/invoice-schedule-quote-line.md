@@ -2,18 +2,16 @@
 title: Proje tabanlı teklif satırlarındaki fatura zamanlamaları
 description: Bu konuda, teklif satırları için fatura zamanlamaları ve kilometre taşları oluşturma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 506de5217de48814d6b8f03a10c7c8648c575198
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a8e94bf7ff807028cec05380ac8c9bc22094d82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278307"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010180"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarındaki fatura zamanlamaları
 

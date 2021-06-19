@@ -2,12 +2,10 @@
 title: Project Service Automation 3.x'te kullanımdan kaldırılan web kaynakları
 description: Bu konu, Dynamics 365 Project Service Automation 3.0'da kullanımdan kaldırılan web kaynakları verilmektedir.
 author: makk
-manager: rchawla
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b60c5cf8d5b7cd891218faf71de6187a3b8ea85e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 774e068a2160345f72a1c004ff16e5ac492f6087
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284742"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007930"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Project Service Automation 3.x'te kullanımdan kaldırılan web kaynakları
 
