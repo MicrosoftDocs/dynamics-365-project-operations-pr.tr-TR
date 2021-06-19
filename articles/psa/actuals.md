@@ -2,8 +2,6 @@
 title: Gerçek değerlere genel bakış
 description: Bu konu proje fiili değerleri hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 73f1b14bbb4cc53111a1b3a93756a86db04475ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285642"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014680"
 ---
 # <a name="actuals-overview"></a>Gerçek değerlere genel bakış
 

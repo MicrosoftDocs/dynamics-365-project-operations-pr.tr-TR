@@ -2,8 +2,6 @@
 title: Bir projenin durumunu izle
 description: Project Service'ta bir projenin durumunu izleme
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d57f33cdf240db4cae1f33fe962173790fe0fe7f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2385f7e52f3b5051b76daa9169f98bd73487e22d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281952"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014410"
 ---
 # <a name="track-a-projects-status-project-service"></a>Bir projenin durumunu izleme (Project Service)
 
