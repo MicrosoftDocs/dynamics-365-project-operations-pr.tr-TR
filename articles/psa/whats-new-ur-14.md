@@ -2,8 +2,6 @@
 title: Project Service Automation Güncelleştirme Sürümü 14, V3'teki yenilikler veya değişiklikler
 description: Bu konu Project Service Automation Güncelleştirme Sürüm 14 V3'teki yenilikler hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d0aeb4684ae04d8774a31a51664ceb84307b10d
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 8754f8eace50f1fa5743c5611d94f8c86693ebc9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949427"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006895"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, Güncelleştirme Sürümü 14, V3
 

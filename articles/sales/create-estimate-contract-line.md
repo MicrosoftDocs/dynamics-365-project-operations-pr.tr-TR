@@ -2,18 +2,16 @@
 title: Proje sözleşme satırını tahmin etme
 description: Bu konu, proje sözleşmesi satırındaki tahminler hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 3aa46b017fa27572de807d5cf15ea93158177609
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858542"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007210"
 ---
 # <a name="estimate-a-project-contract-line"></a>Proje sözleşme satırını tahmin etme
 

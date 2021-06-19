@@ -2,11 +2,9 @@
 title: Proje takımı oluşturma
 description: Bu konu, proje ekipleri oluşturma ve yönetme hakkında bilgi sağlar.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270882"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006220"
 ---
 # <a name="create-a-project-team"></a>Proje ekibi oluşturma
 

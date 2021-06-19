@@ -2,18 +2,16 @@
 title: Genel kaynak gereksinimlerini karşılama
 description: Bu konu, genel bir kaynak gereksinimi için adlandırılmış kaynakları ayırma hakkında bilgi sağlar.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fef896ae12c196d5566ad54f3e15373020e4e28a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e36875a0d5dcb24d9669e2ea989c6fc7db7bcd7c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279612"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005860"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Genel kaynak gereksinimlerini karşılama
 

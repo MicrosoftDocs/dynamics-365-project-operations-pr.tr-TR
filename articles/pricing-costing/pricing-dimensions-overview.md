@@ -2,19 +2,17 @@
 title: Fiyatlandırma boyutlarına genel bakış
 description: Bu konu, Dynamics 365 Project Operations'ta fiyatlandırma boyutları hakkında bilgi sağlar.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275427"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005005"
 ---
 # <a name="pricing-dimensions-overview"></a>Fiyatlandırma boyutlarına genel bakış
 
@@ -59,18 +57,18 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 
 **Örnek fatura oranları**
 
-| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
+| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
 | ------------|-------------|----------|----------:|----------|
-| Geliştirici   | Contoso ABD  |Hour | 200|USD     |
-| Geliştirici   | Contoso Hindistan |Hour|   112|USD     |
+| Geliştirici   | Contoso ABD  |Saat | 200|USD     |
+| Geliştirici   | Contoso Hindistan |Saat|   112|USD     |
 
 
 **Örnek maliyet oranları**
 
-| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
+| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso ABD  |Hour | 145|USD     |
-| My company_Band2 | Contoso Hindistan |Hour|   67|USD     |
+| My company_Band1 | Contoso ABD  |Saat | 145|USD     |
+| My company_Band2 | Contoso Hindistan |Saat|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

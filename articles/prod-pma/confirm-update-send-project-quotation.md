@@ -2,11 +2,9 @@
 title: Proje teklifini onaylama, güncelleştirme ve gönderme
 description: Bu konu, müşteriye onay için teklif gönderme, geribildirim temel alınarak değiştirme ve teklifi yeniden gönderme hakkında bilgiler sağlar.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6897890156b8cef374f6279c8b7fa629c0f775ec
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270837"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006400"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Proje teklifini onaylama, güncelleştirme ve gönderme
 

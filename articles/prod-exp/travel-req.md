@@ -2,11 +2,9 @@
 title: Seyahat taleplerine genel bakış
 description: Bu konuda, seyahat talepleri hakkında bilgiler sağlanmaktadır. Seyahat talebi, planlanan seyahat giderlerini belgeler.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3441a386c142d8c73066c6eb1e0371678c44d94c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5fbd2afc7d32e1824925af6dc4c6d088d4f6ccf9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271242"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006040"
 ---
 # <a name="travel-requisitions-overview"></a>Seyahat taleplerine genel bakış
 

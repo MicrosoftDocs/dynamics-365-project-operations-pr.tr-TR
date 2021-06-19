@@ -2,11 +2,9 @@
 title: Yeni bir proje oluşturun
 description: Bu konu, yeni proje oluşturma hakkında bilgi sağlar.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270747"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006265"
 ---
 # <a name="create-a-new-project"></a>Yeni bir proje oluşturun
 
@@ -55,7 +53,7 @@ Proje yöneticisi proje için gerekli olan rolleri oluşturmak için proje kayna
 
 [![Rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Senaryo:**: Contoso, onaylı proje tüzüğü olan zaman ve malzeme projesini gerçekleştirmek için işe alındı. Yardımcı proje yöneticisi hala proje kapsamını tamamlıyor. Kaynak yöneticisi şu anda yeni projede çalışmak üzere ayrılacak belirli kaynakları tanımlıyor. Projenin kritik doğası nedeniyle proje sponsoru Uzman proje yöneticisi rolünün de dahil edilmesini istedi. Proje planlaması sırasında, yardımcı proje yöneticisi kaynak bilgisine gerek duyar diye kaynak yöneticisi yeni kaynağı almalıdır ve sistemde rolü tanımlamalıdır.
+**Senaryo:** Contoso, onaylanmış bir proje navlunu bulunan bir Zaman ve malzeme projesini tamamlanmak için işe alındı. Yardımcı proje yöneticisi hala proje kapsamını tamamlıyor. Kaynak yöneticisi şu anda yeni projede çalışmak üzere ayrılacak belirli kaynakları tanımlıyor. Projenin kritik doğası nedeniyle proje sponsoru Uzman proje yöneticisi rolünün de dahil edilmesini istedi. Proje planlaması sırasında, yardımcı proje yöneticisi kaynak bilgisine gerek duyar diye kaynak yöneticisi yeni kaynağı almalıdır ve sistemde rolü tanımlamalıdır.
 
 Aşağıdaki adımlarda, kaynak yöneticisinin Kıdemli Proje Yöneticisi rolünü nasıl ayarlayabileceği ve bununla kaynak özelliklerini nasıl ilişkilendirebileceği gösterilmektedir. Daha sonra, rol gerekli kaynak yetkinlikleri ile eşleşen kullanılabilir kaynakları aramak için kullanılabilir.
 

@@ -2,11 +2,9 @@
 title: Project Service Automation'a genel bakış
 description: Bu konuda, Dynamics 365 Project Service Automation ile Dynamics 365 Finance arasındaki tümleştirme çözümü hakkında bilgi sağlanır.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ca459b99881b612e4656be112c8a2e420b4196e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271107"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005905"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation'a genel bakış
 
