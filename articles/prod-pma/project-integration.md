@@ -2,7 +2,7 @@
 title: Microsoft Project Client tümleştirmesi
 description: Proje zamanlamasını planlamak ve sürdürmek karmaşık olabilir, bu nedenle proje yöneticilerinin bu görevi yönetmesine yardımcı olacak araçları kullanmaları gerekir. Microsoft Project Client ile tümleştirme, bir proje iş kırılım yapısını açmak ve yönetmek için destek sağlar.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999470"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269859"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client tümleştirmesi
 
@@ -124,7 +124,14 @@ Microsoft Project Client'ı kullanarak yeni bir iş kırılım yapısı oluştur
 
 8.  Kaynak için kullanılacak **Takvimi** seçin.
 
-11. **Tamam**'a tıklayın.
+11. **OK** seçeneğini tıklatın.
 
+> [!NOTE]
+> Project İstemcisi eklentisi, proje kimliği biçiminde aşağıdaki karakterleri desteklemez:
+> 
+>   - Alt çizgi
+>   - Süre
+>   - Ara çubuğu
+>   - Eğik çizgi
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

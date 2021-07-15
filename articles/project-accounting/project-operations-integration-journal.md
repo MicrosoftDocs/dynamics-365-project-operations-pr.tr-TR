@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007165"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304280"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
@@ -26,7 +26,7 @@ Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın i
 Project Operations Tümleştirme Günlüğündeki kayıtlar dönemsel işlem kullanılarak oluşturulur, **hazırlama tablosundan alınır**. Bu işlemi, **Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **Periyodik** > **Project Operations Tümleştirmesi** > **Hazırlama tablosundan alma**'ya giderek çalıştırabilirsiniz. İşlemi etkileşimli olarak çalıştırabilir veya gerektiği gibi arka planda çalışacak şekilde yapılandırabilirsiniz.
 
 Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme günlüğüne eklenmemiş olan gerçek değerler bulunur. Her fiili hareket için bir günlük satırı oluşturulur.
-**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** sekmesinde Project Operations) seçilen değere bağlı olarak yevmiye defteri satırlarını ayrı yevmiye defterlerine ayırır. Bu alan için olası değerler şunlardır:
+Sistem, **Project Operations tümleştirme günlüğündeki dönem birimi** alanında seçilen değeri temel alarak günlük satırlarını ayrı günlüklerde gruplandırır (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement'da Project Operations** sekmesi). Bu alan için olası değerler şunlardır:
 
   - **Günler**: Gerçek tutarlar, işlem tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
   - **Aylar**: Gerçek değerler takvim ayına göre gruplandırılır. Her ay için ayrı bir günlük oluşturulur.

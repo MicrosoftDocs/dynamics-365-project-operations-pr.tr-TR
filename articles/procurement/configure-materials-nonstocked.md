@@ -2,17 +2,17 @@
 title: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 description: Bu konu, stoklanmayan malzemelerin ve bekleyen satıcı faturalarının nasıl etkinleştirileceğini açıklar.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993935"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293071"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 
@@ -59,11 +59,11 @@ Standart gösteri verilerini kullanıyorsanız, ilk eşitleme ile aşağıdaki v
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Satıcı varlığına göre firmalar oluşturmak için iş akışını etkinleştirin.
 
-Çift yazma düzenleme çözümü, [satıcı ana tümleştirmesi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md) sağlar. Bu özelliğin ön koşul olarak, satıcı verilerinin **firmalar** varlığında oluşturulması gerekir. [Satıcı tasarımları arasında geçiş](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) olarak açıklandığı gibi **firmalar** tablosunda satıcılar oluşturmak için bir şablon iş akışı işlemini etkinleştirin.
+Çift yazma düzenleme çözümü, [satıcı ana tümleştirmesi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping) sağlar. Bu özelliğin ön koşul olarak, satıcı verilerinin **firmalar** varlığında oluşturulması gerekir. [Satıcı tasarımları arasında geçiş](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch) olarak açıklandığı gibi **firmalar** tablosunda satıcılar oluşturmak için bir şablon iş akışı işlemini etkinleştirin.
 
 ### <a name="set-products-to-be-created-as-active"></a>Ürünleri etkin olarak oluşturulacak şekilde ayarlama
 
-Stoklanmayan malzemeler, Finance'te içinde **serbest bırakılan ürünler** olarak konfigüre edilmiş olmalıdır . Çift Yazma Düzenleme çözümü, [Dataverse ürün kataloğuna yayınlanmış kullanıma hazır ürün entegrasyonu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) sağlar. Varsayılan olarak, Finance ürünleri Dataverse'e taslak olarak eşitlenir. Malzeme kullanımı veya bekleyen satıcı faturalarında doğrudan kullanılabilmesi için ürünü etkin bir durumla eşitlemek için, **sistem** > **Yönetim** > **Sistem Yönetimi** > **sistem ayarları**'na gidin ve **Satışlar** sekmesinde, **etkin durumdayken ürün oluştur**'u **Evet**'e ayarlayın.
+Stoklanmayan malzemeler, Finance'te içinde **serbest bırakılan ürünler** olarak konfigüre edilmiş olmalıdır . Çift Yazma Düzenleme çözümü, [Dataverse ürün kataloğuna yayınlanmış kullanıma hazır ürün entegrasyonu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) sağlar. Varsayılan olarak, Finance ürünleri Dataverse'e taslak olarak eşitlenir. Malzeme kullanımı veya bekleyen satıcı faturalarında doğrudan kullanılabilmesi için ürünü etkin bir durumla eşitlemek için, **sistem** > **Yönetim** > **Sistem Yönetimi** > **sistem ayarları**'na gidin ve **Satışlar** sekmesinde, **etkin durumdayken ürün oluştur**'u **Evet**'e ayarlayın.
 
 ## <a name="configure-prerequisites-in-finance"></a>Finance'te Ön koşulları yapılandırma
 
@@ -88,7 +88,7 @@ Project Operations, yayınlanmış ürün kataloğu ve serbest ürün kataloğun
 2. **Ürün türü** alanında, **Madde**'yi seçin ve **ürün alt türü** alanında, **ürün**'ü seçin.
 3. Ürün numarasını (WRITEIN) ve ürün adını (serbest ürün) girin.
 4. Madde modeli grubunu seçin. Seçtiğiniz madde modeli grubunda **Stok ilkesi stoğu ürün** alanının **yanlış** değerine ayarlanmış olduğundan emin olun.
-5. **Madde grubu**, **depolama boyutu grubu** ve **izleme boyutu grubu** alanlarındaki değerleri seçin. Yalnızca **site** için **depolama boyutunu** kullanın ve herhangi bir izleme boyutu ayarlamayın.
+5. **Madde grubu**, **depolama boyutu grubu** ve **izleme boyutu grubu** alanlarındaki değerleri seçin. Yalnızca **Site** için **Depolama boyutu**'nu kullanın ve **İzleme boyutları** alanında **Hiçbiri**'ni seçin.
 6. **Stok birimi**, **Satınalma birimi** ve **Satış birimi** alanındaki değerleri seçin ve ardından değişikliklerinizi kaydedin.
 7. **Plan** sekmesinde, varsayılan sipariş ayarlarını ayarlayın ve **Stok** sekmesinde varsayılan tesis ve ambarı ayarlayın.
 8. **Proje yönetimi ve hesaplama** > **ayar** > **Proje yönetimi ve hesap oluşturma parametreleri**'ne gidin ve **Dynamics 365 Dataverse'te Project Operations**'ı açın. 

@@ -22,12 +22,14 @@
               href: environment/create-lcs-project.md
             - name: Bir LCS projesine Azure aboneliği ekleme
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: Demo verileri uygulama
+        - name: Tanıtım verileri uygulama
           items:
             - name: Common Data Service'te yapılandırma verileri uygulama
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Ortamları dağıtma
           items:
+            - name: Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Yeni bir ortam sağlama
               href: environment/resource-provision-new-environment.md
             - name: Güvenlik modeli
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Yenilikler
       items:
+        - name: Temmuz 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Haziran 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Mayıs 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Zamanlama API'lerini kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'larını kullanma (Genel Önizleme)
               href: project-management/schedule-api-preview.md
     - name: Kaynak yönetimi
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Faturalama işlemine genel bakış
           href: invoicing/post-project-invoices.md
-        - name: Proje faturası tekliflerini yönetme
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma faturalar
           items:
             - name: Proje tabanlı fatura biriktirme listesini yönetme
@@ -452,12 +456,26 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: Proforma proje tabanlı faturaları onaylama
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Düzeltici proje tabanlı faturalar oluşturma
+            - name: Proje tabanlı düzeltme faturaları oluşturma
               href: proforma-invoicing/corrective-invoices.md
             - name: Proje tabanlı fatura otomasyonunu yapılandırma
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Proje faturası tekliflerini yönetme
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Müşteri faturalama
+          items:
+            - name: Proje faturası tekliflerini yönetme
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Şirketler arası faturalama
+          items:
+            - name: Şirketler arası faturalamaya genel bakış
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Şirketler arası faturalamayı yapılandırma
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Şirketler arası işlemler oluşturma
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Şirketler arası müşteri ve satıcı faturaları oluşturma
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Proje muhasebesi
       items:
         - name: Mali boyut varsayılanları
@@ -468,23 +486,13 @@
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Faturalanabilir projeler için muhasebeyi yapılandırma
           href: project-accounting/configure-accounting-billable-projects.md
-        - name: Project Operations'da entegrasyon günlüğü
+        - name: Project Operations'da tümleştirme günlüğü
           href: project-accounting/project-operations-integration-journal.md
-        - name: Şirketler arası faturalama
-          items:
-            - name: Şirketler arası faturalamaya genel bakış
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Şirketler arası faturalamayı yapılandırma
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Şirketlerarası hareketler oluşturma
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Şirketlerarası müşteri ve satıcı faturaları oluşturma
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Gelir tanıma
+    - name: Gelir kabulü
       items:
-        - name: Gelir tanımaya genel bakış
+        - name: Gelir kabulüne genel bakış
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Gelir tanımayı ayarlama
+        - name: Gelir kabulünü ayarlama
           items:
             - name: Dönem türlerini ayarlama
               href: project-accounting/period-types.md
@@ -512,9 +520,13 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: Mayıs 2021 - lite dağıtımındaki yenilikler
+        - name: Temmuz 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Haziran 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Mayıs 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Nisan 2021 - lite dağıtımındaki yenilikler
+        - name: Nisan 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Mart 2021 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -762,7 +774,7 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Zamanlama API'lerini kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'larını kullanma (Genel Önizleme)
               href: project-management/schedule-api-preview.md
     - name: Kaynak yönetimi
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Yenilikler
       items:
+        - name: Temmuz 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Mayıs 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nisan 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mart 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 33, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-33.md
+        - name: 'Güncelleştirme Sürümü 32.5, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Güncelleştirme Sürümü 32, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-32.md
         - name: 'Güncelleştirme Sürümü 31, V3''teki yenilikler veya değişiklikler'
