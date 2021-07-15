@@ -1,0 +1,42 @@
+---
+title: Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
+description: Bu konu, taslak fatura teklifinde muhasebe ile ilgili bilgilerin nasıl ayarlanacağını açıklar.
+author: sigitac
+ms.date: 06/07/2021
+ms.topic: article
+ms.reviewer: kfend
+ms.author: sigitac
+ms.openlocfilehash: 387dc9a81db9c22f170b664152cbafeddf72d149
+ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6251288"
+---
+# <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a><span data-ttu-id="7919a-103">Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme</span><span class="sxs-lookup"><span data-stu-id="7919a-103">Correct the accounting on draft project invoice proposals</span></span>
+
+<span data-ttu-id="7919a-104">_**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_</span><span class="sxs-lookup"><span data-stu-id="7919a-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+
+<span data-ttu-id="7919a-105">Proje faturalarının *operasyon ayrıntıları* bir proforma faturada proje yöneticisi tarafından tutulur.</span><span class="sxs-lookup"><span data-stu-id="7919a-105">*Operational details* for project invoices are maintained by the project manager on a pro forma invoice.</span></span> <span data-ttu-id="7919a-106">Bu ayrıntılar arasında faturalanması gereken saatler, giderler, malzemeler ve kilometre taşlarıyla ilgili kararlar, oranlar, avans tutarları ve elde tutulan tutar bulunur.</span><span class="sxs-lookup"><span data-stu-id="7919a-106">These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts.</span></span> <span data-ttu-id="7919a-107">Orijinal proforma faturayı onayladıktan sonra, [düzeltme proforma faturası](../proforma-invoicing/corrective-invoices.md) oluşturup onaylayarak operasyon ayrıntılarını düzeltebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7919a-107">After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).</span></span>
+
+<span data-ttu-id="7919a-108">Proje faturalarının *muhasebe ayrıntıları* müşteriye yönelik bir fatura belgesinde tutulur.</span><span class="sxs-lookup"><span data-stu-id="7919a-108">*Accounting details* for project invoices are maintained in a customer-facing invoice document.</span></span> <span data-ttu-id="7919a-109">Bu ayrıntılar satış vergisi hesaplamasını ve faturaya uygulanan mali boyutları içerir.</span><span class="sxs-lookup"><span data-stu-id="7919a-109">These details include the sales tax calculation and the financial dimensions that are applied to the invoice.</span></span> <span data-ttu-id="7919a-110">Bu konu, bu hesap ayrıntılarının bir taslak proje faturası teklifinde nasıl düzeltilebileceğine dair ayrıntılar sağlar.</span><span class="sxs-lookup"><span data-stu-id="7919a-110">This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.</span></span>
+
+## <a name="adjust-sales-tax"></a><span data-ttu-id="7919a-111">Satış vergisini ayarlama</span><span class="sxs-lookup"><span data-stu-id="7919a-111">Adjust sales tax</span></span>
+
+<span data-ttu-id="7919a-112">Varsayılan fatura satış vergisi grupları ve madde satış vergisi grupları doğrudan fatura teklif belgesi üzerinde düzeltilebilir.</span><span class="sxs-lookup"><span data-stu-id="7919a-112">Default billing sales tax groups and item sales tax groups can be adjusted directly on the invoice proposal document.</span></span> <span data-ttu-id="7919a-113">Bu gruplarda düzeltme yapmak için **Düzenle**'yi seçin ve her proje fatura teklifi satırında, **Satış vergisi grubu** veya **Madde satış vergisi grubu** alanına yeni bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7919a-113">To adjust these groups, select **Edit**, and then, on each project invoice proposal line, enter a new value in the **Sales tax group** or **Item sales tax group** field.</span></span>
+
+## <a name="adjust-financial-dimensions"></a><span data-ttu-id="7919a-114">Mali boyutları düzeltme</span><span class="sxs-lookup"><span data-stu-id="7919a-114">Adjust financial dimensions</span></span>
+
+<span data-ttu-id="7919a-115">Mali boyutlar, doğrudan proje fatura teklifi satırında düzenlenemez.</span><span class="sxs-lookup"><span data-stu-id="7919a-115">Financial dimensions can't be edited directly on a project invoice proposal line.</span></span> <span data-ttu-id="7919a-116">Bunun yerine, bir proje fatura teklifinin mali boyutlarını ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="7919a-116">Instead, follow these steps to adjust financial dimensions on a project invoice proposal.</span></span>
+
+1. <span data-ttu-id="7919a-117">Proje fatura teklifinde proje fatura teklifi satırlarını kaldırmak için **Tümünü sil**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7919a-117">On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="7919a-118">**Tümünü sil** düğmesi, yalnızca sistem yöneticisi **Özellik yönetimi** çalışma alanında **Kaynak tabanlı/stoklu olmayan senaryolar için Project Operations kullanırken fatura teklif satırlarını sil** özelliğini etkinleştirdikten sonra kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="7919a-118">The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.</span></span>
+
+2. <span data-ttu-id="7919a-119">Mali boyutları düzeltme:</span><span class="sxs-lookup"><span data-stu-id="7919a-119">Adjust the financial dimensions:</span></span>
+
+    - <span data-ttu-id="7919a-120">**Açık hesap işlemleri (faturalama kilometre taşları):** **Tüm projeler** \> **Yönet** \> **Açık hesap işlemleri**'ne gidin ve ayarlanması gereken kilometre taşını seçin.</span><span class="sxs-lookup"><span data-stu-id="7919a-120">**On-account transactions (billing milestones):** Go to **All projects** \> **Manage** \> **On-account transactions**, and select the milestone that requires adjustment.</span></span> <span data-ttu-id="7919a-121">Ardından, **Mali boyutlar** sekmesinde, değerleri gerektiği gibi güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="7919a-121">Then, on the **Financial dimensions** tab, update the values as required.</span></span>
+    - <span data-ttu-id="7919a-122">**Zaman, gider ve malzeme işlemleri:** **Deftere nakledilen proje işlemleri** sayfasında, mali boyutları güncelleştirmek için **Muhasebeyi ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="7919a-122">**Time, expense, and material transactions:** On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.</span></span>
+
+3. <span data-ttu-id="7919a-123">Mali boyut değerlerini ayarlamayı bitirdikten sonra, **Proje yönetimi ve muhasebesi** \> **Dönemsel** \> **Project Operations tümleştirmesi**'ne gidin ve periyodik işlemi çalıştırmak için **Hazırlama tablosundan içeri aktar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7919a-123">After you've finished adjusting the financial dimension values, go to **Project management and accounting** \> **Periodic** \> **Project Operations integration**, and select **Import from staging table** to run the periodic process.</span></span> <span data-ttu-id="7919a-124">Bu işlem, proje fatura teklifi satırlarını yeniden oluşturmak için güncelleştirilmiş mali boyut değerlerini kullanır.</span><span class="sxs-lookup"><span data-stu-id="7919a-124">That process uses the updated financial dimension values to re-create the project invoice proposal lines.</span></span> <span data-ttu-id="7919a-125">Sonra, güncelleştirilen değerler proje faturası deftere nakledildiğinde proje yardımcı muhasebesinde ve genel muhasebede kullanılır.</span><span class="sxs-lookup"><span data-stu-id="7919a-125">The updated values are then used in the project subledger and general ledger when the project invoice is posted.</span></span>
