@@ -832,6 +832,16 @@
           items:
             - name: Kaynak kullanımına genel bakış
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations'da alt sözleşme yönetimi
+      items:
+        - name: Alt sözleşmeleri yönetmeye genel bakış
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Alt sözleşme temel kavramları
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Satıcıları ve proje fiyat listelerini yönetme
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Ayrılabilir kaynak olarak alt yükleniciler
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Zaman
       items:
         - name: Zamana genel bakış
@@ -1050,6 +1060,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 34, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-34.md
         - name: 'Güncelleştirme Sürümü 33, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-33.md
         - name: 'Güncelleştirme Sürümü 32.5, V3''teki yenilikler veya değişiklikler'
