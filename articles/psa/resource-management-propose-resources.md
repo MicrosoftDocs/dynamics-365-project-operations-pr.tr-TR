@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995065"
 ---
 # <a name="propose-project-resources"></a>Proje kaynakları önerme
 
@@ -32,13 +32,13 @@ Kaynak yöneticileri, bir kaynak isteği kullanarak proje yöneticisine bir kayn
 1. İstek ızgarasından veya isteğin kendisinden **Kaynakları Bul**'u seçin.
 2. **Zamanlama Yardımcısı** sayfasında kaynağı seçin ve ardından **Kaynak Ayırma Oluştur** bölmesinde, **Ayırma Durumu** alanında **Ayır**'ı seçin.
 
-    ![Önerilen kaynak seçildi](media/Resource-Management-image62.png)
+    ![Önerilen kaynak seçildi.](media/Resource-Management-image62.png)
 
 Aşağıdaki durum güncelleştirmeleri gerçekleşir:
 
 - **Zamanlama Yardımcısı** sayfasında, durum göstergeleri ayırmanın önerildiğini (kesin ayrılma değil) göstermek için güncelleştirilir.
 
-    ![Zamanlama Yardımcısı sayfasında önerilen ayırma için durum göstergeleri](media/Resource-Management-image63.png)
+    ![Zamanlama Yardımcısı sayfasında önerilen ayırma için durum göstergeleri.](media/Resource-Management-image63.png)
 
 - Kaynak isteğinde, durum **İnceleme Gerekiyor** olarak değişir.
 
@@ -46,7 +46,7 @@ Aşağıdaki durum güncelleştirmeleri gerçekleşir:
 
 - Projenin **Takım** sekmesinde, genel takım üyesinin **İstek Durumu** değeri **İnceleme Gerekiyor** olarak değişir.
 
-    ![Genel takım üyesinin istek durumu, Takım sekmesinde İnceleme Gerekiyor olarak değişir](media/Resource-Management-image48.png)
+    ![Genel takım üyesinin istek durumu, Takım sekmesinde İnceleme Gerekiyor olarak değişir.](media/Resource-Management-image48.png)
 
 Proje yöneticisi teklifi kabul edebilir veya reddedebilir.
 
@@ -70,7 +70,7 @@ Kullanımı hesaplamak için aşağıdaki formüller kullanılır:
 
 **Kaynak Kullanımı** görünümünü **Kaynaklar** bölmesinde bulabilirsiniz.
 
-![Kaynak Kullanımı görünümü](media/Resource-Management-image65.png)
+![Kaynak kullanımını görüntüleme.](media/Resource-Management-image65.png)
 
 Izgaradaki her hücre; gün, hafta veya ay gibi dönemlerde kaynağın faturalandırılabilir kullanım yüzdesini gösterir. Hücreleri renklendirmek için aşağıdaki formüller kullanılır:
 
@@ -84,7 +84,7 @@ Izgara, rolde veya her kaynak için bir hedef kullanımı belirlemenizi gerektir
 
 Ek olarak, her ayrılabilir kaynağa varsayılan bir rol atanması gerekir. **Kaynaklar** \> **Kaynaklar**'a gidin. **Project Service** sekmesinde, bir kaynak rolünün tanımlandığından ve bunun için **Varsayılan** alanının **Evet** olarak ayarlandığından emin olun. **Varsayılan = Hayır** olduğunda ilave roller ekleyebilirsiniz. **Varsayılan = Evet** olduğu durumlarda rol, kaynağın kullanımının bu rolün hedefiyle karşılaştırmalı değerlendirmesi için kullanılır.
 
-![Varsayılan rol ayarı](media/Resource-Management-image67.png)
+![Varsayılan rol ayarı.](media/Resource-Management-image67.png)
 
 **Project Service** sekmesinde, kaynak için ayrı bir hedef kullanımı da ayarlayabilirsiniz. Sonrasında kullanım hesaplaması kaynağın hedefini değerlendirmek için kaynağın varsayılan rolünün hedefi yerine bu hedef kullanımını kullanır.
 
@@ -96,21 +96,21 @@ Kaynak yöneticilerinin kaynakların kullanılabilirliğini görebilmesi ve ayı
 
 Kaynak çalışma saatleri, bir kaynağın kullanılabilirliğini hesaplamak için temel olarak kullanılabilir. Kaynak ayırmaları, kaynakların kapasitesini kullanır.
 
-![Zamanlama Panosu](media/Resource-Management-image68.png)
+![Zamanlama panosu.](media/Resource-Management-image68.png)
 
 Zamanlama Panosu, ayırmaları, kullanılabilirliği, fazladan ayırmaları ve ayrıca ayırmaların durumunu göstermek için renkler ve gölgelendirme kullanır. Zamanlama Panosu ayarlarındaki bir ayar, bir açıklama göstermenizi sağlar.
 
 Zamanlama Panosunda tek bir ayrılabilir kaynağın yanında sağa işaret eden bir ok belirirse kaynağın ayrıldığı işin ayrıntılarını göstermek için kaynak genişletilebilir.
 
-![Ayrılabilir kaynak, Zamanlama Panosunda genişletildi](media/Resource-Management-image69.png)
+![Ayrılabilir kaynak, Zamanlama Panosunda genişletildi.](media/Resource-Management-image69.png)
 
 Dynamics 365 Field Service yüklüyse; Dynamics 365 Project Service Automation, Universal Resource Scheduling motorunu kullandığından projeler, iş emirleri ve zamanlamayı genişlettiğiniz diğer tüm varlıkların kaynak ayırmalarının ayrıntılarını görüntüleyebilirsiniz.
 
-![Projeler ve iş emirleri için kaynak ayırmalarının ayrıntıları](media/Resource-Management-image70.png)
+![Projeler ve iş emirleri için kaynak ayırmalarının ayrıntıları.](media/Resource-Management-image70.png)
 
 Tek tek kaynaklarla ilgili daha fazla ayrıntı görüntülemek için kaynağa sağ tıklayarak kaynak kartını açın.
 
-![Kaynak kartı](media/Resource-Management-image71.png)
+![Kaynak kartı.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

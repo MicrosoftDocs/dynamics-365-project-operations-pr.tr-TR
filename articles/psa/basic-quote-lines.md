@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014950"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995470"
 ---
 # <a name="quotes-and-quote-lines"></a>Teklifler ve teklif satırları
 
@@ -84,7 +84,7 @@ Profesyonel servis kuruluşları genellikle müşterilerine maliyet sınıfland�
 
 Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla ilişkilendirilebilir. Bir teklif kazanıldıktan sonra, işlem sınıflandırması ve teklif satırı arasındaki eşleme sözleşme satırına aktarılır.
  
-> ![İşlem türlerinin teklif ve sözleşme satırlarına eşleme ekran görüntüsü](media/basic-guide-5.png)
+> ![İşlem türlerinin teklif ve sözleşme satırlarına eşleme ekran görüntüsü.](media/basic-guide-5.png)
   
 Örneğin, bir teklif aşağıdaki iki teklif satırını içerebilir: 
 - Zaman ve ücret işlemi sınıflandırmalarının geçerli olduğu Zaman ve malzeme faturalama yöntemini kullanan danışmanlık işi. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm zaman ve ücret işlemleri, müşteriye kullanılan zaman ve malzemeye göre faturalanır. 

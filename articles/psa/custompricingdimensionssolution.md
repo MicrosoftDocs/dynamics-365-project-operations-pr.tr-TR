@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012340"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995290"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Fiyatlandırma boyutları için özel çözümler oluşturma
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012340"
 1. **Ayarlar** > **Çözümler**'i seçin ve ardından **Yeni** seçeneğini belirleyin. 
 2. Çözümü, **\<your organization name> fiyatlandırma boyutları** şeklinde adlandırın, kalan gerekli bilgileri girin ve ardından **Kaydet**'i seçin.
 
-> ![Fiyatlandırma boyutları için özel bir çözüm oluşturma](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Fiyatlandırma boyutları için özel bir çözüm oluşturma.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Gerekli tüm varlıkları ve ilgili bileşenleri Fiyatlandırma boyutu çözümüne ekleme
 Fiyatlandırma çözümünüz için aşağıdaki Project Service varlıklarını eklemeniz gerekir. Bu yordamdaki adımları tamamlayarak varlıkların yeni fiyatlandırma boyutlarından haberdar olmasını sağlamak için fiyatlandırma çözümünde bazı önemli şema değişiklikleri yapın.
@@ -54,16 +54,16 @@ Fiyatlandırma çözümünüz için aşağıdaki Project Service varlıklarını
 - Rol Fiyatı 
 - Zaman Girişi 
 
-> ![Varolan varlıkları fiyatlandırma boyutları çözümüne ekleme](media/Existing-entities-to-PD-solution.png)
+> ![Varolan varlıkları fiyatlandırma boyutları çözümüne ekleme.](media/Existing-entities-to-PD-solution.png)
 
-> ![Çözüm bileşenleri seçme](media/Dimension-Components.png)
+> ![Çözüm bileşenleri seçme.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Seçili varlıkların her biri için tüm formları ve görünümleri eklediğinizden emin olun.
 
 4. Seçilen varlıklar için herhangi bir bağımlı varlık eklemeniz istendiğinde **Hayır**'ı seçin.
 
-> ![İlgili tüm bileşenleri eklemeyin](media/Do-not-include-required.png)
+> ![İlgili tüm bileşenleri eklemeyin.](media/Do-not-include-required.png)
 
 
 
