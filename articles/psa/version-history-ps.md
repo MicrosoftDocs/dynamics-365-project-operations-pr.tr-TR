@@ -2,7 +2,7 @@
 title: Project Service 3. x için güncelleştirme sürümü zamanlaması
 description: Bu konuda, Dynamics 365 Project Service Automation'ın mevcut ve sonraki sürümleri hakkında bilgi sağlanmaktadır.
 ms.custom: dyn365-projectservice
-ms.date: 06/07/2021
+ms.date: 08/09/2021
 ms.reviewer: kfend
 ms.prod: ''
 ms.suite: ''
@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 332e1f97816145da00e1fcff9c293414578d6b29
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: ed43676954c9535cc84986bc4099cca33ada09ba18c7950ccacb0dec575d0636
+ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334896"
+ms.lasthandoff: 08/09/2021
+ms.locfileid: "7024852"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3. x için güncelleştirme sürümü zamanlaması
 
@@ -37,7 +37,7 @@ ms.locfileid: "6334896"
 
 | Çözüm  | En son sürüm |
 |-------|----|
-| Project Service Automation    | 3.10.54.98 |
+| Project Service Automation    | 3.10.55.38 |
 | Project Service Automation masaüstü eklentisi                | 3.15          |
 
 Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dynamics 365 sürüm planları](/dynamics365/release-plans/). 
@@ -45,28 +45,28 @@ Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dy
 | İstasyon  | Bölge | Güncel sürüm | Sonraki sürüm |  Zamanlanan tarih
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>İstasyon 1</strong> | |  |  | |
-| | <i>İlk Sürüm</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | 28 Temmuz 2021
+| | <i>İlk Sürüm</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 27 Ağustos 2021
 |<strong>İstasyon 2</strong> | |  |  | |
-| | <i>Güney Amerika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Kanada</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Hindistan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Fransa</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Birleşik Arap Emirlikleri</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Güney Afrika</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>Almanya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
-| | <i>İsviçre</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 09 Temmuz 2021
+| | <i>Güney Amerika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Kanada</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Hindistan</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Fransa</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Birleşik Arap Emirlikleri</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Güney Afrika</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>Almanya</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
+| | <i>İsviçre</i> | [3.10.55.38](whats-new-ur-34.md) | TBD | 03 Eylül 2021
 |<strong>İstasyon 3</strong> | |  |  | |
-| | <i>Japonya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 Temmuz 2021
-| | <i>Asya Pasifik</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 Temmuz 2021
-| | <i>Büyük Britanya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 Temmuz 2021
-| | <i>Okyanusya</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | 16 Temmuz 2021
+| | <i>Japonya</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ağustos 2021
+| | <i>Asya Pasifik</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ağustos 2021
+| | <i>Büyük Britanya</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ağustos 2021
+| | <i>Okyanusya</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 13 Ağustos 2021
 |<strong>İstasyon 4</strong> | |  |  | |
-| | <i>Avrupa</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 23 Temmuz 2021
+| | <i>Avrupa</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 20 Ağustos 2021
 |<strong>İstasyon 5</strong> | |  |  | |
-| | <i>Kuzey Amerika</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 Temmuz 2021
+| | <i>Kuzey Amerika</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 Ağustos 2021
 |<strong>İstasyon 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 30 Temmuz 2021
-| | <i>Özel Ölçek Grupları</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | 06 Ağustos 2021
+| | <i>Government Community Cloud</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 27 Ağustos 2021
+| | <i>Özel Ölçek Grupları</i> | [3.10.54.98](whats-new-ur-33.md) | [3.10.55.38](whats-new-ur-34.md) | 03 Eylül 2021
 
 >[!Note]
 > - Kamu topluluğu bulutu (GCC) dışındaki tüm bölgelerde bulunan tarihler bir sonraki otomatik güncelleştirmenin zamanlamasını gösterir. GCC'deki tarihler sürüm kullanılabilirliğini gösterir; Bu aşamada, bu bölgeler için otomatik güncelleştirme yoktur.
