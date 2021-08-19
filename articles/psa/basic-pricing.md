@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000600"
 ---
 # <a name="project-pricing"></a>Proje fiyatlandırması 
 
@@ -46,7 +46,7 @@ Fiyat listesi varlığında fiyatları depolayan üç ilişkili tablo bulunur:
   - **İş Kategorisi Fiyatı** - Bu tablo, fiyatları hareket kategorisine göre depolar ve gider kategorisi fiyatlarını ayarlamak için kullanılır.
   - **Fiyat Listesi Öğeleri** - Bu tablo, katalog ürünlerinin fiyatlarını depolar.
 
-> ![Fiyat listesi kullanarak fiyatları yapılandırma](media/basic-guide-12.png)
+> ![Fiyat listesi kullanarak fiyatları yapılandırma.](media/basic-guide-12.png)
  
 Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile Rol fiyatı, İşlem Kategorisi Fiyatı ve Fiyat Listesi Öğeleri tablolarındaki ilgili satırların birleşimidir.
 
@@ -58,7 +58,7 @@ Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile
 
 **Zaman** birim grubu PSA yüklendiğinde oluşturulur. Varsayılan **Saat** birimi vardır. **Zaman** birimi grubu veya **Saat** biriminin özniteliklerini silemez, yeniden adlandıramaz veya düzenleyemezsiniz. Ancak, **Zaman** birimi grubuna başka birimler de ekleyebilirsiniz. **Zaman** birimi grubunu veya **Saat** birimini silmeye çalışırsanız, PSA iş mantığında hatalara neden olabilirsiniz.
 
-> ![Fiyatları role göre yapılandırma](media/basic-guide-13.png)
+> ![Fiyatları role göre yapılandırma.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>İşlem kategorileri ve gider kategorileri
 
@@ -68,7 +68,7 @@ Proje danışmanlarının gerçekleştirdiği seyahat ve diğer giderler genelli
 - **Kar payı yüzdesi**  - Fiili maliyetin üzerindeki yüzde müşteriye faturalanır. 
 - **Birim fiyatı** - Gider kategorisinin her birimi için bir faturalama fiyatı ayarlanır. Müşteriye fatura edilen tutar, danışman tarafından rapor edilen gider birimi sayısına göre hesaplanır. Ulaşım birim fiyatı fiyatlandırma yöntemini kullanır. Örneğin, ulaşım gideri kategorisi günde 30 ABD Doları (USD) veya her mil için 2 USD olarak yapılandırılabilir. Bir danışman bir projeye ait ulaşım raporunu hazırladığında, faturalanacak tutar danışmanın raporladığı mil sayısına göre hesaplanır.
 
-> ![Gider kategorileri için fiyatlandırmayı yapılandırma](media/basic-guide-14.png)
+> ![Gider kategorileri için fiyatlandırmayı yapılandırma.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proje satış fiyatları ve geçersiz kılmalar
 
@@ -114,7 +114,7 @@ Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir
 
 Özel bir proje fiyat listesi oluşturduğunuzda, yalnızca fiyat listesinin proje bileşenleri kopyalanır. Başka bir deyişle, yeni fiyat listesi, teklife iliştirilen varolan proje fiyat listesinin bir kopyası olarak oluşturulur ve bu yeni fiyat listesinde yalnızca ilgili rol fiyatları ve işlem kategorisi fiyatları vardır.
 
-> ![Bir proje sözleşmesi için özel fiyatlandırmayı görüntüleme ve yapılandırma](media/basic-guide-15.png)
+> ![Bir proje sözleşmesi için özel fiyatlandırmayı görüntüleme ve yapılandırma.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Maliyetleri izleme
 

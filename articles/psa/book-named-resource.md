@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013420"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000510"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Kaynak gereksinimlerinden adlandırılmış kaynakları ayırma
 
@@ -35,33 +35,33 @@ Kaynak gereksinimi olan genel kaynağı değiştirmek için adlandırılmış bi
 2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **Ayır**'a tıklayın. Veya, kaynak gereksinimini açıp **Ayır**'a tıklayın.
 
 
-![Genel takım üyesi ayırma](media/RM-how-to-14.png)
+![Genel takım üyesi ayırma.](media/RM-how-to-14.png)
 
 
 3. **Zamanlama Yardımcısı** sayfasında, proje takımınıza ayırmak için adlandırılmış bir kaynak seçin ve ardından **Ayır**'a tıklayın.
 
-![Zamanlama yardımcısını kullanarak genel takım üyesi ayırma](media/RM-how-to-15.png)
+![Zamanlama yardımcısını kullanarak genel takım üyesi ayırma.](media/RM-how-to-15.png)
 
 Ayırma işlemi tamamlandığında ve bir adlandırılmış kaynak tarafından gerçekleştirildiğinde, genel kaynak adlandırılan kaynakla değiştirilir.
 
-![Genel takım üyesinin yerine geçen adlandırılmış takım üyesi](media/RM-how-to-16.png)
+![Genel takım üyesinin yerine geçen adlandırılmış takım üyesi.](media/RM-how-to-16.png)
 
 Zamanlamadaki atamalar da adlandırılan kaynakla güncelleştirilir.
 
-![Proje görevlerine atanan adlandırılmış takım üyesi](media/RM-how-to-17.png)
+![Proje görevlerine atanan adlandırılmış takım üyesi.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Bir genel kaynağı birden çok adlandırılmış kaynakla karşılama
 Bir genel kaynak için bir gereksinimin birden çok adlandırılmış kaynakla karşılama, tek bir adlandırılmış kaynak atamaya benzerdir. Örneğin, süresi beş gün olan ve 120 saat çalışma gerektiren bir görev var. Bu görev, haftasa beş gün günde sekiz saat çalışan bir kaynakla tamamlanamaz. 
 
-![Beş gün boyunca 120 saatlik çalışma gerektiren bir görev](media/RM-how-to-21.png)
+![Beş gün boyunca 120 saatlik çalışma gerektiren bir görev.](media/RM-how-to-21.png)
 
 Gereksinim beş gün boyunca 120 saat robotik mühendisliği içindir, bu da günde 24 saat çalışma gerektirir.
 
-![Günlük gereksinim](media/RM-how-to-22.png)
+![Günlük gereksinim.](media/RM-how-to-22.png)
 
 Bu, genel bir kaynak isteğini yerine getirmek için birden çok adlandırılmış kaynağın gerekli olduğu durum için bir örnektir. Gereksinimi karşılamak için birden fazla kaynak ayırmanız gerekir.
 
-![Gereksinimi karşılamak için birden fazla kaynak ayırma](media/RM-how-to-23.png)
+![Gereksinimi karşılamak için birden fazla kaynak ayırma.](media/RM-how-to-23.png)
 
 Bu senaryodaki ana fark genel kaynağın göreve atanan takımda kalması ve ayrılan adlandırılmış kaynak takım üyelerinin pozisyonun parçası olarak atanmamasıdır. Proje yöneticisi, işi gerektiği gibi adlandırılmış kaynaklara atayabilir. **Mutabakat** görünümü, proje yöneticisinin ayırmaları birden çok görev ataması için birden çok kaynak arasında bölmesine yardımcı olabilir. Gereksinim oluşturan bir görev paketinizin olduğu ve proje yöneticisinin bunu atamak isteme amacının tahmin edilmesinin gerektiği gibi yukarıdaki basit örnekten daha karmaşık senaryolar olabileceğinden bu otomatik olarak gerçekleştirilmez. Sistem amacı anlayamadığından varsayımlar amaçlanandan farklı olabilir ve yanlış veya öngörülemeyen sonuçlara yol açabilir. Öngörülebilir sonuç, proje yöneticisi **Mutabakat** görünümünü kullanarak kaynakları bilerek oluşturana kadar genel kaynağın atanmış kalmasıdır.
 

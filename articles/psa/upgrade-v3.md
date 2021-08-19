@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000105"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA sürüm 2.x veya 1.x'ten sürüm 3.x'e yükseltme işleminin önemli noktaları
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation ve Dynamics 365 Field Service kaynak zam
 ## <a name="resource-assignments"></a>Kaynak atamaları
 Project Service Automation sürüm 2 ve sürüm 1'de, görev atamaları **Görev varlığı**'nda alt öğe görevleri olarak depolanır ve dolaylı olarak **Kaynak Atama** varlığıyla ilgilidir. Satır görevi İş Kırılım Yapısı'ndaki (İKY) atama açılır penceresinde görünür.
 
-![Project Service Automation sürüm 2 ve sürüm 1'deki İKY üzerinde satır görevleri](media/upgrade-line-task-01.png)
+![Project Service Automation sürüm 2 ve sürüm 1'deki İKY üzerinde satır görevleri.](media/upgrade-line-task-01.png)
 
 Project Service Automation sürüm 3'te, görevlere ayrılabilir kaynaklar atama temel şeması değişti. Satır görevi kullanımdan kaldırılmıştır ve **Görev varlığı**'ndaki görev ile **Kaynak Atama** varlığındaki takım üyesi arasında doğrudan bire bir ilişki vardır. Proje takım üyesine atanan görevler artık doğrudan Kaynak Atama varlığında depolanır.  
 
@@ -46,26 +46,26 @@ Sürüm 2 ve sürüm 1'de, görevler, temel görev varlığı kullanılarak tak�
 
 Sürüm 2 ve sürüm 1'de bir kaynağı varsayılan rolü dışındaki bir göreve atadığınızda, yükseltme işleminden sonra sürüm 2'deki rol atamasından bağımsız olarak, adlandırılmış kaynak tüm görev atamaları için varsayılan role atanır. Tahminler satır görevi atamasına değil kaynağın rolüne göre hesaplandığından bu atama, sürüm 2 veya sürüm 1'de hesaplanan tahminlerin sürüm 3'ten farklı olmasına neden olur. Örneğin, sürüm 2'de Begüm Sağlam'a iki görev atanmıştır. Satır görevindeki rol, görev 1 için Geliştirici ve görev 2 için Program Yöneticisidir. Begüm Sağlam Program Yöneticisi varsayılan rolüne sahiptir.
 
-![Bir kaynağa atanan birden çok rol](media/upgrade-multiple-roles-02.png)
+![Bir kaynağa atanan birden çok rol.](media/upgrade-multiple-roles-02.png)
 
 Geliştirici ve Program Yöneticisi rolleri farklı olduğundan maliyet ve satış tahminleri aşağıdaki gibi olur:
 
-![Kaynak rolleri için maliyet tahminleri](media/upggrade-cost-estimates-03.png)
+![Kaynak rolleri için maliyet tahminleri.](media/upggrade-cost-estimates-03.png)
 
-![Kaynak rolleri için satış tahminleri](media/upgrade-sales-estimates-04.png)
+![Kaynak rolleri için satış tahminleri.](media/upgrade-sales-estimates-04.png)
 
 Sürüm 3'e yükseltme işlemi gerçekleştirdiğinizde satır görevleri, ayrılabilir kaynak takım üyesinin görevindeki kaynak atamalarıyla değiştirilir. Atama, ayrılabilir kaynağının varsayılan rolünü kullanır. Aşağıdaki grafikte, Program Yöneticisi rolüne sahip Begüm Sağlam kaynaktır.
 
-![Kaynak atamaları](media/resource-assignment-v2-05.png)
+![Kaynak atamaları.](media/resource-assignment-v2-05.png)
 
 Tahminler kaynağın varsayılan rolünü temel aldığından satış ve maliyet tahminleri değişebilir. Aşağıdaki grafikte rol şimdi ayrılabilir kaynağın varsayılan rolünden alındığı için artık **Geliştirici** rolünü göremezsiniz.
 
-![Varsayılan roller için maliyet tahminleri](media/resource-assignment-cost-estimate-06.png)
-![Varsayılan roller için satış tahmini](media/resource-assignment-sales-estimate-07.png)
+![Varsayılan roller için maliyet tahminleri.](media/resource-assignment-cost-estimate-06.png)
+![Varsayılan roller için satış tahmini.](media/resource-assignment-sales-estimate-07.png)
 
 Yükseltme işlemi tamamlandıktan sonra bir takım üyesinin rolünü, atanan varsayılan dışında bir rol olacak şekilde düzenleyebilirsiniz. Ancak takım üyelerinin rolünü değiştirirseniz sürüm 3'te takım üyelerine birden çok rol atanamayacağı için atanmış görevlerinin tümü değiştirilir.
 
-![Kaynak rolünü güncelleştirme](media/resource-role-assignment-08.png)
+![Kaynak rolünü güncelleştirme.](media/resource-role-assignment-08.png)
 
 Bu, kaynağın kuruluş birimini varsayılandan başka bir kuruluş birimine değiştirdiğinizde adlandırılmış kaynaklara atanan satır görevleri için de geçerlidir. Sürüm 3 yükseltme işleminin tamamlanmasının ardından atama, satır görevindeki bir küme yerine kaynağın varsayılan kuruluş birimini kullanır.
 
@@ -83,24 +83,24 @@ Yükseltme işlemine başlamadan önce, genel kaynaklara atanan veya bunlar üze
 
 Örneğin, Proje Z projesinde, sözleşme kuruluş birimi Contoso ABD'dir. Proje planında, Uygulama aşamasındaki test görevleri, Teknik Danışman rolüne atanmıştır ve atanan kuruluş birimi Contoso Hindistan'dır.
 
-![Uygulama aşaması kuruluş ataması](media/org-unit-assignment-09.png)
+![Uygulama aşaması kuruluş ataması.](media/org-unit-assignment-09.png)
 
 Uygulama aşamasından sonra, tümleştirme testi Teknik danışman rolüne atanır ancak kuruluş Contoso ABD olarak ayarlanır.  
 
-![Tümleştirme testi görevi kuruluş ataması](media/org-unit-generate-team-10.png)
+![Tümleştirme testi görevi kuruluş ataması.](media/org-unit-generate-team-10.png)
 
 Proje için bir takım oluşturduğunuzda görevlerdeki farklı kuruluş birimleri nedeniyle iki genel takım üyesi oluşturulur. Teknik danışman 1, Contoso Hindistan görevlerine ve Teknik danışman 2 Contoso ABD görevlerine atanır.  
 
-![Oluşturulan genel takım üyeleri](media/org-unit-assignments-multiple-resources-11.png)
+![Oluşturulan genel takım üyeleri.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Project Service Automation sürüm 2 ve sürüm 1'de, takım üyesi satır görevinde saklanan kuruluş birimini içermez.
 
-![Project Service Automation'da sürüm 2 ve sürüm 1 satır görevleri](media/line-tasks-12.png)
+![Project Service Automation'da sürüm 2 ve sürüm 1 satır görevleri.](media/line-tasks-12.png)
 
 Kuruluş birimini tahminler görünümünde görebilirsiniz. 
 
-![Kuruluş birimi tahminleri](media/org-unit-estimates-view-13.png)
+![Kuruluş birimi tahminleri.](media/org-unit-estimates-view-13.png)
  
 Yükseltme işlemi tamamlandığında, satır görevinde genel takım üyesine karşılık gelen kuruluş birimi genel takım üyesine eklenir ve satır görevi kaldırılır. Bu nedenle, yükseltme işleminden önce genel kaynaklar içeren her projede takımı oluşturmanızı veya yeniden oluşturmanızı öneririz.
 

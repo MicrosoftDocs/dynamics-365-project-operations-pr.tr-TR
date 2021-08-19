@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e888d55b93c40e08e51bd4480853fec37f2b6333
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007840"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000330"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Kaynak yöneticisi değişiklikleri (Project Service Automation 3.x)
 

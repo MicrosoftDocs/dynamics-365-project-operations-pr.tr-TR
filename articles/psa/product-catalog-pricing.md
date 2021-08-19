@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000195"
 ---
 # <a name="product-catalog-pricing"></a>Ürün kataloğu fiyatlandırması 
 
@@ -44,7 +44,7 @@ Proje tabanlı satırlarda, sözleşme kazanılan anlaşmayı temsil eder. Anla�
 
 Fiyatlar fiyat listesi fiyatı, standart maliyet veya geçerli maliyet işlevi olarak yapılandırıldığında, PSA çeşitli yuvarlama seçeneklerini destekler. Birden çok fiyatlandırma yönteminden ve yuvarlama seçeneğinden yararlanmaya ek olarak, indirim listelerini fiyat listesi öğeleriyle ilişkilendirebilirsiniz. 
 
-> ![Katalogdan ürünleri farklı fiyat listelerine ekleme](media/basic-guide-16.png)
+> ![Katalogdan ürünleri farklı fiyat listelerine ekleme.](media/basic-guide-16.png)
 
 **Proje Teklifi** sayfasında **Özel fiyatlandırma oluştur** oluştur seçeneğini belirleyerek bir teklif için yeni bir özel fiyat listesi oluşturduğunuzda, PSA fiyat listesinin bir kopyasını oluşturur ve yeni fiyat listesinin başlığındaki **Varlık** alanı **Satış Varlığı** olarak ayarlanır. Yeni fiyat listesinin adı, teklifin adı ve bir zaman damgasıyla birlikte eklenir. Özel fiyatlandırma kullanan teklifler için ek gözden geçirme ve onaylar tetiklemek için yeni fiyat listesinin adını ve teklifin adını özel iş akışlarında da kullanabilirsiniz.
 
