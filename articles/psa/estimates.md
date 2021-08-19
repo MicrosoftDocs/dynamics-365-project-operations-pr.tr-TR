@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007615"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992410"
 ---
 # <a name="estimates"></a>Tahminler
 
@@ -83,24 +83,24 @@ Teklif satırı ayrıntısına bir özel alan eklediyseniz ve sistemin alanın d
 1. PluginRegistrationTool'u açın ve çevrimiçi kurulumunuza bağlanın.
 2. **Ara**'y seçin ve güncelleştirilecek eklentiyi arayın.
 
-    ![Arama Ağacı iletişim kutusu](media/basic-guide-19.png)
+    ![Arama Ağacı iletişim kutusu.](media/basic-guide-19.png)
 
 3. Eklentiyi seçin ve sonra ana sayfada **Seç**'i seçin.
 4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
 
-    ![Eklentide bir adım seçme](media/basic-guide-20.png)
+    ![Eklentide bir adım seçme.](media/basic-guide-20.png)
 
 5. **Varolan Adımı Güncelleştir** iletişim kutusunda, **Filtre Öznitelikleri** alanında üç nokta düğmesini (**...**) seçin:
  
-    ![Varolan Adımı Güncelleştir iletişim kutusu](media/basic-guide-21.png)
+    ![Varolan Adımı Güncelleştir iletişim kutusu.](media/basic-guide-21.png)
 
 6. **Öznitelikleri Seç** iletişim kutusunda, özel öznitelikler için onay kutularını seçin.
 
-    ![Öznitelik Seç iletişim kutusu](media/basic-guide-22.png)
+    ![Öznitelik Seç iletişim kutusu.](media/basic-guide-22.png)
 
 7. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve ardından **Adımı Güncelleştir**'i seçin.
  
-    ![Adımı Güncelleştir düğmesi](media/basic-guide-23.png)
+    ![Adımı Güncelleştir düğmesi.](media/basic-guide-23.png)
 
 8. İkinci eklenti için 1 - 7 arasındaki adımları yineleyin:
 9. PluginRegistrationTool'u kapatın.

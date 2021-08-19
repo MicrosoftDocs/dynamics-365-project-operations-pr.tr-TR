@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993310"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Project Operations için tanıtım kurulumu ve yapılandırma verilerini uygulama - lite 
 
@@ -30,24 +30,24 @@ Yapılandırmaya başlamadan önce Dynamics 365 Project Operations için sağlan
 2. *ProjOpsSampleSetupData - CE only CMT* klasörüne gidin ve *DataMigrationUtility* yürütülebilir dosyasını çalıştırın.
 3. Common Data Service Yapılandırma Geçişi (CMT) Sihirbazı'nın 1. sayfasında **Verileri İçeri Aktar**'ı ve ardından **Devam**'ı seçin.
 
-    ![Yapılandırma Geçişi](./media/1ConfigurationMigration.png)
+    ![Yapılandırma Geçişi.](./media/1ConfigurationMigration.png)
 
 4. CMT Sihirbazı'nın 2. sayfasında **Dağıtım Türü** olarak **Microsoft 365** seçeneğini belirleyin.
 5. **Kullanılabilir kuruluşların listesini görüntüle** ve **Gelişmiş Ayarları Göster** onay kutularını seçin.
 6. Kiracınızın bölgesini seçin, kimlik bilgilerinizi girin ve ardından **Oturum Aç**'ı seçin.
 
-   ![Oturum Açma Yapılandırması](./media/2ConfigurationSignin.png)
+   ![Oturum Açma Yapılandırması.](./media/2ConfigurationSignin.png)
 
 7. 3. sayfada, Kiracı üzerindeki Kuruluşlar listesinden demo verileri içeri aktarmak istediğiniz kuruluşu seçin ve ardından **Oturum Aç** seçeneğini belirleyin.
 8. Sayfa 4'te, *ProjOpsSampleSetupData - CE only CMT* açılmamış klasöründen *SampleSetupAndConfigData* zip dosyasını seçin.
 
-   ![Sıkıştırılmış dosya](./media/3ZipFile.png)
+   ![Sıkıştırılmış dosya.](./media/3ZipFile.png)
 
-   ![Dosya seç](./media/4SelectAFile.png)
+   ![Dosya seç.](./media/4SelectAFile.png)
 
 9. Zip dosyası seçildikten sonra, **Verileri İçeri Aktar**'ı seçin.
 
-   ![Verileri al](./media/5ImportData.png)
+   ![Verileri İçeri Aktar.](./media/5ImportData.png)
 
 10. Verileri içeri aktarma işlemi, ağ hızınıza bağlı olarak iki ila on dakika arası sürer. İşlem tamamlandıktan sonra CMT Sihirbazı'ndan çıkın. 
 11. Kuruluşunuzun aşağıdaki 18 varlıktaki verilerini denetleyin:
@@ -71,7 +71,7 @@ Yapılandırmaya başlamadan önce Dynamics 365 Project Operations için sağlan
     -   Ayrılabilir kaynak kategorisi İlişkisi
     -   Ayrılabilir Kaynak Özelliği
 
-    ![İçeri Aktarmayı Tamamlama](./media/6CompleteImport.png)
+    ![İçeri Aktarmayı Tamamlama.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

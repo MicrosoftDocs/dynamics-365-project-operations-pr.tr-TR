@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008695"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990520"
 ---
 # <a name="skills-and-proficiency-models"></a>Beceriler ve uzmanlık modelleri
 
@@ -33,7 +33,7 @@ Beceriler, Dynamics 365 Project Service Automation ile varsa Dynamics 365 Field 
 
 Project Service Automation'daki beceri deposunu korumak için **Kaynaklar** \> **Kaynak Becerileri**'ne gidin. 
 
-> ![Kaynak Becerileri](media/Resource-Management-image84.png)
+> ![Kaynak Becerileri.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Kaynakları derecelendirmek için uzmanlık modellerini kullanma
 
@@ -43,7 +43,7 @@ Kaynaklar için beceriler, uzmanlık modellerine göre derecelendirilir. Her der
 2. Yeni derecelendirme modelinde minimum derecelendirme değerini, maksimum derecelendirme değerini ve derecelendirilen varlığı belirtin.
 3. **Değerlendirme Değerleri** alt ızgarasında, minimumdan maksimuma kadar farklı derecelendirme değerleri tanımlayabilirsiniz.
 
-> ![Minimum ve maksimum derecelendirme tanımlandı](media/Resource-Management-image85.png)
+> ![Minimum ve maksimum derecelendirme tanımlandı.](media/Resource-Management-image85.png)
 
 Bu derecelendirme değerleri; **Kaynak Gereksinimleri**, **Zamanlama Panosu** ve **Zamanlama Yardımcısı** filtrelerinde gösterilir.
 

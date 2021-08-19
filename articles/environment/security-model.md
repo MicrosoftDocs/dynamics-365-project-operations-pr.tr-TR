@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002288"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991510"
 ---
 # <a name="security-model"></a>Güvenlik Modeli
 
@@ -58,7 +58,7 @@ Project Operations, örtük eylem yoluyla bir grup oluşturmaz ve bunu yalnızca
 
 **Grup yönetimi** iletişim kutusundaki grup üyesi araması, ortamın güvenlik grubunun bir parçası olarak ayarlananlarla sınırlıdır. Daha fazla bilgi için bkz. [Ortamlara kullanıcı erişimini denetleme: güvenlik grupları ve lisanslar](/power-platform/admin/control-user-access).
 
-![Grup modu](./media/groupsmode.png)
+![Grup modu.](./media/groupsmode.png)
 
 1. Proje, oluşturan Kullanıcı tarafından oluşturulur ve sahiplenilir.
 2. Proje sahibi, takımla güncelleştirilir.

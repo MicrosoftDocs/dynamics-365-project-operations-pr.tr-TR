@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012610"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991060"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Faturalanabilir projeler için muhasebeyi yapılandırma
 
@@ -101,23 +101,23 @@ Yeni bir proje maliyet ve gelir profili oluşturmak için aşağıdaki adımlar�
 
 Zaman ve malzemeler – WIP yok
 
-![Maliyet ve gelir profili: Zaman ve malzemeler - WIP yok](media/time-material-no-wip.png)
+![Maliyet ve gelir profili: Zaman ve malzemeler - WIP yok.](media/time-material-no-wip.png)
 
 Zaman ve malzemeler – WIP (gelir)
 
-![Maliyet ve gelir profili: Zaman ve malzemeler - WIP](media/time-material-with-wip.png)
+![Maliyet ve gelir profili: Zaman ve malzemeler - WIP.](media/time-material-with-wip.png)
 
 Sabit Fiyat – WIP Yok
 
-![Maliyet ve gelir profili: Sabit fiyat - WIP yok](media/fixed-price-no-wip.png)
+![Maliyet ve gelir profili: Sabit fiyat - WIP yok.](media/fixed-price-no-wip.png)
 
 Sabit Fiyat – tamamlanan sözleşme
 
-![Maliyet ve gelir profili: Sabit fiyat - tamamlanan sözleşme](media/fixed-price-completed-contract.png)
+![Maliyet ve gelir profili: Sabit fiyat - tamamlanan sözleşme.](media/fixed-price-completed-contract.png)
 
 Sabit Fiyat – tamamlanan yüzde
 
-![Maliyet ve gelir profili: Sabit fiyat - tamamlanan yüzde](media/fixed-price-completed-percentage.png)
+![Maliyet ve gelir profili: Sabit fiyat - tamamlanan yüzde.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Örnek Proje maliyet ve gelir profilleri için muhasebe olayı örnekleri.

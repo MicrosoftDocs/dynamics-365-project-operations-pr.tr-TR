@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991555"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Önizleme aboneliği (lite) için kaydolma 
 
@@ -52,16 +52,16 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 
 1. [Dataverse dağıtım modeli](lite-deployment.md) konusundaki yönergeleri izleyerek yeni bir Project Operations Dataverse dağıtım ortamı hazırlayın. Ortam türünü seçtiğinizde, **Deneme (Abonelik tabanlı)** kullandığınızdan emin olun.
 
-  ![Yeni ortam](./media/19CreateEnvironment.png)
+  ![Yeni ortam.](./media/19CreateEnvironment.png)
 
 2. **Dynamics 365 uygulamalarını etkinleştir** ayarını seçin ve **Bu uygulamaları otomatik olarak dağıt**'ı boş bırakın.  
 3. Ortam oluşturmak için **Kaydet**'i seçin.
 
-  ![Veritabanı ekle](./media/20CreateEnvironment1.png)
+  ![Veritabanı ekle.](./media/20CreateEnvironment1.png)
 
 4. Ortam oluşturulduktan sonra **Microsoft Dynamics 365 Project Operations** çözümünü yükleyin. 
 
-![Çözüm Yükleme](./media/21InstallSolution.png)
+![Çözüm Yükleme.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS yapılandırması yükleme ve demo verileri ayarlama
 

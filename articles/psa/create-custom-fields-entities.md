@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992455"
 ---
 # <a name="create-custom-fields-and-entities"></a>Özel alanlar ve varlıklar oluşturma 
 
@@ -43,7 +43,7 @@ Bir fiyatlandırma boyutu bir seçenek kümesi veya varlık olabilir. Her ikisin
 2. Çözüm Gezgininde, sol gezinti bölmesinde **Varlıkları**'ı seçin.
 3. **Standart Başlık** adlı yeni bir varlık oluşturmak için **Yeni**'ye tıklayın. Kalan gerekli bilgileri girin ve ardından **Kaydet**'e tıklayın.
 
-> ![Standart başlık varlığı tanımı](media/Standard-Title-entity-definition.png)
+> ![Standart başlık varlığı tanımı.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Seçenek kümesi tabanlı boyutlar 
@@ -54,9 +54,9 @@ Bir fiyatlandırma boyutu bir seçenek kümesi veya varlık olabilir. Her ikisin
 2. Çözüm Gezgininde, sol gezinti bölmesinde **Seçenek Kümeleri**'ni seçin. 
 3. Yeni seçenek kümesi oluşturmak için **Yeni**'ye tıklatın, kalan gerekli bilgileri girin ve ardından **Kaydet**'e tıklatın.
 
-> ![Kaynak Çalışma Konumu olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kaynak Çalışma Konumu olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Kaynak Çalışma Saatleri olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Kaynak Çalışma Saatleri olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Varlık tabanlı boyutlar için veri oluşturma
@@ -68,7 +68,7 @@ Varlık tabanlı boyutlarla ilgili verileri el ile veya Microsoft Excel içeri a
 3. Formu kapatın. 
 4. "Kıdemli Sistem Mühendisi" için başka standart başlık oluşturmak üzere 1-3 arasındaki adımları tekrarlayın.
 
-> ![Standart Başlık varlığı için örnek veriler ](media/ST-data.png)
+> ![Standart Başlık varlığı için örnek veriler.](media/ST-data.png)
 
 
 
