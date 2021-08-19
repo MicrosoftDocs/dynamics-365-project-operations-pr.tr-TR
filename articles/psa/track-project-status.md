@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2385f7e52f3b5051b76daa9169f98bd73487e22d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014410"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996730"
 ---
 # <a name="track-a-projects-status-project-service"></a>Bir projenin durumunu izleme (Project Service)
 

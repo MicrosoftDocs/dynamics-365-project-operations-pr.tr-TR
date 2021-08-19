@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996280"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı bir fiyatlandırma boyutu olarak kullanma
 
@@ -64,18 +64,18 @@ Ayrılabilir bir kaynak için **Proje Takımı Üyeleri** varlığı, **Rol Fiya
 1. **msdyn_bookableresource** boyut sayfasını açmak üzere **Fiyatlandırma Boyutları** ızgarasında satıra çift tıklayın.
 2. Boyut sayfasında **İlgili** sekmesinde, **Fiyatlandırma Boyutu Alan Adları**'nı seçin.
 
-  ![Fiyatlandırma boyutu alan adları sekmesi](media/PD-fieldname.png)
+  ![Fiyatlandırma boyutu alan adları sekmesi.](media/PD-fieldname.png)
 
 3. Açılan ilişkili görünümde **Yeni Fiyatlandırma Boyutu Alan Adı Ekle**'yi seçin.
 
-  ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle](media/Add-NewPD-fieldname.png)
+  ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle.](media/Add-NewPD-fieldname.png)
 
   Bu, **msdyn_bookableresource** için **Yeni Fiyatlandırma boyutu alan adı** sayfasını açar. 
 
 4. **Yeni Fiyatlandırma Boyut Alanı Adı** sayfasında, **msdyn_projectteam** öğesini **Varlık Mantıksal Adı**'na ekleyin.
 5. **msdyn_bookableresourceid** öğesini **Alan Adı**'na ekleyin.
 
- ![Yeni Fiyatlandırma boyutu alan adı formu](media/PD-fieldname-Added.png)
+ ![Yeni Fiyatlandırma boyutu alan adı formu.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

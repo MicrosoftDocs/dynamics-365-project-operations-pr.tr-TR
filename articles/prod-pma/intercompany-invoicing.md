@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995830"
 ---
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
@@ -33,7 +33,7 @@ Kuruluşunuzun, projeler için ürünleri ve servisleri birbirine aktarabilecek 
 
 Aşağıdaki çizimde iki tüzel kişilik bulunan yaygın bir senaryo gösterilmiştir. SI FR (ödünç alan tüzel kişilik) ile SI USA (ödünç veren tüzel kişilik) A müşterisine proje teslim etmek için kaynakları paylaşır. Bu senaryoda SI FR ile A müşterisine iş teslim etmek üzere anlaşılmıştır. 
 
-[![Şirketlerarası faturalama örneği](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Şirketlerarası faturalama örneği.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Hedef, şirketlerarası hareketler için maliyet kontrolü, gelir kabulü, vergiler ve transfer fiyatı işlemlerini daha esnek ve güçlü bir hale getirmektir. Ayrıca, aşağıdaki yetenekler sağlanır:
 

@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 34b190f9a458c9e2706c5b8c9fdbceea1fbe2621
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995330"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997810"
 ---
 # <a name="manage-delegation"></a>Temsilci atamayı yönetme
 Gider temsilcisi, başka bir çalışan için gider raporları oluşturabilir ve bunları yönetebilir.

@@ -6,12 +6,12 @@ ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 20a318c9f288b08a0984f9c29dced05997622f47
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a8e2b56b4a97ce184fc36145fffe63db8772bdef8bb89f9b60ddaf43db0c1ba4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997315"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Proje tabanlı bir teklif satırını tahmin etme
 

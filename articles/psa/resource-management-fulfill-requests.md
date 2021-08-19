@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998030"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996865"
 ---
 # <a name="fulfilling-resource-requests"></a>Kaynak isteklerini karşılama
 
@@ -33,15 +33,15 @@ Kaynak gereksinimleri, bu isteklerin yerine getirilmesinden sorumlu olan kaynak 
 
 Kaynak istekleri, **Etkin Kaynak İstekleri** görünümünde bir liste olarak gösterilir.
 
-> ![Kaynak istekleri listesi](media/Resource-Management-image59.png)
+> ![Kaynak istekleri listesi.](media/Resource-Management-image59.png)
 
 İsteği karşılamak için listeden seçin ve ardından **Kaynakları Bul**'u seçin. Alternatif olarak, isteği açmak için bir satırı çift tıklayın. Ardından, bu isteğin gereksinimlerini görüntülemek için **Kaynak Gereksinimi** sekmesini seçebilirsiniz. İsteği karşılamayı başlatmak için **Kaynakları Bul**'u seçin.
 
-> ![Kaynak gereksinimi ayrıntıları](media/Resource-Management-image60.png)
+> ![Kaynak gereksinimi ayrıntıları.](media/Resource-Management-image60.png)
 
 Zamanlama Yardımcısı görüntülenir ve gereksinimlere göre filtrelenir. Kaynağı ve ardından **Ayır**'ı seçin.
 
-> ![Kaynak seçildi](media/Resource-Management-image61.png)
+> ![Kaynak seçildi.](media/Resource-Management-image61.png)
 
 Genel takım üyesi, proje takımında kesin ayrılmış bir adlandırılmış kaynak ve proje zamanlamasındaki görev atamaları ile değiştirilir.
 

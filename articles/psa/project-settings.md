@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996955"
 ---
 # <a name="project-settings"></a>Proje ayarları
 
@@ -45,9 +45,9 @@ Proje zamanlaması oluşturmak için günlük çalışma saatleri sayısını ve
 
   - Yeni Haftalık Zamanlama
   - Bir Gün için Çalışma Zamanlaması
-  - Boş Zaman
+  - İzin
 
-> ![Seçenekleri ayarlama](media/project-13.png)
+> ![Seçenekleri ayarlama.](media/project-13.png)
 
 4. **Yeni Haftalık Zamanlama**'yı seçin ve ardından bu kaynak zamanlaması için seçenekleri ayarlayın. Yinelenen haftalık zamanlama, günlük saat parametreleri, işletme kapanışları ve daha fazlasını ayarlayabilirsiniz.
 5. Tarih aralığını ayarlayın, **Kaydet**'i seçin ve ardından **Kapat**'a tıklayın. 
