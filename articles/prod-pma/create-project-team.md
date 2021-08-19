@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005820"
 ---
 # <a name="create-a-project-team"></a>Proje ekibi oluşturma
 
@@ -33,7 +33,7 @@ Görünüm ayarları, kaynak kullanılabilirliğinin daha iyi bir görünümün�
 
 Proje yöneticisi sayfada bir rol seçebilir ve gereksinime uyan bir kaynak varsa, rolü doldurmak için bir kaynak ayırmayı seçer. Kaynakların planlama aşaması sırasında bu noktada ayrılmasının zorunlu olmadığını unutmayın. İKY oluştururken, proje için rolleri personelli kaynakla değiştirebilirsiniz. Roller İKY'de personelli kaynaklarla değiştirilmişse, kaynak kurulumu proje ekibi dökümünü ve zamanlamasını otomatik olarak güncelleştirir.
 
-[![Rollerin ve gerçek kaynakların her ikisini de içeren proje ekibi dökümü](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Rollerin ve gerçek kaynakların her ikisini de içeren proje ekibi dökümü.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Proje yöneticisinin **Kalan kapasite**, **Tam kapasite**, **Kapasite yüzdesi** ve **Saatleri belirt** gibi bir projeyle ilgili kaynağı belirlemek için çeşitli seçenekleri vardır. Bu ayırma seçenekleri, kaynak atamaları değiştirilirse istediğiniz zaman iptal edilebilir. İki tür ayırma desteklenir:
 

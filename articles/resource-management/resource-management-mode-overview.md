@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008250"
 ---
 # <a name="resource-management-modes-overview"></a>Kaynak yönetimi modlarına genel bakış
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations, genel ayırma akışını yürütmeniz için ik
 ## <a name="central-mode"></a>Merkezi mod
 Merkezi mod, kaynakların projelere tahsisatını merkezileştiren kuruluşlara Proje yöneticilerinin proje düzeyinde kaynak gereksinimlerini tanımlayabilmesini sağlamak için bir yol sunar. Kaynak gereksinimlerinin yerine getirilmesi görevi Kaynak yöneticisine verilir. Proje yöneticileri, Kaynak yöneticisinin önerdiği kaynakları kabul edebilir veya reddedebilir.
 
-![Merkezi Mod](./media/resource-management-central.png)
+![Merkezi Mod.](./media/resource-management-central.png)
 
 Merkezi modda kaynakları yönetmek için bkz:
 
@@ -37,7 +37,7 @@ Merkezi modda kaynakları yönetmek için bkz:
 ## <a name="hybrid-mode"></a>Karma mod
 Karma mod, kaynakların tahsisatında esneklik isteyen kuruluşlarda Proje yöneticilerinin ve Kaynak yöneticilerinin kaynakları ayırabilmelerini sağlar.
 
-![Karma Mod](./media/resource-management-hybrid.png)
+![Karma Mod.](./media/resource-management-hybrid.png)
 
 Desteklenen Merkezi mod işlemine ek olarak, Karma modda desteklenen diğer tüm ayırma akışlarını yönetmek için aşağıdaki konulara bakın:
 

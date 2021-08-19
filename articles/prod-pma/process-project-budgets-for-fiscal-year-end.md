@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: be3dc039b92e88cac6f6b3b7f72bc32ecf587539
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008065"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007395"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Mali yıl sonunda proje bütçelerini aktarma
 

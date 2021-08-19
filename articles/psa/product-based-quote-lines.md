@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998525"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008610"
 ---
 # <a name="product-based-quote-lines"></a>Ürün tabanlı teklif satırları
 
@@ -58,7 +58,7 @@ Bu alanı **Fiyatlandırmayı geçersiz kıl** olarak belirlerseniz, Dynamics 36
 
 PSA'yı yükledikten sonra, varsayılan satış fiyatları bir teklifteki ürün tabanlı satırlara girilir. Ardından **Fiyatlandırma** alanı **Fiyatlandırmayı geçersiz kıl** olarak ayarlanır ve böylece teklif satırlarındaki varsayılan fiyatı düzenleyebilirsiniz.
 
-> ![Fiyatlandırmayı geçersiz kıl ayarı](media/basic-guide-10.png)
+> ![Fiyatlandırmayı geçersiz kıl ayarı.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Ürünler için miktar faktörleri
 
@@ -78,7 +78,7 @@ PSA, yalnızca sayısal veri türüne sahip sayısal özellikleri veya ürün ö
 
 **Kullanıcı sayısı** ve **Ay sayısı** özellikleri ürün satırının özellikleri düzenlenerek miktar faktörü olarak işaretlenebilir. 
 
-> ![Kullanıcı sayısı ve Ay sayısını kalite faktörleri olarak işaretleme](media/basic-guide-11.png)
+> ![Kullanıcı sayısı ve Ay sayısını kalite faktörleri olarak işaretleme.](media/basic-guide-11.png)
  
 
 

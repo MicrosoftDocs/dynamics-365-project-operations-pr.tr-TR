@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006990"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Projelerde ve proje sözleşmelerinde faturalama biriktirme listesini gözden geçirme
 
@@ -40,7 +40,7 @@ Faturalanmayan satış gerçek değerleri, faturalama biriktirme listesini temsi
 
 Zaman ve malzemeler için faturalama biriktirme listesini gözden geçirmek için **Satış** \> **Faturalama** \> **Zaman ve Malzeme Faturalama Biriktirme Listesi**'ne gidin. Faturalanmaya hazır olan tüm faturalanmayan satış gerçek değerlerini ve ardından **Faturalamak için Hazır** öğesini seçin. Bu gerçek değerlerin faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Zaman ve malzeme faturalama biriktirme listesi](media/TMBacklog.png)
+![Zaman ve Malzeme Faturalama Biriktirme Listesi.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Ürün faturalama biriktirme listesini gözden geçirme
 
@@ -48,7 +48,7 @@ PSA'da, proje sözleşmesinde ürün tabanlı sözleşme satırları varsa proje
 
 Ürünlerin faturalama biriktirme listesini gözden geçirmek için **Satış** \> **Faturalama** \> **Ürün Faturalama Biriktirme Listesi**'ne gidin. Faturalanmaya hazır olan tüm ürün tabanlı sözleşme satırlarını ve ardından **Faturalamak için Hazır** öğesini seçin. Bu satırların faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Ürün faturalama biriktirme listesi](media/ProductBacklog.png)
+![Ürün Faturalama Biriktirme Listesi.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Sabit fiyatlı sözleşmelerde faturalama kilometre taşlarını gözden geçirme
 
@@ -56,7 +56,7 @@ Sabit fiyatlı faturalama yöntemine sahip her proje sözleşme satırı, sözle
 
 Faturalama kilometre taşlarını gözden geçirmek için **Satış** \> **Faturalama** \> **Sabit Fiyat Kilometre Taşları**'na gidin. Faturalanmaya hazır olan kilometre taşlarını ve ardından **Faturalamak için hazır** öğesini seçin. Bu kilometre taşlarının faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Sabit fiyat kilometre taşları](media/FPBacklog.png)
+![Sabit Fiyat Kilometre Taşları.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

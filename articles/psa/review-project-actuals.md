@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46039ad8fc6c175ad5e736d344d869b94e2fab2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3fe2bf52aeef0214ef3f54f7cfcce4032ba79114a6c36e453e7412a85af52a49
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997805"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006945"
 ---
 # <a name="review-project-actuals-project-service"></a>Proje gerçek tutarlarını gözden geçirme (Project Service)
 

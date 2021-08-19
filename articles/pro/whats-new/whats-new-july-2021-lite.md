@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433677"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009240"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Temmuz 2021'deki yenilikler - Project Operations lite dağıtımı
 
@@ -20,7 +20,7 @@ _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-  - Dataverse ortamı sürüm 4.12.0.148'te Project Operations.
+  - Dataverse ortamı sürüm 4.12.0.148 veya 4.12.0.152'te Project Operations.
 
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 | **Özellik alanı**              | **Referans numarası** | **Kalite güncelleştirmeleri**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Genel                       | 2296857              | Uzun süre çalışan işler için ilerlemeyi izleme.                                                                                                                                                                        |
 | Genel                       | 2253682              | Çift yazma çekirdeği çift yazma düzenlemesi çözümü olmadan bir ortamda yüklendiğinde, Project Operations çift yazma çözümü yüklenemez.                                                |
 | Genel                       | 2316420              | Uygulama kullanıcısı departmanı değiştirilirse Project service temel sağlaması başarısız olur.                                                                                                                     |
+| Genel                       | 2376405              | Yayımcı odaklı güncelleştirme sorunu düzeltildi (Kalite güncelleştirmesi sürüm 4.12.0.152 kullanılabilir)                                                                                                                     |
