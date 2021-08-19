@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986785"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance ortamınızda Project Operations uygulamasını güncelleştirme
 
@@ -33,7 +33,7 @@ Bu konuda, Dynamics 365 Finance ortamınızda Dynamics 365 Project Operations uy
 4. Ortamın çalıştığını doğrulayın. Başlatılmamışsa ortamı başlatın.
 5. **Kullanılabilir güncelleştirmeler** altındaki **Yeni sürüm** bölümünde, 10.0.15 için **Güncelleştirmeyi görüntüle**'yi seçin.
 
-![Güncelleştirmeyi görüntüle düğmesi](media/view-update.png)
+![Güncelleştirmeyi görüntüle düğmesi.](media/view-update.png)
 
 6. **İkili güncelleştirmeler** sayfasında, **Paketi kaydet**'i seçin.
 7. **Güncelleştirmeleri incele ve kaydet** sayfasında, **Paketi kaydet**'i seçin.
@@ -47,11 +47,11 @@ Bu konuda, Dynamics 365 Finance ortamınızda Dynamics 365 Project Operations uy
 2. Listeden daha önce kaydettiğiniz paketi seçin ve ardından **Uygula** seçeneğini belirleyin.
 3. Paketi dağıtmak istediğinizi onaylamak için **Evet**'i seçin.
 
-![Paket dağıtımını onayla iletişim kutusu](media/confirm-package-deployment.png)
+![Paket dağıtımını onayla iletişim kutusu.](media/confirm-package-deployment.png)
 
 4. Uygulamayı güncelleştirmek istediğinizi onaylamak için **Evet**'i seçin.
 
-![Uygulama güncelleştirmesini onayla iletişim kutusu](media/confirm-application-update.png)
+![Uygulama güncelleştirmesini onayla iletişim kutusu.](media/confirm-application-update.png)
 
 Dağıtım ve uygulama güncelleştirmesi başlar. 
 
@@ -84,7 +84,7 @@ Varlıklar için güvenlik ayrıcalıklarına yönelik aşağıdaki güncelleşt
 
 1. Dataverse ortamınızda, **Ayarlar**'a gidin ve **Sistem** grubunda **Güvenlik** seçeneğini belirleyin.
 
-![Dataverse ortam ayarları](media/Picture21.png)
+![Dataverse Ortam ayarları.](media/Picture21.png)
 
 2. **Güvenlik Rolleri**'ni seçin.
 3. Roller listesinde, **çift yazma uygulaması kullanıcısı**'nı ve **Özel Varlıklar** sekmesini seçin. 
@@ -121,7 +121,7 @@ Varlıklar için güvenlik ayrıcalıklarına yönelik aşağıdaki güncelleşt
 6. Eşlemeler listesinden, tüm ön koşullarıyla **Kayıt Defteri (msdyn_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. 
 7. **İlk eşitleme için ana öğe** alanında, **Finance and Operations uygulamalarını** ve ardından **Çalıştır**'ı seçin.
  
- ![Kayıt Defteri eşleme eşitlemesi](media/DW6.png)
+ ![Kayıt Defteri eşleme eşitlemesi.](media/DW6.png)
  
 
 

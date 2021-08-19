@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015085"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985525"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation'da faturalama
 
@@ -50,7 +50,7 @@ Belirli bir proje sözleşmesi için fatura oluşturmak üzere bu adımı izleyi
 
 - **Proje Sözleşmeleri** listesi sayfasında bir proje sözleşmesi açın ve sonra **Fatura oluştur** 'u seçin.
 
-    ![Belirli bir proje sözleşmesi için proje faturaları oluşturma](media/CreateProjectInvoicesOneByOne.png)
+    ![Belirli bir proje sözleşmesi için proje faturaları oluşturma.](media/CreateProjectInvoicesOneByOne.png)
 
     **Faturalamaya Hazır** durumuna sahip seçili proje sözleşmesine ilişkin tüm işlemler için bir fatura oluşturulur. Bu işlemler zaman, gider, kilometre taşları ve ürün tabanlı sözleşme satırlarını içerir.
 
@@ -58,7 +58,7 @@ Faturaları toplu olarak oluşturmak için bu adımları izleyin.
 
 1. **Proje Sözleşmeleri** listesi sayfasında, fatura oluşturmanız gereken bir veya daha fazla proje sözleşmesi seçin ve ardından **Proje Faturaları Oluştur**'u seçin.
 
-    ![Proje faturalarını toplu oluşturma](media/CreateProjectInvoicesBulk.png)
+    ![Proje faturalarını toplu oluşturma.](media/CreateProjectInvoicesBulk.png)
 
     Bir uyarı iletisi, faturalar oluşturulmadan önce bir gecikme olabileceği konusunda sizi uyarır. İşlem de gösterilir.
 

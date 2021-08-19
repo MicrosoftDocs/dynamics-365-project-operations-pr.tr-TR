@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012835"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988810"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Yeni fiyatlandırma boyutları dahil etmek için eklenti özniteliklerini güncelleştirme
 
@@ -42,25 +42,25 @@ Aşağıdaki adımlar, eklentileri kaydetme işleminde size yardımcı olur.
 1. **PluginRegistrationTool**'u açın ve çevrimiçi kurulumunuza bağlanın.
 2. **Ara**'ya tıklayın ve güncelleştirilecek eklentiyi arayın.
 
- ![Arama ağacının ekran görüntüsü](media/PRT-1.png)
+ ![Arama ağacının ekran görüntüsü.](media/PRT-1.png)
 
 3. Bulunan eklentiyi seçin ve ardından **Ana Formda Seç**'e tıklayın.
 
 4. Güncelleştirilecek eklentinin adımını seçin, sağ tıklayın ve ardından **Güncelleştir**'i seçin.
 
- ![Güncelleştirilecek eklentinin ekran görüntüsü](media/PRT-2.png)
+ ![Güncelleştirilecek eklentinin ekran görüntüsü.](media/PRT-2.png)
  
 5. Güncelleştirme penceresinde, filtreleme özniteliklerindeki üç noktaya (**...**) tıklayın.
 
- ![Var olan adım yapılandırma bilgilerini güncelleştirmenin ekran görüntüsü](media/PRT-3.png)
+ ![Var olan adım yapılandırma bilgilerini güncelleştirmenin ekran görüntüsü.](media/PRT-3.png)
  
 6. Fiyatlandırma özniteliği onay kutularını seçin.
 
- ![Fiyatlandırma öznitelikleri için onay kutusu seçimini gösteren ekran görüntüsü](media/PRT-4.png)
+ ![Fiyatlandırma öznitelikleri için onay kutusu seçimini gösteren ekran görüntüsü.](media/PRT-4.png)
 
 7. Sayfayı kapatmak için **Tamam**'a tıklayın ve ardından **Güncelleştirme Adımı**'nı seçin.
 
- !["Güncelleştirme Adımı" düğmesinin gösterildiği ekran görüntüsü](media/PRT-5.png)
+ !["Güncelleştirme Adımı" düğmesinin gösterildiği ekran görüntüsü.](media/PRT-5.png)
  
 8. İkinci eklenti için bu işlemi tekrarlayın: **PreOperationQuoteLineDetail; msdyn_quotelinetransaction Güncelleştirmesi**.
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995510"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988585"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
@@ -52,12 +52,12 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 
 6. Dağıtımınız için ortam türünü seçin. Abonelik tabanlı deneme sürümü 30 gün boyunca bir CDS ortamını dağıtmanızı sağlar. 
 
-![Dağıtım Ayarları](./media/1DeploymentSettings.png)
+![Dağıtım Ayarları.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Hizmet koşullarını kabul etmek için **Kabul Et**'i ve ardından dağıtım ayarlarına dönmek için **Bitti**'yi seçin.
 
-![Dağıtım Onayı](./media/2DeploymentConsent.png)
+![Dağıtım Onayı.](./media/2DeploymentConsent.png)
 
 7. İsteğe bağlı:Demo verilerini ortama uygulayın. **Gelişmiş ayarlar**'a gidin, **SQL Veritabanı Yapılandırmasını Özelleştir**'i seçin ve **Uygulama veritabanı için bir veri kümesi belirtin**'i **Demo** olarak ayarlayın.
 
@@ -67,7 +67,7 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 
 9. Ortamın başarıyla dağıtıldığını doğrulamak için **Oturum Aç**'ı seçin ve onaylamak için ortamda oturum açın.
 
-![ Ortam Ayrıntıları](./media/3EnvironmentDetails.png)
+![Ortam ayrıntıları.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Finance ortamına güncelleştirmeleri uygulama
 
@@ -77,19 +77,19 @@ Bu sürümü almak için Finance ortamınıza kalite güncelleştirmeleri uygula
 
 1. LCS'de, **Ortam ayrıntıları** sayfasının **Kullanılabilir Güncelleştirmeler** bölümünde **Güncelleştirmeyi Görüntüle**'yi seçin.
 
-![Güncelleştirmeleri Görüntüle](./media/5ViewUpdates.png)
+![Güncelleştirmeleri Görüntüle.](./media/5ViewUpdates.png)
 
 2. **İkili güncelleştirmeler** sayfasında, **Paketi kaydet**'i seçin.
 
-![Paketi kaydetme](./media/6SavePackage.png)
+![Paketi kaydetme.](./media/6SavePackage.png)
 
 3. **Tümünü seç**'e tıklayın ve ardından **Paketi kaydet**'i seçin.
 
-![Güncelleştirmeleri gözden geçirme ve kaydetme](./media/7ReviewAndSaveUpdates.png)
+![Güncelleştirmeleri gözden geçirme ve kaydetme.](./media/7ReviewAndSaveUpdates.png)
 
 4. Paketin adını ve açıklamasını girin ve ardından **Kaydet**'i seçin. İnternet bağlantısına bağlı olarak bu işlem biraz zaman alabilir.
 
-![Paketi Varlıklar Kitaplığı'na yükleme](./media/8UploadPackageToAssetsLibrary.png)
+![Paketi Varlıklar Kitaplığı'na yükleme.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Paket kaydedildikten sonra, **Bitti**'yi seçin ve bu paketi LCS projenizdeki Varlıklar kitaplığına kaydedin.
 
@@ -97,15 +97,15 @@ Paketi kaydetme ve doğrulama işlemi yaklaşık 15 dakika sürebilir.
 
 6. Güncelleştirmeyi uygulamak için LCS içindeki **Ortam ayrıntıları** sayfasına gidin ve **Bakım** > **Güncelleştirmeleri uygula**'yı seçin.
 
-![Ortamları Koruma](./media/9MaintainEnvironment.png)
+![Ortamları Koruma.](./media/9MaintainEnvironment.png)
 
 7. Güncelleştirmeler listesinde, oluşturduğunuz paketi seçin ve **Uygula** seçeneğini belirleyin.
 
-![Güncelleştirmeleri Uygulama](./media/10ApplyUpdates.png)
+![Güncelleştirmeleri Uygulama.](./media/10ApplyUpdates.png)
 
 Ortamın bakımı biraz zaman alır. Tamamlandıktan sonra, ortam dağıtıldı durumuna geri döner.
 
-![Ortam Dağıtıldı](./media/11EnvironmentDeployed.png)
+![Ortam Dağıtıldı.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Çift Yazma bağlantısı kurma 
 
@@ -113,41 +113,41 @@ Ortamın bakımı biraz zaman alır. Tamamlandıktan sonra, ortam dağıtıldı 
 2. **Common Data Service Ortam Bilgileri** altında, **Uygulamalar için CDS bağlantısı**'nı seçin.
 3. Bağlantı tamamlandıktan sonra, **Uygulamalar için CDS bağlantısı**'nı tekrar seçin. Finance uygulamasında Çift Yazma alanına yönlendirilirsiniz.
 
-![CDS bağlantısı](./media/12LinktoCDS.png)
+![CDS bağlantısı.](./media/12LinktoCDS.png)
 
 4. Tümleştirmede eşlenecek varlıklara erişmek için **Çözümü Uygula**'yı seçin.
 
-![Çözümleri Uygulama](./media/13ApplySolutions.png)
+![Çözümleri Uygulama.](./media/13ApplySolutions.png)
 
 5. **Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemesi** ve **Dynamics 365 Project Operations Çift Yazma Varlık Eşlemeleri** çözümlerini seçin ve ardından **Uygula** seçeneğini belirleyin.
 
-![Çözümleri Onaylama](./media/14ConfirmSolutions.png)
+![Çözümleri Onaylama.](./media/14ConfirmSolutions.png)
 
 Çözümler uygulandıktan sonra, Çift Yazma varlıkları ortama uygulanır.
 
-![Çözümleri Uygulama](./media/15ApplyingSolutions.png)
+![Çözümleri Uygulama.](./media/15ApplyingSolutions.png)
 
 Varlıklar uygulandıktan sonra, kullanılabilir tüm eşlemeler ortam içinde listelenir.
 
-![Çift Yazma Eşlemeleri](./media/15DWMappings.png)
+![Çift Yazma Eşlemeleri.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Güncelleştirme sonrasında veri varlıklarını yenileme
 
 1. Finance uygulamasında, **Veri yönetimi** çalışma alanına gidin.
 
-![Veri Yönetimi çalışma alanı](./media/16DataManagement.png)
+![Veri Yönetimi çalışma alanı.](./media/16DataManagement.png)
 
 2. **Çerçeve parametreleri** kutucuğunu seçin.
 
-![Çerçeve Parametreleri](./media/17FrameworkParameters.png)
+![Çerçeve Parametreleri.](./media/17FrameworkParameters.png)
 
 3. **Varlık ayarları** sayfasında **Varlık Listesini Yenile**'yi seçin.
 
-![Varlık Listesini Yenileme](./media/18RefreshEntityList.png)
+![Varlık Listesini Yenileme.](./media/18RefreshEntityList.png)
 
 Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uyarı alırsınız.
 
-![Yenileme Onayı](./media/19RefreshConfirmation.png)
+![Yenileme Onayı.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Dataverse'te Project Operations güvenlik ayarlarını güncelleştirin
 
@@ -188,17 +188,17 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
 4. Varlığı yenilemek için eşleme adını seçin ve ardından **Varlıkları yenile**'yi seçin. 
 
 
-![Eşlemeyi Yenileme](./media/20RefreshMapping.png)
+![Eşlemeyi Yenileme.](./media/20RefreshMapping.png)
 
 5. Yenileme işlemi tamamlandıktan sonra eşlemeyi çalıştırın. Sonraki eşlemeyi etkinleştirebilmeniz için tablodaki eşlemenin **Çalışıyor** durumunda olduğunu doğrulayın. Daha fazla sayıda önkoşul içeren eşlemeleri çalıştırmak biraz zaman alabilir.
 
 Önkoşullara sahip bir eşlemeyi çalıştırmak için **İlgili varlık eşlemelerini göster** seçeneğini etkinleştirin. Tabloda **Önkoşul için ilk eşitleme** ayarı **Hayır** görünüyorsa çalıştırmadan önce tüm önkoşul eşlemelerinde **İlk eşitleme** bayrağının **Kapalı** olduğunu doğrulayın.
 
-![Eşlemeyi Çalıştırma](./media/21RunMap.png)
+![Eşlemeyi Çalıştırma.](./media/21RunMap.png)
 
 6. Projeyle ilgili tüm eşlemelerin çalışıyor durumunda olduğunu doğrulayın.
 
-![Tüm Eşlemeler Çalışıyor](./media/22AllMapsRunning.png)
+![Tüm Eşlemeler Çalışıyor.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Project Operations için CDS'de yapılandırma verilerini uygulama (isteğe bağlı)

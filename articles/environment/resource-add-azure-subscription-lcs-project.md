@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000640"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986695"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS projesine Azure aboneliği ekleme
 
@@ -23,35 +23,35 @@ Bulutta barındırılan ortamların var olan bir Azure aboneliği kullanılarak 
 
 1. LCS projenizde, **Ortamlar** bölümünde **Microsoft Azure ayarlarını** seçin.
 
-![Microsoft Azure Ayarları](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure ayarları.](./media/1MicrosoftAzureSettings.png)
 
 2. **Proje ayarları** sayfasında, **Azure bağlayıcıları** sekmesinde, **Yetkilendir**'i seçin. Bu, ortamların bu projeye dağıtılmasına izin verir.
 
-![Azure Bağlayıcıları](./media/2AzureConnectors.png)
+![Azure Bağlayıcıları.](./media/2AzureConnectors.png)
 
 3. Yönetici onayı sağlamak için **Yetkilendir**'i yeniden seçin.
 
-![Yönetici Onayı Verme](./media/3GrantAdminConsent.png)
+![Yönetici onayı verme.](./media/3GrantAdminConsent.png)
 
 4. İzin isteğini kabul edin.
 
-![İzin İsteğini Kabul Etme](./media/4AcceptPermissionRequest.png)
+![İzin İsteğini Kabul Etme.](./media/4AcceptPermissionRequest.png)
 
 Yetkilendirme işlemi artık tamamlanmıştır. 
 
-![Yetkilendirme Başarılı](./media/5AuthorizationComplete.png)
+![Yetkilendirme Başarılı.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Azure aboneliğinize Dynamics Dağıtım Hizmetleri erişimi sağlama
 
 1. [Microsoft Azure faturalama](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) öğesine gidin ve aboneliğinizi seçin. Dynamics Dağıtım Hizmetleri'nin ortamları dağıtabilmesi için bu aboneliğe erişmesi gerekir.
 
-![Azure Aboneliği Ayrıntıları](./media/6AzureSubscription.png)
+![Azure aboneliği ayrıntıları.](./media/6AzureSubscription.png)
 
 2. Gezinti bölmesinde **Erişim denetimi (IAM)** öğesini ve ardından **Rol ataması ekle**'yi seçin.
 3. Sağdaki kaydırıcıda, **Katılımcı rolü**'nü seçin ve sağlanan listede, **Dynamics Dağıtım Hizmetleri**'ni bulup seçin. 
 4. **Kaydet**'i seçin.
 
-![Abonelik Erişimi](./media/7SubscriptionAccess.png)
+![Abonelik Erişimi.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>LCS projesine bir abonelik bağlayıcı ekleme
 

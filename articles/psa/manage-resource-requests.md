@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015040"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985165"
 ---
 # <a name="manage-resource-requests-project-service"></a>Kaynak taleplerini yönetme (Project Service)
 
@@ -43,7 +43,7 @@ Hesap yöneticileri ve proje yöneticileri projeleri için düzenli olarak kayna
   
    -   Sonuçlarınızı kuruluş birimi, rol, beceri veya diğer özniteliklere göre filtrelemenize olanak veren **Filtre** bölmesini görüntülemek için **Filtrele**'ye tıklayın.  
   
-       ![Project Service Kaynak İsteği ekranı](../psa/media/project-service-resource-request-screen.png "Project Service Kaynak İsteği ekranı")  
+       ![Project Service Kaynak İsteği ekranı.](../psa/media/project-service-resource-request-screen.png "Project Service Kaynak İsteği ekranı")  
   
 3. Ayırmak istediğiniz kaynağın takviminde, kaynağı ayırmak için zaman dilimi seçin ve ardından kaynağı ayırmak üzere **Ayır** veya ayırma teklifinde bulunmak ve istek sahibinin onaylaması için **Ayırma İşlemi Teklif Et** öğesine tıklayın. Bir kaynak ayırdığınızda, geçici veya kesin olarak ayırabilirsiniz.  
   

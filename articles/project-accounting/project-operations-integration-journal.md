@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304280"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987955"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
@@ -19,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations bir araçla ilgili olarak hareketleri incelemek ve muhasebe özniteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
 
-![Tümleştirme günlüğü akışı](./media/IntegrationJournal.png)
+![Tümleştirme günlüğü akışı.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations'da entegrasyon günlüğünde kayıt oluşturma
 

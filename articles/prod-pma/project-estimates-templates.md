@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999740"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988225"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Proje tahminlerini Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitleme
 
@@ -38,7 +38,7 @@ Project Service Automation ile Finance tümleştirme çözümünde Project Servi
 
 Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleştirmenin bir parçası olarak verilerin nasıl eşitleneceğini gösterilir.
 
-[![Finance ile Project Service Automation tümleştirmesi için veri akışı](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Finance ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Proje saat tahminleri
 
@@ -95,7 +95,7 @@ Boş hareket kategorileri olan satırları kaldırmak için bir filtre eklemeniz
 
 Aşağıdaki çizimde Veri tümleştirmede şablon görev eşlemesinin bir örneği gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
-[![Veri tümleştirmede şablon görevi eşlemesi](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Veri tümleştirmede şablon görevi eşlemesi.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Proje gider tahminleri
 
@@ -165,9 +165,9 @@ else **null**
 
 Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örnekleri gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
-[![Gider tahmini hareketlerinin şablon eşlemesi](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Gider tahmini hareketlerinin şablon eşlemesi.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Gider tahminlerinin şablon eşlemesi](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Gider tahminlerinin şablon eşlemesi.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

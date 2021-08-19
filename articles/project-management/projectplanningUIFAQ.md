@@ -2,17 +2,17 @@
 title: Görev ızgarasında çalışma sorunlarını giderme
 description: Bu konuda, Görev ızgarasında çalışırken gereken sorun giderme bilgileri sağlanmaktadır.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213424"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989125"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Görev ızgarasında çalışma sorunlarını giderme 
 
@@ -24,7 +24,7 @@ Bu konuda, maliyet yönetimiyle çalışırken karşılaşabileceğiniz sorunlar
 
 Project Operations, iş kırılım yapısını işlemek için üçüncü taraf tanımlama bilgilerinin etkinleştirilmesini gerektirir. Üçüncü taraf tanımlama bilgileri etkinleştirilmediğinde, **Proje** sayfasında **Görevler** sekmesini seçtiğinizde görevler yerine boş bir sayfa görürsünüz.
 
-![Üçüncü taraf tanımlama bilgileri etkin olmadığında boş sekme](media/blankschedule.png)
+![Üçüncü taraf tanımlama bilgileri etkin olmadığında boş sekme.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Geçici çözüm
@@ -52,11 +52,22 @@ Microsoft Edge veya Google Chrome tarayıcıları için aşağıdaki yordamlarda
 Project Operations bir proje parametresinin PEX Uç Noktası'na başvurmasını gerektirir. Bu uç nokta, iş kırılım yapısını işlemek için kullanılan hizmet ile iletişim kurmak için gereklidir. Parametre etkinleştirilmemişse "Proje parametresi geçerli değil" hatasını alırsınız. 
 
 ### <a name="workaround"></a>Geçici çözüm
- ![Proje parametresindeki PEX Uç Nokta alanı](media/projectparameter.png)
 
 1. **PEX Uç Nokta** alanını **Proje Parametreleri** sayfasına ekleyin.
-2. Alanı şu değerle güncelleştirin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Alanı **Proje parametreleri** sayfasından kaldırın.
+2. Kullandığınız ürün türünü tanımlayın. Bu değer PEX uç nokta ayarlandığında kullanılır. Alma işleminde, ürün türü PEX uç nokta zaten tanımlanmıştır. Bu değeri koru. 
+   
+    ![Proje parametresindeki PEX Uç Nokta alanı.](media/pex-endpoint.png)
+
+3. Alanı şu değerle güncelleştirin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Ürün türü                         | Parametre yazın |
+   |--------------------------------------|----------------|
+   | Varsayılan kuruluşta Project for the Web   | type=0         |
+   | CDS adlı kuruluşta Project for the Web | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Alanı **Proje parametreleri** sayfasından kaldırın.
 
 ## <a name="privileges-for-project-for-the-web"></a>Web için Project ayrıcalıkları
 
@@ -67,7 +78,7 @@ Project Operations harici bir zamanlama hizmetine dayanır. Hizmet, bir kullanı
 
 1. **Ayarlar > Güvenlik > Kullanıcılar > Uygulama Kullanıcıları**'na gidin.  
 
-   ![Uygulama okuyucu](media/applicationuser.jpg)
+   ![Uygulama okuyucu.](media/applicationuser.jpg)
    
 2. Aşağıdakileri doğrulamak için uygulama kullanıcı kaydına çift tıklayın:
 
@@ -76,7 +87,7 @@ Project Operations harici bir zamanlama hizmetine dayanır. Hizmet, bir kullanı
  
 3. Bu kullanıcı yoksa yeni bir kullanıcı kaydı oluşturabilirsiniz. **Yeni Kullanıcılar**'ı seçin. Giriş formunu **Uygulama Kullanıcısı** olarak değiştirin ve ardından **Uygulama Kimliği**'ni ekleyin.
 
-   ![Uygulama kullanıcısı ayrıntıları](media/applicationuserdetails.jpg)
+   ![Uygulama kullanıcısı ayrıntıları.](media/applicationuserdetails.jpg)
 
 4. Kullanıcıya doğru lisansın atandığını ve lisansın hizmet planları ayrıntılarında hizmetin etkinleştirildiğini doğrulayın.
 5. Kullanıcının project.microsoft.com'u açabildiğini doğrulayın.

@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997760"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988720"
 ---
 # <a name="manage-time-zones"></a>Saat dilimlerini yönetme
 
@@ -32,13 +32,13 @@ Görev oluşturulduğunda başlangıç saati, bitiş saati ve saat/gün değerle
 
 - Kullanıcı, cihazının saat dilimini sistemin **Kişiselleştirme Ayarları**'nda tanımlanan zaman dilimiyle eşleşecek şekilde yapılandırmalıdır.
  
-  ![Windows 10'da saat dilimi ayarları](media/reconcile-assignments-03.png)
+  ![Windows 10'da saat dilimi ayarları.](media/reconcile-assignments-03.png)
 
-  ![Kişiselleştirme ayarlarındaki saat dilimi ayarları](media/reconcile-assignments-04.png)
+  ![Kişiselleştirme ayarlarındaki saat dilimi ayarları.](media/reconcile-assignments-04.png)
  
 - Ayrılabilir kaynak, istenen genişletmeyi tanımlamak için kullanılan sınırlarla çakışan en az bir dakikalık çalışma zamanı içermelidir. Örneğin, çalışma saatlerinin 09:00 ile 19:00 arasında olduğu aşağıdaki kaynaklar. 
 
-  ![Kaynak sınırlarını karşılaştırma](media/reconcile-assignments-05.png)
+  ![Kaynak sınırlarını karşılaştırma.](media/reconcile-assignments-05.png)
 
 Aşağıdaki tabloda şunlar gösterilmektedir:
 
@@ -47,25 +47,25 @@ Aşağıdaki tabloda şunlar gösterilmektedir:
 - Kaynak B: Bu kaynak, projeden farklı bir saat diliminde bulunur ve çalışma saati kendi saat diliminde 07:00'de başlar. Ancak, ayırmalar atama sınırının en erken başlangıç saati olan 09:00'da başlar.
 - Kaynak C ve D: Bu kaynakların bulundukları saat dilimleri hem birbirlerinden hem de projenin bulunduğu saat diliminden farklıdır ve ayırmaları, uygun oldukları başlangıç saatlerinden daha erken değildir.
 
-|Varlık  |Takvim  |
+|Entity  |Takvim  |
 |-|-|
-|Proje takvimi şablonu   | ![proje takvimi](media/reconcile-assignments-06.png) |
-|Kaynak A  | ![Kaynak A takvimi](media/reconcile-assignments-06.png) |
-|Kaynak B  |  ![Kaynak B takvimi](media/reconcile-assignments-07.png) |
-|Kaynak C  |  ![Kaynak C takvimi](media/reconcile-assignments-08.png) |
-|Kaynak D  | ![Kaynak D takvimi](media/reconcile-assignments-09.png)  |
+|Proje takvimi şablonu   | ![proje takvimi.](media/reconcile-assignments-06.png) |
+|Kaynak A  | ![Kaynak A takvimi.](media/reconcile-assignments-06.png) |
+|Kaynak B  |  ![Kaynak B takvimi.](media/reconcile-assignments-07.png) |
+|Kaynak C  |  ![Kaynak C takvimi.](media/reconcile-assignments-08.png) |
+|Kaynak D  | ![Kaynak D takvimi.](media/reconcile-assignments-09.png)  |
  
 **Mutabakat** görünümüne gittiğinizde, kaynak atamaları ve ilişkili ayırma eksiklikleri görüntülenir.
 
-![Uzatmadan önceki mutabakat görünümü](media/reconcile-assignments-10.png)
+![Uzatmadan önceki mutabakat görünümü.](media/reconcile-assignments-10.png)
 
 Her kaynak için ayırmayı genişlet işlevi kullanıldıktan sonra her kaynağın çalışma saati var olan eksikliğin sınırlarıyla çakıştığı için ayırmalar, her kaynak için başarıyla genişletilir.
 
-![Ayırmayı uzatma sonrasındaki mutabakat görünümü](media/reconcile-assignments-11.png) 
+![Ayırmayı uzatma sonrasındaki mutabakat görünümü.](media/reconcile-assignments-11.png) 
 
 Ayırmaların ayrıntılarına daha yakından bakıldığında ayırmaların başlangıç saatlerinde farklılıklar olduğu görülür. Ayırmaların başlangıcı, atama sınırının başlangıç zamanından ve kaynağın kullanılabilir başlangıç zamanından daha erken değildir.
 
-![Zamanlama panosunda yeni kaynak ayırmaları](media/reconcile-assignments-12.png)
+![Zamanlama panosunda yeni kaynak ayırmaları.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

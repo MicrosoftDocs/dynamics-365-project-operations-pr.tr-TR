@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012115"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988990"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma
 
@@ -62,18 +62,18 @@ Ayrılabilir kaynak için, **Proje Takımı Üyeleri** varlığı, **Rol fiyatı
 1. Bunu yapmak için **msdyn_bookableresource** boyut sayfasını açmak üzere **Fiyatlandırma Boyutları** ızgarasında satıra çift tıklayın.
 2. Boyut sayfasında **İlgili** sekmesinde, **Fiyatlandırma Boyutu Alan Adları**'na tıklayın.
 
- ![Fiyatlandırma boyutu alan adları sekmesi](media/PD-fieldname.png)
+ ![Fiyatlandırma boyutu alan adları sekmesi.](media/PD-fieldname.png)
 
 4. Açılan ilişkilendirilmiş görünümde **Yeni Fiyatlandırma Boyutu Alan Adı Ekle**'ye tıklayın.
 
- ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle](media/Add-NewPD-fieldname.png)
+ ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle.](media/Add-NewPD-fieldname.png)
 
 
 Bu, **msdyn_bookableresource** için **Yeni Fiyatlandırma boyutu alan adı** sayfasını açar. 
 
 5. **msdyn_projectteam** öğesini **Varlık Mantıksal Adı** alanına **msdyn_bookableresourceid** öğesini **Alan Adı** alanına ekleyin. Kaydı kaydedin.
 
- ![Yeni Fiyatlandırma boyutu alan adı formu](media/PD-fieldname-Added.png)
+ ![Yeni Fiyatlandırma boyutu alan adı formu.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
