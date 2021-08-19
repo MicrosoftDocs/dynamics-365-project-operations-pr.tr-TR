@@ -1,8 +1,8 @@
 ---
 title: Şirketler arası giderler
 description: Bu konuda bir çalışanın giderlerini işin yapıldığı tüzel kişiliğe atamak için şirketler arası giderlerin nasıl kullanılacağı hakkında bilgiler sağlanmaktadır.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005095"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001230"
 ---
 # <a name="intercompany-expenses"></a>Şirketler arası giderler
 
@@ -34,5 +34,17 @@ Bir kuruluştaki tek bir varlık tarafından çalışan bir çalışanla aynı k
 Gider raporunuza ödünç alan (hedef) tüzel kişilik yerine ödünç veren (kaynak) tüzel kişilik ile ilişkili vergi gruplarını kullanabilmeniz için öncelikle Genel muhasebe satış vergisi kurulumunda işlevi etkinleştirmeniz gerekir. **Şirketler arası vergi ilanı için tüzel kişilik** parametresi **Kaynak** olarak ayarlandığında ve **Satış vergisi vergilendirme kuralları** **Hayır** olarak ayarlandığında ödünç veren tüzel kişilik için vergi kombinasyonu kullanılır. Aynı parametre **hedef** olarak ayarlandığında , yasal varlığın ödünç verilmesi için kullanılan vergi kombinasyonu kullanılır. ABD 'deki hukuk varlıkları için, parametre **kaynak** olarak ayarlandığında , **Satış vergisi alacakları** alanının da yeni **genel muhasebe deftere nakil grupları** sayfasında yapılandırılması gerekir. Muhasebe altyapısı, vergiyle ilgili muhasebe girişi için bu alandaki bilgileri kullanır.   
 Bu davranış, proje olmadan veya projesiyle deftere nakledilen masraf satırları için tutarlıdır.  
 
+## <a name="new-expense-expression-builder"></a>Yeni gider ifadesi oluşturucusu
+
+Yeni gider ifadesi oluşturucusu, projeleri kullanan şirketlerarası gider senaryolarıyla ilgili sorunları gideriyor. Bu özellik, şirketlerarası bir gider oluşturduğunuzda, gider ilkesinin gider satırında seçilen projeye karşı doğru şekilde doğru doğrulanabilmesini ve gider raporunun başarıyla gönderilebilmesini sağlar.
+
+Gider ifadesi oluşturucu özelliğinin çalışması için açık olması gerekir. Ayrıca, proje kimliği olan gider ilkesi ayarlanmalıdır.
+
+Gider satırındaki proje kimliği doğrulayan ilkeleri zaten yapılandırdıysanız, bu ilkelerin kullanımdan kaldırılmış olması gerekir. Daha sonra özelliği açabilir ve ilkeleri yeniden yapılandırabilirsiniz.
+
+Bu özelliği açmak için aşağıdaki adımları izleyin.
+
+1. **Çalışma alanları**\>**Özellik Yönetimi**'ne gidin.
+2. Bu listede, **projeleri kullanan şirketlerarası gider senaryolarıyla ilgili sorunları gidermek için Yeni gider ifadesi oluşturucusunu** seçin. Ardından **Şimdi etkinleştir**'i seçin.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

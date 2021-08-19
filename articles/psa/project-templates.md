@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002535"
 ---
 # <a name="project-templates"></a>Proje şablonları 
 
@@ -47,7 +47,7 @@ Proje şablonundan proje oluşturmanın çeşitli yolları vardır:
 
 - Tekliften bir proje oluşturduğunuzda **Hızlı Oluştur: Proje** iletişim kutusundan bir proje şablonu seçebilirsiniz.
 
-> ![Hızlı Oluştur: Proje iletişim kutusu](media/project-11.png)
+> ![Hızlı Oluştur: Proje iletişim kutusu.](media/project-11.png)
 
 - **Yeni Proje**'yi seçerek bir proje oluşturduğunuzda kayıt kaydedilmeden önce **Proje** sayfası görüntülenir. **Şablon Seç** alanında, kuruluşta önceden tanımlanmış proje şablonlarından birini seçin.
 - **Şablon Varlığı** sayfasındaki **Şablondan Proje Oluştur**'u kullanın.

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369400"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005415"
 ---
 # <a name="intercompany-invoicing-overview"></a>Şirketler arası faturalamaya genel bakış
 
@@ -22,7 +22,7 @@ Kuruluşunuzun, projeler için ürünleri ve servisleri birbirine aktarabilecek 
 
 Aşağıdaki resimde, Contoso Robotics ABD (ödünç alan tüzel kişilik) ve Contoso Robotics UK (ödünç veren tüzel kişilik) adlı iki tüzel kişiliğin Adventure works müşterisine bir projeyi teslim etmek için kaynakları paylaştığı tipik bir senaryo gösterilmektedir. Bu senaryoda Contoso Robotics ABD, işi Adventure Works'e teslim etmek üzere sözleşme yapmıştır.
 
-![Şirketler arası faturalama](./media/IntercompanyScenario.png) 
+![Şirketler arası faturalama.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations, şirketler arası hareketleri işlemek için aşağıdaki akışı kullanır:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations, şirketler arası hareketleri işlemek için a�
 
 Aşağıdaki diyagramda muhasebe olayları ve genel muhasebeye nakledilmesi beklenen kayıtlar ile ilgili şirketler arası faturalama gösterilmektedir.
 
-![Şirketler arası akış](./media/IntercompanyFlow.png)
+![Şirketler arası akış.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

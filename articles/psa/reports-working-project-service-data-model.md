@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008830"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002445"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation veri modeliyle çalışma
 
@@ -53,7 +53,7 @@ PSA, Dynamics 365 veri modeline teklifle ilgili yeni varlıklar da ekler. İşte
 
 PSA'nın tekliflere eklediği diğer varlıklar; **Teklif Satırı Proje Fiyat Listesi**, **Teklif Satırı Kaynak Kategorisi** ve **Teklif Satırı İşlem Kategorisi**'dir.
 
-![Teklif, teklif satırı ve proje ilişkilerini gösteren diyagram](media/PS-Reporting-image2.png "Teklif, teklif satırı ve proje ilişkilerini gösteren diyagram")
+![Teklif, teklif satırı ve proje ilişkilerini gösteren diyagram.](media/PS-Reporting-image2.png "Teklif, teklif satırı ve proje ilişkilerini gösteren diyagram")
 
 ## <a name="reporting-on-project-contracts"></a>Proje sözleşmelerini raporlama
 
@@ -69,7 +69,7 @@ PSA, proje sözleşmeleri için tasarlanmış yeni varlıklar da ekler. İşte b
 
 PSA'nın sözleşmelere eklediği diğer varlıklar; **Proje Sözleşme Satırı Proje Fiyat Listesi**, **Proje Sözleşmesi Satırı Kaynak Kategorisi** ve **Proje Sözleşmesi Satırı İşlem Kategorisi**'dir.
 
-![Sipariş, sipariş satırı ve proje ilişkilerini gösteren diyagram](media/PS-Reporting-image3.png "Sipariş, sipariş satırı ve proje ilişkilerini gösteren diyagram")
+![Sipariş, sipariş satırı ve proje ilişkilerini gösteren diyagram.](media/PS-Reporting-image3.png "Sipariş, sipariş satırı ve proje ilişkilerini gösteren diyagram")
 
 ## <a name="reporting-on-projects"></a>Projeleri raporlama
 
@@ -81,7 +81,7 @@ PSA'nın sözleşmelere eklediği diğer varlıklar; **Proje Sözleşme Satırı
 - **Kaynak Gereksinimi**: Bu varlık, genel kaynak takım üyelerinin gereksinimlerini içerir.
 - **Tahmin** ve **Tahmin satırı**: Bu varlıkların bir başlık/satır ilişkisi vardır ve proje için gider tahminleri içerir. Görev tahminleri, **Kaynak Tahmini** varlığında depolanır.
 
-![Kaynak gereksinimi ve proje ilişkilerini gösteren diyagram](media/PS-Reporting-image4.png "Kaynak gereksinimi ve proje ilişkilerini gösteren diyagram")
+![Kaynak gereksinimi ve proje ilişkilerini gösteren diyagram.](media/PS-Reporting-image4.png "Kaynak gereksinimi ve proje ilişkilerini gösteren diyagram")
 
 ## <a name="reporting-on-resources"></a>Kaynakları raporlama
 
@@ -92,7 +92,7 @@ Proje kaynakları, Microsoft Dynamics 365 Field Service gibi diğer uygulamalarl
 - **Ayrılabilir Kaynak Kategorisi**: Bu varlık, ayrılabilir kaynağın rolünü temsil eder.
 - **Ayrılabilir kaynak ayırma işlemleri**: Bu varlık, kaynak için projelerde ayrılan süreyi gösterir. Her ayırma işleminde hem bir başlık hem de satır varlıkları bulunur ve her satırda, ayırmanın durumunu temsil eden bir durum vardır.
 
-![Ayrılabilir kaynak özellikleri ilişkilerini gösteren diyagram](media/PS-Reporting-image5.png "Ayrılabilir kaynak özellikleri ilişkilerini gösteren diyagram")
+![Ayrılabilir kaynak özellikleri ilişkilerini gösteren diyagram.](media/PS-Reporting-image5.png "Ayrılabilir kaynak özellikleri ilişkilerini gösteren diyagram")
 
 ## <a name="reporting-on-actual-transactions"></a>Gerçek işlemleri raporlama
 
@@ -120,7 +120,7 @@ Bir zaman çizelgesini veya gideri onayladığınızda ya da PSA'da bir sözleş
 
 **İşlem Kaynağı** varlığı, **Gerçek** kaydının kaynağını kaydeder ve **İşlem Bağlantısı** varlığı, **Gerçek** kaydı için ilgili kayıtları kaydeder. Ek olarak; **Gerçek** kaydı proje, proje sözleşmesi (sipariş), ayrılabilir kaynak ve müşteri başvurularını içerir.
 
-![İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram](media/PS-Reporting-image6.png "İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram")
+![İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram.](media/PS-Reporting-image6.png "İşlem bağlantısı, kaynak ve gerçek değer ilişkilerini gösteren diyagram")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369040"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003795"
 ---
 # <a name="invoicing-process-overview"></a>Faturalama sürecine genel bakış
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Project Operations, kaynağı/stoğu tutulmayanları temel alan senaryolar için hem Proje yöneticisinin hem de Alacak hesapları memurunun/proje muhasebecisinin ihtiyaçlarına uyacak şekilde uyarlanmış kapsamlı yetenekler sunar. Faturalama sürecinde Proje yöneticisi, proje faturalaması biriktirme listesini yönetir ve Alacak hesapları memuru/proje muhasebecisi, uyumlu ve müşteriye yönelik doğru bir fatura belgesi oluşturur.
 
-![Faturalama akışı diyagramı](./media/invoicing-flow.png)
+![Faturalama akışı diyagramı.](./media/invoicing-flow.png)
 
 Proje sözleşmesi satırı, ilişkili proje işlemleri için faturalama yöntemini tanımlar. Proje yöneticisi zaman ve gider işlemlerini onayladığında sistem, **Proje Gerçek Tutarları** varlığındaki işlemleri kaydeder ve bilgileri Dynamics 365 Finance uygulamasındaki **Proje yönetimi ve muhasebe** modülüne gönderir. Proje muhasebecisi daha sonra [Project Operations Entegrasyon günlüğü](../project-accounting/project-operations-integration-journal.md)'nü kullanarak kayıtları inceler ve deftere kaydeder. Bu günlük; proje gerçek tutarları için faturalama, satış vergisi grubu, faturalama öğesi satış vergisi grubu ve mali boyutlar gibi önemli muhasebe ayrıntılarını içerir.
 

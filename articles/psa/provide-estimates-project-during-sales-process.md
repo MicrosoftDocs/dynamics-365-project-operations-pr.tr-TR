@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d1daff101f9f0342bb691253fee1290d2335318c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998255"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002490"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Satış işlemi sırasında bir proje için iş tahminleri sağlama (Project Service)
 

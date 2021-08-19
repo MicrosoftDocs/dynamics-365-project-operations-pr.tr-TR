@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009190"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002580"
 ---
 # <a name="project-costs-and-revenue"></a>Proje maliyetleri ve geliri
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009190"
 
 Proje tahminleri, projenin zamanlamasındaki tahmini ve zamanlanan çalışma için mali görünüm sağlar. **Projeler** sayfasındaki **Tahminler** sekmesi planladığınız işin maliyet ve gelir etkisini gösterir. Ayrıca önceden tanımlanmış birçok boyut hakkında bilgi sağlar. 
 
-> ![Tahminler sekmesi](media/project-5.png)
+> ![Tahminler sekmesi..](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projenin maliyet ve satış değerleri
 
@@ -66,13 +66,13 @@ Sistem, rol için bir fiyat bulamazsa tahmin satırındaki satış fiyatı varsa
 
 **Tahminler** sekmesi, tahmin satırlarını gösteren bir ızgara görünümüne sahiptir. Izgarada birim, toplam maliyet fiyatı ve aşağıdaki resimde gösterildiği gibi toplam satış fiyatı için sütunlar yer almaktadır. 
 
-> ![Tahminler sekmesindeki ızgara görünümü](media/project-6.png)
+> ![Tahminler sekmesindeki ızgara görünümü.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Proje tahminlerinin zaman aşamalı görünümü
 
 Proje tahminlerinin zaman aşamalı görünümü, zaman çizelgesindeki ızgara görünümünden tahmin verilerini seçtiğiniz zaman ölçeğinde gösterir. Varsayılan olarak, tahmin verileri **Rol** boyutunda özetlenir.
 
-> ![Proje tahminleri için zaman aşamalı görünüm](media/project-7.png)
+> ![Proje tahminleri için zaman aşamalı görünüm.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Görev moduna göre tahmini çalışmayı tahsis etme
 

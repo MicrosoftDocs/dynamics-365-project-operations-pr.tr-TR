@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997535"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005640"
 ---
 # <a name="synchronize-resource-capacity"></a>Kaynak kapasitesini eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997535"
 
 Kaynak eşitleme işlemleri, takvim ve temel takvimle ilgili bilgilerin project kaynak zamanlamasına doğru sağlanmasına yardımcı olur. Takvim değiştirilirse, işlemler proje kaynaklarının zamanlamasında gerekli güncelleştirmeleri yapar. Bu işlemler, takvimin kaynak bilgileri önceden eşitlendiğinden performansın artırılmasına da yardımcı olur. Bu nedenle, kaynak zamanlama bilgilerinde yapılan güncelleştirmeler daha çabuk gerçekleşir. İşlemleri bir defada değil, toplu iş olarak zamanlamanız önerilir. Aksi takdirde, bilgilerin son eşitlediği tarihlerin dahil edilmesinin unutulma riski vardır. Dahil edilen tarihler kullanılmazsa, tarih eşitlemesi sırasında boşluklar oluşabilir.
 
-![Takvim eşitlemesi](./media/projectresourcing04-1024x471.jpg)
+![Takvim eşitlemesi.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Kaynağın kapasite toplamalarını eşitle
 
@@ -46,7 +46,7 @@ Toplu iş seçeneğini kullanmanızı öneririz. Kapasite ayırmaların eşitlen
     | Başlangıç tarihi  | Kaynak kapasitesi toplamasına yönelik eşitleme işleminin başlangıç tarihini girin. |
     | Bitiş tarihi    | Kaynak kapasitesi toplamasına yönelik eşitleme işleminin bitiş tarihini girin. |
 
-[![Eşitleme işlemi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Eşitleme işlemi.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

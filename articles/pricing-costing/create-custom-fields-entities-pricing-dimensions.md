@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000550"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003660"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma
 
@@ -44,7 +44,7 @@ Varlık tabanlı boyutlar oluşturmak için şu adımları izleyin:
 3. **Standart Başlık** adlı yeni bir varlık oluşturmak için **Yeni**'yi seçin. 
 4. Kalan gerekli bilgileri girin ve ardından **Kaydet**'i seçin.
 
-> ![Standart başlık varlığı tanımı](media/Standard-Title-entity-definition.png)
+> ![Standart başlık varlığı tanımı.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Seçenek kümesi tabanlı boyutlar 
 İki seçenek kümesi tabanlı boyut oluşturabilirsiniz. 
@@ -54,11 +54,11 @@ Varlık tabanlı boyutlar oluşturmak için şu adımları izleyin:
 
 Aşağıdaki grafik, **Kaynak Çalışma Konumu** boyutunun görünümünü sağlar. 
 
-> ![Kaynak Çalışma Konumu olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Kaynak Çalışma Konumu olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Aşağıdaki grafik, **Kaynak Çalışma Saatleri** boyutunun görünümünü sağlar. 
 
-> ![Kaynak Çalışma Saatleri olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Kaynak Çalışma Saatleri olarak adlandırılan seçenek kümesi tabanlı fiyatlandırma boyutu.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. **Ayarlar** > **Çözümler**'e gidin ve ardından **\<your organization name> fiyatlandırma boyutları** ayarını çift tıklayın. 
 2. Çözüm Gezgini'nde, sol gezinti bölmesinde **Seçenek Kümeleri**'ni seçin. 
@@ -74,7 +74,7 @@ Varlık tabanlı boyutlarla ilgili verileri el ile veya Microsoft Excel içe akt
 4. Sayfayı kapatın. 
 5. "Kıdemli Sistem Mühendisi" için başka standart başlık oluşturmak üzere 1-3 arasındaki adımları tekrarlayın.
 
-> ![Standart Başlık varlığı için örnek veriler](media/ST-data.png)
+> ![Standart Başlık varlığı için örnek veriler.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

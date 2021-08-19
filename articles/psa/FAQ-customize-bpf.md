@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993170"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002985"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Proje Aşamaları iş süreci akışını nasıl özelleştiririm?
 
@@ -60,11 +60,11 @@ Yükseltme seçeneği yoksa, proje varlığı için Proje Aşamaları iş sürec
 1. **Quote**, **Plan** ve **Close** için İngilizce aşama adlarını koruyarak, varsayılan yapılandırmaya başka aşamalar ekleyin.
 
 
-![Varsayılan yapılandırmaya aşamalar ekleme işleminin ekran görüntüsü](media/FAQ-Customize-BPF-1.png)
+![Varsayılan yapılandırmaya aşamalar ekleme işleminin ekran görüntüsü.](media/FAQ-Customize-BPF-1.png)
  
 2. Kendi iş süreci akışınızı oluşturup proje varlığı için birincil iş süreci akışı yaparak istediğiniz aşama adlarını kullanabilirsiniz. Ancak, aynı standart proje aşamalarını (**Quote**, **Plan**, **Close**) kullanmak istiyorsanız, özel aşama adlarınızın kullanılmasını sağlayacak bazı özelleştirmeler yapmanız gerekir. Proje kapatmadaki mantık daha karmaşıktır ve bu mantığı yine de yalnızca proje kaydını devre dışı bırakarak tetikleyebilirsiniz.
 
-![BPF özelleştirme](media/FAQ-Customize-BPF-2.png)
+![BPF Özelleştirme.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Platform 9.0'daki Project Service uygulaması sürüm 2.4.4.30 veya daha önceki sürümler hakkında ek değerlendirmeler
 
@@ -80,11 +80,11 @@ Proje varlığı için kendi iş süreci akışınızı oluşturmak üzere aşa�
 
 1. **Ayarlar** > **İşlem Merkezi**'ne gidin. Proje Aşamaları iş süreci akışını kopyalamayın çünkü bu, Project Service iş mantığını da kopyalar.
 
-  ![İşlem Oluştur](media/FAQ-Customize-BPF-3.png)
+  ![İşlem oluştur.](media/FAQ-Customize-BPF-3.png)
 
 2. İstediğiniz aşama adlarını oluşturmak için İşlem Tasarımcısı'nı kullanın. **Quote**, **Plan** ve **Close** için varsayılan aşamalarla aynı işlevselliği istiyorsanız, bunu kendi özel iş süreci akışınızın aşama adlarını temel alarak oluşturmanız gerekir.
 
-   ![BPF'yi özelleştirmek için kullanılan İşlem Tasarımcısı ekran görüntüsü](media/FAQ-Customize-BPF-4.png) 
+   ![BPF'yi özelleştirmek için kullanılan İşlem Tasarımcısı ekran görüntüsü.](media/FAQ-Customize-BPF-4.png) 
 
 3. İşlem Tasarımcısı'nda, özel iş süreci akışını Proje Aşamaları iş süreci akışının yukarısında listesinin başına taşıyarak proje varlığının birincil iş süreci akışı yapmak için **Sipariş Süreci Akışı**'na tıklayın.
 
@@ -95,15 +95,15 @@ Proje varlığı için kendi iş süreci akışınızı oluşturmak üzere aşa�
 
 4. Özel iş süreci akışınızda özel aşamaları yakalamak için, proje varlığına yeni bir özel alan ekleyin. Özel iş süreci akışındaki aşama güncellenince bu alanı güncellemek için ek iş mantığı (eklenti/iş akışı) eklemeniz gerekir.
 
-   ![0Proje varlığını özelleştirme işlemi ekran görüntüsü](media/FAQ-Customize-BPF-6-720.png)
+   ![Proje varlığını özelleştirme işlemi ekran görüntüsü.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Aşamalarda yeni özel alanınızı kullanmak için **Aşamaya Göre Proje** grafiğinde değişiklik yapın.
 
-   ![Aşamaya Göre Proje grafiğini kullanma işleminin ekran görüntüsü](media/FAQ-Customize-BPF-7-720.png)
+   ![Aşamaya Göre Proje grafiğini kullanma işleminin ekran görüntüsü.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Aşamalarda yeni özel alanınızı dahil etmek için proje varlığının tüm görünümlerinde değişiklik yapın.
 
-   ![Proje varlığında görünümlerde değişiklik işleminin ekran görüntüsü](media/FAQ-Customize-BPF-8-720.png)
+   ![Proje varlığında görünümlerde değişiklik işleminin ekran görüntüsü.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

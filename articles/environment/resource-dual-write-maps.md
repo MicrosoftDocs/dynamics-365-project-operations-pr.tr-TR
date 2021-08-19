@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003840"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations çift yazma eşlemesi sürümleri
 
@@ -32,7 +32,7 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 
 1. Eşlemeler listesinden, tüm ön koşullarıyla Kayıt Defteri **(msdyn\_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. **İlk eşitleme için asıl** alanında, hem genel muhasebe eşlemesi hem de tüm ön koşul haritaları için **Finance and Operations uygulamalar** seçin. **Çalıştır** seçin.
 
-![Kayıt Defteri eşleme eşitlemesi](media/DW6.png)
+![Kayıt Defteri eşleme eşitlemesi.](media/DW6.png)
 
 2. Yukarıdaki tabloda listelenen tüm tablo haritalarının aynı adımlarını uygulayın. Bu eşlemeler çalıştırılırken **ilk eşitleme** onay kutusunu seçmeyin.
 
@@ -65,7 +65,7 @@ Listelenen eşlemelerde çalışmak için aşağıdaki adımları uygulayın.
 
 1. Bu eşleme ilk eşitlemeyi gerektirmesi için **tüm şirketler (bookableresourcecategories)** tablo eşlemesi Için proje kaynak rolleri etkinleştirin. **İlk eşitleme için asıl** alanında **Common Data Service**'ni seçin. 
 
- ![Kaynak rolü tablo eşlemesi eşitlemesi](media/6ResourceInitialSync.jpg)
+ ![Kaynak rolü tablo eşlemesi eşitlemesi.](media/6ResourceInitialSync.jpg)
 
  Sonraki adıma geçmeden önce eşlemenin durumunun **çalışır** durumda olmasını bekleyin.
 
