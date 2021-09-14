@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007890"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323440"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations önizleme aboneliklerine kaydolma
 
@@ -23,7 +23,7 @@ Bu konuda, deneme teklifine nasıl abone olunacağı ve kaynak/stoklu olmayan ö
 
 ## <a name="prerequisites"></a>Ön koşullar
 - Önizlemeyi dağıtan kullanıcının Azure kiracısı genel yönetici haklarına sahip olması gerekir. İlk teklif kullanımı sırasında bir kiracı oluşturabilirsiniz. 
-- Finance ortamını dağıtmak için ortam başına faturalanacak geçerli bir Azure aboneliği gereklidir. Başlamak için kuruluşunuzun mevcut aboneliğini veya bir [Azure deneme sürümünü](https://azure.microsoft.com/en-us/free/) kullanabilirsiniz. CDS ortamı, 30 günlük sınırlı bir süre boyunca ücretsiz olarak sağlanır.
+- Finance ortamını dağıtmak için ortam başına faturalanacak geçerli bir Azure aboneliği gereklidir. Başlamak için kuruluşunuzun mevcut aboneliğini veya bir [Azure deneme sürümünü](https://azure.microsoft.com/free/) kullanabilirsiniz. CDS ortamı, 30 günlük sınırlı bir süre boyunca ücretsiz olarak sağlanır.
 
 > [!IMPORTANT]
 > Kuruluşta bu görevi, kiracı yönetici olarak yalnızca bir kişinin gerçekleştirmesi gerekir. Bu sürüme abone değilseniz kuruluşunuzun kaydolup kullanıcı kimlik bilgilerinizi alana kadar bekleyin.
