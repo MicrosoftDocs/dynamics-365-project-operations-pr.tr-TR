@@ -1,14 +1,16 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Başlama
+- name: Kullanmaya başlama
   items:
     - name: Dağıtımınızın türünü belirleme
       href: environment/determine-deployment-type.md
+    - name: Project Operations deneme sürümleri için kaydolma
+      href: environment/admin-trials.md
     - name: Project Operations güncelleştirmeleri
       href: whats-new/project-operations-updates.md
 - name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
   items:
-    - name: Başlama
+    - name: Kullanmaya başlama
       items:
         - name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations dağıtımlarına genel bakış
           href: environment/project-operations-integrated-deployment-overview.md
@@ -54,7 +56,9 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Yenilikler
       items:
-        - name: Temmuz 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+        - name: Ağustos 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: Temmuz 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: Haziran 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
           href: whats-new/whats-new-june-2021-resource-based.md
@@ -418,6 +422,8 @@
       items:
         - name: Onaylara genel bakış
           href: approvals/approvals-overview.md
+        - name: Onay kümeleri
+          href: approvals/approval-sets.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
@@ -506,7 +512,7 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: 'Lite dağıtım: anlaşmadan proforma faturaya'
   items:
-    - name: Başlama
+    - name: Kullanmaya başlama
       items:
         - name: Lite dağıtıma genel bakış
           href: pro/project-operations-overview-lite.md
@@ -514,12 +520,16 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Project Operations'ı (lite) dağıtma
           href: environment/lite-deployment.md
-        - name: Deneme sürümü (lite) kurulumu ve yapılandırma verilerini uygulama
+        - name: Kurulum ve yapılandırma tanıtım verilerini uygulama - lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Güvenlik modeli
           href: environment/security-model.md
     - name: Yenilikler
       items:
+        - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ağustos 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Temmuz 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: Haziran 2021'deki yenilikler - lite dağıtımı
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Project Operations'da alt sözleşme yönetimi
       items:
-        - name: Alt sözleşmeleri yönetmeye genel bakış
+        - name: Project Operations'da alt sözleşme yönetimi
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Ekim 2021 Erken Erişimde alt sözleşme
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Alt sözleşme temel kavramları
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Satıcıları ve proje fiyat listelerini yönetme
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Ayrılabilir kaynak olarak alt yükleniciler
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Alt sözleşmeler için Başlık Ayrıntıları
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Zaman için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Gider için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Ürünler için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alt sözleşme satırı kaynaklar
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alt sözleşme satırı kilometre taşları
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Zaman
       items:
         - name: Zamana genel bakış
@@ -868,6 +892,8 @@
       items:
         - name: Onaylara genel bakış
           href: approvals/approvals-overview.md
+        - name: Onay kümeleri
+          href: approvals/approval-sets.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
@@ -1060,6 +1086,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 35, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-35.md
         - name: 'Güncelleştirme Sürümü 34, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-34.md
         - name: 'Güncelleştirme Sürümü 33, V3''teki yenilikler veya değişiklikler'
@@ -1306,11 +1334,11 @@
               href: psa/time-entry-calendar.md
             - name: Haftalık zaman girişini özelleştirme
               href: psa/time-entry-extensibility-v3.md
-            - name: Onay kümeleri
+            - name: Project Service Automation'daki onay kümeleri
               href: psa/approval-set.md
     - name: SSS ve sorun giderme (3.x)
       items:
-        - name: Fiyat neden gider maliyeti gerçek değerlerinde varsayılan olarak sıfır oluyor?
+        - name: Fiyat neden gider maliyeti gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Fiyat neden gider satış gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
           href: psa/FAQ-zero-price-expense-sales-actuals.md
