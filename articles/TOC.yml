@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Yenilikler
       items:
+        - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Eylül 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Ağustos 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Temmuz 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
@@ -292,7 +296,7 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Proje zamanlama API'larını kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'larını kullanma
               href: project-management/schedule-api-preview.md
     - name: Kaynak yönetimi
       items:
@@ -442,8 +446,16 @@
       items:
         - name: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
           href: procurement/configure-materials-nonstocked.md
-        - name: Bekleyen satıcı faturaları kullanan projeler için stoğu tutulmayan malzemeleri tedarik etme
+        - name: Bekleyen satıcı faturalarını kullanarak projeler için stoğu tutulmayan malzemeleri tedarik etme
           href: procurement/pending-vendor-invoices.md
+        - name: Proje satınalma siparişlerini kullanarak projeler için stoğu tutulmayan malzemeler sipariş etme
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Satıcı bekletme
+          items:
+            - name: Satıcı bekletmeye genel bakış
+              href: procurement/vendor-retention-overview.md
+            - name: Satıcı bekletmeyi ayarlama
+              href: procurement/set-up-vendor-retention.md
     - name: Faturalama
       items:
         - name: Faturalama işlemine genel bakış
@@ -528,6 +540,10 @@
       items:
         - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ekim 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Eylül 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Ağustos 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Temmuz 2021'deki yenilikler - lite dağıtımı
@@ -784,7 +800,7 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Proje zamanlama API'larını kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'larını kullanma
               href: project-management/schedule-api-preview.md
     - name: Kaynak yönetimi
       items:
@@ -858,11 +874,11 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Zaman için alt sözleşme satırları
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Gider için alt sözleşme satırları
+        - name: Gider kategorileri için alt sözleşme satırları
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Ürünler için alt sözleşme satırları
           href: pro/subcontracting/subcontract-line-products.md
-        - name: Alt sözleşme satırı kaynaklar
+        - name: Alt yüklenici satırı kaynakları
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Alt sözleşme satırı kilometre taşları
           href: pro/subcontracting/subcontract-line-milestones.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 36, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-36.md
         - name: 'Güncelleştirme Sürümü 35, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-35.md
         - name: 'Güncelleştirme Sürümü 34, V3''teki yenilikler veya değişiklikler'
