@@ -2,16 +2,16 @@
 title: Project Operations denemelerine kaydolma
 description: Bu konu, Dynamics 365 Project Operations denemesi dağıtma hakkında bilgi sağlar.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418481"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599237"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations denemelerine kaydolma 
 
@@ -85,15 +85,9 @@ Başlamadan önce, Project Operations önizlemesini istediğiniz kiracıdaki kul
 
    Sağlama işlemi başladıktan sonra, Power Platform yönetim merkezindeki ortam listesine yönlendirilirsiniz. Sağlama devam ederken, ortamınızın durumu **PreparingInstance** olur.
  
-  Sağlama işlemi tamamlandıktan sonra, ortamınızın durumu **Hazır** olur.
+  Sağlama işlemi tamamlandığında, ortamınızın durumu **Hazır** olur. Ortamın sağlanması tanıtım verilerinin dağıtılmasını içerir.
  
-4.  Sağlama tamamlandığında, dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finance and Operations uygulamalarını seçin.
-
-## <a name="demo-data-installation"></a>Demo verileri yükleme
-
-Hem stoğu tutulmayan malzemeler hem de Lite dağıtım senaryoları için demo veri paketlerine erişmek üzere aşağıdaki bağlantıları kullanın. 
-- [Stoğu tutulmayan malzemeler demo verileri](resource-apply-pro-setup-config-data.md)
-- [Lite demo verileri](lite-apply-demo-setup-config-data.md)
+4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finance and Operations uygulamaları URL'lerini seçin.
 
 ## <a name="configuring-dual-write"></a>Çift yazmayı yapılandırma
 Yalnızca stoğu tutulmayan malzeme dağıtımları için ikili yazma eşlemelerinizi yapılandırın. Daha fazla bilgi için bkz. [Project Operations çift yazma eşlemesi sürümleri](resource-dual-write-maps.md).

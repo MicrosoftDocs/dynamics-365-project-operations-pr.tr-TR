@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003840"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547133"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations çift yazma eşlemesi sürümleri
 
@@ -49,8 +49,8 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 | Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. |
 | Proje faturası teklifleri V2 (faturalar) | 1.0.0.3 | Sağlama için gerekli değildir. |
 | Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals) | Kategori 1.0.0.14 | Sağlama için gerekli değildir. |
-| Project Operations tümleştirme sözleşme satırı kilometre taşları (msdyn_contractlinesscheduleofvalues) | Kategori 1.0.0.4 | Sağlama için gerekli değildir. |
-| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn_estimateslines) | Kategori 1.0.0.2 | Sağlama için gerekli değildir. |
+| Project Operations tümleştirmesi sözleşme satırı kilometre taşları (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Sağlama için gerekli değildir. |
+| Project Operations tümleştirmesi gider tahminleri varlığı (msdyn_estimatelines) | 1.0.0.2 | Sağlama için gerekli değildir. |
 | Saat tahminleri için Project Operations tümleştirme varlığı (msdyn_resourceassignments) | Kategori 1.0.0.5 | Sağlama için gerekli değildir. |
 | Project Operations tümleştirme proje gideri kategorileri dışarı aktarma varlığı (msdyn_expensecategories) | 1.0.0.1 | Sağlama için gerekli değildir. |
 | Project Operations tümleştirme proje giderleri dışarı aktarma varlığı (msdyn_expenses) | Kategori 1.0.0.2 | Sağlama için gerekli değildir. |

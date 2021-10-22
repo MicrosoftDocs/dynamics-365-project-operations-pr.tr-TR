@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323890"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547268"
 ---
 # <a name="subcontract-lines-for-time"></a>Zaman için alt sözleşme satırları
 
@@ -30,23 +30,22 @@ Project Operations'da zaman için bir alt sözleşme satırı oluşturmak üzere
 
   Aşağıdaki tabloda, **Alt sözleşme satırı** ve **Hızlı oluştur** sayfasındaki alanlarla ilgili bilgiler yer almaktadır.
 
-| **Alan** | **Açıklama** |
-| --- | --- |
-| Adı | Alt sözleşme satırının adı. |
-| Açıklama | Alt sözleşme satırında satın alınan hizmetlerle ilgili kısa bir açıklama. | 
-| Hat Türü | Bu alan varsayılan değerdir.  |
-| Faturalama Yöntemi | Faturalama yönetimini seçin. Başvurulan alt sözleşme satırının faturalama yöntemine dayalı olarak, Sabit Fiyatlı faturalama yöntemi için kilometre taşı tabanlı bir fatura zamanlaması kullanılabilir duruma gelir. |
-| İşlem Sınıfı | Bu alan, alt yüklenici zamanını satın alma işlemini kaydetmek için alt sözleşme satırı kullanılıp kullanılmadığını gösteren bir varsayılan değerdir. |
-| Rol | Zamanı satın alınan alt sözleşme kaynaklarının rolü. Alt sözleşme kaynaklarına atanan rol, satınalmanın maliyetini belirler. |
-| İstenen Başlangıç | Alt yüklenici kaynaklarının çalışmaya başlayacağı tarih. İstenen tarih, alt sözleşmeye eklenen proje fiyat listelerinden bir proje fiyat listesi seçmek için de kullanılır. Alt sözleşme satırındaki rolün maliyeti daha sonra varsayılan olarak bu fiyat listesinden alınır. |
-| İstenen Bitiş | Alt yüklenici kaynakları atamasının sona erdiği tarih. Bu tarih, Proje Yöneticisi bu tarihten sonra gerçekleşen kaynak gereksinimleri için bu kapasiteden çekim yaptığında uyarılar göstermek için kullanılır. |
-| Sipariş Edilen Miktar | Satıcıdan satın alınan Rol saati sayısı. Bu değer, Proje Yöneticisi kaynak gereksinimleri için bu kapasiteden fazla çekim yaptığında uyarılar göstermek için kullanılır. |
-| Birim Grubu | Bu alan değeri varsayılan olarak Zaman birimi grubunu kullanır ve değiştirilemez.  |
-| Birim | Bu alan varsayılan olarak, Zaman birimi grubundaki temel saat birimini alır. Gün veya hafta gibi bir Zaman birimi grubu birimi satın almak için bu değeri değiştirebilirsiniz. Rol ve Birim birleşimi, alt sözleşme satırı için birim fiyatı hesaplamak üzere kullanılır. |
-| Birim Fiyatı | Birim fiyatı varsayılan değeri, alt sözleşme satırının istenen bitiş tarihi için geçerli olan proje fiyat listesindeki Rol ve Birim birleşimi kullanılarak belirlenir. İlgili proje fiyat listesinde, alt sözleşme satırındaki birimden farklı bir birimde fiyat ayarlanmışsa sistem birim fiyatını hesaplamak için birim dönüşümünü kullanır. |
-| Alt Toplam | Bu, hem miktar hem de birim fiyat değerleri girildiğinde otomatik olarak **Miktar x Birim fiyat** olarak hesaplanan salt okunur bir alandır. Miktar alanı, birim fiyat alanı veya her ikisi de boşsa, alana bir değer girebilirsiniz. |
-| Satış Vergisi |  Satış vergisi tutarını girin. |
-| Toplam Tutar | Vergiler dahil edildikten sonraki alt sözleşme satırı toplam tutarı. |
-
+| **Alan** | **Açıklama** | **İşlevsel etki** |
+| --- | --- | --- |
+| Adı | Tanımlamayla ile ilgili yardım için alt sözleşme satırının adı. | Bu, alt sözleşme satırlarına dayalı olarak tüm aramalarda ilk sütun olarak gösterilir. |
+| Açıklama | Alt sözleşme satırında satın alınan hizmetlerle ilgili kısa bir açıklama. |Hiçbiri |
+| Hat Türü |   Bu alan **Miktar tabanlı** varsayılan değerine sahiptir.| Hiçbiri |
+| Faturalama Yöntemi | Bu, Project Operations tarafından desteklenen iki ana sözleşme modelini temsil eden bir seçenek kümesidir: **Sabit Fiyat** ve **Zaman ve Malzeme**. | Seçilen faturalama yöntemine göre, Sabit Fiyat faturalandırma yönteminin seçildiği alt sözleşme satırları için kilometre taşı tabanlı bir fatura zamanlaması sunulur. |
+| İşlem Sınıfı | Varsayılan ad **Zaman** olur. | Bu, alt sözleşme satırının bir alt yüklenicinin zamanını satın almak için kullanıldığını gösterir. |
+| Rol | Zamanı satın alınan alt sözleşme kaynaklarının rolünü seçin. | Alt sözleşme kaynakları tarafından gerçekleştirilen rol, satınalmanın maliyetini belirler. |
+| İstenen Başlangıç | Alt yüklenici kaynaklarının çalışmaya başlayacağı tarihi girin. | Bu, alt sözleşmeye iliştirilen proje fiyat listelerinden bir proje fiyat listesi seçmek için kullanılır. Alt sözleşme satırındaki rolün maliyeti bu fiyat listesinden gelir. |
+| İstenen Bitiş | Alt yüklenici kaynağı atamasının sona erdiği tarihi girin. | Bu, bir proje yöneticisi bu tarihten sonra oluşan kaynak gereksinimleri için kapasiteden çekim yaptığında uyarı göstermek için kullanılacaktır. |
+| Sipariş Edilen Miktar | Satıcıdan satın alınan rol için saat sayısını girin. | Bu, bir proje yöneticisi kaynak gereksinimleri için bu kapasiteden fazla çekim yaptığında uyarı göstermek için kullanılacaktır. |
+| Birim Grubu | Varsayılan değer **Zaman birimi grubu**'dur ve değiştirilemez. | Hiçbiri|
+| Birim | Bu alan için varsayılan değer, **Zaman birimi grubundan** alınan saatlerin temel birimidir. Gün veya hafta gibi bir **Zaman birimi grubu** birimi satın almak için bu değeri değiştirebilirsiniz. | **Rol** ve **Birim** birleşimi varsayılan olarak kullanılır veya alt sözleşme satırının birim fiyatı için hesaplanır. |
+| Birim Fiyatı | Varsayılan birim fiyat, alt sözleşme satırının **İstenen Başlangıç** tarihi için geçerli olan proje fiyat listesindeki **Rol** ve **Birim** birleşimini kullanır. | İlgili proje fiyat listesinde, alt sözleşme satırındaki birimden farklı bir birimde fiyat ayarlanmışsa sistem birim fiyatını hesaplamak için birim dönüşümünü kullanır. |
+| Alt Toplam |    Bu, miktar ve birim fiyat değerleri girildiğinde, Miktar X Birim fiyat olarak hesaplanan salt okunur bir alandır. Miktar alanı, birim fiyat alanı veya her ikisi de boşsa, alana bir değer girebilirsiniz. | Hiçbiri|
+| Satış Vergisi |   Satış vergisi tutarını girin. |Hiçbiri |
+| Toplam Tutar | Alt sözleşme satırının vergiler dahil toplam tutarı. Bu alan, Ara toplam + Satış vergisi olarak hesaplanır.|Hiçbiri |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
