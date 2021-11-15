@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Satıcı faturası tümleştirmesi
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations'ı kaldırma
+          href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
         - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
@@ -296,8 +298,10 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Proje zamanlama API'larını kullanma
+            - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Proje zamanlama API'si performansı
+              href: project-management/project-schedule-api-performance.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -800,8 +804,10 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Proje zamanlama API'larını kullanma
+            - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Proje zamanlama API'si performansı
+              href: project-management/project-schedule-api-performance.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -1102,6 +1108,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 37, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-37.md
         - name: 'Güncelleştirme Sürümü 36, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-36.md
         - name: 'Güncelleştirme Sürümü 35, V3''teki yenilikler veya değişiklikler'

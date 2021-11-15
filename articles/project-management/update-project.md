@@ -1,23 +1,23 @@
 ---
-title: Proje güncelleştirme
+title: Proje oluşturma ve güncelleştirme
 description: Bu konuda, Project Operations projelerini güncelleştirme hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000915"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678373"
 ---
-# <a name="update-a-project"></a>Proje güncelleştirme
+# <a name="create-and-update-a-project"></a>Proje oluşturma ve güncelleştirme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Aşağıda, bir proje oluşturulduktan ve mevcut güncelleştirmeler uygulandıktan sonra güncelleştirilebilecek alanların özeti verilmiştir.
+Aşağıda, oluşturulduktan sonra bir projede güncelleştirilebilen alanların özeti verilmiştir. Bu, bu güncelleştirmelere dayalı geçerli etkileri de içerir.
 
 ## <a name="project-detail-fields"></a>Proje ayrıntısı alanları
 
@@ -25,8 +25,8 @@ Aşağıda, bir proje oluşturulduktan ve mevcut güncelleştirmeler uygulandık
 - **Açıklama**: Projeye genel bakış.
 - **Müşteri**: Projenin teslim edileceği şirket.
 - **Takvim şablonu**: Projenin çalışma saatleri. Alan değiştirildiğinde, tüm zamanlama yeniden hesaplanır.
-- **Para Birimi**: Projenin para birimi. Bu alanın varsayılan değeri, sözleşme biriminde tanımlanan para birimine göre belirlenir. Sözleşme birimi güncelleştirildiğinde alan da güncelleştirilir.
-- **Sözleşme Birimi**: Satışı kazanmak ve iş ve servislerin müşteriye teslimini yönetmekten birincil olarak sorumlu olan şirket grubunu veya bölümü gösteren kuruluş birimidir. 
+- **Para Birimi**: Projenin para birimi. Bu alanın varsayılan değeri, sözleşme biriminde belirlenen para birimini temel alır. Sözleşme birimi güncelleştirildiğinde alan da güncelleştirilir.
+- **Sözleşme Birimi**: Satışı kazanmak ve iş ve servislerin müşteriye teslimini yönetmekten birincil olarak sorumlu olan şirket grubunu veya bölümü gösteren kuruluş birimidir.  Proje yöneticisinin organzasyon birimi tanımlanmamışsa, bu alan varsayılan olarak proje parametrelerinde tanımlanan değere göredir.
 - **Proje Yöneticisi**: Zaman girişlerini ve giderleri inceleme ve onaylama yetkisine sahip proje takımı üyesi.
 
 ## <a name="estimate-fields"></a>Tahmin alanları

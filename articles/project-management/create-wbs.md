@@ -2,16 +2,16 @@
 title: İş kırılım yapısı oluşturma
 description: Bu konuda, yeni zamanlama arabiriminde temel denetimler dahil bir iş kırılım yapısının (İKY) nasıl oluşturulacağı açıklanmaktadır.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998755"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655441"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -117,5 +117,26 @@ Görev modunun, öncül/bağımlı görevlerin başlangıç ve bitiş tarihleri 
 
 **Zamanlama** kılavuzu tam olarak erişilebilirdir ve Narrator, JAWS veya NVDA gibi ekran okuyucularla kullanılabilir. Ok tuşlarını kullanarak (Microsoft Excel'de olduğu gibi) ızgara alanında hareket edebilir, etkileşimli kullanıcı arabirimi öğeleri arasında ilerlemek için Sekme tuşunu kullanabilir ve açılan menüleri seçip açmak için Aşağı Ok tuşunu, Enter tuşunu veya Ara Çubuğunu kullanabilirsiniz.
 
+## <a name="project-limitations"></a>Proje limitleri 
+Project Operations'ta iş kırılım yapısını kullanıyorsanız, aşağıdaki sınırlamaların farkında olmalısınız. Bu sınırlar, projeler ve görevler için geçerlidir. Daha fazla bilgi için bkz. [Project for the web limitleri ve sınırları](/project-for-the-web/project-for-the-web-limits-and-boundaries) .
+
+| **Alan**                                          |  **Sınırla**           |
+|----------------------------------------------------|----------------------|
+| Proje için en fazla toplam görev sayısı                  | 500                  |
+| Proje için en fazla toplam süre               | 3650 gün (10 yıl) |
+| Proje için en fazla toplam kaynak sayısı              | 150                  |
+| Proje için en fazla toplam bağlantı (yalnızca ardıl) | 600                  |
+| Proje için en fazla toplam özel alan sayısı          | 10                   |
+
+**Görev sınırlamaları**
+
+| **Alan**                               |   **Sınırla**           |
+|-----------------------------------------|-----------------------|
+| En yüksek hiyerarşi düzeyi                 | 10 düzey             |
+| En fazla bağlantı (ardıl + öncül) | 20                    |
+| Yaprak görevinin maksimum süresi           | 1250 gün             |
+| Özet görevin en fazla süresi      | 3650 gün (10 yıl)  |
+| Bir göreve atanan maksimum kaynak sayısı    | 20 kaynak          |
+| Görev için desteklenen tarih aralığı         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
