@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773628"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892229"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3. x için güncelleştirme sürümü zamanlaması
 
@@ -37,8 +37,8 @@ ms.locfileid: "7773628"
 
 | Çözüm  | En son sürüm |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
-| Project Service Automation masaüstü eklentisi                | 3.15          |
+| Proje Hizmeti Otomasyonu    | 3.10.58.130 |
+| Project Service Automation masaüstü eklentisi                | Kategori 3.15          |
 
 Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dynamics 365 sürüm planları](/dynamics365/release-plans/). 
 
@@ -55,18 +55,18 @@ Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dy
 | | <i>Almanya</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Aralık 2021
 | | <i>İsviçre</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Aralık 2021
 |<strong>İstasyon 3</strong> | |  |  | |
-| | <i>Japonya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Kasım 2021
-| | <i>Asya Pasifik</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Kasım 2021
-| | <i>Büyük Britanya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Kasım 2021
-| | <i>Okyanusya</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Kasım 2021
-| | <i>Birleşik Arap Emirlikleri</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Kasım 2021
+| | <i>Japonya</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Aralık 2021
+| | <i>Asya Pasifik</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Aralık 2021
+| | <i>Büyük Britanya</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Aralık 2021
+| | <i>Okyanusya</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Aralık 2021
+| | <i>Birleşik Arap Emirlikleri</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Aralık 2021
 |<strong>İstasyon 4</strong> | |  |  | |
-| | <i>Avrupa</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 Kasım 2021
+| | <i>Avrupa</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 Ocak 2022
 |<strong>İstasyon 5</strong> | |  |  | |
-| | <i>Kuzey Amerika</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Aralık 2021
+| | <i>Kuzey Amerika</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 Ocak 2022
 |<strong>İstasyon 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Aralık 2021
-| | <i>Özel Ölçek Grupları</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 Aralık 2021
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 Ocak 2022
+| | <i>Özel Ölçek Grupları</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 Aralık 2021
 
 
 

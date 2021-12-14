@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
+        - name: Kasım 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Eylül 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Proje zamanlama API'si performansı
               href: project-management/project-schedule-api-performance.md
+            - name: Proje zamanlama günlükleri
+              href: project-management/schedule-api-logs.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -544,6 +548,8 @@
       items:
         - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Kasım 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Ekim 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Eylül 2021'deki yenilikler - lite dağıtımı
@@ -558,11 +564,11 @@
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nisan 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Mart 2021 - lite dağıtımındaki yenilikler
+        - name: Mart 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Şubat 2021 - lite dağıtımındaki yenilikler
+        - name: Şubat 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Ocak 2021 - lite dağıtımındaki yenilikler
+        - name: Ocak 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-jan-2021-lite.md
         - name: Aralık 2020 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-dec-2020-lite.md
@@ -952,6 +958,10 @@
   items:
     - name: Yenilikler
       items:
+        - name: Ekim 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Eylül 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Temmuz 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Mayıs 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
@@ -1108,6 +1118,8 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 37.5, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Güncelleştirme Sürümü 37, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-37.md
         - name: 'Güncelleştirme Sürümü 36, V3''teki yenilikler veya değişiklikler'

@@ -2,7 +2,7 @@
 title: Kredi kartı tümleştirmesini ayarlama
 description: Bu konu, giderle ilgili kredi kartı hareketleriyle çalışma konusunda bilgi vermektedir.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996235"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826280"
 ---
 # <a name="set-up-credit-card-integration"></a>Kredi kartı tümleştirmesini ayarlama
 
@@ -50,10 +50,18 @@ Bir veya daha fazla kredi kartı hareketi seçin ve sonra **Hareketleri yeniden 
 
 ## <a name="delete-credit-card-transactions"></a>Kredi kartı hareketlerini silme 
 
-Bazı durumlarda, kredi kartı hareketleri içe aktarıldıktan sonra bazı hareketlerin silinmesi gerekebilir. Bunun nedeni, hareketlerin yinelenmesi veya verilerin doğru olmaması olabilir. Yöneticiler, **"Kredi kartı hareketlerini sil"** özelliğini kullanarak bir gider raporuna **iliştirilmemiş** kredi kartı hareketlerini seçebilir ve silebilir. 
+Bazı durumlarda, kredi kartı hareketleri içe aktarıldıktan sonra bazı hareketlerin silinmesi gerekebilir. Bunun nedeni işlemlerin yinelenen işlem olması veya verilerin doğru olmaması olabilir. Yöneticiler, **"Kredi kartı hareketlerini sil"** özelliğini kullanarak bir gider raporuna **iliştirilmemiş** kredi kartı hareketlerini seçebilir ve silebilir. 
 
 1. **Dönemsel görevler** > **Kredi kartı hareketlerini sil**'e gidin.
 2. **Filtre**'yi seçin ve dahil edilecek kayıtları tanımlamak için gerekli bilgileri girin.
 3. Kayıtları silmek için **Tamam**'ı seçin. 
+
+## <a name="storing-credit-card-numbers"></a>Kredi kartı numaralarını depolama
+
+Kredi kartı numaralarını depolamak için üç seçenek vardır. Kredi kartı numaraları **Gider yönetimi parametreleri** sayfasında depolanır.
+
+- **Kart numarası girişini engelle** – Kredi kartı numaraları depolanmaz.
+- **Karma kart numaraları (son dört basamağı depola)** – Kredi kartı numaralarının son dört basamağı şifrelenmiş bir biçimde depolanır.
+- **Kart numaralarını depola** – Kredi kartı numaraları şifrelenmemiş biçimde depolanır. Bu seçenek, Ödeme Kartı Endüstrisi (PCI) Veri Güvenliği Standardına (DSS) uygun değildir. Bu nedenle, kuruluş yöneticileri kuruluşlarının PCI DSS düzenlemelerine uyumlu olmasını sağlamak için kredi kartı numaralarını depolamamayı veya karma kart numaralarını depolamayı seçmesi gerekir.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
