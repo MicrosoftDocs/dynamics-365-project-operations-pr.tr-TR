@@ -2,16 +2,16 @@
 title: İş kırılım yapısı oluşturma
 description: Bu konuda, yeni zamanlama arabiriminde temel denetimler dahil bir iş kırılım yapısının (İKY) nasıl oluşturulacağı açıklanmaktadır.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655441"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928639"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -95,11 +95,11 @@ Yönetici olarak, görev varlığında özel alanlar tanımlayabilirsiniz. Ancak
 
 ## <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 
-Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var olan bir kaynağı arayabilir veya **Oluştur**'u seçip **Hızlı Oluştur** bölmesinde, proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
+Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var olan bir kaynağı arayabilir veya **Oluştur**'u seçip **Hızlı Oluştur** bölmesinde, proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.  Görev kılavuzunda, pano görünümünde veya Gantt'ta kaynak seçiciyi kullanarak bir kaynak aradığınızda, arama var olan proje takımı üyelerini veya etkin rezerve edilebilir kaynakları döndürür.
 
 **Rol**, **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri, görev zamanlamasıyla birlikte bu görevi gerçekleştirmek üzere kullanılabilir kaynakları bulmak için kullanılır.
 
-   - **Rol**: Görevi gerçekleştirmek için gereken kaynak türünü belirtin.
+   - **Rol**: Görevi yapmak için gereken kaynak türünü belirtin.
    - **Kaynak belirleme birimi**: Görevle ilgili kaynakların atanması gereken birimi belirtin. Kaynağın maliyet ve fatura oranı kaynak birimlerine göre ayarlandıysa, bu öznitelik görevin maliyet ve satış tahminini etkiler.
    - **Pozisyon adı**: Nihayetinde işi yapacak kaynak için yer tutucu görevi gören genel kaynağa yönelik bir ad girin.
 
@@ -127,6 +127,7 @@ Project Operations'ta iş kırılım yapısını kullanıyorsanız, aşağıdaki
 | Proje için en fazla toplam kaynak sayısı              | 150                  |
 | Proje için en fazla toplam bağlantı (yalnızca ardıl) | 600                  |
 | Proje için en fazla toplam özel alan sayısı          | 10                   |
+| Görev başına maksimum denetim listesi öğesi                   | 20                   |
 
 **Görev sınırlamaları**
 

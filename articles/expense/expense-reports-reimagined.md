@@ -1,8 +1,8 @@
 ---
-title: Gider raporlarını yeniden tasarlama
+title: Gider raporları yeniden tasarlandı (video içerir)
 description: Bu konuda, gider raporu girişi için yeniden tasarlanan ve düşünülen deneyim açıklanmaktadır.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997855"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941041"
 ---
 # <a name="expense-reports-reimagined"></a>Gider raporlarını yeniden tasarlama
 
@@ -58,6 +58,7 @@ Yeni deneyimi açmak için **Özellik yönetimi** çalışma alanını kullanara
 | Yeni gider satırları kaydetme ve ekleme | Gider satırlarını hızlıca girmenize yardımcı olmak için yeni giderleri girerken **Kaydet** ve **Yeni** düğmelerini kullanabilirsiniz. |
 | Bölünmüş ve dökümü alınmış satırlar için daha iyi görünürlük | Dökümü alınmış ve bölünmüş satırlar, görünürlüğü artırmak ve hata olup olmadığını kolayca belirlemenize yardımcı olmak için doğrudan gider listesine eklenir. |
 | Dökümü yapılan satırlarda alt kategori ayrıntılarını görüntüleme | Üst giderin maddeleştirilmiş satırları, gider raporundaki alt kategori etiketlerini gösterir. Öğe oluşturma, ayrıntılı ayrıntıları bir bakışta gözden geçirmenizi sağlar.|
+|Yinelenen giderleri hızlı bir şekilde girin | Yeniden tasarlanan gider çalışma alanı, alt kategoriyi, başlangıç tarihini ve miktarı ekleyerek yinelenen giderleri hızlı bir şekilde listeleme olanağı sağlar. Miktar, giderin sürekli bir süre boyunca kaç kez yinelendiklerine işaret eder. |
 | Döküm sırasında makbuzları gösterme | Makbuzlar döküm sırasında gösterilebilir. |
 | Nakit avans seçimi | Tek bir gider işlemini karşılamak için bir veya daha fazla nakit avans seçin. |
 | Nakit avans bakiyesi | Onaylanan ve ödenen nakit avanslara karşı bir gider girişi oluşturduğunuzda nakit avans bakiyesini gerçek zamanlı olarak inceleyin. |

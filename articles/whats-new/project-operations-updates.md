@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892234"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942863"
 ---
 # <a name="project-operations-updates"></a>Project Operations güncelleştirmeleri
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations, iki bileşenden oluşur:
 - Dynamics 365 Finance ortamdaki proje yönetimi ve hesaplaması: Bu bileşen gider yönetim yeteneklerini, proje hesaplarını ve gelir kabulünü kapsar. Finance and Operations uygulama ortamı, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations ve stok/üretim tabanlı senaryolar için Project Operations'ta kullanılır.
 
 ## <a name="project-operations-release-notes"></a>Project Operations sürüm notları
-- [Kaynağı/stoğu tutulmayan öğeler](whats-new-nov-2021-resource-based.md) senaryosu için Project Operations en son sürüm notları.
-- [Lite dağıtımı](../pro/whats-new/whats-new-nov-2021-lite.md) senaryosu için Project Operations en son sürüm notları.
+- [Kaynağı/stoğu tutulmayan öğeler](whats-new-dec-2021-resource-based.md) senaryosu için Project Operations en son sürüm notları.
+- [Lite dağıtımı](../pro/whats-new/whats-new-dec-2021-lite.md) senaryosu için Project Operations en son sürüm notları.
 - [Stoklu/üretim](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) senaryosu için Project Operations en son sürüm notları.
 
 ## <a name="project-operations-latest-version"></a>Project Operations son sürümü
 
 | Dataverse ortamında Project Operations | Finance and Operations uygulama ortamlarında proje yönetimi ve hesaplaması | 
 | --- | --- |
-| 4.26.0.150 | 10.0.22 |
+| 4.27.0.242 | 10.0.23 |
 
 Project Operations Kaynağı/stoklanmayan senaryo için çift yazma Düzenleme sürüm 2.3.1.15 veya üstünü kullanmanız önerilir.
 
@@ -47,23 +47,26 @@ Dataverse ortamında Project Operations için güncelleştirmeler aylık olarak 
 | İstasyon | Bölge | Geçerli sürüm numarası | Lite dağıtımı için otomatik güncelleştirmeler | Kaynak/Stoklanmayan dağıtım için otomatik güncelleştirmeler | Sonraki sürüm numarası | Genel olarak kullanılabilen bir sonraki sürüm |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | İstasyon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | İlk Sürüm         |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
+|   &nbsp;  | İlk Sürüm         |  4.27.0.242     | Tamamlandı*          | Tamamlandı*           | TBD                 | 14 Ocak 2022    |
 | İstasyon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Güney Amerika         |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
-|   &nbsp;  | Kanada                |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
-|   &nbsp;  | Hindistan                 |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
-|   &nbsp;  | Fransa                |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
-|   &nbsp;  | Güney Afrika          |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 06 Aralık 2021   |
+|   &nbsp;  | Güney Amerika         |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 14 Ocak 2022    |
+|   &nbsp;  | Kanada                |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 14 Ocak 2022    |
+|   &nbsp;  | Hindistan                 |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 14 Ocak 2022    |
+|   &nbsp;  | Fransa                |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 14 Ocak 2022    |
+|   &nbsp;  | Güney Afrika          |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 14 Ocak 2022    |
 | İstasyon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonya                 |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 10 Aralık 2021   |
-|   &nbsp;  | Asya Pasifik          |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 10 Aralık 2021   |
-|   &nbsp;  | Büyük Britanya         |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 10 Aralık 2021   |
-|   &nbsp;  | Okyanusya               |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 10 Aralık 2021   |
-|   &nbsp;  | Birleşik Arap Emirlikleri  |  4.26.0.150     | Tamamlandı           | Tamamlandı            | TBD                 | 10 Aralık 2021   |
+|   &nbsp;  | Japonya                 |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 21 Ocak 2022    |
+|   &nbsp;  | Asya Pasifik          |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 21 Ocak 2022    |
+|   &nbsp;  | Büyük Britanya         |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 21 Ocak 2022    |
+|   &nbsp;  | Okyanusya               |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 21 Ocak 2022    |
+|   &nbsp;  | Birleşik Arap Emirlikleri  |  4.27.0.242     | Tamamlandı           | 07 Ocak 2022    | TBD                 | 21 Ocak 2022    |
 | İstasyon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Avrupa                |  4.26.0.150     | Tamamlandı           | 10 Aralık 2021   | TBD                 | 17 Aralık 2021   |
+|   &nbsp;  | Avrupa                |  4.26.0.155     | Tamamlandı           | 07 Ocak 2022    | 4.27.0.242          | 10 Ocak 2022    |
 | İstasyon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Kuzey Amerika         |  4.26.0.150     | 10 Aralık 2021  | 17 Aralık 2021   | TBD                 | 07 Ocak 2022    |
+|   &nbsp;  | Kuzey Amerika         |  4.26.0.155     | 07 Ocak 2022   | 14 Ocak 2022    | 4.27.0.242          | 17 Ocak 2022    |
+
+>[!Note]
+> - Tamamlandı* - Otomatik güncelleştirmeler 4.27.0.195 sürümüyle tamamlandı.
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations uygulama ortamında proje yönetimi ve muhasebe için sürüm zamanlaması
@@ -72,15 +75,15 @@ Proje yönetimi ve hesap güncelleştirmeleri için güncelleştirmeler yılda s
 
 |Desteklenen Sürüm| Önizleme kullanılabilirliği (PEAP) | Genel olarak kullanılabilir (kendini güncelleştirme) | Otomatik güncelleştirme zamanlaması (LCS Güncelleştirme Ayarları aracılığıyla) üretim başlangıç tarihi |   Hizmet bitişi   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.23     |      15 Ekim 2021       |        10 Aralık 2021          |                          31 Aralık 2021                           | 18 Mart 2022     |
 |     10.0.22     |      3 Eylül 2021      |        22 Ekim 2021           |                          5 Kasım 2021                            | 14 Ocak 2022   |
-|    10.0.21      |         02 Ağustos 2021     |           17 Eylül 2021      |                             1 Ekim 2021                          |  10 Aralık 2021 |
 
 
 Hedeflenen sürüm tarihleri değiştirilebilir. Daha fazla bilgi için bkz. [Servis güncelleme kullanılabilirliği](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Hedeflenen Sürüm | Önizleme kullanılabilirliği (PEAP) | Genel olarak kullanılabilir (kendini güncelleştirme) | Otomatik güncelleştirme zamanlaması (LCS Güncelleştirme Ayarları aracılığıyla) üretim başlangıç tarihi |   Hizmet bitişi   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.23     |      15 Ekim 2021       |        10 Aralık 2021          |                          31 Aralık 2021                           | 18 Mart 2022     |
 |     10.0.24     |      3 Aralık 2021       |        14 Ocak 2022           |                          4 Şubat 2022                            | 15 Nisan 2022     |
+|     10.0.25     |      31 Ocak 2022       |        18 Mart 2022             |                          1 Nisan 2022                               | 10 Haziran 2022      |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

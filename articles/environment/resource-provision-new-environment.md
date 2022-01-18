@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501440"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928685"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
@@ -159,7 +159,6 @@ Yenileme işlemi yaklaşık 20 dakika sürer. İşlem tamamlandığında bir uya
       - **Mali Takvim**
       - **Kayıt Defteri**
       - **Şirket**
-      - **Para Birimi Döviz Kuru Türü**
       - **Gider**
 
 5. Güvenlik rolü güncelleştirildikten sonra, **Ayarlar** > **Güvenlik** > **Takımlar**'a gidin ve **Yerel İşletme Sahibi** takım görünümünde varsayılan takımı seçin.
