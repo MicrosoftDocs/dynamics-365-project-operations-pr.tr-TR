@@ -2,16 +2,18 @@
 title: Güvenlik modeli
 description: Bu konu, Dynamics 365 Project Operations'ta güvenlik modeli hakkında bilgi sağlar.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991510"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642927"
 ---
 # <a name="security-model"></a>Güvenlik Modeli
 
@@ -56,9 +58,9 @@ Gruplar, proje izinleri ve destekleyici işbirliği yapıtları ile işbirliği 
 
 Project Operations, örtük eylem yoluyla bir grup oluşturmaz ve bunu yalnızca baskın grupların açık eylemi aracılığıyla gerçekleştirir.
 
-**Grup yönetimi** iletişim kutusundaki grup üyesi araması, ortamın güvenlik grubunun bir parçası olarak ayarlananlarla sınırlıdır. Daha fazla bilgi için bkz. [Ortamlara kullanıcı erişimini denetleme: güvenlik grupları ve lisanslar](/power-platform/admin/control-user-access).
+**Grup yönetimi** iletişim kutusundaki grup üyesi araması, ortamın güvenlik grubunun bir parçası olarak ayarlananlarla sınırlıdır. Daha fazla bilgi için bkz. [Ortamlara kullanıcı erişimini denetleme: güvenlik grupları ve lisanslar](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
-![Grup modu.](./media/groupsmode.png)
+![Grup modu](./media/groupsmode.png)
 
 1. Proje, oluşturan Kullanıcı tarafından oluşturulur ve sahiplenilir.
 2. Proje sahibi, takımla güncelleştirilir.
@@ -68,7 +70,7 @@ Project Operations, örtük eylem yoluyla bir grup oluşturmaz ve bunu yalnızca
 ## <a name="deployment-recommendation"></a>Dağıtım önerisi
 Office grubu işbirliği modeli geliştikçe, zaman içinde daha ayrıntılı kontrol sağlamayan işlevler eklenecektir. Şu anda Project Operations'ı dağıtan müşterilerin geleneksel Microsoft Dynamics 365 güvenlik modeline odaklanmaları teşvik edilmektedir.
 
-Daha fazla bilgi için bkz. [Common Data Service'te Güvenlik](/power-platform/admin/wp-security).
+Daha fazla bilgi için bkz. [Common Data Service'te Güvenlik](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations ve Microsoft Dynamics 365 Finance güvenliği
 Project Operations aşağıdaki rolleri içerir:
@@ -76,9 +78,6 @@ Project Operations aşağıdaki rolleri içerir:
 - Proje yöneticisi
 - Proje muhasebecisi
 
-Finance'ta güvenlik hakkında daha fazla bilgi için bkz. [Rol tabanlı güvenlik](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Finance'ta güvenlik hakkında daha fazla bilgi için bkz. [Rol tabanlı güvenlik](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

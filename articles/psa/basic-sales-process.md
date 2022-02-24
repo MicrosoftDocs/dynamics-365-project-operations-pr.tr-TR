@@ -2,6 +2,8 @@
 title: Satış süreçleri
 description: Bu konu, temel satış süreçleri hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000555"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145202"
 ---
 # <a name="sales-processes"></a>Satış süreçleri
 
@@ -39,7 +41,7 @@ Proje tabanlı bir kuruluşta kullanılan satış süreçleri, ürün tabanlı b
 
 Aşağıdaki resimde proje tabanlı bir kuruluştaki tipik bir satış işlemi gösterilmektedir.
 
-> ![Proje tabanlı bir kuruluşta satış işlemi.](media/basic-guide-1.png)
+> ![Proje tabanlı bir kuruluşta satış işlemi](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Satış tahmini
 Bir satışın değeri, önceden teslim edilmiş projeler ve projelerin karmaşıklığı temel alınarak tahmin edilebilir. Önceki projelerle ilgili uzantıları içeren projeler veya satıcı uzmanlığının yüksek olduğu ve tanınmış çalışma şablonları kullanılan projeler için, daha basit bir tahmin süreci kullanabilirsiniz. Daha karmaşık projelerin genellikle daha uzun satın alma süreci bulunur. Bu nedenle, satış tahmini işleminde daha fazla aşama vardır. Sürecin başlarında, satış takımı teklif edilen her farklı iş bileşeni için yüksek düzeyli bir tahmin oluşturmaya başlamak için hesap yöneticileri ve konu uzmanlarının (SME) girişini kullanır. Bu çalışma bileşenleri, teklif satırlarıyla gösterilir. 
@@ -50,7 +52,7 @@ Bir proje için birden çok teklif oluşturabilir ve bunları tek bir fırsat va
 
 Ayrıca, bir teklif kazanıldığında bir proje sözleşmesi oluşturulacak şekilde, bir fırsat varlık türü altında alternatif teklifler oluşturabilir veya sistemi ayarlayabilirsiniz. Bu durumda, proje sözleşme kaydına iş beyanını temsil eden bir Word belgesi ekleyebilirsiniz.
 
-![Proje sözleşmesi oluşturmak için teklifi kapatma.](media/basic-guide-2.png)
+![Proje sözleşmesi oluşturmak için teklifi kapatma](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Satış sürecini yapılandırma
 Satış sürecinizi yapılandırmak için, Microsoft Dynamics 365 uygulamasında iş süreci akışlarını (BPF) kullanabilirsiniz. İş süreci akışları, satış personelinize şirketinizdeki tipik aşamalar arasında ilerlemek için kullanabildiği, destekli bir görsel arabirim sunar.
@@ -66,7 +68,7 @@ Satış sürecinizi yapılandırmak için, Microsoft Dynamics 365 uygulamasında
 
 Bu altı aşama, oluşturduğunuz her fırsat varlığı türünde genişletmeyi seçtiğiniz köşeli ayraçlarla (\>) gösterilir.
 
-![Dynamics 365'te iş süreci yapılandırması.](media/basic-guide-3.png)
+![Dynamics 365'te iş süreci yapılandırması](media/basic-guide-3.png)
  
 Kuruluşunuz geliştikçe aynı anlaşmayı temsil etmek için farklı varlıklar kullanabilir. Satış sürecinin başlarında, bir anlaşma Fırsat varlığı ile temsil edilir. Zaman geçtikçe ve daha fazla ayrıntı ortaya çıktığında, bir veya daha fazla teklif oluşturmak için yüksek düzeyde tahminler kullanabilirsiniz. Bu tekliflerinden biri dahili ve müşteri paydaşları tarafından gözden geçirilirse, Teklif varlığı anlaşmayı temsil eder. Müşteri teklifi kabul ettikten sonra, bir proje sözleşmesi veya iş beyanı anlaşmayı temsil eder. Bu davranışı desteklemek için, iş süreci akışları yapılandırılır ve böylece süreçteki her aşama farklı bir veritabanı tablosuna bağlanır.
 
@@ -77,7 +79,7 @@ Anlaşmaşarı aşamalar arasında ilerlettiğinizde, süreç boyunca size yol g
 > [!NOTE]
 > PSA'da Fırsat, Teklif, Sipariş ve Fatura varlıkları için belirli sayfalar vardır. Bu varlıklar için proje bilgileri sayfalarını kullanarak proje hizmeti fırsatları, teklifler, siparişler ve faturalar oluşturmanız gerekir. Kayıt oluşturmak için başka bir sayfa kullanırsanız, kaydı **Proje bilgileri** sayfasından açamazsınız. **Proje** bilgileri sayfasından bir kayıt açmak isterseniz, kaydı silip **Proje bilgileri** sayfasını kullanarak yeniden oluşturmanız gerekir. **Proje bilgileri** sayfasında, bu varlık türlerinin her biri için iş mantığı, kaydın **Tür** alanının doğru şekilde ayarlanmasını ve tüm zorunlu kavramların doğru şekilde başlatılmasını sağlar.
 
-> ![Yeni sipariş için proje bilgileri.](media/basic-guide-4.png)
+> ![Yeni sipariş için proje bilgileri](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Project Service Automation ve Sales arasındaki farklar
 PSA uygulamasındaki satış süreci, Sales'deki satış sürecinin temel yeteneklerini kullansa da, proje tabanlı kuruluşların iş uygulamalarındaki varyasyonlar nedeniyle bazı önemli farklılıklar vardır. İşte bazı örnekler:
@@ -91,6 +93,3 @@ PSA'da, teklife yapılan düzeltmeleri izleyemezsiniz. Bunun yerine, varolan tek
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>Tekliflerin ve proje sözleşmelerinin açıklamalarını ve onaylarını izleme
 Tekliflerin ve proje sözleşmelerini inceleme ve onaylama işlemini, kayıt duvarını ve gönderileri kullanarak yönetebilirsiniz. Kuurluşunuz, inceleme ve onaylama iş öğesi bildirimlerini atamak, yeniden yönlendirmek, ilerletmek ve yönetmek için özel iş akışları ve eklentiler oluşturabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

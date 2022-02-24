@@ -2,17 +2,19 @@
 title: 'Yenilikler Aralık 2020: Stoklu/Ürün tabanlı senaryolar için Project Operations'
 description: Bu konuda, stoklu/ürün tabanlı senaryolar için Project Operations'ın Aralık 2020 sürümünde bulunan kalite güncelleştirmeleri hakkında bilgiler sağlanmaktadır.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008835"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4728035"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Stoklu/Ürün tabanlı senaryolar için Project Operations Aralık 2020'deki yenilikler veya değişiklikler
 
@@ -139,7 +141,4 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
-Dynamics 365 Finance uygulamalarına yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Yasal güncelleştirmeler hakkında bilgi edinmenin başka bir yolu, Lifecycle Services (LCS) portalında oturum açıp sorun arama aracını kullanarak planlanan mevzuat güncelleştirmelerini görüntülemektir. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Dynamics 365 Finance uygulamalarına yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Yasal güncelleştirmeler hakkında bilgi edinmenin başka bir yolu, Lifecycle Services (LCS) portalında oturum açıp sorun arama aracını kullanarak planlanan mevzuat güncelleştirmelerini görüntülemektir. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.

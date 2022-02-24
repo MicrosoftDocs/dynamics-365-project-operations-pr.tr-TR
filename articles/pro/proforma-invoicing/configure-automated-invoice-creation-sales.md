@@ -1,25 +1,29 @@
 ---
-title: Otomatik fatura oluşturmayı ayarla
-description: Bu konu, proforma faturalarının otomatik olarak oluşturulmasını ayarlama ve yapılandırma hakkında bilgi sağlar.
+title: Otomatik fatura oluşturmayı yapılandırma - lite
+description: Bu konuda, proforma faturaların otomatik oluşturulmasının yapılandırılması hakkında bilgiler sağlanmaktadır.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997540"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176590"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Otomatik fatura oluşturmayı ayarla 
+# <a name="configure-automatic-invoice-creation---lite"></a>Otomatik fatura oluşturmayı yapılandırma - lite
  
-_**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_
+_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'ta otomatik fatura oluşturmayı yapılandırabilirsiniz. Sistem, her proje sözleşmesi ve sözleşme satırı için fatura planına dayalı olarak bir taslak proforma fatura oluşturur. Fatura zamanlamaları, sözleşme satırı düzeyinde yapılandırılır. Bir sözleşmedeki her satırın ayrı bir fatura çizelgesi olabilir veya sözleşmenin her satırına aynı fatura çizelgesi eklenebilir.
+Dynamics 365 Project Operations otomatik fatura oluşturmayı yapılandırabilirsiniz. Sistem, her proje sözleşmesi ve sözleşme satırı için fatura planına dayalı olarak bir taslak proforma fatura oluşturur. Fatura zamanlamaları, sözleşme satırı düzeyinde yapılandırılır. Bir sözleşmedeki her satırın ayrı bir fatura çizelgesi olabilir veya sözleşmenin her satırına aynı fatura çizelgesi eklenebilir.
 
-Bir fatura oluşturduğunuzda, sistem her zaman proje sözleşmesi başına en az bir fatura oluşturur. Bazı durumda, birden çok fatura oluşturulmuş olabilir. Örneğin, sözleşmenin birden çok müşterisi varsa, bu proje sözleşmesinde faturalamak için faturalandırılabilir hareketlere sahip olan müşteri sayısı olarak aynı fatura oluşturulur.
+Bir fatura oluşturduğunuzda, sistem her zaman proje sözleşmesi başına en az bir fatura oluşturur. Bazı durumda, birden çok fatura oluşturulmuş olabilir.
+
+Örneğin, sözleşmenin birden çok müşterisi varsa, bu proje sözleşmesinde faturalamak için faturalandırılabilir hareketlere sahip olan müşteri sayısı olarak aynı fatura oluşturulur.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Hareketlerin faturaya nasıl dahil edildiğini anlama 
 
@@ -87,6 +91,3 @@ Fatura oluşturmaya yönelik toplu iş yinelenen bir iştir. Bu toplu iş birço
 
 > [!NOTE]
 > Project Operations'ta Toplu faturalama yalnızca fatura zamanlamalarında yapılandırılan proje sözleşme satırlarında çalışır. Sabit fiyatlı fatura yöntemine sahip bir sözleşme satırının kilometre taşları yapılandırılmış olmalıdır. Zaman ve malzeme faturalama yöntemi içeren bir proje sözleşmesi satırı, ayarlanmış bir tarih tabanlı fatura çizelgesine gereksinim duyar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Özel alanları fiyatlandırma boyutları olarak ayarlama
 description: Bu konuda, özel alanları kullanarak fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003615"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650252"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama
 
@@ -42,11 +44,11 @@ Bir alanın fiyatlandırma boyutu olması için:
 
 - **Fiyatlandırma Boyutu** tablosunda bir satır olarak oluşturulmalıdır. Örneğin, fiyatlandırma boyutu satırlarını aşağıdaki grafikte gösterildiği şekilde ekleyin. 
 
-![Tutar Tabanlı Fiyatlandırma Boyutu Satırları.](media/Amt-based-PD.png)
+![Tutar Tabanlı Fiyatlandırma Boyutu Satırları](media/Amt-based-PD.png)
 
 Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklenir ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklenir.
 
-![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları.](media/Markup-based-PD.png)
+![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -94,6 +96,3 @@ Boyut önceliğinin ayarlanması fiyatlandırma işlevinin giriş boyutu değerl
 
 - **Maliyet Önceliği**: Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
 - **Satış Önceliği**: Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

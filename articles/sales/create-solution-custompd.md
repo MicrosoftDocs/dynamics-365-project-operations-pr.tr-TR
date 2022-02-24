@@ -2,16 +2,18 @@
 title: Özel fiyatlandırma boyutları için çözüm oluşturma
 description: Bu konu, özel fiyatlandırma boyutları için çözüm oluşturma hakkında bilgi sağlar.
 author: Rumant
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992230"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514033"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Özel fiyatlandırma boyutları için çözüm oluşturma
 
@@ -26,7 +28,7 @@ ms.locfileid: "6992230"
 2.  Çözümü *<your organization name> fiyatlandırma boyutları* olarak adlandırın.
 3. Kalan gerekli bilgileri girin ve ardından **Kaydet**'i seçin.
 
-  ![Özel fiyatlandırma boyutu çözümü oluşturma.](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Özel fiyatlandırma boyutu çözümü oluşturma](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Gerekli tüm varlıkları ve ilgili bileşenleri Fiyatlandırma boyutu çözümüne ekleme
 
@@ -49,19 +51,16 @@ Fiyatlandırma çözümünüzde önemli şema değişiklikleri yapmak için aşa
    - **Rol Fiyatı**
    - **Zaman Girişi**
  
-   ![Var olan varlıkları özel fiyatlandırma boyutu çözümüne ekleme.](./media/Existing-entities-to-PD-solution.png)
+   ![Var olan varlıkları özel fiyatlandırma boyutu çözümüne ekleme](./media/Existing-entities-to-PD-solution.png)
  
  4. Her varlık için eklenen bileşenleri ve her varlığın varlık kıymetlerinin nihai listesini gözden geçirin. 
 
    >[!NOTE]
    > Seçili varlıkların her biri için tüm formları ve görünümleri ekleyin.
 
-  ![Eklenen varlıklar.](./media/solution-component-selection.png)
+  ![Eklenen varlıklar](./media/solution-component-selection.png)
 
 
 5.  Seçilen varlıklar için bağımlı varlıklar eklemeniz istendiğinde **Hayır, gerekli bileşenleri ekleme** seçeneğini belirleyin.
 
-    ![Bağımlı varlıklar ekleme.](./media/Do-not-include-required.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Bağımlı varlıklar ekleme](./media/Do-not-include-required.png)

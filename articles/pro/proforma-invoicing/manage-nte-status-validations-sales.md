@@ -2,24 +2,26 @@
 title: Aşılamaz durumunu ve doğrulamaları yönetme
 description: Bu konu, Project Operations'da gerçekleştirilen aşılmayan limit denetimleri hakkında bilgi sağlar.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b08a6834fa0bc5254f4baab15b40c7f733d0dc6ec7e6c4fceea2836e5e4c656a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09dea414e91a365f33bd23089c427b5f63f55c8e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003525"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130017"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Aşılamaz durumunu ve doğrulamaları yönetme 
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 ## <a name="not-to-exceed-on-approvals"></a>Onayların aşıldığı
 
-Bir zaman, gider veya malzeme kullanım girişi gönderdiğinizde bir onay kaydı oluşturulur. Onay borçlandırılabilir ve bir zaman ve malzeme sözleşmesi satırıyla eşleniyorsa sistem aşağıdaki düzeylerde, bir veya daha fazla geçerlilik denetimi tamamlar:
+Bir zaman veya gider girişi gönderildiğinde bir onay kaydı oluşturulur. Onay borçlandırılabilir ve bir zaman ve malzeme sözleşmesi satırıyla eşleniyorsa sistem aşağıdaki düzeylerde, bir veya daha fazla geçerlilik denetimi tamamlar:
 
   - Proje sözleşme satırında müşteri için ayarlanan sınıra karşı kontrol denetimi yapın
   - Sözleşme satırında ayarlanan sınıra karşı kontrol denetimi yapın
@@ -32,11 +34,11 @@ Denetim geçerse, onaya **başarı** geçerlilik durumu verilir.
 
 Denetim başarısız olursa onaya **Başarısız** geçerlilik durumu verilir. Aşılamaz olmayan geçerlilik ayrıntısı kullanıcıya doğrulamanın hangi düzeyde başarısız olduğunu bildirir.
 
-Gönderilen saat, gider veya malzeme kullanım girişi, borçlandırılamayan olarak kabul edildiğinde, aşılamaz doğrulama durumu **Geçerli Değil** olarak ayarlanır ve doğrulama ayrıntısı **Geçeri değil**'e eşit olur.
+Gönderilen zaman veya gider girişi borçlandırılamayan olarak kabul edildiğinde, aşılamaz doğrulama durumu, doğrulama ayrıntısı **Geçerli değil** değerine eşit şekilde **Geçerli değil** olarak ayarlanır.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Faturalandırmayan satış fiili değerleri üzerinde aşılamaz
 
-Bir zaman, gider veya malzeme kullanım girişi onaylandığında, maliyet ve faturalanmamış satış gerçek değerleri kayıtları oluşturulur. OLuşturulan faturalandırılmamış satış tahakkukları borçlandırılabilirse ve bir zaman ve malzeme sözleşmesi satırıyla eşleniyorsa uygulama aşağıdaki düzeylerde, bir veya daha fazla geçerlilik denetimi tamamlar:
+Bir zaman veya gider girişi onaylandığında, maliyet ve faturalanmayan satış gerçek kayıtları oluşturulur. OLuşturulan faturalandırılmamış satış tahakkukları borçlandırılabilirse ve bir zaman ve malzeme sözleşmesi satırıyla eşleniyorsa uygulama aşağıdaki düzeylerde, bir veya daha fazla geçerlilik denetimi tamamlar:
 
   - Proje sözleşme satırında müşteri için ayarlanan sınıra karşı kontrol denetimi yapın
   - Sözleşme satırında ayarlanan sınıra karşı kontrol denetimi yapın
@@ -53,9 +55,9 @@ Faturalandırılmamış durumdaki satış fiili Borçlandırılabilir veya kapan
 
 ## <a name="reset-the-not-to-exceed-status"></a>Aşılamaz Durumunu Sıfırla
 
-Aşmayan durumunu toplu olarak sıfırlamayı gerçekleştirebilirsiniz. Proje yöneticileri, belirli bir çalışma gövdesi, zaman, gider veya malzeme kullanımını faturalanmasını zaten mevcut aşılamaz tutarından taahhüt edilmiş diğerlerine göre daha öncelikli olacak şekilde düzenleyebilir.
+Aşmayan durumunu toplu olarak sıfırlamayı gerçekleştirebilirsiniz. Bu, proje yöneticilerinin belirli bir çalışma, zaman veya masraf için, zaten mevcut olmayan tutardan daha önceden kaydedilmiş olan başkalarının üzerinde faturalandırılmasına öncelik vermek için aşmadan doğrulamayı ayarlamasına izin verir.
 
-Faturalanmayan satış fiili değerleri üzerinde, kesilen miktar durumu sıfırlandıktan sonra, taahhüt edilen tutar azaltılır. Proje yöneticisi, daha önce aşılamaz doğrulamasında başarısız olmuş başka bir çalışma gövdesi, zaman, gider veya malzeme kullanımı girişini seçip bunu yeniden değerlendirebilir. Taahhüt edilen tutarın azalmasıyla bu gerçek değerler artık doğrulama sürecini geçer. Bu durum da Proje yöneticisinin ilgili dönem için faturalanabilir hareketler üzerinde daha fazla etki ve kontrole sahip olmasına olanak tanır.
+Faturalanmayan satış fiili değerleri üzerinde, kesilen miktar durumu sıfırlandıktan sonra, taahhüt edilen tutar azaltılır. Proje Yöneticisi, daha önce aşılmayan doğrulamayı henüz başarısız olan ve yeniden değerlendirmeye çalışan başka bir çalışma, zaman veya masraf gövdesini seçebilir. Taahhüt edilen tutarda azalma varsa, bu gerçekler şimdi doğrulamayı aktaracaktır. Bu, proje yöneticisinin bu döneme ait faturalantabi hareketler üzerinde daha fazla etkisi ve kontrol altına masına yardımcı olur.
 
 Aşmayan durumunu sıfırlamak için, **zaman ve malzeme faturalama biriktirme listesi** veya **gerçek değerler** görünümünden bir veya daha fazla fiili değer seçin ve ardından **Aşmadan sonra durumu Sıfırla**'yı seçin.
 
@@ -71,6 +73,3 @@ Aşmayan durumunu toplu olarak yeniden değerlendirmeyi gerçekleştirebilirsini
 Aşmayan durumunu yeniden değerlendirmek için, **zaman ve malzeme faturalama biriktirme listesi** veya **gerçek değerler** görünümünden bir veya daha fazla fiili değer seçin ve ardından **Aşmadan sonra durumu yeniden değerlendir**'i seçin.
 
 En fazla aşıldığı bir limitli tüm ilgili seçilen gerçek değerler, aşılacağı süre sınırı kurulumuna göre değerlendirilir. Aşılamaz durumunu yeniden değerlendirmeyle ilgili gerçek değerler, taslak faturada değil, henüz faturalanmamış satış fiili değerleri değildir ve Borçlandırılabilir olarak işaretlenir. Diğer tüm seçili fiili değerleri seçin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

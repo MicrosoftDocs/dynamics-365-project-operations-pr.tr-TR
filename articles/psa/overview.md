@@ -2,9 +2,10 @@
 title: Dynamics 365 Project Service Automation nedir?
 description: Project Service'a giriş ve genel bakış
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000285"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150557"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation nedir?
 
@@ -46,10 +47,10 @@ Buna ek olarak, proje tabanlı çalışmanız için maliyetleri izlemenize ve de
 ## <a name="whats-new-in-psa"></a>PSA'daki yenilikler
 Takım olarak en son güncelleştirmeleri bildirmekten heyecan duyuyoruz! Kullanıcı arabiriminde yapılan iyileştirmeler, hataları gidermeler ve eklenen önemli yeni özellikler ve yetenekler. İsteklerinize kulak verdik.
 
-En yeni geliştirmelerimizi ve eklemelerimizi görmek için [Ekim 2019 Sürüm Notlarına](/dynamics365-release-plan/2019wave2/index) göz atın.
+En yeni geliştirmelerimizi ve eklemelerimizi görmek için [Ekim 2019 Sürüm Notlarına](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) göz atın.
 
 ### <a name="in-development"></a>Geliştirme aşamasında
-Yakın gelecek için neleri planladığımızı görmek üzere [Dynamics 365: 2020 sürümü dalga 1 planına](/dynamics365-release-plan/2020wave1/index) bakın.
+Yakın gelecek için neleri planladığımızı görmek üzere [Dynamics 365: 2020 sürümü dalga 1 planına](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index) bakın.
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA 3.x ile ilgili yardım alma
 Uygulamanızı planlamanıza yardımcı olacak kaynaklar mı arıyorsunuz? Bu indirilebilir kılavuzlara göz atın.
@@ -82,9 +83,6 @@ Uygulamanızı planlamanıza yardımcı olacak kaynaklar mı arıyorsunuz? Bu in
  [Geliştiriciler için notlar (uygulama sürümü 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>2 dakikalık genel bakış videosunu izleyin
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

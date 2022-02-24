@@ -2,6 +2,8 @@
 title: Ürün kataloğu fiyatlandırması
 description: Bu konu, ürün kataloğu fiyatlandırmasının Dynamics 365 Project Service Automation'da (PSA) çalışma şekli hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000195"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151232"
 ---
 # <a name="product-catalog-pricing"></a>Ürün kataloğu fiyatlandırması 
 
@@ -44,7 +46,7 @@ Proje tabanlı satırlarda, sözleşme kazanılan anlaşmayı temsil eder. Anla�
 
 Fiyatlar fiyat listesi fiyatı, standart maliyet veya geçerli maliyet işlevi olarak yapılandırıldığında, PSA çeşitli yuvarlama seçeneklerini destekler. Birden çok fiyatlandırma yönteminden ve yuvarlama seçeneğinden yararlanmaya ek olarak, indirim listelerini fiyat listesi öğeleriyle ilişkilendirebilirsiniz. 
 
-> ![Katalogdan ürünleri farklı fiyat listelerine ekleme.](media/basic-guide-16.png)
+> ![Katalogdan ürünleri farklı fiyat listelerine ekleme](media/basic-guide-16.png)
 
 **Proje Teklifi** sayfasında **Özel fiyatlandırma oluştur** oluştur seçeneğini belirleyerek bir teklif için yeni bir özel fiyat listesi oluşturduğunuzda, PSA fiyat listesinin bir kopyasını oluşturur ve yeni fiyat listesinin başlığındaki **Varlık** alanı **Satış Varlığı** olarak ayarlanır. Yeni fiyat listesinin adı, teklifin adı ve bir zaman damgasıyla birlikte eklenir. Özel fiyatlandırma kullanan teklifler için ek gözden geçirme ve onaylar tetiklemek için yeni fiyat listesinin adını ve teklifin adını özel iş akışlarında da kullanabilirsiniz.
 
@@ -62,6 +64,3 @@ Fırsat, Teklif ve Proje Sözleşmesi varlıkları varsayılan ürün fiyatı li
 Varsayılan olarak, teklif satırındaki **Ürün** alanı, teklifin ürün fiyatı listesindeki tüm etkin ürünleri listeler. Ürün devre dışı bırakılmışsa veya bir taslak ürünse, fiyat listesinde olsa bile listelenmez. 
 
 Ürün kataloğu satırları, proje sözleşmesi için oluşturulan ilk faturaya fatura satırları olarak eklenir. Bir taslak faturada, bu fatura satırları silinebilir. Bu durumda, satırlar faturalanıncaya veya fatura müşteriye gönderilene kadar bir sonraki faturada görüntülenir. PSA'da, ürün fatura satırındaki kısmi bir miktarı faturalayamazsınız. Proje sözleşmesindeki ürün satırları faturalandığında, fiili değerler oluşturulur. Ancak, bu fiili değerler ilgili proje varlığına bağlanmaz. Başka bir deyişle, ürün tabanlı proje sözleşme satırları proje tabanlı kullanımdan bağımsızdır. PSA, projelerdeki malzeme tüketimini izlemez.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,12 @@
 title: Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 description: Bu konu fiyatlandırma boyutlarına genel bir bakış sağlar.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998485"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151322"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 
@@ -41,7 +42,7 @@ Proje tabanlı kuruluşlarda işçi ücretlerini ve maliyetleri ayarlamak için 
 
 PSA varsayılan fiyatlandırma boyutları kümesiyle gelir. Bunları, **Project Service** > **Parametreler**'e giderek görüntüleyebilirsiniz. Parametre kaydında, **Tutar tabanlı fiyatlandırma boyutları** sekmesinde, rolün (**msdyn_resourcecategory**) ve kaynak kuruluş biriminin (**msdyn_organizationalunit**) **Satış için geçerli** ve **Maliyet için geçerli** alanlarının **Evet** olarak ayarlanmış olduğunu doğrulayın. Bu, her rol ve kuruluş birimi birleşimi için fiyatı ve maliyeti ayarlamanıza olanak sağlar.
 
-!["Satış için geçerli" seçeneğinin vurgulandığı Project Service parametreleri ekran görüntüsü.](media/PS-OOB-parameters.png)
+!["Satış için geçerli" seçeneğinin vurgulandığı Project Service parametreleri ekran görüntüsü](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > PSA sürüm 3'ten önce fiyatlandırma boyutları olarak rol ve kuruluş biriminin kullanıma hazır alanlarını kullanıyorduysanız belirgin bir değişiklik olmayacaktır. Project Service'ı her zamanki gibi kullanmaya devam edebilirsiniz. 
@@ -64,18 +65,15 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 
 **Örnek fatura oranları**
 
-| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ------------|-------------|----------|----------:|----------|
-| Geliştirici   | Contoso ABD  |Saat | 200|USD     |
-| Geliştirici   | Contoso Hindistan |Saat|   112|USD     |
+| Geliştirici   | Contoso ABD  |Hour | 200|USD     |
+| Geliştirici   | Contoso Hindistan |Hour|   112|USD     |
 
 
 **Örnek maliyet oranları**
 
-| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso ABD  |Saat | 145|USD     |
-| My company_Band2 | Contoso Hindistan |Saat|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso ABD  |Hour | 145|USD     |
+| My company_Band2 | Contoso Hindistan |Hour|   67|USD     |

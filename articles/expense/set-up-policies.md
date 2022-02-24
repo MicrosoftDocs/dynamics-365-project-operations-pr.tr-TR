@@ -2,9 +2,11 @@
 title: Gider ilkelerini tanımla
 description: Gider raporlarını ve seyahat taleplerini girerken ve gönderirken çalışanlarınızın izlemesi gereken gider ilkelerini tanımlayabilirsiniz.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986380"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128442"
 ---
 # <a name="define-expense-policies"></a>Gider ilkelerini tanımla
 
@@ -46,11 +48,8 @@ Burada, gider yönetimi konusunda yeni ilkeler oluştururken size yardımcı ola
 
 - İlkeler tarih etkindir; giderin gerçekleştiği tarihten sonraki bir tarihte oluşturulmuşsa ilkenin geçerli olmayacağı anlamına gelir. Örneğin, bugün yemek giderinin 50 doları aşmayacağı şekilde yeni bir ilke oluşturabilirsiniz. Dün girilen tüm var olan giderler bu ilkeye göre denetlenmez.
 - Dökümü alınabilecek bir gider kategorisi için ilke oluştururken, masraf satırı türü için bir koşul eklemeyi gözden geçirin. Makbuz istenmesi gibi bazı ilkeler, dökümü bulunmayan satırlar için anlamlı olmayabilir. Bu durumda ilke yalnızca başlık satırına veya dökümü alınmamış bir satıra uygulanır. 
-- Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketler arası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki **Gider ilkesini ödünç alan tüzel kişiye göre değerlendir** özelliğini etkinleştirin.
+- Gider yönetimi ilkeleri varsayılan olarak kaynak varlığa göre değerlendirilir. Şirketlerarası senaryolarda, bu ilkeyi hedef varlığa (ödünç alan varlık yerine) göre değerlendirilecek şekilde ayarlayabilirsiniz. İlkeleri hedef varlığa göre çalıştırmak için, **Özellik yönetimi** çalışma alanındaki **Gider ilkesini ödünç alan tüzel kişiye göre değerlendir** özelliğini etkinleştirin.
 
 ## <a name="when-to-evaluate-policies"></a>İlkeler ne zaman değerlendirilir
 
 Gider yönetimi parametrelerinde, bir satır kaydedildiğinde veya gider raporu gönderildiğinde gider yönetimi ilkelerini değerlendirmeyi seçebilirsiniz. Bir satır kaydedildiğinde değerlendirmeyi seçerseniz, kullanıcılar gider raporlarının hepsini aynı anda tamamlamak için ne yapmaları gerektiği konusunda daha önceden görünürlüğe sahip olur. Aksi takdirde, iş akışına gönderim sırasında ilke değerlendirmesini erteleyebilir ve sonda da doğrulayarak zaman kazanabilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

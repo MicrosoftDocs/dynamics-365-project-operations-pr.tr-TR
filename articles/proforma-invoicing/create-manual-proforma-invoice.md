@@ -1,25 +1,42 @@
 ---
-title: Proforma faturalar
-description: Bu konu, Project Operations'ta proforma faturalar hakkında bilgi sağlar.
+title: El ile proforma fatura oluşturma
+description: Bu konu, bir proforma faturanın oluşturulması hakkında bilgi sağlar.
 author: rumant
-ms.date: 04/05/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128082"
 ---
-# <a name="proforma-invoices"></a>Proforma faturalar
+# <a name="create-a-manual-proforma-invoice"></a>El ile proforma fatura oluşturma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Proforma faturalama, müşteri faturaları oluşturmadan önce proje yöneticilerine ikinci bir onay düzeyi sağlar. Proje takım üyelerinin gönderdiği zaman, gider ve malzeme girişleri onaylandığında onayın ilk düzeyi tamamlanır. Onaylı proforma faturaları, Project Operations'ın Proje Muhasebesi modülünden kullanılabilir. Proje muhasebecileri; satış vergisi, muhasebe ve fatura düzeni gibi ek güncelleştirmeler gerçekleştirebilir.
+Faturalama, müşteriler için fatura oluşturmadan önce proje yöneticilerine ikinci bir onay düzeyi verir. Proje takım üyelerinin gönderdiği zaman ve gider girişleri onaylandığında onayın ilk düzeyi tamamlanır.
 
+Dynamics 365 Project Operations, aşağıdaki nedenlerden dolayı müşteriye yönelik faturalar oluşturmak üzere tasarlanmamıştır:
+
+- Vergi bilgilerini içermez.
+- Doğru yapılandırılmış döviz kurlarını kullanarak diğer para birimlerini faturalama para birimine dönüştüremez.
+- Faturaları, yazdırılabilmeleri için doğru olarak biçimlendiremez.
+
+Bunun yerine, oluşturulan fatura tekliflerinden bilgileri kullanan müşteriye yönelik faturalar oluşturmak için mali veya muhasebe sistemini kullanabilirsiniz.
 
 ## <a name="creating-project-invoices"></a>Proje faturaları oluşturma
 
@@ -33,7 +50,7 @@ Belirli bir proje sözleşmesi için fatura oluşturmak üzere bu adımı izleyi
 
 - **Proje Sözleşmeleri** listesi sayfasında bir proje sözleşmesi açın ve sonra **Fatura oluştur** 'u seçin.
 
-    **Faturalamaya Hazır** durumuna sahip seçili proje sözleşmesine ilişkin tüm işlemler için bir fatura oluşturulur. Bu hareketler zaman, giderler, malzemeler, kilometre taşları ve diğer faturalanmamış satış yevmiye defteri satırlarını içerir.
+    **Faturalamaya Hazır** durumuna sahip seçili proje sözleşmesine ilişkin tüm işlemler için bir fatura oluşturulur. Bu işlemler zaman, gider, kilometre taşları ve ürün tabanlı sözleşme satırlarını içerir.
 
 Faturaları toplu olarak oluşturmak için bu adımları izleyin.
 
@@ -43,7 +60,7 @@ Faturaları toplu olarak oluşturmak için bu adımları izleyin.
 
 2. İleti kutusunu kapatmak için **Tamam**'ı seçin.
 
-    **Faturalamaya Hazır** durumuna sahip sözleşme satırında tüm işlemler için bir fatura oluşturulur. Bu hareketler zaman, giderler, malzemeler, kilometre taşları ve diğer faturalanmamış satış yevmiye defteri satırlarını içerir.
+    **Faturalamaya Hazır** durumuna sahip sözleşme satırında tüm işlemler için bir fatura oluşturulur. Bu işlemler zaman, gider, kilometre taşları ve ürün tabanlı sözleşme satırlarını içerir.
 
 3. Oluşturulan faturaları görüntülemek için **Satış** \> **Faturalama** \> **Faturalar**'a gidin. Her proje sözleşmesi için bir fatura görürsünüz.
 
@@ -76,12 +93,13 @@ Fatura oluşturmaya yönelik toplu iş yinelenen bir iştir. Bu toplu iş birço
  
 ### <a name="edit-a-draft-invoice"></a>Taslak bir faturayı düzenleme
 
-Bir taslak proje faturası oluşturduğunuzda, zaman, gider ve malzeme kullanımı girişleri onaylandığında oluşturulan tüm faturalanmamış satış işlemleri faturaya alınır. Fatura hala taslak aşamasındayken aşağıdaki ayarlamaları yapabilirsiniz:
+Bir taslak proje faturası oluşturduğunuzda, zaman ve gider girişleri onaylandığında oluşturulan tüm faturalandırılmamış satış işlemleri faturaya alınır. Fatura hala taslak aşamasındayken aşağıdaki ayarlamaları yapabilirsiniz:
 
 - Fatura satırı ayrıntılarını silmek veya düzenlemek.
 - Miktarı ve faturalandırma türünü düzenlemek ve ayarlamak.
+- Zaman, gider ve ücretleri faturadaki işlemler olarak doğrudan eklemek. Bu işlem sınıflarına izin veren bir sözleşme satırıyla eşlenmiş fatura satırı varsa, bu özelliği kullanabilirsiniz.
 
-Bir faturayı onaylamak için **Onayla**'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalanmamış bir satış fiili değerine başvuruyorsa sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
+Bir faturayı onaylamak için **Onayla**'yı seçin. Onayla eylemi tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, sistem faturayı salt okunur yapar ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalandırılmamış bir satış fiili değerine başvuruyorsa, sistem faturalanmamış satış fiili değerini de tersine çevirir. (Bir zaman veya gider girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalandırmamış bir satış fiili değerine başvuracaktır.) Genel muhasebe tümleştirme sistemleri, bu geri çevirme işlemini, süren proje işlerini (WIP) muhasebe amacıyla tersine çevirmek için kullanabilir.
 
 ### <a name="correct-a-confirmed-invoice"></a>Onaylanmış faturayı düzeltme
 
@@ -93,6 +111,3 @@ Düzeltme faturasını onaylandıktan sonra, orijinal faturalanmış satış fii
 
 - Altı saat için faturalanmış satış fiili değeri.
 - Kalan iki saat için faturalandırılmamış bir satış fiili değeri. Müşteriyle yapılan anlaşmaya bağlı olarak bu hareket daha sonra faturalanabilir veya borçlandırılamaz olarak işaretlenebilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

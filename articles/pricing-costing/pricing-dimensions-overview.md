@@ -2,18 +2,19 @@
 title: Fiyatlandırma boyutlarına genel bakış
 description: Bu konu, Dynamics 365 Project Operations'ta fiyatlandırma boyutları hakkında bilgi sağlar.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001995"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650239"
 ---
 # <a name="pricing-dimensions-overview"></a>Fiyatlandırma boyutlarına genel bakış
 
@@ -33,7 +34,7 @@ Bu nedenle, iki tür fiyatlandırma boyutu değeri vardır:
 
 Dynamics 365 Project Operations, varsayılan fiyatlandırma boyutları kümesiyle gelir. Fiyatlandırma boyutlarını **Project Operations** > **Parametreler**'e giderek görüntüleyebilirsiniz. Parametre kaydında, **Tutar tabanlı fiyatlandırma boyutları** sekmesinde, rolün (**msdyn_resourcecategory**) ve kaynak kuruluş biriminin (**msdyn_organizationalunit**) **Satış için geçerli** ve **Maliyet için geçerli** alanlarının **Evet** olarak ayarlanmış olduğunu doğrulayın. Bu alanlar etkinleştirildiğinde her rol ve kuruluş birimi birleşimi için fiyatı ve maliyeti ayarlayabilirsiniz.
 
-!["Satış için geçerli" seçeneğinin vurgulandığı Project Service parametreleri ekran görüntüsü.](media/PS-OOB-parameters.png)
+!["Satış için geçerli" seçeneğinin vurgulandığı Project Service parametreleri ekran görüntüsü](media/PS-OOB-parameters.png)
 
 Kaynaklarınız için ek öznitelikleri kullanarak fiyat veya maliyet almanız gerekiyorsa, özelleştirilmiş alanlar, varlıklar ve boyutlar oluşturabilirsiniz. Daha fazla bilgi için aşağıdaki konulara bakın. 
   
@@ -58,18 +59,15 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 
 **Örnek fatura oranları**
 
-| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ------------|-------------|----------|----------:|----------|
-| Geliştirici   | Contoso ABD  |Saat | 200|USD     |
-| Geliştirici   | Contoso Hindistan |Saat|   112|USD     |
+| Geliştirici   | Contoso ABD  |Hour | 200|USD     |
+| Geliştirici   | Contoso Hindistan |Hour|   112|USD     |
 
 
 **Örnek maliyet oranları**
 
-| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso ABD  |Saat | 145|USD     |
-| My company_Band2 | Contoso Hindistan |Saat|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso ABD  |Hour | 145|USD     |
+| My company_Band2 | Contoso Hindistan |Hour|   67|USD     |

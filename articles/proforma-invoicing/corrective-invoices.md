@@ -1,258 +1,38 @@
 ---
-title: Düzeltici proje tabanlı faturalar
-description: Bu konu, Project Operations'ta düzeltici proje tabanlı fatura oluşturma ve onaylama hakkında bilgi sağlar.
+title: Düzeltilen faturalar
+description: Bu konu düzeltilen faturalar hakkında bilgi sağlar.
 author: rumant
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997180"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122412"
 ---
-# <a name="corrective-project-based-invoices"></a>Düzeltici proje tabanlı faturalar
+# <a name="corrected-invoices"></a>Düzeltilen faturalar
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Onaylı proje faturaları müşteri ve proje yöneticisiyle görüşülür, değişiklikleri veya kredileri işlemek için düzeltilebilir.
+Onaylanan faturalar düzenlenebilir. Onaylı bir faturayı düzeltirken, düzeltilen faturaya ait bir taslak oluşturulur. Orijinal faturadaki tüm hareketleri ve miktarları tersine çevirmek istediğiniz varsayıldığından, düzeltilen fatura orijinal faturadaki tüm işlemleri içerir ve üzerindeki tüm miktarlar 0 (sıfır) olur.
 
-Onaylı bir faturada düzenlemeler yapmak için, onaylanan faturayı açın ve **Bu faturayı Düzelt**'i seçin. 
+Herhangi bir hareketin düzeltilmesi gerekmiyorsa, bunları taslak düzeltme faturasından kaldırabilirsiniz. Yalnızca kısmi miktarı ters çevirmek veya geri döndürmek için, satır ayrıntısında Miktar alanını düzenleyebilirsiniz. Fatura satırı ayrıntısını açarsanız, orijinal fatura miktarını görebilirsiniz. Ardından, geçerli fatura miktarını, orijinal fatura miktarından az veya daha fazla olacak şekilde düzenleyebilirsiniz.
 
-> [!NOTE]
-> Proje faturası onaylanmadıkça veya proje tabanlı faturada avanslar veya elde tutulan tutar ya da avansların veya elde tutulan tutarların mutabakatları yoksa bu seçim kullanılamaz.
+Düzeltme faturasını onaylandıktan sonra, orijinal faturalanmış satış fiili değeri tersine çevrilir ve yeni bir faturalanmış satış fiili değeri oluşturulur. Miktar azaltılırsa, fark faturalanmamış yeni bir satış fiili değeri oluşturulmasına neden olur. Örneğin, orijinal faturalanmış satış sekiz saat içinse ve düzeltilen fatura satır ayrıntısı altı saatlik bir miktar içeriyorsa, orijinal faturalanan satış satırı ters çevrilir ve iki yeni gerçek değer oluşturulur:
 
-Onaylanan faturadan yeni bir taslak fatura oluşturulur. Daha önce onaylanan faturadan tüm fatura satırı ayrıntıları yeni taslağın kopyası alınır. Yeni düzeltilen fatura hakkındaki satır ayrıntılarını anlamak için aşağıda yer alan önemli noktaların bazıları aşağıda verilmiştir:
-
-- Tüm miktarlar sıfıra güncelleştirilir. Dynamics 365 Project Operations, tüm faturalanan maddelerin tam olarak alacaklandırıldığını varsayar. Gerekirse, bu miktarları, alacaklandırılan miktarı değil, faturalanan miktarı yansıtacak şekilde el ile güncelleştirebilirsiniz. Girdiğiniz miktara bağlı olarak, uygulama alacaklı miktarı hesaplar. Bu miktar, düzeltilen fatura onaylandığı zaman oluşturulan fiili değerlere yansıtılır. Vergi tutarında değişiklikler yapıyorsanız, alacak kaydedilen vergi tutarını değil, doğru vergi tutarını girmeniz gerekir.
-- Kilometre taşı düzeltmeleri her zaman tam kredi olarak işlenir.
-
-
-> [!IMPORTANT]
-> Önceden faturalandırılmış diğer giderlere yönelik düzeltmeler olan fatura satırı ayrıntılarının **Düzeltme** alanı, **Evet** olarak ayarlanmıştır. Düzeltilmiş fatura satırı ayrıntıları olan faturaların **Düzeltmeler var** alanı, **Evet** olarak ayarlanmıştır.
-
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Bir düzeltici fatura onaylandığında oluşturulan gerçek değerler
-
-Aşağıdaki tabloda, bir düzeltici fatura onaylandıktan sonra oluşturulan gerçek değerler listelenmiştir.
-
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    <strong>Senaryo</strong>
-                </p>
-            </td>
-            <td width="808" valign="top">
-                <p>
-                    <strong>Onayda oluşturulan fiililer</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Daha önce faturalandırılmış bir zaman hareketinin tam kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için yeni faturalandırılmış satış fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Bir zaman hareketinde kısmi kredi faturalama.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Saat için orijinal fatura satırı ayrıntısındaki saat ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Düzenlenen fatura satırı ayrıntısı üzerindeki saat ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan saatler ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Daha önce faturalandırılmış bir gider hareketinin tam kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Gider için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Gider için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için yeni faturalandırılmamış satış fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Daha önce faturalandırılmış bir gider hareketinin kısmi kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Gider için orijinal fatura satırı ayrıntısında faturalandırılan miktar ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Doğrulanan fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan miktar ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.
-                </p>
-            </td>
-        </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Daha önce faturalanmış bir malzeme hareketinin tam kredisinin faturalanması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve tutar için faturalanmış satışı tersine çevirme işlemi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve tutar için yeni faturalanmamış satış gerçek değeri.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Malzeme hareketindeki kısmi kredinin faturalanması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Malzemenin orijinal fatura satırı ayrıntılarındaki miktar ve faturalanan tutar için faturalanmış satışı tersine çevirme işlemi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Düzenlenen fatura satırı ayrıntısındaki miktar ve tutar için borçlandırılabilen yeni faturalanmayan satış gerçek değeri, bunun tersine çevrilmesi ve eşdeğer faturalanan satış gerçek değeri.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Fatura satırı ayrıntısıyla düzeltilen rakamların düşüldükten sonra kalan miktar ve tutar için masraflandırılabilen yeni faturalandırılamayan satış fiili gerçek değeri.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Daha önce faturalandırılmış bir ücret hareketinin tam kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Ücret için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Ücret için orijinal fatura satırı ayrıntısındaki miktar ve tutarı için yeni faturalandırılmamış satış fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Daha önce faturalandırılmış bir ücret hareketinin kısmi kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Ücret için orijinal fatura satırında faturalanan miktar ve tutarı için faturalandırılmış satış tersi.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Doğrulanan fatura satırı ayrıntısı üzerindeki miktar ve tutar için ücretlendirilebilen yeni bir faturalanmamış satış fiili, satışların fiilinin tersine çevrilmesi ve eşdeğer faturalı satışların fiili.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Daha önce faturalandırılmış bir dönüm noktasının tam kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Dönüm noktası için orijinal fatura satırı ayrıntısındaki tutarı için faturalandırılmış satış tersi.
-                </p>
-                <p>
-Kilometre taşının fatura durumu, <b>Deftere Nakledilen Müşteri Faturası</b> durumundan <b>Faturalanmaya Hazır</b> durumuna güncelleştirilir.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Daha önce faturalandırılmış bir dönüm noktasının kısmi kredisinin faturalandırılması.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Bu senaryo desteklenmez.
-                </p>
-            </td>
-        </tr>       
-    </tbody>
-</table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- Altı saat için faturalanmış satış fiili değeri.
+- Kalan iki saat için faturalandırılmamış bir satış fiili değeri. Müşteriyle yapılan anlaşmaya bağlı olarak bu hareket daha sonra faturalanabilir veya borçlandırılamaz olarak işaretlenebilir.

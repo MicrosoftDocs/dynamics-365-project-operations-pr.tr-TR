@@ -2,9 +2,11 @@
 title: Gider raporunda birden çok onaylayan
 description: Bu konu birden çok kişi tarafından onay gerektiren gider raporları hakkında bilgi sağlar.
 author: saraschi2
+manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995920"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271737"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Gider raporunda birden çok onaylayan
 

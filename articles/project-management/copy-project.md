@@ -2,29 +2,30 @@
 title: Proje kopyalama
 description: Bu konuda, Dynamics 365 Project Operations'ta projeleri kopyalama hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007215"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479543"
 ---
 # <a name="copy-a-project"></a>Projeyi kopyalama
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations ile, **Projeler** formunda **Projeyi Kopyala** seçeneğini belirleyerek hızlıca yeni projeler oluşturabilirsiniz. Bir proje kopyalamak için kopyalamak istediğiniz projeyi açın ve **proje Kopyala** seçeneğini belirleyin. Eylem, aşağıdakileri kopyalayacaktır:
+Dynamics 365 Project Operations ile, **Projeler** formunda **Projeyi Kopyala** seçeneğini belirleyerek hızlıca yeni projeler oluşturabilirsiniz. Bir proje kopyalamak için kopyalamak istediğiniz projeyi açın ve **proje Kopyala** seçeneğini belirleyin. Eylem şunları kopyalar:
 
-- Proje özellikleri 
+- Proje özellikleri (Tahmini başlangıç tarihi, kaynak projeden kopyalanır)
 - İş kırılım yapısı
 - Proje takımı üyeleri
 - Proje tahminleri
 - Proje gider tahminleri
-- Proje malzeme tahminleri
 
 ## <a name="project-properties"></a>Proje özellikleri
 
@@ -41,15 +42,11 @@ Proje kopyalandığında, aşağıdaki alanlardaki değerler kopyalanır:
 - Genel Proje Durumu
 - Açıklamalar
 - Tahminler
-- Tahmini Başlangıç Tarihi: Bu, projenin kopyadan oluşturulduğu tarihtir.
-- Tahmini Bitiş Tarihi: Bu tarih, kopyadan oluşturulan yeni projenin başlangıç tarihine göre belirlenir.
+- Tahmini Başlangıç Tarihi
+- Bitiş Tarihi
 - Çalışma Süresi (Saat)
 - Tahmini İşçilik Maliyeti
 - Tahmini Gider Maliyeti
-- Tahmini Malzeme Maliyeti
-
-> [!NOTE]
-> Projeyi kopyala, uzun süre çalışan bir işlemdir. Proje kayıtları, bunların ilgili öznitelikleri ve pek çok ilişkili varlık da kopyalanır. İşlemin uzun süre çalışması nedeniyle, kopyalama başladıktan sonra hedef proje sayfası kopyalama işlemi tamamlanana kadar düzenleme için kilitlenir.
 
 ## <a name="work-breakdown-structure"></a>İş kırılım yapısı
 
@@ -61,7 +58,7 @@ Proje takımı, kaynak projeden kopyalandığında, genel kaynaklar kopyalanır.
 
 ## <a name="estimates"></a>Tahminler
 
-Proje kopyalandığında, kaynak, gider ve malzeme tahmin satırları kaynak projeden kopyalanır. 
+Proje kopyalandığında, kaynak projeden kaynak ve gider tahmini satırları kopyalanır. 
 
 Program aracılığıyla uygulamasına yönelik kopyalama projesi hakkında daha fazla bilgi için bkz. [Kopyalama projesi ile proje şablonları geliştirme](dev-copy-project.md).
 

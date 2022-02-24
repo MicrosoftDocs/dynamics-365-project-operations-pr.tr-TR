@@ -2,16 +2,18 @@
 title: Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
 description: Bu konu, tahminler ve fiili olarak satış fiyatlarının nasıl çözüldüğü hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b78d0f970f942513ecb6911d64fcffa629567f93f1a763eef20ca168080e4d02
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986290"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877469"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
 

@@ -2,16 +2,18 @@
 title: Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
 description: Bu konuda, birden çok müşterinin proje tabanlı teklif satırlarında yönetimi hakkında bilgiler sağlanmaktadır.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992050"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118587"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
 
@@ -42,6 +44,3 @@ Aşağıdaki tabloda proje tabanlı teklif satırının teklif satırı müşter
 Fatura bölme yüzdelerini satır içinde düzenleyebilirsiniz. Fatura bölme yüzdelerinin toplamı %100 olmadığında bir hata oluşur. Fatura bölme yüzdelerini düzenledikten sonra hatayı gidermek için teklif satırı sayfasını yenileyin.
 
 Fatura bölmelerini tüm teklif satırı müşterilerine ayırmak için teklif satırı müşteri alt ızgarasında eşit dağıtma eylemini kullanın. Yuvarlama faktörü varsa bu değer yuvarlama müşterisine eklenir. Teklif satırı müşterilerinden biri her zaman yuvarlanan müşteri olarak etiketlenir; bu da etiketlenen teklif satırı müşteri kaydının yuvarlama bayrağının **Evet** olarak ayarlandığı anlamına gelir. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

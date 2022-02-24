@@ -2,16 +2,18 @@
 title: Proje kategorilerini yapılandırma
 description: Bu konuda, proje kategorilerini ayarlama hakkında bilgiler sağlanmaktadır.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997135"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131952"
 ---
 # <a name="configure-project-categories"></a>Proje kategorilerini yapılandırma
 
@@ -23,11 +25,11 @@ Aşağıdaki diyagramda, işlem kategorileri, paylaşılan kategoriler ve proje 
 
 İşlem kategorileri, proje işlemlerinin temel gruplarıdır. Bu grupların içinde, uygulamalar ve modüller arasında paylaşılabilen bir dizi paylaşılan kategori bulunur. Daha fazla ayrıntı vermek gerekirse proje kategorileri en ayrıntılı kategori düzeyidir. Proje kategorileri tüzel kişiliğe, modüle ve uygulamaya özeldir.
 
-![İşlem kategorileri, paylaşılan kategoriler ve proje kategorileri arasındaki bağıntı.](media/project-categories.png)
+![İşlem kategorileri, paylaşılan kategoriler ve proje kategorileri arasındaki bağıntı](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Hareket kategorileri
 
-İşlem kategorileri, proje işlemlerinin temel gruplarını temsil eder ve şirkete veya işlem türüne özgü değildir. Örneğin ContosoRobotics, proje işlemlerini gruplamak için Tasarım, Seyahat, Kurulum ve Servis Hareketi kategorilerini kullanır.
+İşlem kategorileri, proje işlemlerinin temel gruplarını temsil eder ve şirkete veya işlem türüne özgü değildir. Örneğin, Contoso Robotics, Proje işlemlerini gruplandırmak için Tasarım, Seyahat, Kurulum ve Servis İşlemi kategorilerini kullanır.
 
 İşlem kategorileri Project Operations modülünde tanımlanır. 
 1. Formu açmak için **Ayarlar** \> **İşlem Kategorileri**'ne gidin. 
@@ -35,7 +37,7 @@ Aşağıdaki diyagramda, işlem kategorileri, paylaşılan kategoriler ve proje 
 
 ## <a name="shared-categories"></a>Paylaşılan kategoriler
 
-Dynamics 365; Dynamics 365 Finance, Dynamics 365 Supply Chain ve Dynamics 365 Project Operations gibi farklı uygulamalarda giderleri kategorilere ayırmak için Paylaşılan kategoriler kavramını kullanır. Oluşturulan her İşlem kategorisi için Project Operations, otomatik olarak dört ilgili Paylaşılan kategori oluşturur: Saat, Gider, Ücretler ve Öğe. **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Kategoriler** \> **Paylaşılan Kategoriler**'e giderek paylaşılan kategorileri inceleyip ayarlayabilirsiniz.
+Dynamics 365, Dynamics 365 Finance, Dynamics 365 Supply Chain ve Dynamics 365 Project Operations gibi farklı uygulamalarda giderleri kategorilere ayırmak için Paylaşılan kategoriler kavramını kullanır. Oluşturulan her İşlem kategorisi için Project Operations, otomatik olarak dört ilgili Paylaşılan kategori oluşturur: Saat, Gider, Ücretler ve Öğe. **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Kategoriler** \> **Paylaşılan Kategoriler**'e giderek paylaşılan kategorileri inceleyip ayarlayabilirsiniz.
 
 ## <a name="project-categories"></a>Proje kategorileri
 
@@ -51,6 +53,3 @@ Proje kategorileri, kategori yapılandırmasının en ayrıntılı düzeyini tem
 Kategori grupları, ilgili Proje kategorileri arasında öncelikle deftere nakil profilleri olmak üzere özellikleri paylaşmak için kullanılır. Her işlem türü için en az bir kategori grubu olmalıdır ve her proje kategorisi bir gruba atanır.
 
 Project Operations'ta deftere nakil özellikleri, proje maliyeti ve gelir profili kuralları, proje kategorileri ve kategori grupları ile tanımlanır. **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Kategoriler** \> **Kategori grupları**'na giderek kategori gruplarını ayarlayabilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

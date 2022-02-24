@@ -2,9 +2,11 @@
 title: iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama
 description: Bu konuda, özel alanları uygulamak üzere uzantıları kullanmak için yaygın kalıplar sağlanır.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005775"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271017"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama
 
@@ -153,13 +155,13 @@ Bu özellik, **Tarih** türündeki alanlar için, alanın tarih değerini sunucu
 
 Aşağıda, bir zaman çizelgesi girişi oluşturma sırasında mobil uygulamadan alınan bir ekran görüntüsü yer alınır. "Zaman girişi" bölümündeki kullanıma hazır alanlar ile daha önceden ayarlanmış "Second option" enum değerine sahip "Test string" adlı özel bir alan gösterilir.
 
-![Uygulamadaki Test string özel alanı.](media/timesheet-entry.jpg)
+![Uygulamadaki Test string özel alanı](media/timesheet-entry.jpg)
 
 
 
 Aşağıdaki ekran görüntüsü, "Test string" özel alanı için verilen enum seçeneklerinden birini belirleyen kullanıcının mobil uygulamasından alınmıştır.  Bu iki seçenek, radyo düğmeleri olarak gösterilen "First option" ve "Second option" seçenekleridir. İkinci seçenek seçilidir.
 
-![Test string özel alanı için seçenek düğmeleri (radyo düğmeleri).](media/enum-option.jpg)
+![Test string özel alanı için seçenek düğmeleri (radyo düğmeleri)](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ Tipik senaryolarda, zaman çizelgesi girişi bölümündeki özel alana ait veri
 
 Aşağıdaki ekran görüntüsü Uygulama Nesne Ağacı'nın Visual Studio öğesine aittir. Özel alan olarak eklenmiş TestLineString alanı bulunan TSTimesheetLine tablosunun bir uzantısını gösterilmektedir.
 
-![Satır dizesi.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Satır dizesi](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Zaman çizelgesi girişi bölümünde bir alan göstermek için TSTimesheetSettings sınıfının buildCustomFieldList yönteminde komut zinciri kullanma
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Aşağıda; mobil uygulamadan alınan, zaman çizelgesini görüntüleyen bir kullanıcıya ait bir ekran görüntüsü yer alınır. "Daha fazla ayrıntı görüntüle" seçeneğini göstermek için, sağ üst köşedeki "Daha fazla bilgi" düğmesi seçilmiştir.  
 
-![Daha fazla ayrıntı görüntüle komutu.](media/show-more.png)
+![Daha fazla ayrıntı görüntüle komutu](media/show-more.png)
 
 Aşağıda; zaman çizelgesindeki "Daha fazla" bölümünün gösterildiği mobil uygulamadan alınan bir ekran görüntüsü yer alınır. "Utilization rate of this timesheet (computed custom field)" adlı özel alan, zaman çizelgesi başlığı bölümüne eklendi. Özel alanda salt okunur olan "0,667" değeri ayarlanır.
 
-![Daha fazla bölümü.](media/more-section.jpg)
+![Daha fazla bölümü](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Özel bir alanı olması için TSTimesheetTable tablosunu genişletme
 
@@ -414,7 +416,7 @@ Veritabanı düzeyindeki zaman çizelgesi işlevselliği için var olan mantık,
 
 Proje parametrelerinden, kullanıma hazır alanları mobil uygulamada salt okunur veya gizli yapabilirsiniz. **Proje yönetimi ve muhasebe parametreleri** sayfasının **Zaman çizelgesi** sekmesindeki **Mobil zaman çizelgeleri** bölümünden seçenekleri ayarlayın.
 
-![Proje Parametreleri.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Proje parametreleri](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Uzantılar aracılığıyla seçim için verilen etkinlikleri değiştirme
 

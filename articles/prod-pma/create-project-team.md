@@ -2,9 +2,11 @@
 title: Proje takımı oluşturma
 description: Bu konu, proje ekipleri oluşturma ve yönetme hakkında bilgi sağlar.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005820"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270882"
 ---
 # <a name="create-a-project-team"></a>Proje ekibi oluşturma
 
@@ -33,7 +35,7 @@ Görünüm ayarları, kaynak kullanılabilirliğinin daha iyi bir görünümün�
 
 Proje yöneticisi sayfada bir rol seçebilir ve gereksinime uyan bir kaynak varsa, rolü doldurmak için bir kaynak ayırmayı seçer. Kaynakların planlama aşaması sırasında bu noktada ayrılmasının zorunlu olmadığını unutmayın. İKY oluştururken, proje için rolleri personelli kaynakla değiştirebilirsiniz. Roller İKY'de personelli kaynaklarla değiştirilmişse, kaynak kurulumu proje ekibi dökümünü ve zamanlamasını otomatik olarak güncelleştirir.
 
-[![Rollerin ve gerçek kaynakların her ikisini de içeren proje ekibi dökümü.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Rollerin ve gerçek kaynakların her ikisini de içeren proje ekibi dökümü](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Proje yöneticisinin **Kalan kapasite**, **Tam kapasite**, **Kapasite yüzdesi** ve **Saatleri belirt** gibi bir projeyle ilgili kaynağı belirlemek için çeşitli seçenekleri vardır. Bu ayırma seçenekleri, kaynak atamaları değiştirilirse istediğiniz zaman iptal edilebilir. İki tür ayırma desteklenir:
 

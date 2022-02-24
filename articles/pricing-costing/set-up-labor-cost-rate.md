@@ -2,16 +2,18 @@
 title: İşçilik maliyet oranlarını ayarlama
 description: Bu konu, Project Operations'ta iş gücü için maliyet oranlarını ayarlama hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986200"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180621"
 ---
 # <a name="set-up-labor-cost-rates"></a>İşçilik maliyet oranlarını ayarlama
 
@@ -38,7 +40,7 @@ Aşağıdaki tablo, maliyet fiyat listesinde işçilik oranları oluştururken �
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Bölümünüz veya tüzel kişiliğiniz dışındaki kaynaklar için fiyatlandırma ve maliyet aktarımı
 
-Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerlerinden çalışanları kullanmaları için. Bir proje tek bir tüzel kişi tarafından yürütülebilir, ancak proje üzerinde çalışan çalışanlar veya danışmanlar aynı tüzel kişiden veya farklı bir tüzel kişiden gelebilir veya her ikisinin bir kombinasyonu olabilir. Dynamics 365 Project Operations'te, projenin teslimatına sahip tüzel kişilik **Sahibi Olan Şirket**'tir ve teslimata sahip bölüm **Sözleşme Birimi**'dir. Kaynak sağlayan diğer tüzel kişiler **Kaynak şirketleri** ve kaynak sağlayan bölümler **Kaynak üniteler**'dir. Çoğu ülkede, şirketlerin kaynak tüzel kişi veya bölüm sağlamak için, kaynak kullanımı için sahibi şirket ve sözleşme birimi ücret gereklidir.
+Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerlerinden çalışanları kullanmaları için. Bir proje tek bir tüzel kişi tarafından yürütülebilir, ancak proje üzerinde çalışan çalışanlar veya danışmanlar aynı tüzel kişiden veya farklı bir tüzel kişiden gelebilir veya her ikisinin bir kombinasyonu olabilir. Dynamics 365 Project Operations'nde, projenin teslimine sahip tüzel kişi **Sahibi Şirket**, teslimin sahibi ise **Yüklenici Birimdir**. Kaynak sağlayan diğer tüzel kişiler **Kaynak şirketleri** ve kaynak sağlayan bölümler **Kaynak üniteler**'dir. Çoğu ülkede, şirketlerin kaynak tüzel kişi veya bölüm sağlamak için, kaynak kullanımı için sahibi şirket ve sözleşme birimi ücret gereklidir.
 
 Örneğin, Fabrikam şirketi, Fabrikam Hindistan-Robotik'in Fabrikam ABD-Robotik veya Fabrikam İngiltere-Robotik ile bir maliyet oranı kartı üzerinde anlaşma sağladığından emin olmalıdır.
 
@@ -82,6 +84,3 @@ Fabrikam US-Robotics'in maliyet fiyat listesinde maliyet oranları şu şekilde 
 | Geliştirici | Fabrikam İngiltere | 115 GBP |
 
 Maliyet fiyat listesi birden çok para biriminde işçilik oranları sağlayabilir. Proje üzerinde bir maliyet tahmini oluştururken, Project Operations bu maliyet oranlarını proje para birimine dönüştürür ve kullanıcıya görüntüler. Bir zaman girişi onaylandığında ve bir maliyet fiili oluşturulduğunda, maliyet fiili, maliyet fiyat listesindeki eşleşen rol fiyat satırının para birimi cinsinden fiyatlandırılır. Tek bir projedeki zaman ait maliyet fiili, birden çok para birimine kaydedilebilir. Ancak, proje düzeyindeki gerçek işçilik maliyetlerini oluştururken veya özetlediğinizde, proje Işlemleri tüm işçilik maliyet tutarlarını kullanıcının görüntüleyebileceği proje para birimine dönüştürür.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Temsilci atamayı yönetme
 description: Bu konuda, bir gider temsilcisinin başka bir çalışan için gider raporları oluşturması ve bunları yönetmesi hakkında bilgiler sağlanmaktadır.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997810"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122727"
 ---
 # <a name="manage-delegation"></a>Temsilci atamayı yönetme
 Gider temsilcisi, başka bir çalışan için gider raporları oluşturabilir ve bunları yönetebilir.
@@ -37,6 +39,3 @@ Kullanıcıyı gider temsilcisi olarak ayarlamak için aşağıdaki adımları t
 Temsilci, temsilci olarak atandığı var olan gider raporlarını hızlıca filtreleyebilir ve arayabilir. Temsilci ayrıca **Yeni gider raporu**'nu seçerek diğer kullanıcılar için hızlı bir şekilde yeni bir gider raporu oluşturabilir.
 
 Temsilciler, **Gider yönetimi** > **Giderlerim** > **Gider raporları**'na gidip **Diğer kullanıcıların giderlerini aç**'ı seçerek diğer çalışanlar için gider raporları oluşturabilir ve bunları yönetebilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

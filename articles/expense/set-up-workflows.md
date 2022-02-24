@@ -2,9 +2,11 @@
 title: Gider yönetimi için iş akışlarını ayarlama
 description: Seyahat ve gider belgelerini gözden geçirmek ve onaylamak için kullanılan bir iş akışı işlemi ayarlayabilirsiniz.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127722"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Gider yönetimi için iş akışlarını ayarlama
 
@@ -46,6 +48,3 @@ Aşağıdaki tabloda, **Gider yönetimi** öğesinde oluşturabileceğiniz iş a
 |       <strong>Seyahat talebi</strong>       |          Seyahat istekleri için onay iş akışları oluşturun.           |
 |      <strong>Nakit avans isteği</strong>      |         Nakit avans istekleri için onay iş akışları oluşturun.          |
 |        <strong>KDV vergisinden düşme</strong>        | Katma değer vergisinin (KDV) düşülmesi için onay iş akışları oluşturun.  |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

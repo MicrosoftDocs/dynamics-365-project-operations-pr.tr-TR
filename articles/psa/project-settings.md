@@ -2,6 +2,8 @@
 title: Proje ayarları
 description: Bu konu, proje yönetim ayarları hakkında bilgi sağlar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996955"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148172"
 ---
 # <a name="project-settings"></a>Proje ayarları
 
@@ -45,9 +47,9 @@ Proje zamanlaması oluşturmak için günlük çalışma saatleri sayısını ve
 
   - Yeni Haftalık Zamanlama
   - Bir Gün için Çalışma Zamanlaması
-  - İzin
+  - Boş Zaman
 
-> ![Seçenekleri ayarlama.](media/project-13.png)
+> ![Seçenekleri ayarlama](media/project-13.png)
 
 4. **Yeni Haftalık Zamanlama**'yı seçin ve ardından bu kaynak zamanlaması için seçenekleri ayarlayın. Yinelenen haftalık zamanlama, günlük saat parametreleri, işletme kapanışları ve daha fazlasını ayarlayabilirsiniz.
 5. Tarih aralığını ayarlayın, **Kaydet**'i seçin ve ardından **Kapat**'a tıklayın. 
@@ -66,6 +68,3 @@ Her kuruluş bu rolleri **Etkin Kaynak Kategorileri** sayfasında ayarlamalıdı
 ## <a name="price-lists"></a>Fiyat listeleri
 
 Fiyat listeleri bir kuruluştaki kaynak rolleri için maliyet ve satış fiyatlarını, gider kategorilerini, ürünleri ve diğer öğeleri ayarlamanızı sağlar. Projenin teslim edilmesi gereken işi için mali tahminleri ayarlamadan önce destek maliyeti ve satış fiyat listesini oluşturmalısınız. Parametreler bölümünde kuruluşta oluşturulan tüm projeler için geçerli bir varsayılan maliyet ve satış fiyat listesi ayarlamalısınız. **Etkin Proje Parametreleri** sayfasında varsayılan bir maliyet ve satış fiyat listesi ayarladığınızdan emin olun.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

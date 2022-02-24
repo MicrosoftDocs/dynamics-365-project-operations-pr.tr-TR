@@ -2,6 +2,8 @@
 title: Birden fazla para birimi senaryoları (sürüm 3.x)
 description: Bu konu, çoklu para birimi senaryoları hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005146"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145697"
 ---
 # <a name="multiple-currency-scenarios"></a>Birden fazla para birimi senaryoları
 
@@ -103,6 +105,3 @@ Dynamics 365, farklı para birimlerindeki tutarların toplamalarını otomatik o
 | Gider           | Faturalanmayan satış   | 17 Haz | Doğu  | Araba Kiralama           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Projedeki toplam faturalandırmayan satış değerini hesaplamak için, tüm ilgili faturalanmayan satış fiili değerleri üzerinde **Tutar** alanı için bir toplama alanı oluşturabilirsiniz. Toplama alanı, ilgili kayıtlarda hızlı formüllere olanak sağlayan bir Dynamics 365 yapısıdır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

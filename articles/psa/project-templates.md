@@ -2,6 +2,8 @@
 title: Proje şablonları
 description: Bu konu, hızlı proje kurulumu için proje şablonlarının nasıl kullanılacağı hakkında bilgi sağlar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002535"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148082"
 ---
 # <a name="project-templates"></a>Proje şablonları 
 
@@ -47,7 +49,7 @@ Proje şablonundan proje oluşturmanın çeşitli yolları vardır:
 
 - Tekliften bir proje oluşturduğunuzda **Hızlı Oluştur: Proje** iletişim kutusundan bir proje şablonu seçebilirsiniz.
 
-> ![Hızlı Oluştur: Proje iletişim kutusu.](media/project-11.png)
+> ![Hızlı Oluştur: Proje iletişim kutusu](media/project-11.png)
 
 - **Yeni Proje**'yi seçerek bir proje oluşturduğunuzda kayıt kaydedilmeden önce **Proje** sayfası görüntülenir. **Şablon Seç** alanında, kuruluşta önceden tanımlanmış proje şablonlarından birini seçin.
 - **Şablon Varlığı** sayfasındaki **Şablondan Proje Oluştur**'u kullanın.
@@ -67,6 +69,3 @@ Proje tahmini satırları arasında kopyalama yaptığınızda fiyat listeleri g
 ### <a name="copying-a-project-team"></a>Proje takımını kopyalama
 
 Proje takımı proje şablonundan bir projeye kopyalandığında genel kaynaklar, şablonda tanımlanan beceriler ve uzmanlıklarla birlikte kopyalanır. Genel kaynak atamaları da proje şablonunda olduğu gibi korunur. Adlandırılmış kaynaklar proje şablonlarında desteklenmez.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

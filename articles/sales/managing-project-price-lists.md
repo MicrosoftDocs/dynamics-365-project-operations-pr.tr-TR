@@ -2,9 +2,11 @@
 title: Teklifte proje fiyat listelerini yönetme
 description: Bu konu, Proje fiyat listesi varlığı hakkında bilgi sağlar.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003930"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177220"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Teklifte proje fiyat listelerini yönetme
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, Dynamics 365 Sales'deki Fiyat listesi varlığını genişletir. 
+Dynamics 365 Project Operations, Dynamics 365 Sales'de Fiyat listesi varlığını genişletir. 
 
 ## <a name="key-entities"></a>Önemli varlıklar
 
@@ -118,6 +120,3 @@ Fatura oranları gibi, insan kaynaklarına yönelik maliyet oranları da fiyat l
     1. Kuruluş birimine iliştirilen maliyet fiyatı listesi.
     2. Proje Operations parametrelerine iliştirilen maliyet fiyatı listesi. Çok sayıda farklı para birimindeki maliyet fiyatı listeleri parametrelere iliştirilebildiğinden proje, sözleşme veya teklifin sözleşme kuruluş birimi para birimi ile maliyet fiyat listesinin para birimi arasında bir para birimi eşleşmesi tamamlanır.
     3. Giderler için, maliyette ve maliyet üzerinden kar payı fiyatlandırma yöntemleri maliyet fiyatı listelerine uygulanmaz. Bu fiyatlandırma yöntemleri, işlem kategorisi maliyetlerini ayarlamak üzere maliyet fiyatı listesi satırlarında kullanılmasına rağmen, sistem bunları yoksayar ve varsayılan maliyet fiyatı girilmez.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

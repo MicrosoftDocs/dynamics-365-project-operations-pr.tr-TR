@@ -2,38 +2,34 @@
 title: Görev ızgarasında çalışma sorunlarını giderme
 description: Bu konuda, Görev ızgarasında çalışırken gereken sorun giderme bilgileri sağlanmaktadır.
 author: ruhercul
-ms.date: 09/22/2021
+manager: tfehr
+ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
+ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547223"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031561"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Görev ızgarasında çalışma sorunlarını giderme 
 
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations, Lite dağıtımı: anlaşmadan proforma faturaya, Project for the web_
+Bu konuda, maliyet yönetimiyle çalışırken karşılaşabileceğiniz sorunların nasıl düzeltilebileceği açıklanmaktadır.
 
-Dynamics 365 Project Operations tarafından kullanılan Görev ızgarası Microsoft Dataverse içinde barındırılan bir iframe'dir. Bu kullanımın sonucu olarak, kimlik doğrulamanın ve yetkilendirmenin doğru şekilde çalışmasının sağlanması için belirli gereksinimler karşılanmalıdır. Bu konu, iş kırılım yapısında (İKY) kılavuzu işleme veya görevleri yönetme yeteneğini etkileyebilecek genel sorunları açıklar.
+## <a name="enable-cookies"></a>Tanımlama bilgilerini etkinleştirme
 
-Genel sorunlar arasında şunlar bulunur:
+Project Operations, iş kırılım yapısını işlemek için üçüncü taraf tanımlama bilgilerinin etkinleştirilmesini gerektirir. Üçüncü taraf tanımlama bilgileri etkinleştirilmediğinde, **Proje** sayfasında **Görevler** sekmesini seçtiğinizde görevler yerine boş bir sayfa görürsünüz.
 
-- Görev ızgarasındaki **Görev** sekmesi boştur.
-- Projeyi açtığınızda, proje yüklenmez ve kullanıcı arabirimi (UI) değiştiricide takılı kalır.
-- **Project for the Web** için ayrıcalıkların yönetilmesi.
-- Bir görev oluşturduğunuzda, güncelleştirdiğinizde veya sildiğinizde değişiklikler kaydedilmez.
+![Üçüncü taraf tanımlama bilgileri etkin olmadığında boş sekme](media/blankschedule.png)
 
-## <a name="issue-the-task-tab-is-empty"></a>Sorun: Görev sekmesi boş
 
-### <a name="mitigation-1-enable-cookies"></a>Çözüm 1: Tanımlama bilgilerini etkinleştirin
-
-Project Operations, iş kırılım yapısının işlenmesi için üçüncü taraf tanımlama bilgilerinin etkinleştirilmesini gerektirir. Üçüncü taraf tanımlama bilgileri etkinleştirilmediğinde, **Proje** sayfasında **Görevler** sekmesini seçtiğinizde görevler yerine boş bir sayfa görürsünüz.
-
+### <a name="workaround"></a>Geçici çözüm
 Microsoft Edge veya Google Chrome tarayıcıları için aşağıdaki yordamlarda, üçüncü taraf tanımlama bilgilerini etkinleştirmek üzere tarayıcı ayarınızı nasıl güncelleştirebileceğinizi açıklanmaktadır.
 
 #### <a name="microsoft-edge"></a>Microsoft Edge
@@ -42,7 +38,6 @@ Microsoft Edge veya Google Chrome tarayıcıları için aşağıdaki yordamlarda
 2. Sağ üst köşede **üç nokta**'yı (...) ve ardından **Ayarlar**'ı seçin.
 3. **Tanımlama bilgileri ve site izinleri** altında, **Tanımlama bilgileri ve site verileri**'ni seçin.
 4. **Üçüncü taraf tanımlama bilgileri**'ni kapatın.
-5. Tarayıcınızı yenileyin. 
 
 #### <a name="google-chrome"></a>Google Chrome
 
@@ -50,101 +45,64 @@ Microsoft Edge veya Google Chrome tarayıcıları için aşağıdaki yordamlarda
 2. Sağ üst köşede, üç dikey noktayı ve ardından **Ayarlar**'ı seçin.
 3. **Gizlilik ve güvenlik** altında, **Çerezler ve diğer site verileri**'ni seçin.
 4. **Tüm çerezlere izin ver**'i seçin.
-5. Tarayıcınızı yenileyin. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Üçüncü taraf tanımlama bilgilerini engellerseniz diğer sitelerden gelen tüm tanımlama bilgileri ve site verileri (siteye özel durumlar listenizde izin verilse bile) engellenir.
 
-### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Çözüm 2: PEX uç noktasının doğru şekilde yapılandırıldığını doğrulayın
+## <a name="pex-endpoint"></a>PEX Uç Noktası
 
-Project Operations bir proje parametresinin PEX Uç Noktası'na başvurmasını gerektirir. Bu uç nokta, iş kırılım yapısını işlemek için kullanılan hizmetle iletişim kurmak için gereklidir. Parametre etkinleştirilmemişse "Proje parametresi geçerli değil" hatasını alırsınız. PEX uç noktasını güncelleştirmek için aşağıdaki adımları izleyin.
+Project Operations bir proje parametresinin PEX Uç Noktası'na başvurmasını gerektirir. Bu uç nokta, iş kırılım yapısını işlemek için kullanılan hizmet ile iletişim kurmak için gereklidir. Parametre etkinleştirilmemişse "Proje parametresi geçerli değil" hatasını alırsınız. 
+
+### <a name="workaround"></a>Geçici çözüm
+ ![Proje parametresindeki PEX Uç Nokta alanı](media/projectparameter.png)
 
 1. **PEX Uç Nokta** alanını **Proje Parametreleri** sayfasına ekleyin.
-2. Kullandığınız ürün türünü tanımlayın. Bu değer PEX uç nokta ayarlandığında kullanılır. Alma işleminde, ürün türü PEX uç nokta zaten tanımlanmıştır. Bu değeri koru.
-3. Alanı şu değerle güncelleştirin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. Aşağıdaki tabloda, ürün türüne göre kullanılması gereken tür parametresi verilmiştir.
+2. Alanı şu değerle güncelleştirin: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Alanı **Proje parametreleri** sayfasından kaldırın.
 
-      | **Ürün türü**                     | **Parametre yazın** |
-      |--------------------------------------|--------------------|
-      | Varsayılan kuruluşta Project for the Web   | type=0             |
-      | CDS adlı kuruluşta Project for the Web | type=1             |
-      | Project Operations                   | type=2             |
+## <a name="privileges-for-project-for-the-web"></a>Web için Project ayrıcalıkları
 
-4. Alanı **Proje parametreleri** sayfasından kaldırın.
+Project Operations harici bir zamanlama hizmetine dayanır. Hizmet, bir kullanıcının iş kırılım yapısıyla ilgili varlıkları okuyup yazmak için atanmış çeşitli rollere sahip olmasını gerektirir. Bu varlıklar proje görevlerini, kaynak atamalarını ve görev bağımlılıklarını içerir. Kullanıcı, **Görevler** sekmesine gittiğinde iş kırılım yapısını işleyemiyorsa bunun nedeni büyük olasılıkla Project Operations için Proje'nin etkinleştirilmemiş olmasıdır. Kullanıcı, bir güvenlik rolü hatası veya erişim reddiyle ilgili bir hata alabilir.
 
-## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Sorun: Proje yüklenmedi ve Kullanıcı arabirimi değer değiştiricide takılı kaldı
 
-Kimlik doğrulama amacıyla, Görev ızgarasının yüklenmesi için açılır pencereler etkinleştirilmelidir. Açılır pencereler etkinleştirilmemişse, ekran yükleme değiştiricisinde takılı kalır. Aşağıdaki grafikte, adres çubuğunda engellenen bir açılan liste etiketine sahip olan ve değiştiricinin sayfayı yüklemeye çalışırken takılmasına neden olan URL gösterilir. 
+## <a name="workaround"></a>Geçici çözüm
 
-   ![Takılı değiştirici ve açılır pencere engeli.](media/popupsblocked.png)
+1. **Ayarlar > Güvenlik > Kullanıcılar > Uygulama Kullanıcıları**'na gidin.  
 
-### <a name="mitigation-1-enable-pop-ups"></a>Çözüm 1: Açılır pencereleri etkinleştirin
-
-Projeniz değiştiricide takılı kaldıysa, açılır pencereler etkin olmayabilir.
-
-#### <a name="microsoft-edge"></a>Microsoft Edge
-
-Edge tarayıcınızda açılır pencereleri etkinleştirmek için iki yol vardır.
-
-1. Edge tarayıcınızda, tarayıcının sağ üst köşesindeki bildirimi seçin.
-2. Belirtilen Dataverse ortamından **Açılır pencerelere ve yeniden yönlendirmelere her zaman izin ver**'i seçin.
- 
-     ![Engellenen pencereyi açar.](media/enablepopups.png)
-
-Alternatif olarak, aşağıdaki adımları uygulayabilirsiniz.
-
-1. Edge tarayıcınızı açın.
-2. Sağ üst köşede, **üç noktayı** (...) seçin ve sonra **Ayarlar** > **Site izinleri** > **Açılır pencereler ve yeniden yönlendirmeler**'i seçin.
-3. Açılır pencereleri engellemek için **Açılır pencereler ve yeniden yönlendirmeler** ayarını kapalı olarak değiştirin veya cihazınızda açılır pencerelere izin vermek için Açık seçeneğine geçiş yapın.
-4. Açılır pencereleri etkinleştirdikten sonra tarayıcınızı yenileyin. 
-
-#### <a name="google-chrome"></a>Google Chrome
-1. Chrome tarayıcınızı açın.
-2. Açılır pencerelerin engellendiği bir sayfaya gidin.
-3. Adres çubuğunda **Açılır pencere engellendi**'yi seçin.
-4. Görmek istediğiniz açılır pencerenin bağlantısını seçin.
-5. Açılır pencereleri etkinleştirdikten sonra tarayıcınızı yenileyin. 
-
-> [!NOTE]
-> Sitedeki açılır pencereleri her zaman görmek için **[site] adresinden açılır pencerelere ve yeniden yönlendirmelere her zaman izin ver**'i ve ardından **Bitti**'yi seçin.
-
-## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Sorun 3: Project for the Web için ayrıcalıkların yönetilmesi
-
-Project Operations harici bir zamanlama hizmetine dayanır. Hizmet, bir kullanıcıya İKY ile ilgili varlıkları okuma ve yazma izni veren birden fazla atanmış rol olmasını gerektirir. Bu varlıklar proje görevlerini, kaynak atamalarını ve görev bağımlılıklarını içerir. Bir kullanıcı, **Görevler** sekmesine gittiğinde İKY'yi işleyemiyorsa bunun nedeni **Project Operations** için **Projenin** etkinleştirilmemiş olması olabilir. Kullanıcı, bir güvenlik rolü hatası veya erişim reddiyle ilgili bir hata alabilir.
-
-### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Çözüm 1: Uygulama kullanıcısını ve son kullanıcı güvenlik rollerini doğrulayın
-
-1. **Ayar** > **Güvenlik** > **Kullanıcılar** > **Uygulama Kullanıcıları**'na gidin.  
-
-   ![Uygulama okuyucu.](media/applicationuser.jpg)
+   ![Uygulama okuyucu](media/applicationuser.jpg)
    
-2. Doğrulanacak uygulama kullanıcısı kaydına çift tıklayın:
+2. Aşağıdakileri doğrulamak için uygulama kullanıcı kaydına çift tıklayın:
 
-     - Kullanıcının projeye erişimi vardır. Bunu, kullanıcının **Proje Yöneticisi** güvenlik rolüne sahip olduğunu doğrulayarak yapabilirsiniz.
-     - Microsoft Project uygulaması kullanıcısı var ve doğru yapılandırılmış.
+ - Kullanıcının projeye erişimi vardır. Bu doğrulama genellikle kullanıcının **Proje Yöneticisi** güvenlik rolüne sahip olduğundan emin olarak yapılır.
+ - Microsoft Project uygulaması kullanıcısı var ve doğru yapılandırılmış.
  
-3. Bu kullanıcı yoksa, yeni bir kullanıcı kaydı oluşturun. 
-4. **Yeni Kullanıcılar**'ı seçin, giriş formunu **Uygulama Kullanıcısı** olarak değiştirin ve **Uygulama Kimliğini** ekleyin.
+3. Bu kullanıcı yoksa yeni bir kullanıcı kaydı oluşturabilirsiniz. **Yeni Kullanıcılar**'ı seçin. Giriş formunu **Uygulama Kullanıcısı** olarak değiştirin ve ardından **Uygulama Kimliği**'ni ekleyin.
 
-   ![Uygulama kullanıcısı ayrıntıları.](media/applicationuserdetails.jpg)
+   ![Uygulama kullanıcısı ayrıntıları](media/applicationuserdetails.jpg)
 
+4. Kullanıcıya doğru lisansın atandığını ve lisansın hizmet planları ayrıntılarında hizmetin etkinleştirildiğini doğrulayın.
+5. Kullanıcının project.microsoft.com'u açabildiğini doğrulayın.
+6. Sistemin doğru proje uç noktasına işaret ettiğini proje parametreleri aracılığıyla doğrulayın.
+7. Proje uygulaması kullanıcısının oluşturulduğunu doğrulayın.
+8. Aşağıdaki güvenlik rollerini kullanıcıya uygulayın:
 
-## <a name="issue-4-changes-arent-saved-when-you-create-update-or-delete-a-task"></a>Sorun 4: Bir görev oluşturduğunuzda, güncelleştirdiğinizde veya sildiğinizde değişiklikler kaydedilmiyor
-
-İKY'de bir veya daha fazla güncelleştirme yaptığınızda, değişiklikler başarısız oluyor ve kaydedilmiyor. Zamanlama ızgarasında "Yaptığınız son değişiklik kaydedilemedi" iletisiyle bir hata oluşur.
-
-### <a name="mitigation-1-validate-the-license-assignment"></a>Çözüm 1: Lisans atamasını doğrulayın
-
-1. Kullanıcıya doğru lisansın atandığını ve lisansın hizmet planları ayrıntılarında hizmetin etkinleştirildiğini doğrulayın.  
-2. Kullanıcının **project.microsoft.com** adresini açabildiğini doğrulayın.
-    
-### <a name="mitigation-2-validation-configuration-of-the-project-application-user"></a>Çözüm 2: Proje uygulaması kullanıcısının doğrulama yapılandırması
-1. Proje uygulaması kullanıcısının oluşturulduğunu doğrulayın.
-2. Aşağıdaki güvenlik rollerini kullanıcıya uygulayın:
-  
-  - Dataverse Kullanıcısı veya Temel Kullanıcı
+  - Dataverse Kullanıcısı
   - Project Operations Sistemi
   - Proje Sistemi
-  - Project Operations Çift Yazma Sistemi. Bu rol, Project Operations'ın kaynak/stoğu tutulmayan öğeleri temel alan dağıtımı için gereklidir.
 
+## <a name="error-when-updating-the-work-breakdown-structure"></a>İş kırılım yapısı güncelleştirilirken hata oluştu
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+İş kırılım yapısında bir veya daha fazla güncelleştirme yapıldığında, değişiklikler başarısız olur ve kaydedilmez. Zamanlama ızgarasında "Yaptığınız son değişiklik kaydedilemedi" notu ile bir hata oluşur.
+
+### <a name="workaround"></a>Geçici çözüm
+
+1. Kullanıcıya doğru lisansın atandığını ve lisansın hizmet planları ayrıntılarında hizmetin etkinleştirildiğini doğrulayın.
+2. Kullanıcının project.microsoft.com'u açabildiğini doğrulayın.
+3. Sistemin doğru proje uç noktasına işaret ettiğini doğrulayın.
+4. Proje Uygulaması kullanıcısının oluşturulduğunu doğrulayın.
+5. Aşağıdaki güvenlik rollerini kullanıcıya uygulayın:
+  
+  - Dataverse kullanıcısı veya Temel kullanıcı
+  - Project Operations Sistemi
+  - Proje Sistemi
+  - Project Operations Çift Yazma Sistemi (Project Operations'ın kaynak/stoku tutulmayan öğeleri temel alan senaryolar dağıtıyorsanız bu rol gereklidir.)

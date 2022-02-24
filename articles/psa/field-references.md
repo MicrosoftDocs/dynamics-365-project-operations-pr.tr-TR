@@ -2,10 +2,12 @@
 title: Fiyat ayarına ve işlem varlıklarına özel alan ekleme
 description: Bu konu, fiyat ayarı ve işlem varlıklarına özel alanlar ekleme hakkında bilgi sağlar.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3ca48b8d5d55b1b2178f9bd84e19d9599f057aa296a728cca57577c18fdaf307
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af2256e77c3ceeee9638f57d971137df1658687b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985796"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148487"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Fiyat ayarına ve işlem varlıklarına özel alan ekleme 
 
@@ -47,7 +49,7 @@ Bu konuda yordamlar, gerekli özel alan başvurularının varlıklara ve form ve
 > [!IMPORTANT]
 > Birden çok varlığa bir alan eklediğinizde, tüm varlıklar üzerinde aynı alan adını kullanın. 
 
-> ![Kaynak Çalışma Konumunu Rol Fiyatına ekleme.](media/RWL-Field.png)
+> ![Kaynak Çalışma Konumunu Rol Fiyatına ekleme](media/RWL-Field.png)
 
 Bir projeyle ilgili satış ve tahmin aşamalarında, **Normal saatler** ve **Fazla mesai saatleri**'nde **Yerel** ve **Yerinde** çalışmanın tamamlanması için gereken iş çabası tahminleri, Teklif/Projenin değerini tahmin etmek için kullanılır. **Kaynak Çalışma Konumu** ve **Kaynak Çalışma Saatleri** alanları, **Teklif Satırı Ayrıntısı**, **Sözleşme Satırı ayrıntısı**, **Proje Görevi**, **Proje Takım Üyesi** ve **Tahmin Satırı** tahmin varlıklarına eklenir.
 
@@ -59,7 +61,7 @@ Bir projeyle ilgili satış ve tahmin aşamalarında, **Normal saatler** ve **Fa
 6. Bu alana **Proje Sözleşme Satırı Ayrıntısı**,**Proje Görevi**, **Proje Takımı Üyesi** ve **Tahmin Satırı** varlıklarına eklemek için 1-5 adımlarını yineleyin.
 7. **Kaynak Çalışma Saatleri** seçenek kümesi için 1-6 arasındaki adımları yineleyin. 
 
-> ![Kaynak Çalışma Konumunu Tahmin Satırına ekleme.](media/RWL-Default-Value.png)
+> ![Kaynak Çalışma Konumunu Tahmin Satırına ekleme](media/RWL-Default-Value.png)
 
 
 Teslimat ve faturalama için tamamlanmış işin Proje Fiili Değerlerinde **Yerel** mi yoksa **Yerinde** mi gerçekleştirildiğini ve **Normal saatler** veya **Fazla mesai** sırasında mı tamamlandığını belirlemek için doğru olarak fiyatlandırılması gerekir. **Kaynak Çalışma Konumu** ve **Kaynak Çalışma Saatleri** alanlarının **Zaman girişi**, **Fiili değer**, **Fatura Satırı Ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklenmesi gerekir.
@@ -72,7 +74,7 @@ Teslimat ve faturalama için tamamlanmış işin Proje Fiili Değerlerinde **Yer
 6. Bu alanı **Fiili değer**, **Fatura satırı ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına eklemek için 1-5 arasındaki adımları yineleyin.
 7. **Kaynak Çalışma Saatleri** seçenek kümesi için 1-6 arasındaki adımları yineleyin. 
 
-> ![Kaynak Çalışma Konumunu Zaman Girişine ekleme.](media/RWL-time-entry.png)
+> ![Kaynak Çalışma Konumunu Zaman Girişine ekleme](media/RWL-time-entry.png)
 
 Bu, seçenek kümesi tabanlı özel boyutlar için gerekli şema değişikliklerini tamamlar.
 
@@ -85,7 +87,7 @@ Bu, seçenek kümesi tabanlı özel boyutlar için gerekli şema değişiklikler
 3. **Standart Başlık** varlığını genişletin ve **1:N İlişkileri**'ni seçin.
 4. **Standart Başlıktan Ayrılabilir Kaynağa** adlı yeni bir 1:N ilişkisi oluşturmak için **Yeni**'ye tıklayın. Gerekli bilgileri girin ve ardından **Kaydet**'e tıklayın.
 
-> ![Standart Başlığı Ayrılabilir Kaynağa başvuru alanı olarak ekleme.](media/ST-BR.png)
+> ![Standart Başlığı Ayrılabilir Kaynağa başvuru alanı olarak ekleme](media/ST-BR.png)
 
 Standart Başlığın **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** Project Service Fiyatlandırma varlıklarına da eklenmesi gerekir. Bu da **Standart Başlık** ile **Rol Fiyatı** varlıkları arasında ve **Standart Başlık** ve **Rol Fiyatı Kar payı** varlıkları arasında 1:N ilişkileri kullanılarak tamamlanır.
 
@@ -104,13 +106,13 @@ Projenin satış ve tahmin aşamalarında, Teklife/Projeye fiyat vermek için, h
 
 5. **Standart Başlık**'tan **Teklif satırı ayrıntısı**, **Proje Sözleşme Satırı Ayrıntısı**, **Proje Görevi**, **Proje Takımı Üyesi** ve **Tahmin Satırı**'na 1:N ilişkileri oluşturmak için 1-5 adımlarını yineleyin.
 
-> ![Standart Başlığı Tahmin Satırına başvuru alanı olarak ekleme.](media/ST-Estimate-Line.png)
+> ![Standart Başlığı Tahmin Satırına başvuru alanı olarak ekleme](media/ST-Estimate-Line.png)
 
 Teslimat ve Faturalama aşamalarında, her bir standart başlığın tamamladığı iş Proje Fiili Değerlerinde doğru fiyatlandırılmalıdır. Bu **Standart başlıktan** **Zaman Girişi**, **Fiili Değer**, **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri olması gerektiği anlamına gelir.
 
 6. **Standart başlıktan** **Zaman Girişi**, **Fiili Değer**, **Fatura satır ayrıntısı** ve **Yevmiye defteri satırı** varlıklarına 1:N ilişkileri oluşturmak için 1-6 arası adımları yineleyin.
 
-> ![Standart Başlığı Zaman Girişine başvuru alanı olarak ekleme.](media/ST-Mapping.png)
+> ![Standart Başlığı Zaman Girişine başvuru alanı olarak ekleme](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Platformun eşleme özelliklerini kullanarak Boyut değeri varsayılanı ayarlama
 Zaman Girişi için, sistemin varsayılan olarak zaman girişini kaydeden Ayrılabilir Kaynaktan alınan Zaman Girişinde standart başlığı kullanmak yararlı olacaktır. **Ayrılabilir Kaynaktan** **Zaman girişine** 1: N ilişkisinde alan eşlemeleri eklemek için aşağıdaki adımları kullanın.
@@ -120,7 +122,7 @@ Zaman Girişi için, sistemin varsayılan olarak zaman girişini kaydeden Ayrıl
 3. **Ayrılabilir Kaynaktan Zaman Girişine** öğesine çift tıklayın. **İlişki** sayfasında, **Alan eşlemelerini kullan**'a tıklayın. 
 4. **Ayrılabilir Kaynak** varlığındaki **Standart Başlık** alanı ile **Zaman Girişi** varlığındaki **Standart Başlık** referans alanı arasında yeni bir alan eşlemesi oluşturmak için **Yeni**'ye tıklayın. 
 
-> ![Standart Başlığın Ayrılabilir Kaynaktan Zaman Girişine varsayılan olarak değiştirilmesine izin vermek için alan eşlemeleri ayarlama.](media/ST-Mapping2.png)
+> ![Standart Başlığın Ayrılabilir Kaynaktan Zaman Girişine varsayılan olarak değiştirilmesine izin vermek için alan eşlemeleri ayarlama](media/ST-Mapping2.png)
 
 
 Bu, varlık tabanlı özel boyutlar için gerekli şema değişikliklerini tamamlar.
@@ -148,6 +150,3 @@ Aşağıdaki tabloda, yeni alanlarla güncelleştirilmesi gereken, varlığa gö
 |  Gerçek|• Bilgi<br>• Etkin Gerçek Tutarlar|• Gerçek Tutar İlişkili görünümü|
 
 Tanımladığınız öğeye bağlı olarak özel alanların iş kurallarına da eklenmesi gerekebilir. Kullanıma hazır bir örnek **Duruma göre Zaman Girişi düzenlenebilirliği** iş kuralı içindir. Bu kural, Zaman Girişi **Onaylandı** gibi düzenlenemeyen bir durumda olduğunda hangi alanların kilitlenmesi gerektiğini tanımlar. Alanların Zaman Girişi **Taslak** ve **Geri çevrildi** durumu dışında bir durumda olduğunda alanların düzenlemeye karşı kilitlenmesi için bu iş kuralına alanlar ekleyin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,10 @@
 title: Onaylanan zaman ve gider girişleri tarafından oluşturulan fiili değerlerin toplu düzeltmeleri
 description: Bu konu, fatura tamamlanmadıysa bir yöneticinin önceden onaylanmış zaman veya gider girişlerinde nasıl tek veya toplu düzeltmeler yapabileceğini açıklar.
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995425"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144977"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Onaylanan zaman ve gider girişleri tarafından oluşturulan fiili değerlerin toplu düzeltmeleri
 
@@ -62,7 +64,7 @@ Bir projeyle ilgili tek veya birden fazla zaman girişini düzeltmek için aşa�
 
 Örneğin, aşağıdaki grafikte, miktarı 8,00 olan ve Tutar sütununda listelenen borçları bulunan iki satır maddesi bulunur. Buna ek olarak, miktarı -8,00 olan ve Tutar sütununda alacak tutarı bulunan iki satır maddesi vardır. Bu düzeltmeler miktarı sıfıra getirir.
 
-![Gerçek değer ilişkili görünümü listesi.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Gerçek değer ilişkili görünümü listesi](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Onaylanan gider girişlerini düzeltme
 
@@ -87,7 +89,4 @@ Bir veya daha fazla gider girişini düzeltmek için aşağıdaki adımları uyg
 
 8. Proje sayfasında, **Gerçek değerler** sekmesinde, **Gerçek Değerler İlişkili Görünümü**'nü gözden geçirin. Orijinal girişler ve düzeltilen girişler listelenir. Aşağıdaki grafik orijinal gider girişi tutarlarını ve karşılık gelen düzeltilmiş gider girişi tutarlarını gösterir. 
 
-![Gider gerçek değerleri.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Gider gerçek değerleri](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

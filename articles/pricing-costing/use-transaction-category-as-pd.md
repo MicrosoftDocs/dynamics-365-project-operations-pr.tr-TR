@@ -2,16 +2,18 @@
 title: İşlem Kategorisini fiyatlandırma boyutu olarak kullanma
 description: Bu konu, İşlem Kategorisi alanının bir fiyatlandırma boyutu olarak kullanılması hakkında bilgi sağlar.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996145"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514034"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>İşlem Kategorisini fiyatlandırma boyutu olarak kullanma
 
@@ -48,6 +50,3 @@ Aşağıdaki tabloda tüm kullanıma hazır formlar ve görünümler varlığa g
 2. **Parametreler** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, **Fiyatlandırma Boyutları** varlığındaki kayıtları gösteren sekmedeki ızgarayı doğrulayın.
 3. **İşlem Kategorisi**'ni bu listeye ekleyin ve **Maliyet için Geçerli** ve **Satış için Geçerli** alanlarını **Evet** olarak ayarlayın.
 4. **Boyut Türü** alanında, **Tutar tabanlı** öğesini ve ardından maliyet ve satışla ilgili **İşlem Kategorisi** için önceliği seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

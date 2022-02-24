@@ -2,9 +2,11 @@
 title: Project Service Automation tümleştirme parametreleri
 description: Bu konuda, Microsoft Dynamics 365 for Project Service Automation çözümünü Microsoft Dynamics 365 Finance ile tümleştirdiğinizde varsayılan verilerin girilmesini nasıl yapılandıracağınız açıklanır.
 author: ruhercul
+manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005865"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270927"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation tümleştirme parametreleri
 

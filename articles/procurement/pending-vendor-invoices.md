@@ -2,17 +2,17 @@
 title: Bekleyen satıcı faturası kullanarak stoğu tutulmayan malzemeleri satın alma
 description: Bu konu, beklemedeki satıcı faturalarının nasıl kaydedilecek açıklanmaktadır.
 author: sigitac
-ms.date: 09/13/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547313"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993841"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Bekleyen satıcı faturası kullanarak stoğu tutulmayan malzemeleri satın alma
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Bir proje için bir şirket için stoklanmayan malzemeleri hazırlarken maliyetler projeye yönelik olarak hemen kaydedilebilir. 
 
-Örneğin, Contoso Robotics ABD bir donanım yenileme projesi yürütmektedir ve yazılım lisanlarına ihtiyacı vardır. Bu lisanslar, üçüncü taraf bir satıcıdan tedarik ediliyor.  Dynamics 365 Finance Uygulamasını kullanarak borç hesapları memuru bir bekleyen satıcı fatura belgesini kaydeder ve donanım yenileme projesine doğrudan lisans maliyetlerini ekler. 
+Örneğin, Contoso Robotics ABD, donanım yenileme projesi gerçekleştiriyor ve yazılım lisanslarına ihtiyacı var. Bu lisanslar, üçüncü taraf bir satıcıdan tedarik ediliyor.  Dynamics 365 Finance Uygulamasını kullanarak borç hesapları memuru bir bekleyen satıcı fatura belgesini kaydeder ve donanım yenileme projesine doğrudan lisans maliyetlerini ekler. 
 
 > [!IMPORTANT]
 > Bu konu açıklanan işlevleri kullanmadan önce gerekli yapılandırmaları gözden geçirin ve uygulayın. Daha fazla bilgi için bkz. [Stoklanmayan malzemeleri ve bekleyen satıcı faturalarını etkinleştirme](configure-materials-nonstocked.md). 
@@ -45,5 +45,4 @@ Bekleyen satıcı faturaları, **bekleyen satıcı faturaları** sayfasında (**
     - Satıcı bakiye tutarı.
     - Satış Vergisi Tutarı.
     - Projeye yönelik maliyet, satın alma entegrasyonu hesabına kaydedilir.
-    - Dataverse'deki proje filli maliyeti işlemi.  Bu işlem [Project Operations tümleştirme günlüğü](../project-accounting/project-operations-integration-journal.md) kullanılarak daha sonra işlenir. Bu günlüğün deftere nakledilmesi, satın alma entegrasyonu hesabındaki tutarı proje maliyet hesabına taşır. 
-    - Zaman ve malzeme faturalama yöntemi kullanılarak proje müşterisine faturalanan satınalmalar. Ayrıca, Dataverse'de satınalmalar için faturalanmamış satış işlemleri oluşturulur. Dataverse'deki ürün fiyat listesi faturalandırılmamış satış işleminin satış fiyatları ve tutarları için kullanılır.
+    - Dataverse'de projenin fiili işlemi. Bu işlem [Project Operations tümleştirme günlüğü](../project-accounting/project-operations-integration-journal.md) kullanılarak daha sonra işlenir. Bu günlüğün deftere nakledilmesi, satın alma entegrasyonu hesabındaki tutarı proje maliyet hesabına taşır.

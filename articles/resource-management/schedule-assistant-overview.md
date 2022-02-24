@@ -2,17 +2,18 @@
 title: Zamanlama yardımcısına genel bakış
 description: Bu konuda, kaynakları ayırmak için Zamanlama yardımcısı ile çalışma hakkında bilgiler sağlanmaktadır.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990250"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086180"
 ---
 # <a name="schedule-assistant-overview"></a>Zamanlama yardımcısına genel bakış
 
@@ -24,7 +25,7 @@ Uygun kaynaklar tanımlandıktan sonra Kaynak veya Proje yöneticisi, iş için 
 
 ## <a name="prerequisites"></a>Ön koşullar
 
-Zamanlama yardımcısı, Universal Resource Scheduling çözümünün bir parçasıdır. Bu çözüm; Dynamics 365 Project Operations, Dynamics 365 Field Service ve Dynamics 365 Customer Service'e dahildir ve bu uygulamalarla yüklenir.
+Zamanlama yardımcısı, Universal Resource Scheduling çözümünün bir parçasıdır. Bu çözüm, Dynamics 365 Project Operations, Dynamics 365 Field Service ve Dynamics 365 Customer Service uygulamalarına dahildir ve bunlarla birlikte yüklenir.
 
 ## <a name="matching-requirements-and-resources"></a>Eşleştirme gereksinimleri ve kaynaklar
 
@@ -56,6 +57,3 @@ Filtre bölmesi, aşağıdakiler dahil işle ilgili seçenekleri gösterir:
 -   Kaynak atayan şirket
 -   Kaynak türleri
 -   Tercih edilen kaynaklar
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

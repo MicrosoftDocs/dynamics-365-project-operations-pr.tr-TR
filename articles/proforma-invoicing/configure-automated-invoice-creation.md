@@ -2,16 +2,18 @@
 title: Otomatik fatura oluşturmayı yapılandırma
 description: Bu konu, sistemi otomatik olarak faturaları oluşturmak üzere yapılandırmak ile ilgili bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992680"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122457"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Otomatik fatura oluşturmayı yapılandırma
 
@@ -43,6 +45,3 @@ Fatura oluşturmaya yönelik toplu iş yinelenen bir iştir. Bu toplu iş birço
 
 > [!NOTE]
 > Toplu faturalama yalnızca fatura zamanlamalarında yapılandırılan proje sözleşme satırlarında çalışır. Sabit fiyatlı fatura yöntemine sahip bir sözleşme satırının kilometre taşları yapılandırılmış olmalıdır. Zaman ve malzeme faturalama yöntemi içeren bir proje sözleşmesi satırı, ayarlanmış bir tarih tabanlı fatura çizelgesine gereksinim duyar. Aynı şekilde, proje tabanlı bir sözleşme satırı için de geçerlidir.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

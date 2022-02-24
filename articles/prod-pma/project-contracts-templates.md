@@ -2,9 +2,11 @@
 title: Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'tan Finance'e eşitleme
 description: Bu konuda, proje sözleşmelerini ve projeleri Microsoft Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001095"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764843"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'tan Finance'e eşitleme 
 
@@ -42,7 +44,7 @@ Project Service Automation ile Finance tümleştirme çözümünde Project Servi
 
 Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleştirmenin bir parçası olarak verilerin nasıl eşitleneceğini gösterilir.
 
-[![Finance ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Finance ile Project Service Automation tümleştirmesi için veri akışı](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
@@ -107,8 +109,8 @@ Proje Service Automation ile Finance tümleştirme çözümü uygulandığında,
 ## <a name="prerequisites-and-mapping-setup"></a>Ön koşullar ve eşleme ayarı
 
 - Proje sözleşmelerinin ve projelerin eşitlenmesi gerçekleştirilmeden önce hesapları eşitlemeniz gerekir.
-- Bağlantı kümenize **msdyn\_organizationalunits** için **msdyn\_name \[Name\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](/powerapps/administrator/data-integrator).
-- Bağlantı kümenize **msdyn\_projects** için **msdyn\_projectnumber \[Poject Number\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](/powerapps/administrator/data-integrator).
+- Bağlantı kümenize **msdyn\_organizationalunits** için **msdyn\_name \[Name\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Bağlantı kümenize **msdyn\_projects** için **msdyn\_projectnumber \[Poject Number\]** alanına bir tümleştirme anahtarı alanı eşlemesi ekleyin. Önce bağlantı kümesine bir proje eklemeniz gerekebilir. Daha fazla bilgi için bkz. [Uygulamalar için Common Data Service hizmetine verileri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Proje sözleşmeleri ve projelere ait **SourceDataID**, farklı bir değere güncelleştirilebilir veya eşleştirmeden kaldırılabilir. Varsayılan şablon değeri şudur: **Project Service Automation**.
 - **PaymentTerms** eşlemesinin, Finance içindeki geçerli ödeme koşullarını yansıtması için güncelleştirilmesi gerekir. Ayrıca, proje görevinden eşleşmeyi kaldırabilirsiniz. Varsayılan değer eşleşmesi, demo verileri için varsayılan değerlere sahiptir. Aşağıdaki tabloda Project Service Automation'daki değerler gösterilmektedir.
 
@@ -129,7 +131,7 @@ Aşağıdaki koşullar karşılanırsa verileri filtrelemek üzere Excel için M
 Power Query kullanmanız gerekiyorsa şu yönergeleri izleyin:
 
 - Projeler ve sözleşmeler (PSA'dan Fin and Ops'a) şablonuna yalnızca **İş öğesi (msdyn\_ordertype = 192350001)** türünde satış siparişleri içeren bir varsayılan filtre vardır. Bu filtre, Finance içindeki satış siparişleri için proje sözleşmelerinin oluşturulmasının sağlanmasına yardımcı olur. Kendi şablonunuzu oluşturursanız, bu filtreyi eklemeniz gerekir.
-- Yalnızca tümleştirme bağlantısı kümesinin yasal varlığıyla eşitlenmesi gereken sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US'nin sözleşme kuruluş birimiyle bize sahip olduğunuz proje sözleşmeleri USSI hukuk varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimiyle sahip olduğunuz proje sözleşmeleri usmf hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
+- Yalnızca tümleştirme bağlantısı kümesinin yasal varlığıyla eşitlenmesi gereken sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USSI yasal varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USMF hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
 
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
 
@@ -140,17 +142,14 @@ Power Query kullanmanız gerekiyorsa şu yönergeleri izleyin:
 
 Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örnekleri gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
-[![Proje sözleşmesi şablonu eşlemesi.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Proje sözleşmesi şablonu eşlemesi](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Proje şablonu eşlemesi.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Proje şablonu eşlemesi](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Proje sözleşmesi satırları şablonu eşlemesi.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Proje sözleşmesi satırları şablonu eşlemesi](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Proje sözleşme satırı dönüm noktası şablonu eşlemesi.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Proje sözleşme satırı dönüm noktası şablonu eşlemesi](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Projeler ve Sözleşmelerdeki proje sözleşme satırı kilometre taşı eşlemesi (PSA 3.x Dynamics)-v2 şablonu:
 
-[![Proje sözleşme satırı dönüm noktası eşlemesi sürüm iki şablonuyla.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Proje sözleşme satırı dönüm noktası eşlemesi sürüm iki şablonuyla](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

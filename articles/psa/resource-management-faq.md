@@ -2,6 +2,8 @@
 title: Kaynak yönetimiyle ilgili SSS
 description: Bu konu, kaynak yönetimi hakkında sık sorulan sorulara yanıt sağlar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002400"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144392"
 ---
 # <a name="resource-management-faq"></a>Kaynak yönetimiyle ilgili SSS
 
@@ -52,6 +54,3 @@ Kaynak türlerinden yalnızca **Kullanıcı** ve **İlgili Kişi**, Dynamics 365
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Atama ve ayırma arasındaki fark nedir?
 
 Atamalar, kaynakların proje zamanlamasındaki proje görevlerine atanmasıdır. Kaynaklar, gerçek veya genel kaynak olabilir. Ayırmalar, kaynakların bir projeye kalıcı veya geçici tahsisatıdır. Kalıcı ayırmalar, bir kaynağın kapasitesini tüketir. İdeal olarak, gerçek kaynaklar için ayırma ve atamalar uyuşmalıdır çünkü farklı değillerdir. Ancak PSA bu uyuşmayı zorunlu kılmaz. Mutabakat görünümü; proje yöneticisine, bir kaynağın ayırma ve atamalarının uyuşmadığı yerleri gösterir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

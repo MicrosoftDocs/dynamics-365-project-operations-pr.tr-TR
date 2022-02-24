@@ -2,10 +2,12 @@
 title: Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
 description: Bu konu Microsoft Dynamics Project Service Automation 3. x'e yönelik çözüm değişiklikleri açıklamaktadır.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987370"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148757"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
 
@@ -82,6 +84,3 @@ Aşağıdaki web kaynakları kullanım dışı bırakıldı:
 > Kullanım dışı bırakılan kaynakların tam listesi için bkz. [Project Service Automation v3.x'te kullanımdan kaldırılan web kaynakları](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

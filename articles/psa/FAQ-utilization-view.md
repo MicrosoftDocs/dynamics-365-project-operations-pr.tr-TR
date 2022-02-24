@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007170"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992858"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Kaynaklar için borçlandırılabilir kullanımı görüntüleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007170"
  
 **Project Service Kaynak Kullanımı** sayfasındaki **Kaynak Görünümü** her ayrılabilir kaynakla ilgili borçlandırılabilir kullanımı gösterir. Görünüm, zamanlama panosunu temel aldığı için, aynı işlevlerin birçoğunu burada da bulacaksınız.
 
-> ![Kullanım Görünümü ekran görüntüsü.](media/FAQ-utilization-1.png)
+> ![Kullanım Görünümü ekran görüntüsü](media/FAQ-utilization-1.png)
  
 
 Borçlandırılabilir kullanım hesaplama şöyle çalışır:
@@ -48,7 +48,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
 2. Kaydı açmak için bir kaynak seçin. 
 3. **Project Service** sekmesinde, kaynağın hedef kullanımını ayarlayabilirsiniz.
 
-> ![Hedef kullanımı ayarlamak için Project Service sekmesini kullanma işleminin ekran görüntüsü.](media/FAQ-utilization-2.png)
+> ![Hedef kullanımı ayarlamak için Project Service sekmesini kullanma işleminin ekran görüntüsü](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Rol üzerinde hedef kullanımını ayarlama
 
@@ -56,7 +56,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
 2. Bir rol seçin ve kaydı açın. 
 3. Rol için hedef kullanımı ayarlayın.
 
-> ![Hedef kullanımı ayarlamak için Kaynak Rolleri'ni kullanma işleminin ekran görüntüsü.](media/FAQ-utilization-3.png)
+> ![Hedef kullanımı ayarlamak için Kaynak Rolleri'ni kullanma işleminin ekran görüntüsü](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Kaynak için borçlandırılabilir kullanımı hesaplama
 

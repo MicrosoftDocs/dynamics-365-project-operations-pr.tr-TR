@@ -2,6 +2,8 @@
 title: Bir proje şablonu oluştur
 description: Project Service'ta proje şablonu oluşturma
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990880"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149387"
 ---
 # <a name="create-a-project-template-project-service"></a>Proje şablonu oluşturma (Project Service)
 
@@ -60,6 +62,3 @@ ms.locfileid: "6990880"
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: OCR kullanarak makbuz yakalama
 description: Bu konu, makbuzlar için optik karakter tanıma (OCR) işlemi hakkında bilgi sağlar.
 author: suvaidya
-ms.date: 11/10/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798064"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499875"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>OCR kullanarak makbuz yakalama
 
@@ -85,18 +87,7 @@ Hayır, Microsoft makbuz işleme servisi için genel bir makine öğrenimi model
 
 **Bu özellik nerede bulunur ve işlenir?**
 
-Bu özelliğin farklı bölgelerdeki kullanılabilirliği aşağıdaki tabloda listelenmektedir. Bölgeniz şu anda desteklenmiyorsa, bölgenizdeki OCR hizmetinin kullanılabilirliğinin önceliklendirilmesi için bir istek gönderin. 
-
-| Bölge | Destekleniyor                         |
-|--------|-----------------------------------|
-| ABD    | Evet                               |
-| CAN    | Evet                               |
-| Birleşik Krallık     | Evet                               |
-| AUS    | Evet                               |
-| EU     | Kısmi. Yalnızca İngilizce girişler. |
-| Asya   | No                                |
-| Japonya  | No                                |
-| Afrika | No                                |
+Şu anda Amerika Birleşik Devletleri desteklenmektedir.
 
 **Makbuzlarım nereye gönderilir?**
 

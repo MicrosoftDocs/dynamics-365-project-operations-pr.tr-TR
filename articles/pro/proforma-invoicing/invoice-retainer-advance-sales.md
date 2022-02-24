@@ -2,16 +2,18 @@
 title: Elde tutulan tutar veya avans faturalama
 description: Bu konu, Project Operations'da elde kalanı veya avansı faturalama hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997495"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596216"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
 
@@ -49,6 +51,3 @@ Bu, **Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasınd
 | Kullanılan Tutar | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, Retainer veya avans alanının ne kadarının kullanıldığını özetleyen hesaplanan değer sağlar. | Bu alan, zaten kullanılmış elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Toplam Tutar | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu düzenlenebilir alan, bu proje faturada kullanılan elde tutulan veya avans için bir tutar sağlar. Bu miktar, önceden kullanılabilir olanlar kadar fazla olamaz. Sistem bunu otomatik olarak kılavuzdaki **tutar** ve **kullanılan tutar** alanları arasındaki fark olarak hesaplar. Kullanılabilir olandan daha az sayıda kullanmak için bu miktarı azaltabilirsiniz, ancak kullanılabilir olandan fazlasını kullanmak için miktarı artıramıyoruz. | Bu alan, zaten kullanılmış elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Bakiye Elde Tutulan Tutar. | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, fatura onaylandıktan sonra Retainer veya ileri düzey değerinin ne kadarının kaldığını belirlemek için değer sağlar. | Bu alan, fatura onaylanıp ödendikten sonra elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070385"
 ---
 Project Finder Mobile uygulamasını etkinleştirerek kuruluş içindeki kullanıcılara proje işleri için görünürlük ve çalışmalara kaydolma becerisi sağlarsınız. Kullanıcılar becerilerini görüntülemek ve güncelleştirmek için de Project Finder uygulamasıyla çalışabilir. Project Finder Mobile uygulaması Project Service Parametreleri Ayarı üzerinden, Kaynaklar kaynak gereksinimlerini görebilir ve Kaynağın beceri güncelleştirmesine izin ver özniteliklerinin değerini Evet olarak ayarlayarak etkinleştirilir. Bu özniteliklerin değeri Hayır olarak değiştirildiğinde bu işlevsellik devre dışı bırakılır.  
   

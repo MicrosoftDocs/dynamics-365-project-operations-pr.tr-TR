@@ -2,6 +2,8 @@
 title: Proje ilerleme durumu ve maliyet tüketimi
 description: Bu konuda, proje ilerleme durumu ve maliyet tüketiminin nasıl izleneceği hakkında bilgiler sağlanmaktadır.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987190"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148037"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Proje ilerleme durumu ve maliyet tüketimi
 
@@ -96,6 +98,3 @@ Görevdeki maliyet farkının bir projeksiyonu gösterilir. Tahmini tamamlama ma
 İlk olarak **Genel proje durumu** alanı, projenin genel durumunu gösteren düzenlenebilir bir alandır. Artan riski göstermek için yeşil, sarı ve kırmızı gibi renk kodlaması kullanır. İkinci olarak **Yorumlar** alanı, proje yöneticisinin durumla ilgili belirli yorumlar girmesini sağlar. **Durum güncelleştirme tarihi** alanı düzenlenemez ve değer, durumun en son güncelleştirildiği tarihi gösteren bir zaman damgasıdır.
 
 **Zamanlama performansı** ve **Maliyet performansı** alanları izleme tarihinden itibaren ayarlanır. **Çalışma izleme** görünümündeki kök düğümün zamanlama ve maliyet farkı pozitif olduğunda bu alanları **İleride** olarak ayarlayabilirsiniz. Kök düğümün zamanlama ve maliyet farkı negatif olduğunda bunları **Geride** olarak ayarlayabilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

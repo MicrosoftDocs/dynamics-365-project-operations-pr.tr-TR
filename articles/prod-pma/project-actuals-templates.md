@@ -2,9 +2,11 @@
 title: Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
 description: Bu konuda, proje gerçek değerlerini Microsoft Dynamics 365 Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitlemek için kullanılan şablonlar ve temel görevler açıklanır.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086456"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
 
@@ -93,9 +95,9 @@ Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek 
 
 Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemesinin bir örneği gösterilmektedir. Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
-[![Şablon eşlemesi-gerçek değerler.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Şablon eşlemesi-gerçek değerler](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Şablon eşleme-Işlem bağlantıları.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Şablon eşleme-Işlem bağlantıları](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Project Service Automation'ı tümleştirmeden sonra hazırlama tablosundan içe aktarma
 
@@ -135,9 +137,6 @@ Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek 
 
 Aşağıdaki çizimlerde Veri tümleştirmede şablon görev eşlemelerinin örnekleri gösterilmektedir. Eşleme, Finance'den Project Service Automation'a eşitlenecek alan bilgilerini gösterir.
 
-[![Şablon eşlemesi-gerçek değerler güncellemesi.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Şablon eşlemesi-gerçek değerler güncellemesi](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Şablon eşlemesi- İşlem güncellemesi.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Şablon eşlemesi- İşlem güncellemesi](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

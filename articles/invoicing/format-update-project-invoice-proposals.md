@@ -2,16 +2,18 @@
 title: Proje faturası tekliflerini yönetme
 description: Bu konuda, kaynağı/stoku tutulmayanları temel alan senaryolar için Project Operations ile müşteriye yönelik faturaların işlenmesi hakkında ayrıntılar sağlanmaktadır.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989935"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089317"
 ---
 # <a name="manage-project-invoice-proposals"></a>Proje faturası tekliflerini yönetme
 
@@ -78,8 +80,7 @@ Dataverse'te yeni bir faturalama kilometre taşı oluşturulduğunda, **Satış 
     - **Müşteri**: Faturalama satış vergisi grubunu her zaman varsayılan olarak müşteriden alır.
     - **Arama**: Bu listedeki tüm varlıklarda arama yapar ve kullanılabilir ilk değeri seçer. Arama **Proje** varlığı ile başlar, ardından **Proje sözleşmesi** varlığı ile devam eder ve ardından **Müşteri** varlığı ile yapılır.
 
-- **Sabit fiyatlı kilometre taşı öğesi satış vergisi grubu**, Fatura kilometre taşı için **madde satış vergisi grubu** alanında varsayılan değer olarak kullanılır. Muhasebeci, **hesaba mahsup işlemler** sayfasında bu değeri gözden geçirebilir ve değiştirebilirler. Sistem, Proje Fatura teklif satırı oluştururken bu değeri mahsup hareketten kullanır.
- 
+- **Sabit fiyat kilometre taşı öğesi satış vergisi grubu**, değeri **Öğe satış vergisi grubu** alanına varsayılan olarak ayarlamak için kullanılır.
 
 ### <a name="financial-dimensions"></a>Mali boyutlar
 
@@ -131,7 +132,7 @@ Proje muhasebecisi, **Fatura teklifini biçimlendirme** sayfasını ve yazdırma
 
 Yazdırma yönetimi, fatura için yazdırmak, hedefleri belirtmek ve alt bilgi metnini özelleştirmek için farklı rapor dosyaları kullanır. Yazdırma yönetimi modül düzeyinde ayarlanabilir ancak bu ayarlar belirli bir müşteri, sözleşme veya fatura teklifi için geçersiz kılınabilir. Bu işleve **Proje faturası teklifi** sayfasında erişmek için **Yazdır** > **Yazdırma yönetimi**'ni seçin.
 
-Yazdırma yönetimi ayarı bir ağaç görünümü olarak görüntülenir. Burada her düğüm düzeyi, ayarlanacak kullanılabilir belgeleri görüntüler. Özel çıktıları modül, müşteri, sözleşme veya fatura teklifi belge düzeyinde atayabilirsiniz. Özgün belge çıktısında değişiklik yapmak için istediğiniz düğümü genişletin ve **Özgün öğe**'yi seçin. **Rapor biçimi** alanında, yazdırmak için kullanılacak rapor biçimini seçin. [İş Belgesi Yönetimi Çerçevesi](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)'ni kullanarak özel rapor biçimleri kullanabilirsiniz.
+Yazdırma yönetimi ayarı bir ağaç görünümü olarak görüntülenir. Burada her düğüm düzeyi, ayarlanacak kullanılabilir belgeleri görüntüler. Özel çıktıları modül, müşteri, sözleşme veya fatura teklifi belge düzeyinde atayabilirsiniz. Özgün belge çıktısında değişiklik yapmak için istediğiniz düğümü genişletin ve **Özgün öğe**'yi seçin. **Rapor biçimi** alanında, yazdırmak için kullanılacak rapor biçimini seçin. [İş Belgesi Yönetimi Çerçevesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)'ni kullanarak özel rapor biçimleri kullanabilirsiniz.
 
 ## <a name="post-invoice-proposals"></a>Fatura tekliflerini deftere nakletme
 
@@ -142,6 +143,3 @@ Faturayı deftere nakletmeden önce görüntülemek için **Deftere Nakletme** o
 **Fatura teklifi** sayfasına ek olarak, fatura teklifleri ayrıca **Fatura tekliflerini deftere naklet** dönemsel işi çalıştırılarak da deftere nakledilebilir. Bu işi bulmak için **Proje yönetimi ve muhasebe** > **Dönemsel** > **Proje faturaları** > **Fatura tekliflerini deftere naklet**'e gidin.
 
 Bu sayfada deftere nakledilmeye hazır olan tüm fatura teklifleri gösterilir. **Toplu İş**'i seçerek Fatura tekliflerini deftere nakletmeyi zamanlayabilirsiniz. **Toplu işleme parametresi**'ni **Evet** olarak ayarlayın ve **Yineleme**'yi seçerek toplu işlemenin yinelemesini ayarlayın.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

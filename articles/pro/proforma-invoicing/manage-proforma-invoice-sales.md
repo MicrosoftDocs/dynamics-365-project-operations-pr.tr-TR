@@ -1,23 +1,25 @@
 ---
-title: Proforma proje faturalarını yönetme
-description: Bu konu, proforma proje faturalarıyla çalışma hakkında bilgi sağlar.
+title: Proforma faturaları yönetme - lite
+description: Bu konu,Proforma faturalarla çalışma hakkında ek geliştirici bilgileri sağlar.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997450"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181566"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Proforma proje faturalarını yönetme 
+# <a name="manage-a-proforma-invoice---lite"></a>Proforma faturaları yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'ta proforma faturalar, Dynamics 365 Sales'teki faturalar için uzantı olarak oluşturulur. Ancak Faturalandırma sırasında Sales ve Project Operations arasındaki faturalama işleminde çok çeşitli farklılıklar vardır. Örneğin, Project Operations'ta **fatura listesi** sayfasından yeni bir fatura oluşturmak mümkün değildir ancak satış içinde bunu yapmak mümkündür. Bu farklılıklar ve uzantılar, bir satış siparişi için tipik bir faturadan farklı olan projeler için faturalama işlemlerini desteklemek için kullanılan yerdir.
+Dynamics 365 Project Operations'ta, proforma faturaları, Dynamics 365 Sales içindeki faturalara uzantı olarak oluşturulur. Ancak Faturalandırma sırasında Sales ve Project Operations arasındaki faturalama işleminde çok çeşitli farklılıklar vardır. Örneğin, Project Operations'ta **fatura listesi** sayfasından yeni bir fatura oluşturmak mümkün değildir ancak satış içinde bunu yapmak mümkündür. Bu farklılıklar ve uzantılar, bir satış siparişi için tipik bir faturadan farklı olan projeler için faturalama işlemlerini desteklemek için kullanılan yerdir.
 
 > [!IMPORTANT]
 > Farklardan dolayı, Sales ve Project Operations'da faturaları birbirinin yerine kullanmayın.
@@ -67,9 +69,9 @@ Project Operations, her proje sözleşme satırı için her zaman bir fatura sat
 
 Bir proje faturasındaki her fatura satırı fatura satırı ayrıntılarını içerir. Bu satır ayrıntıları fatura satırı ile referansta bulunulan sözleşme satırıyla ilgili olarak faturalandırılmadığı satış fiili değerleri ve kilometre taşları ile ilgilidir. Tüm bu hareketler **Faturaya hazır** olarak işaretlenir.
 
-**Zaman ve Malzeme Faturası** satırı için fatura satırı ayrıntıları **Fatura Satırı** sayfasında şu gruplara ayrılır: **Borçlandırılabilir**, **Borçlandırılamaz** ve **Ücretsiz**. **Borçlandırılabilir fatura satırı** ayrıntıları fatura satır toplamına kadar bilgi ekleyin. **Ücretsiz** ve **Borçlandırılamayan Gerçek Değerler**, fatura satırı toplamına ulaşmıyor.
+**Zaman ve malzeme fatura** satırı için fatura satırı ayrıntıları **fatura satırı** sayfasında **Borçlandırılabilir**, **borçlandırılamayan** ve **kapanış** olarak gruplandırılır. **Borçlandırılabilir fatura satırı** ayrıntıları fatura satır toplamına kadar bilgi ekleyin. **Kapanış** ve **borçlandırılamayan fiili değerler** fatura satır toplamına eklenmez.
 
-**Sabit Fiyat Faturası** satırı için, fatura satırı ayrıntıları, ilgili sözleşme satırında **Faturalamak için hazır** olarak işaretlenmiş kilometre taşlarından oluşturulur. Bir kilometre taşından fatura satırı ayrıntısı oluşturulduktan sonra, kilometre taşına ait faturalama durumu, **oluşturulan müşteri faturasına** güncelleştirilir.
+**Sabit fiyatlı fatura** satırı için fatura satırı ayrıntıları, ilgili sözleşme satırında **Faturaya hazır** olarak işaretlenmiş kilometre taşlardan oluşturulur. Bir kilometre taşından fatura satırı ayrıntısı oluşturulduktan sonra, kilometre taşına ait faturalama durumu, **oluşturulan müşteri faturasına** güncelleştirilir.
 
 ### <a name="edit-invoice-line-details"></a>Fatura Satırı Ayrıntılarını düzenle
 
@@ -96,12 +98,8 @@ Aşağıdaki alanlar, faturalanmamış bir satış fiili ile desteklenen bir fat
 | **Vergi** | Varsayılan olarak kaynak gerçek tarafından ayarlanır. Alan Kullanıcı tarafından düzenlenebilir | Bu alan, gerçek bir yedek olmadan yeni bir fatura satır ayrıntısı oluştururken Kullanıcı tarafından düzenlenebilir. |
 | **Toplam Tutar** | Hesaplanan bir alan, **Tutar + Vergi** olarak hesaplanır. Düzenlemeden kilitlenen salt okunur bir alan. | &nbsp; |
 | **Fatura Türü** | Varsayılan olarak kaynak gerçek tarafından ayarlanır. Alan Kullanıcı tarafından düzenlenebilir. | **Borçlandırılabilir** satır, fatura satır toplamına eklenir. **Tamamlayıcı** ve **borçlandırılamayan**, fatura satır toplamndan hariç kalır. |
-| **Ürün Seç** | Kaynak gerçek değerinden varsayılan olarak ayarlanan bu alan salt okunurdur. | Yedekleme gerçek değeri olmadan yeni bir fatura satırı oluşturduğunuzda bu alan düzenlenemez. |
-| **Ürün** | Kaynak gerçek değerinden varsayılan olarak ayarlanan bu alan salt okunurdur. | Yedekleme gerçek değeri olmadan yeni bir fatura satırı oluştursanız bu satırın düzenlenebilmesi için **Ürün Seç** alanının **Varolan ürün** olarak ayarlanması gerekir. |
-| **Ürün Adı** | Kaynak gerçek değerinden varsayılan olarak ayarlanan bu alan salt okunurdur. | Ürün kimliğinin katalogdan seçildiği yeni bir fatura satır ayrıntısında bu alan ürün adına ayarlanır. Serbest ürünler için bu alan serbest ada ayarlanmıştır. |
-| **Serbest Ürün Açıklaması** | Kaynak gerçek değerinden varsayılan olarak ayarlanan bu alan salt okunurdur. | Yedekleme gerçek değeri olmadan yeni bir fatura satır ayrıntısı oluşturduğunuzda ürün için bir serbest açıklaması ekleyebilirsiniz. |
 | **İşlem Türü** | Varsayılan olarak kaynak gerçek tarafından ayarlanır. Düzenlemeden kilitlenen salt okunur bir alan. | Gerçek yedek olmadan yeni bir **Fatura satırı ayrıntısı** oluştururken varsayılan olarak **Faturalanan Satışlar** ve kilitli olarak ayarlayın.  |
-| **İşlem Sınıfı** | Varsayılan olarak kaynak gerçek tarafından ayarlanır. Düzenlemeden kilitlenen salt okunur bir alan. | Kullanıcının yedekleme gerçek değeri olmadan **Fatura satırı ayrıntısı** oluştururken **Zaman**, **Gider**, **Malzeme** veya **Ücret** ayrıntı satırı oluşturmasına bağlı olarak varsayılan olarak ayarlanır. Düzenlemeye karşı kilitlendi. |
+| **İşlem Sınıfı** | Varsayılan olarak kaynak gerçek tarafından ayarlanır. Düzenlemeden kilitlenen salt okunur bir alan. | Varsayılan olarak, kullanıcının gerçek bir yedekleme olmadan da yeni bir **fatura satırı ayrıntısı** oluştururken **zaman**, **masraf** veya **ücret** faturası satır ayrıntısı oluşturmayı seçerse, kullanıcıya göre olarak ayarlanır. Düzenlemeye karşı kilitlendi. |
 
 Aşağıdaki alanlar,kilometre taşı ile desteklenen bir fatura satırı ayrıntısı ile kullanılabilir:
 
@@ -146,6 +144,3 @@ Fatura oluşturulduktan sonra gelen fiili değerleri varsa, bu fiili değerleri 
 Project Operations'ta, proje tabanlı fatura satırlarıyla birlikte, herhangi bir projeye veya tüm projelere uygulanabilen ürünler için fatura satırları oluşturabilirsiniz. Bu fatura satırları ürün tabanlı sözleşme satırları olarak oluşturulur ve bunlar, faturaya hazır olarak işaretlendikten sonra, ürün tabanlı fatura satırları olarak eklenir.
 
 Ürün tabanlı fatura satırlarını ekledikten sonra, bunlar değiştirilemez. Ancak bunlar taslak proforma faturadan silinebilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

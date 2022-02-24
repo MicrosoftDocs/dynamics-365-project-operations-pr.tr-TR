@@ -2,16 +2,18 @@
 title: Projelerdeki kaynak süresi için mali tahminler
 description: Bu konu, zamanla ilgili mali tahminlerin nasıl hesaplandığı hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998710"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701850"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>Projelerdeki kaynak süresi için mali tahminler
 
@@ -37,7 +39,7 @@ Yaprak düğüm görevi zamanına yönelik mali tahmin, bu göreve yönelik tüm
 
 Özet görevi veya üst görev zamanına yönelik mali tahmin, bu görevin alt görevlerindeki tüm kaynak atamalarındaki mali tahminlerin toplamıdır. Bu, projedeki tahmini işçilik maliyetidir. 
 
-![Kaynak Tahminleri.](./media/navigation12.png)
+![Kaynak Tahminleri](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Varsayılan maliyet fiyatı ve maliyet para birimi
 

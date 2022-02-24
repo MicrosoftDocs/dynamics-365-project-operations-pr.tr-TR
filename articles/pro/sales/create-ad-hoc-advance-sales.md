@@ -2,16 +2,18 @@
 title: Sözleşmede özel avans oluşturma
 description: Bu konu, bir sözleşmede gerektiği gibi bir ön oluşturma hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999160"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596036"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Sözleşmede özel avans oluşturma
 
@@ -37,6 +39,3 @@ Bir önce müşteriyi faturalamak için aşağıdaki adımları uygulayın.
     | **Fatura Durumu** | Bu, bu avansa bu müşteriye ait taslak faturaya bu avans eklenip eklenmeyeceğini belirten bir seçenek ayarıdır. Olası değerler:</br>- **Faturalamak için hazır değil**</br>- **Faturalamak için hazır** | Avans veya ön ödeme **faturaya hazır** olarak işaretlendiğinde , bu fatura bir taslak faturaya satır saati olarak eklenir. Sonraki fatura dönemi için Proje maliyetlerine göre mutabakat sağlamak için yalnızca tam faturalandırılmış bir avans kullanılabilir. |
 
 4. Avans veya ön ödemeyi kaydetmek için hızlı kayıt iletişim kutusunda **Kaydet ve Kapat**'a gidin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

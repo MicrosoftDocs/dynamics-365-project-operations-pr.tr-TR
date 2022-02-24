@@ -2,16 +2,18 @@
 title: Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme - lite
 description: Bu konu, abonelik tabanlı ürünlerin satışını destekleme hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003390"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177400"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme - lite
 
@@ -44,6 +46,3 @@ Project Operations yalnızca sayısal veri türüne sahip sayısal özellikleri 
 7. Birlikte ürün tabanlı sözleşme satırı için miktarı oluşturan tüm özellikler için 2-6 arasındaki adımları yineleyin.
 
 Miktar faktörleri ayarlandığında, Kullanıcı bu ürün için bir sözleşme satırı oluşturduğunda, sözleşme satırının miktarı kilitlenir. Miktar daha sonra, bu sözleşme satırı için özellik değerlerinin bir ürünü olarak hesaplanır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

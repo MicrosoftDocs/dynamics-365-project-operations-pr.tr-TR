@@ -2,17 +2,19 @@
 title: Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını çözümleme
 description: Bu konu, proje tahminleri ve gerçek değerlerinde maliyet fiyatlarının nasıl çözümleneceği hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a2a2df7672118a4a4d7748795174e8e8238dd7618a48437185879e06a253a381
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997585"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877289"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını çözümleme 
 

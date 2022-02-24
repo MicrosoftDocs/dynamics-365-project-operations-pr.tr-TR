@@ -2,6 +2,8 @@
 title: Project Service Automation Güncelleştirme Sürümü 16, V3'teki yenilikler veya değişiklikler
 description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 16, V3'teki özellikler ve düzeltmeler listelenir.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004425"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143657"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, Güncelleştirme Sürümü 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir.  Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online Yönetim Merkezi'ni ziyaret edin ve çözümler sayfasından güncelleştirmeyi yükleyin. Daha fazla bilgi için bkz. [Tercih Edilen Çözümü Yükleme, Güncelleştirme](/dynamics365/project-service/upgrade-psa-home-page) bölümüne bakın.
+Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir.  Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online Yönetim Merkezi'ni ziyaret edin ve çözümler sayfasından güncelleştirmeyi yükleyin. Daha fazla bilgi için bkz. [Tercih Edilen Çözümü Yükleme, Güncelleştirme](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page) bölümüne bakın.
 Bu konuda, PSA V3, Güncelleştirme Sürümü 16'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenir. Bu sürüm, V3.10.6.34 derleme numarasına sahiptir ve Ocak 2020 tarihinde kendi kendine güncelleştirme ile genel kullanıma sunulmuştur.
 
 
@@ -62,6 +64,3 @@ Bu konuda, PSA V3, Güncelleştirme Sürümü 16'te yeni veya değiştirilmiş �
 
     -   Düzeltildi: Kullanıcılar 2.X'ten 3. X'e yükseltme yaptığında, proje adı için NULL değerine sahip projelere izin verilecektir.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

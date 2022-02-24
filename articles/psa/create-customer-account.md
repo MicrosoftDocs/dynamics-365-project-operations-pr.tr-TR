@@ -2,6 +2,8 @@
 title: Bir müşteri firması oluştur
 description: Project Service'ta bir müşteri hesabı oluşturma
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d622dd2eb936611015fedd43925296313221435b9183c6d94bc6e6538518770
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002760"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144842"
 ---
 # <a name="create-a-customer-account-project-service"></a>Müşteri hesabı oluşturma (Project Service)
 
@@ -45,6 +47,3 @@ Teklif verdiğiniz bir proje ya da var olan bir proje üzerinde etkin olarak ça
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

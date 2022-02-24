@@ -2,16 +2,18 @@
 title: Project Operations'da entegrasyon günlüğü
 description: Bu konu, Project Operations'ta tümleştirme günlüğüyle çalışma hakkında bilgi sağlar.
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987955"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948354"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
@@ -19,14 +21,14 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations bir araçla ilgili olarak hareketleri incelemek ve muhasebe özniteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
 
-![Tümleştirme günlüğü akışı.](./media/IntegrationJournal.png)
+![Tümleştirme günlüğü akışı](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations'da entegrasyon günlüğünde kayıt oluşturma
 
 Project Operations Tümleştirme Günlüğündeki kayıtlar dönemsel işlem kullanılarak oluşturulur, **hazırlama tablosundan alınır**. Bu işlemi, **Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **Periyodik** > **Project Operations Tümleştirmesi** > **Hazırlama tablosundan alma**'ya giderek çalıştırabilirsiniz. İşlemi etkileşimli olarak çalıştırabilir veya gerektiği gibi arka planda çalışacak şekilde yapılandırabilirsiniz.
 
 Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme günlüğüne eklenmemiş olan gerçek değerler bulunur. Her fiili hareket için bir günlük satırı oluşturulur.
-Sistem, **Project Operations tümleştirme günlüğündeki dönem birimi** alanında seçilen değeri temel alarak günlük satırlarını ayrı günlüklerde gruplandırır (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement'da Project Operations** sekmesi). Bu alan için olası değerler şunlardır:
+**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** sekmesinde Project Operations) seçilen değere bağlı olarak yevmiye defteri satırlarını ayrı yevmiye defterlerine ayırır. Bu alan için olası değerler şunlardır:
 
   - **Günler**: Gerçek tutarlar, işlem tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
   - **Aylar**: Gerçek değerler takvim ayına göre gruplandırılır. Her ay için ayrı bir günlük oluşturulur.

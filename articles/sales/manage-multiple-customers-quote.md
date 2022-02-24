@@ -2,16 +2,18 @@
 title: Proje teklifindeki birden çok müşteriyi yönetme
 description: Bu konuda, projeye fon sağlayacak birden çok müşteriyi içeren teklifler üzerinde nasıl çalışılacağı hakkında bilgiler sağlanmaktadır.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992005"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4182016"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Proje teklifindeki birden çok müşteriyi yönetme
 
@@ -21,7 +23,7 @@ Proje teklifleri, teklifin anlaşmaya fon sağlayacak birden fazla müşteri iç
 
 Proje teklifinin **Müşteriler** sekmesindeki tüm teklif müşterileri, teklif için oluşturulan herhangi bir **yeni** proje tabanlı teklif satırında varsayılan olarak teklif satırı müşterileridir. Var olan proje tabanlı teklif satırları, onlardan sonra oluşturulan yeni teklif müşteri kayıtlarını devralmaz.
 
-Teklif müşterileri ve teklif satırı müşterileri, teklifi kazanmadan önce istenildiği zaman eklenebilir, güncelleştirilebilir veya silinebilir. Teklifte geçerli olan bir müşteri, **Müşteriler** sayfasındaki Sahibi olan şirket veya Tüzel kişi bölümünde müşteri olarak ayarlanmalıdır. Tüzel kişilikler, Dynamics 365 Project Operations'ın **Proje yönetimi ve muhasebe** modülünde ayarlanır ve Project Operations'ın **Proje satış ve teslimat** modüllerinde kullanıma sunulur.
+Teklif müşterileri ve teklif satırı müşterileri, teklifi kazanmadan önce istenildiği zaman eklenebilir, güncelleştirilebilir veya silinebilir. Teklifte geçerli olan bir müşteri, **Müşteriler** sayfasındaki Sahibi olan şirket veya Tüzel kişi bölümünde müşteri olarak ayarlanmalıdır. Tüzel kişilikler, Dynamics 365 Project Operations'ın **Proje yönetimi ve muhasebe** modülünde ayarlanır ve Project Operations'ın **Proje satışı ve teslim** modüllerinde Şirketler olarak kullanılabilir duruma getirilmiştir.
 
 ## <a name="concept-of-a-primary-customer"></a>Birincil müşteri kavramı
 
@@ -49,6 +51,3 @@ Teklif müşterisi, **Teklif** sayfasındaki **Teklif müşterileri** sekmesinde
 Satır içi ızgara düzenleme deneyimini kullanarak fatura bölme yüzdelerini düzenleyebilirsiniz. Fatura bölme yüzdelerinin toplamı %100 olmadığında bir hata oluşur. Fatura bölme yüzdelerini güncelleştirdikten sonra hatayı kaldırmak için sayfayı yenileyin.
 
 Ayrıca, teklif müşterilerinin alt ızgarasında da **dengeli dağıtım** seçmeyi deneyebilirsiniz. Bu eylem, fatura bölmelerini tüm teklif müşterilerine ayırır. Yuvarlama faktörleri varsa bu değer yuvarlama müşterisine eklenir. Teklif müşterilerinden biri her zaman yuvarlama müşterisi olarak etiketlenir. Bu, teklif müşterisi kaydının **Yuvarlama** bayrağının **Evet** olarak ayarlandığı anlamına gelir. Genel olarak bu, teklifin birincil müşterisidir ancak değiştirilebilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,61 +2,39 @@
 title: Fatura biriktirme listesini yönetme
 description: Bu konu, Project Operations'ta faturalama biriktirme listesini görüntüleme ve bunlarla çalışma hakkında bilgiler sağlar.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e839c1f32248fff6d97271796666b5031f66490ccd98574045b770100bf379f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991105"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122367"
 ---
-# <a name="manage-billing-backlog"></a>Fatura biriktirme listesini yönetme
+# <a name="manage-the-billing-backlog"></a>Fatura biriktirme listesini yönetme
 
-**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'ta, fatura biriktirme listesini yönetmeye yardımcı olmak için ayrılmış görünümler bulunur. Faturalama biriktirme listesini yönetmek için, **Satışlar** alanında, **fatura** altında bağlantıları seçin. 
-
-Aşağıdaki görünümler kullanılabilir:
-
-- Elde Tutulan Tutarlar ve Avanslar
-- Kullanılabilir Elde Tutulan Tutarlar ve Avanslar
-- Sabit Fiyat Kilometre Taşları
-- Zaman ve Malzeme Faturalama Biriktirme Listesi
-
-## <a name="retainers-and-advances"></a>Elde Tutulan Tutarlar ve Avanslar
-
-**Elde Tutulan Tutarlar ve Avanslar** görünümü, tüm proje sözleşmelerindeki elde tutulan tutarlar ve avansları listeler. Bir Elde tutulan tutar veya avans faturalandıktan sonra, kullanım avans tutarı kullanıma hazır olur.
-
-## <a name="available-retainers-and-advances"></a>Kullanılabilir Elde Tutulan Tutarlar ve Avanslar
-
-**Kullanılabilir Elde Tutulan Tutarlar ve Avanslar** görünümü, tüm proje sözleşmelerindeki kullanılabilir elde tutulan tutarlar ve avansları listeler. Bir Elde tutulan tutar veya avans faturalandıktan sonra, kullanım avans tutarı kullanıma hazır olur ve listeye eklenir. Elde edilen tutar veya avans tutarı tamamen kullanıldıktan sonra listeden kaldırılır.
+Dynamics 365 Project Operations ile çalışmanıza ve faturalama biriktirme listesine yönetmenize yardımcı olacak iki adanmış görünüme sahiptir. Bunlar **Sabit fiyatlı kilometre taşları** ve **zaman ve malzeme faturalama biriktirme listesi** olarak bir görünüm seçmek için, Project Operations'nin **satış** alanında, sol gezinti sayfasında, **fatura**'yı seçin. Fatura biriktirme listesi bağlantıları orada depolanır.
 
 ## <a name="fixed-price-milestones"></a>Sabit Fiyat Kilometre Taşları
 
-**Sabit Fiyat Kilometre Taşları** görünümü, tüm proje sözleşmesi satırlarındaki tüm sabit fiyat aşamalarını listeler. Bu görünümde, bir veya birden çok kilometre taşı **Faturalamak için hazır** veya **Faturalamak için hazır değil** olarak işaretlenebilir. Bir kilometre taşını **Faturaya hazır** olarak işaretlemek bunu bir taslak faturaya koymak için kullanılabilir hale getirir.
+Bu görünümde tüm sabit fiyat kilometre taşları sistemdeki Proje sözleşmesi satırlarının tümünde listelenir. Tek veya birden çok kilometre taşı **faturaya hazır** veya Bu görünümden **faturaya hazır değil** olarak işaretlenebilir. Kilometre taşını **faturaya hazır** olarak işaretlediğinizde , kilometre taşı taslak fatura için kullanılabilir duruma gelir.
 
-Çok müşterili sözleşme satırları sabit fiyatlı faturalama yöntemi olduğunda, sözleşme satırındaki her müşteri için bir kilometre taşı oluşturulur. Kilometre taşı oluşturulabilir ve ardından müşteriye özgü bağımsız kilometre taşı kayıtlarına ayrılabilir. Bu bölme, sözleşme satırındaki her müşteri için tanımlanan faturalama yüzdesine göre dahili ve sözleşmedir. **Sabit fiyatlı kilometre taşları** görünümünde, müşteriye özgü bağımsız kilometre taşı kayıtlarını görürsünüz. Bu kilometre taşı kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir. Bir veya birden fazla ilgili kilometre taşı bölmesi **Faturalamak için hazır** olarak işaretlendiğinde **Devam Ediyor** olan üst bilgi durumu, **Başlamadı** olarak güncelleştirilir. Tüm kilometre taşı bölmelerini faturalandığında, üst bilgi kilometre taşı durumu **Tamamlandı** olarak güncelleştirilir.
+Birden çok müşteri sözleşme satırındaki sabit fiyatlı faturalama yöntemi olduğunda, sözleşme satırındaki her müşteri için bir aşama oluşturulur. Kullanıcı bir kilometre taşı oluşturur ve bu kilometre taşına müşteri = özgü kilometre taşı kayıtları dahili olarak, sözleşme satırındaki her müşteri için tanımlanan faturalama yüzdesine göre bölünmüş olarak bölünür. **Sabit fiyatlı kilometre taşları** görünümünde, müşteriye özgü bağımsız kilometre taşı kayıtlarını görürsünüz. Bu kilometre taşı kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir. İlgili kilometre taşlardan biri veya birkaçı, **Faturaya hazır** olarak işaretlendiğinde , başlık, **başlatılmamış** durumdan **Devam ediyor** durumuna gider. Tüm kilometre taşı bölmelerini faturalandığında, başlık kilometre taşı durumu **tamamlandı** olur.
 
-Bir taslak faturadaki kilometre taşı, bu görünümde, **oluşturulan müşteri faturasının** faturalama durumu ile gösterilir. Taslak fatura teyit edildiğinde, kayıttaki faturalama durumu **Müşteri faturası deftere nakledildi** olarak güncelleştirilir. 
-
-> [!NOTE] 
-> Bu durum değerini, özel kod kullanarak güncelleştirmeyin. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.
+Bir taslak faturadaki kilometre taşı, bu görünümde, **oluşturulan müşteri faturasının** faturalama durumu ile gösterilir. Taslak fatura teyit edildiğinde, bu kayıttaki faturalama durumu **deftere nakledilen fatura** olarak güncelleştirilir. Bu durum değerini özel kod kullanarak güncelleştirmek önerilmez. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.
 
 ## <a name="time-and-material-billing-backlog"></a>Zaman ve Malzeme Faturalama Biriktirme Listesi
 
-**Zaman ve malzeme faturalama biriktirme listesi** görünümü, tüm faturalanmamış satış fiili değerlerini sistemdeki tüm proje sözleşmeleri arasında listeler. Tek veya birden çok faturalandırılmamış satış fiilleri **faturaya hazır** veya Bu görünümden **faturaya hazır değil** olarak işaretlenebilir. Faturalandıralınmamış bir satış fiili gerçek değeri **faturaya hazır** olarak işaretlemek bunu bir taslak faturaya koymanıza olanak sağlar.
+Bu görünümde, sistemdeki tüm proje sözleşmeleri arasında faturalanmamış tüm faturalandırılmamış satış gerçekleri listelenir. Tek veya birden çok faturalandırılmamış satış fiilleri **faturaya hazır** veya Bu görünümden **faturaya hazır değil** olarak işaretlenebilir. Faturalandıralınmamış bir satış fiili gerçek değeri **faturaya hazır** olarak işaretlemek bunu bir taslak faturaya koymanıza olanak sağlar.
 
-**Aşılamaz** durumu **Başarısız** olan faturalandırılmamış satış tahakkukları **Faturaya hazır** olarak işaretlenemez. Gerçek değerlerin **Faturalamak için hazır** olarak işaretlenmesi gerekiyorsa sözleşme satırındaki diğer gerçek değerlerin durumunu sıfırlayın ve ardından **Aşılamaz** durumunu yeniden değerlendirin.
+**Aşılamaz Limit** durumu **Başarısız** olan faturalandırılmamış satış fiileri **Faturalamaya hazır** olarak işaretlenemez. Bu gerçeklerin bu şekilde işaretlenmesi gerekiyorsa, sözleşme satırındaki diğer fiili değerler üzerindeki durumu sıfırlayın ve ardından **aşmayan** durumunu değerlendirin.
 
-Çok müşterili sözleşme satırları zaman ve malzeme faturalama yöntemi içeriyorsa, saat ve giderler onaylandığında, her bir müşteri için tanımlanan faturalama yüzdesiyle ilgili olarak, sözleşme satırındaki her müşteriye için faturalandırmayan bir satış fiili gerçek oluşturulur. **Zaman ve malzeme faturalama biriktirme listesi** görünümünde, müşteriye özgü bu bağımsız satışlar fiili değerlerini görürsünüz. Bu faturalandırılmamış satış fiili kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir.
+Zaman ve malzeme faturalama yöntemi olan çok müşterili sözleşme satırlarında, saat ve giderler onaylandığında, sözleşme satırındaki her müşteri için tanımlanan faturalama yüzdesiyle ilgili olarak, sözleşme satırındaki her müşteri için faturalandırmayan bir satış fiili gerçek oluşturulur. **Zaman ve malzeme faturalama biriktirme listesi** görünümünde, müşteriye özgü bu bağımsız satışlar fiili değerlerini görürsünüz. Bu faturalandırılmamış satış fiili kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir.
 
-Taslak faturada bulunan faturalanmamış satış gerçek değeri bu görünümde, **Müşteri Faturası Oluşturuldu** fatura durumu ile görüntülenir. Taslak fatura teyit edildiğinde, bu kayıttaki faturalama durumu **deftere nakledilen müşteri fatura** olarak güncelleştirilir. 
-
-> [!NOTE] 
-> Bu durum değerini, özel kod kullanarak güncelleştirmeyin. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Bir taslak faturadaki faturalandırılmamış satış fiileri bu görünümde, **oluşturulan müşteri faturasının** **faturalama durumu** ile gösterilir. Taslak fatura teyit edildiğinde, bu kayıttaki faturalama durumu **deftere nakledilen müşteri fatura** olarak güncelleştirilir. Bu durum değerini bu durumdayken özel kod kullanarak güncelleştirmek önerilmez. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.

@@ -2,17 +2,18 @@
 title: Proje çalışması izleme
 description: Bu konuda, projenin çalışma ve işteki ilerlemenin nasıl izleneceği hakkında bilgiler sağlanmaktadır.
 author: ruhercul
+manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993985"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5710964"
 ---
 # <a name="project-effort-tracking"></a>Proje çalışması izleme
 

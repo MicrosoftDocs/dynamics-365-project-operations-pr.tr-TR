@@ -2,9 +2,11 @@
 title: Proje kaynak zamanlaması performansı
 description: Bu konu, çok sayıda proje için kaynak zamanlama performansının nasıl artıracağı hakkında bilgi sağlar.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007305"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086307"
 ---
 # <a name="project-resource-scheduling-performance"></a>Proje kaynak zamanlaması performansı
 
@@ -67,6 +69,3 @@ Kaynak zamanlama performans geliştirmesini etkinleştirmek için aşağıdaki a
 
 > [!NOTE]
 > Bu, genel verileri ortamınızdaki tüm şirketler arasında **ResRollup** tablosuna dağıtır, bu nedenle toplu işlemin yalnızca bir yasal varlıkta çalıştırılması yeterlidir. Bu toplu işlem, tüm **Kaynak kullanılabilirliği** görünümleri için gereklidir. Bu toplu iş çalışmazsa, **ResRollup** verileri uçarak üzerinde oluşturulur ve bu da zaman alabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

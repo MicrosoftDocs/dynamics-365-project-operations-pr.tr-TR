@@ -2,16 +2,18 @@
 title: Ayrılabilir bir kaynak bir projede birden fazla rolü doldurduğunda proje satışlarını ve maliyetlerini tahmin etme
 description: Bu konuda bir projede birden çok rolü dolduran bir kaynak için fiyatlandırma ve maliyetlendirme tahminlerini desteklemek üzere fiyatlandırma boyutlarının nasıl kullanılacağı açıklanmaktadır.
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990160"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531583"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Ayrılabilir bir kaynak bir projede birden fazla rolü doldurduğunda proje satışlarını ve maliyetlerini tahmin etme 
 
@@ -104,6 +106,3 @@ Bu takım üyesi kaydı için satırı genişlettiğinizde her iki görev için 
 ### <a name="estimates-grid"></a>Tahminler ızgarası 
 
 **Tahminler** ızgarasında, aynı kaynağın iki ataması farklı fiyatlandırılır. **Görev A**'da kaynak için atama, **Danışman Müşteri Adayı**'nın **Rol** öznitelik değeri kullanılarak fiyatlandırılır. **Görev B**'de aynı kaynak için atama, **Ağ Teknisyeni**'nin **Rol** öznitelik değeri kullanılarak fiyatlandırılır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

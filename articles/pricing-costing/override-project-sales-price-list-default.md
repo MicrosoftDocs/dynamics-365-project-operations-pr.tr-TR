@@ -2,17 +2,19 @@
 title: Satış fiyat listelerinin projesini geçersiz kılma
 description: Bu konu, özel satış fiyatı listeleri oluşturma hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009600"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672255"
 ---
 # <a name="override-project-sales-price-lists"></a>Satış fiyat listelerinin projesini geçersiz kılma
 
@@ -50,6 +52,3 @@ Bu fiyat listelerinin her birini kullanabilir ve işçiliklere (rol fiyatı) ve 
 Proje fiyatları her zaman proje fiyatlandırması varsayılan olarak sözleşme adına sahip özel bir fiyat listesi ve ada eklenen bir oluşturma tarih saat damgası olur. Bu, sözleşmenin teklif kazanıldığında oluşturulduğunu veya sözleşmenin sıfırdan oluşturulmuş olup olmadığını doğrudur. Gerekirse, bu ilişkilendirmeyi özel fiyat listesine kaldırabilir ve bunun yerine standart bir fiyat listesini proje sözleşmesiyle ilişkilendirebilirsiniz.
 
 Bir standart fiyat listesini teklif veya sözleşme üzerinde proje fiyat listeleriyle ilişkilendirdiğinizde, Fiyat listesindeki fiyatlarda yapılan değişiklikler, Fiyat listesini kullanan tüm teklifleri ve sözleşmeleri etkiler.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

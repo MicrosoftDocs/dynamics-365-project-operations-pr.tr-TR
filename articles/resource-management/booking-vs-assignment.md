@@ -2,16 +2,18 @@
 title: Ayırmalar ve atamalar
 description: Bu konuda, kaynak ayırmaları ile kaynak atamaları arasındaki farklar hakkında bilgiler sağlanmaktadır.
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008475"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841196"
 ---
 # <a name="bookings-vs-assignments"></a>Ayırmalar ve atamalar
 
@@ -24,6 +26,3 @@ Ayırmaların aksine atamalar, kaynakların proje taahhüdündeki proje görevle
 Tipik olarak bir kaynağın toplam sayısı, kaynağın atamalarının bir veya daha fazla görev üzerinden toplamına eşittir. Ancak Project Operations bu uyuşmayı zorunlu kılmaz. **Mutabakat** görünümü; Proje yöneticisine, bir kaynağın ayırma ve atamalarının uyuşmadığı yerleri gösterir.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

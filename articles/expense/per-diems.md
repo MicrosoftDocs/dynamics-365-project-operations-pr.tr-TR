@@ -2,16 +2,18 @@
 title: Harcırahlar
 description: Bu konuda, Gider yönetiminde kullanılan harcırah kuralları hakkında bilgiler sağlanmaktadır.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128532"
 ---
 # <a name="per-diems"></a>Harcırahlar
 
@@ -29,6 +31,3 @@ Harcırah, iş için seyahat eden bir çalışana ödenen bir ücrettir. Gider y
     
 ## <a name="submit-expenses-using-per-diem"></a>Harcırah kullanarak giderleri gönderme
 Harcırahları kullanarak giderleri göndermek için bir gider raporu oluştururken **Harcırah** gider kategorisini kullanın. **Harcırah başlangıç tarihi**, **Harcırah bitiş tarihi** ve **Harcırah konumu** bilgilerini girin. Tutar, seçili konumun harcırah oranları temel alınarak ve yemek indirimi ise harcırah oranı katmanları temel alınarak hesaplanır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: "Aralık 2020'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations"
 description: Bu konu, Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations'ın Aralık 2020'deki kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984895"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727904"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Aralık 2020'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -106,7 +108,4 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Seyahat ve Gider                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Gider raporu otomatik gönderim iş akışı tamamlanıyor ancak fatura gönderilemiyor                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.

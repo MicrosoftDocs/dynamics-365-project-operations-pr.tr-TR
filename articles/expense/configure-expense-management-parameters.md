@@ -2,16 +2,18 @@
 title: Gider yönetimi parametrelerini yapılandırma
 description: Bu konuda, Gider yönetimindeki genel davranışları denetleyen parametreler açıklanmaktadır.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007800"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121062"
 ---
 # <a name="configure-expense-management-parameters"></a>Gider yönetimi parametrelerini yapılandırma
 
@@ -81,6 +83,3 @@ Bu konuda, Gider yönetimindeki genel davranışları denetleyen parametreler a�
 | Yolsuzlukla mücadele beyanını görüntüleme   | Gider raporu oluşturulduğunda, yolsuzlukla mücadele metninin gösterilmesi için bu seçeneği belirleyin. Belirli gider kategorileri, gider raporunda yolsuzlukla mücadele beyanının seçilmesinin ardından etkinleşecek şekilde düzenlenebilir. Örneğin, kamu yetkilisi gideriyle ilgili bir hediye kategorisi, giderin kamu yetkilileriyle ilgili şirket ilkelerine uygun olduğunun çalışan tarafından onaylanmasını gerektirebilir. |
 | Gönderen için yolsuzlukla mücadele iletisi | Gider raporu oluşturan bir çalışana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
 | Onaylayan için yolsuzlukla mücadele iletisi  | Gider raporu oluşturulduğunda, onaylayana gösterilmesi gereken metni girin. Kullanıcının diline bağlı olarak gösterilecek dile özgü metni girmek için **Çeviriler**'i seçin. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

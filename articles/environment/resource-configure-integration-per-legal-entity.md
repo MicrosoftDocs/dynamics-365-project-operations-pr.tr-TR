@@ -2,22 +2,24 @@
 title: Her tüzel kişilik için Project Operations tümleştirmesini yapılandırma
 description: Bu konuda Project Operations'ta tüzel varlık entegrasyonu ayarlama hakkında bilgi sağlanır.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999430"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122907"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Her tüzel kişilik için Project Operations tümleştirmesini yapılandırma 
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konuda, Dynamics 365 Project Operations'ı her tüzel kişilik için yapılandırmak üzere gerekli adımlar ayrıntılı olarak gösterilmektedir.
+Bu konu, her yasal varlık için Dynamics 365 Project Operations'ı yapılandırmak için gereken adımları açıklar.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance'te özellik anahtarlarını etkinleştir
 
@@ -49,6 +51,3 @@ Dynamics 365 Customer Engagement üzerinde Project Operations kullanan her bir t
   - **Fatura türü varsayılanları**: Project Operations, satır özellikleri finans ile eşlenmesi gereken sabit bir faturalama türü varsayılan kümesi kullanır. Her faturalama türü için bir kayıt oluşturun: **belirtilmemiş**, **Borçlandırılabilir**, **borçlandırılamayan**, **Kapanış** ve **kullanılamaz**.
   - **Proje kategorisi Varsayılanları**: her hareket türü için kullanılacak varsayılan Proje kategorilerini seçin. Bu varsayılanlar **Project Operations tümleştirme günlüğünde** ve proje fiili için herhangi bir hareket kategorisinin belirtilmediğinde tahminlerde kullanılır.
   - **Tahminler**: Zaman ve gider tahminlerinde kullanılacak tahmin modelini seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

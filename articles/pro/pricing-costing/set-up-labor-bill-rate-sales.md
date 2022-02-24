@@ -2,22 +2,24 @@
 title: İşçilik fatura oranlarını ayarlama - lite
 description: Bu konuda Project Operations'ta iş gücü faturalandırma fiyatlarını ayarlama hakkında bilgi sağlanır.
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007620"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181206"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>İşçilik fatura oranlarını ayarlama - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations'ta zaman için fatura oranları yalnızca tek bir para biriminde ayarlanabilir ve bu, Fiyat listesi başlığındaki para birimidir.
+Her fiyat listesi, fiyat listesinin içeriği ve tarih efektiyle uyumlu bir dizi işçilik oranlarına (rol fiyatları) sahiptir. Dynamics 365 Project Operations için fatura kurları, Fiyat listesi başlığındaki para birimi olan yalnızca bir para birimi olarak ayarlanabilir.
 
 1. Bir satış fiyatı listesi için işçilik fatura tarifesinin ayarlanması için fiyat listesi başlığına dayanan bir fiyat listesi oluşturun. 
 2. **Rol Fiyatlar** sekmesinde, alt kılavuzda **+ Yeni Rol Fiyatı**'nı seçin. 
@@ -53,6 +55,3 @@ Proje tabanlı şirketlerin, projelerde çalışmak için şirketin farklı yerl
     | Geliştirici | Fabrikam ABD | $150 |
 
 3. Proje sözleşmesinin proje fiyat listesine veya belirli bir hesaba satış fiyatı listesini **Fabrikam ABD fatura fiyatları** iliştirin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

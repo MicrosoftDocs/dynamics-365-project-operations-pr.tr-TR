@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 413783d2386cccd98cfe216a7c7300a5b7f771ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993940"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992927"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Web uygulamasında (Project Service uygulama sürümü 2.x) kaynakları nasıl "geçici ayırabilirim"?
 

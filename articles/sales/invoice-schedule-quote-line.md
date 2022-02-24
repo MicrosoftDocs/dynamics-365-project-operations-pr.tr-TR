@@ -2,16 +2,18 @@
 title: Proje tabanlı teklif satırlarındaki fatura zamanlamaları
 description: Bu konuda, teklif satırları için fatura zamanlamaları ve kilometre taşları oluşturma hakkında bilgiler sağlanmaktadır.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988630"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180846"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarındaki fatura zamanlamaları
 
@@ -66,6 +68,3 @@ Kilometre taşı oluşturmak için ihtiyacınız olan Sabit fiyatlı teklif sat�
 | Fatura durumu | Hızlı oluştur | Kilometre taşı oluşturulduğunda, bu durum her zaman **Faturalama için hazır değil** olarak ayarlanır. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Satır Tutarı | Hızlı oluştur | Müşteriye faturalanacak kilometre taşının tutarı veya değeri. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 | Vergi | Hızlı oluştur | Kilometre taşına uygulanacak vergi tutarı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Proje hareketlerini ayarlama
 description: Bu görev kılavuzu, projede bir hareketin nasıl ayarlanacağını gösterir.
 author: Yowelle
+manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92f5f998d7ecaed724298be16ff8680e56ee77d77a4ee3b7ba83fa5a8a1a4787
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7432dcdaa520c4eebb657f436575d017a7fd07cc
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086384"
 ---
 # <a name="adjust-project-transactions"></a>Proje hareketlerini ayarlama
 
@@ -42,6 +44,3 @@ Bu görev kılavuzu, projede bir hareketin nasıl ayarlanacağını gösterir. A
 13. Listeden, seçili satırı işaretleyin. 
 14. Maliyet fiyatı alanına bir sayı girin. 
 15. Gönder'e tıklayın. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

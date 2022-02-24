@@ -1,6 +1,8 @@
 ---
 title: Project Service Automation sürüm 3.x dalga 1 2020'deki yenilikler veya değişiklikler
 description: Bu konu Project Service Automation sürüm 3 dalga 1 2020'deki yenilikler veya değişiklikler hakkında bilgi sağlar.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002130"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150962"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Project Service Automation sürüm 3 dalga 1 2020'deki yenilikler veya değişiklikler
 
@@ -41,6 +43,3 @@ Ayrıca, zaman girişi varlığı için tüm formları içeren herhangi bir öze
 
 ### <a name="currently-extended-time-entry-changes"></a>Şu anda uzatılmış zaman girişi değişiklikleri
 Zaman girişinin geçerli kullanıcılar üzerindeki etkisini en aza indirmek amacıyla, bu rol değişikliği zaman girişinden yararlanmaya devam etmek için gereken tek temel gereksinimdir. Özel görünümler veya ayrı zaman girişi deneyimleri oluşturduysanız, **Zaman Girişi Ayarı** alanlarını doğru PSA değerine ayarlamanız gerekir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

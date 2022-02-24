@@ -2,6 +2,8 @@
 title: Proje fırsatı oluşturma
 description: Project Service'ta proje fırsatı oluşturma
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002715"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948218"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Proje fırsatı oluşturma (Project Service)
 

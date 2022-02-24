@@ -2,16 +2,18 @@
 title: Tamamlama maliyeti yöntemleri
 description: Bu konu, bir projeyi tamamlama maliyetini hesaplamak için kullanılan yöntemler hakkında bilgi sağlar.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997990"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531580"
 ---
 # <a name="cost-to-complete-methods"></a>Tamamlama maliyeti yöntemleri
 
@@ -28,6 +30,3 @@ Bu konu, bir projeyi tamamlama maliyetini hesaplamak için kullanılan yöntemle
 | Önceki tahmin olarak         | Burada önceki dönemde kullanılan aynı tahmin yöntemleri kullanılır. Önceki dönemde bir tahmin modeli gerekirse, bu yöntemde bir tahmin modeli gerekir.                                                                                                                                                                                                                                                                                                                           |
 | Tamamlanma maliyetini sıfıra ayarlama | Genellikle tahmini proje ortadan kaldırılmadan önce kullanılan bu yöntemde, toplam tahminler deftere nakledilen gerçek işlemlerle eşleştirilir ve **Tamamlama maliyeti** sütunu temizlenir. Tamamlandığında sonuç her zaman yüzde 100'dür. Oluşturduğunuz her tahmin satırı için **Tahmin** onay kutusu temizlenir ve toplam tahmin, önceki maliyet tahmininden kopyalanır. Tahmin dönemi için gerçek tüketim, projeyi tamamlama maliyetinden düşülür.              |
 | Maliyet şablonundan           | Seçili tahmin projesiyle ilişkili olan maliyet şablonunda ayarlanan tamamlama maliyeti yöntemi.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: 2021 Mart'taki yenilikler ve değişiklikler - Stoğu tutulan/ürün tabanlı senaryolar için Project Operations
 description: Bu konu, stoğu tutulan/ürün tabanlı senaryolar için Project Operations ile ilgili 2021 Mart sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: andchoi
+manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991195"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701983"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021 Mart'taki yenilikler ve değişiklikler - Stoğu tutulan/ürün tabanlı senaryolar için Project Operations
 
@@ -121,7 +123,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Proje yönetimi ve muhasebe | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Eski iş kırılım yapısı (WBS) sınıfı yöntemi **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** kullanım dışıdır.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates.md). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

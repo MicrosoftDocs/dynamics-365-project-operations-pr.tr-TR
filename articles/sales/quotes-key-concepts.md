@@ -2,9 +2,11 @@
 title: 'Teklifler: temel kavramlar'
 description: Bu konu, proje teklifleri ve Project Operations'da kullanılabilir olan satış teklifleri hakkında bilgiler sağlar.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8a1b5152b76cbcdfb5160a0af78eceec2c42b9a13dfc76701b6ad935318c7ba8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997900"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663737"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Proje tabanlı tekliflere özel kavramlar
 

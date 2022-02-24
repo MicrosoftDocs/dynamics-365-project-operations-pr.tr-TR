@@ -2,6 +2,8 @@
 title: Önceden onaylanan zaman ve gider girişlerini iptal etme
 description: Bu konu, önceden onaylanmış bir proje zaman veya gider işlemini iptal etme hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987460"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150602"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Önceden onaylanan zaman veya gider girişlerini iptal etme
 
@@ -60,6 +62,3 @@ Bir proje ayrıca onay iptal edildiğinde mali olarak da etkilenir. Öncelikle, 
 Ardından, Fiili değerler tablosunda ters işlem girişleri oluşturulur. Ters işlem girişleri oluşturmak için sistem özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalanmamaış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Tersine çevrilen fiili değerlerdeki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, faturalama durumu alanı da **İptal Edildi** olarak ayarlanır.
 
 Bu değişiklikler yapıldıktan sonra, projedeki harcandı olarak kaydedilen tutar ve gelir biriktirme listesi, bu fiili değerlerin temsil ettiği tutarları dikkate almaz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

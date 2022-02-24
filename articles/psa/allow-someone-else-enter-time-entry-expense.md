@@ -2,6 +2,8 @@
 title: Zaman girişi ya da gider girmek için başka birine izin ver
 description: Project Service'ta başka kişilerin zaman girişinizi veya giderinizi girmesine izin verme
 author: revathiMuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2642e56fc3df44b5c7583d0b996765f5a22f6be1fc46738d02462d928f833048
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000735"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145562"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Başka bir kişinin zaman girişinizi veya giderinizi girmesine izin verme (Project Service)
 
@@ -91,6 +93,3 @@ Başka bir kişinin [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

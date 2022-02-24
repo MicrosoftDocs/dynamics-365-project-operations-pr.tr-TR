@@ -1,6 +1,8 @@
 ---
 title: Kaynak isteği gönderme
 description: Bu konu, proje kaynağı için istek gönderme hakkında bilgi sağlar.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985030"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149747"
 ---
 # <a name="submitting-a-resource-request"></a>Kaynak isteği gönderme
 
@@ -34,11 +36,8 @@ Oluşturulmuş bir kaynak gereksinimini bir kaynak isteği olarak gönderebilirs
 1. Project Service Automation'da (PSA) **Projeler** sayfasında ayrılabilir kaynakların listesini görüntülemek için **Takım** sekmesine tıklayın. 
 2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **İstek Gönder**'e tıklayın.
 
-![Kaynak isteği gönderme.](media/RM-how-to-18.png)
+![Kaynak isteği gönderme](media/RM-how-to-18.png)
 
 Genel takım üyesinin istek durumu **Gönderildi** olarak değişir.
 
 İstek kaynak yöneticisi tarafından yerine getirildikten sonra kaynak yöneticisi isteği adlandırılmış kaynak ayırmasıyla yerine getirirse, genel kaynağın yerini adlandırılmış kaynak alır. Aksi takdirde, genel kaynak takım üzerinde kalır ve kaynak yöneticisi adlandırılmış bir kaynak önermişse istek durumu **İnceleme Gerekiyor** olarak değişir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

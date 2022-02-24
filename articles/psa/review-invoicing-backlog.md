@@ -2,6 +2,8 @@
 title: Projelerde ve proje sözleşmelerinde faturalama biriktirme listesini gözden geçirme
 description: Bu konu zamanı, gideri ve ürün biriktirme listelerini gözden geçirme ve bunları faturalama için hazır olarak işaretleme hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006990"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150512"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Projelerde ve proje sözleşmelerinde faturalama biriktirme listesini gözden geçirme
 
@@ -40,7 +42,7 @@ Faturalanmayan satış gerçek değerleri, faturalama biriktirme listesini temsi
 
 Zaman ve malzemeler için faturalama biriktirme listesini gözden geçirmek için **Satış** \> **Faturalama** \> **Zaman ve Malzeme Faturalama Biriktirme Listesi**'ne gidin. Faturalanmaya hazır olan tüm faturalanmayan satış gerçek değerlerini ve ardından **Faturalamak için Hazır** öğesini seçin. Bu gerçek değerlerin faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Zaman ve Malzeme Faturalama Biriktirme Listesi.](media/TMBacklog.png)
+![Zaman ve malzeme faturalama biriktirme listesi](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>Ürün faturalama biriktirme listesini gözden geçirme
 
@@ -48,7 +50,7 @@ PSA'da, proje sözleşmesinde ürün tabanlı sözleşme satırları varsa proje
 
 Ürünlerin faturalama biriktirme listesini gözden geçirmek için **Satış** \> **Faturalama** \> **Ürün Faturalama Biriktirme Listesi**'ne gidin. Faturalanmaya hazır olan tüm ürün tabanlı sözleşme satırlarını ve ardından **Faturalamak için Hazır** öğesini seçin. Bu satırların faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Ürün Faturalama Biriktirme Listesi.](media/ProductBacklog.png)
+![Ürün faturalama biriktirme listesi](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>Sabit fiyatlı sözleşmelerde faturalama kilometre taşlarını gözden geçirme
 
@@ -56,7 +58,4 @@ Sabit fiyatlı faturalama yöntemine sahip her proje sözleşme satırı, sözle
 
 Faturalama kilometre taşlarını gözden geçirmek için **Satış** \> **Faturalama** \> **Sabit Fiyat Kilometre Taşları**'na gidin. Faturalanmaya hazır olan kilometre taşlarını ve ardından **Faturalamak için hazır** öğesini seçin. Bu kilometre taşlarının faturalama durumu **Faturalamak için Hazır** olarak değiştirilir.
 
-![Sabit Fiyat Kilometre Taşları.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Sabit fiyat kilometre taşları](media/FPBacklog.png)

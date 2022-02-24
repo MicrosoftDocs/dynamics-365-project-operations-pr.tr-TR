@@ -2,16 +2,18 @@
 title: Fırsat ayarları - lite
 description: Bu konu proje tabanlı anlaşmalar ve proje tabanlı fırsat satırlarıyla ilgili bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994480"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663843"
 ---
 # <a name="header-details-for-project-opportunities"></a>Proje fırsatları için üst bilgi ayrıntıları
 
@@ -31,7 +33,7 @@ Aşağıdaki tabloda bir proje tabanlı fırsattaki Project Operations'a özgü 
 | Firma Yöneticisi | Genel sekmesi | Bu proje tabanlı fırsat için Firma yöneticisinin adı. | Firma yöneticisi, bu projenin tamamlanmasından sonra müşteriyle ilişkiyi yönetmekten sorumludur. Firma yöneticisine bağlı ayrılabilir kaynak kaydına göre sözleşme yapan birim varsayılan olarak ayarlanır. |
 | Sözleşme Birimi | Genel sekmesi | Bu anlaşmayla ilişkili projenin veya projelerin tesliminden sorumlu olan Kuruluş birimi. | Sözleşme yapan birim, şirketin anlaşma tamamlandıktan sonra projeleri yürüten bölümüdür. Sözleşme yapan her biriminin bir para birimi vardır ve bu para birimi, proje sırasında oluşan tahmini ve gerçek maliyetleri bildirmek için kullanılır. |
 
-Fırsatın **Özet** sekmesindeki diğer tüm alanlar ve bölümler için bkz. [Fırsat oluşturma veya düzenleme (Sales ve Satış Merkezi)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+Fırsatın **Özet** sekmesindeki diğer tüm alanlar ve bölümler için bkz. [Fırsat oluşturma veya düzenleme (Sales ve Satış Merkezi)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

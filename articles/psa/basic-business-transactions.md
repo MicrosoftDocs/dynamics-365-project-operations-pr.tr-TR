@@ -2,6 +2,8 @@
 title: İş işlemleri
 description: Bu konu, iş işlemleri hakkında bilgi sağlar.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987550"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149927"
 ---
 # <a name="business-transactions"></a>İş işlemleri
 
@@ -88,7 +90,7 @@ Aşağıdaki kavramlar, iş işlemleri kavramına özeldir:
 
 Aşağıdaki örnekte, bir PSA proje yaşam döngüsünde zaman girişlerinin tipik olarak nasıl işlendiği gösterilmektedir.
 
-> ![Project Service yaşam döngüsünde zaman girişlerini işleme.](media/basic-guide-17.png)
+> ![Project Service yaşam döngüsünde zaman girişlerini işleme](media/basic-guide-17.png)
  
 1. Bir zaman girişinin gönderilmesi iki günlük satırı oluşturulmasına neden olur: biri maliyet diğeri de faturalandırmamış satış içindir.
 2. Bir zaman girişinin nihai onayı iki fiili değer oluşturulmasına neden olur: biri maliyet diğeri de faturalandırmamış satış içindir.
@@ -147,6 +149,3 @@ Aşağıdaki tabloda, önceki iş akışı için İşlem bağlantısı varlığ�
 | Taslak Fatura Düzeltmesi       | Fatura Satırı İşlem GUID'i | Değiştirme          | msdyn_invoicelinetransaction | Faturalanan Satış GUID'i            | Orijinal           | msdyn_actual       |
 | Fatura Düzeltmesini Onayla     | Faturalanan Satış Tersine Çevirme GUID'i    | Tersine çevirme          | msdyn_actual                 | Faturalanan Satış GUID'i            | Orijinal           | msdyn_actual       |
 | Yeni Faturalanmamış Satış Fiili Değeri GUID'i | Değiştirme                     | msdyn_actual       | Faturalanan Satış GUID'i            | Orijinal                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

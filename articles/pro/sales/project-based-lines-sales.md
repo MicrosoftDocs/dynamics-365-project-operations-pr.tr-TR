@@ -2,16 +2,18 @@
 title: Proje tabanlı fırsat satırları - lite
 description: Bu konuda, proje tabanlı fırsat satırları hakkında bilgiler sağlanmaktadır. (Pro)
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1978b452b84486cabd5b6b4e550261e2c8f76cd89a140709b137ac184c8967c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999025"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272547"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Proje tabanlı fırsat satırları - lite
 

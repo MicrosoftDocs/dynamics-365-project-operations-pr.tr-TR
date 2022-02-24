@@ -2,22 +2,24 @@
 title: Fiyat listelerini ayarlama
 description: Bu konuda, maliyet ve satış fiyatı listelerini ayarlama hakkında bilgi verilmektedir.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009510"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180216"
 ---
 # <a name="set-up-price-lists"></a>Fiyat listelerini ayarlama
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations'ta fiyat listeleri bir oran kataloğunu temsil eder. Hızlı maliyet, satış ve fatura oranları oranları. Fiyat listesinin maliyet oranlarını mı, yoksa Satışlar ve fatura oranlarını ifade etmek istediğinize bağlı olarak, Fiyat listesi bağlamı **Satış** veya **maliyet** olur.
+Dynamics 365 Project Operations'taki fiyat listeleri oranlar kataloğunu temsil eder. Hızlı maliyet, satış ve fatura oranları oranları. Fiyat listesinin maliyet oranlarını mı, yoksa Satışlar ve fatura oranlarını ifade etmek istediğinize bağlı olarak, Fiyat listesi bağlamı **Satış** veya **maliyet** olur.
 
 Aşağıdaki uzantılar Project Operations'a Işlemlerine özeldir ve Dynamics 365 Sales'den fiyat listelerine uygulanır.
 
@@ -38,6 +40,3 @@ Aşağıdaki tabloda Project Operations için benzersiz olan bir fiyat listesini
 | Para birimi | **Genel** sekme ve **Hızlı Oluşturma** formları | Bu alan, bu fiyat listesiyle ilgili her rol, kategori veya fiyat listesi öğesi satırındaki para birimini varsayılan olarak kullanır. | **Satış** fiyatı listelerinde, roller, Kategoriler veya fiyat listesi öğesi satırları bu para birimi dışındaki herhangi bir para birimi içinde oluşturulamaz. **Maliyet** fiyatı listelerinde, herhangi bir para biriminde bir rol fiyatı satırı oluşturabilirsiniz. Burada tanımlanan para birimi varsayılan olarak kullanılır. İlgili rol fiyatları olan Kullanıcı Kurulumu, herhangi bir para biriminde işçilik maliyet oranı kurulumunu etkinleştirmek için bu değeri geçersiz kılabilir. Kategori maliyet oranları ve fiyat listesi madde maliyetleri yalnızca burada tanımlanan para birimi cinsinden ayarlanabilir. |
 | Zaman Birimi | **Genel** sekme ve **Hızlı Oluşturma** formları | Bu alan, bu fiyat listesiyle ilgili her rol öğesi satırındaki saat birimini varsayılan olarak kullanır. | Bu alan değeri yalnızca ilgili rol fiyatı kurulumunda kullanılır. **Maliyet** ve **Satış** fiyatı listelerinde, herhangi bir zaman biriminde bir rol fiyatı satırı oluşturabilirsiniz. Burada tanımlanan zaman birimi varsayılan olarak kullanılır. İlgili rol fiyatları olan Kullanıcı Kurulumu, herhangi bir zaman biriminde işçilik maliyet ve fatura oranı kurulumunu etkinleştirmek için bu değeri geçersiz kılabilir. |
 | Veri Akışı Açıklaması | **Genel** sekme ve **Hızlı Oluşturma** formları | Bu bir metin alanıdır ve fiyat listesinin çok satırlı bir açıklamasını kullanmanıza olanak sağlar. | Bu alan, ilgili fiyat listeleri içeren çeşitli varlıklarda fiyat listesindeki **ilişkili** görünümlerde gösterilir. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

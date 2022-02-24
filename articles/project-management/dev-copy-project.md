@@ -2,16 +2,18 @@
 title: Proje Kopyalama ile proje şablonları geliştirme
 description: Bu konu, proje özel eylemini kullanarak proje şablonlarının nasıl oluşturulacağı hakkında bilgiler sağlar.
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989301"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045033"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Proje Kopyalama ile proje şablonları geliştirme
 
@@ -42,7 +44,7 @@ Dynamics 365 Project Operations, proje kopyalama ve atamaları rolü temsil eden
 - **{"clearTeamsAndAssignments":true}**: Web için Project'in varsayılan davranışı ve tüm atamaları ve takım üyelerini kaldırır.
 - **{"removeNamedResources":true}** Project Operations için varsayılan davranışı doğrudur ve atamaları genel kaynaklara geri döndürür.
 
-Eylemlerde varsayılanlar hakkında daha fazla bilgi için bkz. [web API'si eylemleri kullanma](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Eylemlerde varsayılanlar hakkında daha fazla bilgi için bkz. [web API'si eylemleri kullanma](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Kopyalanacak alanları belirt 
 Eylem çağrıldığında proje kopyalanırken kopyalanacak alanları belirlemek için proje görünümünde **Proje Kopyala**, **Proje Sütunlarını Kopyala** görünür.
@@ -110,6 +112,3 @@ Aşağıdaki örnekte, **removeNamedResources** parametre kümesiyle **CopyProje
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

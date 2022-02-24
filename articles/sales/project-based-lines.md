@@ -2,16 +2,18 @@
 title: Proje tabanlı fırsat satırları
 description: Bu konuda, proje tabanlı fırsat satırlarıyla çalışma hakkında bilgiler sağlanmaktadır.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996370"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181971"
 ---
 # <a name="project-based-opportunity-lines"></a>Proje tabanlı fırsat satırları
 
@@ -31,6 +33,3 @@ Aşağıda, proje tabanlı fırsat satırındaki alanlar verilmiştir:
 | Veri Akışı Adı | Genel sekmesi | Burası, bu satır öğesine kısa bir kimlik sağlamak için kullanılabilen bir düzenlenebilir metin alanıdır | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırına taşınır |
 | Müşteri Bütçesi | Genel sekmesi | Bu düzenlenebilir para birimi alanı müşterinin bu satır öğesine harcayabileceği tutarı izlemek için kullanılabilir. | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır |
 | Faturalama Yöntemi | Genel sekmesi | Bu düzenlenebilir alan aşağıdaki değerlere sahiptir:</br>- Zaman ve Malzeme</br>- Sabit Fiyat | Bu fırsattan bir teklif oluşturduğunuzda bu değer teklif satırındaki ilgili alana taşınır. Teklif satırı oluşturulduktan sonra, alan kilitlenir ve değiştirilemez. Bu alan değerini mümkün olduğunca doğru atayın. Teklif satırında bu alanın değerini değiştirmeniz gerekirse teklif satırını silip yeniden oluşturun. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

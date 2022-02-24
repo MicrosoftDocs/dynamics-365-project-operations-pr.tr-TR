@@ -2,16 +2,18 @@
 title: Takım üyelerini koruma
 description: Bu konuda, proje takımlarına adlandırılmış kaynaklar ayırma ve bunları görevlere atama hakkında bilgiler sağlanmaktadır.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997090"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131547"
 ---
 # <a name="maintain-team-members"></a>Takım üyelerini koruma
 
@@ -19,7 +21,7 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Doğrudan takıma ayırarak proje takımınıza adlandırılmış bir kaynak ekleyebilirsiniz.
 
-1. Dynamics 365 Project Operations'ta, **Projeler**'e gidin ve ayırdığınız projeyi seçip açın.
+1. Dynamics 365 Project Operations'ta, **Projeler**'e gidin ve ayırma yaptığınız projeyi seçerek açın.
 2. **Proje** sayfasında, **Takım** sekmesinde, **Yeni**'yi seçin. 
 3. **Proje Takım Üyesi Hızlı Oluştur** iletişim kutusunda, ayrılabilir kaynağı seçin. **Rol** alanı, atanmış olan varsa kaynağın varsayılan rolüyle doldurulur. Rolü değiştirebilirsiniz. 
 4. Kaynağın gerekli olduğu başlangıç ve bitiş tarihlerini seçin ve kaynağın kapasitesinin tahsisat yöntemini seçin. 
@@ -40,6 +42,3 @@ Seçim yaptığınızda kaynak, proje takımına eklenir ve göreve atanır anca
 Kaynağın kapasitesini projeye ayırmak için **Mutabakat** sekmesinin ayırmayı uzatma özelliğini veya **Zamanlama Panosu**'nu kullanabilirsiniz.
 
 Takım üyesi, projenize ayrıldıktan sonra ayırmalarını doğrudan yönetmek için **Ayırmaları koruma**'yı veya **Zamanlama Panosu**'nu kullanabilirsiniz.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,24 @@
 title: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations dağıtım genel bakışı
 description: Bu konu, dağıtım türü hakkında, kaynak/stoklanmayan tabanlı senaryolar için Project Operations hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009735"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365650"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations dağıtım genel bakışı
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Dynamics 365 Project Operations dağıtım türünde, proje tabanlı şirketlere yönelik aşağıdaki özellikler bulunur:
+Kaynak/stoklamayan tabanlı senaryolar için Dynamics 365 Project Operations dağıtım türü proje tabanlı şirketlerde aşağıdaki olanaklardan oluşur:
 
 - Web için Microsoft Project kullanarak proje planlama
 - İşçilik kaynakları için birden çok boyutlu fiyatlandırma ve maliyetlendirme
@@ -42,6 +43,3 @@ Project Operations'tan beklentiniz aşağıdaki gereksinimleri de dahil tam proj
 - Projelere yönelik müşteriye yönelik faturalar oluşturmak için zengin, kurumsal sınıf satış vergisi ve Döviz Kuru altyapısı gerekir.
 - Uluslararası bir finans raporlama standartları (IFRS) uyumlu proje hesaplama ve gelir tanıma sistemi.
 - Finans veya Supply Chain Management uygulamaları ve proje tabanlı işlemlerin tümleştirilmesi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

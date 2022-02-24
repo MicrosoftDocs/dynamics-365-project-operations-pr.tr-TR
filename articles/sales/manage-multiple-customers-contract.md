@@ -2,16 +2,18 @@
 title: Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
 description: Bu konu bir proje sözleşmesinde birden çok müşteriyi yönetme hakkında bilgi sağlar.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992095"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643197"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
 
@@ -45,6 +47,3 @@ Proje sözleşmesinin **Özet** sekmesindeki potansiyel müşteri, sözleşmenin
 Izgarayı düzenleyerek fatura bölme yüzdelerini düzenleyebilirsiniz. Faturala bölme yüzdeleri toplamı yüzde 100 olmazsa bir hata oluşur. Fatura bölme yüzdesini düzenledikten sonra hatayı kaldırmak için **Proje Sözleşmesi** sayfasını yenileyin.
 
 Ayrıca proje sözleşmesi müşterileri alt ızgarasında **Eşit Dağıt**'ı da seçebilirsiniz. Fatura bölmeleri, proje sözleşmesindeki tüm müşterilere eşit olarak tahsis edilir. Yuvarlama faktörü varsa bu faktör, yuvarlama müşterisine eklenir. Sözleşme müşterilerinden biri için her zaman **Yuvarlama** bayrağı **Evet** olarak ayarlanır. Bu müşteri, yuvarlama müşterisidir. Genel olarak yuvarlama müşterisi ayrıca sözleşmenin birincil müşteridir ancak bu gerekli değildir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

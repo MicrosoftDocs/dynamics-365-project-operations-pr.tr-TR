@@ -2,6 +2,8 @@
 title: Proje Kaynak Merkezi için kullanıcı kılavuzu
 description: Project Service için Proje Kaynak Merkezi son kullanıcı kılavuzu
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987280"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948173"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Proje Kaynak Merkezi için kullanıcı kılavuzu
 
@@ -52,28 +54,28 @@ Proje Kaynak Merkezi uygulamasını kullanmaya başlamadan önce cihazınıza mo
 1.  Mobil uygulamada oturum açtığınızda, erişiminiz bulunan uygulamaların listesini içeren MyApps sayfasını göreceksiniz. 
 2.  **Proje Kaynak Merkezi**'ni seçin.
 
-![Bir uygulama seçin.](media/chooseApp_1.png "Bir uygulama seçin")
+![Bir uygulama seçin](media/chooseApp_1.png "Bir uygulama seçin")
 
 **Gezinti çubuğu**
 
-Gezinti çubuğunu çalışma alanınıza gitmek, yeni bir kayıt oluşturmak, arama yapmak veya diğer görevleri gerçekleştirmek için kullanın. Daha fazla komuta erişmek için ![Diğer](media/MoreButton.png "Daha Fazla Düğme") düğmesine dokunun
+Gezinti çubuğunu çalışma alanınıza gitmek, yeni bir kayıt oluşturmak, arama yapmak veya diğer görevleri gerçekleştirmek için kullanın. Daha fazla komuta erişmek için ![Daha Fazla Düğme](media/MoreButton.png "Daha Fazla Düğme") seçeneğine dokunun
 
-![Gezinti Çubuğu.](media/NavBar_2.png "Gezinti Çubuğu")
+![Gezinti Çubuğu](media/NavBar_2.png "Gezinti Çubuğu")
 
 **Sık kullanılan ve son kullanılan kayıtlar**
 
 Sık Kullanılanlar ve Son Kullanılanlar bölümleri kayıtlarınız, görünümleriniz ve panolarınıza hızlı erişim sağlar. 
 
-- Bu bölümlere erişmek için **Menü** ![Menüsü düğmesi.](media/MenuButton.png "Menü düğmesi") Düğmesine basın ve ardından **Sık Kullanılanlar ve Son** ![Kullanılanlar Düğmesi](media/FavButton.png "FAV düğmesi") düğmesine dokunun.
+- Bu bölümlere erişmek için gezinti çubuğunda **Menü** ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve sonra **Sık Kullanılanlar ve En Son Kullanılanlar** ![Sık Kullanılanlar Düğmesi](media/FavButton.png "FAV düğmesi") düğmesine dokunun.
 
 - Bir öğeyi sık kullanılan olarak sabitlemek için **Son Kullanılanlar** öğeler listesinde sabitleme seçeneğine dokunun. Bu, öğeyi sabitler ve Sık Kullanılanlar'a taşır.
 
-  ![Sık Kullanılanlar ve En Son Kullanılanlar.](media/Favs_3.png "Sık Kullanılanlar ve En Son Kullanılanlar")
+  ![Sık Kullanılanlar ve En Son Kullanılanlar](media/Favs_3.png "Sık Kullanılanlar ve En Son Kullanılanlar")
  
-## <a name="enter-time"></a>Zamanı girme
+## <a name="enter-time"></a>Zamanı girin
 Müşterilerinizin doğru biçimde faturalandırıldığından ve kaydettiğinizden emin olmak için çalışma saatlerinizi en az bir haftalık veya yöneticileriniz tarafından istenen sıklıkta girin.
 
-1. Menü ![Menü düğmesi.](media/MenuButton.png "Menü düğmesi") düğmesine basın ve **zaman girişleri**'ne dokunun. Bu, takviminizi getirir.
+1. Menü ![Menü düğmesi](media/MenuButton.png "Menü düğmesi") düğmesine dokunun ve ardından **Zaman Girişleri**'ne dokunun. Bu, takviminizi getirir.
 
 2. Önceki veya sonraki hafta için takviminizi görmek üzere **Önceki** ya da **Sonraki** düğmesine dokunun. Geçerli haftaya dönmek için **Bugün**'e dokunun.
 

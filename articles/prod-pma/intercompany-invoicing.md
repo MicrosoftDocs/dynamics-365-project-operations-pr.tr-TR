@@ -2,9 +2,11 @@
 title: Şirketlerarası faturalama
 description: Bu makalede, projeler için şirketlerarası faturalama hakkında bilgi ve örnekler sağlanır.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995830"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270792"
 ---
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
@@ -33,7 +35,7 @@ Kuruluşunuzun, projeler için ürünleri ve servisleri birbirine aktarabilecek 
 
 Aşağıdaki çizimde iki tüzel kişilik bulunan yaygın bir senaryo gösterilmiştir. SI FR (ödünç alan tüzel kişilik) ile SI USA (ödünç veren tüzel kişilik) A müşterisine proje teslim etmek için kaynakları paylaşır. Bu senaryoda SI FR ile A müşterisine iş teslim etmek üzere anlaşılmıştır. 
 
-[![Şirketlerarası faturalama örneği.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Şirketlerarası faturalama örneği](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Hedef, şirketlerarası hareketler için maliyet kontrolü, gelir kabulü, vergiler ve transfer fiyatı işlemlerini daha esnek ve güçlü bir hale getirmektir. Ayrıca, aşağıdaki yetenekler sağlanır:
 

@@ -2,9 +2,10 @@
 title: Proje planlama giriş sayfası
 description: Bu konu, proje planlaması hakkında bilgi sağlar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990610"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148262"
 ---
 # <a name="project-planning-home-page"></a>Proje planlama giriş sayfası
 
@@ -51,6 +52,3 @@ Aşağıdaki konular; PSA'da desteklenen araçları kullanarak proje yöneticile
 - [Proje şablonları](project-templates.md)
 - [Proje aşamaları](project-stages.md)
 - [Proje ayarları](project-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

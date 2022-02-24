@@ -2,6 +2,8 @@
 title: Sonraki projenizi Project Finder Mobile uygulamasıyla bulun
 description: Project Service için sonraki projenizi Project Finder Mobile uygulamasıyla bulma
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990826"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149297"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Sonraki projenizi Project Finder Mobile uygulamasıyla bulma (Project Service)
 
@@ -38,15 +40,12 @@ ms.locfileid: "6990826"
   
  Daha fazla bilgi görmek ve kaydolmak için ilgilendiğiniz projenin sağındaki ok düğmesine dokunun.  
   
- ![Project Finder Mobile uygulamasında proje eşleştirme becerilerinin listesi.](../psa/media/project-service-project-finder-list.png "Project Finder Mobile uygulamasında proje eşleştirme becerilerinin listesi")  
+ ![Project Finder Mobile uygulamasında proje eşleştirme becerilerinin listesi](../psa/media/project-service-project-finder-list.png "Project Finder Mobile uygulamasında proje eşleştirme becerilerinin listesi")  
   
 ## <a name="update-your-skills"></a>Niteliklerinizi güncelleştirin  
  Niteliklerinizi ve yeterlilik düzeylerinizi güncelleştirmek için ekranının sağ altındaki profil düğmesine dokunun.  
   
- ![Project Finder Mobile uygulamasındaki profil düğmesi.](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile uygulamasındaki profil düğmesi")  
+ ![Project Finder Mobile uygulamasındaki profil düğmesi](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile uygulamasındaki profil düğmesi")  
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
