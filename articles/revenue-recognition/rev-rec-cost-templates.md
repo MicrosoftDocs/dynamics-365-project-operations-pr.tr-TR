@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278982"
 ---
 # <a name="set-up-cost-templates"></a>Maliyet şablonlarını ayarlama
 
@@ -79,3 +79,6 @@ Maliyet şablonları oluşturmak için şu adımları izleyin:
 7. **Kategoriler** sekmesinde, maliyet şablonu satırına dahil edilecek proje kategorilerini seçin.
 8. **Genel** sekmesinde, bu satırın tamamlanma yüzdesi hesaplamasına dahil edilip edilmeyeceğini seçin.
 9. Tamamlanma yüzdesini hesaplarken kullanılacak tamamlama maliyeti yöntemini seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

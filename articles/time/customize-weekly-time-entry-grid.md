@@ -2,24 +2,22 @@
 title: Zaman girişlerini uzatma
 description: Bu konuda, geliştiricilerin zaman girişi denetimini nasıl uzatacağı hakkında bilgiler sağlanmaktadır.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993355"
 ---
 # <a name="extending-time-entries"></a>Zaman girişlerini uzatma
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, uzatılabilir zaman girişi özel denetimi içerir. Bu denetim aşağıdaki özellikleri içerir:
+Dynamics 365 Project Operations, genişletilebilir bir zaman girişi özel denetimi içerir. Bu denetim aşağıdaki özellikleri içerir:
 
 - Zamanı bir haftaya yatay olarak girme
 - Gün, satır veya haftaya göre toplamlar
@@ -144,3 +142,6 @@ Tek bir zaman girişi kaydında kullanılabilir olandan daha fazla bağlam gerek
 
 ### <a name="copying-time-entries"></a>Zaman girişlerini kopyalama
 Zaman girişi sırasında kopyalanması gereken alanların listesini tanımlamak için görünüm **Kopya Süresi Giriş Sütunlarını** kullanın. **Tarih** ve **Süre** gerekli alanlardır ve görünümden kaldırılmamalıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

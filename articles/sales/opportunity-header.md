@@ -2,18 +2,16 @@
 title: Fırsat üst bilgisi/özeti
 description: Bu konuda, proje tabanlı anlaşmalar ve proje tabanlı fırsat satırları hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 83a47502112a4862fa7b99a7821c82730e0de0938cabe65b0dd4fc382bdd5515
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948308"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996415"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Proje tabanlı fırsatlar için üst bilgi ayrıntıları
 

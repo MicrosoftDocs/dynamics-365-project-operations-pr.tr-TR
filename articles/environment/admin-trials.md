@@ -2,16 +2,16 @@
 title: Project Operations denemelerine kaydolma
 description: Bu konu, Dynamics 365 Project Operations denemesi dağıtma hakkında bilgi sağlar.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901641"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599237"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations denemelerine kaydolma 
 
@@ -90,8 +90,7 @@ Başlamadan önce, Project Operations önizlemesini istediğiniz kiracıdaki kul
 4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finance and Operations uygulamaları URL'lerini seçin.
 
 ## <a name="configuring-dual-write"></a>Çift yazmayı yapılandırma
-- Güvenlik rollerini çift yazma için yapılandırmak üzere, [Dataverse'te Project Operations'da güvenlik ayarlarını güncelleştirme](resource-provision-new-environment.md) bölümüne bakın.
-- Çift yazma eşlemelerini yapılandırmak için bkz. [Project Operations çift yazma eşlemelerini çalıştırma](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+Yalnızca stoğu tutulmayan malzeme dağıtımları için ikili yazma eşlemelerinizi yapılandırın. Daha fazla bilgi için bkz. [Project Operations çift yazma eşlemesi sürümleri](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>Lisans atama
 

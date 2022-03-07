@@ -2,11 +2,9 @@
 title: Gider mobil uygulaması
 description: Bu konuda, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlanır.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499920"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818207"
 ---
 # <a name="mobile-expense-app"></a>Gider mobil uygulaması
 
@@ -49,42 +47,9 @@ Bu mobil çalışma alanı, Dynamics 365 Unified Ops mobil uygulaması birlikte 
 - Onay ve geri ödeme için bir gider raporunu gönderin.
 - Atanmış bir onaylayan olduğunuz gider raporlarını onaylayın veya reddedin.
 
-## <a name="prerequisites"></a>Ön koşullar
-Kuruluşunuz için dağıtılan sürüme bağlı olarak ön koşullar farklılık gösterir.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance kullananlar için ön koşullar
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance kullananlar için ön koşullar 
 Finans kuruluşunuz için dağıtılmışsa, sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Platform güncelleştirmesi 3 veya daha sonrasını içeren 1611 sürümünü kullananlar için ön koşullar
-Kuruluşunuz için platform güncelleştirmesi 3 veya daha sonraki bir sürümü bulunan 1611 sürümü dağıtılmışsa, sistem yöneticisi aşağıdaki ön koşulları tamamlamalıdır. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Önkoşul</th>
-<th>Rol</th>
-<th>Veri Akışı Açıklaması</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>KB 4019015 uygulayın.</td>
-<td>Sistem yöneticisi</td>
-<td>KB 4019015, <strong>Gider yönetimi</strong> mobil çalışma alanını içeren bir X + + güncelleştirmesi veya meta veri düzeltmesidir. KB 4019015 uygulamak için, sistem yöneticinizin aşağıdaki adımları izlemesi gerekir.
-<ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lifecycle Services hizmetlerinden güncelleştirmeleri indirin.</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini yükleyin</a>.</li>
-<li><strong>ApplicationSuite</strong> ve <strong>ExpenseMobile</strong> modellerini içeren <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">dağıtılabilir bir paket oluşturun</a> ve ardından dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><strong>Gider yönetimi</strong> mobil çalışma alanını yayımlayın.</td>
-<td>Sistem yöneticisi</td>
-<td>Bkz. <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleme ve kurma
 Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
@@ -105,11 +70,11 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 3. **Fotoğraf çek** veya **Görüntü Seç** öğesini belirleyin.
 4. Aşağıdaki adımlardan birini uygulayın:
 
-   - **Fotoğraf çek** öğesini seçtiyseniz, şu adımları izleyin:
+    - **Fotoğraf çek** öğesini seçtiyseniz, şu adımları izleyin:
 
-      1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. 
-      2. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam**'ı seçin.
-      3. İsteğe bağlı: Fotoğraf için bir ad ve notları girin.
+        1. Mobil cihazınızdaki kameraya yönlendirilirsiniz, böylece makbuzun resmini çekebilirsiniz. 
+        2. Fotoğraf çekmeyi bitirdiğinizde fotoğrafı kabul etmek için **Tamam**'ı seçin.
+        3. İsteğe bağlı: Fotoğraf için bir ad ve notları girin.
 
     - **Görüntü seç** öğesini seçtiyseniz, şu adımları izleyin:
 
@@ -122,11 +87,11 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
 2. **Hızlı gider girişi**'ni seçin.
-3. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
+3. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
 4. Giderin hareket tarihini girin.
 5. İsteğe bağlı: Giderin satıcı öğesini girin.
 6. Giderin miktarını girin.
-7. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen para birimi kodları listesi gösterilir. Varsayılan olarak, 400 para birimi yüklüdür, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Para biriminiz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Para birimine göre arayın veya ada göre arama yapmak için geçiş yapın.
+7. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen para birimi kodları listesi gösterilir. Varsayılan olarak, 400 para birimi yüklüdür, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Para biriminiz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Para birimine göre arayın veya ada göre arama yapmak için geçiş yapın.
 8. **Fotoğraf çek** veya **Görüntü Seç** öğesini belirleyin.
 9. Aşağıdaki adımlardan birini uygulayın:
 
@@ -135,20 +100,20 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
 10. **Bitti**'yi seçin.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobile çalışma alanını kullanarak bir gider raporunu onaylama (Temmuz 2017 güncelleştirmesini kullanıyorsanız)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak gider raporunu onaylama
 
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
 2. **Gider onayları**, onaylamanız için size atanan gider raporu sayısını gösterir. Sayı her 30 dakikada bir güncelleştirilir. **Gider onayları** seçeneğini belirleyin.
 
     Onaylamanız için size atanan gider raporu listesi gösterilir.
-    
+
 3. Gider ayrıntılarını görüntülemek için bir gider raporu seçin.
 4. Ayrıntılarını görüntülemek için bir gider seçin. Bir gider için gösterilen bilgiler, tüm makbuz, konuk ve döküm ayrıntılarını içerir.
 5. **Gider raporu** sayfasına geri döndüğünüzde gider raporunu onaylamayı veya reddetmeyi seçin.
 6. Onay eylemi için herhangi bir yorum girin.
 7. **Bitti**'yi seçin.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobile çalışma alanını kullanarak yeni bir gider raporu oluşturma ve onaya gönderme (Temmuz 2017 güncelleştirmesini kullanıyorsanız)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak yeni bir gider raporu oluşturun ve onaylamaya gönderin
 
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
 2. **Gider girişi**'ni seçin.
@@ -159,11 +124,11 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 7. Listeden bir veya daha fazla gider seçin.
 8. **Bitti**'yi seçin.
 9. Gider raporuna yeni bir gider eklemek için **Yeni gider**'i seçin.
-10. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
+10. Gider kategorisini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider kategorileri listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider kategorisine göre arayın veya gider türüne göre arama yapmak için geçiş yapın.
 11. İsteğe bağlı: Giderin satıcı öğesini girin.
 12. Giderin hareket tarihini girin.
 13. Giderin miktarını girin.
-14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen para birimi kodları listesi gösterilir. Varsayılan olarak, 400 para birimi yüklüdür, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Para biriminiz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Para birimine göre arayın veya ada göre arama yapmak için geçiş yapın.
+14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenen para birimi kodları listesi gösterilir. Varsayılan olarak, 400 para birimi yüklüdür, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Para biriminiz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Para birimine göre arayın veya ada göre arama yapmak için geçiş yapın.
 15. **Bitti**'yi seçin.
 16. Gidere daha fazla ayrıntı eklemek için, **Daha ayrıntıları ekle**'yi seçin. Kullanılabilir alanlar, şirketiniz için gider yönetiminin yapılandırmasına bağlıdır.
 17. Şirket ilkesi gider için bir makbuz gerektiriyorsa, **Makbuzlar**'ı seçin ve şu adımları izleyin:
@@ -186,12 +151,12 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
                     1. Listeden bir görüntü seçin.
                     2. İsteğe bağlı: Görüntü için bir ad ve notları girin.
 
-            3.  **Bitti**'yi seçin.
+            3. **Bitti**'yi seçin.
 
         - **Makbuz iliştir** öğesini seçtiyseniz, şu adımları izleyin:
 
-            1.  Listeden bir veya daha fazla görüntü seçin.
-            2.  **Bitti**'yi seçin.
+            1. Listeden bir veya daha fazla görüntü seçin.
+            2. **Bitti**'yi seçin.
 
     3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
 
@@ -209,12 +174,12 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
         - **Önceki konuklar** öğesini seçtiyseniz, şu adımları izleyin:
 
-            1. Listeden bir veya daha fazla önceki konuk seçin. Çevrimdışı kullanım için uygulamanıza yüklenen önceki gider raporlarına eklediğiniz önceki konukların listesini görürsünüz. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Önceki konuğunuz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya kuruluş, ülke veya unvana göre arama yapmak için geçiş yapın.
+            1. Listeden bir veya daha fazla önceki konuk seçin. Çevrimdışı kullanım için uygulamanıza yüklenen önceki gider raporlarına eklediğiniz önceki konukların listesini görürsünüz. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Önceki konuğunuz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya kuruluş, ülke veya unvana göre arama yapmak için geçiş yapın.
             2. **Bitti**'yi seçin.
 
         - **İş arkadaşları** öğesini seçtiyseniz, şu adımları izleyin:
 
-            1. Listede bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenen iş arkadaşı listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. İş arkadaşlarınız listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya şirket veya unvana göre arama yapmak için geçiş yapın.
+            1. Listede bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenen iş arkadaşı listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. İş arkadaşlarınız listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Ada göre arayın veya şirket veya unvana göre arama yapmak için geçiş yapın.
             2. **Bitti**'yi seçin.
 
     3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
@@ -223,7 +188,7 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 
     1. Döküm almaya başlayacağınız tarihi seçin.
     2. **Döküm ekle**'yi seçin.
-    3. Gider dökümü için alt kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider alt kategorilerinin listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Alt kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider alt kategorisinin adına göre arayın.
+    3. Gider dökümü için alt kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenen gider alt kategorilerinin listesi gösterilir. Varsayılan olarak, 50 öğe yüklenir, ancak geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için geliştiriciler [Mobil platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) bölümüne başvurabilir. Alt kategoriniz listede yoksa, çevrimiçi arama yapmak için **Ara** seçeneğini belirleyin. Gider alt kategorisinin adına göre arayın.
     4. Döküm için hareket tutarını girin.
     5. Gerekirse hareket tarihini düzenleyin.
     6. **Bitti**'yi seçin.
@@ -237,5 +202,30 @@ Dynamics 365 Unified Ops mobil uygulamasını karşıdan yükleyin ve kurun:
 23. Onaylayan için herhangi bir yorum girin.
 24. **Bitti**'yi seçin.
 
+## <a name="frequently-asked-questions"></a>Sık sorulan sorular
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Gider mobil uygulaması neden varsayılan olarak ödeme yöntemini giremiyor?
+
+Kuruluşlar, her bir gider kategorisi için **Varsayılan ödeme yöntemi** ayarını oluşturulduğu anda özelleştirebilir. Ayrıca, ödeme yöntemleri ayarladığınızda, **Varsayılan ödeme yöntemi** alanını **Yalnızca içeri aktarma** olarak ayarlayabilirsiniz.
+
+**Yalnızca içeri aktarma** bir ödeme yöntemi için etkinleştirildiğinde, ödeme yöntemi varsayılan olarak girilmez. Bu ödeme yönteminin ayarlandığı gider kategorilerinde boş olacaktır. Bu davranış hem web deneyiminde, hem de mobil deneyimde tutarlıdır.
+    
+**Yalnızca içeri aktarma** bir ödeme yöntemi için etkinleştirilmemişse, bu ödeme yönteminin ayarlandığı gider kategorileri için ayarlanan değer varsayılan olarak girilir. Ancak, varsayılan değerin Gider mobil uygulamasında girilmediği bilinen bir sorun vardır. Bu sorunu çözmek için, gider raporunu kaydetmeden önce bir ödeme yöntemini el ile seçin. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Neden Gider mobil uygulamasında mali boyut ekleyemiyor veya düzenleyemiyorum?
+
+Boyut ve dağıtım girişi desteklenmez. Bu sınırlamaya geçici bir çözüm olarak, proje veya çalışana göre varsayılan mali boyutlar ayarlayarak bu alanların mobil uygulamada varsayılan olarak ayarlanmış olmasını sağlayabilirsiniz.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Neden bazen Gider mobil uygulamasında bir eşitleme hatası görüyorum?
+
+Gider satırları ilke gereksinimlerini karşılamıyorsa ve kullanıcı ilke uyarısını dikkate almadan gider raporu gönderiyorsa mobil veriler sunucuyla eşitlenmez ve bir eşitleme hatası oluşur. Bir eşitleme hatası oluştuktan sonra gönderilen tüm gider raporları başarısız durumda kalır ve daha fazla eşitleme hatasına yol açar. Bu durumu çözmenin tek yolu eşitleme bildirimlerini el ile silmektir. Bu sorun, ilke uyarıları giderilmeden gider raporlarının gönderilmesini durdurarak ele alınır böylece eşitleme hataları önlenebilir.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Proje ve kategori doğrulaması neden Gider mobil uygulamasında doğru şekilde yansıtılmıyor?
+
+Bu doğrulama şu anda desteklenmemektedir. Ancak destek gelecekte eklenebilir. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Gider mobil uygulamasında hangi belge türleri desteklenir?
+
+Gider mobil uygulaması yalnızca resimleri destekler. Şu anda PDF'leri veya diğer belgeleri desteklemez.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

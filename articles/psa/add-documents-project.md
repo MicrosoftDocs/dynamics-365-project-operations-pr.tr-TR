@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 373e6e6f41b8877c6a8a69f56c22edc9499d0c1a
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db54d1e2820824bc8df32bcb304fd1f22fb694da
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146057"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285597"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Bir projeye belgeler ekleme (Project Service)
 
@@ -45,3 +45,6 @@ Projeyle ilgili belgeleri projenize ekleyerek düzenli tutun.
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

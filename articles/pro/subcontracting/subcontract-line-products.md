@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558571"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323710"
 ---
 # <a name="subcontract-lines-for-products"></a>Ürünler için alt sözleşme satırları
 
@@ -30,25 +30,25 @@ Project Operations'da ürünler için bir alt sözleşme satırı oluşturmak ü
 
 Aşağıdaki tabloda, ürün satınalma ile ilgili olan **Alt sözleşme satırı ayrıntıları** ve **Hızlı oluştur** sayfasındaki alanlarla ilgili bilgiler yer almaktadır.
 
-| Alan | Açıklama | İşlevsel etki|
-| ----- | ----------- | ----------- |
-| Adı | Tanımlamayla ile ilgili yardım için alt sözleşme satırının adı. |Bu, alt sözleşme satırlarına dayalı olarak tüm aramalarda ilk sütun olarak gösterilir.
-| Açıklama | Alt sözleşme satırında sipariş edilen ürünlerle ilgili kısa bir açıklama. | Hiçbiri |
-| Hat Türü | Bu alan **Miktar tabanlı** varsayılan değerine sahiptir. |Hiçbiri |
-| Faturalama Yöntemi | Bu, Project Operations tarafından desteklenen iki ana sözleşme modelini temsil eden bir seçenek kümesidir: **Sabit Fiyat** ve **Zaman ve Malzeme**. | Seçilen faturalama yöntemine göre, Sabit Fiyat faturalandırma yönteminin seçildiği alt sözleşme satırları için kilometre taşı tabanlı bir fatura zamanlaması sunulur. |
-| İşlem Sınıfı |Bu alan **Zaman** varsayılan değerine sahiptir. Ürün satın alma için alt sözleşme satırları oluşturmak üzere **İşlem sınıfı** alanını **Malzeme** olarak ayarlayın.  | Bu, bir alt sözleşme satırının, projelerde kullanılacak ürünlerin satın alımını kaydetmek için kullanıldığını gösterir. |
-| Ürün Seçin | Satın alınan ürün, ürün kataloğunda tutuluyorsa veya serbest eklenen ürünse seçin. |Hiçbiri |
-| Ürün | Katalogdan etkin bir ürün seçin. Bu alan yalnızca **Ürün Seç** **Mevcut** olarak ayarlandığında kullanılabilir. |**Ürün** ve **Birim** birleşimi varsayılan olarak kullanılır veya alt sözleşme satırının birim fiyatı için hesaplanır.
-| Serbest Ürün | Serbest eklenen ürünün adını girin. Bu alan yalnızca **Ürün Seç** **Serbest eklenen** olarak ayarlandığında kullanılabilir.  |Satınalma fiyatı, serbest ürünler için otomatik olarak doldurulmaz.|
-| Talep Edilen Teslimat Tarihi | Ürünler için gereken teslim tarihini girin.| Bu tarih, alt sözleşmeye eklenen proje fiyat listelerinden bir proje fiyat listesi seçmek için de kullanılır. Alt sözleşme satırındaki ürünün maliyeti daha sonra varsayılan olarak bu fiyat listesinden alınır. |
-| Sözleşmedeki teslim tarihi | Ürünlerin sözleşmeyle belirlenen teslim tarihini girin.  |Hiçbiri|
-| Sipariş Edilen Miktar | Satıcıdan satın alınan ürünün miktarını girin.| Bu, bir proje yöneticisi bu miktardan daha fazlasını çektiğinde uyarı göstermek için kullanılacaktır.|
-| Birim Grubu | Bu değer yalnızca katalog ürünleri için varsayılan olarak kullanılır. |Hem **Ürün** hem de **İstenen teslim tarihi** seçildiğinde, sistem teslimat tarihine göre uygun fiyat listesini seçer. İlgili fiyat listesi kalemleri, eşleşen ürün için sorgulanır. birim ve birim grubu değerleri varsayılanı fiyat listesi öğesi kaydındaki kurulumdan ayarlanır. |
-| Birim | Bu değer varsayılan olarak ürün fiyat listesi kalemi kaydında ayarlanan birimdir. Bunu gerektiği gibi başka bir birimle değiştirebilirsiniz.| Ürün ve birim birleşimi, mevcut katalog ürünleri için alt sözleşme satırındaki birim fiyatı varsayılanı olarak kullanır. |
-| Birim Fiyatı | Birim fiyatı varsayılan değeri, bir alt sözleşme satırının istenen teslim tarihi için geçerli olan proje fiyat listesiyle ilgili fiyat listesi kalemlerinden ürün ve birim bileşimi kullanılarak belirlenir.  |Hiçbiri |
-| Alt Toplam | Bu salt okunur alan, her iki alana da değer girildiyse, Miktar x Birim fiyat olarak hesaplanır. **Miktar** alanı, **Birim Fiyat** alanı veya her ikisi de boşsa, el ile bir değer girebilirsiniz.  |Hiçbiri |
-| Satış Vergisi | Satış vergisi değerini girin. |Hiçbiri |
-| Toplam Tutar | Bu hesaplanan alan, vergiler dahil edildikten sonra alt sözleşme toplam tutarını gösterir. Bu alandaki değer, Ara Toplam + Vergi olarak hesaplanır. |Hiçbiri |
+| Alan | Açıklama |
+| ----- | ----------- |
+| Adı | Alt sözleşme satırının adı. |
+| Açıklama | Alt sözleşme satırında sipariş edilen ürünlerle ilgili kısa bir açıklama. |
+| Hat Türü | Bu alan değeri varsayılan olarak **Miktar tabanlı** olarak ayarlanır. |
+| Faturalama Yöntemi |  Alt sözleşme satırının faturalama yöntemi. Sabit fiyatlı faturalama yöntemleri için kilometre taşı tabanlı fatura zamanlaması kullanılabilir. |
+| İşlem Sınıfı | Bu alan değeri varsayılan olarak **Zaman** olarak ayarlanır. Ürün satın alma için alt sözleşme satırları oluşturmak üzere **İşlem sınıfı** alanında **Malzeme** seçeneğini belirleyin. Bu seçim, alt sözleşme satırının projelerde kullanılacak ürün satın alımını kaydetmek için kullanıldığını gösterir. |
+| Ürün Seçin | Satın alınan ürün, ürün kataloğunda tutuluyorsa veya serbest eklenen ürünse seçin. |
+| Ürün | Katalogdan etkin bir ürün seçin. Bu alan yalnızca **Ürün Seç** **Mevcut** olarak ayarlandığında kullanılabilir. |
+| Serbest Ürün | Serbest eklenen ürünün adını girin. Bu alan yalnızca **Ürün Seç** **Serbest eklenen** olarak ayarlandığında kullanılabilir.  |
+| Talep Edilen Teslimat Tarihi | Ürünler için gerekli teslim tarihini seçin. Bu tarih, alt sözleşmeye eklenen proje fiyat listelerinden bir proje fiyat listesi seçmek için de kullanılır. Alt sözleşme satırındaki ürünün maliyeti daha sonra varsayılan olarak bu fiyat listesinden alınır. |
+| Sözleşmedeki teslim tarihi | Sözleşmede ürünün teslimi için mutabık kalınan tarihi seçin.  |
+| Sipariş Edilen Miktar | Satıcıdan satın alınan ürünün miktarını girin. Proje Yöneticisi bu miktardan fazla ürün çekerse bir uyarı oluşur. |
+| Birim Grubu | Bu değer yalnızca katalog ürünleri için varsayılan olarak kullanılır. Hem **Ürün** hem de **İstenen teslim tarihi** seçildiğinde, sistem teslimat tarihine göre uygun fiyat listesini seçer. İlgili fiyat listesi kalemleri, eşleşen ürün için sorgulanır. birim ve birim grubu değerleri varsayılanı fiyat listesi öğesi kaydındaki kurulumdan ayarlanır. |
+| Birim | Bu değer varsayılanı, fiyat listesi kalemi kaydındaki birim ayarından ayarlanır. Bunu gerektiği gibi başka bir birimle değiştirebilirsiniz. Ürün ve birim birleşimi, mevcut katalog ürünleri için alt sözleşme satırındaki birim fiyatı varsayılanı olarak kullanır. |
+| Birim Fiyatı | Birim fiyatı varsayılan değeri, bir alt sözleşme satırının istenen teslim tarihi için geçerli olan proje fiyat listesiyle ilgili fiyat listesi kalemlerinden ürün ve birim bileşimi kullanılarak belirlenir.  |
+| Alt Toplam | Bu salt okunur alan, her iki alana da değer girildiyse, Miktar x Birim fiyat olarak hesaplanır. **Miktar** alanı, **Birim Fiyat** alanı veya her ikisi de boşsa, el ile bir değer girebilirsiniz.  |
+| Satış Vergisi | Satış vergisi değerini girin. |
+| Toplam Tutar | Bu hesaplanan alan, vergiler dahil edildikten sonra alt sözleşme toplam tutarını gösterir. Bu alandaki değer, alt toplam + vergi olarak hesaplanır. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

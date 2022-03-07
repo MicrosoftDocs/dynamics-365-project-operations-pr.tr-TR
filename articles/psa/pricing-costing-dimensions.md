@@ -2,12 +2,10 @@
 title: Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 description: Bu konu fiyatlandırma boyutlarına genel bir bakış sağlar.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009280"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 
@@ -65,15 +63,18 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 
 **Örnek fatura oranları**
 
-| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
+| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
 | ------------|-------------|----------|----------:|----------|
-| Geliştirici   | Contoso ABD  |Hour | 200|USD     |
-| Geliştirici   | Contoso Hindistan |Hour|   112|USD     |
+| Geliştirici   | Contoso ABD  |Saat | 200|USD     |
+| Geliştirici   | Contoso Hindistan |Saat|   112|USD     |
 
 
 **Örnek maliyet oranları**
 
-| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
+| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso ABD  |Hour | 145|USD     |
-| My company_Band2 | Contoso Hindistan |Hour|   67|USD     |
+| My company_Band1 | Contoso ABD  |Saat | 145|USD     |
+| My company_Band2 | Contoso Hindistan |Saat|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

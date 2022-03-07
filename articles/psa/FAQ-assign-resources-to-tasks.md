@@ -2,6 +2,8 @@
 title: Göreve kaynak atama
 description: Bu konu, görevlere kaynak atama hakkında bilgi sağlar.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a348130ee5760196b2f008ea811e7a81758dd73e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b1ad011b2d78dd85023be7cf380ce19c3b2b8441
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993260"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150017"
 ---
-# <a name="assign-a-resource-to-a-task"></a>Bir göreve kaynak atama
+# <a name="assign-a-resource-to-a-task"></a>Göreve kaynak atama
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -80,6 +82,3 @@ Bu şekilde atanan kaynaklar, herhangi bir ayırma olmadan takıma eklenir. Bu, 
 
 3. Göreve atamak istediğiniz kaynağı seçin.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

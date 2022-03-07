@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287352"
 ---
 # <a name="intercompany-invoicing-overview"></a>Şirketler arası faturalamaya genel bakış
 
@@ -43,3 +43,6 @@ Aşağıdaki diyagramda muhasebe olayları ve genel muhasebeye nakledilmesi bekl
 - [Şirketler arası faturalamayı yapılandırma](configure-intercompany-invoicing.md)
 - [Şirketler arası işlemleri kaydetme](create-intercompany-transactions.md)
 - [Şirketler arası müşteri ve satıcı faturaları oluşturma](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Onaylanan zaman veya gider girişlerini geri çekme
 description: Bu konu, önceden onaylanmış bir zaman veya gider hareketini geri çekme hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998350"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Onaylanan zaman veya gider girişlerini geri çekme
 
@@ -100,10 +98,13 @@ Geri çekme isteği reddedilirse, proje üzerinde finansal etkisi olmaz.
 
 Aşağıdaki çizim, geri çekildiklerinde onaylanan zaman girişlerinde gerçekleşen değişiklikleri gösterir.
 
-![Zaman Girişi durum geçişleri](media/TimeEntryStateTransitions.png)
+![Zaman Girişi durum geçişleri.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Gider girişi kayıtlarında değişiklikler
 
 Aşağıdaki çizim, geri çekildiklerinde onaylanan gider girişlerinde gerçekleşen değişiklikleri gösterir.
 
-![Gider Girişi durum geçişleri](media/ExpenseEntryStateTransitions.png)
+![Gider Girişi durum geçişleri.](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

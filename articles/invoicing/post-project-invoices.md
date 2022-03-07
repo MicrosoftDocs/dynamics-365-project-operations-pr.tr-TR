@@ -2,18 +2,16 @@
 title: Faturalama sürecine genel bakış
 description: Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations uygulamasında faturalamaya genel bir bakış sağlanmaktadır.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089316"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001540"
 ---
 # <a name="invoicing-process-overview"></a>Faturalama sürecine genel bakış
 
@@ -30,3 +28,6 @@ Proje yöneticisi, [Zaman ve malzeme faturalama biriktirme listesi](../proforma-
 [El ile bir proforma fatura oluşturabilir](../proforma-invoicing/create-manual-proforma-invoice.md) veya bir [dönemsel işlem](../proforma-invoicing/configure-automated-invoice-creation.md) kullanabilirsiniz. Proje yöneticisi gerektiğinde [taslak proforma fatura düzenleyebilir](../proforma-invoicing/manage-proforma-invoice.md) ve ardından onaylayabilir.
 
 Onaylanan proforma fatura, Finance uygulamasındaki **Proje yönetimi ve muhasebe** modülüne gönderilir. Proje muhasebecisi, proje faturası teklifini biçimlendirip güncelleştirir ve ardından belgeyi deftere kaydederek yazdırır. Gönderilen proje faturaları, Genel muhasebe defterinin yanı sıra Müşteri ve Proje alt defterlerine de kaydedilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

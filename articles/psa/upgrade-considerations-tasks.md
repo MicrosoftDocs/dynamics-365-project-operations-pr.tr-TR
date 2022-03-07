@@ -1,8 +1,6 @@
 ---
 title: İş kırılım yapısı için yükseltme hususları
 description: Bu konu, iş kırılım yapısını Project Service Automation 2.x'ten 3.x'e yükseltme hakkında bilgi sağlar.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 868b0daadaf6cf96ca7bf847914bca8014412f26
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149567"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005635"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>İş kırılım yapısı için yükseltme hususları
 
@@ -34,20 +32,20 @@ Bu konu, iş kırılım yapısını Project Service Automation 2.x'ten 3.x'e yü
 ## <a name="key-entities"></a>Önemli varlıklar
 Kaynaklarla yüklü doğru bir iş kırılım yapısı için aşağıdaki varlıklar gereklidir:
 
-- [Proje](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Proje Takımı](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Proje Görevi](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Kaynak Atamaları](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Proje Görevi Bağımlılığı](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Ayrılabilir Kaynaklar](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Proje](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Proje Takımı](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Proje Görevi](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Kaynak Atamaları](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Proje Görevi Bağımlılığı](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Ayrılabilir Kaynaklar](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Kaynağı yüklü bir iş kırılım yapısını tanımlamak için aşağıdaki adımları tamamlamanız gerekir:
 
-1. Yeni bir proje oluşturun. Yeni proje oluşturma hakkında daha fazla bilgi için [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project) bölümüne bakın.
-2. Bir veya daha fazla görev oluşturun. Görev oluşturma hakkında daha fazla bilgi için [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask) bölümüne bakın.
-3. Görev bağımlılıklarını tanımlayın. Daha fazla bilgi için bkz. [Proje Görevi Bağımlılığı](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Proje takım üyelerini projeye atayın. Daha fazla bilgi için [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) bölümüne bakın.
-5. Proje takım üyelerini görevlere atayın. Daha fazla bilgi için [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) bölümüne bakın.
+1. Yeni bir proje oluşturun. Yeni proje oluşturma hakkında daha fazla bilgi için [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project) bölümüne bakın.
+2. Bir veya daha fazla görev oluşturun. Görev oluşturma hakkında daha fazla bilgi için [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask) bölümüne bakın.
+3. Görev bağımlılıklarını tanımlayın. Daha fazla bilgi için bkz. [Proje Görevi Bağımlılığı](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Proje takım üyelerini projeye atayın. Daha fazla bilgi için [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) bölümüne bakın.
+5. Proje takım üyelerini görevlere atayın. Daha fazla bilgi için [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) bölümüne bakın.
 
 ## <a name="project-team-relationships"></a>Proje takım ilişkileri
 
@@ -96,3 +94,6 @@ Başarılı bir yükseltme yapıldığından emin olmak için aşağıdaki iliş
 
 - Tüm proje görevi bağımlılıkları aynı projeyle ilişkili olmalıdır.
 - Bir görev için aynı bağımlılığa birden başvuru yapılamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

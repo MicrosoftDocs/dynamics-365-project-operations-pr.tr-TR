@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3503b17e54fc0b321582c30ce534e4cb3f497a5f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148127"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283707"
 ---
 # <a name="project-stage-types"></a>Proje aşamaları türleri 
 
@@ -65,3 +65,6 @@ Proje için çalışmalar tamamlandığında, proje yöneticisi aşamayı **Tama
 ## <a name="close"></a>Kapat
 
 Tüm işlemler kaydedildiğinde proje yöneticisi aşamayı **Kapat** olarak güncelleştirebilir. Bu noktada hiçbir işlem kaydedilemez ve proje salt okunur olarak ayarlanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

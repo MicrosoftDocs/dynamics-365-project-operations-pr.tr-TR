@@ -2,8 +2,6 @@
 title: Teklifler ve teklif satırları
 description: Bu konu teklifler ve teklif satırlarıyla ilgili bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145157"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995470"
 ---
 # <a name="quotes-and-quote-lines"></a>Teklifler ve teklif satırları
 
@@ -86,7 +84,7 @@ Profesyonel servis kuruluşları genellikle müşterilerine maliyet sınıfland�
 
 Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla ilişkilendirilebilir. Bir teklif kazanıldıktan sonra, işlem sınıflandırması ve teklif satırı arasındaki eşleme sözleşme satırına aktarılır.
  
-> ![İşlem türlerinin teklif ve sözleşme satırlarına eşleme ekran görüntüsü](media/basic-guide-5.png)
+> ![İşlem türlerinin teklif ve sözleşme satırlarına eşleme ekran görüntüsü.](media/basic-guide-5.png)
   
 Örneğin, bir teklif aşağıdaki iki teklif satırını içerebilir: 
 - Zaman ve ücret işlemi sınıflandırmalarının geçerli olduğu Zaman ve malzeme faturalama yöntemini kullanan danışmanlık işi. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm zaman ve ücret işlemleri, müşteriye kullanılan zaman ve malzemeye göre faturalanır. 
@@ -131,3 +129,6 @@ Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan fatur
 - Eşit olarak bölünmüş faturalama kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
 - Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
 - Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

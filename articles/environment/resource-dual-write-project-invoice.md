@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993265"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996590"
 ---
 # <a name="project-invoice-integration"></a>Proje faturası tümleştirmesi
 
@@ -20,7 +20,7 @@ Bu konu müşteri faturalaması için Project Operations iki yazma tümleştirme
 
 Proje yöneticileri Project Operations'ta proje faturalama biriktirme listesini yönetir ve Microsoft Dataverse uygulamasında müşteri için proforma fatura oluşturur . Bu proforma faturasına dayalı olarak, borç hesapları ve proje muhasebecisi müşteri tarafından müşteriye açık bir fatura oluşturur. Çift yazma tümleştirmesi, proforma fatura ayrıntılarının Finance and Operations uygulamalarıyla eşitlenmesini sağlar. Müşteriye açık olan fatura deftere nakledildikten sonra, Sistem Dataverse uygulamasındaki ilgili proje fiili değerlerini Hesap ayrıntısıyla güncelleştirir. Aşağıdaki grafik, bu tümleştirmeye üst düzey kavramsal genel bakış sağlar.
 
-   ![Proje faturası tümleştirmesi.](./media/DW5Invoicing.png)
+   ![Proje faturası tümleştirmesi](./media/DW5Invoicing.png)
 
 Proje Yöneticisi Dataverse'te Proforma faturayı teyit ettikten sonra, proforma fatura başlığı bilgileri Çift yazma tablo eşlemesi, **Proje Fatura teklifi v2 (faturalar)** kullanılarak Finance and Operations uygulamalarına eşitlenir. Bu, Dataverse'ten Finance and Operations uygulamalarına yönelik tek yönlü bir tümleştirmedir. Proje faturası tekliflerini doğrudan Finance and Operations uygulamalarında oluşturma veya silme desteklenmez.
 

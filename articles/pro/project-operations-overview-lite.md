@@ -1,25 +1,23 @@
 ---
 title: Lite dağıtımına genel bakış
-description: Bu konu, Dynamics 365 Project Operations'ta Lite dağıtımı hakkında bilgi sağlar.
+description: Bu konuda, Dynamics 365 Project Operations'ın Lite dağıtımı hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 9f09cb447d314cb172161ad3501a154285d9b636
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365656"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003835"
 ---
-# <a name="lite-deployment-overview"></a>Lite dağıtımına genel bakış
+# <a name="lite-deployment-overview"></a>Lite dağıtıma genel bakış
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations Lite dağıtım türü proje tabanlı şirketlerde aşağıdaki olanaklardan oluşur:
+Dynamics 365 Project Operations'ın Lite dağıtımı türünde, proje tabanlı şirketler için aşağıdaki özellikler bulunur:
 
 - Web için Microsoft Project kullanarak proje planlama
 - İşçilik kaynakları için birden çok boyutlu fiyatlandırma ve maliyetlendirme
@@ -37,3 +35,6 @@ Project Operations'tan bekleniniz aşağıdaki gereksinimleri de dahil tam proje
 - Planlar için dahili ve Faturalanabilen projeleri proje satışlardan faturalamaya kadar yöneten tümleşik bir sistemdir.
 - Project Operations ile tümleştirmek için üçüncü taraf kurumsal kaynak planlaması (ERP/mali muhasebe sistemi).
 - Satış vergileri, Döviz kurları, masraf geri ödemeleri ve proje dışı giderlerle çalışmak için üçüncü taraf bir sistemdir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

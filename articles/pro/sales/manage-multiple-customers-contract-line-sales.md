@@ -2,18 +2,16 @@
 title: Proje tabanlı sözleşme satırlarında birden çok müşteriyi yönetme - lite
 description: Bu konu proje tabanlı sözleşme satırları üzerinde birden çok müşterinin yönetilmesi hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001815"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Proje tabanlı sözleşme satırlarında birden çok müşteriyi yönetme - lite
 
@@ -43,3 +41,6 @@ Aşağıda, Proje tabanlı bir sözleşme satırının **sözleşme** satırı m
 Fatura bölme yüzdeleri kılavuz kullanılarak düzenlenebilir. Faturalama bölme yüzdeleri yüzde 100'e kadar toplamayan bir hata alırsınız. Fatura bölünmüş yüzdelerini düzenledikten sonra hatayı kapatmak için sayfayı yenileyin.
 
 Ayrıca, sözleşme satırı müşterilerinin alt ızgarasında da **dengeli dağıtım** seçmeyi deneyebilirsiniz. Bu eylem, fatura bölmelerini tüm sözleşme satırı müşterilerine eşit olarak ayırır. Bir yuvarlama faktörü varsa, bu müşteriye yuvarlama müşterisine eklenir. Bir sözleşme satırı müşterisi her zaman **yuvarlama** bayrağına sahip müşteri **yuvarlama** olarak **Evet** olarak etiketlenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

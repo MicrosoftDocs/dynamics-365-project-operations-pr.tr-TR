@@ -2,6 +2,8 @@
 title: Kaynaklar için borçlandırılabilir kullanımı görüntüleme
 description: Bu konu kaynak kullanımı görünümü hakkında bilgi sağlar.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086346"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Kaynaklar için borçlandırılabilir kullanımı görüntüleme
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service Kaynak Kullanımı** sayfasındaki **Kaynak Görünümü** her ayrılabilir kaynakla ilgili borçlandırılabilir kullanımı gösterir. Görünüm, zamanlama panosunu temel aldığı için, aynı işlevlerin birçoğunu burada da bulacaksınız.
 
@@ -99,6 +99,3 @@ Borçlandırılabilir kullanım görmüyorsanız, kontrol edebileceğiniz birka�
   - Projeyi destekleyen sözleşme satırındaki rol, Borçlandırılabilir olmayan ayarındadır.
   - Projede, ilişkili sözleşme satırı yok.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

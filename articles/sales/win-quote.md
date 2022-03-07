@@ -2,24 +2,22 @@
 title: Teklifi kapatma
 description: Bu konuda, Project Operations'ta teklifleri kapatma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124707"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993445"
 ---
 # <a name="close-a-quote"></a>Teklifi kapatma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Proje teklifi Kazanıldı veya Kaybedildi olarak kapatılabilir. Etkinleştir ve Düzelt işlevleri Microsoft Dynamics 365 Project Operations'taki tekliflerde desteklenmediğinden bir taslak teklifi kapatabilirsiniz.
+Proje teklifi Kazanıldı veya Kaybedildi olarak kapatılabilir. Microsoft Dynamics 365 Project Operations'ta tekliflerde Etkinleştirme ve Düzeltme işlevleri desteklenmediğinden bir taslak teklifi kapatabilirsiniz.
 
 ## <a name="close-a-quote-as-won"></a>Teklifi Kazanıldı olarak kapatma
 
@@ -43,3 +41,6 @@ Kaybedildi olarak kapatılan proje teklifinin herhangi bir satırında başvurul
 
 > [!NOTE]
 > Project Operations'ta bir teklifin Kazanıldı veya Kaybedildi olarak kapatılması, Fırsat'ın bu durumunu etkilemez ve fırsat el ile kapatılana kadar açık kalır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

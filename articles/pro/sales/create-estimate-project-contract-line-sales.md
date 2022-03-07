@@ -2,18 +2,16 @@
 title: Proje tabanlı sözleşme satırı tahmini - lite
 description: Bu konu proje tabanlı bir sözleşme satırını tahmin etme hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 747a1abe5630cac3dc074eba3a469d8d858c5ef244b59e26921e35afa61645df
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858133"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999115"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Proje tabanlı sözleşme satırı tahmini - lite
 

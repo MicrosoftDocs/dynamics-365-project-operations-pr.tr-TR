@@ -2,8 +2,6 @@
 title: Proje zamanlamaları
 description: Bu konu, zamanlama oluşturma hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998440"
 ---
 # <a name="project-schedules"></a>Proje zamanlamaları 
 
@@ -96,7 +94,7 @@ Bir görev çıkıntılı duruma getirildiğinde artık üst öğesi olan görev
 
 Görevin adı tamamlanması gereken işi tanımlar. PSA'da, görevle ilişkilendirilmiş öznitelikler, görevin zamanlamasını ve personel gereksinimini açıklar.
 
-> ![Görev öznitelikleri](media/project-2.png)
+> ![Görev öznitelikleri.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Zamanlama öznitelikleri
 
@@ -149,3 +147,6 @@ Varsayılan olarak, bir yaprak düğüm görevinin öncülleri yoksa başlangı�
 ### <a name="manual-scheduling"></a>El ile zamanlama
 
 Otomatik zamanlama kuralları gereksinimlerinizi karşılamıyorsa, görevin görev modunu **El ile Zamanlandı** olarak ayarlayabilirsiniz. Bu ayar, zamanlama altyapısının diğer zamanlama özniteliklerinin değerlerini hesaplamayı durdurur. Görev modu ne olursa olsun, görevlerde öncüller ayarlarsanız, her zaman bağımlı görevin başlangıç tarihini etkilersiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

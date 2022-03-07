@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086307"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289033"
 ---
 # <a name="project-resource-scheduling-performance"></a>Proje kaynak zamanlaması performansı
 
@@ -69,3 +69,6 @@ Kaynak zamanlama performans geliştirmesini etkinleştirmek için aşağıdaki a
 
 > [!NOTE]
 > Bu, genel verileri ortamınızdaki tüm şirketler arasında **ResRollup** tablosuna dağıtır, bu nedenle toplu işlemin yalnızca bir yasal varlıkta çalıştırılması yeterlidir. Bu toplu işlem, tüm **Kaynak kullanılabilirliği** görünümleri için gereklidir. Bu toplu iş çalışmazsa, **ResRollup** verileri uçarak üzerinde oluşturulur ve bu da zaman alabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

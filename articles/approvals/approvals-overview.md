@@ -3,53 +3,50 @@ title: Onaylara genel bakış
 description: Bu konuda, Project Operations'ta onaylar ile çalışma hakkında bilgiler sağlanmaktadır.
 author: stsporen
 manager: Annbe
-ms.date: 03/31/2021
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290383"
 ---
 # <a name="approvals-overview"></a>Onaylara genel bakış
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Zaman, gider ve malzeme kullanımı gönderimleri bir onay iş akışı üzerinden taşınır. Girişler onaylandıktan sonra işlemler gerçek değerler olarak kaydedilir veya süre, zamanlamada ayrılır.
+Zaman ve Gider gönderimleri onay iş akışı aracılığıyla taşınır. Girişler onaylandıktan sonra işlemler gerçek değerler olarak kaydedilir veya süre, zamanlamada ayrılır.
 
 ## <a name="approvals-workflow"></a>Onaylar iş akışı
-Bir zaman, gider veya malzeme kullanım girişi oluşturup gönderdiğinizde bir onay kaydı oluşturulur. Proje onaylayanı veya yöneticisi girişi gözden geçirir ve onaylar. Giriş bir projeyle ilişkiliyse, gerçek değerler onaylandığında oluşturulur. Bu, maliyetin ve faturanın izlenmesini sağlar.
+Zaman veya gider girişi oluşturup gönderdiğinizde bir onay girişi oluşturulur. Projeyi onaylayan veya yöneticiniz girişinizi inceler ve onaylar. Giriş bir projeyle ilgiliyse onaylandığında gerçek değerler oluşturulur. Bu, maliyetin ve faturanın izlenmesini sağlar. 
 
 ## <a name="approve-an-entry"></a>Girişi onaylama
-**Onaylar** sayfası, farklı görünümler arasında geçiş yapmanızı sağlar; böylece farklı türdeki onayları görüntüleyebilirsiniz.
+**Onaylar** formu, farklı onay türlerini görüntüleyebilmeniz için farklı görünümler arasında geçiş yapmanızı sağlar.
   
-1. **Onaylar** sayfasına gidin ve **Giderler**, **Zaman**, **Malzeme Kullanımı** veya **Geri Çekmeler**'i seçin.
+1. **Onaylar** formuna gidin ve **Giderler**, **Zaman** veya **Geri Çağırmalar**'ı seçin.
 2. Her onayı inceleyin ve onaylamak istediklerinizi seçin.
 3. Seçili girişleri onaylamak için **Onayla**'yı seçin.
-Sistem, bu girişleri işler ve gerçek değerler oluşturur.
+Sistem bu girişleri işler ve gerçek değerler ya da bir ayırma işlemi oluşturur.
 
 ## <a name="reject-an-entry"></a>Girişi reddetme
 Projeyi onaylayan olarak, bir girişi düzeltmesi için kullanıcıya tekrar göndermeniz gerekebilir.
   
-1. **Onaylar** sayfasına gidin ve reddedilecek girişi seçin. 
+1. **Onaylar** formuna gidin ve reddedilecek girişi seçin. 
 2. **Reddet**'i seçin.
-3. İsteğe bağlı olarak, **Reddetme Yorumları** iletişim kutusuna kullanıcıya neden reddedildiğini bildirmek Için bir yorum ekleyin.
+3. İsteğe Bağlı: Girişin reddedilme nedeni hakkında kullanıcıyı bilgilendirmek için **Reddetme Yorumları** iletişim kutusuna bir yorum ekleyin.
 4. **Tamam**'ı seçin. Giriş kullanıcıya geri gönderilir.
   
-## <a name="cancel-approval"></a>Onayı iptal et
-Bazı durumlarda, önceden onaylanmış bir girişi iptal etmeniz gerekebilir. Önceden onaylanmış bir girişin iptal edilmesi, mali açıdan bir etkiye sahip olur. 
-
-## <a name="approving-recall-requests"></a>Geri çekme isteklerini onaylama
-Bazı durumlarda, bir danışmanın önceden onaylanmış bir girişi geri çekmesi gerekebilir. Önceden onaylanmış bir girişin iptal edilmesi, mali açıdan bir etkiye sahip olur. Projeyi onaylayanın, hareketi tersine çevirmek için Gerçek Değerlerde geri çekme işlemini onaylaması gerekir.
+## <a name="recall-entries"></a>Girişleri geri çağırma
+Bir noktada, gönderilen bir girişi geri çağırmanız gerekebilir. Giriş onaylanmadıysa hemen geri gönderilir. Ancak onaylanmış bir giriş önemli bir etkiye neden olabilir. Projeyi onaylayanın, Gerçek Değerler'de işlemi geri almak için geri çağırmayı onaylaması gerekir.
 
 ## <a name="specify-project-approvers"></a>Projeyi onaylayanları belirleme
 Her projede birkaç proje takımı üyesi vardır. Takım üyelerinden hangilerinin aynı zamanda Projeyi onaylayanlar olacağını belirleyebilirsiniz.
 
-1. **Projeler** sayfasına gidin ve projeyi listeden açın.
+1. **Projeler** formuna gidin ve listeden projeyi açın.
 2. **Takım** sekmesinde, Projeyi onaylayan olacak takım üyesini belirleyin ve ardından **Düzenle**'yi seçin.
 3. **Projeyi Onaylayan** alanını **Evet** olarak ayarlayın.
 4. **Kaydet**'i seçin.

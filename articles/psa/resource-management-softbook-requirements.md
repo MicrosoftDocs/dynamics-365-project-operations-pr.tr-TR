@@ -2,8 +2,6 @@
 title: Gereksinimleri geçici ayırma
 description: Bu konu, gereksinimleri geçici ayırma hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147409"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997940"
 ---
 # <a name="soft-book-requirements"></a>Gereksinimleri geçici ayırma
 
@@ -63,3 +61,6 @@ Aynı yöntemi kesin bir ayırmayı veya geçici bir ayırmayı Zamanlama Panosu
 Projenin **Takım** sekmesinde geçici ayrılan bir kaynağı kesin ayrılana dönüştürmek için kaynağı seçin ve ardından **Onayla**'yı seçin.
 
 ![Komutu onayla](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Bir kaynak gereksinimini düzenleme
 description: Bu konuda, kaynak gereksinimi bilgilerini güncelleştirme hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128802"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014005"
 ---
 # <a name="edit-a-resource-requirement"></a>Bir kaynak gereksinimini düzenleme
 
@@ -37,3 +35,5 @@ Proje yöneticisi olarak, bir takım üyesinin kaynak gereksinimini düzenlemek 
 ## <a name="edit-resource-assignment-contours"></a>Kaynak atama sınırlarını düzenleme
 
 Kaynak gereksinimlerinin ayrıntılarını düzenlemeye ek olarak, Proje yöneticisi **Desen Belirtin** işlevini kullanarak kaynak gereksiniminin bireysel sınırlarını güncelleştirebilir. **Desen Belirtin** seçeneği belirlendiğinde, bir sayfa açılır ve sınırları gün, hafta veya ay olarak zaman ölçeğine göre görüntüleyebilirsiniz. Her sınırın başlangıç saati, bitiş saati, belirli bir dönem içindeki toplam çalışma süresi ayarlanabilir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

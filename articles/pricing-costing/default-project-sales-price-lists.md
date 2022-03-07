@@ -2,26 +2,24 @@
 title: Varsayılan fiyat listeleri
 description: Bu konuda Project Operations'ta varsayılan satışlar ve maliyet fiyatı listeleri kopyalanması hakkında bilgi sağlanır.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130962"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989890"
 ---
 # <a name="default-price-lists"></a>Varsayılan fiyat listeleri
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 ## <a name="sales-price-lists"></a>Satış fiyatı listeleri
 
-Dynamics 365 Project Operations'ta her proje teklifi ve sözleşmesi varsayılan satış fiyat listesi içerir. 
+Dynamics 365 Project Operations'taki her proje teklifi ve sözleşme, varsayılan bir satış fiyat listesi içerir. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Proje tekliflerinde fiyat listesi varsayılan
 Sistem, proje teklifinde hangi fiyat listesinin varsayılan olarak belirlemek için aşağıdaki işlemi tamamlar:
@@ -57,3 +55,6 @@ Maliyet fiyat listeleri, Project Operations'taki herhangi bir varlık için vars
 5. Sistem daha sonra, gelen tahmin veya gerçek satırın tarihiyle eşleşen fiyat listelerinin tarih efekti'ni bakar. 
 6. Gelen tahmin veya fiili tarihte geçerli olan birden çok fiyat listesi varsa, en son oluşturulan fiyat listesi seçilir.
 7. Para birimi ve geçerlilik tarihiyle eşleşen proje parametrelerine bağlı maliyet fiyat listeleri yoksa, sistem gelen tahmin veya fiili satırda maliyet oranını sıfıra (0) varsayılan olarak alır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

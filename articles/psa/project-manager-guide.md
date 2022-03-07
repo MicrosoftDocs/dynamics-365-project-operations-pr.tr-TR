@@ -2,8 +2,6 @@
 title: Proje Yöneticisi Kılavuzu
 description: Project Service ile proje yönetimi için kılavuz
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d375616038381bda05a02870f9e4edb06fb3307
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d24d3966ee4f495fc4cfdf35492495fd0244b5ef08e53005d8ac4a854cd7cce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148307"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998395"
 ---
 # <a name="project-manager-guide-project-service"></a>Proje yöneticisi kılavuzu (Project Service)
 
@@ -95,3 +93,6 @@ Bu kılavuz, proje oluşturmak ve yönetmek için gereken bilgileri sağlar:
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: b0da3b3f8f14ecf9a4c4f057cd26c0ca9eb5ec2f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278262"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırında fatura zamanlaması oluşturma 
 
@@ -74,3 +74,6 @@ Sabit fiyatlı kilometre taşları, düzenli aralıklarla bölünmediğinde de e
 | Vergi | Hızlı Oluştur | Kilometre taşına uygulanan vergi tutarı. | Bu, proje sözleşme satırı kilometre taşına ve faturaya doldurulur. |
 
 3. **Kaydet ve Kapat**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

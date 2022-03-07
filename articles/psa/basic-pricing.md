@@ -2,8 +2,6 @@
 title: Proje fiyatlandırması
 description: Bu konu, Dynamics 365 Project Service Automation'dak fiyatlandırmanın çalışma şekli hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148937"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000600"
 ---
 # <a name="project-pricing"></a>Proje fiyatlandırması 
 
@@ -48,7 +46,7 @@ Fiyat listesi varlığında fiyatları depolayan üç ilişkili tablo bulunur:
   - **İş Kategorisi Fiyatı** - Bu tablo, fiyatları hareket kategorisine göre depolar ve gider kategorisi fiyatlarını ayarlamak için kullanılır.
   - **Fiyat Listesi Öğeleri** - Bu tablo, katalog ürünlerinin fiyatlarını depolar.
 
-> ![Fiyat listesi kullanarak fiyatları yapılandırma](media/basic-guide-12.png)
+> ![Fiyat listesi kullanarak fiyatları yapılandırma.](media/basic-guide-12.png)
  
 Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile Rol fiyatı, İşlem Kategorisi Fiyatı ve Fiyat Listesi Öğeleri tablolarındaki ilgili satırların birleşimidir.
 
@@ -60,7 +58,7 @@ Fiyat listesi bir oran kartıdır. Bir oran kartı, Fiyat listesi varlığı ile
 
 **Zaman** birim grubu PSA yüklendiğinde oluşturulur. Varsayılan **Saat** birimi vardır. **Zaman** birimi grubu veya **Saat** biriminin özniteliklerini silemez, yeniden adlandıramaz veya düzenleyemezsiniz. Ancak, **Zaman** birimi grubuna başka birimler de ekleyebilirsiniz. **Zaman** birimi grubunu veya **Saat** birimini silmeye çalışırsanız, PSA iş mantığında hatalara neden olabilirsiniz.
 
-> ![Fiyatları role göre yapılandırma](media/basic-guide-13.png)
+> ![Fiyatları role göre yapılandırma.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>İşlem kategorileri ve gider kategorileri
 
@@ -70,7 +68,7 @@ Proje danışmanlarının gerçekleştirdiği seyahat ve diğer giderler genelli
 - **Kar payı yüzdesi**  - Fiili maliyetin üzerindeki yüzde müşteriye faturalanır. 
 - **Birim fiyatı** - Gider kategorisinin her birimi için bir faturalama fiyatı ayarlanır. Müşteriye fatura edilen tutar, danışman tarafından rapor edilen gider birimi sayısına göre hesaplanır. Ulaşım birim fiyatı fiyatlandırma yöntemini kullanır. Örneğin, ulaşım gideri kategorisi günde 30 ABD Doları (USD) veya her mil için 2 USD olarak yapılandırılabilir. Bir danışman bir projeye ait ulaşım raporunu hazırladığında, faturalanacak tutar danışmanın raporladığı mil sayısına göre hesaplanır.
 
-> ![Gider kategorileri için fiyatlandırmayı yapılandırma](media/basic-guide-14.png)
+> ![Gider kategorileri için fiyatlandırmayı yapılandırma.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Proje satış fiyatları ve geçersiz kılmalar
 
@@ -116,7 +114,7 @@ Ancak, bir teklifte, ana fiyat listesi kullanabilirsiniz. Alternatif olarak, bir
 
 Özel bir proje fiyat listesi oluşturduğunuzda, yalnızca fiyat listesinin proje bileşenleri kopyalanır. Başka bir deyişle, yeni fiyat listesi, teklife iliştirilen varolan proje fiyat listesinin bir kopyası olarak oluşturulur ve bu yeni fiyat listesinde yalnızca ilgili rol fiyatları ve işlem kategorisi fiyatları vardır.
 
-> ![Bir proje sözleşmesi için özel fiyatlandırmayı görüntüleme ve yapılandırma](media/basic-guide-15.png)
+> ![Bir proje sözleşmesi için özel fiyatlandırmayı görüntüleme ve yapılandırma.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Maliyetleri izleme
 
@@ -131,3 +129,6 @@ Fatura oranları gibi, insan kaynaklarına yönelik maliyet oranları da fiyat l
     1. Kuruluş birimine iliştirilen maliyet fiyatı listesi.
     2. Proje hizmeti parametrelerine iliştirilen maliyet fiyatı listesi. Çok sayıda farklı para birimindeki maliyet fiyatı listeleri proje hizmeti parametrelerine iliştirilebildiğinden PSA proje, sözleşme veya teklifin sözleşme kuruluş birimi para birimi ile maliyet fiyatı listesinin para birimi arasında bir para birimi eşleşmesi yapar.
     3. Giderler için, maliyette ve maliyet üzerinden kar payı fiyatlandırma yöntemleri maliyet fiyatı listelerine uygulanmaz. Bu fiyatlandırma yöntemleri, işlem kategorisi maliyetlerini ayarlamak üzere maliyet fiyatı listesi satırlarında kullanılmasına rağmen, sistem bunları yoksayar ve varsayılan maliyet fiyatı girilmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Fatura sıklıkları ayarlama
 description: Project Service'ta fatura sıklıklarını ayarlama
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4b4e783edbbccc59476965b11818a3e7a0517020
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9c1b6de7ff15a0902db90cfa80aff87141c65637
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146822"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008380"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Fatura sıklıklarını ayarlama (Project Service)
 
@@ -51,3 +49,6 @@ ms.locfileid: "5146822"
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Project Service Yapılandırma](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

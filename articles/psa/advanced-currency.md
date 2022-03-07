@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291733"
 ---
 # <a name="multiple-currency-scenarios"></a>Birden fazla para birimi senaryoları
 
@@ -105,3 +105,6 @@ Dynamics 365, farklı para birimlerindeki tutarların toplamalarını otomatik o
 | Gider           | Faturalanmayan satış   | 17 Haz | Doğu  | Araba Kiralama           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Projedeki toplam faturalandırmayan satış değerini hesaplamak için, tüm ilgili faturalanmayan satış fiili değerleri üzerinde **Tutar** alanı için bir toplama alanı oluşturabilirsiniz. Toplama alanı, ilgili kayıtlarda hızlı formüllere olanak sağlayan bir Dynamics 365 yapısıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

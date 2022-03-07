@@ -2,12 +2,10 @@
 title: Ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma
 description: Bu konu, ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145022"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988990"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma
 
@@ -64,15 +62,18 @@ Ayrılabilir kaynak için, **Proje Takımı Üyeleri** varlığı, **Rol fiyatı
 1. Bunu yapmak için **msdyn_bookableresource** boyut sayfasını açmak üzere **Fiyatlandırma Boyutları** ızgarasında satıra çift tıklayın.
 2. Boyut sayfasında **İlgili** sekmesinde, **Fiyatlandırma Boyutu Alan Adları**'na tıklayın.
 
- ![Fiyatlandırma boyutu alan adları sekmesi](media/PD-fieldname.png)
+ ![Fiyatlandırma boyutu alan adları sekmesi.](media/PD-fieldname.png)
 
 4. Açılan ilişkilendirilmiş görünümde **Yeni Fiyatlandırma Boyutu Alan Adı Ekle**'ye tıklayın.
 
- ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle](media/Add-NewPD-fieldname.png)
+ ![Yeni Fiyatlandırma Boyutu Alan Adları Ekle.](media/Add-NewPD-fieldname.png)
 
 
 Bu, **msdyn_bookableresource** için **Yeni Fiyatlandırma boyutu alan adı** sayfasını açar. 
 
 5. **msdyn_projectteam** öğesini **Varlık Mantıksal Adı** alanına **msdyn_bookableresourceid** öğesini **Alan Adı** alanına ekleyin. Kaydı kaydedin.
 
- ![Yeni Fiyatlandırma boyutu alan adı formu](media/PD-fieldname-Added.png)
+ ![Yeni Fiyatlandırma boyutu alan adı formu.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

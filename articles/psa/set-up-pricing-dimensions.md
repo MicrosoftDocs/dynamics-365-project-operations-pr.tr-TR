@@ -2,12 +2,10 @@
 title: Özel alanları fiyatlandırma boyutları olarak ayarlama
 description: Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002355"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama 
 
@@ -43,11 +41,11 @@ Bir alanın fiyatlandırma boyutu olması için:
 - **Rol Fiyatı** ve **Rol Fiyatı kar payı** varlıklarında bir alan olarak oluşturulmalıdır. Bunun nasıl yapılacağı hakkında daha fazla bilgi için [Fiyat ayarı ve işlem tabanlı varlıklara özel alanlar ekleme](field-references.md) bölümüne bakın.
 - **Fiyatlandırma Boyutu** tablosunda bir satır olarak oluşturulmalıdır. Örneğin, fiyatlandırma boyutu satırlarını aşağıdaki grafikte gösterildiği şekilde ekleyin. 
 
-![Tutar Tabanlı Fiyatlandırma Boyutu Satırları](media/Amt-based-PD.png)
+![Tutar Tabanlı Fiyatlandırma Boyutu Satırları.](media/Amt-based-PD.png)
 
 Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklendiğini ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklendiğini unutmayın.
 
-![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları](media/Markup-based-PD.png)
+![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Bu tablodaki var olan veya yeni, tüm fiyat boyutu verileri ancak önbellek yenilendikten sonra Project Service fiyatlandırma iş mantığına yansıtılır. Önbellek yenileme işlemi 10 dakika kadar sürebilir. Fiyatlandırma Boyutu verilerinde yapılan değişiklikler sonucunda fiyat varsayılan mantığındaki değişiklikleri görmek için bu sürenin geçmesini bekleyin.
@@ -94,3 +92,6 @@ Boyut önceliğinin ayarlanması Project Service fiyatlandırma işlevinin giri�
 
 - **Maliyet Önceliği**: Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
 - **Satış Önceliği**: Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

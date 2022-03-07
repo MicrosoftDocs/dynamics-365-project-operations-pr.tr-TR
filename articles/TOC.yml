@@ -1,14 +1,16 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: Başlama
+- name: Kullanmaya başlama
   items:
     - name: Dağıtımınızın türünü belirleme
       href: environment/determine-deployment-type.md
+    - name: Project Operations deneme sürümleri için kaydolma
+      href: environment/admin-trials.md
     - name: Project Operations güncelleştirmeleri
       href: whats-new/project-operations-updates.md
 - name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
   items:
-    - name: Başlama
+    - name: Kullanmaya başlama
       items:
         - name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations dağıtımlarına genel bakış
           href: environment/project-operations-integrated-deployment-overview.md
@@ -22,12 +24,14 @@
               href: environment/create-lcs-project.md
             - name: Bir LCS projesine Azure aboneliği ekleme
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: Demo verileri uygulama
+        - name: Tanıtım verileri uygulama
           items:
             - name: Common Data Service'te yapılandırma verileri uygulama
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Ortamları dağıtma
           items:
+            - name: Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Yeni bir ortam sağlama
               href: environment/resource-provision-new-environment.md
             - name: Güvenlik modeli
@@ -50,8 +54,22 @@
               href: environment/resource-dual-write-expense.md
             - name: Satıcı faturası tümleştirmesi
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations'ı kaldırma
+          href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
+        - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Eylül 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: Ağustos 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: Temmuz 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Haziran 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
+        - name: Mayıs 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Mart 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
@@ -280,8 +298,10 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Zamanlama API'lerini kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Proje zamanlama API'si performansı
+              href: project-management/project-schedule-api-performance.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -374,6 +394,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Gider kategorilerini ayarlama
               href: expense/set-up-expense-categories.md
+            - name: Mesafe oranı katmanlarını kullanarak mesafeyi ayarlama
+              href: expense/set-up-mileage.md
         - name: Kişisel giderler
           href: expense/personal-expenses-expense-report.md
         - name: Şirketler arası giderler
@@ -408,6 +430,8 @@
       items:
         - name: Onaylara genel bakış
           href: approvals/approvals-overview.md
+        - name: Onay kümeleri
+          href: approvals/approval-sets.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
@@ -426,14 +450,20 @@
       items:
         - name: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
           href: procurement/configure-materials-nonstocked.md
-        - name: Bekleyen satıcı faturaları kullanan projeler için stoğu tutulmayan malzemeleri tedarik etme
+        - name: Bekleyen satıcı faturalarını kullanarak projeler için stoğu tutulmayan malzemeleri tedarik etme
           href: procurement/pending-vendor-invoices.md
+        - name: Proje satınalma siparişlerini kullanarak projeler için stoğu tutulmayan malzemeler sipariş etme
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Satıcı bekletme
+          items:
+            - name: Satıcı bekletmeye genel bakış
+              href: procurement/vendor-retention-overview.md
+            - name: Satıcı bekletmeyi ayarlama
+              href: procurement/set-up-vendor-retention.md
     - name: Faturalama
       items:
         - name: Faturalama işlemine genel bakış
           href: invoicing/post-project-invoices.md
-        - name: Proje faturası tekliflerini yönetme
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Proforma faturalar
           items:
             - name: Proje tabanlı fatura biriktirme listesini yönetme
@@ -448,12 +478,26 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: Proforma proje tabanlı faturaları onaylama
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Düzeltici proje tabanlı faturalar oluşturma
+            - name: Proje tabanlı düzeltme faturaları oluşturma
               href: proforma-invoicing/corrective-invoices.md
             - name: Proje tabanlı fatura otomasyonunu yapılandırma
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Proje faturası tekliflerini yönetme
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Müşteri faturalama
+          items:
+            - name: Proje faturası tekliflerini yönetme
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Şirketler arası faturalama
+          items:
+            - name: Şirketler arası faturalamaya genel bakış
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Şirketler arası faturalamayı yapılandırma
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Şirketler arası işlemler oluşturma
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Şirketler arası müşteri ve satıcı faturaları oluşturma
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Proje muhasebesi
       items:
         - name: Mali boyut varsayılanları
@@ -464,23 +508,13 @@
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Faturalanabilir projeler için muhasebeyi yapılandırma
           href: project-accounting/configure-accounting-billable-projects.md
-        - name: Project Operations'da entegrasyon günlüğü
+        - name: Project Operations'da tümleştirme günlüğü
           href: project-accounting/project-operations-integration-journal.md
-        - name: Şirketler arası faturalama
-          items:
-            - name: Şirketler arası faturalamaya genel bakış
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Şirketler arası faturalamayı yapılandırma
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Şirketlerarası hareketler oluşturma
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Şirketlerarası müşteri ve satıcı faturaları oluşturma
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Gelir tanıma
+    - name: Gelir kabulü
       items:
-        - name: Gelir tanımaya genel bakış
+        - name: Gelir kabulüne genel bakış
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: Gelir tanımayı ayarlama
+        - name: Gelir kabulünü ayarlama
           items:
             - name: Dönem türlerini ayarlama
               href: project-accounting/period-types.md
@@ -494,7 +528,7 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: 'Lite dağıtım: anlaşmadan proforma faturaya'
   items:
-    - name: Başlama
+    - name: Kullanmaya başlama
       items:
         - name: Lite dağıtıma genel bakış
           href: pro/project-operations-overview-lite.md
@@ -502,13 +536,27 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Project Operations'ı (lite) dağıtma
           href: environment/lite-deployment.md
-        - name: Deneme sürümü (lite) kurulumu ve yapılandırma verilerini uygulama
+        - name: Kurulum ve yapılandırma tanıtım verilerini uygulama - lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Güvenlik modeli
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: Nisan 2021 - lite dağıtımındaki yenilikler
+        - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Ekim 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Eylül 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: Ağustos 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: Temmuz 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Haziran 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-june-2021-lite.md
+        - name: Mayıs 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-may-2021-lite.md
+        - name: Nisan 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Mart 2021 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -756,8 +804,10 @@
           items:
             - name: Projeyi Kopyala ile proje şablonları geliştirme
               href: project-management/dev-copy-project.md
-            - name: Zamanlama API'lerini kullanma (Genel Önizleme)
+            - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Proje zamanlama API'si performansı
+              href: project-management/project-schedule-api-performance.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -814,6 +864,30 @@
           items:
             - name: Kaynak kullanımına genel bakış
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations'da alt sözleşme yönetimi
+      items:
+        - name: Project Operations'da alt sözleşme yönetimi
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Ekim 2021 Erken Erişimde alt sözleşme
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: Alt sözleşme temel kavramları
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Satıcıları ve proje fiyat listelerini yönetme
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Ayrılabilir kaynak olarak alt yükleniciler
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Alt sözleşmeler için Başlık Ayrıntıları
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Zaman için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Gider kategorileri için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Ürünler için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alt yüklenici satırı kaynakları
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alt sözleşme satırı kilometre taşları
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Zaman
       items:
         - name: Zamana genel bakış
@@ -840,6 +914,8 @@
       items:
         - name: Onaylara genel bakış
           href: approvals/approvals-overview.md
+        - name: Onay kümeleri
+          href: approvals/approval-sets.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
@@ -876,6 +952,10 @@
   items:
     - name: Yenilikler
       items:
+        - name: Temmuz 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Mayıs 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Nisan 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Mart 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
@@ -1028,6 +1108,20 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 37, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-37.md
+        - name: 'Güncelleştirme Sürümü 36, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-36.md
+        - name: 'Güncelleştirme Sürümü 35, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-35.md
+        - name: 'Güncelleştirme Sürümü 34, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-34.md
+        - name: 'Güncelleştirme Sürümü 33, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-33.md
+        - name: 'Güncelleştirme Sürümü 32.5, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-32-5.md
+        - name: 'Güncelleştirme Sürümü 32, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-32.md
         - name: 'Güncelleştirme Sürümü 31, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-31.md
         - name: 'Güncelleştirme Sürümü 30, V3''teki yenilikler veya değişiklikler'
@@ -1266,9 +1360,11 @@
               href: psa/time-entry-calendar.md
             - name: Haftalık zaman girişini özelleştirme
               href: psa/time-entry-extensibility-v3.md
+            - name: Project Service Automation'daki onay kümeleri
+              href: psa/approval-set.md
     - name: SSS ve sorun giderme (3.x)
       items:
-        - name: Fiyat neden gider maliyet gerçek değerlerinde varsayılan olarak sıfır oluyor?
+        - name: Fiyat neden gider maliyeti gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Fiyat neden gider satış gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

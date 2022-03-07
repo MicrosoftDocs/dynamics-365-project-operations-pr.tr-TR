@@ -2,8 +2,6 @@
 title: Kuruluş birimleri
 description: Bu konu Dynamics 365 Project Service Automation uygulamasındaki kuruluş birimleri hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145653"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005100"
 ---
 # <a name="organizational-units"></a>Kuruluş birimleri 
 
@@ -55,7 +53,7 @@ Kuruluş birimi PSA'da iki rol oynar:
 - **Sözleşme birimi** – Satışı kazanmak ve iş ve servislerin müşteriye teslimini yönetmekten birincil olarak sorumlu olan şirket grubunu veya bölümü gösteren kuruluş birimidir. Sözleşme birimi **Fırsat**, **Teklif**, **Proje Sözleşmesi** ve **Proje** sayfalarının başlık bölümündeki **Sözleşme Birimi** alanı tarafından tanımlanır.
 - **Kaynak belirleme birimi** - Bir kaynağın ait olduğu veya atandığı kuruluş birimidir. Bu kuruluş birimi, çalışma bildirimlerindeki (SOW) bazı roller ve sözleşme birimi tarafından sahip olunan projeler için kaynaklarını sağlayabilir.
 
-> ![Sözleşme birimleri ve kaynak belirleme birimleri](media/advanced-1.png)
+> ![Sözleşme birimleri ve kaynak belirleme birimleri.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Kuruluş birimiyle ilgili SSS
 
@@ -98,7 +96,7 @@ Kuruluş birimi, şirket içinde diğer bölümlere veya harici müşterilere sa
 
 Contoso, Ltd.'nin iki geliştirme merkezi vardır: Contoso ABD ve Contoso Hindistan. Bu iki geliştirme merkezi arasında kaynak maliyetleri büyük ölçüde farklılık gösterir.
 
-Contoso BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
+Contoso, BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
 
 Contoso ABD ve Contoso Hindistan kuruluş birimleri olarak ayarlanmış olmalıdır ve her kuruluş biriminin kendi maliyet fiyat listesi olmalıdır. Asya Pasifik, Latin Amerika, Kuzey Amerika, Batı Avrupa ve Orta Doğu satış bölgeleri olarak ayarlanmış olmalıdır ve her satış bölgesi kendi satış fiyatı listesine sahip olmalıdır.
 
@@ -124,7 +122,7 @@ Hayır. Geçerli PSA sürümünde, kuruluş birimleri hiyerarşik değildir. Bu,
 Bir dizi maliyet merkezi, bölüm, fatura ofisi, vb. içeren karmaşık bir hiyerarşiniz olduğunda, bu hiyerarşinin yaprak düğümlerini farklı kuruluş birimleri olarak ayarlayın.
 Aşağıdaki örnek tipik bir hiyerarşi gösterir:
 
-**Contoso Hindistan**
+**ContosoHindistan**
 
   - SAP Uygulaması 
 
@@ -167,3 +165,6 @@ Hiyerarşiniz benziyorsa, bunu aşağıda gösterildiği gibi düz bir liste ola
 Bir proje kendi kendine oluşturulduğunda, projenin varsayılan sözleşme birimi kendisini oluşturan kullanıcıyı temel alır. Bu kullanıcı aynı zamanda varsayılan proje yöneticisidir. Proje, teklif veya proje sözleşmesi gibi bir satış varlığına eşlenmişse, projedeki sözleşme birimi bunun yerine satış varlığını temel alır. Bu durumda proje tahminleri yeniden hesaplanabilir, çünkü sözleşme birimi değiştirilirse maliyet tahmini hesaplamak için kullanılan maliyet fiyat listesi değişir. Satış fiyat listesi, teklifteki proje fiyat listesiyle eşitlenmeleri için değiştirilecek satış tahminlerini hesaplamak için kullanılır.
 
 Projedeki **Sözleşme Birimi** ve **Para birimi** alanları düzenlemeye karşı kilitlidir çünkü bu alanları projenin eşlendiği satış varlığındaki (teklif veya proje sözleşmesi) değerlerle eşitlenmesi gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

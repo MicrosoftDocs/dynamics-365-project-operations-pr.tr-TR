@@ -1,25 +1,23 @@
 ---
-title: Fatura biriktirme listesini yönetme - lite
-description: Bu konu, fatura biriktirme listesini yönetirken kullanabileceğiniz çeşitli görünümler hakkında bilgi sağlar.
+title: Proje faturalaması biriktirme listesini yönetme
+description: Bu konu, projelerde fatura biriktirme listesini yönetirken kullanabileceğiniz çeşitli görünümler hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988315"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Fatura biriktirme listesini yönetme - lite
+# <a name="manage-project-billing-backlog"></a>Proje faturalaması biriktirme listesini yönetme 
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations, fatura biriktirme listesini yönetmeye yardımcı olmak için adanmış görünümlere sahiptir. Faturalama biriktirme listesini yönetmek için, **Satışlar** alanında, **fatura** altında bağlantıları seçin. 
+Dynamics 365 Project Operations'ta, fatura biriktirme listesini yönetmeye yardımcı olmak için ayrılmış görünümler bulunur. Faturalama biriktirme listesini yönetmek için, **Satışlar** alanında, **fatura** altında bağlantıları seçin. 
 
 Aşağıdaki görünümler kullanılabilir:
 
@@ -60,3 +58,6 @@ Bir taslak faturada bulunan ürün tabanlı bir sözleşme satırı, bu görün�
 Çok müşterili sözleşme satırları zaman ve malzeme faturalama yöntemi içeriyorsa, saat ve giderler onaylandığında, her bir müşteri için tanımlanan faturalama yüzdesiyle ilgili olarak, sözleşme satırındaki her müşteriye için faturalandırmayan bir satış fiili gerçek oluşturulur. **Zaman ve malzeme faturalama biriktirme listesi** görünümünde, müşteriye özgü bu bağımsız satışlar fiili değerlerini görürsünüz. Bu faturalandırılmamış satış fiili kayıtlarının her biri, Bu görünümden ayrı olarak **Faturaya hazır** olarak işaretlenebilir.
 
 Bir taslak faturada bulunan faturalandırılmamış satış tahakkuku, bu görünümde, **oluşturulan müşteri faturası**'nın faturalama durumuyla gösterilir. Taslak fatura teyit edildiğinde, bu kayıttaki faturalama durumu **deftere nakledilen müşteri fatura** olarak güncelleştirilir. Bu durum değerini özel kod kullanarak güncelleştirmezler. Bu durum değerleri özel kodla güncelleştirildiğinde Project Operations düzgün çalışmaz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

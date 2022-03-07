@@ -2,18 +2,17 @@
 title: Kaynak kullanımına genel bakış
 description: Bu konu Project Operations'ta kaynak kullanımı hakkında bilgi sağlar.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: c9464b1de87211f8317a39a1d749e619769309ae
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401400"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367960"
 ---
 # <a name="resource-utilization-overview"></a>Kaynak kullanımına genel bakış
 
@@ -45,3 +44,6 @@ Ek olarak, her ayrılabilir kaynağa varsayılan bir rol atanması gerekir. **Ka
 **Project Service** sekmesinde, kaynak için ayrı bir hedef kullanımı da ayarlayabilirsiniz. Sonrasında kullanım hesaplaması kaynağın hedefini değerlendirmek için kaynağın varsayılan rolünün hedefi yerine bu hedef kullanımını kullanır.
 
 Kaynağın kullanımı, yalnızca söz konusu kaynağın ızgarada gösterilen dönem içinde borçlandırılabilir bir zaman olduğu onaylanırsa gösterilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Proje teklifi ayarları
 description: Bu konuda, proje tekliflerine uygulayan ve bu teklifleri etkileyen bilgiler ve ayarlar hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663663"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993490"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Proje tabanlı teklifler için üst bilgi ayrıntıları
 

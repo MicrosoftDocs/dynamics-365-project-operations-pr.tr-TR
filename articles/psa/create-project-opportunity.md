@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948218"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133257"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Proje fırsatı oluşturma (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -39,7 +37,7 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 3.  **Özet** alanında, fırsatınızın şirketini ve diğer bilgileri girin.  
   
-4.  Bu müşteri adayıyla ilgili notları ve etkinlikleri ekleyin (örneğin, telefon görüşmeleri veya e-postalar). Notların ve aktivitelerin ekleme hakkında daha fazla bilgi için bkz: [notlar, görevler, çağrı veya e-posta aktiviteleri ile takip](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Bu müşteri adayıyla ilgili notları ve etkinlikleri ekleyin (örneğin, telefon görüşmeleri veya e-postalar). Notların ve aktivitelerin ekleme hakkında daha fazla bilgi için bkz: [notlar, görevler, çağrı veya e-posta aktiviteleri ile takip](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Paydaş eklemek için **Paydaşlar** alanında **+** öğesine tıklayın.  
   
@@ -55,6 +53,3 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

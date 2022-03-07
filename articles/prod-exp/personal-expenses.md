@@ -2,11 +2,9 @@
 title: Gider raporundaki kişisel giderler
 description: Bu konu, bir çalışanın Microsoft Dynamics 365 Finance'taki kişisel giderlerini işlemek için iki yöntemi açıklamaktadır .
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf6bfc714751fa64914e684f67d37552b2df162e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32674bc7987ae9b77a9dce89525d647b6e84b8c50e6035488aafdb6a5dec1642
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271422"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991330"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Gider raporundaki kişisel giderler
 

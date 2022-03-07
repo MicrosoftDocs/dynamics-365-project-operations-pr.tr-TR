@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271782"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086481"
 ---
 # <a name="expense-report-distributions"></a>Gider raporundaki dağıtımlar
+
+[!include [banner](../includes/banner.md)]
 
 Giderleri bir gider raporuna girdiğinizde, kuruluşunuzdaki birden çok projeye, finansal boyuta veya hesaba dağıtabilirsiniz.
 
@@ -37,6 +39,3 @@ Nancy Frankfurt'tayken iki farklı projede çalıştığından, gider raporunu g
 |Otel         |725 EUR              |557 EUR                        |168 EUR                          |
 |Yemekler         |346 EUR              |284 EUR                        |62 EUR                           |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
 title: Proje tekliflerinde proje fiyat listelerini yönetme
-description: Bu konuda, tekliflerde proje fiyat listeleriyle çalışma hakkında bilgiler sağlanmaktadır.
+description: Bu konuda, tekliflerde proje fiyat listeleriyle çalışma hakkında bilgiler sağlanmaktadır. (Sales)
 author: rumant
 manager: Annbe
-ms.date: 03/30/2021
+ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858632"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086247"
 ---
-# <a name="manage-project-price-lists-on-project-quotes"></a>Proje tekliflerinde proje fiyat listelerini yönetme 
+# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Proje tekliflerinde proje fiyat listelerini yönetme (Sales)
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Proje teklifleri, birden çok tarihte etkin satış fiyatı listelerini desteklemek için tasarlanmıştır. Dynamics 365 Project Operations ile, **Proje fiyat listeleri** adı verilen yeni bir ilişkili varlık eklenir. Bu varlıkta, proje teklifi için 1-çok ilişkisi bulunur.
+Proje teklifleri, birden çok tarihte etkin satış fiyatı listelerini desteklemek için tasarlanmıştır. Dynamics 365 Project Operations ile **Proje fiyat listeleri** adı verilen yeni bir ilişkili varlık eklenir. Bu varlıkta, proje teklifi için 1-çok ilişkisi bulunur.
 
-Proje fiyat listeleri, bir projedeki süre, malzeme ve gider hareketlerinin fiyatlarını belirlemek için kullanılır. Bir teklifte bir veya daha fazla proje fiyat listesi varsa bu fiyat listeleri, teklif satırı üzerinden teklifle ilişkili projelerde zaman, malzeme, gider tahminleri ve gerçek değerlerin fiyatlarını belirlemek amacıyla kullanılır.
+Proje fiyat listeleri, projedeki fiyat süresi ve gider hareketleri için kullanılır. Bir teklifte bir veya daha fazla proje fiyat listesi olduğunda bu fiyat listeleri, teklif satırı üzerinden teklifle ilişkilendirilen projelerdeki zaman ve gider tahminlerini ve gerçek değerleri fiyatlandırmak için kullanılır.
 
 Proje teklifinde proje fiyat listesi olmadığında bir uyarı iletisi alırsınız. İletide, proje fiyat listesi olmadığından tahmini ve gerçek proje işi ve giderlerinin fiyatlandırılmayacağı belirtilir. Bunun yerine, satış değerleri için fiyat sıfır (0) olur.
 
@@ -67,6 +67,3 @@ Kuruluşa ve müşteriye özel varsayılan proje fiyat listeleriniz olduktan son
 
 1. **Proje Teklifi**'ndeki **Proje Fiyat Listesi** sekmesinde alt ızgarada seçilen özel fiyat listesi kaydı olmadığını doğrulayın.
 2. **Özel Fiyat Oluştur**'u seçin. Bu işlem, şu anda teklifle ilişkili tüm standart fiyat listelerinin kopyalarını yapar ve bu kopyaları teklifle ilişkilendirir. Standart fiyat listeleri için mevcut ilişkiler kaldırılır. Ardından satış temsilcisi bu kopyalardaki fiyatlarda düzenlemeler yapmaya başlayabilir. Bu değiştirilen fiyatlar yalnızca bu proje teklifi için geçerlidir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

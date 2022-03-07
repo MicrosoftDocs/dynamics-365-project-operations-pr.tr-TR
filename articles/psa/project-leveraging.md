@@ -2,8 +2,6 @@
 title: Satış tahminleri ve projeler
 description: Bu konu, satış işlemindeki zamanlamadan ve tahminlerden yararlanma hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995200"
 ---
 # <a name="sales-estimates-and-projects"></a>Satış tahminleri ve projeler
 
@@ -37,11 +35,11 @@ Satış işlemi sırasında, bir projeyi bir satış teklifine bağlayarak satı
 
 Proje tabanlı bir teklif satırı oluşturduğunuzda, yeni bir proje oluşturabilir veya var olan bir projeyi **Teklif Satırı** sayfasında ilişkilendirebilirsiniz. 
 
-> ![Teklif Satırı formu](media/project-8.png)
+> ![Teklif Satırı formu.](media/project-8.png)
  
 Teklif satırı ayrıntılarından yeni bir proje oluşturduğunuzda, proje şablonlarından yararlanabilirsiniz. Proje şablonları, standart proje planlarını ve bir kuruluşta tipik olarak kullanılan mali tahminleri temsil eden model projesidir. Ayrıca, geçmiş projelerden gelen proje planlarının ve tahminlerin kopyalarını da temsil edebilir.
 
-> ![Teklif satırı ayrıntıları](media/project-9.png)
+> ![Teklif Satırı Ayrıntıları.](media/project-9.png)
   
 Tekliften projenizi oluşturduğunuzda proje otomatik olarak teklif satırı ile ilişkilendirilir.
 
@@ -54,3 +52,6 @@ Zamanlama, çalışmayı görevlere bölmenizi, görevlerin hiyerarşisini korum
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Bir projeden tahminleri teklife içeri aktarma
 
 Proje tahminlerini tanımladıktan sonra, bunları teklif satırına içeri aktarabilirsiniz. **Teklif Satırı Ayrıntıları** sayfasında, proje tahminlerini işlem türüne, role veya görev düzeyine göre özetlemek için şeritteki **Tahminlerden al**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

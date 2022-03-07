@@ -2,17 +2,19 @@
 title: Proje tahminleri ve gerçek değerler tümleştirmesi
 description: Bu konu proje tahminleri ve gerçek değerler için Project Operations iki yazma tümleştirmesiyle ilgili bilgi sağlar.
 author: sigitac
+manager: Annbe
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88df3385fac0a78a827d65a77d3b04c9d6499536
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006315"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955852"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Proje tahminleri ve gerçek değerler tümleştirmesi
 
@@ -30,7 +32,7 @@ Tahminler oluşturmak için proje için geçerli bir hesaplama yapılandırması
 
 İşçilik tahminleri proje yöneticisine veya ayrıca proje görevine genel veya adlandırılmış bir kaynak atayan bir kaynak yöneticisi tarafından oluşturulur. Kaynak atama kayıtları, Dataverse içindeki **proje ayrıntıları** sayfasındaki **kaynak atamaları** sekmesinde gözden geçirilebilir. Dataverse'deki kaynak atama kayıtları, **saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments)** kullanarak Finance and Operations uygulamalarındaki tahmin kayıtlarını oluşturur.
 
-   ![İşçilik tahminleri tümleştirmesi.](./Media/DW4LaborEstimates.png)
+   ![İşçilik tahminleri tümleştirmesi](./Media/DW4LaborEstimates.png)
 
 Çift yazma, kaynak atama kayıtlarını hazırlama tablosuna (**ProjCDSEstimateHoursImport**) eşitler ve ardından saat tahmini kayıtlarını (**ProjForecastEmpl**) oluşturmak ve güncelleştirmek için iş mantığını kullanır.
 
@@ -40,7 +42,7 @@ Proje muhasebecisi, **Proje yönetimi ve hesap** > **Tüm projeler** > **Plan** 
 
 Gider tahminleri, Dataverse uygulamasındaki **proje ayrıntıları** sayfasındaki **gider tahminleri** sekmesinde yer alan Proje Yöneticisi tarafından oluşturulur. Gider tahmini kayıtları, Dataverse içindeki **tahmin satırı** varlığı içinde depolanır. Bu tahmin kayıtları **gider** adlı işlem sınıfına sahiptir ve **gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimatelines)** kullanılarak Finance and Operations uygulamalardaki masraf tahmini kayıtlarıyla eşitlenir .
 
-   ![Gider tahminleri tümleştirmesi.](./Media/DW4ExpenseEstimates.png)
+   ![Gider tahminleri tümleştirmesi](./Media/DW4ExpenseEstimates.png)
 
 Çift yazma, gider tahmini kayıtlarını hazırlama tablosuna (**ProjCDSEstimateExpenseImport**) eşitler ve ardından gider tahmini kayıtlarını (**ProjForecastCost**) oluşturmak ve güncelleştirmek için iş mantığını kullanır. Tahmin satırları satış tahminini ve maliyet tahmini kayıtlarını ayrı olarak depolar. Finance and Operations uygulamalarındaki iş mantığı, hazırlama tablosundaki bu ayrıntıyı kullanarak tek bir masraf tahmini kaydını doldurur.
 
@@ -50,7 +52,7 @@ Proje muhasebecisi, **Proje yönetimi ve hesap** > **Tüm projeler** > **Plan** 
 
 Malzeme tahminleri, Dataverse uygulamasındaki **proje ayrıntıları** sayfasındaki **Malzeme tahminleri** sekmesinde yer alan Proje Yöneticisi tarafından oluşturulur. Malzeme tahmini kayıtları, Dataverse içindeki **tahmin satırı** varlığı içinde depolanır. Bu tahmin kayıtları **gider** adlı işlem sınıfına sahiptir ve **Malzeme tahminleri için Proje tümleştirme tablosu (msdyn\_estimatelines)** kullanılarak Finance and Operations uygulamalardaki malzeme tahmini kayıtlarıyla eşitlenir .
 
-   ![Malzeme tahminleri tümleştirmesi.](./Media/DW4MaterialEstimates.png)
+   ![Malzeme tahminleri tümleştirmesi](./Media/DW4MaterialEstimates.png)
 
 Çift yazma, malzeme tahmini kayıtlarını hazırlama tablosuna (**ProjForecastSalesImpor**) eşitler ve ardından madde tahmini kayıtlarını (**ForecastSales**) oluşturmak ve güncelleştirmek için iş mantığını kullanır. Tahmin satırları satış tahminini ve maliyet tahmini kayıtlarını ayrı olarak depolar. Finance and Operations uygulamalarındaki iş mantığı, hazırlama tablosundaki bu ayrıntıyı kullanarak tek bir madde tahmini kaydını doldurur.
 
@@ -60,7 +62,7 @@ Proje muhasebecisi, **Proje yönetimi ve hesap** > **Tüm projeler** > **Plan** 
 
 Proje gerçekleri zaman, gider, malzeme ve fatura etkinliğine göre Dataverse uygulamasında oluşturulur. Bu hareketlerin miktar, maliyet fiyatı, satış fiyatı ve proje dahil tüm operasyon öznitelikleri bu Dataverse varlıkta yakalanır. Daha fazla bilgi için bkz. [Gerçek değerler](../actuals/actuals-overview.md). Gerçek kayıtlar ikili yazma tablo eşlemesi, **Project Operations tümleştirmesi (msdyn\_ fiili değerleri)** kullanımı ile Finance and Operations uygulamalarına eşitlenir.
 
-   ![Gerçek değer tümleştirmesi.](./Media/DW4Actuals.png)
+   ![Gerçek değer tümleştirmesi](./Media/DW4Actuals.png)
 
 **Project Operations tümleştirmesi gerçek kaynak** tablosu eşlemesi, Dataverse'deki **gerçek değerler** varlığındaki tüm kayıtları, **eşitlemeyi atla (yalnızca iç kullanım)** özelliğini **yanlış** değerine ayarlanmış olarak eşitler. Bu öznitelik değeri, kayıt oluşturulduğunda Dataverse'te otomatik olarak ayarlanır. Bu özniteliğin **doğru** değerine ayarlandığı örnekler şunlardır:
 

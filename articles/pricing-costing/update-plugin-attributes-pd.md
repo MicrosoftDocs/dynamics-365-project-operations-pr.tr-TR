@@ -2,18 +2,16 @@
 title: Eklenti özniteliklerini yeni fiyatlandırma boyutlarıyla güncelleştirme
 description: Bu konu, fiyatlandırma boyutları için eklenti özniteliklerinin güncelleştirilmesi hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643242"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988360"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Eklenti özniteliklerini yeni fiyatlandırma boyutlarıyla güncelleştirme
 
@@ -52,3 +50,6 @@ Eklentileri güncelleştirmek ve yeniden kaydetmek için aşağıdaki adımları
 7. Sayfayı kapatmak için **Tamam**'ı seçin ve ardından **Güncelleştirme Adımı**'nı seçin.
 8. İkinci eklenti **PreOperationQuoteLineDetail** için 2 ile 7 arasındaki adımları tekrarlayın. Bu eklenti için **msdyn_quotelinetransaction güncelleştirmesi** adımını güncelleştirmeniz gerekir.
 9. **PluginRegistrationTool**'u kapatın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

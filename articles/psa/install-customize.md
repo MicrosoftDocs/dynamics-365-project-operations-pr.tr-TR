@@ -2,8 +2,6 @@
 title: Yükleme ve özelleştirme
 description: Project Service yükleme ve özelleştirme
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 93891931f07d5cb16a8773f4c360cff1187f8dbf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947948"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015130"
 ---
 # <a name="install-and-customize-project-service"></a>Yükleme ve özelleştirme (Project Service)
 

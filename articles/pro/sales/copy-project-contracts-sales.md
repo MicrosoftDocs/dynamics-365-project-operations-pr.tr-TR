@@ -1,21 +1,21 @@
 ---
-title: Proje sözleşmelerini kopya - lite
+title: Proje sözleşmelerini kopyalama
 description: Bu konuda,Project Operations'ta proje sözleşmelerini kopyalama hakkında bilgiler sağlanmaktadır.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086229"
 ---
-# <a name="copy-project-contracts---lite"></a>Proje sözleşmelerini kopya - lite
+# <a name="copying-project-contracts"></a>Proje sözleşmelerini kopyalama
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -26,7 +26,7 @@ Varolan sözleşmelerin kopyalarını iki şekilde yaparak kolayca yeni proje s�
 
 Kopyalanan sözleşmenin parametrelerini seçebileceğiniz iletişim kutusu sayfası açılır. Aşağıdaki alanlar, iletişim kutusuna dahil edilir. Bu iletişim kutusunda seçtiğiniz değerlere bağlı olarak kopyalama işlemi değişebilir.
 
-| **Alan** | **Açıklama** | **Aşağı yönlü etki** |
+| **Alan** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
 | --- | --- | --- |
 | Başlık | Hedef Sözleşmenin konusunu girin. İletişim kutusu sayfası açıldığında sistem bu alanı, **kopya** ifadesi eklenmiş kaynak sözleşmesinin adı olarak ayarlar. | Bu alanda aşağı yönlü etki yoktur. |
 | Müşteri | Müşterinin şirket veya firma kaydına başvuru. İletişim kutusu açıldığında sistem bu alanı kaynak sözleşmesindeki firma olarak ayarlar. | Bu alan, sözleşmedeki birincil müşteridir. |

@@ -2,8 +2,6 @@
 title: Demo verileri ile denemeler yapın
 description: Project Service Automation için tanıtım verilerini indirme ve bunlarla deneme yapma.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151142"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998125"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Demo verileri ile deneme yapma (Project Service)
 
@@ -55,3 +53,6 @@ Daha fazla bilgi için bu [bloga](https://blogs.msdn.microsoft.com/crm/2017/10/2
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)   
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
  [Zaman, Gider ve İşbirliği Kılavuzu](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

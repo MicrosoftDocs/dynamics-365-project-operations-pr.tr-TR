@@ -2,11 +2,9 @@
 title: Proje faturası teklif performansı
 description: Bu konu, proje fatura tekliflerinde performans iyileştirmeleri hakkında bilgi sağlar.
 author: Yowelle
-manager: AnnBe
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005730"
 ---
 # <a name="project-invoice-proposal-performance"></a>Proje faturası teklif performansı
 
@@ -46,4 +44,6 @@ Proje faturası teklifi performansını iyileştirme özelliğini devre dışı 
 3.  Tarayıcınızı yenileyin.
 
 > [!NOTE]
-> Fatura teklif performansı, fatura kuralları etkinleştirildiğinde veya toplu işlemler çalışırken uygulanamaz.
+> Faturalama kuralları etkinleştirildiğinde fatura teklifi performansı uygulanamaz.
+> 
+> Fatura teklifleri oluşturma toplu işlemi sırasında, alt görev sayısı ne girdiğinize bakılmaksızın, faturalanabilir işlemlere sahip sözleşmelerin sayısına bağlı olarak görevleri maksimum sayıya böler. Örneğin, toplu işle fatura teklifi oluşturma alt görev sayısı için **3** ve faturalanabilir işlemlere sahip yalnızca iki sözleşme varsa, yalnızca iki alt görev oluşturulur.

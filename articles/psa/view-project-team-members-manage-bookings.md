@@ -2,8 +2,6 @@
 title: Proje takımı üyelerini görüntüleme ve ayırmaları yönetme
 description: Project Service'ta proje takımı üyelerini görüntüleme ve ayırmaları yönetme
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc836aed581d2c8c796e980bc41170a11aef817
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dd9fea4806e654048c94a826160e678fe2bb188e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144032"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015445"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Proje takımı üyelerini görüntüleme ve ayırmaları yönetme (Project Service)
 
@@ -57,3 +55,6 @@ Proje takımınızın bir listesini görüntüleyebilir ve buradan ayırma işle
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

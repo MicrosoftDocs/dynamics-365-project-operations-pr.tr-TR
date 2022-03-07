@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4a929b985a51ab49d3e34ce4a5c277af4c05c216
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: 48440f82170bde7f0a0a45f8f9849d688b232949
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558481"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323395"
 ---
 # <a name="subcontract-line-resources"></a>Alt sözleşme satırı kaynakları
 
@@ -28,18 +28,18 @@ Alt sözleşme satırı kaynakları oluşturmak için aşağıdaki adımları uy
 1. Gezinti bölmesinde, **Alt sözleşmeler**'i seçin ve çalışmak istediğiniz bir alt sözleşmeyi açın.
 2. Satıcı kaynaklarını belirtmek istediğiniz zamana ilişkin alt sözleşme satırını açın.
 3. **Alt Sözleşme Satırı Kaynakları** sekmesinde, alt ızgarada **+ Yeni Alt Sözleşme Satırı Kaynağı**'nı seçin.
-4. **Yeni Alt Sözleşme Satırı Kaynağı** sayfasında, gerekli bilgileri girin ve ardından **Kaydet ve Kapat**'ı seçin.
+4. **Yeni Alt Sözleşme Satırı Kilometre Taşı** sayfasında, gerekli bilgileri girin ve **Kaydet ve Kapat**'ı seçin.
 
 Aşağıdaki tabloda, alt sözleşme satırı kaynağındaki alanlar açıklanmaktadır.
 
-| Alan | Açıklama | İşlevsel etki |
-| ----- | ----------- | ----------------- |
-| Ayrılabilir Kaynak | Alt sözleşme satırında kaynak olarak kullanmak istediğiniz **Sözleşmeli çalışan** türündeki ayrılabilir bir kaynak seçin.| Sözleşmeli çalışan için ayrılabilir kaynak oluşturmadıysanız bu alanı boş bırakın. Kaydı kaydettiğinizde, ayrılabilir bir kaynak oluşturulacaktır.  |
-| Contact | Alt sözleşme satırı kaynağını varolan bir ilgili kişiden oluşturulabilirsiniz. Sistemdeki etkin ilgili kişilerin listesini görüntülemek için aramayı kullanın. Bu alt sözleşme satıcısına ait satıcı için bir ilgili kişi seçin. Seçtiğiniz ilgili kişi, alt sözleşmedeki satıcı için geçerli bir ilgili kişi değilse, alt sözleşme satırı kaynak kaydı kaydedilmez.| Seçilen ilgili kişi için kullanılabilir kaynak yoksa, alt sözleşme satırı kaynağını oluşturmadan önce sistem seçili kişi için bir ayrılabilir kaynak oluşturur. |
-| Kullanıcı | Etkin bir kullanıcı seçerek bir alt sözleşme satırı kaynağı oluşturabilirsiniz. Sistemdeki etkin kullanıcıların listesini görüntülemek için aramayı kullanın.| Seçilen kullanıcı için kullanılabilir kaynak yoksa, alt sözleşme satırı kaynağını oluşturmadan önce sistem seçili kullanıcı için bir ayrılabilir kaynak oluşturur. |
-| Başlangıç Tarihi | Alt sözleşme çalışan atamasının başlayacağı tarih.| Bu kaynak bu tarih aralığından önceki bir dönem için ayrılmışsa bir uyarı görüntülenir. |
-| Bitiş Tarihi | Alt sözleşme çalışan atamasının sona ereceği tarih.| Bu kaynak bu tarih aralığından sonraki bir dönem için ayrılmışsa bir uyarı görüntülenir. |
-| Çalışma | Bu alt sözleşme satırında sözleşmeli çalışan tarafından harcanacak toplam çalışma saati sayısı.| Bu kaynak, bu alt sözleşmede tahsis edilen çalışma dışında ayrılmışsa, bir uyarı oluşur. |
+| Alan |  Açıklama |
+| ----- | ------------ |
+| Ayrılabilir Kaynak | Alt sözleşme satırında kaynak olarak kullanmak istediğiniz "Sözleşmeli çalışan" türündeki ayrılabilir bir kaynak seçin. Sözleşmeli çalışanı için henüz bir ayrılabilir kaynak oluşturmadıysanız bu alanı boş bırakın. Kaydı kaydettiğinizde ayrılabilir bir kaynak oluşturulur.  |
+| Contact | **Ayrılabilir Kaynak** alanı boşsa, alt sözleşme satırı kaynağını mevcut bir ilgili kişiden oluşturabilirsiniz. Sistemdeki etkin ilgili kişilerin listesini görüntülemek için aramayı kullanın. Bu alt sözleşme satıcısına ait satıcı için bir ilgili kişi seçin. Seçtiğiniz ilgili kişi, kaydı kaydettiğinizde doğrulanır. Seçtiğiniz ilgili kişi geçerli bir ilgili kişi değilse, kaydınız kaydedilmez. Seçilen ilgili kişi için kullanılabilir kaynak yoksa, alt sözleşme satırı kaynağını oluşturmadan önce sistem seçili kişi için bir ayrılabilir kaynak oluşturur. |
+| Kullanıcı | **Ayrılabilir Kaynak** alanı boşsa, etkin bir kullanıcı seçerek bir alt sözleşme satırı kaynağı oluşturabilirsiniz. Sistemdeki etkin kullanıcıların listesini görüntülemek için aramayı kullanın. Seçilen kullanıcı için kullanılabilir kaynak yoksa, alt sözleşme satırı kaynağını oluşturmadan önce sistem seçili kullanıcı için bir ayrılabilir kaynak oluşturur. |
+| Başlangıç Tarihi | Alt sözleşme çalışan atamasının başlayacağı tarih. Bu kaynak bu tarih aralığından önceki bir dönem için ayrılmışsa bir uyarı görüntülenir. |
+| Bitiş Tarihi | Alt sözleşme çalışan atamasının sona ereceği tarih. Bu kaynak bu tarih aralığından sonraki bir dönem için ayrılmışsa bir uyarı görüntülenir. |
+| Çalışma | Alt sözleşme çalışanının bu alt sözleşme satırında harcayacağı çalışma saatlerinin toplam sayısı. Bu kaynak bu alt sözleşme için ayrılan çalışmadan fazlası için ayrılmışsa bir uyarı oluşur. |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

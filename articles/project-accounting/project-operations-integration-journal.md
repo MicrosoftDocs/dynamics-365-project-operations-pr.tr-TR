@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948354"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133466"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da entegrasyon günlüğü
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations bir araçla ilgili olarak hareketleri incelemek ve muhasebe özniteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
+Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın işlemsel görünümünü temsil eden **Fiili** hareketler oluşturur. Dynamics 365 Project Operations, bir araçla ilgili olarak hareketleri gözden geçirmek ve muhasebe niteliklerini gerektiği gibi ayarlamak için muhasebeciler sağlar. Gözden geçirme ve ayarlamalar tamamlandıktan sonra, hareketler proje alt muhasebeye ve genel muhasebeye nakledilir. Muhasebeci, **Project Operations tümleştirme** günlüğü (**Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **günlükler** > **Project Operations tümleştirme** günlüğü) kullanılarak bu aktiviteleri gerçekleştirebilir.
 
 ![Tümleştirme günlüğü akışı](./media/IntegrationJournal.png)
 
@@ -28,9 +28,9 @@ Zaman ve gider girişleri bir projeyle ilgili olarak tamamlanan çalışmanın i
 Project Operations Tümleştirme Günlüğündeki kayıtlar dönemsel işlem kullanılarak oluşturulur, **hazırlama tablosundan alınır**. Bu işlemi, **Dynamics 365 Finance** > **Proje yönetimi ve muhasebe** > **Periyodik** > **Project Operations Tümleştirmesi** > **Hazırlama tablosundan alma**'ya giderek çalıştırabilirsiniz. İşlemi etkileşimli olarak çalıştırabilir veya gerektiği gibi arka planda çalışacak şekilde yapılandırabilirsiniz.
 
 Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme günlüğüne eklenmemiş olan gerçek değerler bulunur. Her fiili hareket için bir günlük satırı oluşturulur.
-**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** sekmesinde Project Operations) seçilen değere bağlı olarak yevmiye defteri satırlarını ayrı yevmiye defterlerine ayırır. Bu alan için olası değerler şunlardır:
+**Project Operations Entegrasyon günlüğündeki periyot ünitesi** alanında (**Finance** > **Proje yönetimi ve muhasebe** > **Kurulum** > **Proje yönetimi ve muhasebe parametreleri**, **Dynamics 365 Customer Engagement** _ sekmesinde Project Operations) seçilen değere bağlı olarak günlük satırlarını ayrı günlüklere ayırır. Bu alan için olası değerler şunlardır:
 
-  - **Günler**: Gerçek tutarlar, işlem tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
+  - _*Günler**: Fiili değerler hareket tarihine göre gruplandırılır. Her gün için ayrı bir günlük oluşturulur.
   - **Aylar**: Gerçek değerler takvim ayına göre gruplandırılır. Her ay için ayrı bir günlük oluşturulur.
   - **Yıllar**: Gerçek değerler takvim yılına göre gruplandırılır. Her yıl için ayrı bir günlük oluşturulur.
   - **Tümü**: tüm fiili hareketler aynı tümleştirme günlüğüne dahil edilir. Periyodik işlem çalışırken günlük kullanılamıyorsa, örneğin günlük hareketleri deftere nakletme sürecinizde ise yeni bir günlük oluşturulur.
@@ -38,7 +38,7 @@ Dönemsel işlem çalıştığında, henüz Project Operations tümleştirme gü
 Günlük satırları proje fiili değerleri temel alınarak oluşturulur. Aşağıdaki listede, daha fazla sayıda varsayılan ve dönüşüm kuralı yer almaktadır:
 
   - Her proje fiili hareketinin Project Operations tümleştirme günlüğünde bir satırı vardır. Zaman ve malzeme faturalama türü için maliyet ve faturalanmış olmayan satış hareketleri ayrı satırlarda gösterilir.
-  - **Tarih** alanı hareketin tarihini temsil eder. **Muhasebe tarihi** alanı hareketin genel muhasebeye kaydedildiği tarihi temsil eder. Hesap tarihi [kapatılmış bir mali dönemse](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ve **Hesaplama tarihini açık genel muhasebe dönemi olarak ayarla** parametresi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasının **mali** sekmesinde sistem hareketin hesap tarihini sonraki açık defter periyodunda yer alan ilk tarihe ayarlar.
+  - **Tarih** alanı hareketin tarihini temsil eder. **Muhasebe tarihi** alanı hareketin genel muhasebeye kaydedildiği tarihi temsil eder. Hesap tarihi [kapatılmış bir mali dönemse](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) ve **Hesaplama tarihini açık genel muhasebe dönemi olarak ayarla** parametresi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasının **mali** sekmesinde sistem hareketin hesap tarihini sonraki açık defter periyodunda yer alan ilk tarihe ayarlar.
   - **Fiş** alanı her fiili hareketin fiş numarasını gösterir. Fiş numarası serisi **Proje yönetimi ve hesap oluşturma parametreleri** sayfasında **Numara serileri** sekmesinde tanımlanır. Her satıra yeni bir numara atanır. Fiş deftere nakledildikten sonra, **Fiş hareketi** sayfasında **ilgili fişler** seçilerek maliyet ve faturalanmış olmayan satış hareketinin nasıl ilişkili olduğunu görebilirsiniz .
   - **Kategori** alanı, ilgili proje fiili için işlem kategorisine göre proje hareketini ve Varsayılanlarını temsil eder.
     - **Hareket kategorisi** Proje gerçeğinde ayarlandıysa ve belirli bir tüzel kişilideki ilgili **proje kategorisi** varsa, kategori varsayılan olarak bu proje kategorisini alır.
@@ -55,6 +55,3 @@ Project Operations tümleştirme günlüğü satırlarında yalnızca aşağıda
 Tümleştirme günlüğü satırları silinebilir, ancak deftere nakledilmemiş satırlar, **Hazırlama tablosundan alma** periyodik işleminden yeniden çalıştırdıktan sonra günlükte yeniden eklenir .
 
 Tümleştirme günlüğünü deftere naklederken bir proje alt defteri ve genel muhasebe hareketleri oluşturulur. Bunlar, akış yönündeki müşteri faturalaması, gelir kabulü ve mali raporlamalar için kullanılır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

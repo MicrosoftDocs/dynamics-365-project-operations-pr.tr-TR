@@ -2,11 +2,9 @@
 title: Kaynak yetkinliklerini yönetme
 description: Bu konu, proje kaynakları için istek gönderme hakkında bilgi sağlar.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270657"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007440"
 ---
 # <a name="manage-resource-competencies"></a>Kaynak yetkinliklerini yönetme
 
@@ -31,7 +29,7 @@ ms.locfileid: "5270657"
 
 Kaynak yetkinlikleri kaynak yönetiminin temel bir parçasıdır. Beceri, eğitim, sertifika ve proje deneyiminin doğru şekilde dengelendiği kaynakları belirlemek için yetkinlikler temel olarak kullanılabilir. Bu bilgileri her kaynak için ayarlamanız ve düzenli aralıklarla güncelleştirmeniz gerekir. Bu şekilde, proje kaynak ataması sırasında belirli kaynak yetkinliklerinin eşleştirildiği özellikleri en üst düzeye çıkartabilir.
 
-[![Beceriler, sertifikalar, eğitimler ve proje deneyimi ile ilgili örnekler](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Beceriler, sertifikalar, eğitimler ve proje deneyimi ile ilgili örnekler.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Aşağıdaki yordamlarda, bir kaynağın bazı yetkinlik türlerinin nasıl ayarlanacağı açıklanmaktadır.
 

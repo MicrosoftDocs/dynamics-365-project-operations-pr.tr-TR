@@ -3,7 +3,6 @@ title: Örnek verileri yükleme
 description: Bu konu, Project Service Automation'nda örnek verileri yüklemeyle ilgili bilgi sağlar.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985570"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service uygulaması için örnek veri kurulumu
 
@@ -87,7 +86,7 @@ Bilgisayar için bir ağa bağlı kalmayı ve yükleme için **kurulum/referans 
 Bilgisayarda ekran koruyucu işlevinin kapatılmış olması gerekir. Aksi durumda, ekran koruyucu devreye girdiğinde (siz oturumunuzu bu süreçte etkin tutmadıkça) yükleme için oturum kimlik bilgileri kaybolabilir.
 
 > [!div class="mx-imgBorder"]
-> ![Ekran koruyucu kapalı durumdayken ekran koruyucu ayarlarının ekran görüntüsü](media/sample-data-1.png)
+> ![Ekran koruyucu kapalı durumdayken ekran koruyucu ayarlarının ekran görüntüsü.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>İndirme ve paketi açma
 
@@ -143,13 +142,13 @@ Demo verileri paket altı kullanıcıların gerektirir. Paket doğru bir şekild
 3. **PkgFolder** açın ve sonra **ImportUserMapFile.xml** bulun ve açın. **Yeni=** alanlarını sisteminizde karşılık gelen kullanıcıların e-posta adreslerine güncelleştirin.
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile ekran görüntüsü](media/sample-data-7.png)
+   > ![UserMapFile ekran görüntüsü.](media/sample-data-7.png)
 
 4. "Spencer Low" tam adına sahip kullanıcınız **"spencerl"**'dan başka bir kullanıcı kimliğine sahipse, ek bi dosya güncelleştirmeniz gerekir. **DemoDataPreImportConfig.xml** dosyasını açın ve ardından **userstocreateandconfigure** etiketini bulun. **\<login\>** etiketini loginId olarak (büyük-küçük harf duyarlı) güncelleştirin. 
 
 5. İlk kullanıcının takvimini (içinde **userstocreateandconfigure** etiketi) gösteri verilerinin alınması üzerindeki ayrılabilir tüm kaynaklar için çalışma saatleri doldurmak için kullanılır. **Ayarları** > **güvenlik** > **kullanıcılar**, "Spencer Low" kullanıcısını bulun ve "Çalışma saatlerini" seçeneğini açın. Seçimi varolan çalışma saatlerini düzenleyin **haftalık zamanlama başlangıçtan bitişe kadar yinelenen tüm** seçeneği. **Çalışma saatlerini Pazartesi, Cuma ve saat dilimi Pasifik Saati (ABD ve Kanada) ayarlama 8:00 - 18:00 için (9 saat)** ayarlanmış olduğundan emin olun. Bu, proje ve zamanlama tablosu beklendiği gibi gösterilmesini sağlamak için gereklidir.
 
-**Öneri:** Örnek veri yüklemesi sırasında bir şeyler ters giderse başlangıç noktanıza dönmenizin gerektiği durumda artık kuruluşunuzun bir yedeğini oluşturmayı düşünün. Daha fazla bilgi için bkz. [Kurulumları yedekleme ve geri yükleme](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Öneri:** Örnek veri yüklemesi sırasında bir şeyler ters giderse başlangıç noktanıza dönmenizin gerektiği durumda artık kuruluşunuzun bir yedeğini oluşturmayı düşünün. Daha fazla bilgi için bkz. [Kurulumları yedekleme ve geri yükleme](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Package Deployer'nı çalıştırma
 
@@ -173,7 +172,7 @@ Demo verileri paket altı kullanıcıların gerektirir. Paket doğru bir şekild
 5. **Demo Veri Kurulumu** iletişim kutusunu görene kadar **İleri**'yi seçin.
 
    > [!div class="mx-imgBorder"]
-   > ![Demo veri yükleyicisi durum penceresinin ekran görüntüsü](media/sample-data-3.png)
+   > ![Demo veri yükleyicisi durum penceresinin ekran görüntüsü.](media/sample-data-3.png)
 
 6. Devam etmeden önce, örnek verileri yüklemenin bir saat kadar (normalde yaklaşık 10 dakika) sürebileceğini unutmayın. Yükleme işlemi sırasında bilgisayarın açık ve bir ağa bağlı olduğundan ve oturumunuzun etkin kaldığından emin olmanız gerekir.   
 
@@ -192,10 +191,10 @@ Tutarlılık kontrolü için, Fabrikam Robotics kurgusal senaryosunda listelenen
 - Field Service uygulaması yüklüyse **Project Service** > **Ayarlar** > **Fiyat Listeleri**'ne gidin. Fatura oranları ve maliyet oranlarının mevcut olduğunu onaylayın. **Field Service** > **Ayarlar** > **Fiyat Listeleri**'ne gidin ve fatura oranları ile maliyet oranlarının, veri kümesinde her bir ülke/bölge için uygun para birimiyle mevcut olduğunu denetleyin.
 
   > [!div class="mx-imgBorder"]
-  > ![Etkin fiyat listelerinin ekran görüntüsü](media/sample-data-4.png)
+  > ![Etkin fiyat listelerinin ekran görüntüsü.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Etkin kuruluş birimlerinin ekran görüntüsü](media/sample-data-5.png)
+  > ![Etkin kuruluş birimlerinin ekran görüntüsü.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Teknik notlar
 
@@ -296,4 +295,7 @@ Tüm ayrılabilir kaynakların varsayılan 24 çalışma saatli bir takvimi vard
 Bir kullanıcı seçin (örneğin Spencer Low) ve birden fazla kullanıcıya uygulamak istediğiniz saatler için Spencer'ın çalışma saatlerini değiştirin. **Universal Resource Scheduling** > **Ayarlar** > **Çalışma Saati Şablonları**'na gidin ve **Varsayılan İş Şablonu** kaydını düzenleyin. **Şablon Kaynağı** alanında, diğer kaynaklara uygulamak istediğiniz çalışma saatlerine sahip bir kullanıcı seçin. **Universal Resource Scheduling** > **Zamanlama** > **Kaynaklar** > **Etkin Ayrılabilir Kaynaklar**'a gidin. Değiştirmek istediğiniz kaynakları seçin ve ardından **Takvim Ayarla**'yı seçin. **İş Şablonu** açılan listesinde **Varsayılan Çalışma Saati** şablonunu veya doğru şablonlaştırılan kaynakla birlikte başka bir şablonu seçin. Zamanlama panosuna gittiğinizde, güncelleştirilmiş çalışma saatlerine sahip kaynakları artık görebilmeniz gerekir.
 
 > [!div class="mx-imgBorder"]
-> ![Etkin ayrılabilir kaynakların ekran görüntüsü](media/sample-data-6.png)
+> ![Etkin ayrılabilir kaynakların ekran görüntüsü.](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

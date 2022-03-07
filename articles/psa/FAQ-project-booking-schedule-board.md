@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992990"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987640"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Zamanlama panosundan bir proje ayırma oluşturma
 
@@ -43,7 +43,7 @@ Genel bir kaynak oluşturup bir projedeki bir veya birden fazla göreve atayabil
 
 1.  Zamanlama panosunda, bu kaynak **Açık Gereksinimler** sekmesinde görünür. Çok sayıda açık gereksiniminiz varsa kılavuzda sütun filtreleri kullanmanız gerekebilir. 
 
-    ![Zamanlama panosunda Gereksinimleri Aç sekmesi](media/FAQ-Project-Booking-Schedule-Board-1.png "Ayırmalar ve atamalar tablosunun ekran görüntüsü")
+    ![Zamanlama panosunda Gereksinimleri Aç sekmesi.](media/FAQ-Project-Booking-Schedule-Board-1.png "Ayırmalar ve atamalar tablosunun ekran görüntüsü")
 
 2. Gereksinimi seçin. **Kullanılabilirliği Bul** sekmesi, seçili satırın üst kısmında görünür.
  
@@ -53,7 +53,7 @@ Genel bir kaynak oluşturup bir projedeki bir veya birden fazla göreve atayabil
 
     **Ayır** seçilince, kaynak proje takımına ayrılır.
 
-![Kaynak Ayırma Oluştur paneli](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Kaynak Ayırma Oluştur paneli.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Birincil Gereksinimden ayırma
@@ -62,7 +62,7 @@ Project Service'te bir proje oluşturulunca, otomatik olarak Birincil Gereksinim
 
 1. Birincil Gereksinimle bir kaynak ayırmak için, Zamanlama panosunda **Proje** sekmesini seçin. Çok sayıda projeniz varsa, **Proje** sütununda sütun filtresi kullanmanız gerekebilir.
 
-   ![Zamanlama panosunda sütun filtreleri](media/FAQ-Project-Booking-Schedule-Board-2.png "Ayırmalar ve atamalar tablosunun ekran görüntüsü")
+   ![Zamanlama panosunda sütun filtreleri.](media/FAQ-Project-Booking-Schedule-Board-2.png "Ayırmalar ve atamalar tablosunun ekran görüntüsü")
 
 2. Yalnızca ad olarak proje adını taşıyan ve süresi sıfır (0) olan gereksinimi seçin.
 

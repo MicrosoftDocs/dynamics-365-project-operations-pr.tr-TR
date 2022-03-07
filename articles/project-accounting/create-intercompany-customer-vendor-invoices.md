@@ -2,18 +2,16 @@
 title: Şirketler arası müşteri ve satıcı faturaları oluşturma
 description: Bu konu, şirketler arası müşteri ve satıcı faturalarının nasıl oluşturulacağı hakkında bilgi sağlar.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948419"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989300"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Şirketler arası müşteri ve satıcı faturaları oluşturma
 

@@ -2,18 +2,16 @@
 title: Fırsatlardan proje teklifleri oluşturma
 description: Bu konuda, bir fırsattan proje teklifi oluşturma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999655"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Fırsatlardan proje teklifleri oluşturma
 
@@ -56,3 +54,6 @@ Var olan bir teklif, bir Fırsata bağlanabilir. Var olan bir teklifin Fırsat b
    Fırsatı bu aşamaya taşıdığınızda, bu fırsatla ilişkili teklifler listesinden bu teklifi seçebilirsiniz. Bu teklifi seçmek, bu teklifte ilerlediğiniz anlamına gelir.
 
    Tekliflerden biri kazanılana kadar, Fırsatla ilişkili diğer tüm teklifler kullanılabilir ve etkin durumda kalır. Satış sürecini önceki aşama olan **Uygun Bul** aşamasına taşıyabilir ve ilerlemek için başka bir teklif seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

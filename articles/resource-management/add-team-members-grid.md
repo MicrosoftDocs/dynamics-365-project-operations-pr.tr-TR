@@ -2,24 +2,22 @@
 title: Takım üyesi kılavuzundan takım üyeleri ekleme
 description: Bu konuda, takım üyesi kaynaklarını yönetme hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121557"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008430"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Takım üyesi kılavuzundan takım üyeleri ekleme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, kuruluşun tamamında kaynak talebine ve kullanımına ilişkin görsel genel bakış sağlayan bir Kaynak yöneticisi panosu içerir. Aşağıdaki bilgileri görselleştirmek için bu panodaki grafikleri kullanabilirsiniz:
+Dynamics 365 Project Operations, kuruluşun tamamında kaynak talebine ve kullanımına ilişkin görsel bir genel bakış sağlayan bir Kaynak yöneticisi panosu içerir. Aşağıdaki bilgileri görselleştirmek için bu panodaki grafikleri kullanabilirsiniz:
 
 - **Kaynak talebi**: **Etkin Kaynak İsteği** grafiği, gönderilen kaynakları gösterir. Kaynaklar role veya projeye göre toplanır.
 - **Gönderilmemiş kaynak isteği**: **Atanmamış Kaynak İsteği** grafiği, gönderilmemiş kaynak gereksinimlerinin tamamını gösterir. Bu grafik, Kaynak yöneticilerinin kesin olmayan ve bir kaynak isteği üzerinden gönderilen talepleri görüntülemesine yardımcı olur.
@@ -200,3 +198,6 @@ Zamanı daha yüksek düzeylerde görüntülediğinizde **Mutabakat** sekmesinde
 Kaynak için görev atamalarınızın olduğu ama ayırmalarınızın olmadığı bir durumda **Projeler** formundaki **Mutabakat** sekmesinde ayırma eksikliğini seçin ve ardından **Ayırmayı Uzat** seçeneğini belirleyin. **Ayırmayı Genişlet** iletişim kutusu görüntülenir ve kaynağın eksikliğini ele almak için gereken ayırmayı gösterir. İletişim kutusu, kaynağın tüm projeler veya diğer zamanlanabilir varlıklarda var olan ayırmalarını da gösterir. Kaynağın kullanılabilirliğinden bağımsız olarak, kaynak için ayırma oluşturmak üzere **Tamam**'ı seçerseniz, fazladan ayırmaya neden olabilirsiniz.
 
 Ardından Proje yöneticisi veya Kaynak yöneticisi, bir kaynağın kapasitesi üzerinde ayrılmış olan durumları yönetmek için Zamanlama Panosu'nu kullanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Proje durumunu ve maliyeti izle
 description: Project Service'ta proje ilerleme durumunu ve maliyeti izleme
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dccf7c9b3e994e5d39f50b38e50a6c423c412f6
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992320"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Proje ilerleme durumunu ve maliyeti izleme (Project Service)
 
@@ -40,3 +38,6 @@ Bazen, bir görev üzerindeki özgün tahminleri düzeltmek gerekebilir. Görev,
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

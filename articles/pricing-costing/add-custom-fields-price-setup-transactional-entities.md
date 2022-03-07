@@ -2,11 +2,9 @@
 title: Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
 description: Bu konu varlıklara, formlara ve görünümlere gerekli özel alan başvurularının nasıl ekleneceği hakkında bilgi sağlar.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: a7268eb33c80f5e35d2ef21a8f4c7ed7ba322e27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590925"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000595"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
 
@@ -146,3 +144,6 @@ Aşağıdaki tabloda, yeni alanlarla güncelleştirilmesi gereken, varlığa gö
 |  Gerçek|• Bilgi<br>• Etkin Gerçek Tutarlar|• Gerçek Tutar İlişkili görünümü|
 
 Tanımladığınız öğeye bağlı olarak özel alanların iş kurallarına da eklenmesi gerekebilir. Kullanıma hazır bir örnek **Duruma göre Zaman Girişi düzenlenebilirliği** iş kuralı içindir. Bu kural, Zaman Girişi **Onaylandı** gibi düzenlenemeyen bir durumda olduğunda hangi alanların kilitlenmesi gerektiğini tanımlar. Alanların Zaman Girişi **Taslak** ve **Geri çevrildi** durumu dışında bir durumda olduğunda alanların düzenlemeye karşı kilitlenmesi için bu iş kuralına alanlar ekleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

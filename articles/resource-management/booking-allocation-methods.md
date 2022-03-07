@@ -2,11 +2,9 @@
 title: Ayırma tahsisat yöntemleri
 description: Bu konu, ayırma tahsisat yöntemlerinin Proje Operations'da nasıl çalıştığı hakkında bilgi sağlar.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121512"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998795"
 ---
 # <a name="booking-allocation-methods"></a>Ayırma tahsisat yöntemleri
 
@@ -81,3 +79,6 @@ Hiçbiri yöntemi ancak bir projede **Takım** sekmesinden ayırma yaptığını
 - Saatleri Eşit Dağıt
 
 Bu üç ayırma yönteminden birini kullanırken, fazladan kaynak ayırma bildirimi almazsınız. Fazladan ayırmayı düzeltmek için Zamanlama panosunu kullanmanız gerekecektir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

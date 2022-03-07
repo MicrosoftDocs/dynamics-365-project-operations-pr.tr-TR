@@ -2,18 +2,16 @@
 title: İş kırılım yapısı oluşturma
 description: Bu konuda, yeni zamanlama arabiriminde temel denetimler dahil bir iş kırılım yapısının (İKY) nasıl oluşturulacağı açıklanmaktadır.
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841415"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998755"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -93,6 +91,8 @@ Aşağıdaki tabloda ek zamanlama öznitelikleri gösterilmektedir.
 | Adı | Görevin adı. |
 | Kimlik | İş kırılım yapısındaki görevin kimliği. |
 
+Yönetici olarak, görev varlığında özel alanlar tanımlayabilirsiniz. Ancak alanlar, zamanlama ızgarasında görüntülenemez. Özel alanlarınızı görmek için bunları **Proje Görevi** ayrıntıları sayfasına ekleyin.
+
 ## <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 
 Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var olan bir kaynağı arayabilir veya **Oluştur**'u seçip **Hızlı Oluştur** bölmesinde, proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
@@ -116,3 +116,6 @@ Görev modunun, öncül/bağımlı görevlerin başlangıç ve bitiş tarihleri 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erişilebilirlik ve klavye kısayolları
 
 **Zamanlama** kılavuzu tam olarak erişilebilirdir ve Narrator, JAWS veya NVDA gibi ekran okuyucularla kullanılabilir. Ok tuşlarını kullanarak (Microsoft Excel'de olduğu gibi) ızgara alanında hareket edebilir, etkileşimli kullanıcı arabirimi öğeleri arasında ilerlemek için Sekme tuşunu kullanabilir ve açılan menüleri seçip açmak için Aşağı Ok tuşunu, Enter tuşunu veya Ara Çubuğunu kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Satış işlemi sırasında bir proje için iş tahminleri sağlama
 description: Project Service'ta satış işlemi sırasında bir proje için iş tahminleri sağlama
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9382127b2ce0b157d681fc77d67200ba9c5e59d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002490"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>Satış işlemi sırasında bir proje için iş tahminleri sağlama (Project Service)
 
@@ -54,3 +52,6 @@ Satış işlemi sırasında, teklif satırları ile satış tahminlerini sıfır
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

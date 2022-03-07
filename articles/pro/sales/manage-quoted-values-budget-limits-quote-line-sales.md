@@ -2,18 +2,17 @@
 title: Proje tabanlı teklif satırlarına genel bakış
 description: Bu konuda, proje çalışmaları için proje tabanlı teklif satırlarını kullanma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.custom: intro-internal
+ms.openlocfilehash: b7076a4b9280472f8c30d0b58c3aa9b9bc86d651
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858722"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369895"
 ---
 # <a name="project-based-quote-lines-overview"></a>Proje tabanlı teklif satırlarına genel bakış 
 

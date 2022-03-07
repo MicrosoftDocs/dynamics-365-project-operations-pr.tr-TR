@@ -2,24 +2,22 @@
 title: Proje tabanlı sözleşme satırına tahmin aktarma - lite
 description: Bu konuda, finansal tahminleri projeden sözleşme satırına içe aktarma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177490"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997270"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Proje tabanlı sözleşme satırına tahmin aktarma - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'ta, tahminleri bir projeden proje tabanlı bir sözleşme satırına aktarabilirsiniz.
+Dynamics 365 Project Operations'ta, proje tabanlı sözleşme satırına bir projedeki tahminleri içeri aktarabilirsiniz.
 
 1. Proje tabanlı sözleşme satırındaki **proje** alanının doldurulduğunu doğrulayın.
 2. Sekme **Sözleşme Satırı Ayrıntıları** sekmesinde, alt ızgarada **Proje tahmininden ithal et**'i seçin. Özetleme seçenekleri bulunan bir iletişim kutusu sayfası açılır. Özetleme seçenekleri, **İşlem sınıfı**, **Kategori**, **Rol** ve **Proje görevi**'dir.
@@ -60,3 +58,6 @@ Kullanıcı, **İşlem sınıfı**, **Kategori** ve **Yaprak Düğüm Görevine*
 | A Görevi | Uçak bileti ücreti | 1.10.2020 | 4 | 400 | 1600 |
 | B Görevi | Otel | 1.10.2020 | 4 | 200 | 800 |
 | C Görevi | Otel | 1.11.2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

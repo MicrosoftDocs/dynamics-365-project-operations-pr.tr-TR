@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986605"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000010"
 ---
 # <a name="expense-management-integration"></a>Gider yönetimi tümleştirmesi
 
@@ -28,7 +28,7 @@ Tam gider dağıtımında, gider kategorileri Finance and Operations uygulamalar
 2. Finance'te, **gider yönetimi** > **kurulumu** > **paylaşılan kategoriler**'e gidin ve bir **masraf** işlem sınıfı bulunan bir paylaşılan kategori seçin. **Giderde kullanılabilir** parametresinde **doğru** olarak ayarlayıp kullanılacak gider türünü tanımlayabilirsiniz.
 3. Bu paylaşılan kategori kaydını kullanarak, **gider yönetimi** > **kurulum** > **gider kategorilerine** giderek **Yeni** bir gider kategorisi oluşturun. Kayıt kaydedildiğinde, Çift yazma, bu kaydı Dataverse ile eşitlemek için **Project Operations tümleştirme proje gideri kategorileri verme varlığı (msdyn\_expensecategories)** kullanır.
 
-  ![Gider kategorileri tümleştirmesi.](./media/DW6ExpenseCategories.png)
+  ![Gider kategorileri tümleştirmesi](./media/DW6ExpenseCategories.png)
 
 Finance and Operations uygulamalardaki masraf kategorileri Şirket veya tüzel kişiliği özgüdür. Dataverse'De, ilgili tüzel kişiliği özgü kayıtlar vardır . Proje yöneticisinin giderleri tahmin ettiği zaman, bunlar üzerinde çalıştıkları projeye sahip olan şirketten farklı bir şirkete ait olan bir proje için oluşturulmuş gider kategorilerini seçmezler. 
 
@@ -40,7 +40,7 @@ Gider raporları Finance and Operations uygulamalar içinde oluşturulur ve onay
   - İkili yazma **Project Operations tümleştirme proje masraflarını verme varlığı (msdyn\_expenses)** tablo haritasını kullanmak üzere Dataverse ile eşitlenir.
   - Vergi alt raporu, satıcı alt muhasebe ve diğer mali defter nakilleri, gider raporu giderme zamanında uygun olarak kaydedilir.
 
-  ![Gider raporları tümleştirmesi.](./media/DW6ExpenseReports.png)
+  ![Gider raporları tümleştirmesi](./media/DW6ExpenseReports.png)
 
 Dataverse içindeki **gider** varlığına bir kayıt yazıldığında, sistem kaydın otomatikleştirilmiş onay işlemini tetikler. Gerekirse, otomatik onay işlemi durumu **Gelişmiş ayarlar** > **sistem** > **sistemi işlerine** giderek Dataverse'te gözden geçirilebilir. Onay tamamlandıktan sonra, gider işlem sınıfı kayıtları **Gerçek değerler** varlığında oluşturur.
 

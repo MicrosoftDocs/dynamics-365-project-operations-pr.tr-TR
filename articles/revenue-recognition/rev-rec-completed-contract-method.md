@@ -2,18 +2,16 @@
 title: Gelir tahminlerini yönetme
 description: Bu konu, projelerde gelir tahminleriyle nasıl çalışılacağı hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531579"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996550"
 ---
 # <a name="manage-revenue-estimates"></a>Gelir tahminlerini yönetme
 
@@ -90,3 +88,6 @@ Tahmin, durumu **Kaldırıldı** olarak değiştirir.
 Tüm elemeleri belirli bir tahmin tarihi ve **Elendi** tahmin durumuyla tersine çevirmek için bu sayfayı kullanın. Uygun alanları seçmeniz sonrasında işlem durumu değişir.
 
 Bu, proje aşaması bitmiş olarak ayarlanmışsa proje durumunu otomatik olarak **Devam ediyor** olarak değiştirir. Proje döneminin tahmin durumu **Gönderildi** olarak değişir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Kredi kartı işlemlerini içeri aktarma ve saklama
 description: Bu konu, gider ile ilgili kredi kartı hareketlerinin nasıl alınacağını ve saklanacağını açıklar. Bu hareketler, yinelenen bir zamanlamada otomatik olarak alınmak üzere ayarlanabilir veya gerektiği şekilde el ile alınırlar.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995875"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredi kartı işlemlerini içeri aktarma ve saklama
 
 Gider ile ilgili kredi kartı hareketleri, otomatik olarak yinelenen zamanlamayla içe alınacak şekilde ayarlanabilir. Alternatif olarak, hareketler gerektiği zaman el ile alınabilir. Kredi kartı hareketleri kredi kartı hareketleri veri varlığı aracılığıyla alınır.
 
-Veri varlıkları hakkında daha fazla bilgi için bkz [Veri varlıkları](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Veri varlıkları hakkında daha fazla bilgi için bkz [Veri varlıkları](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Kredi kartı hareketlerini alma
 

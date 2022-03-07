@@ -2,19 +2,17 @@
 title: Gidere genel bakış
 description: Bu konuda, Project Operations içindeki Gider özellikleri hakkında bilgiler sağlanmaktadır.
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764933"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995420"
 ---
 # <a name="expense-home-page"></a>Gider giriş sayfası
 
@@ -44,3 +42,6 @@ Daha fazla bilgi için bkz. [Gider girişi (lite)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Gider dağıtımınızı belirleme
 Temel Gider yönetim dağıtımını çalıştırıp çalıştırmadığınızı belirlemek için adres URL'sinin **.crm.dynamics.com** ile bittiğini doğrulayın. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

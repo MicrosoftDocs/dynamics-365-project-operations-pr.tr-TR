@@ -2,8 +2,6 @@
 title: Proje maliyetleri ve geliri
 description: Bu konu, proje maliyetlerini ve gelirini tahmin etme hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148352"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002580"
 ---
 # <a name="project-costs-and-revenue"></a>Proje maliyetleri ve geliri
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148352"
 
 Proje tahminleri, projenin zamanlamasındaki tahmini ve zamanlanan çalışma için mali görünüm sağlar. **Projeler** sayfasındaki **Tahminler** sekmesi planladığınız işin maliyet ve gelir etkisini gösterir. Ayrıca önceden tanımlanmış birçok boyut hakkında bilgi sağlar. 
 
-> ![Tahminler sekmesi](media/project-5.png)
+> ![Tahminler sekmesi..](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Projenin maliyet ve satış değerleri
 
@@ -68,13 +66,13 @@ Sistem, rol için bir fiyat bulamazsa tahmin satırındaki satış fiyatı varsa
 
 **Tahminler** sekmesi, tahmin satırlarını gösteren bir ızgara görünümüne sahiptir. Izgarada birim, toplam maliyet fiyatı ve aşağıdaki resimde gösterildiği gibi toplam satış fiyatı için sütunlar yer almaktadır. 
 
-> ![Tahminler sekmesindeki ızgara görünümü](media/project-6.png)
+> ![Tahminler sekmesindeki ızgara görünümü.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Proje tahminlerinin zaman aşamalı görünümü
 
 Proje tahminlerinin zaman aşamalı görünümü, zaman çizelgesindeki ızgara görünümünden tahmin verilerini seçtiğiniz zaman ölçeğinde gösterir. Varsayılan olarak, tahmin verileri **Rol** boyutunda özetlenir.
 
-> ![Proje tahminleri için zaman aşamalı görünüm](media/project-7.png)
+> ![Proje tahminleri için zaman aşamalı görünüm.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Görev moduna göre tahmini çalışmayı tahsis etme
 
@@ -97,3 +95,6 @@ Hem ızgara hem de zaman aşamalı görünümde hangi alanların gösterileceği
 ## <a name="expense-estimates"></a>Gider tahminleri
 
 Kılavuz görünümündeki **Yeni Gider Tahmini Ekle** düğmesi projede ortaya çıkan tüm harcamaları kaydetmenize olanak tanır ancak bu, işçilikle doğrudan ilgili değildir. Belirli bir görev veya tüm proje için gider tahminlerini kaydedebilirsiniz. Gider kategorilerini ve giderin gerçekleşmesini beklediğiniz belirsiz bir tarih seçin. İlişkili maliyet fiyat listesi ve satış fiyatı listesi varsayılan fiyatlara sahipse (veya gider kategorileri için kar payı yüzdeleri tanımlanmışsa) ilişkilendirme gerçekleştiğinde tahmin satırına otomatik olarak girilirler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

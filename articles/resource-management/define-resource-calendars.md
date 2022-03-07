@@ -2,18 +2,16 @@
 title: Kaynak takvimlerini tanımlama
 description: Bu konuda, Project Operations'taki kaynaklar için çalışma saati takvimlerinin tanımlanması hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123942"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990340"
 ---
 # <a name="define-resource-calendars"></a>Kaynak takvimlerini tanımlama
 
@@ -43,3 +41,6 @@ Kullanılabilirliğinin tanımlanabilmesi için proje üzerinde çalışan her a
 2. Güncelleştirmek üzere ızgara görünümünden en fazla 25 **Ayrılabilir Kaynak** seçin.
 3. **Takvim Ayarla**'yı seçtiğinizde bir iletişim kutusu, kullanılabilir çalışma saati şablonlarının listesini gösterir.
 4. Kullanmak istediğiniz şablonu seçin ve ardından **Uygula**'yı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

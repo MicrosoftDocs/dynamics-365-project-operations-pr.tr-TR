@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596216"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088144"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations, elde tutulan tutar tabanlı sözleşmeleri ve bir defalık avansları destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
+Dynamics 365 Project Operations, elde kalan tabanlı sözleşmeleri ve bir kerelik avanslar destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
 
 Elde tutulan veya avans faturaamak için bu adımları tamamlayın.
 
@@ -43,7 +43,7 @@ Retainers veya avanslar içeren bir proje sözleşmesi için oluşturulan her fa
 
 Bu, **Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. Aşağıdaki tablo **Proje fatura** sayfasının **uygulanan elde tutulan ve avanslar** kılavuzundaki alanlar hakkında bilgi sağlar.
 
-| Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
+| Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
 | --- | --- | --- | --- |
 | Veri Akışı Açıklaması | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. |Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir açıklama sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, faturaya hangi elde tutulan veya avansa uygulanacağını belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Teslimat Tarihi | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir fatura tarihi sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, müşteriye ilk fatura edilen elde tutulan veya avansa uygulanacağı tarihi belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |

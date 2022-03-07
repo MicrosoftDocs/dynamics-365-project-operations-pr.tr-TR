@@ -1,21 +1,21 @@
 ---
-title: Ürün tabanlı sözleşme satırlarına genel bakış - lite
+title: Ürün tabanlı sözleşme satırlarına genel bakış
 description: Bu konu ürün tabanlı sözleşme satırlarıyla ilgili bilgi sağlar.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086251"
 ---
-# <a name="product-based-contract-lines-overview---lite"></a>Ürün tabanlı sözleşme satırlarına genel bakış - lite
+# <a name="product-based-contract-lines-overview"></a>Ürün tabanlı sözleşme satırlarına genel bakış
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -46,6 +46,3 @@ Bir sözleşme satırı bir ürün kataloğuna dayanıyorsa, satış fiyatını 
 **Fiyatlandırmayı** alanını **Fİyatlandırmayı geçersiz kıl** olarak belirlerseniz varsayılan fiyat ayarlanmaz. Sözleşme satırında ürün için fiyat girin. Alanını **Varsayılan kullanılacak** şekilde ayarladığınızda , varsayılan satış fiyatı kullanılır ve alan düzenlenemez.
 
 Project Operations'ı yükledikten sonra, varsayılan satış fiyatları bir sözleşmedeki ürün tabanlı satırlara girilir. Ardından **Fiyatlandırma** alanı **Fiyatlandırmayı geçersiz kıl** olarak ayarlanır ve böylece sözleşme satırlarındaki varsayılan fiyatı düzenleyebilirsiniz. Bu, Dynamics 365 Sales içindeki ürün tabanlı satırlar davranışına projeyle ilgili özel geçersiz kılmanızı sağlar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

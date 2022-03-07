@@ -2,18 +2,16 @@
 title: Mali boyut varsayılanları
 description: Bu konu mali boyutun varsayılan ayarlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642387"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005460"
 ---
 # <a name="financial-dimension-defaults"></a>Mali boyut varsayılanları
 
@@ -21,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations, proje alt defteri ve genel muhasebe işlemleri hakkında ek içgörüler sunmak için Dynamics 365 Finance uygulamasındaki [Mali boyutlar](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) çerçevesini kullanır.
+Dynamics 365 Project Operations, proje alt defteri ve genel muhasebe işlemleri hakkında ek içgörüler sunmak için Dynamics 365 Finance uygulamasındaki [Mali boyutlar](/dynamics365/finance/general-ledger/financial-dimensions) çerçevesini kullanır.
 
 Varsayılan mali boyutlar bir müşteri üzerinde kaynak, aşama, proje sözleşme satırı veya proje gibi davranan bir proje için ayarlanabilir.
 
@@ -62,3 +60,6 @@ Projeler, CDS uygulamasında oluşturulur ve sürdürülür. Projelerin muhasebe
 4. Mali boyut varsayılanlarını ayarlayın. Mali boyutların müşteri hesabından varsayılan olarak değiştiğine dikkat edin. Proje birden çok proje sözleşmesi müşterisi bulunan bir sözleşme satırıyla ilişkilendirilmişse, birincil müşteri varsayılan mali boyutlara göre kullanılır.
 
 Proje varsayılan mali boyutları **Project Operations tümleştirme günlüğündeki** ve ilgili proje fatura satırlarındaki zaman, masraf ve masraf işlemlerine yönelik günlük satırı varsayılanlarını ayarlamak için kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

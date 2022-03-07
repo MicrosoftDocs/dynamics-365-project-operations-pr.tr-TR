@@ -2,11 +2,9 @@
 title: Finance and Operations ve Project Service Automation arasında proje gideri kategorilerini eşitleme
 description: Bu konuda, proje gider kategorilerini Microsoft Dynamics 365 Finance ile Dynamics 365 Project Service Automation uygulamaları arasında eşitlemek için kullanılan şablon ve temel görev açıklanır.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001140"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations ve Project Service Automation arasında proje gideri kategorilerini eşitleme
 
@@ -58,7 +56,7 @@ Proje gideri kategorilerine ait ana kopya Project Service Automation uygulaması
 
 Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleştirmenin bir parçası olarak verilerin nasıl eşitleneceğini gösterilir.
 
-[![Finance ile Project Service Automation tümleştirmesi için veri akışı](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Finance ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Finance'den Project Service Automation'a proje gideri kategorilerini eşitleme
 
@@ -95,7 +93,7 @@ Project Service Automation'a eşitleme yaparken, hareket kategorisindeki fatural
 
 Aşağıdaki çizimde Veri tümleştirmede şablon görev eşlemesinin bir örneği gösterilmektedir. Eşleme, Finance'den Project Service Automation'a eşitlenecek alan bilgilerini gösterir.
 
-[![Proje gider kategorosini Project Service Automation şablonuna eşitleme](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Proje gider kategorosini Project Service Automation şablonuna eşitleme.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Project Service Automation'dan Finance'e proje gideri kategorilerini eşitleme
 
@@ -123,4 +121,7 @@ Aşağıdaki çizimde Veri tümleştirmede şablon görev eşlemesinin bir örne
 > [!NOTE]
 > Eşleme, Project Service Automation'dan Finance'e eşitlenecek alan bilgilerini gösterir.
 
-[![Project Service Automation ile Finance şablon eşlemesi](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation ile Finance şablon eşlemesi.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

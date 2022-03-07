@@ -2,24 +2,22 @@
 title: Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme - lite
 description: Bu konu proje sözleşmeleri üzerinde birden çok müşterinin yönetilmesi hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 31a12e44353160dde851e2b9b06148a31fbeb167
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181341"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002889"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations içindeki proje sözleşmeleri, sözleşmeli bir anlaşmanın bir anlaşmayı planladığı birden çok müşteriyi içerdiği senaryosunu destekler. **Proje sözleşmesi** sayfasındaki **Özet** sekmesi **müşteri** alanını içerir. Bu alan, satış işleminin birincil müşterisini tanımlar. Bu anlaşma için diğer müşteriler **Proje sözleşmesi** sayfasının **Müşteriler** sekmesinde ayarlanabilir.
+Dynamics 365 Project Operations'ta proje sözleşmeleri, sözleşmeli bir anlaşmanın, anlaşmayı finanse eden birden çok müşteriyi içerdiği senaryoyu destekler. **Proje sözleşmesi** sayfasındaki **Özet** sekmesi **müşteri** alanını içerir. Bu alan, satış işleminin birincil müşterisini tanımlar. Bu anlaşma için diğer müşteriler **Proje sözleşmesi** sayfasının **Müşteriler** sekmesinde ayarlanabilir.
 
 Proje sözleşmesi için oluşturulan tüm yeni proje tabanlı sözleşme satırlarındaki sözleşme satırı müşterileri olarak proje sözleşmesi varsayılan konumunda listelenen tüm sözleşme müşterileri. Varolan proje tabanlı sözleşme satırları, yeni kayıtlar oluşturulurken yeni sözleşme müşterileri devralınmaz.
 
@@ -52,3 +50,6 @@ Bir sözleşme müşterisi, **Proje sözleşmesi** sayfasındaki **müşteriler*
 Fatura bölme yüzdeleri satır içi kılavuz düzenleme deneyimi kullanılarak düzenlenebilir. Faturalama bölme yüzdeleri yüzde 100'e kadar toplamayan bir hata alırsınız. Fatura bölünmüş yüzdelerini düzenledikten sonra hatayı kapatmak için sayfayı yenileyin.
 
 Ayrıca, **sözleşme müşterileri** alt ızgarasında, fatura bölmelerini tüm sözleşme müşterilerine **eşit olarak tahsis etmek** için eşit dağıtmayı seçebilirsiniz. Bir yuvarlama faktörü varsa, bu müşteriye yuvarlama müşterisine eklenir. Sözleşmeden müşterilerden biri her zaman Müşteri **yuvarlama** olarak etiketlenir, bu da sözleşme müşterisi kaydının yuvarlama bayrağı **Evet** olarak ayarlanmış olduğu anlamına gelir. Genel olarak bu, sözleşmenin birincil müşteridir, ancak aynı zamanda değiştirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
