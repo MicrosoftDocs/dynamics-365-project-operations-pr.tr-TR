@@ -2,19 +2,17 @@
 title: "Aralık 2020'deki yenilikler: Project Operations Lite dağıtımı: anlaşmadan proforma faturaya"
 description: Bu konu, Project Operations Lite dağıtımının Aralık 2020 sürümünde bulunan (anlaşmadan proforma faturaya) kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 81a5556e98d333fa86d73b1c7f03245a23a454372168f8bd7c79fc4425387734
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272232"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009375"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aralık 2020'deki yenilikler: Project Operations Lite dağıtımı: anlaşmadan proforma faturaya
 

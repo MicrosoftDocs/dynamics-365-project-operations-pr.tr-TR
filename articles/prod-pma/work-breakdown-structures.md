@@ -2,28 +2,26 @@
 title: İş kırılım yapısına genel bakış
 description: iş kırılım yapısı (İKY), proje için yapılacak işin bir açıklamasıdır. Proje takımının iş kompozisyonunu ve her bir bileşenin veya görevin boyut, maliyet ve süresini anlamaya yönelik oluşturulan bir görev hiyerarşisidir.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 093f9901aec0db1fa8f920533c0084f877f26445fd07159e8e1ae0cf53849641
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998845"
 ---
 # <a name="work-breakdown-structures-overview"></a>İş kırılım yapısına genel bakış
 
@@ -253,7 +251,7 @@ Finance kazanılan değere çizim yaparken 0:100 kazanç kuralını kullanır. B
 Kazanılan değer hesaplanırken, her görevin ilerleme durumu yüzde olarak değerlendirilir. 0:100 kazanç kuralı altında, belirli bir dönemin sonunda kazanılan değer hesaplaması için yalnızca söz konusu dönemde tamamlanan görevler dikkate alınır. Projedeki kazanılan değer, grafik oluşturulduğunda tamamlanan tüm görevler için hesaplanır. 
 
 > [!NOTE] 
-> Şu anda, İKY izleme sisteminde geçmişteki ilerleme yüzdelerini her görevde saklamak için veri yapıları yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği saat olarak rapor edilebilir. Rol Merkezi'nde gösterilen kazanılan değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
+> Şu anda, İKY izleme sisteminde geçmiş ilerleme yüzdelerini her görevde saklamak için veri yapıları yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği saat olarak rapor edilebilir. Rol Merkezi'nde gösterilen kazanılan değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
 
 **Gerçek maliyet**: EVM teorisinde gerçek maliyet grafiğinin, projede harcanan para oranını temsil ettiği belirtilir. 
 
@@ -316,3 +314,6 @@ Başka bir seçenek olarak, zamanlama hatalarını her görevdeki uyarı simgesi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

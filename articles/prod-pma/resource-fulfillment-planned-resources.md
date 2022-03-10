@@ -2,11 +2,9 @@
 title: Planlanan kaynaklar için kaynak karşılama
 description: Bu konuda, bir proje için planlanan kaynaklar hakkında bilgiler sağlanmaktadır.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eaeae9b0a4563805af61d20d6cc6709f7d697f582d4b1af2b883b292ac482af5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989530"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Planlanan kaynaklar için kaynak karşılama
 

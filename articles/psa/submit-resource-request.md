@@ -1,8 +1,6 @@
 ---
 title: Kaynak isteği gönderme
 description: Bu konu, proje kaynağı için istek gönderme hakkında bilgi sağlar.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8976ca2360be8676350178059615c59995544a71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282267"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985030"
 ---
 # <a name="submitting-a-resource-request"></a>Kaynak isteği gönderme
 
@@ -36,7 +34,7 @@ Oluşturulmuş bir kaynak gereksinimini bir kaynak isteği olarak gönderebilirs
 1. Project Service Automation'da (PSA) **Projeler** sayfasında ayrılabilir kaynakların listesini görüntülemek için **Takım** sekmesine tıklayın. 
 2. Listeden kaynak gereksinimi olan genel kaynağı seçin ve ardından **İstek Gönder**'e tıklayın.
 
-![Kaynak isteği gönderme](media/RM-how-to-18.png)
+![Kaynak isteği gönderme.](media/RM-how-to-18.png)
 
 Genel takım üyesinin istek durumu **Gönderildi** olarak değişir.
 

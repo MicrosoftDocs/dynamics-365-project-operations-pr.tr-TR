@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987730"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Web uygulamasında (Project Service uygulaması v2.x) bir göreve nasıl bir ayrılabilir kaynak atayabilirim?
 
@@ -43,7 +43,7 @@ Bu yöntemle bir kaynağı proje takımına ekler ve ardından proje zamanlamas�
 3.  **Başlangıç** ve **Bitiş** tarihlerini seçin.
 
     > [!div class="mx-imgBorder"] 
-    > ![Takım üyesi ekleme ekran görüntüsü](media/FAQ-Resources-to-Tasks2-1.png "Takım üyesi ekleme ekran görüntüsü")
+    > ![Takım üyesi ekleme ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-1.png "Takım üyesi ekleme ekran görüntüsü")
  
 4.  Kaynak ayırma için aşağıdaki tahsisat yöntemlerinden birini seçin:
     - **Tam Kapasite**, belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır.
@@ -63,12 +63,12 @@ Bu yöntemle bir kaynağı proje takımına ekler ve ardından proje zamanlamas�
     3. **Tamam** seçeneğini işaretleyin. Takım üyesi göreve atanır.
 
     > [!div class="mx-imgBorder"] 
-    > ![İKY ile kaynak ekleme ekran görüntüsü](media/FAQ-Resources-to-Tasks2-2.png "İKY ile kaynak ekleme ekran görüntüsü")
+    > ![İKY ile kaynak ekleme ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-2.png "İKY ile kaynak ekleme ekran görüntüsü")
  
 Takım üyesi ızgarasında, Atanan Saat Sayısı altında kaynağın atanmış toplam saat sayısını göreceksiniz. Bu değer, kaynak için ayrılan saat sayısından az veya ona eşit olacaktır. 
 
 > [!div class="mx-imgBorder"] 
-> ![Kaynak için atanan saat sayısı ekran görüntüsü](media/FAQ-Resources-to-Tasks2-3.png "Kaynak için atanan saat sayısı ekran görüntüsü")
+> ![Kaynak için atanan saat sayısı ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-3.png "Kaynak için atanan saat sayısı ekran görüntüsü")
  
 Kaynağa atamaya çalıştığınız görev kaynak ayırmalarının bitiş tarihinden sonra başlıyorsa, kaynak açılan listede görünmez.
 
@@ -89,25 +89,25 @@ Bu yöntem, görevler için kaynaklarda yeterli ayırma olmasını sağlar. Önc
 1. İş kırılım yapısında bir görev seçin.
 2. Kaynak hücresindeki **Atanan Rol** açılan liste simgesini seçin.
 3. **Rol** açılan listesini ve ardından, genel kaynak için rolü seçin.
-4. **Tamam** seçeneğini işaretleyin.
+4. **Tamam**'ı seçin.
 
     > [!div class="mx-imgBorder"] 
-    > ![Kaynak eklemek için İKY kullanma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-4.png "Kaynak eklemek için İKY kullanma ekran görüntüsü")
+    > ![Kaynak eklemek için İKY kullanma ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-4.png "Kaynak eklemek için İKY kullanma ekran görüntüsü")
  
 İKY'de görevlere rolleri atama işleminizi tamamladıktan sonra **Proje Takımı Oluştur**'u seçin. Project Service, görev atamalarını toplayarak rollere, kaynak belirleme kuruluş birimlerine ve proje takvimine göre en az sayıda genel takım üyesi oluşturur.
 
 > [!div class="mx-imgBorder"] 
-> ![Proje takımı oluşturma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-5.png "Proje takımı oluşturma ekran görüntüsü")
+> ![Proje takımı oluşturma ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-5.png "Proje takımı oluşturma ekran görüntüsü")
  
 Takım Üyesi kılavuzunda, Genel Kaynak türündeki kaynakları rol ve konum adıyla görürsünüz. İşi tamamlamak için bir role iki kaynak gerekiyorsa, Takım Oluştur özelliği iki takım üyesi oluşturur ve ikisini ayırt etmek için pozisyon adı kullanır.
 
 > [!div class="mx-imgBorder"] 
-> ![İki genel kaynak ekleme ekran görüntüsü](media/FAQ-Resources-to-Tasks2-6.png "İki genel kaynak ekleme ekran görüntüsü")
+> ![İki genel kaynak ekleme ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-6.png "İki genel kaynak ekleme ekran görüntüsü")
  
 Genel takım üyesi için destekleyici kaynak gereksinimini, Kaynak Gereksinimi altındaki bağlantıyı seçerek açabilirsiniz.
 
 > [!div class="mx-imgBorder"] 
-> ![Destekleyici kaynak gereksinimi açma ekran görüntüsü](media/FAQ-Resources-to-Tasks2-7.png "Destekleyici kaynak gereksinimi açma ekran görüntüsü")
+> ![Destekleyici kaynak gereksinimi açma ekran görüntüsü.](media/FAQ-Resources-to-Tasks2-7.png "Destekleyici kaynak gereksinimi açma ekran görüntüsü")
 
 Genel kaynak için **Ayır**'ı seçtikten sonra, zamanlama panosunu kullanarak gerçek bir kaynak bulup ayırabilirsiniz. Ayrıca, gereksinimi, bir kaynak yöneticisi tarafından karşılanması için **İsteği Gönder**'i seçerek gönderebilirsiniz.
 

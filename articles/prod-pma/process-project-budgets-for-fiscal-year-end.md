@@ -2,11 +2,9 @@
 title: Mali yıl sonunda proje bütçelerini aktarma
 description: Bu makalede, kalan Bütçe tutarlarının gelecekteki yıllara nasıl aktarılacağı ve bütçe kayıt ayrıntılarının nasıl oluşturulacağı hakkında bir miktar yer almaktadır.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007395"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Mali yıl sonunda proje bütçelerini aktarma
 
@@ -98,3 +96,6 @@ Kalan bütçe tutarlarını işlediğinizde, iletmek istediğiniz tutarların ge
 5. İşlemek istediğiniz her proje için, projenin satır başındaki seçeneğini belirleyin. 
 6. seçili projelere ait kalan bütçe tutarlarını seçili mali yıl transfer etmek için bir **Prosesi** seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

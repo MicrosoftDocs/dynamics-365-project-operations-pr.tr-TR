@@ -2,11 +2,9 @@
 title: Satış fiyat listesini ayarlama
 description: Bu konu, proje fiyatladırması için satış fiyat listeleri hakkında bilgi sağlar.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 05b1c13540e902975eee7379276cf394d9fc5743
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275472"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997630"
 ---
 # <a name="set-up-a-sales-price-list"></a>Satış fiyat listesini ayarlama
 

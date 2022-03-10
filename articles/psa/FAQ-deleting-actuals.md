@@ -2,8 +2,6 @@
 title: Fiili değerler varlığından gelen kayıtları neden silemiyorum?
 description: Bu konu, fiili değerler varlığındaki kayıtları neden silemediğiniz hakkında bilgi sağlar.
 author: JPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/6/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 36cd241c7c7a2ff6ae018c94d691bc95d1f0c912
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d60a3586fd1f0f688bcd2626d039ebc1aa6b0925c90d676f0e716400d8e8d6dd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002895"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Fiili Değerler varlığından gelen kayıtları neden silemiyorum?
 
@@ -33,3 +31,6 @@ ms.locfileid: "5148982"
 
 Project Service Automation (PSA), genel muhasebe gibi aşağı akış sistemlerinde finansal etkileri olan işlemler için gerçeklik kaynağı olarak hizmet verdiklerinden fiili değerleri silmenize izin vermez. Fiili değerler silinebilirse, mali raporlama işlemlerinin bütünlüğü sorgulanabilir. Bir denetim kaydı oluşturmak için, müşteriler telafi işlemleri oluşturmak üzere günlükleri kullanmalıdır.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Ayırmaları düzenleme
 description: Bu konuda, ayırmaların güncelleştirilmesi ve değiştirilmesi hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008340"
 ---
 # <a name="edit-bookings"></a>Ayırmaları düzenleme
 
@@ -33,3 +31,6 @@ Proje yöneticisi, **Takım Üyesi** ızgarasından belirli bir kaynağı vurgul
 ## <a name="schedule-board"></a>Zamanlama Panosu
 
 Kaynak yöneticisi, **Zamanlama Panosu**'nda bir kuruluştaki tüm ayırmaların bir portföy görünümüne sahiptir. Kaynak yöneticisi bu görünümden **Ayırma İşlemlerini Koru**'da sunulan özelliklere benzer şekilde mevcut ayırmaları uzatabilir, kısaltabilir veya taşıyabilir. Kaynak yöneticisi ayrıca ayırmaya sağ tıklayıp **İkame Kaynak** seçeneğini belirleyerek belirli bir ayırmaya tahsis edilmiş mevcut kaynakları ikame edebilir. Kaynak yöneticileri ayırmaya sağ tıklayıp **Düzenle**'yi seçerek mevcut ayırmaların dağılımlarını da düzenleyebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,16 @@
 title: Mali boyut varsayılanları
 description: Bu konu mali boyutun varsayılan ayarlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005460"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922962"
 ---
 # <a name="financial-dimension-defaults"></a>Mali boyut varsayılanları
 
@@ -60,6 +60,15 @@ Projeler, CDS uygulamasında oluşturulur ve sürdürülür. Projelerin muhasebe
 4. Mali boyut varsayılanlarını ayarlayın. Mali boyutların müşteri hesabından varsayılan olarak değiştiğine dikkat edin. Proje birden çok proje sözleşmesi müşterisi bulunan bir sözleşme satırıyla ilişkilendirilmişse, birincil müşteri varsayılan mali boyutlara göre kullanılır.
 
 Proje varsayılan mali boyutları **Project Operations tümleştirme günlüğündeki** ve ilgili proje fatura satırlarındaki zaman, masraf ve masraf işlemlerine yönelik günlük satırı varsayılanlarını ayarlamak için kullanılır.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Proje zaman girişleri için mali boyutları uygulama
+Proje zamanı girişleri için mali boyutlar uygulamak için varsayılan boyut değerinin aşağıdaki siparişi temel aldığını unutmayın:
+
+1. Kaynak
+2. Project
+3. Finansman kaynağı
+
+Örneğin, bir kaynakta varsayılan boyut belirtilmişse projede belirtilen bir varsayılana uygulanır. Benzer şekilde, varsayılan bir proje boyutu, finansman kaynağında belirtilen varsayılan değer üzerinden uygulanır.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

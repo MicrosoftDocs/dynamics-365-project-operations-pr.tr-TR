@@ -2,16 +2,16 @@
 title: İş kırılım yapısı oluşturma
 description: Bu konuda, yeni zamanlama arabiriminde temel denetimler dahil bir iş kırılım yapısının (İKY) nasıl oluşturulacağı açıklanmaktadır.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998755"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928639"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -95,11 +95,11 @@ Yönetici olarak, görev varlığında özel alanlar tanımlayabilirsiniz. Ancak
 
 ## <a name="staffing-attributes"></a>Kadro oluşturma öznitelikleri
 
-Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var olan bir kaynağı arayabilir veya **Oluştur**'u seçip **Hızlı Oluştur** bölmesinde, proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.
+Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var olan bir kaynağı arayabilir veya **Oluştur**'u seçip **Hızlı Oluştur** bölmesinde, proje takımı üyesini yeni bir kaynak olarak ekleyebilirsiniz.  Görev kılavuzunda, pano görünümünde veya Gantt'ta kaynak seçiciyi kullanarak bir kaynak aradığınızda, arama var olan proje takımı üyelerini veya etkin rezerve edilebilir kaynakları döndürür.
 
 **Rol**, **Kaynak Atama Birimi** ve **Pozisyon Adı** alanları görevle ilgili personel gereksinimlerinin tanımlanmasında kullanılır. Bu personel atama öznitelikleri, görev zamanlamasıyla birlikte bu görevi gerçekleştirmek üzere kullanılabilir kaynakları bulmak için kullanılır.
 
-   - **Rol**: Görevi gerçekleştirmek için gereken kaynak türünü belirtin.
+   - **Rol**: Görevi yapmak için gereken kaynak türünü belirtin.
    - **Kaynak belirleme birimi**: Görevle ilgili kaynakların atanması gereken birimi belirtin. Kaynağın maliyet ve fatura oranı kaynak birimlerine göre ayarlandıysa, bu öznitelik görevin maliyet ve satış tahminini etkiler.
    - **Pozisyon adı**: Nihayetinde işi yapacak kaynak için yer tutucu görevi gören genel kaynağa yönelik bir ad girin.
 
@@ -117,5 +117,27 @@ Görev modunun, öncül/bağımlı görevlerin başlangıç ve bitiş tarihleri 
 
 **Zamanlama** kılavuzu tam olarak erişilebilirdir ve Narrator, JAWS veya NVDA gibi ekran okuyucularla kullanılabilir. Ok tuşlarını kullanarak (Microsoft Excel'de olduğu gibi) ızgara alanında hareket edebilir, etkileşimli kullanıcı arabirimi öğeleri arasında ilerlemek için Sekme tuşunu kullanabilir ve açılan menüleri seçip açmak için Aşağı Ok tuşunu, Enter tuşunu veya Ara Çubuğunu kullanabilirsiniz.
 
+## <a name="project-limitations"></a>Proje limitleri 
+Project Operations'ta iş kırılım yapısını kullanıyorsanız, aşağıdaki sınırlamaların farkında olmalısınız. Bu sınırlar, projeler ve görevler için geçerlidir. Daha fazla bilgi için bkz. [Project for the web limitleri ve sınırları](/project-for-the-web/project-for-the-web-limits-and-boundaries) .
+
+| **Alan**                                          |  **Sınırla**           |
+|----------------------------------------------------|----------------------|
+| Proje için en fazla toplam görev sayısı                  | 500                  |
+| Proje için en fazla toplam süre               | 3650 gün (10 yıl) |
+| Proje için en fazla toplam kaynak sayısı              | 150                  |
+| Proje için en fazla toplam bağlantı (yalnızca ardıl) | 600                  |
+| Proje için en fazla toplam özel alan sayısı          | 10                   |
+| Görev başına maksimum denetim listesi öğesi                   | 20                   |
+
+**Görev sınırlamaları**
+
+| **Alan**                               |   **Sınırla**           |
+|-----------------------------------------|-----------------------|
+| En yüksek hiyerarşi düzeyi                 | 10 düzey             |
+| En fazla bağlantı (ardıl + öncül) | 20                    |
+| Yaprak görevinin maksimum süresi           | 1250 gün             |
+| Özet görevin en fazla süresi      | 3650 gün (10 yıl)  |
+| Bir göreve atanan maksimum kaynak sayısı    | 20 kaynak          |
+| Görev için desteklenen tarih aralığı         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

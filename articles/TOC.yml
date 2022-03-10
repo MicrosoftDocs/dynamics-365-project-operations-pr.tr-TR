@@ -4,11 +4,15 @@
   items:
     - name: Dağıtımınızın türünü belirleme
       href: environment/determine-deployment-type.md
-    - name: Project Operations deneme sürümleri için kaydolma
+    - name: Project Operations deneme sürümlerine kaydolma
       href: environment/admin-trials.md
     - name: Project Operations güncelleştirmeleri
       href: whats-new/project-operations-updates.md
-- name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+    - name: Kaldırılan veya kullanım dışı bırakılan özellikler
+      items:
+        - name: Project Operations'dan kaldırılan veya kullanım dışı bırakılan özellikler
+          href: whats-new/removed-depreciated-features-project.md
+- name: Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
   items:
     - name: Kullanmaya başlama
       items:
@@ -58,6 +62,10 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
+        - name: Aralık 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: Kasım 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Eylül 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
@@ -302,6 +310,8 @@
               href: project-management/schedule-api-preview.md
             - name: Proje zamanlama API'si performansı
               href: project-management/project-schedule-api-performance.md
+            - name: Proje zamanlama günlükleri
+              href: project-management/schedule-api-logs.md
     - name: Kaynak yönetimi
       items:
         - name: Temel kavramlar
@@ -396,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Mesafe oranı katmanlarını kullanarak mesafeyi ayarlama
               href: expense/set-up-mileage.md
+        - name: Gider dökümü
+          href: prod-exp/expense-itemization.md
         - name: Kişisel giderler
           href: expense/personal-expenses-expense-report.md
         - name: Şirketler arası giderler
@@ -520,17 +532,23 @@
               href: project-accounting/period-types.md
             - name: Maliyet şablonlarını ayarlama
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Sabit fiyat geliri tahmin projeleri
+        - name: Sabit fiyatla gelir tahmini projeleri
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: Tamamlama maliyeti yöntemleri
           href: revenue-recognition/cost-complete-methods.md
         - name: Gelir tahminlerini yönetme
           href: revenue-recognition/rev-rec-completed-contract-method.md
-- name: 'Lite dağıtım: anlaşmadan proforma faturaya'
+    - name: Sorun giderme
+      items:
+        - name: Proje satış süreci
+          items:
+            - name: 'Proje, sözleşme, teklif veya ayrılabilir kaynak oluştururken para birimi uyumsuzluğu hatası'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
+- name: 'Lite dağıtımı: anlaşmadan proforma faturaya'
   items:
     - name: Kullanmaya başlama
       items:
-        - name: Lite dağıtıma genel bakış
+        - name: Lite dağıtımına genel bakış
           href: pro/project-operations-overview-lite.md
         - name: Önizleme aboneliği (lite) için kaydolma
           href: environment/lite-preview-subscription-sign-up.md
@@ -544,6 +562,10 @@
       items:
         - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Aralık 2021 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: Kasım 2021'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Ekim 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Eylül 2021'deki yenilikler - lite dağıtımı
@@ -558,11 +580,11 @@
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Nisan 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: Mart 2021 - lite dağıtımındaki yenilikler
+        - name: Mart 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: Şubat 2021 - lite dağıtımındaki yenilikler
+        - name: Şubat 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: Ocak 2021 - lite dağıtımındaki yenilikler
+        - name: Ocak 2021'deki yenilikler - lite dağıtımı
           href: pro/whats-new/whats-new-jan-2021-lite.md
         - name: Aralık 2020 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-dec-2020-lite.md
@@ -888,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Alt sözleşme satırı kilometre taşları
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Alt sözleşme proje takımı üyeleri
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Proje takımı üyeleri için alt sözleşme seçenekleri
+          href: pro/subcontracting/subcon-options.md
+        - name: Alt sözleşme kapsamındaki kaynak atamalarının maliyet tahmini
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Zamanlama Panosu''nu, sözleşme çalışanlarını ve alt sözleşme kapsamındaki kapasiteyi gösterecek şekilde yapılandırın'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projeye sözleşmeli çalışanlar ve alt sözleşme kapsamında kapasiteyle personel atama
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Alt sözleşme kapsamındaki bileşenler için süre, gider ve malzeme kullanımını kaydetme'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Alt sözleşmede durum geçişi
+          href: pro/subcontracting/subcon-states.md
     - name: Zaman
       items:
         - name: Zamana genel bakış
@@ -952,6 +988,10 @@
   items:
     - name: Yenilikler
       items:
+        - name: Ekim 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Eylül 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Temmuz 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Mayıs 2021'deki yenilikler - Stoklu/ürün tabanlı senaryolar için Project Operations
@@ -1108,6 +1148,10 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme Sürümü 38, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-38.md
+        - name: 'Güncelleştirme Sürümü 37.5, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Güncelleştirme Sürümü 37, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-37.md
         - name: 'Güncelleştirme Sürümü 36, V3''teki yenilikler veya değişiklikler'
@@ -1186,12 +1230,14 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Temel teklif verme, fiyatlandırma ve fatura kılavuzu.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Gelişmiş teklif verme, fiyatlandırma ve fatura kılavuzu'
+        - name: 'Gelişmiş teklif verme, fiyatlandırma ve faturalama kılavuzu'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Kaynak yönetimi kılavuzu
           href: psa/implementation-guides/resource-management-guide.md
         - name: Raporlama kılavuzu
           href: psa/implementation-guides/reporting-guide.md
+    - name: Project Service Automation'dan Project Operations - lite sürümüne yükseltme
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation yükseltmesi (uygulama sürümü 3.x)
       items:
         - name: Project Service Automation yükseltmesi

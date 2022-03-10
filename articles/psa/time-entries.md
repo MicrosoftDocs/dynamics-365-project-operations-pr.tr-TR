@@ -2,8 +2,6 @@
 title: Zaman girişleri oluşturma
 description: Bu konu, zaman girişleri oluşturma hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990430"
 ---
 # <a name="create-time-entries"></a>Zaman girişleri oluşturma
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -68,3 +68,6 @@ Proje ayırmalarından ve atamalardan verileri içeri aktarabilirsiniz. Verileri
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Gruplama ölçütü, sıralama, arama ve filtreleme özellikleri
 
 Zaman girişlerini sütunlarda belirtilen boyutlara göre gruplandırabilir ve filtre uygulayabilirsiniz. **Gruplama ölçütü** alanında, zaman girişlerini filtrelemek için kullanılacak boyutu seçin. Ayrıca, sütun başlıklarındaki sıralama okunu kullanarak, zaman girişi kayıtlarını artan veya azalan düzende sıralayabilirsiniz. Ayrıca, sütun başlıklarındaki **Filtrele** düğmesini seçip ardından **Arama** kutusunda zaman girişlerini proje adına, proje görevine, zaman girişine veya kaynağa göre aramak için kullanılacak metni girerek girişleri gösterebilir veya gizleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

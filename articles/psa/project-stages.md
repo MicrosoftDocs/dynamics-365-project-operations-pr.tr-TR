@@ -2,8 +2,6 @@
 title: Proje aşamaları türleri
 description: Bu konu proje aşamaları hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3503b17e54fc0b321582c30ce534e4cb3f497a5f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283707"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996910"
 ---
 # <a name="project-stage-types"></a>Proje aşamaları türleri 
 

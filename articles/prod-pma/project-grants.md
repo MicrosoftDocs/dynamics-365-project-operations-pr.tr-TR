@@ -2,11 +2,9 @@
 title: Proje izinleri
 description: Bu konu, nasıl bir verme oluşturulacağını veya değiştirileceğini açıklar.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c58a051b8129cadbde491751a946b75a75cb85118c7f0c7d25a06d322ffea596
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995785"
 ---
 # <a name="project-grants"></a>Proje izinleri
 

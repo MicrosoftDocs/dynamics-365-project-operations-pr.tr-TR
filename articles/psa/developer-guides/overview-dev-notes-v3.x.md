@@ -4,6 +4,7 @@ description: Bu konu, Dynamics 365 Project Service Automation (PSA) sürüm 3.x 
 author: makk
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/26/2019
 ms.topic: article
 ms.author: makk
@@ -14,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a9db51ea8e29420f2258dff4febd7d638a6c0267
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c76faeecf252f0ae70594e7dfbb28c1aac2423a37f6cd12b53103dd7a493306e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007885"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987325"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Geliştirme giriş sayfası (Project Service Automation 3.x)
 

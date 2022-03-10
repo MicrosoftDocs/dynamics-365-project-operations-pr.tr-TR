@@ -2,8 +2,6 @@
 title: Microsoft Project'te işlerinizi planlamak için Project Service Eklentisi'ni kullanma | MicrosoftDocs
 description: Bu konu, Microsoft Project Service için Microsoft Project eklentisini ekleme, yapılandırma ve kullanma hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20436393aca6c16e337e06ae646b2857ef925e74
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005325"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project'te işlerinizi planlamak için Project Service Automation Eklentisi'ni kullanma
 

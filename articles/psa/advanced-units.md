@@ -2,8 +2,6 @@
 title: Birim grupları ve birimler
 description: Bu konu birim grupları ve birimler hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086340"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987595"
 ---
 # <a name="unit-groups-and-units"></a>Birim grupları ve birimler
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,7 +44,7 @@ Bir birim grubunda birden çok birim ayarladığınızda, birim grubunun varsay�
 
 Aşağıdaki resimde **Gün** birimi için örnek bir kurulum gösterilmektedir; burada **Miktar** alanı gün içindeki saat sayısını gösterir. **Hafta** biriminde **Miktar** alanı bir haftadaki günleri gösterir.
 
-> ![Birim grubu: Bilgi sayfası](media/advanced-2.png)
+> ![Birim grubu: Bilgi sayfası.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>Birimleri ve birim gruplarını kullanma
 
@@ -86,7 +86,7 @@ Aşağıdaki örnekte PSA'nın birim grubunu, birimleri ve dönüştürme faktö
 
 | Rol      | Birim grubu | Birim | Kuruluş birimi | Fiyat   |
 |-----------|------------|------|---------------------|---------|
-| Geliştirici | Time       | Day  | Contoso UK          | 800 GBP |
+| Geliştirici | Zaman       | Gün  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>Zaman girişi
 
@@ -110,3 +110,6 @@ Hayır. Zamanlama tahmşnş şu anda saat olarak sınırlandırılmıştır ve d
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>Birimler ve birim grupları düzenlenebilir, silinebilir ve eklenebilir mi?
 Evet. **Zaman** birim grubu ve **Saat** birimi dışında, tüm birimler silinebilir veya düzenlenebilir ve yeni birimler eklenebilir. PSA'da **Zaman** birimi grubu ve **Saat** birimi silinemez. Ancak, **Ad** alanı için çevrilmiş bir metinle güncelleştirilebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

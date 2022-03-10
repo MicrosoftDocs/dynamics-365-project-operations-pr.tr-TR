@@ -2,38 +2,37 @@
 title: Project Service Automation'a genel bakış
 description: Bu konuda, Dynamics 365 Project Service Automation ile Dynamics 365 Finance arasındaki tümleştirme çözümü hakkında bilgi sağlanır.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005910"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation'a genel bakış
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance için Project Service Automation tümleştirme çözümünde Common Data Service üzerinden Dynamics 365 Finance ve Dynamics 365 Project Service Automation örneği arasında verinin eşitlenmesini sağlayan Veri tümleştirme özelliği kullanılır. Veri tümleştirme özelliğiyle kullanılabilen tümleştirme şablonları, Project Service Automation'dan Finance'e projelerin, proje sözleşmelerinin, proje sözleşme satırlarının, proje sözleşme satırı kilometre taşlarının, proje görevlerinin, masraf hareketi kategorilerinin, saat tahminlerinin ve gider tahminlerinin akışını etkinleştirir.
+Finance için Project Service Automation tümleştirme çözümünde Common Data Service üzerinden Dynamics 365 Finance ve Dynamics 365 Project Service Automation örneği arasında verinin eşitlenmesini sağlayan Veri tümleştirme özelliği kullanılır. Veri tümleştirme özelliğiyle kullanılabilen tümleştirme şablonları, Project Service Automation'dan Finance'e projelerin, proje sözleşmelerinin, proje sözleşme satırlarının, proje sözleşme satırı kilometre taşlarının, proje görevlerinin, masraf işlemi kategorilerinin, saat tahminlerinin ve gider tahminlerinin akışını etkinleştirir.
 
 > [!NOTE]
 > - 7.3.0 sürümünü kullanıyorsanız, KB 4074835 yüklemelisiniz. Daha sonra sabit fiyatlı projeleri tümleştirebilirsiniz.
-> - 7.3.0 sürümünü kullanıyorsanız ve Project Service Automation'dan ücret hareketleri alıyorsanız, bu ücretleri proje faturasına dahil etmek için KB 4345320 yüklemelisiniz.
-> - 8.0 sürümünü kullanıyorsanız proje görev tümleştirmesini, harcama hareketi kategorilerini, saat tahminlerini, masraf tahminlerini ve işlevsellik kilitlemeyi kullanabilirsiniz.
+> - 7.3.0 sürümünü kullanıyorsanız ve Project Service Automation'dan ücret işlemleri alıyorsanız, bu ücretleri proje faturasına dahil etmek için KB 4345320 yüklemelisiniz.
+> - 8.0 sürümünü kullanıyorsanız proje görev tümleştirmesini, harcama işlemi kategorilerini, saat tahminlerini, masraf tahminlerini ve işlevsellik kilitlemeyi kullanabilirsiniz.
 > - Sürüm 8.0.1 veya sonrasını kullanıyorsanız, gerçek değerleri eşitleyebilirsiniz.
 
 Project Service Automation Finance parametrelerini tümleştirebilmeniz için önce Project Service Automation tümleştirme parametrelerini yapılandırmanız gerekir. Daha fazla bilgi için bkz. [Project Service Automation tümleştirme parametreleri](PSA-parameters.md).
@@ -45,10 +44,10 @@ Bu tümleştirme çözümü, aşağıdaki senaryolarda doğrudan eşitlemeyi sa�
 - Project Service Automation'da proje sözleşme satırlarını koruyun ve bunları doğrudan Project Service Automation'dan Finance'e eşitleyin.
 - Project Service Automation'da proje sözleşme satırları kilometre taşlarını koruyun ve bunları doğrudan Project Service Automation'dan Finance'e eşitleyin.
 - Project Service Automation'da proje görevlerini koruyun ve bunları doğrudan Project Service Automation'dan Finance'e eşitleyin.
-- Finance'de gider hareketi kategorilerini koruyun ve bunları doğrudan Finance'den Project Service Automation'a eşitleyin.
+- Finance'de gider işlemi kategorilerini koruyun ve bunları doğrudan Finance'den Project Service Automation'a eşitleyin.
 - Project Service Automation'da proje saat tahminleri oluşturun ve bunları doğrudan Project Service Automation'dan Finance'e eşitleyin.
 - Project Service Automation'da proje gider tahminleri oluşturun ve bunları doğrudan Project Service Automation'dan Finance'e eşitleyin.
-- Project Service Automation'da proje saati, masraf ve ücret fiili değerlerini oluşturun ve Project Service Automation tümleştirme günlüğünde proje harekelerini oluşturun. Böylece bu değerler Finance'de deftere nakledilebilir.
+- Project Service Automation'da proje saati, masraf ve ücret fiili değerlerini oluşturun ve Project Service Automation tümleştirme günlüğünde proje işlemlerini oluşturun. Böylece bu değerler Finance'de deftere nakledilebilir.
 
 ## <a name="data-synchronization"></a>Veri eşitleme
 
@@ -57,7 +56,7 @@ Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleş
 > [!NOTE]
 > Tüm şablonlar şu anda kullanılabilir değil. Şablonlar tamamlandıklarında yayınlanacaktır.
 
-[![Finance ile Project Service Automation tümleştirmesi](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Finance ile Project Service Automation tümleştirmesi.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance için sistem gereksinimleri
 
@@ -74,3 +73,6 @@ Project Service Automation ile Finance arasındaki tümleştirmesi çözümünü
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Project Service Automation örneğinizde Project Service Automation'dan Finance'e tümleştirme çözümünü yükleme
 
 Project Service Automation'dan Finance'e tümleştirme çözümünü [Microsoft Yükleme Merkezi](https://www.microsoft.com/download/details.aspx?id=57016)'nden indirin ve çözüme dahil edilen yönergeleri izleyin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Project Service Automation'ı yapılandırma
 description: Project Service yapılandırma adımları
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06a29f67040cd7da583bdeae85d6a0f6a3684c52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: de95d7b271d876285ac5f4ecbc595390141d9e126ce101779652828581c1f613
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290608"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998575"
 ---
 # <a name="configure-project-service"></a>Project Service Yapılandırma
 

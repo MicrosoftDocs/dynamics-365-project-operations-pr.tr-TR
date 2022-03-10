@@ -2,8 +2,6 @@
 title: Birden fazla para birimi senaryoları (sürüm 3.x)
 description: Bu konu, çoklu para birimi senaryoları hakkında bilgi sağlar.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291733"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005146"
 ---
 # <a name="multiple-currency-scenarios"></a>Birden fazla para birimi senaryoları
 

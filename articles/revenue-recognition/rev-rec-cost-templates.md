@@ -2,18 +2,16 @@
 title: Maliyet şablonlarını ayarlama
 description: Bu konu, Project Operations'ta maliyet şablonlarının nasıl oluşturulacağı ve kullanılacağı hakkında bilgi sağlar.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278982"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993580"
 ---
 # <a name="set-up-cost-templates"></a>Maliyet şablonlarını ayarlama
 

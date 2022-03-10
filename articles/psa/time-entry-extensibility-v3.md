@@ -2,8 +2,6 @@
 title: Haftalık zaman girişini özelleştirme
 description: Bu konu, bir kuruluşun uygulamalarını destekleyen özel iş kurallarının nasıl uygulanacağı hakkında bilgi sağlar.
 author: stsporen
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002310"
 ---
 # <a name="customize-weekly-time-entry"></a>Haftalık zaman girişini özelleştirme 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation sürüm 3.3'te, Microsoft proje kaynaklarının bir defada bir haftaya kadar hızlı bir şekilde zaman girmesine olanak tanıyan modern bir ızgara tanıttı. Yeni haftalık zaman girişi ızgarası, tarihe, satıra veya haftaya göre yapılan girişlerin toplamını gösterebilir. Kaynaklar, hafta içinde yapılan zaman girişlerinin kopyalarını oluşturabilir ve ayrıca önceki haftalardan toplu kopyalama gerçekleştirebilir. Sistem özelleştiriciler, alanlar ekleyerek, başka varlıklara aramalar ekleyerek ve kuruluşun uygulamalarını desteklemek için özel iş kuralları uygulayarak görünümü özelleştirebilir.
+Microsoft, Microsoft Dynamics 365 Project Service Automation sürüm 3.3'te proje kaynaklarının bir defada bir haftaya kadar hızlı şekilde zaman girmesine olanak tanıyan modern bir ızgara tanıttı. Yeni haftalık zaman girişi ızgarası, tarihe, satıra veya haftaya göre yapılan girişlerin toplamını gösterebilir. Kaynaklar, hafta içinde yapılan zaman girişlerinin kopyalarını oluşturabilir ve ayrıca önceki haftalardan toplu kopyalama gerçekleştirebilir. Sistem özelleştiriciler, alanlar ekleyerek, başka varlıklara aramalar ekleyerek ve kuruluşun uygulamalarını desteklemek için özel iş kuralları uygulayarak görünümü özelleştirebilir.
 
 Zaman girişi ve yeni haftalık zaman ızgarasına site haritası aracılığıyla erişilir. Önceki PSA sürümlerinin parçası olan genişletilebilir olmayan özel zaman girişi deneyiminin yerini, genişletilebilir haftalık zaman girişi ızgarası ile salt okunur ızgara ve takvimdeki alternatif deneyim alır. Bu değişiklikle kullanıcılar haftalık miktarlarda zaman girebilirler.
 
@@ -130,3 +130,6 @@ Tek bir zaman girişi kaydında kullanılabilir olandan daha fazla bağlam gerek
 
 > [!IMPORTANT] 
 > Şu anda TBX sayfalarındaki bilinen bir sorun kullanıcıların bilgileri düzeltmesini ve bir güncelleştirme eklenti doğrulamasında başarısız olduğunda Bitti öğesini yeniden seçmelerini engellemektedir. Geçici çözüm olarak, bu durumu mümkün olduğunca fazla önlemek için iş kuralı doğrulamaları ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

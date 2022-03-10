@@ -2,28 +2,26 @@
 title: Proje yönetimi ve muhasebeye genel bakış
 description: Proje yönetimi ve muhasebe işlevselliği, servis sağlamak, ürün oluşturmak veya sonuca ulaşmak için birden çok sektörde kullanılabilir.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007530"
 ---
 # <a name="project-management-and-accounting-overview"></a>Proje yönetimi ve muhasebeye genel bakış
 
@@ -36,14 +34,14 @@ Proje, bir servis sağlamak, ürün oluşturmak veya sonuca ulaşmak için tasar
 ## <a name="projects-across-industries"></a>Endüstrilerde projeler
 Aşağıdaki şekilde gösterildiği gibi, proje yönetimi ve muhasebe işlevselliği birden çok sektörde kullanılabilir.
 
-[![Endüstrilerde projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Endüstrilerde projeler.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Çağrı merkezinde, bilet bir çağrıyı çözümlemek için gereken eylemler kümesini tanımlamak için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları ya da reklam ajansları gibi danışmanlık şirketleri, etkinliklerine proje adını verir. Pazarlamada, kampanya teslim edilmesi gereken iş kümesini temsil eder. Proje tabanlı üretimde, bir üretim emri, üretimi tamamlanmış mallar üretmek amacıyla gerçekleştirilmesi gereken çeşitli işler ile ilgilidir. Adı ne olursa olsun, bu projelerde kaynak, zamanlama ve maliyetler bulunur ve proje yönetimi ve muhasebe işlevleri bu projelerin planlanması, yürütülmesi ve çözümlenmesinde size yardımcı olur.
 
 ## <a name="project-phases"></a>Proje aşamaları
 Aşağıdaki işlem akışı, harici projelere veya bir veya daha fazla müşteri için tamamlanan proje ve projelere yöneliktir, işlevselliği iç, salt maliyete yönelik projeler için de uygulanabilir. 
 
-![Bir projenin 3 aşaması](./media/3-stages-of-a-project.png) 
+![Bir projenin 3 aşaması.](./media/3-stages-of-a-project.png) 
 
 Önceki çizimde gösterildiği gibi, proje yönetimi ve muhasebe üç aşamaya ayrılabilir:
 
@@ -52,7 +50,7 @@ Aşağıdaki işlem akışı, harici projelere veya bir veya daha fazla müşter
 3.  Çözümle
 
 ## <a name="initiate-the-project"></a>Projeyi başlatma
-Proje başlatma sırasında, birkaç önemli işlem gerçekleştirilir. Tahmini iş gücünü, giderleri ve malzemeleri müşteriye iletmek için proje teklifini kullanabilirsiniz. Bir proje sözleşmesine fatura koşullarını, sınırları ve anlaşmaları kaydedebilirsiniz. Çalışmayı planlamak ve tahmin etmek için bir iş kırılım yapısı (İKY) kullanabilirsiniz. Projenin yürütülmesine yol göstermesi amacıyla tahminler ve bütçeler ayarlayabilirsiniz. Aşağıdaki resimde bir projenin yapısı gösterilmektedir.[![proje yapısı](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Proje başlatma sırasında, birkaç önemli işlem gerçekleştirilir. Tahmini iş gücünü, giderleri ve malzemeleri müşteriye iletmek için proje teklifini kullanabilirsiniz. Bir proje sözleşmesine fatura koşullarını, sınırları ve anlaşmaları kaydedebilirsiniz. Çalışmayı planlamak ve tahmin etmek için bir iş kırılım yapısı (İKY) kullanabilirsiniz. Projenin yürütülmesine yol göstermesi amacıyla tahminler ve bütçeler ayarlayabilirsiniz. Aşağıdaki resimde bir projenin yapısı gösterilmektedir[![proje yapısı.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Proje teklifleri oluşturma
 
@@ -227,7 +225,7 @@ Proje türü, hangi faturalandırma yordamının uygulanacağını belirler. Yal
 Bir proje için müşteri faturası oluşturmadan önce, ön fatura veya fatura teklifi oluşturabilirsiniz. Fatura teklifinde, proje faturasına dahil edilecek proje hareketlerini seçebilirsiniz. Ardından, proje faturasını deftere nakletmeden önce fatura ayrıntılarını inceleyebilir ve müşteriye veya diğer finansman kaynağına gönderebilirsiniz. 
 
 
-Proje faturalarını işleme hakkında daha fazla bilgi için bkz. [Proje faturalandırma](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Proje faturalarını işleme hakkında daha fazla bilgi için bkz. [Proje faturalandırma](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Projenin tamamlanma maliyetini hesaplama

@@ -4,6 +4,7 @@ description: Bu konu proje fiili değerleri hakkında bilgi sağlar.
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73f1b14bbb4cc53111a1b3a93756a86db04475ab
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014680"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992500"
 ---
 # <a name="actuals-overview"></a>Gerçek değerlere genel bakış
 
@@ -31,7 +32,7 @@ ms.locfileid: "6014680"
 
 Fiili değerler, bir projeki tamamlanmış iş tutarıdır. Proje fiili değerleri, kaynak belgelerine doğru izlenebilir. Bu kaynak belgeler arasında zaman, gider, günlük girişleri ve ayrıca faturalar vardır.
 
-![Proje fiili değerlerini kaynak belgelerde izleme](media/basic-guide-18.png)
+![Proje fiili değerlerini kaynak belgelerde izleme.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Bir zaman girişi gönderme
 

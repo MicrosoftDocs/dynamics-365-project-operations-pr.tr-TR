@@ -2,12 +2,10 @@
 title: Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
 description: Bu konu Microsoft Dynamics Project Service Automation 3. x'e yönelik çözüm değişiklikleri açıklamaktadır.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987370"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 Microsoft Dynamics Project Service Automation (PSA) 3.x'in sürümüyle varlıklarda, denetimlerde, görünümlerde ve kullanıcı arabiriminde pek çok değişiklik yapıldı. Bu konuda, bu önemli değişiklikler hakkında önemli bilgiler sağlanmaktadır:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Satış belgesi, satış belgesi satırı, satış belgesi satırı ayrıntı varlıkları için üst-alt öğe ilişkileri
@@ -80,3 +82,6 @@ Aşağıdaki web kaynakları kullanım dışı bırakıldı:
 > Kullanım dışı bırakılan kaynakların tam listesi için bkz. [Project Service Automation v3.x'te kullanımdan kaldırılan web kaynakları](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Proje fırsatı oluşturma
 description: Project Service'ta proje fırsatı oluşturma
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc24b0f3f6091f1a81b83d5bea61dfd2fd5a4ff6e4fdc6ec206f15460f364db1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002715"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Proje fırsatı oluşturma (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +37,7 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 3.  **Özet** alanında, fırsatınızın şirketini ve diğer bilgileri girin.  
   
-4.  Bu müşteri adayıyla ilgili notları ve etkinlikleri ekleyin (örneğin, telefon görüşmeleri veya e-postalar). Notların ve aktivitelerin ekleme hakkında daha fazla bilgi için bkz: [notlar, görevler, çağrı veya e-posta aktiviteleri ile takip](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Bu müşteri adayıyla ilgili notları ve etkinlikleri ekleyin (örneğin, telefon görüşmeleri veya e-postalar). Notların ve aktivitelerin ekleme hakkında daha fazla bilgi için bkz: [notlar, görevler, çağrı veya e-posta aktiviteleri ile takip](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Paydaş eklemek için **Paydaşlar** alanında **+** öğesine tıklayın.  
   
@@ -53,3 +53,6 @@ Fırsatlar, hizmetlerinizi kullanmaya ilgi gösteren müşterilerden sıcak mü�
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,13 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2a26b321e15080cc6a4a6a3ed410be175e790a1b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995420"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988495"
 ---
 # <a name="expense-home-page"></a>Gider giriş sayfası
 

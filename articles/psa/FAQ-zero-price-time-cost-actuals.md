@@ -2,8 +2,6 @@
 title: Fiyat neden zaman maliyet gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
 description: Fiyatın zaman maliyet gerçek değelerinde varsayılan olarak 0'a dönmesi sorununu giderme.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 124719410f89dea506d43a1b64cb91c85d4f3968
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1f81268c894e2ff5d607d8008876c84f7eafdf05f8b1f3212263a5dfa89b69d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131411"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997000"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Fiyat neden zaman maliyet gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -64,3 +64,6 @@ Yukarıdaki üç denetimi yaptıktan sonra zaman maliyet gerçek değerinizde ge
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

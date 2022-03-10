@@ -1,32 +1,29 @@
 ---
-title: Zamanlama varlıklarıyla işlemler gerçekleştirmek için Zamanlama API'lerini kullanma
-description: Bu konu, Zamanlama API'leri kullanımına yönelik bilgiler ve örnekler sağlar.
+title: Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
+description: Bu konu Proje zamanlama API'larının kullanımına yönelik bilgiler ve örnekler sağlar.
 author: sigitac
-manager: Annbe
-ms.date: 04/27/2021
+ms.date: 09/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950828"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487709"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıklarıyla işlemler gerçekleştirmek için Zamanlama API'lerini kullanma
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-> [!IMPORTANT] 
-> Bu konuda açıklanan bazı veya tüm işlevler, bir önizleme sürümü kapsamındadır. İçerik ve işlevsellik değiştirilebilir. 
+
 
 ## <a name="scheduling-entities"></a>Zamanlama varlıkları
 
-Zamanlama API'leri, **Zamanlama Varlıkları**'yla oluşturma, güncelleştirme ve silme işlemlerini gerçekleştirmeye olanak tanır. Bu varlıklar, webe yönelik projelerde Zamanlama altyapısı üzerinden yönetilir. Önceki Dynamics 365 Project Operations sürümlerinde **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri kısıtlanmıştı.
+Proje zamanlaması API'ları **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri gerçekleştirme olanağı sunar. Bu varlıklar, webe yönelik projelerde Zamanlama altyapısı üzerinden yönetilir. Önceki Dynamics 365 Project Operations sürümlerinde **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri kısıtlanmıştı.
 
-Aşağıdaki tabloda, **Zamanlama varlıkları**'nın tam bir listesi verilmiştir.
+Aşağıdaki tabloda Proje zamanlama varlıklarının tam listesi verilmiştir.
 
 | Varlık adı  | Varlık mantıksal adı |
 | --- | --- |
@@ -41,19 +38,19 @@ Aşağıdaki tabloda, **Zamanlama varlıkları**'nın tam bir listesi verilmişt
 
 OperationSet, bir hareket içinde işlenmesi gereken, zamanlamayı etkileyen birkaç isteğin işlenmesi gerektiğinde kullanılabilen bir çalışma birimi düzenidir.
 
-## <a name="schedule-apis"></a>Zamanlama API'leri
+## <a name="project-schedule-apis"></a>Proje zamanlama API'ları
 
-Aşağıda, mevcut Zamanlama API'lerinin bir listesi verilmiştir.
+Aşağıda geçerli Proje zamanlama API'larının listesi yer almaktadır.
 
 - **msdyn_CreateProjectV1**: Bu API, proje oluşturmak için kullanılabilir. Proje ve varsayılan proje demeti hemen oluşturulur.
 - **msdyn_CreateTeamMemberV1**: Bu API, proje takımı üyesi oluşturmak için kullanılabilir. Takım üyesi kaydı hemen oluşturulur.
 - **msdyn_CreateOperationSetV1**: Bu API, bir hareket içinde gerçekleştirilmesi gereken çok sayıda isteği zamanlamak için kullanılabilir.
-- **msdyn_PSSCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PSSUpdateV1**: Bu API, bir varlık güncelleştirmek için kullanılabilir. Varlık, güncelleştirme işlemini destekleyen Zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PSSDeleteV1**: Bu API, bir varlığı silmek için kullanılabilir. Varlık, silme işlemini destekleyen Zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PSSCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PSSUpdateV1**: Bu API, bir varlık güncelleştirmek için kullanılabilir. Varlık, güncelleştirme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PSSDeleteV1**: Bu API, bir varlığı silmek için kullanılabilir. Varlık, silme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
 - **msdyn_ExecuteOperationSetV1**: Bu API, bir işlem kümesindeki tüm işlemleri yürütmek için kullanılır.
 
-## <a name="using-schedule-apis-with-operationset"></a>Zamanlama API'lerini OperationSet ile kullanma
+## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet ile Proje zamanlama API'larını kullanma
 
 Hem **CreateProjectV1** hem de **CreateTeamMemberV1** içeren kayıtlar hemen oluşturulduğundan, bu API'ler doğrudan **OperationSet** içinde kullanılamaz. Ancak API'yi kullanarak gerekli kayıtları oluşturup bir **OperationSet** oluşturabilir ve ardından **OperationSet** içinde bu önceden oluşturulmuş kayıtları kullanabilirsiniz.
 
@@ -259,7 +256,7 @@ Aşağıdaki tablolarda, **oluşturma** ve **düzenleme** için kısıtlanan ala
 ## <a name="limitations-and-known-issues"></a>Sınırlamalar ve bilinen sorunlar
 Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 
-- Zamanlama API'leri yalnızca **Microsoft Proje Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
+- Proje Zamanlama API'ları yalnızca **Microsoft Project Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
     - Uygulama kullanıcıları
     - Sistem kullanıcıları
     - Tümleştirme kullanıcıları
@@ -268,13 +265,12 @@ Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 - Her bir kullanıcının açık en fazla 10 **OperationSet**'i olabilir.
 - Project Operations şu anda bir proje üzerinde en fazla 500 toplam görevi desteklemektedir.
 - **OperationSet** hata durumu ve hata günlükleri şu anda kullanılamıyor.
-- Zamanlama API'leri Genel önizlemededir. Bu API'lerin Üretim ortamlarında kullanımı Microsoft tarafından desteklenmez.
 - [Projelerde ve görevlerde sınırları ve sınırları](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Hata işleme
 
    - İşlem kümelerinden oluşturulan hataları gözden geçirmek için **ayarlar** \> **Zamanlama tümleştirme** \> **işlemleri kümeleri**'ne gidin.
-   - Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **zamanlama tümleştirme** \> **PSS hata günlükleri**'ne gidin.
+   - Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **Zamanlama tümleştirmesi** \> **PSS Hata günlükleri**'ne gidin.
 
 ## <a name="sample-scenario"></a>Örnek senaryo
 

@@ -2,8 +2,6 @@
 title: Kaynaklar için borçlandırılabilir kullanımı görüntüleme
 description: Bu konu kaynak kullanımı görünümü hakkında bilgi sağlar.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086346"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007170"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Kaynaklar için borçlandırılabilir kullanımı görüntüleme
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service Kaynak Kullanımı** sayfasındaki **Kaynak Görünümü** her ayrılabilir kaynakla ilgili borçlandırılabilir kullanımı gösterir. Görünüm, zamanlama panosunu temel aldığı için, aynı işlevlerin birçoğunu burada da bulacaksınız.
 
-> ![Kullanım Görünümü ekran görüntüsü](media/FAQ-utilization-1.png)
+> ![Kullanım Görünümü ekran görüntüsü.](media/FAQ-utilization-1.png)
  
 
 Borçlandırılabilir kullanım hesaplama şöyle çalışır:
@@ -48,7 +48,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
 2. Kaydı açmak için bir kaynak seçin. 
 3. **Project Service** sekmesinde, kaynağın hedef kullanımını ayarlayabilirsiniz.
 
-> ![Hedef kullanımı ayarlamak için Project Service sekmesini kullanma işleminin ekran görüntüsü](media/FAQ-utilization-2.png)
+> ![Hedef kullanımı ayarlamak için Project Service sekmesini kullanma işleminin ekran görüntüsü.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Rol üzerinde hedef kullanımını ayarlama
 
@@ -56,7 +56,7 @@ Hedef kullanım kaynağın varsayılan rolüne veya bireysel kaynağın kendisin
 2. Bir rol seçin ve kaydı açın. 
 3. Rol için hedef kullanımı ayarlayın.
 
-> ![Hedef kullanımı ayarlamak için Kaynak Rolleri'ni kullanma işleminin ekran görüntüsü](media/FAQ-utilization-3.png)
+> ![Hedef kullanımı ayarlamak için Kaynak Rolleri'ni kullanma işleminin ekran görüntüsü.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Kaynak için borçlandırılabilir kullanımı hesaplama
 
@@ -99,3 +99,6 @@ Borçlandırılabilir kullanım görmüyorsanız, kontrol edebileceğiniz birka�
   - Projeyi destekleyen sözleşme satırındaki rol, Borçlandırılabilir olmayan ayarındadır.
   - Projede, ilişkili sözleşme satırı yok.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Özel alanları fiyatlandırma boyutları olarak ayarlama
 description: Bu konuda, özel alanları kullanarak fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119442"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003615"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Başlamadan önce, bu konunun [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) ve [Fiyat ayarı ve işlem tabanlı varlıklara gerekli özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) konu başlıklarındaki yordamları tamamladığınızı varsaydığını bilmeniz gerekir. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
 
@@ -41,9 +39,15 @@ Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi veri
 Bir alanın fiyatlandırma boyutu olması için:
 
 - **Rol Fiyatı** ve **Rol Fiyatı kar payı** varlıklarında bir alan olarak oluşturulmalıdır. Bunun nasıl yapılacağı hakkında daha fazla bilgi için [Fiyat ayarı ve işlem tabanlı varlıklara özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) bölümüne bakın.
+
 - **Fiyatlandırma Boyutu** tablosunda bir satır olarak oluşturulmalıdır. Örneğin, fiyatlandırma boyutu satırlarını aşağıdaki grafikte gösterildiği şekilde ekleyin. 
 
+![Tutar Tabanlı Fiyatlandırma Boyutu Satırları.](media/Amt-based-PD.png)
+
 Kaynak Çalışma saatlerinin (**msdyn_resourceworkhours**) kar payı tabanlı bir boyut olarak eklenir ve **Kar Payı Tabanlı Fiyatlandırma Boyutu** sekmesinde ızgara olarak eklenir.
+
+![Kar Payı Tabanlı Fiyatlandırma Boyutu Satırları.](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Bu tablodaki var olan veya yeni, tüm fiyat boyutu verileri ancak önbellek yenilendikten sonra fiyatlandırma iş mantığına yansıtılır. Önbellek yenileme işlemi 10 dakika kadar sürebilir. Fiyatlandırma Boyutu verilerinde yapılan değişiklikler sonucunda fiyat varsayılan mantığındaki değişiklikleri görmek için bu sürenin geçmesini bekleyin.
@@ -90,3 +94,6 @@ Boyut önceliğinin ayarlanması fiyatlandırma işlevinin giriş boyutu değerl
 
 - **Maliyet Önceliği**: Bir boyutun maliyet önceliği değeri maliyet fiyatları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Maliyet Önceliği** değeri **Maliyet için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
 - **Satış Önceliği**: Bir boyutun satış önceliği değeri satış fiyatları veya fatura oranları ayarıyla eşleştirilirken bu boyutun ağırlığını gösterir. **Satış Önceliği** değeri **Satış için Geçerli** olan boyutlar arasında benzersiz olmalıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

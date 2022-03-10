@@ -1,8 +1,6 @@
 ---
 title: Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 description: Bu konu Project Service Automation sürüm 3'teki yenilikler veya değişiklikler hakkında bilgi sağlar.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150692"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987100"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 
@@ -38,7 +36,7 @@ Bu konu, Project Service Automation'da sürüm 2 veya sürüm 1 ile sürüm 3 ar
 ## <a name="project-scheduling"></a>Proje zamanlaması
 Önceki sürümlerde İş Kırılım Yapısı (İKY) olarak bilinen proje zamanlaması Zamanlama olarak yeniden adlandırılmıştır ve **Zamanlama** sekmesi tıklatılarak erişilir. 
 
-![Proje Zamanlaması](media/psa-schedule-01.png)
+![Proje Zamanlaması.](media/psa-schedule-01.png)
 
 Zamanlama artık modern ve erişilebilir etkileşim için yeni bir yüzeye sahiptir. Ancak temeldeki Project Service Automation zamanlama altyapısı değişmemiştir. Zamanlama ızgarasının şeridinde bulunan denetim düğmeleri, Project Service Automation'ın önceki sürümüne benzer şekilde zamanlamayla etkileşim kurmanıza olanak tanır. Zamanlamada yapılan ek değişiklikler şunları içerir:
 
@@ -97,22 +95,22 @@ Varolan projenin zamanlamasını ileriye doğru taşıdığınızda aşağıdaki
 ## <a name="estimates"></a>Tahminler
 Tahminler, **Kaynak atama** ve **Tahminler** olarak iki sekmeye bölünmüştür. **Kaynak atama** sekmesi, çalışma tahminlerini içerir ve görevlerin kaynak atamalarını zaman aşamalı görünümde gösterir. Tahminleri oluşturulan zamanlama altyapısını temel alarak düzenleyebilirsiniz.
 
-![Çalışma tahminlerini ve görevlerin kaynak atamalarını gösteren kaynak atamaları sekmesi](media/resource-assignments-tab-02.png)
+![Çalışma tahminlerini ve görevlerin kaynak atamalarını gösteren kaynak atamaları sekmesi.](media/resource-assignments-tab-02.png)
 
 **Tahminler** sekmesi kaynak atamalarının maliyet ve satış tutarlarını gösterir. Tutarlar salt okunur. Maliyetlendirme ve satış fiyatlandırması artık zamanlamadaki takım üyesi atamalarından yönlendirilmektedir. Başka bir deyişle ataması olmayan bir göreviniz varsa görev, atanmamış demetin altında gösterilir. Bu ayrıca projeyle ilişkili bir müşteriniz veya sözleşmeniz/teklifiniz varsa varsayılan fiyatlandırma boyutu olan **rol** olmadan hiçbir tahmini maliyet veya satışın olmayacağı anlamına gelir. 
 
-![Maliyet ve satış tutarlarını gösteren tahminler sekmesi](media/estimates-tab-03.png)
+![Maliyet ve satış tutarlarını gösteren tahminler sekmesi.](media/estimates-tab-03.png)
   
 Kategori, zamanlama görünümündeki görevlerde de desteklenir. Tahminlerin zaman aşamalı görünümde kategoriye göre gruplandırılması, özellikle projenizde gider tahminleriniz de varsa daha iyi bir deneyim sunar. Gider tahminleri ayrı bir sekmede bir ızgara kullanılarak girilir. 
 
 Gider tahminleri, **Gider tahminleri** sekmesindeki ızgaraya girilebilir. 
 
-![Gider tahminleri ızgarasını gösteren gider tahminleri sekmesi](media/expense-estimates-tab-04.png)
+![Gider tahminleri ızgarasını gösteren gider tahminleri sekmesi.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Kaynak yönetimi
 Project Service Automation sürüm 3'te, yeni Birleşik İstemci Arabirimi ve ayırmalarla atamalar arasındaki ilişkide yapılan değişikliklerle genel veya gerçek kaynaklara sahip bir proje için kadro oluşturma sürüm 2 ve sürüm 1'e göre önemli ölçüde değişmiştir. Ancak hem **gerçek** hem de **genel** ayrılabilir kaynak kavramları, takım üyeleri, gereksinimler, atamalar ve ayırmalarda olduğu gibi aynı kalır.   
 
-![Kaynak seçiciyi kullanma](media/resource-management-05.png)
+![Kaynak seçiciyi kullanma.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Gerçek bir ayrılabilir kaynağı atama 
 Project Service Automation sürüm 3'te, ayırma ve görev atamaları, Project Service Automation'ın önceki sürümlerindeki kadar sıkı bir şekilde iç içe geçmemiştir. Takım ızgarasını pazar içinde olduğu gibi **gerçek** bir takım üyesini ayırmak için kullanabilirsiniz.
@@ -138,7 +136,7 @@ Bir gereksinim birden fazla kaynakla karşılandığında genel kaynak takımda 
 ### <a name="reconciliation"></a>Mutabakat
 **Mutabakat** sekmesi, her proje takımı üyesinin ayırmalarını ve tüm atamalarını gösterir. Görünüm, hücrelerde aylardan günlere kadar olan zaman noktalarını temsil edebilen saatleri gösterir. Bu görünüm, proje yöneticilerinin proje takımlarının takım üyesi ayırmalarını ve bunların atamalarını mutabık kılmasına olanak tanır. Bu, ayırmalar ve görev atamaları kesin bir şekilde eşleştirilmediğinden bir proje planlanırken daha fazla esneklik sağlamaya yardımcı olur. 
 
-![Proje takımı üyelerinin ayırmalarını ve tüm atamalarını gösteren mutabakat sekmesi](media/resource-reconciliation-tab-06.png)
+![Proje takımı üyelerinin ayırmalarını ve tüm atamalarını gösteren mutabakat sekmesi.](media/resource-reconciliation-tab-06.png)
 
 Bu görünüm her kaynak için bir takım üyesinin ayırmaları ile bunların görev atamalarının toplu değeri arasındaki farkı ele alır ve bir projedeki ayırmalar ve atamalarla ilgili oluşabilecek aşağıdaki iki farkı gösterir: 
 
@@ -153,21 +151,21 @@ Bu bölüm, Project Service Automation sürüm 3'te zaman, gider ve onay değiş
 ### <a name="landing-page"></a>Giriş sayfası
 Genişletilebilir olmayan özel zaman girişi deneyimi, sürüm 3'te kullanımdan kaldırıldı. Bunun yerine artık genişletilebilir ve erişilebilir yerel ızgara deneyimi bulunur. Soldaki site haritasını kullanarak zaman girişi işlevlerine erişebilirsiniz. Bu değişiklikle artık bir defada bir haftalık zaman giremezsiniz. Bunun yerine ızgaradaki her gün için bir zaman girişi oluşturmanız gerekir. Birkaç zaman girişi oluşturulduktan sonra kullanıcılar bu konuda daha sonra açıklanan **Kopyalama** işleviyle zaman girdilerini toplu olarak oluşturabilirler. 
 
-![Zaman girişi giriş sayfası](media/time-entry-landing-page-07.png)
+![Zaman girişi giriş sayfası.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Yeni zaman girişi oluşturma 
 Zaman girişi için süreyi dakika, saat veya gün olarak girebileceğiniz bir hızlı oluşturma sayfası açmak için şeritte **Yeni** öğesini tıklatın. Bunu yapmak için miktarla birlikte h, m veya d yazmaya başlamanız yeterlidir.  
 
-![Zaman girişini hızlı oluşturma](media/quick-create-time-entry-08.png)
+![Zaman girişini hızlı oluşturma.](media/quick-create-time-entry-08.png)
 
 Arama alanları, sistem görünümleriyle desteklenir. Örneğin, proje bilgilerini girdikten sonra **Proje görevi** alanı varsayılan olarak **Açık Proje Görevlerim** görünümüne ayarlanır. Kullanıcıya atanmamış görevler için zaman girişleri oluşturmak üzere aramada **Görünümü değiştir** öğesini tıklatın ve **Tüm Etkin proje görevleri**'ni seçin. Zaman girişi oluşturulduktan ve ızgarada gösterildikten sonra herhangi bir satır değerini doğrudan ızgarada düzenleyebilirsiniz.  
 
 ### <a name="bulk-createcopy"></a>Toplu oluşturma/kopyalama 
 Birkaç zaman girişi oluşturulduktan sonra ek zaman girişlerini toplu olarak oluşturmak için kopyalama işlevini kullanabilirsiniz. **Kopyalama** iletişim kutusunu açmak için **Kopyala** öğesini tıklatın. **Başlangıç Dönemi: Başlangıç Tarihi** bölümünde, içinden zaman dilimlerinin kopyalanacağı tarih aralığını ayarlayın. **Bitiş dönemi: Başlangıç Tarihi** bölümünde, zaman girişlerinin oluşturulacağı tarihi belirtin. Zaman girişlerini **Bitiş dönemi** bölümünde belirtilen haftanın ilgili gününe kopyalamak için **Kopyala** öğesini tıklatın. Örneğin, geçen haftanın Pazartesi günü için zaman girişi **Bitiş dönemi** bölümünde belirtilen haftanın Pazartesi gününe kopyalanır. 
 
-![Zaman girişlerini toplu olarak kopyalama](media/bulk-copy-time-entry-09.png)
+![Zaman girişlerini toplu olarak kopyalama.](media/bulk-copy-time-entry-09.png)
  
-### <a name="import-data"></a>Verileri içeri aktarın 
+### <a name="import-data"></a>Verileri al 
 Atamalar ve exchange aynı arabirim düzenini takip eder ve ayırmaların içeri aktarılması gerektiğinde kullanıcının başlangıç tarih aralığını belirlemesine olanak tanır. Ardından **Taslak** zaman girişlerine kopyalanması gereken ayırmaları açıkça seçmeniz gerekir. Sürüm 3'te, artık ızgara ve takvimde **Önerilen** zaman girişlerinin düzenini göremezsiniz.  
 
 ### <a name="change-in-calendar-control"></a>Takvim denetiminde değişiklik
@@ -181,7 +179,7 @@ Sürüm 3'te, özel takvim denetiminden uzaklaştık ve artık haftanın zaman g
 
 **Zaman ve gider girişindeki özel alanlarda veri yakalama ve bunu gönderme ve onay akışını destekleyen varlıklar aracılığıyla yayma** - Zaman girişlerinin tipik olarak işlenmesi aşağıdaki diyagramda gösterilmiştir.
 
-![Zaman girişi akışını işleme](media/process-time-entries-10.png)
+![Zaman girişi akışını işleme.](media/process-time-entries-10.png)
 
 İş gereksinimleri, zaman ve gider varlıklarının özel fiyatlandırma boyutları yakalaması ve önceki grafikteki tüm varlıklar aracılığıyla özel fiyatlandırma boyutunda zamana ve giriş kaynağına göre ayarlanan değerlerin yayılması gerektiğini belirtiyorsa bkz. [Özel alanları fiyatlandırma boyutları olarak ayarlama](set-up-pricing-dimensions.md)
 
@@ -238,7 +236,7 @@ Sürüm 1 ve 2'de teklifler ve sözleşmeler için roller ve kategorilerin borç
 
 Sürüm 3'ten itibaren rol ve Gider kategorisine göre borçlandırılabilirlik seçeneklerinin ayarı teklif veya sözleşme satırı düzeyinde yapılır. Fiyatlandırma ayarı, Borçlandırılabilirlik ayarından ayrıdır. Üst gezinti çubuğunu kullanmak zorunda kalmadan **Borçlandırılabilirlik rolleri** ve **Borçlandırılabilirlik kategorileri** bölümlerini **Teklif satırı** ve **Sözleşme satırı** sayfalarında sekme olarak bulabilirsiniz.
 
-![Borçlandırılabilir roller](media/chargeable-12.png)
+![Borçlandırılabilir roller.](media/chargeable-12.png)
  
 Borçlandırılabilir roller ve Borçlandırılabilir kategoriler ayarı için de kullanıma hazır düzenlenebilir ızgara denetiminden yararlanılabilir. Her rol ve kategori için, Teklif Verme ve Sözleşme aşamasında fatura türü için desteklenen seçenekler önceki sürümde **Borçlandırılabilir** ve **Borçlandırılamaz** olarak değişmeden kalır. **Ücretsiz** Teklif Verme ve Sözleşme aşamasında desteklenen bir tür değildir. **Ücretsiz** yalnızca Zaman veya Gider onayı sırasında desteklenir.  
  
@@ -249,11 +247,14 @@ Sürüm 3'ten itibaren Project Service Automation teklifinde ve Project Service 
   
 Aşağıdaki grafik, özel fiyat listeleri oluşturulmadan önceki durumu gösterir.
 
-![Özel fiyat listelerinden önce](media/before-custom-price-lists-13.png)
+![Özel fiyat listelerinden önce.](media/before-custom-price-lists-13.png)
 
 Aşağıdaki grafik, özel fiyat listeleri oluşturulduktan sonraki durumu gösterir.
 
-![Özel fiyat listelerinden sonra](media/after-custom-price-lists-14.png)
+![Özel fiyat listelerinden sonra.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Özel fiyat listesi oluştururken **Özel Fiyat Oluştur** öğesini tıklattığınızda kısa bir gecikme yaşanabilir. Birden çok kez tıklatmak yerine ızgarayı yenilemenizi öneririz. İlişkili fiyat listesi adında kendisine eklenen teklif adı veya proje sözleşmesi adı varsa özel fiyat listesi oluşturulmuştur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

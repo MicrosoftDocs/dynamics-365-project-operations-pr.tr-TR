@@ -1,21 +1,19 @@
 ---
-title: Proje sözleşmelerini kopyalama
+title: Proje sözleşmelerini kopya - lite
 description: Bu konuda,Project Operations'ta proje sözleşmelerini kopyalama hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6da8e3ba8e062f3e06dc7f440caebdd93e496c65
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086229"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006045"
 ---
-# <a name="copying-project-contracts"></a>Proje sözleşmelerini kopyalama
+# <a name="copy-project-contracts---lite"></a>Proje sözleşmelerini kopya - lite
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -26,7 +24,7 @@ Varolan sözleşmelerin kopyalarını iki şekilde yaparak kolayca yeni proje s�
 
 Kopyalanan sözleşmenin parametrelerini seçebileceğiniz iletişim kutusu sayfası açılır. Aşağıdaki alanlar, iletişim kutusuna dahil edilir. Bu iletişim kutusunda seçtiğiniz değerlere bağlı olarak kopyalama işlemi değişebilir.
 
-| **Alan** | **İlgi, amaç ve kılavuz** | **Aşağı yönlü etki** |
+| **Alan** | **Açıklama** | **Aşağı yönlü etki** |
 | --- | --- | --- |
 | Başlık | Hedef Sözleşmenin konusunu girin. İletişim kutusu sayfası açıldığında sistem bu alanı, **kopya** ifadesi eklenmiş kaynak sözleşmesinin adı olarak ayarlar. | Bu alanda aşağı yönlü etki yoktur. |
 | Müşteri | Müşterinin şirket veya firma kaydına başvuru. İletişim kutusu açıldığında sistem bu alanı kaynak sözleşmesindeki firma olarak ayarlar. | Bu alan, sözleşmedeki birincil müşteridir. |
@@ -45,3 +43,6 @@ Aşağıdaki bilgiler **Kaynak**'tan **Hedef teklife** kopyalanmaz:
   - Müşteri bütçe bilgileri
 
 Bu bilgiler sözleşmelere özgü olduğu için bu alanlar ve kayıtlar kopyalanmaz. Projeler ve ürünler için sözleşme satırları, sözleşme satırı ayrıntılarına ilişkin tahminler ve sözleşme düzeyinde aşılmaz değerler kopyalanır. Varsayılan fiyat ve maliyet oranları **Parametreleri kopyala** iletişim sayfasında seçilen **Fiyatlandırmayı kopyala** alanına bağlıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

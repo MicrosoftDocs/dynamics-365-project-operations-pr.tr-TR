@@ -2,18 +2,16 @@
 title: Proje faturası tekliflerini yönetme
 description: Bu konuda, kaynağı/stoku tutulmayanları temel alan senaryolar için Project Operations ile müşteriye yönelik faturaların işlenmesi hakkında ayrıntılar sağlanmaktadır.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950738"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989935"
 ---
 # <a name="manage-project-invoice-proposals"></a>Proje faturası tekliflerini yönetme
 

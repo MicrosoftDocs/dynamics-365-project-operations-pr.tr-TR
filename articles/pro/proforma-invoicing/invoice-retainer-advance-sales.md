@@ -2,24 +2,22 @@
 title: Elde tutulan tutar veya avans faturalama
 description: Bu konu, Project Operations'da elde kalanı veya avansı faturalama hakkında bilgi sağlar.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088144"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997495"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, elde kalan tabanlı sözleşmeleri ve bir kerelik avanslar destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
+Dynamics 365 Project Operations, elde tutulan tutar tabanlı sözleşmeleri ve bir defalık avansları destekler. Bir proje sözleşmesi üzerinde, bir elde kalanlaar veya bir kerelik bir zamanlama kaydedebilirsiniz. Ancak, Proje sözleşmesi düzeyinde kayıt, bir elde kalan veya avans kullanımına hemen açık yapmaz. Bir elde kalan kullanmak veya müşteriye talep eden bir faturaya göre ilerletmeniz durumunda, önce elde kalan veya avans faturalandırılması gerekir.
 
 Elde tutulan veya avans faturaamak için bu adımları tamamlayın.
 
@@ -43,7 +41,7 @@ Retainers veya avanslar içeren bir proje sözleşmesi için oluşturulan her fa
 
 Bu, **Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. Aşağıdaki tablo **Proje fatura** sayfasının **uygulanan elde tutulan ve avanslar** kılavuzundaki alanlar hakkında bilgi sağlar.
 
-| Alan | Konum | İlgi, amaç ve kılavuz | Aşağı yönlü etki |
+| Alan | Konum | Veri Akışı Açıklaması | Aşağı yönlü etki |
 | --- | --- | --- | --- |
 | Veri Akışı Açıklaması | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir. |Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir açıklama sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, faturaya hangi elde tutulan veya avansa uygulanacağını belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Teslimat Tarihi | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, bu faturada kullanılan elde tutulan veya avans için bir fatura tarihi sağlar. Faturada bu değer değiştirilemez. Bu değer, **Proje sözleşmesi** sayfasındaki alt ızgarada güncelleştirilebilir. | Bu alan, müşteriye ilk fatura edilen elde tutulan veya avansa uygulanacağı tarihi belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
@@ -51,3 +49,6 @@ Bu, **Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasınd
 | Kullanılan Tutar | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, Retainer veya avans alanının ne kadarının kullanıldığını özetleyen hesaplanan değer sağlar. | Bu alan, zaten kullanılmış elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Toplam Tutar | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu düzenlenebilir alan, bu proje faturada kullanılan elde tutulan veya avans için bir tutar sağlar. Bu miktar, önceden kullanılabilir olanlar kadar fazla olamaz. Sistem bunu otomatik olarak kılavuzdaki **tutar** ve **kullanılan tutar** alanları arasındaki fark olarak hesaplar. Kullanılabilir olandan daha az sayıda kullanmak için bu miktarı azaltabilirsiniz, ancak kullanılabilir olandan fazlasını kullanmak için miktarı artıramıyoruz. | Bu alan, zaten kullanılmış elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
 | Bakiye Elde Tutulan Tutar. | Bu, **Proje Fatura** sayfasındaki **uygulanan Elde tutulan ve avanslar** ızgarasında görülebilir.  | Bu salt okunur alan, fatura onaylandıktan sonra Retainer veya ileri düzey değerinin ne kadarının kaldığını belirlemek için değer sağlar. | Bu alan, fatura onaylanıp ödendikten sonra elde tutulan veya avansa orijinal tutarı belirtmek için yazdırılan faturadaki müşteriye görüntülenebilir. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Kaynak atamaları oluşturma
 description: Bu konuda, genel ve adlandırılmış kaynak atamaları oluşturma hakkında bilgiler sağlanmaktadır.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a6f4f12a962cb570e8b83d8ee7a01fc0cc2c6155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287127"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987910"
 ---
 # <a name="create-resource-assignments"></a>Kaynak atamaları oluşturma
 

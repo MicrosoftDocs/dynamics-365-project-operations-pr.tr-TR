@@ -2,18 +2,16 @@
 title: Proje tabanlı sözleşme satırında fatura zamanlaması oluşturma
 description: Bu konuda, sözleşme satırları için fatura zamanlamaları ve kilometre taşları oluşturma hakkında bilgiler sağlanmaktadır.
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0da3b3f8f14ecf9a4c4f057cd26c0ca9eb5ec2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999700"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırında fatura zamanlaması oluşturma 
 

@@ -6,12 +6,13 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999070"
 ---
 # <a name="project-based-contract-lines-overview"></a>Proje tabanlı sözleşme satırlarına genel bakış
 

@@ -2,8 +2,6 @@
 title: Bir projeye belgeler ekle
 description: Project Service'ta bir projeye belge ekleme adımları
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db54d1e2820824bc8df32bcb304fd1f22fb694da
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 874174a14d3973bf8aae6c329caf58b90d671ad2be26105ecd721825b92c0f7b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989035"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>Bir projeye belgeler ekleme (Project Service)
 

@@ -2,8 +2,6 @@
 title: Zaman, gider ve işbirliği kılavuzu
 description: Project Service için zaman, gider ve işbirliği kılavuzu
 author: revathiMuthiah
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086413"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004740"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Zaman, gider ve işbirliği kılavuzu (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -59,7 +59,7 @@ ms.locfileid: "4086413"
   
 -   [Zaman girişi ya da gider girmek için başka birine izin ver](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [İzin zamanlama ](../psa/schedule-time-off.md)  
+-   [İzin zamanlama](../psa/schedule-time-off.md)  
   
 -   [Office 365 Grupları ile proje takımı üyelerinizle işbirliği yapma](../psa/collaborate-project-team-members-office-365-groups.md)  
   
@@ -71,3 +71,6 @@ ms.locfileid: "4086413"
  [Firma Yöneticisi Kılavuzu](../psa/account-manager-guide.md)   
  [Proje Yöneticisi Kılavuzu](../psa/project-manager-guide.md)   
  [Resource Manager Kılavuzu](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

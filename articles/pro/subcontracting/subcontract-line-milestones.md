@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323800"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558526"
 ---
 # <a name="subcontract-line-milestones"></a>Alt sözleşme satırı kilometre taşları
 
@@ -50,15 +50,15 @@ Bir alt sözleşme satırındaki sabit fiyatlı kilometre taşları, düzenli ol
 3. **Alt sözleşme satırı kilometre taşları** sekmesinde, alt ızgarada **+ Yeni Alt Sözleşme Satırı Kilometre Taşı**'nı seçin.
 4. **Yeni Alt Sözleşme Satırı Kilometre Taşı** sayfasında, aşağıdaki tabloya göre gerekli bilgileri girin.
 
-    | Alan | Açıklama |
-    | --- | --- |
-    | Kilometre Taşı Adı | Kilometre taşının adı. |
-    | Açıklama | Kilometre taşı açıklaması.  |
-    | Kilometre Taşı Tarihi | Otomatik fatura oluşturma işleminin, faturalama için değerlendirmek üzere bu kilometre taşının durumuna bakması gereken tarih. Bu değer, bu alt sözleşme için faturalama sırasında satıcı fatura satırına dahil edilir. |
-    | Sayı | Müşteriye Faturalanacak kilometre taşına ait tutar veya değer. Bu değer, bu alt sözleşme için faturalama sırasında satıcı fatura satırına dahil edilir. |
-    | Vergi | Kilometre taşına uygulanan vergi tutarı. Bu değer, bu alt sözleşme için faturalama sırasında satıcı fatura satırına dahil edilir. |
-    | Vergi sonrası tutar | Bu salt okunur alan Tutar + Vergi olarak hesaplanır. Bu değer, bu alt sözleşme için faturalama sırasında satıcı fatura satırına dahil edilir. |
-    | Fatura Durumu | Kilometre taşı oluşturulduğunda, bu durum her zaman **Faturalama için hazır değil** olarak ayarlanır.  Durum **Faturalamak için hazır** olduğunda, satıcı faturası oluşturma işlemi satıcı faturasındaki bu kilometre taşını içerir. |
+    | Alan | Açıklama |İşlevsel etki|
+    | --- | --- |----------------------|
+    | Kilometre Taşı Adı | Kilometre taşının adı. |Bu, alt sözleşme satırı kilometre taşlarına dayalı olarak tüm aramalarda ilk sütun olarak gösterilir. Bu kilometre taşına dayalı olarak oluşturulan satıcı faturası satırı, satıcı faturası satırının varsayılan adı olarak da alt sözleşme satırı kilometre taşına ait adı kullanacaktır.|
+    | Açıklama | Kilometre taşı açıklaması. |Bu kilometre taşına dayalı olarak oluşturulan satıcı faturası satırı, satıcı faturası satırının varsayılan açıklaması olarak da alt sözleşme satırı kilometre taşına ait sözleşmeyi kullanacaktır.|
+    | Kilometre Taşı Tarihi | Otomatik fatura oluşturma işleminin, faturalama için değerlendirmek üzere bu kilometre taşının durumuna bakması gereken tarih.| Bu değer, bu alt sözleşme satırı için faturalandırma sırasında satıcı fatura satırındaki varsayılan tarih olarak kullanılır. |
+    | Sayı | Müşteriye Faturalanacak kilometre taşına ait tutar veya değer. |Bu değer, bu alt sözleşme satırı için faturalandırma sırasında satıcı fatura satırındaki varsayılan tutar olarak kullanılır. |
+    | Vergi | Kilometre taşına uygulanan vergi tutarı.| Bu değer, bu alt sözleşme satırı için faturalandırma sırasında satıcı fatura satırındaki varsayılan vergi tutarı olarak kullanılır. |
+    | Vergi sonrası tutar | Bu salt okunur alan Tutar + Vergi olarak hesaplanır.|Bu değer, bu alt sözleşme satırı için faturalandırma sırasında satıcı fatura satırındaki varsayılan olarak kullanılır. |
+    | Fatura Durumu | Kilometre taşı oluşturulduğunda, bu durum her zaman **Faturalama için hazır değil** olarak ayarlanır.|  Durum **Faturalamak için hazır** olduğunda, satıcı faturası oluşturma işlemi satıcı faturasındaki bu kilometre taşını içerir. |
 
 5. **Kaydet ve Kapat**'ı seçin.
 

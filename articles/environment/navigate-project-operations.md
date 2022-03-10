@@ -2,18 +2,16 @@
 title: Project Operations'ta gezinme
 description: Bu konu, Lifecycle Services'ten Project Operations'a nasıl erişim yapılacağı hakkında bilgi sağlar.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290023"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994615"
 ---
 # <a name="navigate-project-operations"></a>Project Operations'ta gezinme
 
@@ -30,11 +28,11 @@ Bu konu açıklanan Project Operations hazırladıktan sonra, Lifecycle Services
 
 **Common Data Service Ortam Adı** bölümündeki ortam adını kullanarak CDS ortamında Project Operations'a gidin. 
 
-  ![Common Data Service Ortam Adı](./media/environment-name.PNG)
+  ![Common Data Service Ortam Adı.](./media/environment-name.PNG)
 
 Finance uygulamasındaki **proje yönetimi ve muhasebe** modülüne gitmek için **oturum açma** > **ortamda oturum aç** öğesini seçin.  
 
-   ![Finance'te oturum açma](./media/environment-login.PNG)
+   ![Finance'te oturum açma.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Common Data Service ve **Proje yönetimi ve hesap** modülündeki proje işlemlerine, kendi URL'lerini kullanarak doğrudan erişebilirsiniz. 

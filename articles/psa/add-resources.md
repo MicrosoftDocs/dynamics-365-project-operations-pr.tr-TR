@@ -2,8 +2,6 @@
 title: Kaynak ekleme
 description: Project Service'ta kaynaklar ekleme
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ea45dad7917df21081e777b2a88f33d85b63d18cb86749ba62a24dfdf48bd939
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005280"
 ---
 # <a name="add-resources-project-service"></a>Kaynakları ekleme (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,3 +53,6 @@ Projeler için ayırmak üzere kaynaklar ekleyin. Kaynaklar, proje zamanlamanız
   
 ### <a name="see-also"></a>Ayrıca bkz.  
  [Kaynakları ayarlama](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
