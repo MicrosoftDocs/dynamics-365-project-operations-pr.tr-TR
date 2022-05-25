@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
+        - name: Mayıs 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Nisan 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Mart 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Şubat 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Aralık 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Kasım 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
@@ -94,7 +102,7 @@
       items:
         - name: Proje satış sürecine genel bakış
           href: sales/sales-overview.md
-        - name: Kurulum
+        - name: Ayarlama
           items:
             - name: Ürünler
               href: sales/sales-products.md
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Para birimi
               href: sales/sales-currency.md
+            - name: Kuruluş birimleri
+              href: sales/OrgUnits.md
         - name: Proje müşteri adaylarını yönetme
           href: sales/manage-leads.md
         - name: Proje fırsatlarını yönetme
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projelerde işçilik geliri izleme
               href: project-management/project-sales-tracking.md
-            - name: Tahmini tamamlanmayı güncelleştirme
-              href: project-management/update-completed-estimate.md
         - name: Proje takımı üyeleri
           items:
             - name: Proje takımı üyelerine genel bakış
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Power Automate ile Proje zamanlama API'lerini kullanma
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Proje zamanlama API'si performansı
               href: project-management/project-schedule-api-performance.md
             - name: Proje zamanlama günlükleri
@@ -368,17 +378,17 @@
           items:
             - name: Kaynak kullanımına genel bakış
               href: resource-management/resource-utilization-overview.md
-    - name: Zaman
+    - name: Süre
       items:
-        - name: Zamana genel bakış
+        - name: Süreye genel bakış
           href: time/time-entry-overview.md
-        - name: Zaman girişleri oluşturma
+        - name: Süre girişleri oluşturma
           items:
-            - name: Zaman girişi kullanıcı arabirimi
+            - name: Süre girişi kullanıcı arabirimi
               href: time/ui-behavior-time.md
         - name: Geliştirici notları
           items:
-            - name: Haftalık zaman girişi kılavuzunu özelleştirme
+            - name: Haftalık süre girişi kılavuzunu özelleştirme
               href: time/customize-weekly-time-entry-grid.md
     - name: Gider
       items:
@@ -426,13 +436,13 @@
           href: expense/travel-requisition.md
         - name: Nakit avans
           href: expense/cash-advance.md
-        - name: Harcırahlar
-          href: expense/per-diems.md
+        - name: Harcırah giderleri
+          href: expense/per-diem-expenses.md
         - name: Gider mobil uygulaması
           href: expense/expense-using-mobile.md
         - name: Finansal yönetim
           items:
-            - name: KDV kurtarma
+            - name: KDV iadesini isteme
               href: expense/vat-recovery.md
     - name: Malzeme kullanımı
       items:
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Onay kümeleri
           href: approvals/approval-sets.md
+        - name: Daha önce onaylanan girişlerde onayı iptal etme
+          href: approvals/cancelapproval.md
+        - name: Daha önce onaylanan girişleri geri çekme
+          href: approvals/recall-cancel.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
               href: approvals/dev-notes-approvals.md
-    - name: Gerçek değerler
+    - name: Gerçek Değerler
       items:
+        - name: Project Operations'daki işletme işlemleri
+          href: actuals/businesstransactions.md
         - name: Gerçek değerlere genel bakış
           href: actuals/actuals-overview.md
-        - name: Gerçek değerleri özgün kayıtlara bağlama
+        - name: 'İşlem kaynakları: Gerçek değerler ile kaynak arasında bağlantı oluşturma'
           href: actuals/linkingactuals.md
-        - name: Düzeltme günlükleri
+        - name: 'İşlem bağlantıları: Farklı işlem türlerindeki gerçek değerler arasında bağlantı oluşturma'
+          href: actuals/connectingactuals.md
+        - name: Günlükler
           items:
+            - name: Giriş günlükleri oluşturma ve onaylama
+              href: actuals/create-confirm-entry-journals.md
             - name: Düzeltme günlükleri oluşturma ve onaylama
               href: actuals/create-confirm-correction-journals.md
     - name: Tedarik
       items:
         - name: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
           href: procurement/configure-materials-nonstocked.md
-        - name: Bekleyen satıcı faturalarını kullanarak projeler için stoğu tutulmayan malzemeleri tedarik etme
+        - name: Projeler için tedarik kategorilerini yapılandırma
+          href: procurement/configure-procurement-categories.md
+        - name: Bekleyen satıcı faturalarını kullanarak projeler için mal ve hizmet tedarik etme
           href: procurement/pending-vendor-invoices.md
-        - name: Proje satınalma siparişlerini kullanarak projeler için stoğu tutulmayan malzemeler sipariş etme
+        - name: Proje satın alma siparişlerini kullanarak projeler için mal ve hizmet sipariş etme
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Satıcı bekletme
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gelir tahminlerini yönetme
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Gelişmiş yapılandırma
+      items:
+        - name: Geçiş sırasında tam olarak faturalandırılmış aşamaları taşıma
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Yükseltme
+      items:
+        - name: Modern onaylar için yükseltmeyle ilgili dikkate alınacak noktalar
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations Uygulamaları
+      items:
+        - name: Project Operations Takım Üyesi Uygulaması
+          href: team-member/project-operations-team-member.md
     - name: Sorun giderme
       items:
         - name: Proje satış süreci
@@ -560,8 +594,16 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
+        - name: 2021 sürümü 2. dalgası erken erişimi - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Mayıs 2022 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: Nisan 2022 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: Mart 2022 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: Şubat 2022 - lite dağıtımındaki yenilikler
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: Aralık 2021 - lite dağıtımındaki yenilikler
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Kasım 2021'deki yenilikler - lite dağıtımı
@@ -594,7 +636,7 @@
       items:
         - name: Proje satış sürecine genel bakış
           href: sales/sales-overview.md
-        - name: Kurulum
+        - name: Ayarlama
           items:
             - name: Ürünler
               href: sales/sales-products.md
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Para birimi
               href: sales/sales-currency.md
+            - name: Kuruluş birimleri
+              href: sales/OrgUnits.md
         - name: Proje müşteri adaylarını yönetme
           href: pro/sales/managing-leads-sales.md
         - name: Proje fırsatlarını yönetme
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Projelerde işçilik geliri izleme
               href: project-management/project-sales-tracking.md
-            - name: Tahmini tamamlanmayı güncelleştirme
-              href: project-management/update-completed-estimate.md
         - name: Proje takımı üyeleri
           items:
             - name: Proje takımı üyelerine genel bakış
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Proje zamanlama API'lerini kullanma
               href: project-management/schedule-api-preview.md
+            - name: Power Automate ile Proje zamanlama API'lerini kullanma
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Proje zamanlama API'si performansı
               href: project-management/project-schedule-api-performance.md
     - name: Kaynak yönetimi
@@ -886,12 +930,10 @@
           items:
             - name: Kaynak kullanımına genel bakış
               href: resource-management/resource-utilization-overview.md
-    - name: Project Operations'da alt sözleşme yönetimi
+    - name: Alt Sözleşme Yönetimi
       items:
         - name: Project Operations'da alt sözleşme yönetimi
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Ekim 2021 Erken Erişimde alt sözleşme
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Alt sözleşme temel kavramları
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Satıcıları ve proje fiyat listelerini yönetme
@@ -900,7 +942,7 @@
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
         - name: Alt sözleşmeler için Başlık Ayrıntıları
           href: pro/subcontracting/subcontract-header-details.md
-        - name: Zaman için alt sözleşme satırları
+        - name: Süre için alt sözleşme satırları
           href: pro/subcontracting/subcontract-line-time.md
         - name: Gider kategorileri için alt sözleşme satırları
           href: pro/subcontracting/subcontract-line-expense.md
@@ -922,19 +964,41 @@
           href: pro/subcontracting/staffing-cw.md
         - name: 'Alt sözleşme kapsamındaki bileşenler için süre, gider ve malzeme kullanımını kaydetme'
           href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Alt sözleşmede durum geçişi
+        - name: Alt sözleşmede durum geçişleri
           href: pro/subcontracting/subcon-states.md
-    - name: Zaman
+    - name: Proje satıcısı faturaları
       items:
-        - name: Zamana genel bakış
+        - name: Satıcı faturalaması - Kavram ve oluşturma
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Satıcı faturalarının üst bilgi ayrıntıları
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Süre için satıcı faturası satırları
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Ürünler için satıcı faturası satırları
+          href: pro/subcontracting/vi-line-material.md
+        - name: Aşamalar için satıcı faturası satırları
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Gider kategorileri için satıcı faturası satırları
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Onaylı gerçek değerlerle satıcı faturalarının doğrulanması
+          href: pro/subcontracting/VI-Verification.md
+        - name: Proje satıcı faturasını iptal etme
+          href: pro/subcontracting/cancel-vi.md
+        - name: Proje satıcı faturasını onaylama
+          href: pro/subcontracting/confirm-vi.md
+        - name: Satıcı faturasındaki durum geçişleri
+          href: pro/subcontracting/vi-state-model.md
+    - name: Süre
+      items:
+        - name: Süreye genel bakış
           href: time/time-entry-overview.md
-        - name: Zaman girişleri oluşturma
+        - name: Süre girişleri oluşturma
           items:
-            - name: Zaman girişi kullanıcı arabirimi
+            - name: Süre girişi kullanıcı arabirimi
               href: time/ui-behavior-time.md
         - name: Geliştirici notları
           items:
-            - name: Haftalık zaman girişi kılavuzunu özelleştirme
+            - name: Haftalık süre girişi kılavuzunu özelleştirme
               href: time/customize-weekly-time-entry-grid.md
     - name: Gider
       items:
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: Onay kümeleri
           href: approvals/approval-sets.md
+        - name: Daha önce onaylanan girişlerde onayı iptal etme
+          href: approvals/cancelapproval.md
+        - name: Daha önce onaylanan girişleri geri çekme
+          href: approvals/recall-cancel.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
               href: approvals/dev-notes-approvals.md
-    - name: Gerçek değerler
+    - name: Gerçek Değerler
       items:
+        - name: Project Operations'daki işletme işlemleri
+          href: actuals/businesstransactions.md
         - name: Gerçek değerlere genel bakış
           href: actuals/actuals-overview.md
-        - name: Gerçek değerleri özgün kayıtlara bağlama
+        - name: 'İşlem kaynakları: Gerçek değerler ile kaynak arasında bağlantı oluşturma'
           href: actuals/linkingactuals.md
-        - name: Düzeltme günlükleri
+        - name: 'İşlem bağlantıları: Farklı işlem türlerindeki gerçek değerler arasında bağlantı oluşturma'
+          href: actuals/connectingactuals.md
+        - name: Günlükler
           items:
+            - name: Giriş günlükleri oluşturma ve onaylama
+              href: actuals/create-confirm-entry-journals.md
             - name: Düzeltme günlükleri oluşturma ve onaylama
               href: actuals/create-confirm-correction-journals.md
     - name: Proforma faturalar
@@ -984,7 +1058,15 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Proje faturası otomasyonunu yapılandırma
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Stoklu/ürün tabanlı senaryolar için Project Operations
+    - name: Yükseltme
+      items:
+        - name: Modern onaylar için yükseltmeyle ilgili dikkate alınacak noktalar
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations Uygulamaları
+      items:
+        - name: Project Operations Takım Üyesi Uygulaması
+          href: team-member/project-operations-team-member.md
+- name: Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
   items:
     - name: Yenilikler
       items:
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Proje yönetimi ve muhasebeye genel bakış
       href: prod-pma/overview-project-management-accounting.md
-    - name: Şirketler arası faturalama
-      href: prod-pma/intercompany-invoicing.md
-    - name: Şirketler arası proje faturalamayı yapılandırma
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: İşçilik ve giderlere yönelik standart maliyetleri yapılandırma
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Satıcı ödemesini elde tutma koşullarını oluşturma ve uygulama
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Satın alma girişlerinde proje maliyeti tahakkuku
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Proje faturalama
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Proje faturası teklif performansı
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Proje sözleşmeleri
-      href: prod-pma/project-contracts.md
-    - name: İlerleme durumuna göre faturalama için gelişmiş sözleşmeler oluşturma
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Proje tahminleri ve bütçeler
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Proje bütçeleri için tahmin modelleri oluşturma
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Mali yıl sonunda proje bütçelerini aktarma
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Proje satış siparişleri
-      href: prod-pma/project-sales-orders.md
-    - name: Projenin satın alma siparişleri
-      href: prod-pma/project-purchase-orders.md
-    - name: Proje teklifleri
-      href: prod-pma/project-quotations.md
-    - name: 'Proje teklifini onaylama, güncelleştirme ve gönderme'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Teklifi projeye aktarma
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Proje kaynak belirlemesi
+    - name: Proje satış süreci
+      items:
+        - name: Proje teklifleri
+          href: prod-pma/project-quotations.md
+        - name: 'Proje teklifini onaylama, güncelleştirme ve gönderme'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Teklifi projeye aktarma
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Proje sözleşmeleri
+          href: prod-pma/project-contracts.md
+        - name: Proje izinleri
+          href: prod-pma/project-grants.md
+    - name: Fiyatlandırma ve maliyetlendirme
+      items:
+        - name: İşçilik ve giderlere yönelik standart maliyetleri yapılandırma
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Proje yönetimi
+      items:
+        - name: İş kırılım yapılarına genel bakış
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client tümleştirmesi
+          href: prod-pma/project-integration.md
+        - name: Project mobil uygulamalarına genel bakış
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Proje süre girişi mobil çalışma alanı
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Project Timesheet mobil uygulaması
+          href: prod-pma/project-timesheet.md
+        - name: Mobil cihazda proje zaman çizelgeleri
+          href: prod-pma/mobile-timesheets.md
+        - name: Project Timesheet mobil uygulaması için özel alanları uygulama
+          href: prod-pma/custom-fields-mobile.md
+    - name: Kaynak yönetimi
       items:
         - name: Proje kaynak belirlemesine genel bakış
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Planlanan kaynaklar için kaynakları karşılama
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Öğe gereksiniminden satın alma siparişindeki öğeleri alma
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: İş kırılım yapıları
+    - name: Proje bütçeleri ve tahminler
       items:
-        - name: İş kırılım yapılarına genel bakış
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client tümleştirmesi
-          href: prod-pma/project-integration.md
-        - name: Project mobil uygulamalarına genel bakış
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Proje zaman girişi mobil çalışma alanı
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Proje zaman çizelgesi mobil uygulaması
-          href: prod-pma/project-timesheet.md
-        - name: Mobil cihazda proje zaman çizelgeleri
-          href: prod-pma/mobile-timesheets.md
-        - name: Proje zaman çizelgesi mobil uygulaması için özel alanları uygulama
-          href: prod-pma/custom-fields-mobile.md
-    - name: Proje izinleri
-      href: prod-pma/project-grants.md
-    - name: Projenin tahminini kaldırma
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Proje tahminleri ve bütçeler
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Proje bütçeleri için tahmin modelleri oluşturma
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Mali yıl sonunda proje bütçelerini aktarma
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Süre
+      items:
+        - name: Proje süre girişleriyle ilgili mali boyutları varsayılan değerlerine döndürme
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Gider
+      items:
+        - name: Gidere genel bakış
+          href: expense/expense-overview.md
+        - name: Yeni gider deneyimi
+          items:
+            - name: Gider raporlarını yeniden tasarlama
+              href: expense/expense-reports-reimagined.md
+            - name: OCR kullanarak makbuz yakalama
+              href: expense/match-receipt-expense-ocr.md
+        - name: Yapılandırma ve kurulum
+          items:
+            - name: İlkeleri ayarlama
+              href: expense/set-up-policies.md
+            - name: İş akışlarını ayarlama
+              href: expense/set-up-workflows.md
+            - name: Temsilci atamayı yönetme
+              href: expense/manage-delegation.md
+            - name: Gider yönetimi parametrelerini yapılandırma
+              href: expense/configure-expense-management-parameters.md
+            - name: Kredi kartı tümleştirmesini ayarlama
+              href: expense/set-up-credit-card-integration.md
+            - name: Gider kategorilerini ayarlama
+              href: expense/set-up-expense-categories.md
+            - name: Mesafe oranı katmanlarını kullanarak mesafeyi ayarlama
+              href: expense/set-up-mileage.md
+        - name: Gider dökümü
+          href: prod-exp/expense-itemization.md
+        - name: Kişisel giderler
+          href: expense/personal-expenses-expense-report.md
+        - name: Şirketler arası giderler
+          href: prod-exp/intercompany-expense.md
+        - name: Gider raporları oluşturma
+          items:
+            - name: Gider raporundaki dağıtımlar
+              href: expense/distributions-expense-report.md
+        - name: Gider raporlarını onaylama
+          items:
+            - name: Gider raporları ve birden çok onaylayan
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Gider raporlarını deftere nakletme
+          href: expense/posting-expense-reports.md
+        - name: Seyahat talebi
+          href: expense/travel-requisition.md
+        - name: Nakit avans
+          href: expense/cash-advance.md
+        - name: Harcırah giderleri
+          href: expense/per-diem-expenses.md
+        - name: Gider mobil uygulaması
+          href: expense/expense-using-mobile.md
+        - name: Finansal yönetim
+          items:
+            - name: KDV iadesini isteme
+              href: expense/vat-recovery.md
+    - name: Tedarik
+      items:
+        - name: Projenin satın alma siparişleri
+          href: prod-pma/project-purchase-orders.md
+        - name: Satın alma girişlerinde proje maliyeti tahakkuku
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Öğe gereksiniminden satın alma siparişindeki öğeleri alma
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Satıcı ödemesini elde tutma koşullarını oluşturma ve uygulama
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Proje faturalama
+      items:
+        - name: Proje faturalama
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Proje faturası teklif performansı
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: İlerleme durumuna göre faturalama için gelişmiş sözleşmeler oluşturma
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Proje satış siparişleri
+          href: prod-pma/project-sales-orders.md
+        - name: Birden çok kaynak içeren proje sözleşmeleri için öğe gereksinimleri
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Şirketler arası faturalama
+      items:
+        - name: Şirketler arası faturalama
+          href: prod-pma/intercompany-invoicing.md
+        - name: Şirketler arası proje faturalamayı yapılandırma
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Gelir kabulü
+      items:
+        - name: Proje tahminini kaldırma
+          href: prod-pma/eliminate-project-estimate.md
 - name: Gider yönetimi
   items:
     - name: Gider yönetimine genel bakış
@@ -1138,7 +1294,7 @@
       href: expense/expense-using-mobile.md
     - name: Finansal yönetim
       items:
-        - name: KDV kurtarma
+        - name: KDV iadesini isteme
           href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
@@ -1148,6 +1304,16 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme sürümü 43, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur43.md
+        - name: 'Güncelleştirme sürümü 42, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-42.md
+        - name: 'Güncelleştirme sürümü 41, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-41.md
+        - name: 'Güncelleştirme sürümü 40, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-40.md
+        - name: 'Güncelleştirme Sürümü 39, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-39.md
         - name: 'Güncelleştirme Sürümü 38, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-38.md
         - name: 'Güncelleştirme Sürümü 37.5, V3''teki yenilikler veya değişiklikler'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Project Service Automation'dan Project Operations - lite sürümüne yükseltme
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Project Service Automation ile Project Operations arasındaki özellik değişiklikleri
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation yükseltmesi (uygulama sürümü 3.x)
       items:
         - name: Project Service Automation yükseltmesi
@@ -1250,7 +1418,7 @@
               href: psa/developer-guides/overview-dev-notes-v3.x.md
             - name: Varlık değişiklikleri
               href: psa/developer-guides/entity-changes-v3.x.md
-            - name: Zaman ve gider
+            - name: Süre ve gider
               href: psa/developer-guides/time-expense-changes-v3.x.md
             - name: Kaynak yönetimi
               href: psa/developer-guides/resource-management-changes-v3.x.md
@@ -1328,13 +1496,13 @@
               href: psa/estimates.md
             - name: Proje tekliflerini analiz etme
               href: psa/basic-analyzing-quotes.md
-            - name: Önceden onaylanan zaman veya gider girişlerini geri çekme
+            - name: Önceden onaylanan süre veya gider girişlerini geri çekme
               href: psa/recall-approved.md
-            - name: Önceden onaylanan zaman veya gider girişlerinin onayını iptal etme
+            - name: Önceden onaylanan süre veya gider girişlerinin onayını iptal etme
               href: psa/cancel-approval.md
             - name: Gerçek değerler
               href: psa/actuals.md
-            - name: Onaylanan zaman ve gider girişleri tarafından oluşturulan fiili değerlerin toplu düzeltmeleri
+            - name: Onaylanan süre ve gider girişleri tarafından oluşturulan fiili değerlerin toplu düzeltmeleri
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: Proje faturalaması biriktirme listesini inceleme
               href: psa/review-invoicing-backlog.md
@@ -1398,13 +1566,13 @@
               href: psa/reports-dashboards.md
             - name: Project Service Automation veri modeli
               href: psa/reports-working-project-service-data-model.md
-        - name: Zaman girişleri
+        - name: Süre girişleri
           items:
-            - name: Zaman girişleri oluşturma
+            - name: Süre girişleri oluşturma
               href: psa/time-entries.md
-            - name: Zaman girişi takvimi
+            - name: Süre girişi takvimi
               href: psa/time-entry-calendar.md
-            - name: Haftalık zaman girişini özelleştirme
+            - name: Haftalık süre girişini özelleştirme
               href: psa/time-entry-extensibility-v3.md
             - name: Project Service Automation'daki onay kümeleri
               href: psa/approval-set.md
@@ -1530,7 +1698,7 @@
               href: psa/view-project-team-members-manage-bookings.md
             - name: Proje tahminlerini görüntüleme ve düzenleme
               href: psa/view-edit-project-estimates.md
-            - name: Zamanı ve giderleri onaylama
+            - name: Süre ve giderleri onaylama
               href: psa/approve-time-expenses.md
             - name: Proje gerçek değerlerini inceleme
               href: psa/review-project-actuals.md
@@ -1552,9 +1720,9 @@
               href: psa/create-project-quote.md
             - name: Proje sözleşmesi oluşturma
               href: psa/create-project-contract.md
-        - name: 'Zaman, gider ve işbirliği'
+        - name: 'Süre, gider ve işbirliği'
           items:
-            - name: 'Zaman, gider ve işbirliği kılavuzu (Project Service)'
+            - name: 'Süre, gider ve işbirliği kılavuzu (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Uygulamaları edinme
               href: psa/get-apps.md
@@ -1564,7 +1732,7 @@
               href: psa/view-schedule.md
             - name: Office 365'te projeleri ve ayırma işlemlerini yönetme
               href: psa/manage-project-bookings-office-365-calendar.md
-            - name: Zamanı girme
+            - name: Süreyi girme
               href: psa/enter-time.md
             - name: Giderleri girme
               href: psa/enter-expenses.md
