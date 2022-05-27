@@ -4,14 +4,14 @@ description: Bu konu, Microsoft Dynamics 365 Project Operations'ta taşeronluk i
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 01d2e57b99015c346be15e3504440c14cb9a54e24215c0b1c052c5112f4b940a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994300"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578181"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Alt sözleşme temel kavramları
 
@@ -33,7 +33,7 @@ Project Operations'ta, satın alma para birimi taşeronun oluşturulduğu para b
 
 Projeler için genellikle sabit ücret ve tüketime dayalı sözleşme modelleri vardır. Project Operations, satış ve satınalma bağlamlarında bu faturalama yöntemlerini destekler. Bir satın alma işlemi için faturalama yöntemleri aşağıdaki şekilde çalışır:
 
-- **Zaman ve Malzeme** – Bir taşeron hattı **Zaman ve Malzeme** faturalandırma yöntemini kullandığında, taşeronlar bu proje üzerinde çalışırken ve zaman kaydettikçe zaman maliyeti projeye kaydedilir. Taşeronlardan gelen bu maliyet hareketleri daha sonra satıcı faturalarındaki satır maddeleri ile eşleştirilir. Bu modelde, Project Operations'ta kullanan proje yöneticileri, satıcı fatura satırlarını kaydedilen ve onaylanan taşeron süresiyle eşleştirebilir ve doğrulayabilir. Doğrulama tamamlandıktan sonra, onaydan sonra kaydedilen önceki maliyet fiili değerleri tersine çevrilir ve projede satıcı faturasını temel alan yeni maliyet fiili değerleri oluşturulur.
+- **Zaman ve Malzeme** – Bir taşeron hattı **Zaman ve Malzeme** faturalandırma yöntemini kullandığında, taşeronlar bu proje üzerinde çalışırken ve zaman kaydettikçe zaman maliyeti projeye kaydedilir. Taşeronlardan gelen bu maliyet hareketleri daha sonra satıcı faturalarındaki satır maddeleri ile eşleştirilir. Bu modelde, Project Operations'ta kullanan proje yöneticileri, satıcı faturası satırlarını kaydedilen ve onaylanan taşeron süresiyle eşleştirebilir ve doğrulayabilir. Doğrulama tamamlandıktan sonra, onaydan sonra kaydedilen önceki maliyet fiili değerleri tersine çevrilir ve projede satıcı faturasını temel alan yeni maliyet fiili değerleri oluşturulur.
 - **Sabit Fiyat** – Bu sabit ücretli sözleşme modelinde, satıcı faturaları sabit kilometre taşlarını temel alır. Ancak, taşeron kaynakları da zamanı bildirebilir. Saat daha sonra proje yöneticisi tarafından gözden geçirilip onaylanır. Onaylandığında, Project Operations projede geçici maliyet fiili değerleri oluşturur. Satıcı bir kilometre taşı için fatura gönderdikten sonra, proje yöneticisi daha önce kaydedilmiş maliyet fiili değerleriyle kilometre taşını eşleştirebilir. Doğrulama tamamlandığında, maliyet fiili değerleri tersine çevrilir ve kilometre taşı tabanlı maliyet kaydedilir.
 
 ## <a name="project-price-lists-on-subcontracts"></a>Alt sözleşmelerindeki proje fiyat listeleri

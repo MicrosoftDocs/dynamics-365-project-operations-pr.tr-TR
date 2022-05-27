@@ -4,14 +4,14 @@ description: Bu konu proje teklifleri hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001545"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579606"
 ---
 # <a name="manage-project-quotes"></a>Proje tekliflerini yönetme
 
@@ -31,6 +31,9 @@ Tüm proje teklifleri listesi, **Teklifler** listesi sayfasında görülebilir.
 2. Tekliflerin diğer filtre uygulanmış görünümlerini seçmek Için **görünüm değiştiriciyi** kullanın. Özel filtre ölçütlerini kullanarak kendi görünümlerinizi ve gezinme seçeneklerinizi yapılandırabilirsiniz.
 
 Teklifler, bu liste sayfasından veya ayrıntı sayfalarından oluşturulabilir veya silinebilir.
+
+ > [!NOTE]
+ > Projeleri, görevleri, tahminleri, yevmiye defterlerini ve/veya gerçek değerleri içeren teklifler silinemez. Ayrıca bir teklif Kazanıldı veya Kaybedildi olarak kapatıldığında artık silinemez veya değiştirilemez. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

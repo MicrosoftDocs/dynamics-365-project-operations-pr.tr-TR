@@ -2,16 +2,16 @@
 title: Malzemeler için maliyet ve satış oranlarını ayarlama
 description: Bu konu, projelerde kullanılan malzemelerin maliyet ve satış oranlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999205"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576892"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Malzemeler için maliyet ve satış oranlarını ayarlama
 
@@ -25,6 +25,9 @@ Dynamics 365 Project Operations'ta, ürünler için maliyet ve satış fiyatlar�
 2. **Fiyat listesi maddeleri**'ndeki alt ızgara menüsünde **Yeni fiyat listesi maddesi**'ni seçin. 
 3. **Hızlı Oluştur** sayfasında, adına yeni fiyatı oluşturduğunuz ürün ve birimi girin.
 
-Katalog maddeleri için fiyatların nasıl tanımlanacağı hakkında daha fazla bilgi için bkz. [Ürünler için fiyatlandırmayı ayarlama](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) ve [Para birimi ve fiyatlandırmada ondalık hane duyarlılığı](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Katalog öğeleri fiyatlarını tanımlama hakkında daha fazla bilgi için bkz. [Ürün fiyatları için fiyat listeleri ve fiyat listesi kalemleri oluşturma](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) ve [Para birimi ve fiyatlandırmada ondalık duyarlık](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations, Dynamics 365 Sales gibi ürünler için tüm fiyatlandırma yöntemlerini desteklemez. Projelerde kullanılacak ürünler için desteklenen tek fiyatlandırma yöntemi *Para birimi tutarı*'dır.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

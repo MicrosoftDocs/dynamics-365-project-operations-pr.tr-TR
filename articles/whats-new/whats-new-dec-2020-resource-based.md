@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984895"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579882"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Aralık 2020'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürüm 4.5.0.134'te Project Operations
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.15'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.15'te proje yönetimi ve muhasebe
 
 Bu sürümü güncelleştirme hakkında bilgi için bkz. [Finance ortamınızda Project Operations'ı güncelleştirme](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Proje Planlama ve İzleme | Kategori 2057197          | Görev başvurusu olan tahmin satırının kopyalanması desteklenmiyor                                                                                                     |
 | Proje Planlama ve İzleme | Kategori 2060687          | Saat dilimi uyarısı artık belirli bir süre sonra kayboluyor                                                                                                      |
 | Kaynak yönetimi           | Kategori 1832887          | Dataverse ve Finance ortamları için tekrarlanabilir veri yüklemeleri sağlamak üzere varsayılan Kaynak kategori kimliği statik olmalıdır                                                 |
-| Zaman ve gider              | Kategori 2081793          | **Gider kategorisi adı**, Finance and Operations uygulamalarında **Gider kategorisi açıklaması** alanına eşlenmelidir                                                  |
+| Zaman ve gider              | Kategori 2081793          | **Gider kategorisi adı**, Finans ve Operasyon uygulamalarında **Gider kategorisi açıklaması** alanına eşlenmelidir                                                  |
 | Zaman ve gider              | Kategori 2034882          | Dynamics 365 Field Service yüklendiğinde zaman girişleri için **Yeni** düğmesi komut çubuğunda iki kez görüntüleniyor                                          |
 | Zaman ve gider              | Kategori 2056028          | **Zaman Düzenlemesi** sayfası zaman çizgisini içerecek şekilde güncelleştiriliyor                                                                                                              |
 | Zaman ve gider              | Kategori 1983747          | Zaman girişi grafiği ek veriler gösteriyor                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | Özellik alanı                        | Referans numarası | Kalite güncelleştirmeleri                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Seyahat ve Gider                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Gider raporu otomatik gönderim iş akışı tamamlanıyor ancak fatura gönderilemiyor                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: Bu konuda, projeye fon sağlayacak birden fazla müşteriyle teklif
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
-ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
+ms.openlocfilehash: 867d34f955ba53c74e9c31349b7f67d84ba10da4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440801"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576800"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Proje tekliflerinde birden çok müşteriyi yönetme - lite
 

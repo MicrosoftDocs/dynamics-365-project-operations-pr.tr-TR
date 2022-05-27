@@ -4,14 +4,14 @@ description: Bu konu, taşeronluk için satıcı verileri ve satınalma fiyat li
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cf62ef8eb87ac2bc138e63c7f92132e00451df6d7766291a8399a94a070799ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c76d5ca45e03167f0ccfd2c1c7013f91fef0f86
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994165"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576754"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Project Operations'ta satıcı ve satınalma fiyatı listesi yönetimi
 

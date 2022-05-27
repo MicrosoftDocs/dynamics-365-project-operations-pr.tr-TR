@@ -1,25 +1,25 @@
 ---
 title: Finance ortamınızda Project Operations uygulamasını güncelleştirme
-description: Bu konuda, Dynamics 365 Finance ortamınızda Project Operations uygulamasını nasıl güncelleştireceğiniz hakkında bilgiler sağlanmaktadır.
+description: Bu konuda, Dynamics 365 Finance ortamınızda Project Operations'ı güncelleştirme hakkında bilgi sağlanmaktadır.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986785"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579974"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance ortamınızda Project Operations uygulamasını güncelleştirme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
 
-Bu konuda, Dynamics 365 Finance ortamınızda Dynamics 365 Project Operations uygulamasını nasıl güncelleştireceğiniz hakkında bilgiler sağlanmaktadır. Project Operations uygulamasını Güncelleştirme 5'e (UR5) güncelleştirmek için üç yordam gerekir:
+Bu konuda, Dynamics 365 Finance ortamınızda Dynamics 365 Project Operations'ı güncelleştirme hakkında bilgi sağlanmaktadır. Project Operations uygulamasını Güncelleştirme 5'e (UR5) güncelleştirmek için üç yordam gerekir:
 
 - [Paketi, önizleme projenize içeri aktarma](#import)
 - [Güncelleştirmeyi uygulama](#apply)
@@ -119,7 +119,7 @@ Varlıklar için güvenlik ayrıcalıklarına yönelik aşağıdaki güncelleşt
 4. **Tablo eşleşmesi sürümü** sayfasında, üç varlığın her birine eşleşmenin yeni bir sürümünü uygulayın.
 5. **Çift yazma** sayfasında, eşleşmeleri yeniden başlatmak için çalıştır seçeneğini belirleyin.
 6. Eşlemeler listesinden, tüm ön koşullarıyla **Kayıt Defteri (msdyn_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. 
-7. **İlk eşitleme için ana öğe** alanında, **Finance and Operations uygulamalarını** ve ardından **Çalıştır**'ı seçin.
+7. **İlk eşitleme için ana öğe** alanında, **Finans ve Operasyon uygulamaları**'nı seçin ve ardından **Çalıştır** seçeneğini belirleyin.
  
  ![Kayıt Defteri eşleme eşitlemesi.](media/DW6.png)
  

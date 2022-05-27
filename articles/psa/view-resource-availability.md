@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9c61523bbda814d14e4cb4999a710f652eb77cc77848d9b0246bd6ebde258dd7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 6ec130eb01037c0a32fc6fd4e931390df345f008
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000060"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574317"
 ---
 # <a name="view-resource-availability-project-service"></a>Kaynak kullanılabilirliğini görüntüleme (Project Service)
 

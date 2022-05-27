@@ -4,20 +4,20 @@ description: Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar i
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323440"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575834"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations önizleme aboneliklerine kaydolma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konuda, deneme teklifine nasıl abone olunacağı ve kaynak/stoklu olmayan öğeleri temel alan senaryolar için Project Operations ortamının nasıl dağıtılacağı açıklanmaktadır.
 
@@ -40,7 +40,7 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 
   Onay teklifinin başarıyla kurtarıldığını göreceksiniz.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance önizleme denemesi
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance önizleme deneme sürümü
 
 [Dynamics 365 for Finance Önizleme Denemesi](https://aka.ms/trypoche)'ne gidin ve teklifin önceki bölümündeki adımları tekrarlayın, Bulutta Barındırılan Ortam için Kaydolun.  
 
@@ -49,7 +49,7 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 > [!IMPORTANT]
 > Aşağıdaki adımları tamamlamak için kuruluşunuzun Microsoft 365 Portalı'na yönetim erişimine sahip olmanız gerekir.
 
-1. Kullanıcılarınıza lisans atamak için [Microsoft 365 yönetim merkezine](https://portal.office.com/) gidin.
+1. Lisansları kullanıcılarınıza atamak için [Microsoft 365 yönetim merkezine](https://portal.office.com/) gidin.
 
 2. **Etkin kullanıcılar** sayfasında lisans atamak istediğiniz kullanıcıları seçin.
 

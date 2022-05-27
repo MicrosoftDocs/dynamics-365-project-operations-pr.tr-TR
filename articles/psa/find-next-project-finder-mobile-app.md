@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 974a4f6e8c3332ff03e0985db10ad20cc64f4b34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990826"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579422"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Sonraki projenizi Project Finder Mobile uygulamasıyla bulma (Project Service)
 

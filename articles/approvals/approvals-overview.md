@@ -3,16 +3,15 @@ title: Onaylara genel bakış
 description: Bu konuda, Project Operations'ta onaylar ile çalışma hakkında bilgiler sağlanmaktadır.
 author: stsporen
 ms.date: 03/31/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991735"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576202"
 ---
 # <a name="approvals-overview"></a>Onaylara genel bakış
 
@@ -21,7 +20,7 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Zaman, gider ve malzeme kullanımı gönderimleri bir onay iş akışı üzerinden taşınır. Girişler onaylandıktan sonra işlemler gerçek değerler olarak kaydedilir veya süre, zamanlamada ayrılır.
 
 ## <a name="approvals-workflow"></a>Onaylar iş akışı
-Bir zaman, gider veya malzeme kullanım girişi oluşturup gönderdiğinizde bir onay kaydı oluşturulur. Proje onaylayanı veya yöneticisi girişi gözden geçirir ve onaylar. Giriş bir projeyle ilişkiliyse, gerçek değerler onaylandığında oluşturulur. Bu, maliyetin ve faturanın izlenmesini sağlar.
+Bir zaman, gider veya malzeme kullanımı girişi oluşturup gönderdiğinizde bir onay kaydı oluşturulur. Proje onaylayanı veya yöneticisi girişi gözden geçirir ve onaylar. Giriş bir projeyle ilişkiliyse, gerçek değerler onaylandığında oluşturulur. Bu, maliyetin ve faturanın izlenmesini sağlar.
 
 ## <a name="approve-an-entry"></a>Girişi onaylama
 **Onaylar** sayfası, farklı görünümler arasında geçiş yapmanızı sağlar; böylece farklı türdeki onayları görüntüleyebilirsiniz.

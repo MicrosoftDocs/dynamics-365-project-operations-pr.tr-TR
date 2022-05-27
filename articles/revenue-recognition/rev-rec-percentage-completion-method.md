@@ -4,14 +4,14 @@ description: Bu konu, projelerdeki sabit fiyat geliri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006450"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578732"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Sabit fiyat geliri tahmin projeleri 
 
@@ -26,7 +26,7 @@ Microsoft Dataverse üzerindeki Dynamics 365 Project Operations uygulamasında a
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Sabit fiyatlı gelir tahminleri projelerini inceleme
 Sabit fiyatlı gelir tahminleri projelerini incelemek için aşağıdaki adımları tamamlayın:
 
-1. Dynamics 365 Finance ortamında, **Proje yönetimi ve muhasebesi** > **Projeler** > **Sabit fiyatlı gelir tahmini projeleri**'ne gidin.
+1. Dynamics 365 Finance ortamında **Proje yönetimi ve muhasebe** > **Projeler** > **Sabit fiyatla gelir tahmini projeleri**'ne gidin.
 2. Görüntülemek istediğiniz projeyi seçin ve kaydı açmak ve projenin ayrıntılarını incelemek için **Tahmin proje kodu**'nu çift tıklayın.
 3. **Proje** sekmesini genişletin. **Seçilen projeler** ızgarasında bir proje görürsünüz. Sistem bunu varsayılan proje olarak kullanır çünkü bu, proje sözleşme satırı ile ilişkilendirilmiş bir projedir. 
 4. İlişkilendirmeyi değiştirmek için ek projeler seçin ve bunları **Seçilen projeler** ızgarasına ekleyin. Bu ızgarada birden çok proje seçilirse seçilen tüm projeler için projenin tamamlanma yüzdesi ve gelir tahminleri birlikte hesaplanır.

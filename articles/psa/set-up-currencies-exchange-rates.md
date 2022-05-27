@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fc3f7c5d2ba3ea33a99dcbec029deabcf932ef05f632938fb6d804e7f5405d3d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: af91d47bdf3383a763e6097eac161fa482455d99
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995020"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575236"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>Para birimlerini ve döviz kurlarını ayarlama (Project Service)
 

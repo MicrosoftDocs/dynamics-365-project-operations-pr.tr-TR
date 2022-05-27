@@ -2,18 +2,16 @@
 title: Onay kümeleri
 description: Bu konuda onay kümeleri, istekler ve bu işlemlerin alt kümeleri ile nasıl çalışılacağı açıklanmaktadır.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323260"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576248"
 ---
 # <a name="approval-sets"></a>Onay kümeleri
 
@@ -27,6 +25,18 @@ Onay kümeleri, ilgili kayıtların genel işlenme durumunu belirtir. Onay kayd�
 İşlenmek üzere kuyruğa alınmış onaylar, **İşlenen Onaylar** görünümünde görünür. Sistem tüm girişleri birden çok kez zaman uyumsuz olarak işler (önceki girişimler başarısız olursa bir onayı yeniden denemek dahil).
 
 **Onay Kümesi Yaşam Süresi** alanı, başarısız olarak işaretlenmeden önce kümeyi işlemek için kalan deneme sayısını kaydeder.
+
+Onay kümeleri **Project Service - Proje Onay Kümelerini Tekrar Tekrar Zamanla** olarak adlandırılan bir **Bulut Akışı**'na göre periyodik etkinleştirme aracılığıyla işlenir. Bu **Project Operations** olarak adlandırılan **Çözüm**'de bulunur. 
+
+Aşağıdaki adımları tamamlayarak akışın etkinleştirildiğinden emin olun.
+
+1. Yönetici olarak [flow.microsoft.com](https://powerautomate.microsoft.com) adresinde oturum açın.
+2. Sağ üst köşede, Dynamics 365 Project Operations için kullandığınız ortama geçiş yapın.
+3. Ortama yüklenen çözümleri listelemek için **Çözümler**'i seçin.
+4. Çözüm listesinde **Project Operations**'ı seçin.
+5. **Tümü** filtresini **Bulut Akışları** olarak değiştirin.
+6. **Project Service - Proje Onay Kümelerini Tekrar Tekrar Zamanla** akışının **Açık** olarak ayarlandığını doğrulayın. Ayarlanmadıysa akışı seçin ve ardından **Aç** seçeneğini belirleyin.
+7. Project Operations Dataverse ortamınızdaki **Ayarlar** alanında **Sistem İşleri** listesini inceleyerek işlemenin her beş dakikada bir gerçekleştiğini doğrulayın.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Başarısız onaylar ve onay kümeleri
 **Başarısız Onaylar** görünümü, kullanıcı müdahalesi gerektiren tüm onayları listeler. Başarısızlığın nedenini belirlemek için ilgili onay kümesi günlüklerini açın.

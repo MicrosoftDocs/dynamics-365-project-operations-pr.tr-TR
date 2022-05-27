@@ -2,16 +2,16 @@
 title: Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
 description: Bu konu, taslak fatura teklifinde muhasebe ile ilgili bilgilerin nasıl ayarlanacağını açıklar.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999340"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575098"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
 
@@ -27,12 +27,21 @@ Varsayılan fatura satış vergisi grupları ve madde satış vergisi grupları 
 
 ## <a name="adjust-financial-dimensions"></a>Mali boyutları düzeltme
 
+### <a name="header-dimensions"></a>Üst bilgi boyutları
+
+Varsayılan olarak, fatura finansal boyutları, faturalandırılmakta olan faturalanmamış proje işlem kayıtlarından türetilir. Ancak sistem ayarları, müşteri bakiyelerini deftere nakletmek için proje fatura tekliflerinin üst bilgisindeki mali boyutları kullanmanıza olanak tanır. Bu işlevi etkinleştirmek için, **Proje yönetimi ve muhasebe parametreleri** sayfasının **Mali Bilgiler** sekmesinde **Alacak hesapları için proje boyutlarında güncelleştirmelere izin ver** seçeneğini belirleyin.
+
+Fatura başlıklarındaki finansal boyutlar, bir fatura deftere nakledilmeden önce düzenlenebilir. **Proje fatura teklifi** sayfasında, **Üst Bilgi** görünümüne geçin ve ardından **Finansal boyutlar** sekmesindeki değerleri düzenleyin.
+
+**Üst Bilgi** görünümü yalnızca sistem yöneticisi **Özellik yönetimi** çalışma alanındaki **Proje fatura teklifi ve fatura günlüğü formlarını Başlık ve Satırlar görünümüyle kullan** özelliğini etkinleştirdikten sonra kullanılabilir. Bu özellik için Finance güncelleştirmesi 10.0.25 veya üzeri gerekir.
+
+### <a name="line-dimensions"></a>Satır boyutları
+
 Mali boyutlar, doğrudan proje fatura teklifi satırında düzenlenemez. Bunun yerine, bir proje fatura teklifinin mali boyutlarını ayarlamak için bu adımları izleyin.
 
 1. Proje fatura teklifinde proje fatura teklifi satırlarını kaldırmak için **Tümünü sil**'i seçin.
 
-    > [!NOTE]
-    > **Tümünü sil** düğmesi, yalnızca sistem yöneticisi **Özellik yönetimi** çalışma alanında **Kaynak tabanlı/stoklu olmayan senaryolar için Project Operations kullanırken fatura teklif satırlarını sil** özelliğini etkinleştirdikten sonra kullanılabilir.
+    **Tümünü sil** düğmesi, yalnızca sistem yöneticisi **Özellik yönetimi** çalışma alanında **Kaynak tabanlı/stoklu olmayan senaryolar için Project Operations kullanırken fatura teklif satırlarını sil** özelliğini etkinleştirdikten sonra kullanılabilir.
 
 2. Mali boyutları düzeltme:
 

@@ -4,14 +4,14 @@ description: Bu konu, tahminler ve fiili olarak satış fiyatlarının nasıl ç
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b78d0f970f942513ecb6911d64fcffa629567f93f1a763eef20ca168080e4d02
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 697d5e330fec1874e8cb59fb86dd688637860346
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986290"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578272"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
 
@@ -27,7 +27,7 @@ Satışlar için fiyat listesi çözüldüğünde, sistem fatura oranının vars
 
 1. Sistem, çözümlenen Fiyat listesinde rol fiyat satırları ile eşleşme için Zaman için tahmin satırında **Rol**, **Kaynak şirket** ve **Kaynak Birimi** alanlarını kullanır. Bu eşleşme, işçilik maliyeti için hazır fiyatlandırma boyutları kullandığınızı varsayar. Sistemi, **Rol**, **Kaynak Şİrket** ve **Kaynak Birimi** yerine veya buna ek olarak alanları eşleşecek şekilde yapılandırırsanız, eşleşen bir rol fiyat satırını almak için farklı bir kombinasyon kullanılır.
 2. Sistem, rol için bir maliyet oranı olan bir rol fiyat satırı bulursa **Rol**, **Kaynak Şİrket** ve **Kaynak Birimi** alanı kombinasyonu, bu varsayılan fatura oranıdır.
-3. Sistem **Rol**, **Kaynak şirket** ve **Kaynak birim** ile eşleşmiyorsa, o zaman eşleşen bir rol ile rol fiyat satırları alır, ancak **Kaynak Birimi** null değerleri. Sistem eşleşen bir rol fiyatı kaydı bulduktan sonra, bu kayıttan gelen fatura hızına varsayılan olarak gönderilir. Bu eşleştirme, **rol** ile ilgili **birimin** Satış fiyatlandırma boyutu olarak göreli önceliği için kullanıma hazır bir konfigürasyonun kutudan geçmiş olduğunu varsayar.
+3. Sistem **Rol**, **Kaynak şirket** ve **Kaynak birim** ile eşleşmiyorsa, o zaman eşleşen bir rol ile rol fiyat satırları alır, ancak **Kaynak Birimi** null değerleri. Sistem eşleşen bir rol fiyatı kaydı bulduktan sonra, bu kayıttan gelen fatura hızına varsayılan olarak gönderilir. Bu eşleştirme, **rol** ile ilgili **birimin** Satış fiyatlandırma boyutu olarak göreli önceliği için kullanıma hazır bir yapılandırmanın kutudan geçmiş olduğunu varsayar.
 
 > [!NOTE]
 > **Rol**, **Kaynak Şirketi** ve **Kaynak Birimi**'nin farklı bir önceliklendirmesini yapılandırırsanız veya daha yüksek önceliğe sahip başka boyutlara sahipseniz, bu davranış buna göre değişecektir. Sistem, öncelik sırasına göre fiyatlandırma boyutu değerlerinin her biriyle eşleşen değerlerle, en son gelen boyutlar için null değerlere sahip satırlarla rol fiyat kayıtlarını alır.
