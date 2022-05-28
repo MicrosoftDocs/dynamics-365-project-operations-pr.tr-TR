@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988045"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685009"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client tümleştirmesi
 
 [!include [banner](../includes/banner.md)]
 
-Proje zamanlamasını planlamak ve sürdürmek karmaşık olabilir, bu nedenle proje yöneticilerinin bu görevi yönetmesine yardımcı olacak araçları kullanmaları gerekir. Microsoft Project Client ile tümleştirme, bir proje iş kırılım yapısını açmak ve yönetmek için destek sağlar. Proje yöneticisi değişiklikleri Dynamics 365 Finance proje iş kırılım yapısına tekrar yayımlayabilir.
+Proje zamanlamasını planlamak ve sürdürmek karmaşık olabilir, bu nedenle proje yöneticilerinin bu görevi yönetmesine yardımcı olacak araçları kullanmaları gerekir. Microsoft Project Client ile tümleştirme, bir proje iş kırılım yapısını açmak ve yönetmek için destek sağlar. Proje yöneticisi, yaptığı değişiklikleri Dynamics 365 Finance proje iş kırılım yapısına geri yayımlayabilir.
 
 > [!NOTE]
 > Temmuz güncelleştirmesi'ni (sürüm 10.0.4) kullanıyorsanız, KB 4054797 ve 4055884 yüklemelisiniz.
@@ -40,7 +39,7 @@ Microsoft Project Client ile tümleştirmeyi etkinleştirmek için Microsoft Dyn
 • **Aç**'a tıklayıp ardından sorulduğunda **Çalıştır**'a tıklayın.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Microsoft Project Client'da var olan bir taslak iş kırılım yapısını açma ve düzenleme
-Dynamics 365 Finance'deki bir projede iş kırılım yapısı oluşturulmuşsa, iş kırılım yapısı; taslak durumdaysa, Microsoft Project Client uygulamasında açılabilir. **Proje** sayfasında açmak için, **Plan** sekmesinden **Microsoft Project'te aç**'ı tıklayın. Bu sayfa, **Microsoft Dynamics 365** sekmesinden **Aç**'a tıklayarak Microsoft Project Client uygulaması içinden de açılabilir. Listeden **Yasal varlığı** ve **Proje**'yi seçin.
+Dynamics 365 Finance'taki bir projede zaten oluşturulmuş bir işi kırılım yapısı varsa, iş kırılım yapısının taslak durumunda olması durumunda iş kırılım yapısı Microsoft Project Client uygulamasında açılabilir. **Proje** sayfasında açmak için, **Plan** sekmesinden **Microsoft Project'te aç**'ı tıklayın. Bu sayfa, **Microsoft Dynamics 365** sekmesinden **Aç**'a tıklayarak Microsoft Project Client uygulaması içinden de açılabilir. Listeden **Yasal varlığı** ve **Proje**'yi seçin.
 
 > [!NOTE]
 > Tarayıcı olarak Internet Explorer uygulamasını kullanıyorsanız, dosyanın karşıdan yüklendiği konumdan el ile açmak için **Kaydet**'e tıklamanız gerekir. Veya dosyayı Microsoft Project Client'da açmak için **Kaydet ve Aç**'ı tıklayın. Kaydederken dosya adını yeniden adlandırmayın.

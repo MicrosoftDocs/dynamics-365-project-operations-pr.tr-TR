@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991195"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723746"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021 Mart'taki yenilikler ve değişiklikler - Stoğu tutulan/ürün tabanlı senaryolar için Project Operations
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Stoklu/Ürün tabanlı senaryolar için Project 
 
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.17'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.17'de proje yönetimi ve muhasebe
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 Bu sürümde aşağıdaki özellikler yer almaktadır:
@@ -121,7 +121,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Proje yönetimi ve muhasebe | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Eski iş kırılım yapısı (WBS) sınıfı yöntemi **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** kullanım dışıdır.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates.md). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

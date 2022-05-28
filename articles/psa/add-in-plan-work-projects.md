@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993895"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728028"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Microsoft Project'te işlerinizi Project Service eklentisiyle planlama
 
@@ -40,7 +41,7 @@ ms.locfileid: "6993895"
 ## <a name="download-and-install-the-add-in"></a>Eklentiyi indirme ve yükleme  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] oturum açma bilgileriniz hazır olsun. Bu bilgiler [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'ten [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasına bağlanmak için gerekli.  
 
-1.  Yükleme Merkezi'nden desteklenen Project Service sürümü [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) veya [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) için eklentiyi indirin.  
+1.  Yükleme Merkezi'nden desteklenen Project Service sürümü [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) veya [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) için eklentiyi indirin.  
 
 2.  İndirme bağlantısını seçin.  
 

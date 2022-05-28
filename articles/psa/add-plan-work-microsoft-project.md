@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005325"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727982"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project'te işlerinizi planlamak için Project Service Automation Eklentisi'ni kullanma
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005325"
 ## <a name="download-and-install-the-add-in"></a>Eklentiyi indirme ve yükleme  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] oturum açma bilgileriniz hazır olsun. Bu bilgiler [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]'ten [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasına bağlanmak için gerekli.  
 
-1.  Yükleme Merkezi'nden desteklenen Project Service sürümü [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) veya [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) için eklentiyi indirin.  
+1.  Yükleme Merkezi'nden desteklenen Project Service sürümü [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) veya [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956) için eklentiyi indirin.  
 
 2.  İndirme bağlantısına tıklayın.  
 
@@ -87,9 +88,8 @@ Proje planlamanız tamamlandığında, bir sonraki adım projenizi [!INCLUDE[pn_
 
 Proje, [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasına içeri aktarılır. Fiyatlandırma ve takım oluşturma işlemi uygulanır. Projeyi [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] uygulamasında açın ve takım, proje tahminleri ve iş kırılım yapısının oluşturulup oluşturulmadığına bakın. Aşağıdaki tabloda sonuçların yeri gösterilmektedir:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**Gantt Grafiği**   | [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **İş Kırılım Yapısı** ekranına içeri aktarır. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kaynak Sayfası** |   İçine aktarır [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **proje takım üyelerinin** ekranı.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Kullanım kullanma**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Proje tahminleri** ekranına içeri aktarır.     |

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323935"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723700"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Yeni 2021 2. erken erişim sürümündeki yenilikler - Project Operations lite dağıtımı
 
@@ -26,7 +26,7 @@ Sürüm yalnızca bir ortam [Erken Erişim için etkinleştirildiğinde](/power-
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
-[Alt Sözleşme yönetimi](../subcontracting/subcontracting_EA_scope.md) - Bu özellik bir projedeki işin tüm yönleri üzerinde daha iyi görünürlük ve denetim sağlar. Alt sözleşme yönetimi önizlemesi aşağıdaki özellikleri içerir:
+[Alt Sözleşme yönetimi](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - Bu özellik bir projedeki işin tüm yönleri üzerinde daha iyi görünürlük ve denetim sağlar. Alt sözleşme yönetimi önizlemesi aşağıdaki özellikleri içerir:
 
   - Proje yöneticisi bir satıcıyla alt sözleşme oluşturabilir. Varsayılan olarak, taşeron için satıcı kaydına iliştirilmiş fiyat listeleri kullanılır. Satıcı hesabının **satıcı** veya **tedarikçi** ilişki türü vardır.
   - Bir proje yöneticisi tüm satınalmaları alt sözleşmede satır maddeleri olarak listeleyebilir. Taşeron satırları zaman, masraf veya ürünler için olabilir. Alt sözleşme satırının işlem sınıfı, satırın ne için olduğunu belirler.

@@ -3,25 +3,23 @@ title: Gider yönetimine genel bakış
 description: Bu konu, gider yönetimi ve ek kaynakların bağlantıları hakkında genel bilgiler sağlar. Ödeme yöntemi bilgilerini depolayabileceğiniz, kredi kartı hareketlerini alabileceğiniz ve çalışanların sizin işletmeniz için giderleri istediklerinde harcadığı para bilgilerini izleyebildiğiniz tümleşik bir iş akışı oluşturmak için gider yönetimi 'ni kullanabilirsiniz.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001455"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684850"
 ---
 # <a name="expense-management-overview"></a>Gider yönetimine genel bakış
 
@@ -45,7 +43,7 @@ Daha fazla bilgi için bkz. [Gider raporlarını yeniden yapılandırma](Expense
 
 ### <a name="blogs"></a>Bloglar
 
-[Microsoft Dynamics 365 blogu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finans blogu](https://community.dynamics.com/365/financeandoperations/b/financials) ile ilgili bileşenleri, haberleri ve diğer bilgileri bulabilirsiniz.
+[Microsoft Dynamics 365 bloğunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Finansal bloğunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikirler, haberler ve bilgiler bulabilirsiniz.
 
 [Microsoft Dynamics Operasyonlar Partner Topluluk blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş ortaklarına, MBS işlemlerinde nelerin yeni ve ayrıntılı olduğunu öğrenebilecekleri tek bir kaynak sağlar.
 

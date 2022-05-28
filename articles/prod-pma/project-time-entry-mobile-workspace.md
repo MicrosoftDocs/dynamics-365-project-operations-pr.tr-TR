@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989575"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683976"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Project Time Entry mobil çalışma alanı
 
@@ -45,7 +44,7 @@ Günlük çalışmanın bir parçası olarak, proje kaynakları çoğu zaman tes
 ## <a name="prerequisites"></a>Ön koşullar
 Kuruluşunuz için dağıtılan Microsoft Dynamics 365 sürümüne bağlı olarak ön koşullar farklılık gösterir.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance kullananlar için ön koşullar
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance kullanımınızla ilgili ön koşullar
 Finans kuruluşunuz için dağıtılmışsa, sistem yöneticisinin **Project time entry** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz. [Mobil çalışma alanı yayınlama](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Platform Güncelleştirme 3 veya daha sonrasını içeren 1611 sürümünü kullananlar için ön koşullar
@@ -83,7 +82,7 @@ Kuruluşunuz için Platform güncelleştirmesi 3 veya daha sonraki bir sürümü
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirme ve yükleme
 
-Finance and Operations mobil uygulamasını indirip ve yükleyin:
+Finance and Operations mobil uygulamasını indirip yükleyin:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [iPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,32 +1,31 @@
 ---
-title: Proje görevlerini Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitleme
-description: Bu konuda, proje görevlerini Microsoft Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
+title: Proje görevlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
+description: Bu konuda, proje görevlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992815"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683334"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Proje görevlerini Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitleme
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Proje görevlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, proje görevlerini Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
+Bu konuda, proje görevlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
 
 > [!NOTE]
 > - 8.0 sürümünde proje görev tümleştirmesini, harcama hareketi kategorilerini, saat tahminlerini, masraf tahminlerini ve işlevsellik kilitlemeyi kullanabilirsiniz.
@@ -68,11 +67,11 @@ Proje görevlerinin eşitlenmesi gerçekleştirilmeden önce proje sözleşmeler
 
 ## <a name="power-query"></a>Power Query
 
-Bu koşulun karşılanması durumunda verileri filtrelemek için Excel'de Microsoft Power Query kullanmanız gerekir:
+Bu koşul karşılanırsa verilere filtre uygularken Excel için Microsoft Power Query kullanmanız gerekir:
 
 - Bir proje görevinde kaynağa özgü kayıtlarınız vardır.
 
-Power Query kullanmanız gerekiyorsa aşağıdaki kılavuzu izleyin:
+Power Query kullanmanız gerekiyorsa bu yönergeyi takip edin:
 
 - Proje görevleri (PSA'dan Fin and Ops'a) şablonunda, **IsLineTask** filtresini **False** değeri olarak ayarlayarak proje görevinden kaynağa özgü kayıtları dışarıda bırakan varsayılan bir filtre vardır. Kendi şablonunuzu oluşturursanız, bu filtreyi eklemeniz gerekir.
 

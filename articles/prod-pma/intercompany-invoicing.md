@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a1f66af9b7e2cb0e18a5464b23216ff03b63a0a3
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995830"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685448"
 ---
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
@@ -65,7 +64,7 @@ Bu örnekte, FRSI, USSI yasal varlığındaki bir müşteri olmalıdır ve USSI,
 
 2. **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Proje Yönetimi muhasebe parametreleri** seçeneğini tıklayın ve ardından **Şirketlerarası** sekmesini tıklayın. Parametreleri ayarlama yönteminiz, ödünç alan tüzel kişilik veya ödünç veren tüzel kişilik olmanıza bağlıdır.
    -   Ödünç alan tüzel kişilikseniz otomatik olarak oluşturulan, satıcı faturaları ile eşleştirmek için kullanılması gereken satın alma kategorisini seçin.
-   -   Ödünç veren tüzel kişilikseniz, ödünç alan her varlık için her hareket türüne ait bir varsayılan proje kategorisi seçin. Proje kategorileri, şirketler arası işlemlerde faturalanan kategori yalnızca ödünç alan tüzel kişilikte bulunduğunda vergi konfigürasyonu için kullanılır. Şirketlerarası hareketlere yönelik gelir biriktirme seçeneğini belirleyebilirsiniz. Bu biriktirilen miktar hareketler deftere nakledildiğinde yapılır ve şirketlerarası fatura deftere nakledildiğinde tersine çevrilir.
+   -   Ödünç veren tüzel kişilikseniz, ödünç alan her varlık için her hareket türüne ait bir varsayılan proje kategorisi seçin. Proje kategorileri, şirketler arası işlemlerde faturalanan kategori yalnızca ödünç alan tüzel kişilikte bulunduğunda vergi yapılandırması için kullanılır. Şirketlerarası hareketlere yönelik gelir biriktirme seçeneğini belirleyebilirsiniz. Bu biriktirilen miktar hareketler deftere nakledildiğinde yapılır ve şirketlerarası fatura deftere nakledildiğinde tersine çevrilir.
 
 3. **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Fiyatlar** &gt; **Transfer fiyatı** seçeneğini tıklayın.
 4. Bir para birimi, hareket türü ve transfer fiyatı modeli seçin. Faturada kullanılan para birimi, ödünç veren tüzel kişilikte ödünç alan tüzel kişiliğe ait müşteri kaydı için yapılandırılan para birimidir. Para birimi, transfer fiyatı tablosundaki girişleri eşleştirmek için kullanılır.

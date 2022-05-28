@@ -1,32 +1,31 @@
 ---
 title: Project Service Automation tümleştirme parametreleri
-description: Bu konuda, Microsoft Dynamics 365 for Project Service Automation çözümünü Microsoft Dynamics 365 Finance ile tümleştirdiğinizde varsayılan verilerin girilmesini nasıl yapılandıracağınız açıklanır.
+description: Bu konuda Microsoft Dynamics 365 for Project Service Automation ile Microsoft Dynamics 365 Finance tümleştirildiğinde varsayılan verilerin nasıl girileceğini yapılandırma açıklanmaktadır.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005865"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683743"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation tümleştirme parametreleri
 
 [!include[banner](../includes/banner.md)]
 
-**Project Service Automation tümleştirme parametreleri** sayfasında, Dynamics 365 Project Service Automation ile Dynamics 365 Finance çözümünü tümleştirdiğinizde varsayılan verilerin nasıl girildiğini yapılandırabilirsiniz. Projelerin Project Service Automation'dan Finance'e başarıyla eşitlenmesi için aşağıdaki alanları ayarlamanız gerekir.
+**Project Service Automation tümleştirme parametreleri** sayfasında, Dynamics 365 Project Service Automation'ı Dynamics 365 Finance ile tümleştirdiğinizde varsayılan verilerin nasıl girileceğini yapılandırabilirsiniz. Projelerin Project Service Automation'dan Finance'e başarıyla eşitlenmesi için aşağıdaki alanları ayarlamanız gerekir.
 
 **Project Service Automation tümleştirme parametreleri** sayfasını açmak için **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Dynamics 365 for Project Service Automation tümleştirme parametreleri** bölümüne gidin. 
 

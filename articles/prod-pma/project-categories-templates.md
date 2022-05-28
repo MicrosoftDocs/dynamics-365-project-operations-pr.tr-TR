@@ -1,32 +1,31 @@
 ---
-title: Finance and Operations ve Project Service Automation arasında proje gideri kategorilerini eşitleme
-description: Bu konuda, proje gider kategorilerini Microsoft Dynamics 365 Finance ile Dynamics 365 Project Service Automation uygulamaları arasında eşitlemek için kullanılan şablon ve temel görev açıklanır.
+title: Finance and Operations ile Project Service Automation arasında proje gider kategorilerini eşitleme
+description: Bu konuda proje gider kategorilerini Microsoft Dynamics 365 Finance ile Dynamics 365 Project Service Automation arasında eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001140"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685494"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations ve Project Service Automation arasında proje gideri kategorilerini eşitleme
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations ile Project Service Automation arasında proje gider kategorilerini eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, proje gider kategorilerini Dynamics 365 Finance ile Dynamics 365 Project Service Automation uygulamaları arasında eşitlemek için kullanılan şablon ve temel görev açıklanır.
+Bu konuda proje gider kategorilerini Dynamics 365 Finance ile Dynamics 365 Project Service Automation arasında eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 
 > [!NOTE]
 > - 8.0 sürümünde proje görev tümleştirmesini, harcama hareketi kategorilerini, saat tahminlerini, masraf tahminlerini ve işlevsellik kilitlemeyi kullanabilirsiniz.
@@ -81,10 +80,10 @@ Proje gider kategorileri Finance uygulamasında yönetilir ve hareket kategorile
 
 ### <a name="power-query"></a>Power Query
 
-Project Service Automation'a eşitleme yaparken, hareket kategorisindeki faturalama türünü ayarlamak için Excel için Microsoft Power Query kullanmanız gerekir. Proje gideri hareket kategorileri (Fin and Ops'dan PSA'ya) şablonu, varsayılan bir sütun ve eşleme sağlar. Kendi şablonunuzu oluşturursanız, Power Query'de koşullu bir sütun eklemeniz gerekir. Şu adımları izleyin.
+Project Service Automation'a eşitleme yaparken Excel'de hareket kategorisinde faturalama türünü ayarlamak için Microsoft Power Query kullanmanız gerekir. Proje gideri hareket kategorileri (Fin and Ops'dan PSA'ya) şablonu, varsayılan bir sütun ve eşleme sağlar. Kendi şablonunuzu oluşturuyorsanız Power Query'de bir koşullu sütun eklemeniz gerekir. Şu adımları izleyin.
 
 1. Proje gideri kategori görevinin eşlemesini Proje gideri hareket kategorileri (Fin and Ops'dan PSA'ya) şablonunda açmak için oku tıklayın.
-2. Power Query öğesini açmak için **Gelişmiş sorgu ve Filtreleme** bağlantısını tıklayın.
+2. Power Query'yi açmak için **Gelişmiş Sorgu ve Filtreleme** bağlantısına tıklayın.
 2. **Koşullu Sütun Ekle**'yi seçin.
 3. Yeni sütun için **BillingType** gibi bir ad girin.
 4. Aşağıdaki koşulu girin: **CategoryID null değerine eşit değilse 19235001, aksi takdirde null yapın**.

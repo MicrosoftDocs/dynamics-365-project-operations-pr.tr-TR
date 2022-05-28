@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007350"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684896"
 ---
 # <a name="project-resourcing-home-page"></a>Proje kaynak belirleme giriş sayfası
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007350"
 
 Bu konuda, proje kaynakları hakkında bilgi sağlanır.
 
-Proje planlama aşaması sırasında proje yöneticileri ve kaynak yöneticilerinin yaşadığı zorluk kaynak ayırmaktır ve bu aşamada projede çalışacak doğru kaynaklara karar vermek ve ayırmak zorunda kalırlar. Dynamics 365 Finance uygulamasında projelere ait kaynakların belirlenmesi ile ilgili özellikler belirli bir görevlendirme veya görevlendirmenin bir parçası için ayrılabilen geçici kaynaklar olarak kabul edilen roller tanımlamanıza olanak sağlar. Bu tür kaynak belirleme proje yöneticileri ve kaynak yöneticileri aşağıdaki görevleri tamamlamalarına olanak sağlar:
+Proje planlama aşaması sırasında proje yöneticileri ve kaynak yöneticilerinin yaşadığı zorluk kaynak ayırmaktır ve bu aşamada projede çalışacak doğru kaynaklara karar vermek ve ayırmak zorunda kalırlar. Dynamics 365 Finance'ta, projelere kaynak sağlama özellikleri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için ayrılabilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak belirleme proje yöneticileri ve kaynak yöneticileri aşağıdaki görevleri tamamlamalarına olanak sağlar:
 
 - Kaynakları eşleştirmeyi kolaylaştıracak şekilde gerekli olan yetkinliklere sahip bir rol tanımlama.
 - Ayrılmış kaynaklara göre ilk bir görevlendirme zamanlamasını tanımlamak için rolleri kullanma.

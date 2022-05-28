@@ -5,16 +5,16 @@ author: rumant
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f2ce672a412f7ad73b072854590cd423a3499fc1
+ms.sourcegitcommit: 650a84add65588defdd2ac2c4524806baab070e0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992950"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8628878"
 ---
-# <a name="proforma-project-pnvoices"></a>Proforma proje faturaları
+# <a name="proforma-project-invoices"></a>Proforma proje faturaları
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
@@ -84,7 +84,7 @@ Bir taslak proje faturası oluşturduğunuzda, zaman ve gider girişleri onaylan
 - Miktarı ve faturalandırma türünü düzenlemek ve ayarlamak.
 - Zaman, gider, malzeme ve ücretleri faturadaki hareketler olarak doğrudan eklemek. Bu işlem sınıflarına izin veren bir sözleşme satırıyla eşlenmiş fatura satırı varsa, bu özelliği kullanabilirsiniz.
 
-Bir faturayı onaylamak için **Onayla**'yı seçin. Bu eylem, tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, fatura salt okunur olur ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalanmamış bir satış fiili değerine başvuruyorsa faturalanmamış satış gerçek değeri de tersine çevrilir. Bir zaman, masraf veya malzeme kullanım girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalanmamış bir satış gerçek değerine başvurur. Genel muhasebe tümleştirme sistemleri, bu tersine çevirme işlemini, devam eden (WIP) proje işlerini muhasebe amacıyla tersine çevirmek için kullanabilir.
+Bir faturayı onaylamak için **Onayla**'yı seçin. Bu eylem, tek yönlü bir eylemdir. **Onayla**'yı seçtiğinizde, fatura salt okunur olur ve her fatura satırı için her fatura satırı ayrıntısından faturalanan satış fiili değerleri oluşturur. Fatura satırı ayrıntısı faturalanmamış bir satış fiili değerine başvuruyorsa faturalanmamış satış gerçek değeri de tersine çevrilir. Bir zaman, masraf veya malzeme kullanımı girişinden oluşturulan tüm fatura satırı ayrıntıları, faturalanmamış bir satış gerçek değerine başvurur. Genel muhasebe tümleştirme sistemleri, bu tersine çevirme işlemini, devam eden (WIP) proje işlerini muhasebe amacıyla tersine çevirmek için kullanabilir.
 
 ### <a name="correct-a-confirmed-invoice"></a>Onaylanmış faturayı düzeltme
 

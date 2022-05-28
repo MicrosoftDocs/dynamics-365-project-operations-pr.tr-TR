@@ -4,14 +4,14 @@ description: Bu konu, kaynak/stoklanmayan tabanlı senaryolar için Project Oper
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007980"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600398"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kasım 2020 Yenilikler - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -20,9 +20,9 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - CDS ortamıdna Project Operations sürüm 4.4.0.70
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.14'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.14'te proje yönetimi ve muhasebe
 
-## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Kaynağı-stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations güncellemeleri
+## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations güncellemeleri
 
 ### <a name="project-operations-on-cds"></a>CDS'de Project Operations
 
@@ -42,7 +42,7 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Zaman ve hızlı gider girişi | Kategori 2059859          | Masraf girişi oluştururken beklenmeyen açılır pencere açılır.                                                                                                                         |
 | Diğer                        | Kategori 2044181          | (Satın alma siparişini kaldırma) - msdyn_ProjectServiceCore_Patch ve msdyn Project servis çekirdek çözümlerini kaldırmaya çalıştığınızda "Kayıt kullanılamıyor" hatası oluşuyor.  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | Özellik alanı        | Referans numarası | Kalite güncelleştirmeleri                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Proje muhasebesi  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Özelliğini etkinleştirmek, CDS tümleştirmesi olmadan birden çok sözleşme hattı yapılamaz.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

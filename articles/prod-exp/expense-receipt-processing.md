@@ -1,24 +1,23 @@
 ---
 title: Gider girişi işleme
-description: Bu konu, makbuzlar için optik karakter tanıma (OCR) işlemi hakkında bilgi sağlar. Bu özellik, Microsoft Dynamics 365 Finance üzerinde gider raporları oluştururken kullanıcı deneyimini geliştirmek için tasarlanmıştır.
+description: Bu konu, makbuzlar için optik karakter tanıma (OCR) işlemi hakkında bilgi sağlar. Bu özellik, Microsoft Dynamics 365 Finance'ta gider raporları oluşturulurken kullanıcı deneyiminin geliştirilmesi için tasarlanmıştır.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001410"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684344"
 ---
 # <a name="expense-receipt-processing"></a>Gider girişi işleme
 
@@ -51,7 +50,7 @@ Bir gider oluşturmak veya bir makbuzdan bir gider ile eşleştirmek için aşa�
 
 Bu özellik, masraf deneyimini basitleştirmeye yardımcı olmak için **Gider raporları yeniden düzenleme** özelliğiyle birlikte çalışır. Bu özellik yalnızca, korumalı alan ve üretim olan katman 2 + ortamlarda kullanılabilir.
 
-Bu gelişmiş gider özelliklerini kullanmak için, Microsoft Dynamics 365 Finance için Gider Yönetimi Hizmeti eklentisini yükledikten sonra, örneğinizde özellikleri açın. Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden eklentiye erişebilirsiniz.
+Bu gelişmiş gider yeteneklerini kullanmak için, kurulumunuzda Microsoft Dynamics 365 Finance için Gider Yönetimi Hizmeti eklentisini yükleyin ve özellikleri etkinleştirin. Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden eklentiye erişebilirsiniz.
 
 1. LCS'de oturum açın ve istenen ortamı açın.
 2. **Tüm ayrıntılar**'a gidin.

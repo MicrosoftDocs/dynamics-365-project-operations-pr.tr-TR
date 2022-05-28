@@ -1,34 +1,33 @@
 ---
 title: Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'tan Finance'e eşitleme
-description: Bu konuda, proje sözleşmelerini ve projeleri Microsoft Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
+description: Bu konuda, proje sözleşmelerini ve projelerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001095"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684666"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Proje sözleşmelerini ve projeleri doğrudan Project Service Automation'tan Finance'e eşitleme 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Bu konuda, proje sözleşmelerini ve projeleri Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablon ve temel görev açıklanır.
+
+Bu konuda, proje sözleşmelerini ve projelerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 
 > [!NOTE] 
 > Enterprise Edition 7.3.0 sürümünü kullanıyorsanız, KB 4074835 yüklemelisiniz.
@@ -112,7 +111,7 @@ Proje Service Automation ile Finance tümleştirme çözümü uygulandığında,
 - Proje sözleşmeleri ve projelere ait **SourceDataID**, farklı bir değere güncelleştirilebilir veya eşleştirmeden kaldırılabilir. Varsayılan şablon değeri şudur: **Project Service Automation**.
 - **PaymentTerms** eşlemesinin, Finance içindeki geçerli ödeme koşullarını yansıtması için güncelleştirilmesi gerekir. Ayrıca, proje görevinden eşleşmeyi kaldırabilirsiniz. Varsayılan değer eşleşmesi, demo verileri için varsayılan değerlere sahiptir. Aşağıdaki tabloda Project Service Automation'daki değerler gösterilmektedir.
 
-    | Value | Açıklama   |
+    | Değer | Description   |
     |-------|---------------|
     | Kategori 1     | 30 gün vadeli        |
     | 2     | %2 10, Net 30 |
@@ -121,15 +120,15 @@ Proje Service Automation ile Finance tümleştirme çözümü uygulandığında,
 
 ## <a name="power-query"></a>Power Query
 
-Aşağıdaki koşullar karşılanırsa verileri filtrelemek üzere Excel için Microsoft Power Query kullanın:
+Aşağıdaki koşullar karşılanırsa verilere filtre uygularken Excel için Microsoft Power Query kullanın:
 
 - Dynamics 365 Sales içinde satış siparişleriniz var.
 - Project Service Automation'da birden çok kuruluş birimi vardır ve bu kuruluş birimleri Finance uygulamasındaki birden çok yasal varlıkla eşleştirilir.
 
-Power Query kullanmanız gerekiyorsa şu yönergeleri izleyin:
+Power Query kullanmanız gerekiyorsa şu yönergeleri takip edin:
 
 - Projeler ve sözleşmeler (PSA'dan Fin and Ops'a) şablonuna yalnızca **İş öğesi (msdyn\_ordertype = 192350001)** türünde satış siparişleri içeren bir varsayılan filtre vardır. Bu filtre, Finance içindeki satış siparişleri için proje sözleşmelerinin oluşturulmasının sağlanmasına yardımcı olur. Kendi şablonunuzu oluşturursanız, bu filtreyi eklemeniz gerekir.
-- Yalnızca tümleştirme bağlantısı kümesinin yasal varlığıyla eşitlenmesi gereken sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US'nin sözleşme kuruluş birimiyle bize sahip olduğunuz proje sözleşmeleri USSI hukuk varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimiyle sahip olduğunuz proje sözleşmeleri usmf hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
+- Yalnızca, tümleştirme bağlantı kümesinin tüzel kişiliğine eşitlenecek sözleşme kuruluşlarını içeren bir Power Query filtresi oluşturun. Örneğin, Contoso US sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USSI yasal varlığıyla eşitlenmelidir, ancak Contoso Global sözleşme kuruluş birimi ile sahip olduğunuz proje sözleşmeleri USMF hukuk varlığıyla eşitlenmelidir. Bu filtreyi görev eşlemenize eklemezseniz, sözleşme kuruluş biriminden bağımsız olarak, tüm proje sözleşmeleri bağlantı kümesi için tanımlanan yasal varlıkla eşitlenir.
 
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
 

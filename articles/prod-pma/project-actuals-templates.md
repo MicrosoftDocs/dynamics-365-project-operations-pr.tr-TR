@@ -1,32 +1,31 @@
 ---
-title: Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
-description: Bu konuda, proje gerçek değerlerini Microsoft Dynamics 365 Project Service Automation uygulamasından Finance and Operations uygulamasına doğrudan eşitlemek için kullanılan şablonlar ve temel görevler açıklanır.
+title: Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
+description: Bu konuda, proje gerçek değerlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Finance and Operations'a eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988135"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683562"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini doğrudan Project Service Automation'dan proje tümleştirme günlüğüne, Finance and Operations uygulamasında deftere nakletmek için eşitleme
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, proje gerçek değerlerini Dynamics 365 Project Service Automation uygulamasından Dynamics 365 Finance uygulamasına doğrudan eşitlemek için kullanılan şablonlar ve temel görevler açıklanır.
+Bu konuda, proje gerçek değerlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 
 Şablon, Project Service Automation'dan hareketleri Finans uygulamasındaki hazırlama tablosuna eşitler. Eşitleme tamamlandıktan sonra, hazırlama tablosundaki verileri tümleştirme günlüğüne aktarmanız **gerekir**.
 
@@ -42,7 +41,7 @@ Project Service Automation ile Finance tümleştirme çözümünde Project Servi
 
 Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleştirmenin bir parçası olarak verilerin nasıl eşitleneceğini gösterilir.
 
-[![Project Service Automation ile Finance and Operations tümleştirmesi için veri akışı](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Finance and Operations ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation uygulamasındaki proje gerçek değerleri
 
@@ -75,7 +74,7 @@ Gerçek değerlerin eşitlenmesi gerçekleşmeden önce, Project Service Automat
 
 ### <a name="power-query"></a>Power Query
 
-Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek için Excel için Microsoft Power Query kullanmanız gerekir:
+Proje gerçek değerleri şablonunda şu görevleri tamamlamak için Excel için Microsoft Power Query kullanmanız gerekir:
 
 - Project Service Automation'daki hareket türünü Finance içindeki doğru hareket türüne dönüştürün. Bu dönüşüm Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunda zaten tanımlandı.
 - Project Service Automation'daki faturalama türünü Finance içindeki faturalama türüne dönüştürün. Bu dönüşüm Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunda zaten tanımlandı. Faturalama türü, **Project Service Automation tümleştirme parametreleri sayfasındaki** yapılandırmaya göre daha sonra satır özelliği ile eşleştirilir.
@@ -84,9 +83,9 @@ Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek 
 - Şirketlerarası zaman veya şirketlerarası gider gerçek değerleri Finance ile eşitlenmezse, son eklenen koşullu sütunu şablonunuzun içinden silmeniz gerekir. Aksi takdirde, bir tümleştirme hatası oluşabilir veya Finance içine yanlış gerçek değer hareketleri alınabilir.
 
 #### <a name="contract-organizational-unit"></a>Sözleşme kuruluş birimi
-Şablondaki eklenen koşullu sütunu güncelleştirmek için eşlemeyi açmak üzere **Eşleme** okunu tıklayın. Power Query öğesini açmak için **Gelişmiş sorgu ve Filtreleme** bağlantısını seçin.
+Şablondaki eklenen koşullu sütunu güncelleştirmek için eşlemeyi açmak üzere **Eşleme** okunu tıklayın. Power Query'yi açmak için **Gelişmiş Sorgu ve Filtreleme** bağlantısını seçin.
 
-- Varsayılan Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız, Power Query uygulamasında, **Uygulanan adımlar** bölümünden son **Eklenen Koşul** öğesini seçin. **İşlev** girişinde, **USSI**'yi, tümleştirmeyle kullanılması gereken yasal varlığın adıyla değiştirin. **İşlev** girişine gereksinim duydukça ek koşullar ekleyin ve **USMF**'den **else** koşulunu doğru yasal varlığa güncelleştirin.
+- Power Query'de varsayılan Proje gerçek değerleri (PSA'dan Fin and Ops'a) şablonunu kullanıyorsanız **Uygulanan Adımlar** bölümünden son **Eklenen Koşul**'u seçin. **İşlev** girişinde, **USSI**'yi, tümleştirmeyle kullanılması gereken yasal varlığın adıyla değiştirin. **İşlev** girişine gereksinim duydukça ek koşullar ekleyin ve **USMF**'den **else** koşulunu doğru yasal varlığa güncelleştirin.
 - Yeni bir şablon oluşturuyorsanız, şirketlerarası zaman ve giderleri desteklemek için sütun eklemeniz gerekir. **Koşullu Sütun Ekle**'yi seçin ve sütun için **LegalEntity** gibi bir ad girin. Sütun için bir koşul girin; burada **msdyn\_contractorganizationalunitid.msdyn\_name**\<organizational unit\>, ardından \<enter the legal entity\> ; boş olur.
 
 ### <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşlemesi
@@ -126,7 +125,7 @@ Proje gerçek değerleri Project Service Automation uygulamasında yönetilir ve
 
 ### <a name="power-query"></a>Power Query
 
-Proje gerçek değerleri şablonunda, aşağıdaki görevleri gerçekleştirmek için Power Query kullanmanız gerekir:
+Proje gerçek değerleri güncelleştirme şablonunda şu görevleri tamamlamak için Power Query kullanmanız gerekir:
 
 - Finance'deki hareket türünü Project Service Automation içindeki doğru hareket türüne dönüştürün. Bu dönüşüm Proje gerçek değerlerini güncelleştirme (Fin and Ops'dan PSA'ya) şablonunda zaten tanımlanmıştır.
 - Finance içindeki faturalama türünü Project Service Automation içindeki faturalama türüne dönüştürün. Bu dönüşüm Proje gerçek değerlerini güncelleştirme (Fin and Ops'dan PSA'ya) şablonunda zaten tanımlanmıştır.

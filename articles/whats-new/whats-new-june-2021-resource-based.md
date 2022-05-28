@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679233"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600812"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Haziran 2021'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dynamics 365 Dataverse ortamı sürüm 4.11.0.156 veya 4.11.0.164'te Project Operations.
-- Finance and Operations uygulamaları ortamları 10.0.19 sürümünde proje yönetimi ve muhasebe.
+- Finans ve Operasyon uygulamaları ortamları sürüm 10.0.19'da proje yönetimi ve muhasebe.
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
@@ -38,7 +38,7 @@ Bu sürümde Project Operations çift yazma eşlemeleri için güncelleştirme y
 
 Project Operations çift yazma eşlemelerinin geçerli listesi ve sürümleri için bkz. [Project Operations çift yazma eşleme sürümleri](../environment/resource-dual-write-maps.md).
 
-Ortamınızda eşlemenin en son sürümünü her zaman çalıştırmanız ve Project Operations Dataverse çözümü ve Finance and Operations uygulamaları çözüm sürümünü güncelleştirirken tüm ilgili tablo haritalarını etkinleştirmeniz gerekir. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. **Sürüm** sütunundaki **Çift yazma** sayfasında eşlemesinin etkin sürümünü görebilirsiniz. **Tablo eşleme sürümleri**'ni seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek eşlemenin yeni bir sürümünü etkinleştirin. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Her zaman ortamınızda eşlemenin en son sürümünü çalıştırmalı ve Project Operations Dataverse çözümünüzü ve Finans ve Operasyon uygulamaları çözümü sürümünüzü güncelleştirirken tüm ilgili tablo eşlemelerini etkinleştirmelisiniz. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. **Sürüm** sütunundaki **Çift yazma** sayfasında eşlemesinin etkin sürümünü görebilirsiniz. **Tablo eşleme sürümleri**'ni seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek eşlemenin yeni bir sürümünü etkinleştirin. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift yazma sorun giderme kılavuzunun [Eşlemelerde eksik tablo sütunları sorunu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) bölümündeki yönergeleri izleyin.
 
@@ -62,12 +62,12 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift yazma sorun gide
 | Zaman ve Gider | 2194431 | **Zaman girişi** ızgarası, haftanın başlangıcını **Sistem ayarlarında** ayarlandığı şekilde dikkate almalıdır. |
 | Zaman ve Gider | 2277311 | **Zaman girişi** ızgarasındaki bir hücredeki değeri sildikten sonra, imleç kılavuzda kalıyor. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | Özellik alanı | Referans numarası | Kalite güncelleştirmeleri |
 | --- | --- | --- |
 | Proje yönetimi ve muhasebe | [552976](https://fix.lcs.dynamics.com/Issue/Details/?bugId=552976) | **Form notları** ve **Form kurulumu**, Project Operations ile tümleştirildiğinde Finance tüzel kişiliklerindeki **Proje yönetimi kurulumu** altında görünmüyor. |
-| Proje yönetimi ve muhasebe | [527970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527970) | Proje fatura fişleri için **Deftere nakil türü**  = **Satış vergisi** olduğunda, varsayılan açıklama KDV için boş. |
+| Proje yönetimi ve muhasebe | [527970](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527970) | Proje fatura fişleri için **Deftere nakil türü** = **Satış vergisi** olduğunda, varsayılan açıklama KDV için boş. |
 | Proje yönetimi ve muhasebe | [565089](https://fix.lcs.dynamics.com/Issue/Details/?bugId=565089) | Görev tabanlı faturalama, Project Operations ile Dataverse tümleştirmesinde kullanıldığında işlemler deftere iki kez naklediliyor. |
 | Proje yönetimi ve muhasebe | [566869](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566869) | Project Operations tümleştirmesi kullanırken gelir kabulü için tamamlanma yüzdesi yanlış. |
 | Proje yönetimi ve muhasebe | [568107](https://fix.lcs.dynamics.com/Issue/Details/?bugId=568107) | Project Operations tümleşik senaryosu içinde bekleyen bir satıcı faturası kullandığınızda gelir tahakkuku iki katına çıkar. |

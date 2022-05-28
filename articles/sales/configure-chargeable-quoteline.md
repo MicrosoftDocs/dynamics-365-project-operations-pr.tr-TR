@@ -4,14 +4,14 @@ description: Bu konu, proje tabanlı teklif satırlarında eklenen, borçlandır
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004020"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601226"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Proje tabanlı teklif satırının borçlandırılabilir bileşenlerini yapılandırma
 

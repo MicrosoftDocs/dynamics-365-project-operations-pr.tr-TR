@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001050"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683516"
 ---
 # <a name="project-contracts"></a>Proje sözleşmeleri
 
@@ -45,7 +44,7 @@ Bazı proje sözleşmeleri birden çok tarafın proje maliyetlerinin finansmanı
 -   Bir yol projesi iki belediye tarafından finanse edilir.
 -   Bir köprü projesi, bir devlet hibesi ve özel bir şirket tarafından finanse edilir.
 
-Dynamics 365 Finance uygulamasında, tek bir hareketin veya tüm projenin faturalamasını, birden çok müşteri, hibe veya kuruluş arasında bölebilirsiniz. 
+Dynamics 365 Finance'ta, tek bir işlemin veya bir projenin tamamının faturalamasını birden fazla müşteri, bağış veya kuruluş arasında bölebilirsiniz. 
 
 Birden çok finans kaynağı olan projelerde, gelişmiş bir finansman projesinin fonlarına katkıda bulunan tüm taraflar, finansman kaynakları olarak anılır. Bir müşteri, kuruluş veya hibe finansman kaynağı olarak tanımlandıktan sonra, bir veya daha fazla finansman kuralına atanabilir. Finansman kuralları masrafların bir proje için çeşitli finansman kaynaklarına nasıl tahsis edileceğini belirleyen ölçütleri içerir. 
 

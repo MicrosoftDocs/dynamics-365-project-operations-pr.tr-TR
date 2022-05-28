@@ -1,33 +1,31 @@
 ---
 title: Project Service Automation'a genel bakış
-description: Bu konuda, Dynamics 365 Project Service Automation ile Dynamics 365 Finance arasındaki tümleştirme çözümü hakkında bilgi sağlanır.
+description: Bu konuda Dynamics 365 Project Service Automation ile Dynamics 365 Finance tümleştirme çözümü hakkında bilgi sağlanmaktadır.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005910"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685586"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation'a genel bakış
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Finance için Project Service Automation tümleştirme çözümünde Common Data Service üzerinden Dynamics 365 Finance ve Dynamics 365 Project Service Automation örneği arasında verinin eşitlenmesini sağlayan Veri tümleştirme özelliği kullanılır. Veri tümleştirme özelliğiyle kullanılabilen tümleştirme şablonları, Project Service Automation'dan Finance'e projelerin, proje sözleşmelerinin, proje sözleşme satırlarının, proje sözleşme satırı kilometre taşlarının, proje görevlerinin, masraf işlemi kategorilerinin, saat tahminlerinin ve gider tahminlerinin akışını etkinleştirir.
+
+Project Service Automation ile Finance tümleştirme çözümü, Common Data Service aracılığıyla Dynamics 365 Finance ve Dynamics 365 Project Service Automation kurulumları arasındaki verileri eşitlemek için Veri tümleştirme özelliğini kullanır. Veri tümleştirme özelliğiyle kullanılabilen tümleştirme şablonları, Project Service Automation'dan Finance'e projelerin, proje sözleşmelerinin, proje sözleşme satırlarının, proje sözleşme satırı kilometre taşlarının, proje görevlerinin, masraf işlemi kategorilerinin, saat tahminlerinin ve gider tahminlerinin akışını etkinleştirir.
 
 > [!NOTE]
 > - 7.3.0 sürümünü kullanıyorsanız, KB 4074835 yüklemelisiniz. Daha sonra sabit fiyatlı projeleri tümleştirebilirsiniz.
