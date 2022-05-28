@@ -4,20 +4,20 @@ description: Bu konu, proje tabanlı malzemeleri tanımlama veya tahmin etme hak
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992635"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737326"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Projelerdeki malzemeler için mali tahminler
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Dynamics 365 Project Operations, Proje yöneticilerinin her proje ya da görev için proje tabanlı malzeme maliyetlerini tanımlamalarına izin verir. Her malzeme tahmini, belirli bir proje göreviyle ilişkilendirilebilir. Giderler, kuruluş düzeyinde tanımlanan farklı masraf kategorilerine kategorilere ayrılır. Her bir gider kategorisi için fiyatlandırma ve maliyetlendirme, fiyat listesinde tanımlanır. 
+Dynamics 365 Project Operations, Proje yöneticilerinin her proje ya da görev için proje tabanlı malzeme maliyetlerini tanımlamalarına izin verir. Her malzeme tahmini, belirli bir proje göreviyle ilişkilendirilebilir. Projelerde kullanılan malzemeler serbest ürünler veya ürün kataloğundaki ürünler olabilir. Her bir ürün ve birim birleşiminde satışlar için proje fiyat listelerinde ve maliyet için proje fiyat listelerinde bir fiyat tanımlanabilir.  
 
 Bir proje malzeme tahminini görüntülemek, eklemek veya silmek için aşağıdaki adımları uygulayın.
 
