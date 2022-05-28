@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0432e2d4970c352e91cca589987bbdace57c6eaf
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943001"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585402"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Yenilikler Aralık 2021 - Project Operations Lite dağıtımı
 
@@ -20,7 +20,7 @@ _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
 Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dataverse ortamı sürüm 4.27.0.195, 4.27.0.242'deki Project Operations
+- Dataverse ortamı sürümü 4.27.0.195, 4.27.0.242, 4.27.0.244'teki Project Operations
 
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler

@@ -4,14 +4,14 @@ description: Bu konu, sözleşme satırlarını etkileyen alanlar hakkında ve t
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f34d6c6b92f164cc95405147356c34bb03eb127284aba7a92712b8eec42d792f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996325"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580972"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Proje tabanlı sözleşmeler için üst bilgi ayrıntıları
 
@@ -47,7 +47,7 @@ Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekm
 | Ortaya Çıkan Maliyet | Proje tabanlı satırlar | Sözleşmeyle eşlenen tüm projelerde günlüğe kaydedilen tüm maliyet fiili değerlerinin toplamı. |
 | Brüt Kar | Proje tabanlı satırlar | (Faturalanan tutar - Tahakkuk eden maliyet çapraz Tarih) / faturalanan tutar |
 | Beklenen Marj | Proje tabanlı satırlar | (Baz para birimi cinsinden sözleşme satır tutarı-baz para birimi cinsinden sözleşme satırı için tahmini maliyetler)/sözleşme satırı tutarı baz para birimi cinsinden |
-| Ortaya Çıkan Maliyet | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçeğindeki tüm zaman miktarı toplamı. Giderler: Bu sözleşme satırıyla eşlenen projedeki bir kategori için tüm gider maliyet gerçeğindeki tüm zaman miktarı toplamı. |
+| Ortaya Çıkan Maliyet | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçek değerindeki tüm zaman miktarı toplamı. Giderler: Bu sözleşme satırıyla eşlenen projedeki bir kategori için tüm gider maliyet gerçek değerindeki tüm zaman miktarı toplamı. |
 | Kaydedilen Miktar | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçekindeki tüm zaman miktarı. Giderler: Bu sözleşme satırıyla eşlenen projedeki gider maliyeti fiililerindeki bu gider kategorisi için tüm miktarlar. |
 | Faturalanan Tutar | Proje tabanlı satır ayrıntısı | Sabit bir fiyat sözleşmesi satırı için, bu alan ayrıntı düzeyinde boş bırakılır ve yalnızca sözleşme satırı düzeyinde gösterilir. Bir zaman ve malzeme sözleşmesi satırı için, hesaplamalar Ayrıntılar düzeyinde tamamlanır. Ayrıntılar, faturalanan tüm gelir satırlarındaki tutar 'ın Masraflandırılabilir olan bu sözleşme satırına göre toplamını gösterir. |
 | Faturalanan Miktar | Proje tabanlı satır ayrıntısı | Sabit bir fiyat sözleşmesi satırı için, bu alan ayrıntı düzeyinde boş bırakılır ve yalnızca sözleşme satırı düzeyinde gösterilir. Bir zaman ve malzeme sözleşmesi satırı için, hesaplamalar zaman ve giderler için Ayrıntılar düzeyinde tamamlanır. Saat: Ayrıntılar, faturalanan tüm gelir satırlarındaki tutar 'ın Masraflandırılabilir olan bu sözleşme satırına göre toplamını gösterir. Giderler: Bu sözleşme satırıyla eşlenen projedeki gider maliyeti fiililerindeki bu gider kategorisi için tüm miktarlar. |

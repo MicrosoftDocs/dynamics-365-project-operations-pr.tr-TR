@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7c1fd7046783b98b7c2e823b2c2eb8bbdfb232fc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987550"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583369"
 ---
 # <a name="business-transactions"></a>İş işlemleri
 
@@ -35,7 +36,7 @@ Dynamics 365 Project Service Automation'da, *iş işlemi* herhangi bir varlıkla
 - Sözleşme satırı ayrıntıları
 - Tahmin satırları
 - Yevmiye defteri satırları
-- Gerçekler
+- Gerçek değerler
 
 Bu varlıkların Teklif satırı ayrıntıları, Sözleşme satırı ayrıntıları ve Tahmin satırları proje yaşam döngüsünün tahmini aşamalarıyla eşleştirilir. Yevmiye defteri satırları ve Fiili değerler varlıkları proje yaşam döngüsünde yürütme aşamasına eşlenir.
 
@@ -80,7 +81,7 @@ Aşağıdaki kavramlar, iş işlemleri kavramına özeldir:
 
 ### <a name="transaction-connection"></a>İşlem bağlantısı
 
-İşlem bağlantısı maliyet ve ilgili satış gerçekleri gibi iki benzer iş hareketi arasındaki ilişkiyi veya fatura onayı veya fatura düzeltmeleri gibi faturalama etkinlikleriyle tetiklenen tersine işlemleri depolayan bir varlıktır.
+İşlem bağlantısı maliyet ve ilgili gerçek değerleri gibi iki benzer iş hareketi arasındaki ilişkiyi veya fatura onayı veya fatura düzeltmeleri gibi faturalama etkinlikleriyle tetiklenen tersine işlemleri depolayan bir varlıktır.
 
 İşlem kaynağı ve işlem bağlantısı, iş işlemleri ve belirli bir iş işleminin oluşturulmasına neden olan eylemler arasındaki ilişkileri izlemenize yardımcı olur.
 

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815859"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582044"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Eylül 2021'deki yenilikler veya değişiklikler - Stoklu/ürün tabanlı senaryolar için Project Operations
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Stoklu/Ürün tabanlı senaryolar için Project 
 
 Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dynamics 365 Finance ortamı sürüm 10.0.21'de proje yönetimi ve muhasebe
+- Dynamics 365 Finance ortamı sürümü 10.0.21'de proje yönetimi ve muhasebe
  
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 
@@ -91,6 +91,6 @@ Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve s
 
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Planlanmış düzenleyici güncelleştirmeleri görüntülemek için Microsoft Dynamics Lifecycle Services (LCS) platformunda oturum açabilir ve Sorun arama aracını kullanabilirsiniz. Sorun arama aracı, ülkeye veya bölgeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Planlanmış düzenleyici güncelleştirmeleri görüntülemek için Microsoft Dynamics Lifecycle Services (LCS) platformunda oturum açabilir ve Sorun arama aracını kullanabilirsiniz. Sorun arama aracı, ülkeye veya bölgeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

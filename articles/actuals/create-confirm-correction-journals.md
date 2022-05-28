@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986740"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582827"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Düzeltme günlükleri oluşturma ve onaylama
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Bazen bir zaman veya gider girişi yanlış girilebilir. Örneğin, bir danışman zaman girişi oluştururken yanlış tarih seçebilir veya bir gideri girerken sayıların yerini değiştirebilir. Danışman gönderilen girişlerde güncelleştirmeler yapamazsa, yönetici projeyle ilgili girişi doğrudan düzeltebilir.
-
-Bu konudaki yordamları tamamlayabilmek için, Yönetici izinlerine sahip olmanız gerekir.
+Bazen bir zaman veya gider girişi yanlış girilebilir. Örneğin bir danışman, zaman girişi oluştururken yanlış tarih seçebilir veya bir masraf girerken yanlış bir proje seçebilir. Bir danışman gönderilen girişleri güncelleştirmezse arka uç yöneticisi bir proje için gerçek değerleri doğrudan düzeltebilir.
 
 ## <a name="correct-approved-time-entries"></a>Onaylanan zaman girişlerini düzeltme     
 
@@ -46,8 +42,8 @@ Bir projeyle ilgili tek veya birden fazla zaman girişini düzeltmek için aşa�
 
 6. **Önizleme** yi seçin. İletişim kutusunda **Tamam**'ı seçin. **Günlük satırları** sekmesinde, ters işlem yapılmış seçili zaman girişleri ve oluşturulan düzeltilmiş ilgili satırlarla ilgili orijinal gerçek değerlerin listesini görüntüleyebilirsiniz. Ek düzeltmelerin yapılması gerekiyorsa, 5. ve 6. adımı yineleyin. 
 
-> [!NOTE]
-> Tüm düzeltilen gerçek değerler **Zaman Girişleri için yeni değerler** bölümünde seçtiğinizle aynı değerlere sahip olacaktır.
+    > [!NOTE]
+    > Tüm düzeltilen gerçek değerler **Zaman Girişleri için yeni değerler** bölümünde seçtiğinizle aynı değerlere sahip olacaktır.
 
 7. Düzeltmeler beklendiği gibi görünüyorsa **Onayla**'yı seçin. İletişim kutusunda **Tamam**'ı seçin.
 
@@ -55,12 +51,10 @@ Bir projeyle ilgili tek veya birden fazla zaman girişini düzeltmek için aşa�
 
 9. **Projeler** sayfasında, **Gerçek değerler** sekmesinde, yaptığınız değişiklikleri görüntüleyin. 
 
-> [!NOTE]
-> **Gerçek değerler** sekmesi görünmüyorsa, **İlgili** > **Gerçek değerler**'i seçin.  
+    > [!NOTE]
+    > **Gerçek değerler** sekmesi görünmüyorsa, **İlgili** > **Gerçek değerler**'i seçin.  
 
 10. **Gerçek Değer İlişkili Görünümü** listesinde, karşılık gelen düzeltilmiş zaman girişleri gibi tersine çevrilen orijinal zaman girişlerinin hala listelendiğini görebilirsiniz. 
-
-Örneğin, aşağıdaki grafikte, miktarı 8,00 olan ve Tutar sütununda listelenen borçları bulunan iki satır maddesi bulunur. Buna ek olarak, miktarı -8,00 olan ve Tutar sütununda alacak tutarı bulunan iki satır maddesi vardır. Bu düzeltmeler miktarı sıfıra getirir.
 
  
 ## <a name="correct-approved-expense-entries"></a>Onaylanan gider girişlerini düzeltme
@@ -79,14 +73,30 @@ Bir veya daha fazla gider girişini düzeltmek için aşağıdaki adımları uyg
 
 6. Düzeltilen değerler beklendiği gibi görünüyorsa **Onayla**'yı seçin. İletişim kutusunda **Tamam**'ı seçin. Değerler beklendiği gibi görünmüyorsa, **Onaylanan Giderler** listesine dönmek için **İptal**'i seçin. 2 ile 5 adım arasındaki işlemleri yineleyin. 
 
-> [!NOTE]
-> Düzeltilen gerçek değerler **Giderler için yeni değerler** bölümünde seçtiğinizle aynı değerlere sahip olacaktır.
+7. Düzeltme günlüğünü onayladıktan sonra, değişikliklerinizi görüntülemek için güncellediğiniz projeye veya projelere geri dönün.
 
-7. Düzeltme günlüğünü onayladıktan sonra, değişikliklerinizi görüntülemek için güncelleştirtiğiniz proje veya projelere tekrar gidin.  
-
-8. Proje sayfasında, **Gerçek değerler** sekmesinde, **Gerçek Değerler İlişkili Görünümü**'nü gözden geçirin. Orijinal girişler ve düzeltilen girişler listelenir. Aşağıdaki grafik orijinal gider girişi tutarlarını ve karşılık gelen düzeltilmiş gider girişi tutarlarını gösterir. 
+8. Proje sayfasında, **Gerçek değerler** sekmesinde **İlişkilendirilmiş Asıl Görünüm** listesini inceleyin. Orijinal girişler ve düzeltilen girişler listelenir.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Doğru onaylanmış malzeme kullanım günlükleri
+
+Bir veya daha fazla malzeme kullanım günlüğü girişini düzeltmek için aşağıdaki adımları tamamlayın.
+
+1. **Satış** alanında, sol gezinti bölmesinde **İşlemler** altında **Gerçek değerler** seçeneğini belirleyin.
+
+2. **Gerçek değerler** listesinde, **Malzeme** işlemi sınıfını seçmek için sütun filtrelerini kullanın, böylece yalnızca malzemeler için gerçek değerler gösterilir. Gösterilen gerçek değerleri daha da sınırlamak için diğer sütun filtrelerini kullanın. İstenen gerçek değerleri dizisini bulduktan sonra gerçek değerleri seçin ve ardından **Girişleri düzelt** öğesini seçin. Otomatik olarak yeni bir düzeltme günlüğü oluşturulur ve **Malzeme düzeltme** türü atanır.
+
+3. **Yeni Günlük** sayfasındaki **Açıklama** alanına düzeltme için bir açıklama girin. Ardından, **Malzeme Düzeltmesi** sekmesinde, **Malzemelerin Yeni Değerleri** bölümünde seçilen malzeme satırlarını düzeltmek için veri alanlarını seçin. Örneğin, malzemeyi başka bir projeye atayabilir ya da ürün, malzeme tarihi veya alt sözleşmeyi düzeltebilirsiniz.
+
+4. **Önizleme** yi seçin. Ardından, iletişim kutusunda **Tamam**'ı seçin.
+
+5. **Yevmiye defteri satırları** sekmesinde, düzeltmeleri doğrulayın. Tersine çevrilmiş seçilen malzeme girişleriyle ve oluşturulan düzeltilmiş karşılık gelen satırlarla ilgili orijinal gerçek değerlerin bir listesini görüntüleyebilirsiniz.
+
+6. Düzeltilen değerler beklendiği gibi görünüyorsa **Onayla**'yı seçin. Ardından, iletişim kutusunda **Tamam**'ı seçin. Değerler beklendiği gibi değilse **İptal** öğesini seçerek **Gerçek değerler** listesine geri dönün. Sonra 2 ile 5 arasındaki adımları tekrar edin.
+
+7. Düzeltme günlüğünü onayladıktan sonra, değişikliklerinizi görüntülemek için güncellediğiniz projeye veya projelere geri dönün.
+
+8. Proje sayfasında, **Gerçek değerler** sekmesinde **İlişkilendirilmiş Asıl Görünüm** listesini inceleyin. Orijinal girişler ve düzeltilen girişler listelenir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

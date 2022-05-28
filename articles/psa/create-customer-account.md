@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d622dd2eb936611015fedd43925296313221435b9183c6d94bc6e6538518770
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 43759b9d5aa308b1985ede9b78ca8faaae904322
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002760"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583232"
 ---
 # <a name="create-a-customer-account-project-service"></a>Müşteri hesabı oluşturma (Project Service)
 

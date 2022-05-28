@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: aa6babc81145753a7081ec9a18b6f52bea7d5c41
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004740"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581032"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Zaman, gider ve işbirliği kılavuzu (Project Service)
 

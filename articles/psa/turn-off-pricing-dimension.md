@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006810"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581722"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Fiyatlandırma boyutunu kapatma
 
@@ -37,10 +38,10 @@ Ancak bunu yaptığınızda, aşağıdaki hata iletisini alabilirsiniz.
 
 Bu hata iletisi, kapatılan boyut için daha önceden ayarlanmış fiyat kayıtları olduğunu belirtir. Bir boyutla ilgili **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** kayıtları, boyutun uygulanabilirliği **Hayır** olarak ayarlanmadan önce silinmelidir. Bu kural, hem kullanıma hazır fiyatlandırma boyutları hem de oluşturmuş olabileceğiniz özel fiyatlandırma boyutları için geçerlidir. Bu doğrulamanın nedeni, Project Service'de **Rol Fiyatı** kaydının benzersiz bir boyut birleşimine sahip olması gerektiği kısıtlamasının olmasıdır. Örneğin, **ABD Maliyet Oranları 2018** adlı bir fiyat listesinde aşağıdaki **Rol Fiyatı** satırları bulunur. 
 
-| Standart Başlık         | Kuruluş Birimi    |Birim   |Fiyat  |Para birimi  |
+| Standart Başlık         | Kuruluş Birimi    |Birim   |Fiyat  |Para Birimi  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistem Mühendisi|Contoso ABD|Saat| 100|USD|
-| Kalfa Sistem Mühendisi|Contoso ABD|Saat| 150| USD|
+| Sistem Mühendisi|Contoso ABD|Hour| 100|USD|
+| Kalfa Sistem Mühendisi|Contoso ABD|Hour| 150| USD|
 
 
 **Standart Başlık**'ı fiyatlandırma boyutu olarak kapattığınızda ve Project Service fiyatlandırma altyapısı bir fiyat için arama yaptığında yalnızca giriş bağlamından **Kuruluş Birimi** değerini kullanır. Giriş bağlamının **Kuruluş Birimi** "Contoso ABD" ise her iki satır da eşleşeceğinden sonuç belirleyici olmaz. Bu senaryoyu önlemek için Project Service, **Rol Fiyatı** kayıtları oluştururken boyut birleşiminin benzersiz olduğunu doğrular. **Rol Fiyatı** kayıtları oluşturulduktan sonra boyut kapatılırsa bu kısıtlama ihlal edilebilir. Bu nedenle bir boyutu kapatmadan önce bu boyut değeriyle doldurulmuş tüm **Rol Fiyatı** ve **Rol Fiyatı Kar Payı** satırlarını silmeniz gerekir.

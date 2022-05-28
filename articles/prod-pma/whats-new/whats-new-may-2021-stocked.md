@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991150"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586322"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Stoklu/ürün tabanlı senaryolar için Project Operations'da Mayıs 2021'deki yenilikler veya değişiklikler
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991150"
 
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.19'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.19'da proje yönetimi ve muhasebe
  
 ### <a name="quality-updates"></a>Kalite güncelleştirmeleri
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Seyahat ve Gider                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Gider mobil uygulamasıyla eşitleme sorunları var. 
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

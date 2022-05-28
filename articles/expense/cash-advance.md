@@ -4,16 +4,16 @@ description: Bu konuda, nakit avanslar hakkında bilgiler sağlanmaktadır.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988540"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585724"
 ---
 # <a name="cash-advance"></a>Nakit avans
 
@@ -66,7 +66,7 @@ Bir gider raporunu göndermeden önce, rapordaki gider hareketleriyle hizalı na
  
  Bu özellikler etkinleştirildiğinde:
  
-  - Her gider satırı için bir veya daha fazla nakit avansı ekleyebilirsiniz.
+  - Her gider satırı için bir veya daha fazla nakit avans ekleyebilirsiniz.
   - Bir gider raporu kaydedildiğinde, nakit avansın kullanılabilir bakiyesi gerçek zamanlı olarak görünür. Bu, aynı anda masraf hareketlerini işlemenize ve nakit hareketini iade etmenize olanak sağlar.
   - Bir gider satırı için birden fazla nakit avansı seçebilirsiniz.
   - Nakit avans mutabakatı verilerine bir sorgu kullanarak erişebilirsiniz. 

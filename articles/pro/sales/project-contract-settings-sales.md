@@ -2,16 +2,16 @@
 title: Proje sözleşme ayarları - lite
 description: Bu konu, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgiler için bilgi sağlar.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995965"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586414"
 ---
 # <a name="header-details-for-project-contracts"></a>Proje sözleşmeleri için üst bilgi ayrıntıları
 
@@ -32,12 +32,15 @@ Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya 
 | Aşılamaz Limit | **Özet** sekmesi | Bu alan, müşterinin bu anlaşma için kabul ettiği son değer üzerinden anlaşılan tavanı gösterir. | Bu tavan, uygulama sırasında değerlendirilir ve bu anlaşmayla ilişkili tüm satır öğeleri ve projeler için geçerlidir. |
 | Talep Edilen Teslimat Tarihi | **Özet** sekmesi | Sözleşme, bir sözleşme oluşturulduğunda, bu alan sözleşme kaydındaki ilgili alandan kopyalanır. | Bu tarih, fatura zamanlaması oluştururken bitiş tarihi olarak kullanılır. |
 
-Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekmesinde kullanılabilir.
+Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekmesinde kullanılabilir. 
 
-| Alan | Konum | Veri Akışı Açıklaması |
+>[!NOTE]
+>**Sözleşme Performansı** sekmesindeki tüm tutarlar, ortamın varsayılan para biriminde ifade edilir.
+
+| Alan | Konum | Description |
 | --- | --- | --- |
-| Sözleşme Değeri | Genel Sözleşme | Proje sözleşmesinin toplam değeri. |
-| Faturalanan Tutar | Genel Sözleşme | Bu sözleşmeyle ilgili tüm faturalardaki tutarların toplamı. |
+| Sözleşme Değeri | Genel Sözleşme | Proje sözleşmesinin toplam değeri.|
+| Faturalanan Tutar | Genel Sözleşme | Bu sözleşmeyle ilgili tüm faturalardaki tutarların toplamı.|
 | Ortaya Çıkan Maliyet | Genel Sözleşme | Sözleşmeyle eşlenen tüm projelerde günlüğe kaydedilen tüm maliyet fiili değerlerinin toplamı. |
 | Brüt Kar | Genel Sözleşme | Faturalanan tutar - Tahakkuk eden maliyet çapraz Tarih/faturalanan tutar |
 | Beklenen Marj | Genel Sözleşme | (Sözleşme değeri - tahmini maliyetler) / Sözleşme Değertahmini maliyetler = sözleşmeyle eşlenen tüm projelerdeki tüm tahmini maliyetlerin toplamı.|
@@ -46,7 +49,7 @@ Aşağıdaki KPI 'Lar bir proje sözleşmesinin **sözleşme performansı** sekm
 | Ortaya Çıkan Maliyet | Proje tabanlı satırlar | Sözleşmeyle eşlenen tüm projelerde günlüğe kaydedilen tüm maliyet fiili değerlerinin toplamı. |
 | Brüt Kar | Proje tabanlı satırlar | (Faturalanan tutar - Tahakkuk eden maliyet çapraz Tarih) / faturalanan tutar |
 | Beklenen Marj | Proje tabanlı satırlar | (Baz para birimi cinsinden sözleşme satır tutarı-baz para birimi cinsinden sözleşme satırı için tahmini maliyetler)/sözleşme satırı tutarı baz para birimi cinsinden |
-| Ortaya Çıkan Maliyet | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçeğindeki tüm zaman miktarı toplamı. Giderler: Bu sözleşme satırıyla eşlenen projedeki bir kategori için tüm gider maliyet gerçeğindeki tüm zaman miktarı toplamı. |
+| Ortaya Çıkan Maliyet | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçek değerindeki tüm zaman miktarı toplamı. Giderler: Bu sözleşme satırıyla eşlenen projedeki bir kategori için tüm gider maliyet gerçek değerindeki tüm zaman miktarı toplamı. |
 | Kaydedilen Miktar | Proje tabanlı satır ayrıntısı | Saat: Bu sözleşme satırıyla eşlenen projedeki bir rol için zaman maliyet gerçekindeki tüm zaman miktarı. Giderler: Bu sözleşme satırıyla eşlenen projedeki gider maliyeti fiililerindeki bu gider kategorisi için tüm miktarlar. |
 | Faturalanan Tutar | Proje tabanlı satır ayrıntısı | Sabit bir fiyat sözleşmesi satırı için, bu alan ayrıntı düzeyinde boş bırakılır ve yalnızca sözleşme satırı düzeyinde gösterilir. Bir zaman ve malzeme sözleşmesi satırı için, hesaplamalar Ayrıntılar düzeyinde tamamlanır. Ayrıntılar, faturalanan tüm gelir satırlarındaki tutar 'ın Masraflandırılabilir olan bu sözleşme satırına göre toplamını gösterir. |
 | Faturalanan Miktar | Proje tabanlı satır ayrıntısı | Sabit bir fiyat sözleşmesi satırı için, bu alan ayrıntı düzeyinde boş bırakılır ve yalnızca sözleşme satırı düzeyinde gösterilir. Bir zaman ve malzeme sözleşmesi satırı için, hesaplamalar zaman ve giderler için Ayrıntılar düzeyinde tamamlanır. Saat: Ayrıntılar, faturalanan tüm gelir satırlarındaki tutar 'ın Masraflandırılabilir olan bu sözleşme satırına göre toplamını gösterir. Giderler: Bu sözleşme satırıyla eşlenen projedeki gider maliyeti fiililerindeki bu gider kategorisi için tüm miktarlar. |

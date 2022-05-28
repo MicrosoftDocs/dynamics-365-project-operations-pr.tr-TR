@@ -4,14 +4,14 @@ description: Bu konuda Project Operations'ta tüzel varlık entegrasyonu ayarlam
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585862"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Her tüzel kişilik için Project Operations tümleştirmesini yapılandırma 
 
@@ -19,32 +19,32 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Bu konuda, Dynamics 365 Project Operations'ı her tüzel kişilik için yapılandırmak üzere gerekli adımlar ayrıntılı olarak gösterilmektedir.
 
-## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance'te özellik anahtarlarını etkinleştir
+## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance'te özellik anahtarlarını etkinleştirme
 
 Gerekli özellikleri etkinleştirmek için aşağıdaki adımları izleyin.
 
-1. Dynamics 365 Finance'te **Özellik yönetimi** çalışma alanına gidin.
+1. Dynamics 365 Finance'te, **Özellik Yönetimi** çalışma alanına gidin.
 2. **Özellik listesinde**, aşağıdaki özellikleri bulun ve etkinleştirin:
   
     - **Bir proje için birden çok sözleşme satırını etkinleştirme**
-    - **Dynamics 365 Customer Engagement'ta Project Operations'ı etkinleştirin**
+    - **Dynamics 365 Customer Engagement'ta Project Operations'ı etkinleştirme**
 
 > [!NOTE]
 > **Özellik anahtarlarını** listede göremiyorsanız, Finance sürümünüzün en düşük sürüm gereksinimini (uygulama sürümü 10.0.13 uygulanmış veya daha yüksek) karşıladığını doğrulayın. Özellik listesini yenilemek için **güncelleştirmeleri denetle**'yi seçin.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Geçerli bir varlık için Project Operations dağıtımı senaryosu tanımlayın
 
-Geçerli bir varlık düzeyinde Dynamics 365 Customer Engagement'ta Project Operations'ı etkinleştirebilirsiniz. Kaynak/Stoklanmayan tabanlı senaryolarda Dynamics 365 Customer Engagement'ta Project Operations'ı kullanarak bir yasal varlığınız olabilir. Aynı ortamda, Stoklanmayan/üretim emri senaryoları için Project Operations'ı kullanarak başka bir tüzel kişiliye sahip olabilirsiniz.
+Tüzel kişilik düzeyinde Dynamics 365 Customer Engagement'ta Project Operations'ı etkinleştirebilirsiniz. Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Dynamics 365 Customer Engagement'ta Project Operations'ı kullanarak bir tüzel kişiliğe sahip olabilirsiniz. Aynı ortamda, Stoklanmayan/üretim emri senaryoları için Project Operations'ı kullanarak başka bir tüzel kişiliye sahip olabilirsiniz.
 
-1. Dynamics 365 Finance'te **Proje yönetimi ve muhasebe** > **Kurulum** > **Genel Proje yönetimi ve muhasebe parametreleri** 'ne gidin.
-2. Kullanılabilir geçerli varlıklar listesinde, birden çok sözleşme satırı ve Dynamics 365 Customer Engagement özellikler üzerinde Project Operations'ın etkinleştirildiği varlıkları seçin. Stoğu/üretim emri senaryoları seçili olmadığı için Project Operations'ı kullanacak hukuk tüzel vrlıkları bırakın.
+1. Dynamics 365 Finance'te **Proje yönetimi ve muhasebe** > **Kurulum** > **Genel proje yönetimi ve muhasebe parametreleri**'ne gidin.
+2. Kullanılabilir tüzel kişilikler listesinde, birden çok sözleşme satır ve Dynamics 365 Customer Engagement'ta Project Operations özelliklerinin etkinleştirileceği varlıkları seçin. Stoğu/üretim emri senaryoları seçili olmadığı için Project Operations'ı kullanacak hukuk tüzel vrlıkları bırakın.
 
 > [!NOTE]
 > Yasal bir varlık, yalnızca varolan bir proje içermiyorsa seçilebilir.
 
 ## <a name="configure-project-management-and-accounting-parameters"></a>Proje yönetimi ve muhasebeye genel bakış parametrelerini yapılandırın
 
-Dynamics 365 Customer Engagement üzerinde Project Operations kullanan her bir tüzel kişiliği bir varsayılan parametre kümesi gerektirir. Bu parametreler **Proje yönetimi ve hesap oluşturma parametreleri** sayfasındaki **Project Operations** sekmesinde yapılandırılır . Parametreler şunlardır:
+Dynamics 365 Customer Engagement'ta Project Operations'ı kullanan her tüzel kişilik için bir dizi varsayılan parametre gerekir. Bu parametreler **Proje yönetimi ve hesap oluşturma parametreleri** sayfasındaki **Project Operations** sekmesinde yapılandırılır . Parametreler şunlardır:
 
   - **Fatura türü varsayılanları**: Project Operations, satır özellikleri finans ile eşlenmesi gereken sabit bir faturalama türü varsayılan kümesi kullanır. Her faturalama türü için bir kayıt oluşturun: **belirtilmemiş**, **Borçlandırılabilir**, **borçlandırılamayan**, **Kapanış** ve **kullanılamaz**.
   - **Proje kategorisi Varsayılanları**: her hareket türü için kullanılacak varsayılan Proje kategorilerini seçin. Bu varsayılanlar **Project Operations tümleştirme günlüğünde** ve proje fiili için herhangi bir hareket kategorisinin belirtilmediğinde tahminlerde kullanılır.

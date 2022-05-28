@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547178"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582918"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Eylül 2021'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547178"
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
    - Microsoft Dataverse ortamı sürüm 4.14.0.99'de Project Operations.
-   - Dynamics 365 Finance ortamı sürüm 10.0.20'de proje yönetimi ve muhasebesi.
+   - Dynamics 365 Finance ortamı sürümü 10.0.20'de proje yönetimi ve muhasebe.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations çift yazma eşlemesi güncellemeleri
 
@@ -45,7 +45,7 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift Yazma sorun gide
 | Fatura ve Fiyatlandırma | 2385802 | Proje toplamları yenilendiği zaman, negatif fiili saat değerleriyle oluşan hata düzeltildi. |
 | Fatura ve Fiyatlandırma | 2389675 | İyileştirilmiş proforma fatura onay davranışı. Uzun süre çalışan işler varlığı, muhasebe için onay sonuçları yazmak üzere gereken etkinliği dikkate almalıdır. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | Özellik alanı | Referans numarası | Kalite güncelleştirmeleri |
 | --- | --- | --- |

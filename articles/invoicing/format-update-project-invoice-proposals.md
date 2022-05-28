@@ -4,14 +4,14 @@ description: Bu konuda, kaynağı/stoku tutulmayanları temel alan senaryolar i�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989935"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585632"
 ---
 # <a name="manage-project-invoice-proposals"></a>Proje faturası tekliflerini yönetme
 
@@ -22,7 +22,7 @@ Aşağıdaki iki koşul karşılandığında proje faturası teklifleri, fatural
   - Proje yöneticisi Microsoft Dataverse'teki proforma faturayı onaylar.
   - Proforma faturaya dahil edilen faturalanmayan tüm süre ve malzeme satış işlemleri, Dynamics 365 **Project Operations Entegrasyon** günlüğü kullanılarak deftere kaydedilir.
 
-Dynamics 365 Finance'te proje faturası teklifini tamamlamak için aşağıdaki adımları kullanın.
+Dynamics 365 Finance'ta bir proje fatura teklifini tamamlamak için aşağıdaki adımları kullanın.
 
 1. Süre ve malzeme işlemleri için ödeme bilgilerini inceleyin ve **Project Operations Entegrasyon** günlüğünü deftere kaydedin.
 2. Sabit fiyatlı faturalama kilometre taşları için ödeme bilgilerini inceleyin.

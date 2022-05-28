@@ -2,22 +2,22 @@
 title: Project Operations denemelerine kaydolma
 description: Bu konu, Dynamics 365 Project Operations denemesi dağıtma hakkında bilgi sağlar.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901641"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584298"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations denemelerine kaydolma 
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı - anlaşmadan proforma faturaya, stoklu/ürün tabanlı senaryolar için Project Operations_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konu, önizleme işortağı teklifine nasıl abone olacağınızı ve nasıl Dynamics 365 Project Operations ortamı dağıtacağınızı açıklar.
 
@@ -35,8 +35,7 @@ Aşağıdaki tabloda yeni deneme teklifinizin ayrıntıları özetlenmektedir.
 | Teklif türü                   | Bu teklif türü Yönetim lideri olduğundan, kullanmak için bir kiracı yöneticisi gereklidir. |
 | Teklif kullanımı                    | Her kiracı için tek bir kez                          |
 | Teklif süresi               | 30 takvim günü                             |
-| Kiracı başına kullanımlar       | 1                                            |
-| Kullanıcı sayısı              | 25                                           |
+| Kiracı başına kullanımlar       | Kategori 1                                            |
 | Dahili                    | 1 uzatma, 30 takvim günü               |
 | Deneme ortamı sayısı | 3                                            |
 
@@ -87,7 +86,7 @@ Başlamadan önce, Project Operations önizlemesini istediğiniz kiracıdaki kul
  
   Sağlama işlemi tamamlandığında, ortamınızın durumu **Hazır** olur. Ortamın sağlanması tanıtım verilerinin dağıtılmasını içerir.
  
-4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finance and Operations uygulamaları URL'lerini seçin.
+4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finans ve Operasyon uygulamaları URL'lerini seçin.
 
 ## <a name="configuring-dual-write"></a>Çift yazmayı yapılandırma
 - Güvenlik rollerini çift yazma için yapılandırmak üzere, [Dataverse'te Project Operations'da güvenlik ayarlarını güncelleştirme](resource-provision-new-environment.md) bölümüne bakın.
@@ -117,7 +116,7 @@ Aşağıdaki kaynaklar, Project Operations yolculuğunuza başlarken yararlı y�
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Finance and Operations uygulamaları ortamım için ALM veya ELM gerekiyorsa ne olacak?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Finans ve Operasyon uygulamaları ortamım için ALM veya ELM gerekirse ne olur?
 
 - Tam ortam yaşam döngüsü yönetimi özellikleri gerekli olan iş ortakları için yeni iş ortağı teklifini incelemek üzere [İş Ortağı Korumalı Alan Lisans İsteği](https://experience.dynamics.com/requestlicense) bölümüne bakın. 
 - Dahili Kullanım Hakları hakkında daha fazla bilgi arayan iş ortakları [Dahili Kullanım Hakları bulut ve yazılım avantajı (microsoft.com](https://partner.microsoft.com/membership/internal-use-software) bölümüne bakabilir.
@@ -125,7 +124,7 @@ Aşağıdaki kaynaklar, Project Operations yolculuğunuza başlarken yararlı y�
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Deneme sürümünü 30 günden fazla uzatabilir miyim?
 Deneme sürenizi uzatmak için aşağıdaki adımları gerçekleştirin.
 
-1. **Microsoft 365 Yönetim Merkezinde**, **Fatura** > **Ürünleriniz**'e gidin.
+1. **Microsoft 365 Yönetim Merkezi**'nde **Faturalama** > **Ürünleriniz**'e gidin.
 2. **Dynamics 365 Project Operations (CE) - Önizleme Denemesi**'ni seçin.
 3. **Son Kullanma tarihi** altında **Tarihi Uzat**'ı seçin.
 

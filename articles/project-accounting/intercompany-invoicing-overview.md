@@ -3,16 +3,15 @@ title: Şirketler arası faturalamaya genel bakış
 description: Bu konu, projeler için şirketler arası faturalandırma hakkında bilgi ve örnekler sağlar.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005415"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586276"
 ---
 # <a name="intercompany-invoicing-overview"></a>Şirketler arası faturalamaya genel bakış
 
@@ -20,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Kuruluşunuzun, projeler için ürünleri ve servisleri birbirine aktarabilecek birden çok bölümü, yan kuruluşları ve diğer tüzel kişilikler olabilir. Hizmet veya ürün sağlayan tüzel kişiliğe *ödünç veren tüzel kişilik* denir. Hizmet veya ürün alan tüzel kişiliğe *ödünç alan tüzel kişilik* denir.
 
-Aşağıdaki resimde, Contoso Robotics ABD (ödünç alan tüzel kişilik) ve Contoso Robotics UK (ödünç veren tüzel kişilik) adlı iki tüzel kişiliğin Adventure works müşterisine bir projeyi teslim etmek için kaynakları paylaştığı tipik bir senaryo gösterilmektedir. Bu senaryoda Contoso Robotics ABD, işi Adventure Works'e teslim etmek üzere sözleşme yapmıştır.
+Aşağıdaki resimde iki tüzel kişilik olan Contoso Robotics USA (ödünç alan tüzel kişilik) ve Contoso Robotics UK şirketlerinin (ödünç veren tüzel kişilik) müşterisi olan Adventure Works'e bir proje sunmak için kaynakları paylaştığı tipik bir senaryo gösterilmektedir. Bu senaryoda, işi Adventure Works'e teslim etmesi için Contoso Robotics USA ile sözleşme imzalanmıştır.
 
 ![Şirketler arası faturalama.](./media/IntercompanyScenario.png) 
 

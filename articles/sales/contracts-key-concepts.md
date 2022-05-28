@@ -4,26 +4,26 @@ description: Bu konuda Project Operations'ta proje sözleşmesinin temel kavraml
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986965"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582964"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Proje tabanlı Sözleşmelere özel kavramlar
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konu, Dynamics 365 Project Operations'ta Proje sözleşmelerini kullanmaya başlamadan önce bilmeniz gereken temel kavramları sağlar:
 
 ## <a name="owning-company"></a>Sahibi Olan Şirket
 
-Sahibi olan şirket, Dynamics 365 Finance öğesinden Project Operations için **Proje yönetimi ve muhasebe** modülündeki tüzel kişilik kavramına eşittir. Sorumlu şirket, bir anlaşmadan tahakkuk eden maliyet ve geliri hesaba alacak tüzel kişiliği temsil eder.
+Sahibi olan şirket, Dynamics 365 Finance'ta Project Operations için **Proje yönetimi ve muhasebe** modülündeki tüzel kişiliktir. Sorumlu şirket, bir anlaşmadan tahakkuk eden maliyet ve geliri hesaba alacak tüzel kişiliği temsil eder.
 
 ## <a name="contracting-unit"></a>Sözleşme Birimi
 
