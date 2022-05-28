@@ -4,14 +4,14 @@ description: Bu konuda, proje kategorilerini ayarlama hakkında bilgiler sağlan
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997135"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591566"
 ---
 # <a name="configure-project-categories"></a>Proje kategorilerini yapılandırma
 
@@ -27,7 +27,7 @@ Aşağıdaki diyagramda, işlem kategorileri, paylaşılan kategoriler ve proje 
 
 ## <a name="transaction-categories"></a>Hareket kategorileri
 
-İşlem kategorileri, proje işlemlerinin temel gruplarını temsil eder ve şirkete veya işlem türüne özgü değildir. Örneğin ContosoRobotics, proje işlemlerini gruplamak için Tasarım, Seyahat, Kurulum ve Servis Hareketi kategorilerini kullanır.
+İşlem kategorileri, proje işlemlerinin temel gruplarını temsil eder ve şirkete veya işlem türüne özgü değildir. Örneğin, Contoso Robotics, Proje işlemlerini gruplandırmak için Tasarım, Seyahat, Kurulum ve Servis İşlemi kategorilerini kullanır.
 
 İşlem kategorileri Project Operations modülünde tanımlanır. 
 1. Formu açmak için **Ayarlar** \> **İşlem Kategorileri**'ne gidin. 
@@ -35,7 +35,7 @@ Aşağıdaki diyagramda, işlem kategorileri, paylaşılan kategoriler ve proje 
 
 ## <a name="shared-categories"></a>Paylaşılan kategoriler
 
-Dynamics 365; Dynamics 365 Finance, Dynamics 365 Supply Chain ve Dynamics 365 Project Operations gibi farklı uygulamalarda giderleri kategorilere ayırmak için Paylaşılan kategoriler kavramını kullanır. Oluşturulan her İşlem kategorisi için Project Operations, otomatik olarak dört ilgili Paylaşılan kategori oluşturur: Saat, Gider, Ücretler ve Öğe. **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Kategoriler** \> **Paylaşılan Kategoriler**'e giderek paylaşılan kategorileri inceleyip ayarlayabilirsiniz.
+Dynamics 365, Dynamics 365 Finance, Dynamics 365 Supply Chain ve Dynamics 365 Project Operations gibi farklı uygulamalardaki giderleri kategorilere ayırmak için Paylaşılan kategoriler kavramını kullanır. Oluşturulan her İşlem kategorisi için Project Operations, otomatik olarak dört ilgili Paylaşılan kategori oluşturur: Saat, Gider, Ücretler ve Öğe. **Proje yönetimi ve muhasebe** \> **Kurulum** \> **Kategoriler** \> **Paylaşılan Kategoriler**'e giderek paylaşılan kategorileri inceleyip ayarlayabilirsiniz.
 
 ## <a name="project-categories"></a>Proje kategorileri
 

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008160"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589128"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations konusundaki yenilikler
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürüm 4.9.0.221'te Project Operations
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.17'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.17'de proje yönetimi ve muhasebe
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
@@ -42,15 +42,15 @@ Aşağıdaki listede Project Operations 2021 Nisan Sürümünde değiştirilmiş
 | **Varlık eşlemesi** | **Güncellenmiş sürüm** | **Açıklamalar** |
 | --- | --- | --- |
 | Project Operations tümleştirmesi gerçek değerleri (msdyn\_actuals) | Kategori 1.0.0.14 | Malzeme proje gerçek değerlerini eşitlemek için eşleme değiştirildi. |
-| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimateslines) | Kategori 1.0.0.2 | Görev tabanlı fatura desteği için Finance and Operations uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
-| Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments) | Kategori 1.0.0.5 | Görev tabanlı fatura desteği için Finance and Operations uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
-| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Dataverse'ten Finance and Operations uygulamalarına Malzeme tahminlerini eşitlemek için yeni tablo Haritası. |
-| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn\_projectvendorinvoices) | Kategori 1.0.0.0 | Finance and Operations uygulamalarından Dataverse'e satıcı faturası başlıkları eşitlemek için yeni tablo Haritası. |
-| Project Operations tümleştirme projesi satıcı fatura satırı dışa aktarma varlığı (msdyn\_projectvendorinvoicelines) | Kategori 1.0.0.0 | Finance and Operations uygulamalarından Dataverse'e satıcı faturası satırları eşitlemek için yeni tablo Haritası. |
+| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimateslines) | 1.0.0.2 | Görev tabanlı fatura desteği için Finans ve Operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments) | Kategori 1.0.0.5 | Görev tabanlı fatura desteği için Finans ve Operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Malzeme tahminlerini Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
+| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn\_projectvendorinvoices) | Kategori 1.0.0.0 | Satıcı fatura başlıklarını Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
+| Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn\_projectvendorinvoicelines) | Kategori 1.0.0.0 | Satıcı faturası satırlarını Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
 
-Ortamınızda eşlemenin en son sürümünü her zaman çalıştırmanız ve Project Operations Dataverse çözümü ve Finance and Operations çözüm sürümünü güncelleştirirken tüm ilgili tablo haritalarını etkinleştirmeniz gerekir. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. Haritanın etkin sürümünü **ikili yazma** sayfasındaki **sürüm** sütununda görebilirsiniz . Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek etkinleştirebilirsiniz. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Her zaman ortamınızda eşlemenin en son sürümünü çalıştırmalı ve Project Operations Dataverse çözümünüzü ve Finance and Operations çözümü sürümünüzü güncelleştirirken tüm ilgili tablo eşlemelerini etkinleştirmelisiniz. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. Haritanın etkin sürümünü **çift yazma** sayfasındaki **sürüm** sütununda görebilirsiniz . Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek etkinleştirebilirsiniz. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
-Eşlemeyi başlatma ile ilgili bir sorunla karşılaşırsanız, ikili yazma sorun giderme kılavuzunun [Haritalarda eksik tablo sütunları sorunu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) başlıklı yönergeleri izleyin.
+Eşlemeyi başlatma ile ilgili bir sorunla karşılaşırsanız, çift yazma sorun giderme kılavuzunun [Haritalarda eksik tablo sütunları sorunu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) başlıklı yönergeleri izleyin.
 
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 
@@ -79,7 +79,7 @@ Eşlemeyi başlatma ile ilgili bir sorunla karşılaşırsanız, ikili yazma sor
 | Zaman ve Gider | Kategori 2204377 | Zaman girişi sırasında **Haftayı Kopyala** seçeneğini belirlediğinizde kopyalanmış zaman çizelgeleri otomatik olarak gösterilmelidir. |
 | Zaman ve Gider | Kategori 2209059 | Dynamics 365 Field Service zaman girişleri için **Durum** alanı düzenlenebilir. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | **Özellik alanı** | **Referans numarası** | **Kalite güncelleştirmeleri** |
 | --- | --- | --- |

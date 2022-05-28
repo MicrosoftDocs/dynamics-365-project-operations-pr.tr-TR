@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1f81268c894e2ff5d607d8008876c84f7eafdf05f8b1f3212263a5dfa89b69d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1421f83458cf0aee4e70858e83d4c54179ff87e3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997000"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588254"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Fiyat neden zaman maliyet gerçek değerlerinde varsayılan olarak sıfıra dönüyor?
 

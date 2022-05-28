@@ -4,14 +4,14 @@ description: Bu konu, şirketler arası müşteri ve satıcı faturalarının na
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989300"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591520"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Şirketler arası müşteri ve satıcı faturaları oluşturma
 
@@ -27,7 +27,7 @@ Proje işlemleri için el ile şirketler arası müşteri faturası oluşturmak 
 
 Aşağıdaki adımlar ödünç verme hukuk varlığında gerçekleştirilmelidir. 
 
-1. Dynamics 365 Finance'te **Proje yönetimi ve muhasebe** > **Proje faturaları** > **Şirketler arası müşteri faturaları**'na gidin. **Şirketler arası müşteri faturaları** listesi sayfasında Eylem Bölmesi'nde **Yeni**'yi seçin.
+1. Dynamics 365 Finance'ta **Proje yönetimi ve muhasebe** > **Proje faturaları** > **Şirketler arası müşteri faturaları**'na gidin. **Şirketler arası müşteri faturaları** listesi sayfasında Eylem Bölmesi'nde **Yeni**'yi seçin.
 2. **Şirketler arası fatura oluşturma** sayfasında **Tüzel kişilik** alanında bir ödünç alan tüzel kişilik seçin.
 3. İsteğe bağlı: Özel bir proje sözleşmesi ve proje numarası girin.
 4. Tarih aralığı seçerek aramayı daraltın. **Başlangıç tarihi** ve **Bitiş tarihi** alanlarında özel tarihleri girin. Arama sonuçlarında yalnızca bu tarih aralığında deftere nakledilen şirketler arası işlemler görüntülenir.

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996730"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593406"
 ---
 # <a name="track-a-projects-status-project-service"></a>Bir projenin durumunu izleme (Project Service)
 
@@ -33,14 +34,13 @@ Bir istemcinin projesinin ilerleme durumunu izlemek için [!INCLUDE[pn_dyn_365_p
 
 Katılım ilerledikçe, proje aşamaları katılım aşamasını yansıtmak için güncelleştirilir:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Yeni**    | Bir proje oluşturduğunuzda, aşama **Yeni** olarak ayarlanmaktadır. Projeyi bir şablondan oluşturduysanız, bu aşamada proje zamanlama, tahminler ve takım verilerine sahip olabilir. Aksi takdirde, projenin taslağı olacaktır ve diğer proje bileşenlerinin geri kalanını el ile girmeniz gerekecektir. |
-|  **Teklif**   |      Bir projeyi teklifle ilişkilendirdiğinizde veya tekliften oluşturduğunuzda, proje aşaması **Teklif** olarak ayarlanır ve tahmini başlangıç ve bitiş tarihleri de güncelleştirilir. Proje teklif aşamasındayken, teklif hakkındaki ayrıntılar **Proje** sayfasındaki **Satış** sekmesinde görüntülenir.      |
-|   **Plan**   |                                     Bir projeyle ilişkili teklifi kazandığınızda ve katılım sözleşme aşamasında ilerlediğinde, proje aşaması **Plan** olarak güncelleştirilir. Sözleşme ayrıntıları **Proje** sayfasındaki **Satış** sekmesinde görüntülenir.                                      |
-| **Tamamla** |                    Proje işi tamamlandığında, aşamayı **Tamamlandı** olarak değiştirebilirsiniz. Proje aşamasını tamamlandı olarak ayarlandığında, işin %100 tamamlanmış olduğu ancak projenin herhangi bir bekleme süresi veya gider girdilerinin kaydedilmesi için açık tutulduğu anlaşılır.                     |
-|  **Kapat**   |           Proje ile ilgili tüm işlemler kaydedildiğinde ve başka bir şeyin eklenmesini beklemediğinizde, aşamayı el ile **Kapat** olarak ayarlayabilirsiniz. Projede **Kapat** olarak ayarlandığında, proje üzerinde daha fazla işlem yapamazsınız ve proje salt okunur olacaktır.           |
+| Görev | Description | 
+|------------|----------|
+| **New** | Bir proje oluşturduğunuzda, aşama **Yeni** olarak ayarlanmaktadır. Projeyi bir şablondan oluşturduysanız, bu aşamada proje zamanlama, tahminler ve takım verilerine sahip olabilir. Aksi takdirde, projenin taslağı olacaktır ve diğer proje bileşenlerinin geri kalanını el ile girmeniz gerekecektir. |
+| **Teklif** |  Bir projeyi teklifle ilişkilendirdiğinizde veya tekliften oluşturduğunuzda, proje aşaması **Teklif** olarak ayarlanır ve tahmini başlangıç ve bitiş tarihleri de güncelleştirilir. Proje teklif aşamasındayken, teklif hakkındaki ayrıntılar **Proje** sayfasındaki **Satış** sekmesinde görüntülenir. |
+| **Plan** |  Bir projeyle ilişkili teklifi kazandığınızda ve katılım sözleşme aşamasında ilerlediğinde, proje aşaması **Plan** olarak güncelleştirilir. Sözleşme ayrıntıları **Proje** sayfasındaki **Satış** sekmesinde görüntülenir. |
+| **Tamamla** | Proje işi tamamlandığında, aşamayı **Tamamlandı** olarak değiştirebilirsiniz. Proje aşamasını tamamlandı olarak ayarlandığında, işin %100 tamamlanmış olduğu ancak projenin herhangi bir bekleme süresi veya gider girdilerinin kaydedilmesi için açık tutulduğu anlaşılır. |
+| **Kapat** | Proje ile ilgili tüm işlemler kaydedildiğinde ve başka bir şeyin eklenmesini beklemediğinizde, aşamayı el ile **Kapat** olarak ayarlayabilirsiniz. Projede **Kapat** olarak ayarlandığında, proje üzerinde daha fazla işlem yapamazsınız ve proje salt okunur olacaktır. |
 
 ## <a name="to-track-a-projects-status"></a>Bir projenin durumunu izlemek için  
 

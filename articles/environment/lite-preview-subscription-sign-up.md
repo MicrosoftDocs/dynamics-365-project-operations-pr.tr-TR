@@ -4,14 +4,14 @@ description: Bu konuda, Project Operations Lite dağıtımına (anlaşmadan prof
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991555"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588024"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Önizleme aboneliği (lite) için kaydolma 
 
@@ -43,7 +43,7 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 > Aşağıdaki adımları tamamlamak için kuruluşunuzun Microsoft 365 Portalı'na yönetim erişimine sahip olmanız gerekir.
 
 
-1. Kullanıcılarınıza lisans atamak için [Microsoft 365 yönetim merkezine](https://portal.office.com/) gidin.
+1. Lisansları kullanıcılarınıza atamak için [Microsoft 365 yönetim merkezine](https://portal.office.com/) gidin.
 2. **Etkin kullanıcılar** sayfasında lisans atamak istediğiniz kullanıcıları seçin.
 3. **Dynamics 365 Project Operations** lisansının seçili olduğunu doğrulayın. 
 4. **Değişiklikleri Kaydet**'i seçin.

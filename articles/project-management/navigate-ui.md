@@ -4,14 +4,14 @@ description: Bu konuda, Dynamics 365 Project Operations'ta Proje yönetimi hakk�
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9d0477954da664b71020ef4dfae81a14b999c6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989170"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589588"
 ---
 # <a name="navigating-the-user-interface"></a>Kullanıcı arabiriminde gezinme
 

@@ -3,15 +3,15 @@ title: Project Operations'da alt sözleşme yönetimi
 description: Bu konu, proje tabanlı kuruluşlardaki tipik uçtan uca alt sözleşme yönetim sürecine genel bir bakış sağlar.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323620"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593038"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations'da alt sözleşme yönetimi
 
@@ -46,7 +46,7 @@ Alt sözleşme satırı miktar tabanlı veya iş tabanlı olabilir.
 
 Bir alt sözleşme satırı **Miktar tabanlı** olduğunda, zaman, gider veya malzeme alt sözleşme satırındaki satın alınan miktar herhangi bir projede kullanılabilir.
 
-Bir alt sözleşme satırı **İş tabanlı** olduğunda, alt sözleşme satırı proje planındaki bir düğümle temsil edilen bir iş gövdesiyle eşlenir. Alt sözleşme satırının değeri, ilgili işi teslim etmek için gerekli olan tüm bileşenlerin toplamıdır. Bunlar, alt sözleşme satırı ayrıntıları olarak modellenir ve bir zaman, gider veya malzeme koleksiyonu olabilir. İş tabanlı alt sözleşme satırı için, alt sözleşme satırı aynı zamanda tek bir projeye tahsis edilmiş olur.
+Bir alt sözleşme satırı **İş tabanlı** olduğunda, alt sözleşme satırı proje planındaki bir düğümle temsil edilen bir iş gövdesiyle eşlenir. Alt sözleşme satırının değeri, ilgili işi teslim etmek için gerekli olan tüm bileşenlerin toplamıdır. Bunlar, alt sözleşme satırı ayrıntıları olarak modellenir ve bir zaman, gider veya malzeme koleksiyonu olabilir. İş tabanlı alt sözleşme satırı için, alt sözleşme satırı aynı zamanda tek bir projeye tahsis edilmiş olur. Bu tür alt sözleşmeler şu anda Project Operations tarafından desteklenmemektedir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

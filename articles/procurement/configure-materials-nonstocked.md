@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003255"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592992"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 
@@ -42,8 +42,8 @@ Bu bölümde, Stoklanmayan malzemeler ve satıcı faturaları için gerekli olan
     - Satıcılar v2 (msdyn_vendors)
     - Malzeme tahminleri için Project Operations tablosu (msdyn_estimatelines)
     - Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn_projectvendorinvoices)
-    - Project Operations tümleştirme projesi satıcı fatura satırı dışa aktarma varlığı (msdyn_projectvendorinvoicelines)
-    - Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals). Eşleme sürümü 1.0.0.14 veya üstü çalıştırdığınızdan emin olun. Haritanın etkin sürümünü **ikili yazma** sayfasındaki **sürüm** sütununda görebilirsiniz. Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip ardından seçili sürümü kaydederek etkinleştirebilirsiniz.
+    - Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn_projectvendorinvoicelines)
+    - Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals). Eşleme sürümü 1.0.0.14 veya üstü çalıştırdığınızdan emin olun. Haritanın etkin sürümünü **çift yazma** sayfasındaki **sürüm** sütununda görebilirsiniz. Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip ardından seçili sürümü kaydederek etkinleştirebilirsiniz.
 
 Standart gösteri verilerini kullanıyorsanız, ilk eşitleme ile aşağıdaki varlık eşlemelerini durdurup yeniden başlatmanız da gerekebilir:
   - Ödeme günleri CDS v2 (msdyn_paymentdays)
@@ -69,7 +69,7 @@ Stoklanmayan malzemeler, Finance'te içinde **serbest bırakılan ürünler** ol
 
 ### <a name="enable-the-feature-key-for-pending-vendor-invoices"></a>Bekleyen satıcı faturaları için özellik anahtarını etkinleştirme
 
-Bekleyen satıcı fatura satırlarına proje ayrıntıları eklemek için işlevleri etkinleştirmek üzere aşağıdaki adımları uygulayın.
+Bekleyen satıcı faturası satırlarına proje ayrıntıları eklemek için işlevleri etkinleştirmek üzere aşağıdaki adımları uygulayın.
 
 1. Finance'te, **Özellik Yönetimi** çalışma alanına gidin.
 2. Özellik listesinde, **kaynak tabanlı/Stoklanmayan senaryolar özelliği için Project Operations'da bekleyen satıcı faturalarını etkinleştir**'i bulun ve **Etkinleştir**'i seçin.

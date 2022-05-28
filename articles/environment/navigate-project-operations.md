@@ -4,25 +4,25 @@ description: Bu konu, Lifecycle Services'ten Project Operations'a nasıl erişim
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591888"
 ---
 # <a name="navigate-project-operations"></a>Project Operations'ta gezinme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Kaynağı/stoğu tutulmayan senaryolar için Dynamics 365 Project Operations, iki bileşenden oluşur: 
 
  - **Common Data Service (CDS) ortamında Project Operations**: Bu bileşen, proforma faturalama fırsatına yönelik yetenekleri ve süreçleri kapsar. 
- - **Dynamics 365 Finance ortamdaki proje yönetimi ve hesaplaması**: Bu bileşen gider yönetim yeteneklerini, proje hesaplarını ve gelir kabulünü kapsar. 
+ - **Dynamics 365 Finance ortamında proje yönetimi ve muhasebe**: Bu bileşen, gider yönetimi özelliklerini, proje muhasebesini ve gelir kabulünü kapsar. 
 
 Bu konu açıklanan Project Operations hazırladıktan sonra, Lifecycle Services (LCS) **Ortam ayrıntıları** sayfası Project Operations'ın her iki bileşenine de kolay erişim sağlar.  
 

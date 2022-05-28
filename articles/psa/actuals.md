@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 08/03/2020
-ms.topic: article
+ms.topic: overview
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7ab2638d82eb5ba928d95ca6a524a1566f21e1ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992500"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587610"
 ---
 # <a name="actuals-overview"></a>Gerçek değerlere genel bakış
 
@@ -30,7 +31,7 @@ ms.locfileid: "6992500"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Fiili değerler, bir projeki tamamlanmış iş tutarıdır. Proje fiili değerleri, kaynak belgelerine doğru izlenebilir. Bu kaynak belgeler arasında zaman, gider, günlük girişleri ve ayrıca faturalar vardır.
+Fiili değerler, bir projeki tamamlanmış iş tutarıdır. Proje fiili değerleri, kaynak belgelerine doğru izlenebilir. Bu kaynak belgeler arasında zaman, gider, yevmiye defteri girişleri ve ayrıca faturalar vardır.
 
 ![Proje fiili değerlerini kaynak belgelerde izleme.](media/basic-guide-18.png)
 
@@ -81,7 +82,7 @@ PSA bir proje sırasında gerçekleşen mali işlemleri kaydeder. Bu işlemler *
 <th colspan="2">Sabit fiyat</th>
 </tr>
 <tr>
-<th>Gerçekler</th>
+<th>Gerçek değerler</th>
 <th>İşlem para birimi</th>
 <th>Sabit fiyat</th>
 <th>İşlem para birimi</th>
@@ -205,7 +206,7 @@ PSA bir proje sırasında gerçekleşen mali işlemleri kaydeder. Bu işlemler *
 <th colspan="2">Sabit fiyat</th>
 </tr>
 <tr>
-<th>Gerçekler</th>
+<th>Gerçek değerler</th>
 <th>İşlem para birimi</th>
 <th>Sabit fiyat</th>
 <th>İşlem para birimi</th>

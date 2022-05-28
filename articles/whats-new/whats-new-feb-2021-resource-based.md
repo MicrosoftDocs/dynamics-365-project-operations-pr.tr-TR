@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986830"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589036"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Şubat 2021'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse 4.7.0.95 ortamında Project Operations
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.16'te proje yönetimi ve hesaplaması 
+- Dynamics 365 Finance ortamı sürümü 10.0.16'da proje yönetimi ve muhasebe 
 
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 
@@ -44,14 +44,14 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | **Zaman girişi** | Kategori 2129161 | Kullanıcıların gönderilen veya onaylanan bir zaman girişini değiştirememesini ve güncelleştirememesini sağlamak için daha sıkı kısıtlamalar uygulandı. |
 | **Zaman girişi** | Kategori 2103572 | Proje dışı zaman girişleri için zaman onayının proje onaylayanı rolünü aramaması gerekir. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe 
 
-Dynamics 365 Finance uygulamasında Proje yönetimi ve muhasebe hakkında daha fazla bilgi için bkz. [Ocak 2021'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations](whats-new-jan-2021-resource-based.md).
+Dynamics 365 Finance'ta Proje yönetimi ve muhasebe hakkında daha fazla bilgi için [Ocak 2021 yenilikleri - Kaynak/stoğu tutulmayan tabanlı senaryolar için Project Operations](whats-new-jan-2021-resource-based.md) bölümüne göz atın.
 
 
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Yasal güncelleştirmeler hakkında bilgi edinmenin başka bir yolu, Lifecycle Services (LCS) portalında oturum açıp sorun arama aracını kullanarak planlanan mevzuat güncelleştirmelerini görüntülemektir. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Yasal güncelleştirmeler hakkında bilgi edinmenin başka bir yolu, Lifecycle Services (LCS) portalında oturum açıp sorun arama aracını kullanarak planlanan mevzuat güncelleştirmelerini görüntülemektir. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

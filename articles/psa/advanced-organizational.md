@@ -1,5 +1,5 @@
 ---
-title: Kuruluş birimleri
+title: Gelişmiş kuruluş birimleri
 description: Bu konu Dynamics 365 Project Service Automation uygulamasındaki kuruluş birimleri hakkında bilgi sağlar.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005100"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589450"
 ---
-# <a name="organizational-units"></a>Kuruluş birimleri 
+# <a name="about-organizational-units"></a>Kuruluş birimleri hakkında 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -59,7 +60,7 @@ Kuruluş birimi PSA'da iki rol oynar:
 
 Sözleşme birimleri hakkında en sık sorulan sorulardan bazıları şunlardır:
 
-### <a name="how-is-the-organizational-unit-entity-in-psa-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>PSA içindeki Kuruluş Birimi varlığının, Dynamics 365'de zaten varolan Kuruluş varlığıyla ilgisi nedir?
+### <a name="how-is-the-organizational-unit-entity-in-psa-related-to-the-organization-entity-that-already-exists-in-dynamics-365"></a>PSA içindeki Kuruluş Birimi varlığının, Dynamics 365'te zaten varolan Kuruluş varlığıyla ilgisi nedir?
 
 Microsoft Dynamics 365'teki Kuruluş varlığı genel bir Dynamics 365 kurulumunun adını temsil eder. Bu ad genellikle genel kuruluşun adıdır.
 
@@ -96,7 +97,7 @@ Kuruluş birimi, şirket içinde diğer bölümlere veya harici müşterilere sa
 
 Contoso, Ltd.'nin iki geliştirme merkezi vardır: Contoso ABD ve Contoso Hindistan. Bu iki geliştirme merkezi arasında kaynak maliyetleri büyük ölçüde farklılık gösterir.
 
-Contoso, BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
+Contoso BT hizmetlerini Latin Amerika, Kuzey Amerika, Asya-Pasifik, Batı Avrupa ve Orta Doğu gibi pek çok uluslararası pazarda satar. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir.
 
 Contoso ABD ve Contoso Hindistan kuruluş birimleri olarak ayarlanmış olmalıdır ve her kuruluş biriminin kendi maliyet fiyat listesi olmalıdır. Asya Pasifik, Latin Amerika, Kuzey Amerika, Batı Avrupa ve Orta Doğu satış bölgeleri olarak ayarlanmış olmalıdır ve her satış bölgesi kendi satış fiyatı listesine sahip olmalıdır.
 
@@ -122,7 +123,7 @@ Hayır. Geçerli PSA sürümünde, kuruluş birimleri hiyerarşik değildir. Bu,
 Bir dizi maliyet merkezi, bölüm, fatura ofisi, vb. içeren karmaşık bir hiyerarşiniz olduğunda, bu hiyerarşinin yaprak düğümlerini farklı kuruluş birimleri olarak ayarlayın.
 Aşağıdaki örnek tipik bir hiyerarşi gösterir:
 
-**ContosoHindistan**
+**Contoso Hindistan**
 
   - SAP Uygulaması 
 

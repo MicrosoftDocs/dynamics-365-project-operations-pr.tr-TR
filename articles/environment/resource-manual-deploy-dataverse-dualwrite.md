@@ -4,14 +4,14 @@ description: Bu konu, Project Operations Dataverse uygulamasının çift yazma d
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986470"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591244"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
 
@@ -37,7 +37,7 @@ Bu yordamı tamamlayabilmeniz için, Yönetici olarak oturum açmalısınız.
 3. Ortam türünü seçin. Deneme teklifine kaydolduysanız, **Deneme (abonelik tabanlı)** seçeneğini belirleyin.
 4. Dağıtım bölgesini onaylayın.
 5. **Bu ortam için veritabanı oluştur** seçeneğini etkinleştirin. 
-6. Dili onaylayın ve ardından para biriminin Finance and Operations uygulamalarınızın para birimiyle eşleştiğini onaylayın.
+6. Dili doğrulayın ve ardından para biriminin Finans ve Operasyon uygulamalarınızın para birimiyle eşleştiğini doğrulayın.
 7. **Dynamics 365 uygulamaları** seçeneğini etkinleştirin ve **Bu uygulamaları otomatik olarak dağıt** alanının **Hiçbiri** olarak ayarlandığını onaylayın.
 8. Güvenlik grubu gerekiyorsa, bir güvenlik grubu ekleyin.
 9. Ortam oluşturmak için **Kaydet**'i seçin.
@@ -62,4 +62,4 @@ Bu yordamı yalnızca, Project Operations yüklemeden önce önceki yordamları 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Ortamlarınıza bağlantı verme
 
-Dataverse ortamı dağıtıldıktan sonra, Finance and Operations uygulamalarınızda bağlantıyı ayarlayabilirsiniz. [Ortamınızı bağlamak için çift yazma sihirbazını kullanma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) bölümündeki adımları izleyin.
+Dataverse ortamı dağıtıldıktan sonra Finans ve Operasyon uygulamalarınızda bağlantıyı ayarlayabilirsiniz. [Ortamınızı bağlamak için çift yazma sihirbazını kullanma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) bölümündeki adımları izleyin.

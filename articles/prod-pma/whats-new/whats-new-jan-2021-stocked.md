@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992770"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592670"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Stoklu/Ürün tabanlı senaryolar için Project Operations Ocak 2021'deki yenilikler veya değişiklikler
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Stoklu/Ürün tabanlı senaryolar için Project 
 
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.16'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.16'da proje yönetimi ve muhasebe
 
 
 ### <a name="quality-updates"></a>Kalite güncelleştirmeleri
@@ -142,7 +142,7 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Seyahat ve Gider                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | Project Operations'ta, Dataverse'teki şirketler arası görevlerin süresi oluşturulamıyor veya onaylanamıyor.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

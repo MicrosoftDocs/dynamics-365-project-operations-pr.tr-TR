@@ -1,80 +1,80 @@
 ---
-title: Project Operations kurulumu ve yapılandırma verileri tümleştirmesi
-description: Bu konu, Project Operations ikili yazma eşlemelerinin ayarlanması ve yapılandırılması hakkında bilgi sağlar.
+title: Project Operations kurulumu ve yapılandırma verilerini tümleştirme
+description: Bu konu, Project Operations çift yazma eşlemelerinin ayarlanması ve yapılandırılması hakkında bilgi sağlar.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986560"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586920"
 ---
-# <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations kurulumu ve yapılandırma verileri tümleştirmesi
+# <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations kurulumu ve yapılandırma verilerini tümleştirme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu kurulum ve yapılandırma varlıkları için Project Operations iki yazma tümleştirmesiyle ilgili bilgi sağlar.
+Bu konu, kurulum ve yapılandırma varlıkları için Project Operations çift yazma tümleştirmesiyle ilgili bilgi sağlar.
 
-## <a name="project-contracts-contract-lines-and-projects"></a>Proje Sözleşmesi, Sözleşme Satırları ve projeler
+## <a name="project-contracts-contract-lines-and-projects"></a>Proje sözleşmeleri, sözleşme satırları ve projeler
 
-Proje sözleşmeleri, sözleşme satırları ve projeler; daha fazla hesaplama için Dataverse uygulamasında oluşturulur ve Finance and Operations uygulamalara eşitlenir. Bu varlıklardaki kayıtlar yalnızca Dataverse uygulamasında oluşturulup silinebilir. Ancak, satış vergisi grubu Varsayılanları ve mali boyutlar gibi muhasebe öznitelikleri, Finance and Operations uygulamalarındaki bu kayıtlara eklenebilir.
+Proje sözleşmeleri, sözleşme satırları ve projeler, Dataverse'te oluşturulur ve ek muhasebe için Finans ve Operasyon uygulamalarıyla eşitlenir. Bu varlıklardaki kayıtlar, yalnızca Dataverse'te oluşturulup silinebilir. Ancak satış vergisi grubu varsayılanları ve mali boyutlar gibi muhasebe öznitelikleri, Finans ve Operasyon uygulamalarında bu kayıtlara eklenebilir.
 
   ![Proje sözleşmesi tümleştirme kavramları.](./media/1ProjectContract.jpg)
 
-Satış etkinliği müşteri adayları, fırsatlar ve teklifler Dataverse uygulamasında izlenir ve Bu etkinlikle ilişkilendirilmiş bir aşağı akış hesaplaması olmadığından Finance and Operations uygulamalara eşitlenmez.
+Satış etkinliği müşteri adayları, fırsatlar ve teklifler, Dataverse'te izlenir ve bu etkinlikle ilişkilendirilmiş bir aşağı akış muhasebesi olmadığından Finans ve Operasyon uygulamalarıyla eşitlenmez.
 
-Dataverse Uygulamasındaki proje sözleşmesi işlevi, **Proje sözleşmesi başlıkları (SalesOrders)** tablo eşlemesini kullanan Finance and Operations uygulamalarda proje sözleşme kaydı oluşturur. Proje sözleşmesini Dataverse'e kaydetme, Proje sözleşmesi müşteri varlık kaydının oluşturulmasına da başlar. Bu kayıt **proje finansmanı kaynak (msdyn\_projectcontractssplitbillingrules)** tablo haritasını kullanan Finance and Operations uygulamalarla eşitlenir . Bu harita proje sözleşmesi müşteri eklemelerini, güncelleştirmeleri ve silmeleri aynı zamanda eşitler. Faturalama yüzdelerini Proje sözleşmesi arasında bölme müşteriler yalnızca Dataverse uygulamasında ana ve Finance and Operations uygulamalarına eşitlenmemiş durumdadır.
+Dataverse'teki proje sözleşmesi özelliği, **Proje sözleşmesi üst bilgileri (salesorders)** tablo eşlemesi kullanılarak Finans ve Operasyon uygulamalarında proje sözleşmesi kaydı oluşturur. Proje sözleşmesininin Dataverse'e kaydedilmesi ile proje sözleşmesi müşteri varlık kaydı oluşturulmaya başlanır. Bu kayıt, **Proje finansman kaynağı (msdyn\_projectcontractssplitbillingrules)** tablo eşlemesi kullanılarak Finans ve Operasyon uygulamalarıyla eşitlenir. Bu eşleme, proje sözleşmesi müşteri eklemelerini, güncelleştirmeleri ve silmeleri de eşitler. Faturalandırma yüzdelerinin proje sözleşmesi müşterileri arasında bölünmesi, yalnızca Dataverse'te gerçekleştirilir ve Finans ve Operasyon uygulamalarıyla eşitlenmez.
 
-Dataverse'de bir proje Sözleşmesinde oluşturulduktan sonra, proje muhasebecisi, **proje yönetimi ve hesap** > **projesi sözleşmeleri** > **Kurulum** > **Varsayılan muhasebeyi göster**'e giderek Finance and Operations uygulamalardaki Bu proje sözleşmesi için hesap özniteliklerini güncelleştirebilir. Muhasebeci, Dataverse uygulamasında ilgili proje sözleşme kaydını açan Finance and Operations uygulamalardaki proje sözleşme kimliğini seçerek, istenen teslim tarihi ve sözleşme tutarı gibi işlemsel Proje sözleşmesi özniteliklerini gözden geçirebilir.
+Proje sözleşmesinin Dataverse'te oluşturulmasından sonra proje muhasebecisi, **Proje yönetimi ve muhasebe** > **Proje sözleşmeleri** > **Kurulum** > **Varsayılan muhasebeyi göster** bölümüne giderek proje sözleşmesinin muhasebe özniteliklerini Finans ve Operasyon uygulamalarında güncelleştirebilir. Muhasebeci, Dataverse'te ilgili proje sözleşmesi kaydını açan Finans ve Operasyon uygulamalarındaki proje sözleşmesi kimliğini seçerek istenen teslim tarihi ve sözleşme tutarı gibi operasyonel proje sözleşmesi özniteliklerini inceleyebilir.
 
-Proje varlığı, **Projects v2 (msdyn\_projects)** tablo eşlemesi kullanılarak Finance and Operations uygulamalarla eşitlenir. Proje muhasebecisi şunları yapabilir:
+Proje varlığı, **Projects V2 (msdyn\_projects)** tablo eşlemesi kullanılarak Finans ve Operasyon uygulamalarıyla eşitlenir. Proje muhasebecisi şunları yapabilir:
 
-  - **Proje yönetimi ve muhasebe** > **Tüm projeler**'e gderek Finance and Operations'ta projeleri gözden geçirin. 
-  - **Proje yönetimi ve hesap** > **Tüm projeler** > **Kurulum** > **Varsayılan muhasebeyi göster**'e giderek Finance and Operations uygulamalarında proje için hesaplama özniteliklerini güncelleştirin.  
-  - Dataverse Uygulamasında ilgili proje kaydını açan Finance and Operations uygulamalardaki proje kimliğini seçerek tahmini başlangıç ve bitiş tarihleri gibi işlemsel proje özniteliklerini gözden geçirin.
+  - **Proje yönetimi ve muhasebe** > **Tüm projeler**'e giderek Finans ve Operasyon uygulamalarında projeleri inceleyin. 
+  - **Proje yönetimi ve muhasebe** > **Tüm projeler** > **Kurulum** > **Varsayılan muhasebeyi göster**'e giderek Finans ve Operasyon uygulamalarında projenin muhasebe özniteliklerini güncelleştirin.  
+  - Dataverse'te ilgili proje kaydını açan proje kimliğini seçerek Finans ve Operasyon uygulamalarında tahmini başlangıç ve bitiş tarihleri gibi operasyonel proje özniteliklerini inceleyin.
 
-Proje, **Proje sözleşmesi satırı** varlığı aracılığıyla proje sözleşmesiyle ilişkilendirilmiştir.
+Projeler, **Proje sözleşmesi satırı** varlığı aracılığıyla proje sözleşmeleriyle ilişkilendirilir.
 
-Dataverse Uygulamasındaki proje sözleşmesi satırları, **Proje sözleşmesi satırları (salesorderdetails)** tablo eşlemesini kullanan Finance and Operations uygulamalarda proje sözleşme kaydı oluşturur. Faturalandırma yöntemi, Finance and Operations uygulamalardaki Proje sözleşmesi faturalama kural türünü tanımlar :
+Dataverse'teki proje sözleşmesi satırları, **Proje sözleşmesi satırları (salesorderdetails)** tablo eşlemesini kullanarak Finans ve Operasyon uygulamalarında sözleşme faturalandırma kuralı oluşturur. Faturalandırma yöntemi, Finans ve Operasyon uygulamalarında proje sözleşmesi faturalandırma kuralı türünü tanımlar:
 
-  - Bir saat ve malzeme faturalama yöntemine sahip Proje sözleşmesi satırları, saat ve malzeme türünde faturalama kuralı oluşturur.
-  - Sabit fiyat faturalama yöntemi sözleşme satırları bir kilometre taşı faturalama kuralı oluşturun.
+  - Zaman ve malzeme faturalandırma yöntemine sahip proje sözleşme satırları, zaman ve malzeme türünden faturalandırma kuralı oluşturur.
+  - Sabit fiyat faturalandırma yöntemi olan sözleşme satırları, kilometre taşı faturalandırma kuralı oluşturur.
 
-Proje sözleşmesi satırları, **Proje Yönetim ve muhasebe** > **Proje sözleşmeleri** > **Kurulum** > **varsayılan muhasebeyi göster**'e giderek ve **sözleşme satırları** sekmesindeki ayrıntıları gözden geçirerek, Finance and Operations uygulamalardaki proje muhasebecisi tarafından gözden geçirilebilir. Muhasebeci, bu sekmedeki sabit fiyat faturalama yöntemi sözleşme satırları için varsayılan mali boyutları da ayarlayabilir.
+Finans ve Operasyon uygulamalarında proje sözleşme satırları, **Proje yönetimi ve muhasebe** > **Proje sözleşmeleri** > **Kurulum** > **Varsayılan muhasebeyi göster** bölümüne gidip **Sözleşme satırları** sekmesindeki ayrıntıları inceleyerek gözden geçirilir. Muhasebeci, bu sekme üzerinden sabit fiyatlı faturalandırma yöntemi kullanan sözleşme satırları için varsayılan mali boyutları da ayarlayabilir.
 
-## <a name="billing-milestones"></a>Faturalama Kilometre Taşı
+## <a name="billing-milestones"></a>Faturalandırma kilometre taşları
 
-Sabit fiyatlı fatura yöntemi kullanılarak oluşturulan proje sözleşme satırları, fatura kilometre taşları aracılığıyla faturalandırılır. Fatura kilometre taşları , **Project Operations tümleştirme sözleşmesi satırı kilometre taşları (msdyn\_contractlinescheduleofvalues)** tablo eşlemesini kullanarak, Finance and Operations uygulamalardaki proje mahsup hareketleriyle eşitlenir.
+Sabit fiyatlı faturalandırma yöntemi kullanılarak oluşturulan proje sözleşme satırları, faturalandırma kilometre taşları aracılığıyla faturalandırılır. Faturalandırma kilometre taşları, **Project Operations tümleştirmesi sözleşme satırı kilometre taşları (msdyn\_contractlinescheduleofvalues)** tablo eşlemesini kullanarak Finans ve Operasyon uygulamalarında proje firma işlemleriyle eşitlenir.
 
-  ![Faturalama Kilometre Taşı tümleştirmesi.](./media/2Milestones.jpg)
+  ![Faturalandırma kilometre taşı tümleştirmesi.](./media/2Milestones.jpg)
 
-Muhasebeci hesaba mahsup hareketleri gözden geçirebilir ve **proje yönetimi ve muhasebe** > **proje sözleşmeleri** > **Sürdür** > **Hesapta işlemler** veya **PRoje yönetimi ve muhasebe** > **tüm projeler** > **Sürdür** > **Hesapta işlemler**'e giderek bu işlemler için hesapta işlemler ve muhasebe özniteliklerini ayarlayın.
+Muhasebeci, **Proje yönetimi ve muhasebe** > **Proje sözleşmeleri** > **Saklama** > **Hesaba mahsup işlemler** veya **Proje yönetimi ve muhasebe** > **Tüm projeler** > **Saklama** > **Hesaba mahsup işlemler**'e giderek hesaba mahsup işlemleri inceleyebilir ve bu işlemlerin muhasebe özniteliklerini ayarlayabilir.
 
-Belirli bir proje sözleşme satırı için ilk olarak bir faturalama kilometre taşı oluşturduğunuzda, sistem otomatik olarak bu sözleşme satırıyla ilişkilendirilen proje için sabit fiyatlı bir gelir tahmini projesi oluşturur. Sabit fiyatlı gelir tahmin projeleri **Proje yönetimi ve muhasebe** > **Sabit fiyatlı gelir tahmin etme projelerine** giderek gözden geçirilebilir.
+Belirli bir proje sözleşmesi satırı için faturalandırma kilometre taşı oluştururken sistem, otomatik olarak bu sözleşme satırıyla ilişkilendirilen proje için sabit fiyatlı bir gelir tahmini projesi oluşturur. Sabit fiyatlı gelir tahmini projeleri, **Proje yönetimi ve muhasebe** > **Sabit fiyatlı gelir tahmini projeleri**'ne giderek incelenebilir.
 
 ### <a name="project-tasks"></a>Proje görevleri
 
-Proje görevleri yalnızca başvuru amacıyla **proje görevleri (msdyn\_projecttasks)** tablosu aracılığıyla Finance and Operations uygulamalarla eşitlenir. Oluşturma, güncelleştirme ve silme işlemleri Finance and Operations uygulamalar aracılığıyla desteklenmez.
+Proje görevleri, **Proje görevleri (msdyn\_projecttasks)** tablo eşlemesi aracılığıyla yalnızca başvuru amacıyla Finans ve Operasyon uygulamalarıyla eşitlenir. Oluşturma, güncelleştirme ve silme işlemleri, Finans ve Operasyon uygulamalarıyla desteklenmez.
 
-  ![Proje görevleri tümleştirmesi.](./media/3Tasks.jpg)
+  ![Proje görevlerini tümleştirme.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Proje kaynakları
 
-**Proje kaynak rolleri** varlığı, yalnızca başvuru amacıyla tüm şirketlerin **proje kaynak rolleri (bookableresourcecategories)** tablo eşlemesi kullanılarak Finance and Operations uygulamalarla eşitlenir. Dataverse Uygulamasındaki kaynak rolleri şirkete özgü olmadığı için, sistem otomatik olarak, Çift yazma tümleştirme kapsamına dahil edilen tüm yasal varlıklar için Finance and Operations uygulamalara özgü ilgili kaynak rolleri kayıtlarını otomatik olarak oluşturur.
+**Proje kaynak rolleri** varlığı, **Tüm şirketler için proje kaynak rolleri (bookableresourcecategories)** tablo eşlemesi kullanılarak yalnızca başvuru amacıyla Finans ve Operasyon uygulamalarıyla eşitlenir. Dataverse'teki kaynak rollerinin şirketlere özgü olmaması nedeniyle sistem, çift yazma tümleştirme kapsamına giren tüm tüzel kişilikler için Finans ve Operasyon uygulamalarında otomatik olarak şirkete özgü kaynak rolleri oluşturur.
 
-![Kaynak rolleri tümleştirmesi.](./media/5Resources.jpg)
+![Kaynak rollerini tümleştirme.](./media/5Resources.jpg)
 
-Project Operations proje kaynakları Dataverse uygulamasında saklanır ve Finance and Operations uygulamalarla eşitlenmez.
+Project Operations'taki proje kaynakları, Dataverse'te saklanır ve Finans ve Operasyon uygulamalarıyla eşitlenmez.
 
-### <a name="transaction-categories"></a>Hareket kategorileri
+### <a name="transaction-categories"></a>İşlem kategorileri
 
-İşlem kategorileri, Dataverse'te sürdürülür ve **Proje işlem kategorileir (msdyn\_transactioncategories)** Tablo eşlemesi kullanılarak Finance and Operations uygulamalara eşitlenir. Hareket kategorisi kaydı eşitlendikten sonra, sistem otomatik olarak dört paylaşılan kategori kaydı oluşturur. Her kayıt, Finance and Operations uygulamalardaki bir hareket türüne karşılık gelir ve bunları hareket kategorisi kaydıyla bağlantılandırır.
+İşlem kategorileri, Dataverse'te saklanır ve **Proje işlem kategorileri (msdyn\_transactioncategories)** tablo eşlemesi kullanılarak Finans ve Operasyon uygulamalarıyla eşitlenir. İşlem kategorisi kaydı eşitlendikten sonra sistem otomatik olarak dört paylaşılan kategori kaydı oluşturur. Her kayıt, Finans ve Operasyon uygulamalarındaki bir işlem türüne karşılık gelir ve bunları işlem kategorisi kaydına bağlar.
 
-![İşlem kategorileri tümleştirmesi.](./media/4TransactionCategories.jpg)
+![İşlem kategorilerini tümleştirme.](./media/4TransactionCategories.jpg)
 
-Tahminler ve gerçekler için hareket kategorileri kullanılması, her yasal varlıkta karşılık gelen proje kategorilerini oluşturmak için proje muhasebeci veya sistem Yönetici gerekir. Daha fazla bilgi için bkz. [Proje kategorilerini yapılandırma](../project-accounting/configure-project-categories.md).
+Tahmini ve gerçek değerler için işlem kategorilerinin kullanılması için proje muhasebecisinin ya da sistem yöneticisinin her tüzel varlıkta karşılık gelen proje kategorilerini oluşturması gerekir. Daha fazla bilgi için bkz. [Proje kategorilerini yapılandırma](../project-accounting/configure-project-categories.md).

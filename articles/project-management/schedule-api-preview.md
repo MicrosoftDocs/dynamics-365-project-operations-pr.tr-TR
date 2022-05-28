@@ -2,16 +2,16 @@
 title: Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
 description: Bu konu Proje zamanlama API'larının kullanımına yönelik bilgiler ve örnekler sağlar.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487709"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592072"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
 
@@ -42,7 +42,7 @@ OperationSet, bir hareket içinde işlenmesi gereken, zamanlamayı etkileyen bir
 
 Aşağıda geçerli Proje zamanlama API'larının listesi yer almaktadır.
 
-- **msdyn_CreateProjectV1**: Bu API, proje oluşturmak için kullanılabilir. Proje ve varsayılan proje demeti hemen oluşturulur.
+- **msdyn_CreateProjectV1**: Bu API, proje oluşturmak için kullanılabilir. Proje ve varsayılan proje paketi hemen oluşturulur.
 - **msdyn_CreateTeamMemberV1**: Bu API, proje takımı üyesi oluşturmak için kullanılabilir. Takım üyesi kaydı hemen oluşturulur.
 - **msdyn_CreateOperationSetV1**: Bu API, bir hareket içinde gerçekleştirilmesi gereken çok sayıda isteği zamanlamak için kullanılabilir.
 - **msdyn_PSSCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
@@ -56,14 +56,14 @@ Hem **CreateProjectV1** hem de **CreateTeamMemberV1** içeren kayıtlar hemen ol
 
 ## <a name="supported-operations"></a>Desteklenen işlemler
 
-| Zamanlama varlığı | Oluştur | Güncelleştirme | Delete | Dikkat edilmesi gereken önemli hususlar |
+| Zamanlama varlığı | Oluştur | Güncelleş | Silme | Dikkat edilmesi gereken önemli hususlar |
 | --- | --- | --- | --- | --- |
-Proje görevi | Evet | Evet | Evet | Hiçbiri |
-| Proje görevi bağımlılığı | Evet | Evet | | Proje görev bağımlılığı kayıtları güncelleştirilmemiş. Bunun yerine, eski bir kayıt silinebilir ve yeni bir kayıt oluşturulabilir. |
+Proje görevi | Evet | Evet | Evet | **Progress**, **EffortCompleted** ve **EffortRemaining** alanları, Project for the Web'de düzenlenebilir ancak Project Operations'ta düzenlenemez.  |
+| Proje görevi bağımlılığı | Evet |  | Evet | Proje görev bağımlılığı kayıtları güncelleştirilmemiş. Bunun yerine, eski bir kayıt silinebilir ve yeni bir kayıt oluşturulabilir. |
 | Kaynak atama | Evet | Evet | | Şu alanlara sahip işlemler desteklenmez: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ve **PlannedWork**. Kaynak atama kayıtları güncelleştirilmemiş. Bunun yerine, eski kayıt silinebilir ve yeni bir kayıt oluşturulabilir. |
-| Proje demeti | Yok | Yok | Yok | Varsayılan demet, **CreateProjectV1** API kullanılarak oluşturulmuş. |
+| Proje demeti | Evet | Evet | Evet | Varsayılan paket, **CreateProjectV1** API'sini kullanarak oluşturulur. Proje paketleri oluşturma ve silme desteği, Güncelleştirme Sürümü 16'da eklenmiştir. |
 | Proje takımı üyesi | Evet | Evet | Evet | Oluşturma işlemi için **CreateTeamMemberV1** API'sini kullanın. |
-| Project | Evet | Evet | Yok | Şu alanlara sahip işlemler desteklenmez: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ve **Duration**. |
+| Project | Evet | Evet |  | Şu alanlara sahip işlemler desteklenmez: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ve **Duration**. |
 
 Bu API'ler özel alanlar içeren varlık nesneleriyle çağrılabilir.
 
@@ -71,196 +71,207 @@ Kimlik özelliği isteğe bağlıdır. Sağlanmışsa, sistem bunu kullanmayı d
 
 ## <a name="restricted-fields"></a>Sınırlandırılmış alanlar
 
-Aşağıdaki tablolarda, **oluşturma** ve **düzenleme** için kısıtlanan alanlar tanımlanır.
+Aşağıdaki tablolarda, **Oluşturma** ve **Düzenleme** için kısıtlanan alanlar tanımlanır.
 
 ### <a name="project-task"></a>Proje görevi
 
-| **Mantıksal ad**                       | **Oluşturabilir** | **Düzenleyebilir**     |
+| Mantıksal ad                           | Oluşturabilir     | Düzenleyebilir         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | hayır             | hayır               |
-| msdyn_actualcost_base                  | hayır             | hayır               |
-| msdyn_actualend                        | hayır             | hayır               |
-| msdyn_actualsales                      | hayır             | hayır               |
-| msdyn_actualsales_base                 | hayır             | hayır               |
-| msdyn_actualstart                      | hayır             | hayır               |
-| msdyn_costatcompleteestimate           | hayır             | hayır               |
-| msdyn_costatcompleteestimate_base      | hayır             | hayır               |
-| msdyn_costconsumptionpercentage        | hayır             | hayır               |
-| msdyn_effortcompleted                  | hayır             | hayır               |
-| msdyn_effortestimateatcomplete         | hayır             | hayır               |
-| msdyn_iscritical                       | hayır             | hayır               |
-| msdyn_iscriticalname                   | hayır             | hayır               |
-| msdyn_ismanual                         | hayır             | hayır               |
-| msdyn_ismanualname                     | hayır             | hayır               |
-| msdyn_ismilestone                      | hayır             | hayır               |
-| msdyn_ismilestonename                  | hayır             | hayır               |
-| msdyn_LinkStatus                       | hayır             | hayır               |
-| msdyn_linkstatusname                   | hayır             | hayır               |
-| msdyn_msprojectclientid                | hayır             | hayır               |
-| msdyn_plannedcost                      | hayır             | hayır               |
-| msdyn_plannedcost_base                 | hayır             | hayır               |
-| msdyn_plannedsales                     | hayır             | hayır               |
-| msdyn_plannedsales_base                | hayır             | hayır               |
-| msdyn_pluginprocessingdata             | hayır             | hayır               |
-| msdyn_progress                         | hayır             | hayır (P4W için evet) |
-| msdyn_remainingcost                    | hayır             | hayır               |
-| msdyn_remainingcost_base               | hayır             | hayır               |
-| msdyn_remainingsales                   | hayır             | hayır               |
-| msdyn_remainingsales_base              | hayır             | hayır               |
-| msdyn_requestedhours                   | hayır             | hayır               |
-| msdyn_resourcecategory                 | hayır             | hayır               |
-| msdyn_resourcecategoryname             | hayır             | hayır               |
-| msdyn_resourceorganizationalunitid     | hayır             | hayır               |
-| msdyn_resourceorganizationalunitidname | hayır             | hayır               |
-| msdyn_salesconsumptionpercentage       | hayır             | hayır               |
-| msdyn_salesestimateatcomplete          | hayır             | hayır               |
-| msdyn_salesestimateatcomplete_base     | hayır             | hayır               |
-| msdyn_salesvariance                    | hayır             | hayır               |
-| msdyn_salesvariance_base               | hayır             | hayır               |
-| msdyn_scheduleddurationminutes         | hayır             | hayır               |
-| msdyn_scheduledend                     | hayır             | hayır               |
-| msdyn_scheduledstart                   | hayır             | hayır               |
-| msdyn_schedulevariance                 | hayır             | hayır               |
-| msdyn_skipupdateestimateline           | hayır             | hayır               |
-| msdyn_skipupdateestimatelinename       | hayır             | hayır               |
-| msdyn_summary                          | hayır             | hayır               |
-| msdyn_varianceofcost                   | hayır             | hayır               |
-| msdyn_varianceofcost_base              | hayır             | hayır               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Hayır (Proje için evet)             | Hayır (Proje için evet)               |
+| msdyn_effortremaining                  | Hayır (Proje için evet)              | Hayır (Proje için evet)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Hayır (Proje için evet)             | Hayır (Proje için evet) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Proje görevi bağımlılığı
 
-| **Mantıksal ad**              | **Oluşturabilir** | **Düzenleyebilir** |
+| Mantıksal ad                  | Oluşturabilir     | Düzenleyebilir     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | hayır             | hayır           |
-| msdyn_linktypename            | hayır             | hayır           |
-| msdyn_predecessortask         | evet            | hayır           |
-| msdyn_predecessortaskname     | evet            | hayır           |
-| msdyn_project                 | evet            | hayır           |
-| msdyn_projectname             | evet            | hayır           |
-| msdyn_projecttaskdependencyid | evet            | hayır           |
-| msdyn_successortask           | evet            | hayır           |
-| msdyn_successortaskname       | evet            | hayır           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Evet            | No           |
+| msdyn_predecessortaskname     | Evet            | No           |
+| msdyn_project                 | Evet            | No           |
+| msdyn_projectname             | Evet            | No           |
+| msdyn_projecttaskdependencyid | Evet            | No           |
+| msdyn_successortask           | Evet            | No           |
+| msdyn_successortaskname       | Evet            | No           |
 
 ### <a name="resource-assignment"></a>Kaynak atama
 
-| **Mantıksal ad**             | **Oluşturabilir** | **Düzenleyebilir** |
+| Mantıksal ad                 | Oluşturabilir     | Düzenleyebilir     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | evet            | hayır           |
-| msdyn_bookableresourceidname | evet            | hayır           |
-| msdyn_bookingstatusid        | hayır             | hayır           |
-| msdyn_bookingstatusidname    | hayır             | hayır           |
-| msdyn_committype             | hayır             | hayır           |
-| msdyn_committypename         | hayır             | hayır           |
-| msdyn_effort                 | hayır             | hayır           |
-| msdyn_effortcompleted        | hayır             | hayır           |
-| msdyn_effortremaining        | hayır             | hayır           |
-| msdyn_finish                 | hayır             | hayır           |
-| msdyn_plannedcost            | hayır             | hayır           |
-| msdyn_plannedcost_base       | hayır             | hayır           |
-| msdyn_plannedcostcontour     | hayır             | hayır           |
-| msdyn_plannedsales           | hayır             | hayır           |
-| msdyn_plannedsales_base      | hayır             | hayır           |
-| msdyn_plannedsalescontour    | hayır             | hayır           |
-| msdyn_plannedwork            | hayır             | hayır           |
-| msdyn_projectid              | evet            | hayır           |
-| msdyn_projectidname          | hayır             | hayır           |
-| msdyn_projectteamid          | hayır             | hayır           |
-| msdyn_projectteamidname      | hayır             | hayır           |
-| msdyn_start                  | hayır             | hayır           |
-| msdyn_taskid                 | hayır             | hayır           |
-| msdyn_taskidname             | hayır             | hayır           |
-| msdyn_userresourceid         | hayır             | hayır           |
+| msdyn_bookableresourceid     | Evet            | No           |
+| msdyn_bookableresourceidname | Evet            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Evet            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Proje takımı üyesi
 
-| **Mantıksal ad**                                 | **Oluşturabilir** | **Düzenleyebilir** |
+| Mantıksal ad                                     | Oluşturabilir     | Düzenleyebilir     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | hayır             | hayır           |
-| msdyn_creategenericteammemberwithrequirementname | hayır             | hayır           |
-| msdyn_deletestatus                               | hayır             | hayır           |
-| msdyn_deletestatusname                           | hayır             | hayır           |
-| msdyn_effort                                     | hayır             | hayır           |
-| msdyn_effortcompleted                            | hayır             | hayır           |
-| msdyn_effortremaining                            | hayır             | hayır           |
-| msdyn_finish                                     | hayır             | hayır           |
-| msdyn_hardbookedhours                            | hayır             | hayır           |
-| msdyn_hours                                      | hayır             | hayır           |
-| msdyn_markedfordeletiontimer                     | hayır             | hayır           |
-| msdyn_markedfordeletiontimestamp                 | hayır             | hayır           |
-| msdyn_msprojectclientid                          | hayır             | hayır           |
-| msdyn_percentage                                 | hayır             | hayır           |
-| msdyn_requiredhours                              | hayır             | hayır           |
-| msdyn_softbookedhours                            | hayır             | hayır           |
-| msdyn_start                                      | hayır             | hayır           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Mantıksal ad**                       | **Oluşturabilir** | **Düzenleyebilir** |
+| Mantıksal ad                           | Oluşturabilir     | Düzenleyebilir     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | hayır             | hayır           |
-| msdyn_actualexpensecost_base           | hayır             | hayır           |
-| msdyn_actuallaborcost                  | hayır             | hayır           |
-| msdyn_actuallaborcost_base             | hayır             | hayır           |
-| msdyn_actualsales                      | hayır             | hayır           |
-| msdyn_actualsales_base                 | hayır             | hayır           |
-| msdyn_contractlineproject              | evet            | hayır           |
-| msdyn_contractorganizationalunitid     | evet            | hayır           |
-| msdyn_contractorganizationalunitidname | evet            | hayır           |
-| msdyn_costconsumption                  | hayır             | hayır           |
-| msdyn_costestimateatcomplete           | hayır             | hayır           |
-| msdyn_costestimateatcomplete_base      | hayır             | hayır           |
-| msdyn_costvariance                     | hayır             | hayır           |
-| msdyn_costvariance_base                | hayır             | hayır           |
-| msdyn_duration                         | hayır             | hayır           |
-| msdyn_effort                           | hayır             | hayır           |
-| msdyn_effortcompleted                  | hayır             | hayır           |
-| msdyn_effortestimateatcompleteeac      | hayır             | hayır           |
-| msdyn_effortremaining                  | hayır             | hayır           |
-| msdyn_finish                           | evet            | evet          |
-| msdyn_globalrevisiontoken              | hayır             | hayır           |
-| msdyn_islinkedtomsprojectclient        | hayır             | hayır           |
-| msdyn_islinkedtomsprojectclientname    | hayır             | hayır           |
-| msdyn_linkeddocumenturl                | hayır             | hayır           |
-| msdyn_msprojectdocument                | hayır             | hayır           |
-| msdyn_msprojectdocumentname            | hayır             | hayır           |
-| msdyn_plannedexpensecost               | hayır             | hayır           |
-| msdyn_plannedexpensecost_base          | hayır             | hayır           |
-| msdyn_plannedlaborcost                 | hayır             | hayır           |
-| msdyn_plannedlaborcost_base            | hayır             | hayır           |
-| msdyn_plannedsales                     | hayır             | hayır           |
-| msdyn_plannedsales_base                | hayır             | hayır           |
-| msdyn_progress                         | hayır             | hayır           |
-| msdyn_remainingcost                    | hayır             | hayır           |
-| msdyn_remainingcost_base               | hayır             | hayır           |
-| msdyn_remainingsales                   | hayır             | hayır           |
-| msdyn_remainingsales_base              | hayır             | hayır           |
-| msdyn_replaylogheader                  | hayır             | hayır           |
-| msdyn_salesconsumption                 | hayır             | hayır           |
-| msdyn_salesestimateatcompleteeac       | hayır             | hayır           |
-| msdyn_salesestimateatcompleteeac_base  | hayır             | hayır           |
-| msdyn_salesvariance                    | hayır             | hayır           |
-| msdyn_salesvariance_base               | hayır             | hayır           |
-| msdyn_scheduleperformance              | hayır             | hayır           |
-| msdyn_scheduleperformancename          | hayır             | hayır           |
-| msdyn_schedulevariance                 | hayır             | hayır           |
-| msdyn_taskearlieststart                | hayır             | hayır           |
-| msdyn_teamsize                         | hayır             | hayır           |
-| msdyn_teamsize_date                    | hayır             | hayır           |
-| msdyn_teamsize_state                   | hayır             | hayır           |
-| msdyn_totalactualcost                  | hayır             | hayır           |
-| msdyn_totalactualcost_base             | hayır             | hayır           |
-| msdyn_totalplannedcost                 | hayır             | hayır           |
-| msdyn_totalplannedcost_base            | hayır             | hayır           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Evet            | No           |
+| msdyn_contractorganizationalunitid     | Evet            | No           |
+| msdyn_contractorganizationalunitidname | Evet            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Evet            | Evet          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Proje demeti
+
+| Mantıksal ad          | Oluşturabilir      | Düzenleyebilir     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Evet             | No           |
+| msdyn_name            | Evet             | Evet          |
+| msdyn_project         | Evet             | No           |
+| msdyn_projectbucketid | Evet             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Sınırlamalar ve bilinen sorunlar
 Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 
-- Proje Zamanlama API'ları yalnızca **Microsoft Project Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
+- Proje Zamanlama API'leri yalnızca **Microsoft Project Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
+
     - Uygulama kullanıcıları
     - Sistem kullanıcıları
     - Tümleştirme kullanıcıları
     - Gerekli lisansa sahip olmayan diğer kullanıcılar
+
 - Her bir **OperationSet** yalnızca en fazla 100 işlem içerebilir.
 - Her bir kullanıcının açık en fazla 10 **OperationSet**'i olabilir.
 - Project Operations şu anda bir proje üzerinde en fazla 500 toplam görevi desteklemektedir.
@@ -269,8 +280,8 @@ Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 
 ## <a name="error-handling"></a>Hata işleme
 
-   - İşlem kümelerinden oluşturulan hataları gözden geçirmek için **ayarlar** \> **Zamanlama tümleştirme** \> **işlemleri kümeleri**'ne gidin.
-   - Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **Zamanlama tümleştirmesi** \> **PSS Hata günlükleri**'ne gidin.
+- İşlem kümelerinden oluşturulan hataları gözden geçirmek için **ayarlar** \> **Zamanlama tümleştirme** \> **işlemleri kümeleri**'ne gidin.
+- Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **Zamanlama tümleştirmesi** \> **PSS Hata günlükleri**'ne gidin.
 
 ## <a name="sample-scenario"></a>Örnek senaryo
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

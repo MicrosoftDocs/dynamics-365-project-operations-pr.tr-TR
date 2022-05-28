@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592256"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Temel teklif verme, fiyatlama ve faturalama kılavuzu
 
@@ -41,7 +42,7 @@ daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşa�
 - [Ürün kataloğu fiyatlandırması](../product-catalog-pricing.md)
 - [İş işlemleri](../basic-business-transactions.md)
 - [Tahminler](../estimates.md)
-- [Gerçekler](../actuals.md)
+- [Gerçek değerler](../actuals.md)
 - [Proje tekliflerini analiz etme](../basic-analyzing-quotes.md)
 - [Kuruluş birimleri](../advanced-organizational.md)
 - [Birim grupları ve birimler](../advanced-units.md)

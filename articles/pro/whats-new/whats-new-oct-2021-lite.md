@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 928e3b4ce4220c9044a8ae4c209049485af82cc4
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.openlocfilehash: d818ac832a9ccb7632f655e9d279b1d308f53827
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606832"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590971"
 ---
 # <a name="whats-new-october-2021---project-operations-lite-deployment"></a>Ekim 2021'deki Yenilikler: Project Operations lite dağıtımı
 

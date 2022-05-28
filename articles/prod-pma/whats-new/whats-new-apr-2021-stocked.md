@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005595"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589634"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>2021 Nisan'taki yenilikler ve değişiklikler - Stoğu tutulan/ürün tabanlı senaryolar için Project Operations
 
@@ -20,7 +20,7 @@ _**Şunlar için Geçerlidir:** Stoklu/Ürün tabanlı senaryolar için Project 
 
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
-- Dynamics 365 Finance uygulama ortamı sürüm 10.0.18'te proje yönetimi ve hesaplaması
+- Dynamics 365 Finance ortamı sürümü 10.0.18'de proje yönetimi ve muhasebe
  
 ### <a name="quality-updates"></a>Kalite güncelleştirmeleri
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri
 | Seyahat ve Gider                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Bir masraf kategorisi, proje dışı bir kategorideyse **Giderler** sayfasında seçilen mali boyutlar, gider raporuna kopyalanmaz.                                          |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finance and Operations uygulamalara yönelik mevzuat güncelleştirmeleri hakkında bilgi için bkz. [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates). Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
