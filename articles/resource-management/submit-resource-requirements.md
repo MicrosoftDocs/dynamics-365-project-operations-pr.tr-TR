@@ -4,14 +4,14 @@ description: Oluşturulmuş bir kaynak gereksinimini bir kaynak isteği olarak g
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994750"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598696"
 ---
 # <a name="submit-a-resource-request"></a>Kaynak isteği gönderme
 

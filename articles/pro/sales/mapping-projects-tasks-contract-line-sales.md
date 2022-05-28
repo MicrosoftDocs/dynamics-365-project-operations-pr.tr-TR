@@ -4,14 +4,14 @@ description: Bu konu, bir sözleşme satırına proje ve görev ekleme ve kaldı
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6ce99e6f770c5eb39e5f2740a861721cf3d210ac9743bbd9d2a1e1a7236f368c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da6017a6bbf138a4d30f1cd29b5b00a520e6990f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989755"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600260"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Proje ve görevleri proje tabanlı sözleşme satırıyla eşleme 
 

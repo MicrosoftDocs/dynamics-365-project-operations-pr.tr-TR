@@ -4,14 +4,14 @@ description: Bu konu, şirketler arası işlemlerin nasıl oluşturulacağı hak
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005505"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600016"
 ---
 # <a name="create-intercompany-transactions"></a>Şirketler arası işlemler oluşturma
 
@@ -30,14 +30,14 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Maliyet, kaynak belirleme birimi maliyeti ve kuruluşlar arası birim satış işlemi fiyatlandırma ve para birimi, **kuruluş birimi** tarafından yönetilir. Bu, uygulamanızda şirketleri ve kuruluş birimlerini nasıl yapılandıracağınıza karar verirken unutmamanız açısından önemlidir.
 
-Fırsat, teklif, proje sözleşmesi ve proje kayıtları oluşturduğunuzda sistem, sözleşme birimi para biriminin sözleşme şirketi muhasebe para birimiyle aynı olduğunu doğrular. Aynı olmadıklarında bu kayıtlar oluşturulamaz. Kuruluş birimi para birimi, Dynamics 365 Project Operations'ta **Dataverse** > **Ayarlar** > **Kuruluş birimleri**'ne giderek tanımlanır. Şirketin muhasebe para birimi, Dynamics 365 Finance'te **Genel muhasebe** > **Genel muhasebe ayarı** > **Genel muhasebe**'ye giderek tanımlanır. Para birimi, Genel Muhasebe Defterleri Çift Yazma eşlemesini kullanarak Dataverse ortamınızla eşitlenir.
+Fırsat, teklif, proje sözleşmesi ve proje kayıtları oluşturduğunuzda sistem, sözleşme birimi para biriminin sözleşme şirketi muhasebe para birimiyle aynı olduğunu doğrular. Aynı olmadıklarında bu kayıtlar oluşturulamaz. Kuruluş birimi para birimi, Dynamics 365 Project Operations'ta **Dataverse** > **Ayarlar** > **Kuruluş birimleri**'ne giderek tanımlanır. Şirketin muhasebe para birimi, Dynamics 365 Finance'te **Genel muhasebe** > **Genel muhasebe kurulumu** > **Kayıt Defteri** bölümüne gidilerek tanımlanır. Para birimi, Genel Muhasebe Defterleri Çift Yazma eşlemesini kullanarak Dataverse ortamınızla eşitlenir.
 
 Sistem, aşağıdaki durumlarda kaynak belirleme birimi maliyetini ve kuruluşlar arası birim satış gerçek tutarlarını oluşturur:
 
   - Kaynak belirleme birimi, sözleşme biriminden farklı olduğunda
   - Kaynak belirleme şirketi, sözleşme şirketinden farklı olduğunda
 
-Ancak yalnızca sözleşme şirketinden farklı bir kaynak belirleme şirketine sahip işlemler, ek muhasebe için Dynamics 365 Finance ortamına aktarılır.
+Ancak yalnızca sözleşmeli şirketten farklı bir kaynak şirkete sahip işlemler, ek muhasebe için Dynamics 365 Finance ortamına aktarılır.
 
 Proje gerçek tutarları için muhasebe, Finance'te Project Operations entegrasyon günlüğünde kaydedilir. Sistem aşağıdaki yevmiye defteri satırlarını oluşturur.
 
@@ -60,7 +60,7 @@ GBPM'de çalışan geliştirici Molly Clark, proje yöneticisi tarafından onayl
     4. Para birimini **USD** olarak ayarlayın.
     5. Kaydı kaydedin.
 3. **Satış** > **Proje Sözleşmeleri**'ne gidin ve Adventure Works için yeni bir proje sözleşmesi oluşturun.
-    1. Sahip olan şirketi **USPM** ve ölçü birimi olarak **Contoso Robotics US**'e ayarlayın.
+    1. Sahibi olan şirketi **USPM** olarak ve sözleşme birimini **Contoso Robotics US** olarak ayarlayın.
     2. Müşteri olarak Adventure Works'ü seçin.
     3. Bir ürün fiyat listesi seçin ve kaydı kaydedin.
     4. **Sözleşme Satırları** sekmesinde, yeni bir sözleşme satırı oluşturun. Bir ad ayarlayın ve faturalama yöntemi olarak **Zaman ve Malzemeler**'i seçin.

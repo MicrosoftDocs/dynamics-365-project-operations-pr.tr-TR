@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753316"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598512"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ekim 2021'deki yenlikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753316"
 Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
    - Microsoft Dataverse ortamı sürüm 4.25.0.91'de Project Operations
-   - Dynamics 365 Finance uygulama ortamı sürüm 10.0.21'te proje yönetimi ve hesaplaması
+   - Dynamics 365 Finance ortamı sürümü 10.0.21'de proje yönetimi ve muhasebe
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
@@ -49,7 +49,7 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift Yazma sorun gide
 | Fatura ve fiyatlandırma | 2338357 | Malzeme kullanım günlüğündeki para birimi, proje seçildiği zaman projenin para biriminden varsayılan olarak ayarlanmalıdır. |
 | Zaman ve gider | 2414777 | Gider veya zaman girişi birden fazla ilişkili proje onayına sahip olduğunda, onayın iptal edilmesi mümkün olmalıdır. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance'te proje yönetimi ve muhasebe
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance'ta proje yönetimi ve muhasebe
 
 | Özellik alanı | Referans numarası | Kalite güncelleştirmeleri |
 | --- | --- | --- |

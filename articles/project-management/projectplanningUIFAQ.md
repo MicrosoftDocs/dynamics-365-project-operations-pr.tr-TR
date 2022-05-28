@@ -2,17 +2,17 @@
 title: Görev ızgarasında çalışma sorunlarını giderme
 description: Bu konuda, Görev ızgarasında çalışırken gereken sorun giderme bilgileri sağlanmaktadır.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547223"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596442"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Görev ızgarasında çalışma sorunlarını giderme 
 
@@ -70,6 +70,9 @@ Project Operations bir proje parametresinin PEX Uç Noktası'na başvurmasını 
       | Project Operations                   | type=2             |
 
 4. Alanı **Proje parametreleri** sayfasından kaldırın.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Azaltma 3: project.microsoft.com adresinde oturum açın
+Microsoft Edge tarayıcınızda yeni bir sekme açın, project.microsoft.com adresine gidin ve Project Operations'a erişmek için kullandığınız kullanıcı rolünü kullanarak oturum açın.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Sorun: Proje yüklenmedi ve Kullanıcı arabirimi değer değiştiricide takılı kaldı
 

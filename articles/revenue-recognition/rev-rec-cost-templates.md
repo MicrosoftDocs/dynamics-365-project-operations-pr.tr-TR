@@ -4,14 +4,14 @@ description: Bu konu, Project Operations'ta maliyet şablonlarının nasıl olu�
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993580"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594234"
 ---
 # <a name="set-up-cost-templates"></a>Maliyet şablonlarını ayarlama
 
@@ -56,7 +56,7 @@ Maliyet şablonu oluşturmak için hangi yaklaşımın benimseneceğine karar ve
 ## <a name="create-cost-templates"></a>Maliyet şablonları oluşturma
 Maliyet şablonları oluşturmak için şu adımları izleyin:
 
-1. Maliyet şablonlarına erişmek için Dynamics 365 Finance ortamında **Proje yönetimi ve muhasebe** > **Kurulum** > **Tahminler** > **Maliyet şablonu**'na gidin.
+1. Dynamics 365 Finance ortamında maliyet şablonlarına erişmek için **Proje yönetimi ve muhasebe** > **Kurulum** > **Tahminler** > **Maliyet şablonu**'na gidin.
 2. Yeni maliyet şablonu oluşturmak için **Yeni**'yi seçin. Ad ve açıklama girin.
 3. Her hareket türü için maliyet satırı kimliği sağlayın.
 4. Varsayılan bir tamamlama yöntemi seçin:

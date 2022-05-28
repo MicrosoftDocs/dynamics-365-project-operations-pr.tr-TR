@@ -4,14 +4,14 @@ description: Bu konuda, yeni zamanlama arabiriminde temel denetimler dahil bir i
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928639"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597822"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -124,7 +124,7 @@ Project Operations'ta iş kırılım yapısını kullanıyorsanız, aşağıdaki
 |----------------------------------------------------|----------------------|
 | Proje için en fazla toplam görev sayısı                  | 500                  |
 | Proje için en fazla toplam süre               | 3650 gün (10 yıl) |
-| Proje için en fazla toplam kaynak sayısı              | 150                  |
+| Proje için en fazla toplam kaynak sayısı              | 300                  |
 | Proje için en fazla toplam bağlantı (yalnızca ardıl) | 600                  |
 | Proje için en fazla toplam özel alan sayısı          | 10                   |
 | Görev başına maksimum denetim listesi öğesi                   | 20                   |

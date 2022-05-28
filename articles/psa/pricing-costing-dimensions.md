@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998485"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593636"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 
@@ -64,18 +65,18 @@ Aşağıdaki örnekte, kaynağın ait olduğu rol ve kaynak kuruluş birimine da
 
 **Örnek fatura oranları**
 
-| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Rol        | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ------------|-------------|----------|----------:|----------|
-| Geliştirici   | Contoso ABD  |Saat | 200|USD     |
-| Geliştirici   | Contoso Hindistan |Saat|   112|USD     |
+| Geliştirici   | Contoso ABD  |Hour | 200|USD     |
+| Geliştirici   | Contoso Hindistan |Hour|   112|USD     |
 
 
 **Örnek maliyet oranları**
 
-| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para birimi  |
+| Maaş bandı     | Kuruluş Birimi    |Birim      |Fiyat      |Para Birimi  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso ABD  |Saat | 145|USD     |
-| My company_Band2 | Contoso Hindistan |Saat|   67|USD     |
+| My company_Band1 | Contoso ABD  |Hour | 145|USD     |
+| My company_Band2 | Contoso Hindistan |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

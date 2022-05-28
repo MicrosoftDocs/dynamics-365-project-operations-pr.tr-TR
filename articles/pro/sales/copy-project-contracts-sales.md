@@ -4,14 +4,14 @@ description: Bu konuda,Project Operations'ta proje sözleşmelerini kopyalama ha
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 082cd6597a066f6dac8a7583a377d8e34bc74e2e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006045"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594096"
 ---
 # <a name="copy-project-contracts---lite"></a>Proje sözleşmelerini kopya - lite
 

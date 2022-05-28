@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928685"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594878"
 ---
 # <a name="provision-a-new-environment"></a>Yeni bir ortam sağlama
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Bu konu, kaynağı/stoğu tutulmayanları temel alan senaryolar için yeni bir Dynamics 365 Project Operations ortamı hazırlama hakkında bilgi sağlar.
 
@@ -34,7 +34,7 @@ LCS projenizde Project Operations otomatik sağlama akışını etkinleştirmek 
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations ortamı sağlama
 
-1. Yeni bir Dynamics 365 Finance [demo ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) veya [korumalı alan/ üretim ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) dağıtımı açın. 
+1. Yeni bir Dynamics 365 Finance [demo ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) veya [korumalı alan / üretim ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) dağıtımı açın. 
 2. **Ortam sağlama** sihirbazını adım adım inceleyin. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Bu sürümü almak için Finance ortamınıza kalite güncelleştirmeleri uygula
 
     ![Çözümleri Uygulama.](./media/13ApplySolutions.png)
 
-5. **Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemesi** ve **Dynamics 365 Project Operations Çift Yazma Varlık Eşlemeleri** çözümlerini seçin ve ardından **Uygula** seçeneğini belirleyin.
+5. **Dynamics 365 Finance and Operations Çift Yazma Varlık Eşlemesi** ve **Dynamics 365 Project Operations Çift Yazma Varlık Eşlemeleri** olmak üzere iki çözümü de seçin ve ardından **Uygula** seçeneğini belirleyin.
 
     ![Çözümleri Onaylama.](./media/14ConfirmSolutions.png)
 
