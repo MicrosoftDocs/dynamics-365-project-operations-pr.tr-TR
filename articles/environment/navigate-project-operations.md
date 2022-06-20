@@ -1,17 +1,17 @@
 ---
 title: Project Operations'ta gezinme
-description: Bu konu, Lifecycle Services'ten Project Operations'a nasıl erişim yapılacağı hakkında bilgi sağlar.
+description: Bu makalede, Lifecycle Services'tan Project Operations'a nasıl erişim yapılacağı hakkında bilgiler sağlanmaktadır.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d8573b65373fe88c5b0617be585e2d3c77f1ca6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591888"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931676"
 ---
 # <a name="navigate-project-operations"></a>Project Operations'ta gezinme
 
@@ -24,7 +24,7 @@ Kaynağı/stoğu tutulmayan senaryolar için Dynamics 365 Project Operations, ik
  - **Common Data Service (CDS) ortamında Project Operations**: Bu bileşen, proforma faturalama fırsatına yönelik yetenekleri ve süreçleri kapsar. 
  - **Dynamics 365 Finance ortamında proje yönetimi ve muhasebe**: Bu bileşen, gider yönetimi özelliklerini, proje muhasebesini ve gelir kabulünü kapsar. 
 
-Bu konu açıklanan Project Operations hazırladıktan sonra, Lifecycle Services (LCS) **Ortam ayrıntıları** sayfası Project Operations'ın her iki bileşenine de kolay erişim sağlar.  
+Bu makalede açıklanan şekilde Project Operations sağladıktan sonra, Lifecycle Services (LCS) **Ortam ayrıntıları** sayfası, Project Operations'ın her iki bileşenine de kolay erişim sağlar.  
 
 **Common Data Service Ortam Adı** bölümündeki ortam adını kullanarak CDS ortamında Project Operations'a gidin. 
 

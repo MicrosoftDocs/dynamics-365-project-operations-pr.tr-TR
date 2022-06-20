@@ -1,6 +1,6 @@
 ---
 title: Önerilen proje kaynağını kabul etme veya reddetme
-description: Bu konu, önerilen proje kaynağının nasıl onaylanacağı veya reddedileceği hakkında bilgi sağlar.
+description: Bu makale, önerilen proje kaynağının nasıl onaylanacağı veya reddedileceği hakkında bilgi sağlar.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916220"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Önerilen proje kaynağını kabul etme veya reddetme
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599156"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Bu konu, önerilen proje kaynağının nasıl onaylanacağı veya reddedileceği hakkında bilgi sağlar.
+Bu makale, önerilen proje kaynağının nasıl onaylanacağı veya reddedileceği hakkında bilgi sağlar.
 
 Bir kaynak yöneticisi bir proje için genel kaynak isteğini doldurmak üzere adlandırılmış bir kaynak önerdiğinde, genel takım üyesine yönelik **İstek Durumu** alanı **İnceleme Gerekiyor** şeklinde güncelleştirilir. İstek onaylanması veya reddetmesi için proje yöneticisine gönderilir.
 

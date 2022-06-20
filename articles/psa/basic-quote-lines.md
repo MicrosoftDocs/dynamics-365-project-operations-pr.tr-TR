@@ -1,6 +1,6 @@
 ---
 title: Teklifler ve teklif satırları
-description: Bu konu teklifler ve teklif satırlarıyla ilgili bilgi sağlar.
+description: Bu makale teklifler ve teklif satırlarıyla ilgili bilgi sağlar.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933378"
 ---
 # <a name="quotes-and-quote-lines"></a>Teklifler ve teklif satırları
 
@@ -39,7 +39,7 @@ Dynamics 365 Project Service Automation'da iki tür teklif vardır: proje teklif
 - Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
 - Satış teklifleri ve proje teklifleri aynı zamanda **Tür** adlı seçenek kümesi tabanlı bir alanla tanımlanır. Satış teklifi için, bu alan **Öğe-tabanlı** değerine sahiptir. Proje teklifi için, **İş-tabanlı** değerine sahiptir.
 
-Bu konu proje tekliflerinin ayrıntılarına odaklanacaktır.
+Bu makale proje tekliflerinin ayrıntılarına odaklanacaktır.
 
 PSA'da bir proje teklifinin birden çok satır öğesi veya teklif satırı olabilir. Aslında, proje teklifinin satır öğeleri için iki grubu vardır. Bir ızgara, ayrıntılı tahminlere olanak tanıyan proje tabanlı satırlar içindir. Diğer kılavuz, basit birim fiyat ve miktar tabanlı yaklaşım kullanan ürün tabanlı satırlar içindir.
 

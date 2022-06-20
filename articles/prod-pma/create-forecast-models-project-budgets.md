@@ -1,6 +1,6 @@
 ---
 title: Proje bütçeleri için tahmin modelleri oluşturma
-description: Bu konu, kalan bütçeler için bir tahmin modelinin nasıl oluşturulacağını açıklar.
+description: Bu makale, kalan bütçeler için bir tahmin modelinin nasıl oluşturulacağını açıklamaktadır.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916726"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Proje bütçeleri için tahmin modelleri oluşturma 
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, kalan bütçeler için bir tahmin modelinin nasıl oluşturulacağını açıklar. Bütçe denetimine tabi olan bir proje iki tür bütçe kullanır: özgün ve kalan. Bir proje bütçesi oluşturduğunuzda, tahmin modelleri sayfasında oluşturulan orijinal ve kalan bütçe **tahmin modellerini** belirtmeniz gerekir. Belirtilen modellere dayalı proje bütçeleri proje bütçesini tamamladığınızda oluşturulur.
+Bu makale, kalan bütçeler için bir tahmin modelinin nasıl oluşturulacağını açıklamaktadır. Bütçe denetimine tabi olan bir proje iki tür bütçe kullanır: özgün ve kalan. Bir proje bütçesi oluşturduğunuzda, tahmin modelleri sayfasında oluşturulan orijinal ve kalan bütçe **tahmin modellerini** belirtmeniz gerekir. Belirtilen modellere dayalı proje bütçeleri proje bütçesini tamamladığınızda oluşturulur.
 
 > [!NOTE]
 > Bütçe kontrolü için kullanılan bir tahmin modelinin alt modeli olabilir veya bir alt model olarak kullanılabilir.

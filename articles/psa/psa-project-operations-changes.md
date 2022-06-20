@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation'dan Project Operations'a özellik değişiklikleri
-description: Bu konu, Project Service Automation'dan Dynamics 365 Project Operations'a gerçekleştirilen özellik değişikliklerine genel bir bakış sağlar.
+description: Bu makale, Project Service Automation'dan Dynamics 365 Project Operations'a gerçekleştirilen özellik değişikliklerine genel bir bakış sağlar.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925374"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a özellik değişiklikleri
 
-Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations Lite'a yükseltme, üç aşamada gerçekleşir. Bu konu, yükseltme tamamlandığında görebileceğiniz önemli değişiklikler hakkında bilgi sağlar.
+Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations Lite'a yükseltme, üç aşamada gerçekleşir. Bu makale, yükseltme tamamlandığında görebileceğiniz önemli değişiklikler hakkında bilgi sağlar.
 
 | Yükseltme sunma | 1. Aşama <br>(Ocak 2022) | 2. Aşama <br>(2022 Nisan Dalgası) | 3. Aşama  |
 |------------------|------------------------|---------------------------|---------------------------|

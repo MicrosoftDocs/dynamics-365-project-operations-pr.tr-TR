@@ -1,6 +1,6 @@
 ---
 title: Ayırma tahsisat yöntemleri
-description: Bu konu, ayırma tahsisat yöntemlerinin Proje Operations'da nasıl çalıştığı hakkında bilgi sağlar.
+description: Bu makalede, ayırma yöntemlerinin Project Operations içinde nasıl çalıştığı hakkında bilgiler verilmektedir.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912770"
 ---
 # <a name="booking-allocation-methods"></a>Ayırma tahsisat yöntemleri
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-İster **Takım** sekmesinde bir projeye doğrudan bir takım üyesi ekleyin, ister Zamanlama panosundan bir projeye veya gereksinime bir kaynak ayırın, kullanabileceğiniz birkaç farklı ayırma tahsisat yöntemi vardır. Bu konuda, her bir yöntemin işleyişi ve hangi yöntemlerin kaynaklarda fazladan ayırmaya yol açabileceği açıklanmaktadır.
+İster **Takım** sekmesinde bir projeye doğrudan bir takım üyesi ekleyin, ister Zamanlama panosundan bir projeye veya gereksinime bir kaynak ayırın, kullanabileceğiniz birkaç farklı ayırma tahsisat yöntemi vardır. Bu makalede, her bir yöntemin işleyişi ve hangi yöntemlerin kaynaklarda fazladan ayırmaya yol açabileceği açıklanmaktadır.
 
 ## <a name="booking-allocation-methods"></a>Ayırma tahsisat yöntemleri
 

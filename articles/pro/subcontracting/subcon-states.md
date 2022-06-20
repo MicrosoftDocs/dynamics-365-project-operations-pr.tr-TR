@@ -1,17 +1,17 @@
 ---
 title: Alt sözleşmedeki durum geçişleri
-description: Bu konu, alt sözleşme oluşturulduğunda, yürütüldüğünde ve kapatıldığında Microsoft Dynamics 365 Project Operations'daki alt sözleşme durum geçişlerini açıklar.
+description: Bu makale, alt yüklenici oluşturulduğunda, yürütüldüğünde ve kapatıldığında Microsoft Dynamics 365 Project Operations'daki alt yüklenici durum geçişlerini açıklar.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919762"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Alt sözleşmedeki durum geçişleri 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579192"
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konuda, Microsoft Dynamics 365 Project Operations'daki bir alt sözleşmede durum geçişleri açıklanmaktadır. Her durum taslak, onaylandı, kapatıldı veya iptal edildi olarak temsil edilir. Aşağıdaki resim durum geçişlerini temsil eder.
+Bu makalede, Microsoft Dynamics 365 Project Operations'daki bir alt sözleşmede durum geçişleri açıklanmaktadır. Her durum taslak, onaylandı, kapatıldı veya iptal edildi olarak temsil edilir. Aşağıdaki resim durum geçişlerini temsil eder.
 
 ![Alt sözleşme durum modeli](../media/SubconStates.png)  
 

@@ -1,6 +1,6 @@
 ---
 title: Beceriler ve uzmanlıkları tanımlama
-description: Bu konu, uzmanlık modellerinin kaynakları değerlendirmek için nasıl kullanılacağı hakkında bilgi sağlar.
+description: Bu makale, kaynakları derecelendirmek için uzmanlık modellerinin nasıl kurulacağı hakkında bilgi sağlar.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e825d80bb8ac342b269783747a9a0c0f540d349f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 707a88b2f72c7324a6954a2e0cdce995b012ff48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915486"
 ---
 # <a name="define-skills-and-proficiencies"></a>Beceriler ve uzmanlıkları tanımlama
 

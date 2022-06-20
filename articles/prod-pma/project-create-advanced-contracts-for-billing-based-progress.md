@@ -1,6 +1,6 @@
 ---
 title: İlerleme durumuna göre faturalama için gelişmiş sözleşmeler oluşturma
-description: Bu konu, tamamlanan çalışmanın yüzdesine göre müşterilere fatura oluşturabilmek için proje sözleşmelerinin nasıl oluşturulacağını açıklar.
+description: Bu makale, tamamlanan çalışmanın yüzdesine göre müşteriler için fatura oluşturabilmek amacıyla proje sözleşmelerinin nasıl oluşturulacağını açıklar.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913690"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>İlerleme durumuna göre faturalama için gelişmiş sözleşmeler oluşturma
 [!include [banner](../includes/banner.md)]
 
-Bu konu, tamamlanan çalışmanın yüzdesine göre müşterilere fatura oluşturabilmek için proje sözleşmelerinin nasıl oluşturulacağını açıklar. Fatura tutarları, proje için ayarladığınız çalışmanın bütçe kategorileri için otomatik olarak hesaplanır. Fatura zamanlaması, müşteriyle proje sözleşmesini görüşülediğinizde ayarlanır.
+Bu makale, tamamlanan çalışmanın yüzdesine göre müşteriler için fatura oluşturma amacıyla proje sözleşmelerinin nasıl oluşturulacağını açıklar. Fatura tutarları, proje için ayarladığınız çalışmanın bütçe kategorileri için otomatik olarak hesaplanır. Fatura zamanlaması, müşteriyle proje sözleşmesini görüşülediğinizde ayarlanır.
 
-Bir sözleşme, ilişkili proje ve proje için ayarladığınız çalışma bütçe kategorileri için fatura tutarlarını hesaplayan faturalama kurallarını hesaplamak için bu konu yordamları kullanın.
+Bu makaledeki yordamları bir sözleşme, ilişkili proje ve proje için ayarladığınız çalışmanın bütçe kategorileri için fatura tutarlarını hesaplamakta kullanılan faturalama kurallarını ayarlamak için kullanın.
 
 Sözleşmeyi ve projeyi oluşturduktan sonra, projenin ayrıntılarını ayarlayabilirsiniz. Örneğin, aktiviteleri tanımlayabilir ve projeye çalışanlar atayabilirsiniz.
 

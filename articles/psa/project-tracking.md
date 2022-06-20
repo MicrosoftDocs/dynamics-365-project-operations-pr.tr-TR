@@ -1,6 +1,6 @@
 ---
 title: Proje ilerleme durumu ve maliyet tüketimi
-description: Bu konuda, proje ilerleme durumu ve maliyet tüketiminin nasıl izleneceği hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, proje ilerleme durumu ve maliyet tüketiminin nasıl izleneceği hakkında bilgiler sağlanmaktadır.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921786"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Proje ilerleme durumu ve maliyet tüketimi
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575282"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Zamanlamaya göre ilerleme durumunun izlenmesi ihtiyacı endüstriye göre değişir. Bazı endüstriler ayrıntılı düzeyde; diğer endüstrilerse daha yüksek bir düzeyde izler. Bu konu, kuruluşunuzun gereksinimlerini karşılamak için nasıl zamanlanacağınızı gösterir.
+Zamanlamaya göre ilerleme durumunun izlenmesi ihtiyacı endüstriye göre değişir. Bazı endüstriler ayrıntılı düzeyde; diğer endüstrilerse daha yüksek bir düzeyde izler. Bu makale, kuruluşunuzun gereksinimlerini karşılamak için nasıl zamanlanacağınızı gösterir.
 
 ## <a name="effort-tracking-view"></a>Çalışma izleme görünümü
 

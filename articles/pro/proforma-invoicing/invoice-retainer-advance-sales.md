@@ -1,17 +1,17 @@
 ---
 title: Elde tutulan tutar veya avans faturalama
-description: Bu konu, Project Operations'da elde kalanı veya avansı faturalama hakkında bilgi sağlar.
+description: Bu makalede, Project Operations'ta bir elde tutulan tutar veya avansın nasıl faturalanacağı hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 044186d5c7759866dec3883103acec19cb571c11
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914518"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Elde tutulan tutar veya avans faturalama
 

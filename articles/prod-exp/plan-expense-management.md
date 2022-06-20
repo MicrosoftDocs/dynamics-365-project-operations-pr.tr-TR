@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934022"
 ---
 # <a name="configure-expense-management"></a>Gider yönetimini yapılandırma
 
-Bu makalede, gider yönetimini yapılandırmadan önce planlama sürecinde yapmanız gereken hususlar ve kararlar açıklanmaktadır . Gider yönetiminde, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler gibi bilgileri saklayabilirsiniz.
+Bu makalede, Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır. Gider yönetiminde, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler gibi bilgileri saklayabilirsiniz.
 
 Giderleri yönetmek için yapılandırmanızı planlarken yaptığınız kararların çoğu kuruluşunuzun hiyerarşisine ve mali yapısına göre olduğundan, bu alanlar için planlama belgelerine başvurmanız gerekir.
 

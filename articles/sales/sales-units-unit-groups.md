@@ -1,6 +1,6 @@
 ---
 title: Birimler ve birim grupları
-description: Bu konuda, Dynamics 365 Project Operations'ta birimler ve birim grupları oluşturma hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, Dynamics 365 Project Operations uygulamasında birimlerin ve birim gruplarının nasıl oluşturulacağı hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921464"
 ---
 # <a name="units-and-unit-groups"></a>Birimler ve birim grupları
 
@@ -28,7 +28,7 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Biriler, ürünlerinizi veya hizmetlerinizi sattığınız miktarlara veya ölçü birimlerine karşılık gelir. Örneğin, bahçıvanlık gereçleri satıyorsanız, tohumları paketler, kutular veya paletlerden oluşan birimlerde satıyor olabilirsiniz. Birim grubu bu farklı birimler topluluğudur.
 
-Bu konudaki adımları tamamlayabilmek için, Sistem Yöneticisi veya Sales Professional Yöneticisi rolüne atanmış olduğunuzdan veya buna eşdeğer izinlere sahip olduğunuzdan emin olun.
+Bu makaledeki adımları tamamlayabilmeniz için, Sistem Yönetici veya Sales Professional Yöneticisi rolüne atanmış veya eşdeğer izinlere sahip olduğunuzdan emin olun.
 
 ## <a name="create-a-unit-group"></a>Birim grubu oluşturma
 

@@ -1,17 +1,17 @@
 ---
 title: Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma - lite
-description: Bu konuda, tahminleri projeden teklif satırına içe aktarma hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, projeden teklif satırına tahminleri içe aktarma konusunda bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c676011660cd06e49996c137f7e9dca0ef2e491
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917324"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Proje tabanlı teklif satırına bir projeyle ilgili tahminleri aktarma 
 

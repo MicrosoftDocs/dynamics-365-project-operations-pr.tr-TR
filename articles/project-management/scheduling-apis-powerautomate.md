@@ -1,25 +1,25 @@
 ---
 title: Power Automate ile Proje zamanlama API'lerini kullanma
-description: Bu konuda, Proje zamanlaması uygulama programlama arabirimlerini (API'ler) kullanan örnek bir akış sağlanmaktadır.
+description: Bu makalede, Proje zamanlaması uygulama programlama arabirimlerini (API'ler) kullanan örnek bir akış sağlanmaktadır.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916358"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Power Automate ile Proje zamanlama API'lerini kullanma
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Bu konuda, Microsoft Power Automate kullanılarak eksiksiz bir proje planının nasıl oluşturulacağını, İşlem Setinin nasıl oluşturulacağını ve bir varlığın nasıl güncelleştirileceğini gösteren örnek bir akışı açıklanmaktadır. Örnekte bir projenin, proje ekibi üyesinin, İşlem Kümelerinin, proje görevlerinin ve kaynak atamalarının nasıl oluşturulacağı gösterilmektedir. Bu konuda ayrıca bir varlığın nasıl güncelleştirildiği ve bir işlem kümesinin nasıl yürütüleceği de açıklanmaktadır.
+Bu makalede, Microsoft Power Automate kullanılarak eksiksiz bir proje planının nasıl oluşturulacağını, İşlem Setinin nasıl oluşturulacağını ve bir varlığın nasıl güncelleştirileceğini gösteren örnek bir akışı açıklanmaktadır. Örnekte bir projenin, proje ekibi üyesinin, İşlem Kümelerinin, proje görevlerinin ve kaynak atamalarının nasıl oluşturulacağı gösterilmektedir. Bu makalede ayrıca bir varlığın nasıl güncelleştirildiği ve bir işlem kümesinin nasıl yürütüleceği de açıklanmaktadır.
 
-Aşağıda, bu konudaki örnek akışta belgelenen adımların tam listesi bulunmaktadır:
+Aşağıda, bu makaledeki örnek akışta belgelenen adımların tam listesi bulunmaktadır:
 
 1. [PowerApps tetikleyicisi oluşturma](#1)
 2. [Bir proje oluştur](#2)
@@ -30,7 +30,7 @@ Aşağıda, bu konudaki örnek akışta belgelenen adımların tam listesi bulun
 7. [Bağlantı durumu için değişken başlatma](#7)
 8. [Görev sayısı için bir değişken başlatma](#8)
 9. [Proje görev kimliği için değişken başlatma](#9)
-10. [Do until](#10)
+10. [Bitiş noktası](#10)
 11. [Proje görevi ayarlama](#11)
 12. [Proje görevi oluşturma](#12)
 13. [Kaynak ataması oluşturma](#13)
@@ -40,11 +40,11 @@ Aşağıda, bu konudaki örnek akışta belgelenen adımların tam listesi bulun
 
 ## <a name="assumptions"></a>Varsayımlar
 
-Bu konuda, Dataverse platformu, bulut akışları ve Proje Zamanlaması Uygulama Programlama Arabirimi (API) hakkında temel bilgilere sahip olduğunuz varsayılmaktadır. Daha fazla bilgi için bu konudaki [Başvurular](#references) bölümüne bakın.
+Bu makalede, Dataverse platformu, bulut akışları ve Proje Zamanlaması Uygulama Programlama Arabirimi (API) hakkında temel bilgilere sahip olduğunuz varsayılmaktadır. Daha fazla bilgi için bu makaledeki [Başvurular](#references) bölümüne bakın.
 
 ## <a name="create-a-flow"></a>Akış oluşturma
 
-### <a name="select-an-environment"></a>Ortam seçin
+### <a name="select-an-environment"></a>Ortam seçme
 
 Power Automate akışını ortamınızda oluşturabilirsiniz.
 
@@ -65,8 +65,8 @@ Power Automate akışını ortamınızda oluşturabilirsiniz.
 1. **Çözümler** sayfasında, oluşturduğunuz çözümü seçin ve ardından **Yeni**'yi seçin.
 2. Sol bölmede, **Bulut akışları** \> **Otomasyon** \> **Bulut akışı** \> **Anlık** öğesini seçin.
 3. **Akış adı** alanına **API Demo Akışını Zamanla** yazın.
-4. **Bu akışın nasıl tetikleneceğini seçin** listesinde, **Power Apps**'i seçin. Power Apps tetikleyicisi oluşturduğunuzda mantığı yazar olarak siz belirlersiniz. Bu konuda, test amacıyla giriş parametrelerini boş bırakın.
-5. **Create**'u seçin.
+4. **Bu akışın nasıl tetikleneceğini seçin** listesinde, **Power Apps**'i seçin. Power Apps tetikleyicisi oluşturduğunuzda mantığı yazar olarak siz belirlersiniz. Bu makalede, test amacıyla giriş parametrelerini boş bırakın.
+5. **Oluştur** seçeneğini belirleyin.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Adım2: Proje oluşturun
 
@@ -180,10 +180,10 @@ Power Automate akışını ortamınızda oluşturabilirsiniz.
 6. **Tür** alanında **Dize**'yi seçin.
 7. **Değer** alanı için ifade oluşturucusuna **guid()** ifadesini girin.
 
-## <a name="step-10-do-until"></a><a id="10"></a>Adım 10: Do until
+## <a name="step-10-do-until"></a><a id="10"></a>Adım 10: Bitiş noktası
 
 1. Akışta, **Yeni adım**'ı seçin.
-2. **İşlem seçin** iletişim kutusunda, arama alanına **Do until** yazın. Ardından, **Eylemler** sekmesinde, sonuç listesinden işlemi seçin.
+2. **İşlem seçin** iletişim kutusunda, arama alanına **Bitiş noktası** yazın. Ardından, **Eylemler** sekmesinde, sonuç listesinden işlemi seçin.
 3. Koşullu bildirimdeki ilk değeri, **Dinamik içerik** iletişim kutusundan **görev sayısı** değişkeni olarak ayarlayın.
 4. Koşulu **küçüktür veya eşittir** olarak ayarlayın.
 5. Koşullu ifadedeki ikinci değeri **0** olarak ayarlayın.

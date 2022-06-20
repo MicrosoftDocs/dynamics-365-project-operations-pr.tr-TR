@@ -1,24 +1,24 @@
 ---
 title: Yeni 2021 2. erken erişim sürümündeki yenilikler - Project Operations lite dağıtımı
-description: Bu konu, Project Operations lite dağıtımının Temmuz 2021 2. dalga erken erişim sürümünde bulunan özellikler hakkında bilgi sağlar.
+description: Bu makale, Project Operations lite dağıtımının 2021 dalga 2 erken erişim sürümünde kullanılabilen özellikler hakkında bilgi sağlar.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924132"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Yeni 2021 2. erken erişim sürümündeki yenilikler - Project Operations lite dağıtımı
 
 _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
   - Dataverse ortamı sürüm 4.23.0.4'te Project Operations
 

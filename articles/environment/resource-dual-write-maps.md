@@ -1,17 +1,17 @@
 ---
 title: Project Operations çift yazma eşlemesi sürümleri
-description: Bu konu Dynamics 365 Project Operations için gereken çift yazma eşlemelerinin listesi sağlanır .
+description: Bu makalede, Dynamics 365 Project Operations için gereken çift yazma eşlemelerinin listesi sağlanmaktadır.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612788"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959508"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations çift yazma eşlemesi sürümleri
 
@@ -54,7 +54,7 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 | Saat tahminleri için Project Operations tümleştirme varlığı (msdyn_resourceassignments) | Kategori 1.0.0.5 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirme proje gideri kategorileri dışarı aktarma varlığı (msdyn_expensecategories) | 1.0.0.1 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirme proje giderleri dışarı aktarma varlığı (msdyn_expenses) | 1.0.0.3 | Sağlama için gerekli değildir. ||
-| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn_projectvendorinvoices) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
+| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn_projectvendorinvoices) | 1.0.0.1 | Sağlama için gerekli değildir. |10.0.26 veya üstü|
 | Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Sağlama için gerekli değildir. | 10.0.26 veya üstü |
 | Tüm Şirketler için Proje Kaynak Rolleri (bookableresourcecategories) | Kategori 1.0.0.1 | Sağlama sırasında Dynamics 365 Dataverse ortamında doldurulan proje yöneticisi ve takım üyesi kaynak rollerini eşitlemek için tablo haritasında başlangıç eşitlemesi yapılmasını ister. Dataverse, ilk eşitleme için ana kaynaktır. ||
 | Proje görevleri (msdyn_projecttasks) | Kategori 1.0.0.4 | Sağlama için gerekli değildir. ||

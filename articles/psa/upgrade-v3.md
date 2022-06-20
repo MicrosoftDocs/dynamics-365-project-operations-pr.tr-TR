@@ -1,6 +1,6 @@
 ---
 title: Microsoft Dynamics 365 Project Service Automation sürüm 2.x veya 1.x'ten sürüm 3'e yükseltmeyle ilgili dikkate alınacak noktalar
-description: Bu konu, Project Service Automation sürüm 2.x veya 1.x 'ten sürüm 3'e yükseltme işlemi gerçekleştirirken dikkat etmeniz gereken önemli noktalar hakkında bilgi sağlar.
+description: Bu makalede, Project Service Automation sürüm 2.x veya 1.x 'ten sürüm 3'e yükseltme işlemi gerçekleştirirken dikkate almanız gereken önemli noktalar hakkında bilgi sağlar.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918934"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA sürüm 2.x veya 1.x'ten sürüm 3.x'e yükseltme işleminin önemli noktaları
 
@@ -40,7 +40,7 @@ Project Service Automation sürüm 2 ve sürüm 1'de, görev atamaları **Görev
 
 Project Service Automation sürüm 3'te, görevlere ayrılabilir kaynaklar atama temel şeması değişti. Satır görevi kullanımdan kaldırılmıştır ve **Görev varlığı**'ndaki görev ile **Kaynak Atama** varlığındaki takım üyesi arasında doğrudan bire bir ilişki vardır. Proje takım üyesine atanan görevler artık doğrudan Kaynak Atama varlığında depolanır.  
 
-Bu değişiklikler, bir proje takımındaki adlandırılmış ayrılabilir kaynaklar ve genel kaynaklar için kaynak atamalarının olduğu varolan projelerin yükseltilmesini etkiler. Bu konuda, sürüm 3'e yükseltirken projelerinizde dikkate almanız gereken önemli noktalar verilir. 
+Bu değişiklikler, bir proje takımındaki adlandırılmış ayrılabilir kaynaklar ve genel kaynaklar için kaynak atamalarının olduğu varolan projelerin yükseltilmesini etkiler. Bu makalede, sürüm 3'e yükseltirken projelerinizde dikkate almanız gereken önemli noktalar verilir. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Adlandırılmış kaynaklara atanan görevler
 Sürüm 2 ve sürüm 1'de, görevler, temel görev varlığı kullanılarak takım üyelerinin varsayılan tanımlı rollerinden başka bir rol oynamalarına olanak tanıyordu. Örneğin, varsayılan olarak Program Yöneticisi rolüne atanan Emine Şen, Geliştirici rolünün olduğu bir göreve atanabilirdi. Sürüm 3'te, adlandırılmış takım üyesinin rolü her zaman varsayılandır. Bu nedenle Emine Şen'in atandığı herhangi bir görev Emine'nin varsayılan Program Yöneticisi rolünü kullanır.

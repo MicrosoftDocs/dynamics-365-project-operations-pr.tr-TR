@@ -1,25 +1,25 @@
 ---
 title: Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
-description: Bu konu, Project Operations Dataverse uygulamasının çift yazma desteği sağlamak için el ile nasıl dağıtılacağını açıklar.
+description: Bu makalede, Project Operations Dataverse uygulamasının ikili yazma desteği olacak şekilde el ile nasıl dağıtılacağı açıklanmaktadır.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912034"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu, Microsoft Dataverse'de Microsoft Dynamics 365 Project Operations uygulamasının çift yazma desteği sağlamak için el ile nasıl dağıtılacağını açıklar. Project Operations ortamın yapılandırmasını algılar ve önkoşulların karşılanması durumunda çift yazma için ek destek sağlar.
+Bu makalede, Microsoft Dataverse'de Microsoft Dynamics 365 Project Operations'ın, ikili yazmayı destekleyecek şekilde nasıl el ile dağıtılacağı açıklanmaktadır. Project Operations ortamın yapılandırmasını algılar ve önkoşulların karşılanması durumunda çift yazma için ek destek sağlar.
 
-Microsoft Dynamics Lifecycle Services (LCS) üzerinden dağıtım sırasında, bu konudaki yönergeleri takip ettiyseniz, Microsoft Power Platform tümleştirmesi (önceden Common Data Service ortamı olarak biliniyordu) dağıtımını atlayabilirsiniz.
+Microsoft Dynamics Lifecycle Services (LCS) üzerinden dağıtım sırasında bu makaledeki adımları izlediyseniz Microsoft Power Platform entegrasyonu dağıtımını atlayabilirsiniz (daha önce Common Data Service ortamı olarak bilinirdi).
 
 Çift yazmayı desteklemesi için Dataverse'te Project Operations dağıtma işleminin dört adımı vardır:
 

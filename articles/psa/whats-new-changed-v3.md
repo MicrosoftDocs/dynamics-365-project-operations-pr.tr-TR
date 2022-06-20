@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
-description: Bu konu Project Service Automation sürüm 3'teki yenilikler veya değişiklikler hakkında bilgi sağlar.
+description: Bu makale, Project Service Automation sürüm 3'teki yenilikler veya değişiklikler hakkında bilgi sağlar.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926616"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation sürüm 3'teki yenilikler veya değişiklikler
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581676"
 
 
 
-Bu konu, Project Service Automation'da sürüm 2 veya sürüm 1 ile sürüm 3 arasında kullanıcı arabirimi (UI), işlevsellik ve terminoloji değişiklikleri hakkında bilgi sağlar.
+Bu makale, Project Service Automation'da sürüm 2 veya sürüm 1 ile sürüm 3 arasında kullanıcı arabirimi (UI), işlevler ve terminoloji değişiklikleri hakkında bilgi sağlar.
 
 ## <a name="project-scheduling"></a>Proje zamanlaması
 Önceki sürümlerde İş Kırılım Yapısı (İKY) olarak bilinen proje zamanlaması Zamanlama olarak yeniden adlandırılmıştır ve **Zamanlama** sekmesi tıklatılarak erişilir. 
@@ -150,7 +150,7 @@ Ayırmaların bulunmadığı (ayırma eksikliği) bir kaynak için görev atamal
 Bu bölüm, Project Service Automation sürüm 3'te zaman, gider ve onay değişiklikleri hakkında bilgi sağlar. Dynamics 365 Project Service Automation çözümünün parçası olarak **Zaman girişi** özelliği Birleşik Arabirim çerçevesinden yaralanmak için yenilenmiştir. Bu, tutarlı, tek tip bir kullanıcı arabirimi sunulmasını sağlar ve tüm ekran boyutlarında veya cihazlarda en iyi görüntüleme için dinamik tasarımı takip eder. 
 
 ### <a name="landing-page"></a>Giriş sayfası
-Genişletilebilir olmayan özel zaman girişi deneyimi, sürüm 3'te kullanımdan kaldırıldı. Bunun yerine artık genişletilebilir ve erişilebilir yerel ızgara deneyimi bulunur. Soldaki site haritasını kullanarak zaman girişi işlevlerine erişebilirsiniz. Bu değişiklikle artık bir defada bir haftalık zaman giremezsiniz. Bunun yerine ızgaradaki her gün için bir zaman girişi oluşturmanız gerekir. Birkaç zaman girişi oluşturulduktan sonra kullanıcılar bu konuda daha sonra açıklanan **Kopyalama** işleviyle zaman girdilerini toplu olarak oluşturabilirler. 
+Genişletilebilir olmayan özel zaman girişi deneyimi, sürüm 3'te kullanımdan kaldırıldı. Bunun yerine artık genişletilebilir ve erişilebilir yerel ızgara deneyimi bulunur. Soldaki site haritasını kullanarak zaman girişi işlevlerine erişebilirsiniz. Bu değişiklikle artık bir defada bir haftalık zaman giremezsiniz. Bunun yerine ızgaradaki her gün için bir zaman girişi oluşturmanız gerekir. Birkaç zaman girişi oluşturulduktan sonra kullanıcılar bu makalede daha sonra açıklanan **Kopyalama** işleviyle zaman girdilerini toplu olarak oluşturabilirler. 
 
 ![Zaman girişi giriş sayfası.](media/time-entry-landing-page-07.png)
  

@@ -1,24 +1,24 @@
 ---
 title: Eylül 2021'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
-description: Bu konu, kaynak/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations Eylül 2021 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, kaynak/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations Eylül 2021 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923396"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Eylül 2021'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
 *Şunlar için Geçerlidir: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations*
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
    - Microsoft Dataverse ortamı sürüm 4.14.0.99'de Project Operations.
    - Dynamics 365 Finance ortamı sürümü 10.0.20'de proje yönetimi ve muhasebe.

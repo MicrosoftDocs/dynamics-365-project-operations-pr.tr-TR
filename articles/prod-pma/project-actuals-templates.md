@@ -1,6 +1,6 @@
 ---
 title: Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
-description: Bu konuda, proje gerçek değerlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Finance and Operations'a eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
+description: Bu makalede, proje gerçek değerlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Finans ve Operasyonlara eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929514"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, proje gerçek değerlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
+Bu makalede, proje gerçek değerlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 
 Şablon, Project Service Automation'dan hareketleri Finans uygulamasındaki hazırlama tablosuna eşitler. Eşitleme tamamlandıktan sonra, hazırlama tablosundaki verileri tümleştirme günlüğüne aktarmanız **gerekir**.
 

@@ -1,6 +1,6 @@
 ---
 title: İş kırılım yapısı şablonlarında rolleri ayarlama
-description: Bu konu, iş kırılım yapısı şablonları hakkında rol bilgileri ayarlama hakkında bilgi sağlar.
+description: Bu makale, iş kırılım yapısı şablonları ile ilgili rol bilgilerini ayarlama hakkında bilgi sağlar.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ab88d61c9b1e9d9aebeb776d6a7783b96c62f6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 8721c5e5798c2b80c6f3eb65cef118d1ade5e680
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920820"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>İş kırılım yapısı şablonlarında rolleri ayarlama
 

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation Güncelleştirme Sürümü 25, V3'teki yenilikler veya değişiklikler
-description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 25, V3'teki özellikler ve düzeltmeler listelenir.
+description: Bu makalede, Project Service Automation Güncelleştirme Sürümü 25, V3'de bulunan özellikler ve düzeltmeler listelenmektedir.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922568"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Project Service Automation Güncelleştirme Sürümü 25, V3'teki yenilikler veya değişiklikler
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581538"
 
 Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online çözümler sayfası için Yönetim Merkezi'ni ziyaret edin ve güncelleştirmeyi yükleyin. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
 
-Bu konuda, Project Service Automation Güncelleştirme Sürümü 25 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürümde sürüm numarası V 3.10.43.76 şeklindedir ve genellikle Ekim 2020'de kendi kendini güncelleştirme aracılığıyla kullanılabilir.
+Bu makalede, Project Service Automation V3, Güncelleştirme Sürümü 25 için yeni veya değiştirilen özellikler ve düzeltmeler yer alır. Bu sürümün derleme numarası V3.10.43.76'dır ve genellikle Ekim 2020'de otomatik güncelleştirme olarak mevcuttur.
 
 ## <a name="update-release-25"></a>Güncelleştirme Sürümü 25
 

@@ -1,6 +1,6 @@
 ---
 title: Sabit fiyatlı etkileşimde gerçek değerler etkisi
-description: Bu konu, Microsoft Dynamics 365 Project Operations'ta sabit fiyatlı etkileşimin yaşam döngüsü boyunca gerçekleşen çeşitli olayların Gerçek değerler tablosu üzerindeki etkisi ile ilgili bilgi sağlar.
+description: Bu makale, Microsoft Dynamics 365 Project Operations'ta sabit fiyatlı etkileşimin yaşam döngüsü boyunca gerçekleşen çeşitli olayların Gerçek değerler tablosu üzerindeki etkisi ile ilgili bilgi sağlar.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918152"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>Sabit fiyatlı etkileşimde gerçek değerler etkisi
 

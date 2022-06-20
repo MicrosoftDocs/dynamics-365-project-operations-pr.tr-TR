@@ -1,23 +1,23 @@
 ---
 title: Proje sözleşme ayarları
-description: Bu konu, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgiler için bilgi sağlar.
+description: Bu makale, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgileri sağlar.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 461e6026730e4895b4d660db0f50b621432fd01a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921602"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Proje tabanlı sözleşmeler için üst bilgi ayrıntıları
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere tüm proje sözleşmesi için uygulanan alanlar hakkında bilgi sağlar. Tüm satır öğeleri boyunca özetlenen sözleşmeyle ilgili bilgileri, proje sözleşmesinin sürücü KPI 'Ları olarak da içerir.
+Bu makalede, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere tüm proje sözleşmesi için uygulanan alanlar hakkında bilgi verilmektedir. Tüm satır öğeleri boyunca özetlenen sözleşmeyle ilgili bilgileri, proje sözleşmesinin sürücü KPI 'Ları olarak da içerir.
 
 Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales'teki satış siparişlerinden davranış olarak bazı önemli değişiklikler içeren proje sözleşmesindeki alanlar listelenmektedir.
 

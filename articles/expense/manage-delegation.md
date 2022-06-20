@@ -1,6 +1,6 @@
 ---
 title: Temsilci atamayı yönetme
-description: Bu konuda, bir gider temsilcisinin başka bir çalışan için gider raporları oluşturması ve bunları yönetmesi hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, bir gider temsilcisinin başka bir çalışan için gider raporları oluşturma ve yönetme şekli hakkında bilgi verilmektedir.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2bb7ea9d93d7b60e639f2fe6dd37c466737157b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2796aca572eb0a239b6a23ef735e87a8aa46fbbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934620"
 ---
 # <a name="manage-delegation"></a>Temsilci atamayı yönetme
 Gider temsilcisi, başka bir çalışan için gider raporları oluşturabilir ve bunları yönetebilir.

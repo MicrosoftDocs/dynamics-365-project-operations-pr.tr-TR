@@ -1,24 +1,24 @@
 ---
 title: Finance Bulutunda barındırılan bir ortama demo verilerini uygulama
-description: Bu konuda, Project Operations'tan Dynamics 365 Finance Bulutunda barındırılan bir ortama demo verilerinin nasıl uygulanacağı açıklanmaktadır.
+description: Bu makalede, Project Operations'tan Dynamics 365 Finance Bulutunda barındırılan bir ortama demo verilerinin nasıl uygulanacağı açıklanmaktadır.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924684"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Finance Bulutunda barındırılan bir ortama demo verilerini uygulama
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
 > [!IMPORTANT]
-> Bu konu yalnızca Microsoft Dynamics 365 Finance sürüm 10.0.13 için geçerlidir ve yalnızca Bulutta barındırılan bir ortamda gerçekleştirilebilir. Bu konudaki adımları ortama kalite güncelleştirmelerini uygulamadan **ÖNCE** tamamlayın.
+> Bu makale yalnızca Microsoft Dynamics 365 Finance sürüm 10.0.13 için geçerlidir ve yalnızca Bulutta barındırılan bir ortamda gerçekleştirilebilir. Kalite güncelleştirmelerini ortama uygulamadan **ÖNCE** bu makaledeki adımları uygulayın.
 
 1. LCS projenizde, **Ortam ayrıntıları** sayfasını açın. Uzak Masaüstü Protokolü (RDP) kullanarak ortama bağlanmak için gereken ayrıntıları içerdiğini unutmayın.
 

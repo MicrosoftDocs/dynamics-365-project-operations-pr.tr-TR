@@ -1,6 +1,6 @@
 ---
 title: Gider yönetimine genel bakış
-description: Bu konu, gider yönetimi ve ek kaynakların bağlantıları hakkında genel bilgiler sağlar. Ödeme yöntemi bilgilerini depolayabileceğiniz, kredi kartı hareketlerini alabileceğiniz ve çalışanların sizin işletmeniz için giderleri istediklerinde harcadığı para bilgilerini izleyebildiğiniz tümleşik bir iş akışı oluşturmak için gider yönetimi 'ni kullanabilirsiniz.
+description: Bu makale, Gider yönetimi hakkında genel bilgi ve ek kaynaklara bağlantılar sağlar. Ödeme yöntemi bilgilerini depolayabileceğiniz, kredi kartı hareketlerini alabileceğiniz ve çalışanların sizin işletmeniz için giderleri istediklerinde harcadığı para bilgilerini izleyebildiğiniz tümleşik bir iş akışı oluşturmak için gider yönetimi 'ni kullanabilirsiniz.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934068"
 ---
 # <a name="expense-management-overview"></a>Gider yönetimine genel bakış
 

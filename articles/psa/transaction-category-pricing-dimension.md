@@ -1,6 +1,6 @@
 ---
 title: İşlem kategorisini fiyatlandırma boyutu olarak kullanma
-description: Bu konu, işlem kategorisini fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar.
+description: Bu makale, işlem kategorisini fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915760"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>İşlem kategorisini fiyatlandırma boyutu olarak kullanma
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bu konu, bir işlem kategorisinin fiyatlandırma boyutu olarak nasıl kullanılacağını gösterir. Başlamadan önce, önceden bir fiyatlandırma boyutu çözümü oluşturmadıysanız yeni bir tane oluşturmanız gerekir. Zaten bir fiyatlandırma boyutu çözümünüz varsa değişikliklerinizi bu çözümde yapabilirsiniz. Kuruluşunuz için yeni bir fiyatlandırma boyutu çözümü oluşturmadıysanız [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) konu başlığındaki yordamları tamamlayın.
+Bu makale, bir işlem kategorisinin fiyatlandırma boyutu olarak nasıl kullanılacağını gösterir. Başlamadan önce, önceden bir fiyatlandırma boyutu çözümü oluşturmadıysanız yeni bir tane oluşturmanız gerekir. Zaten bir fiyatlandırma boyutu çözümünüz varsa değişikliklerinizi bu çözümde yapabilirsiniz. Kuruluşunuz için yeni bir fiyatlandırma boyutu çözümü oluşturmadıysanız [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) makalesindeki yordamları tamamlayın.
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Formlara ve görünümlere işlem kategorisi ekleme
 Fiyatlandırma boyutu çözümünde, kullanıcı arabiriminde işlem kategorisini görünür kılmak için önemli varlıkların tüm formlarını ve görümlerini incelemeniz ve bu alanları bu varlıkların formlarına ve görünümlerine eklemeniz gerekir.

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation Güncelleştirme Sürümü 34, V3'teki yenilikler veya değişiklikler
-description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 34, V3'teki özellikler ve düzeltmeler listelenir.
+description: Bu makalede, Project Service Automation Güncelleştirme Sürümü 34, V3'de bulunan özellikler ve düzeltmeler listelenmektedir.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928686"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Project Service Automation Güncelleştirme Sürümü 34, V3'teki yenilikler veya değişiklikler
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588714"
 
 Microsoft Dynamics 365 Project Service Automation uygulaması için en yeni güncelleştirmeyi sunmaktan mutluluk duyarız. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 çevrimiçi çözümler sayfasının için Yönetici Merkezi sayfasını ziyaret edin ve güncelleştirmeyi kurun. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
 
-Bu konuda, Project Service Automation Güncelleştirme Sürümü 34 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürüm V3.10.55.38 derleme numarasına sahiptir ve genellikle Temmuz 2021'de bir kendi kendine güncelleştirme yoluyla kullanılabilir.
+Bu makalede, Project Service Automation V3, Güncelleştirme Sürümü 34'de yeni ve değiştirilen özellikler ve düzeltmeler listelenmektedir. Bu sürüm V3.10.55.38 derleme numarasına sahiptir ve genellikle Temmuz 2021'de bir kendi kendine güncelleştirme yoluyla kullanılabilir.
 
 ## <a name="update-release-34"></a>Güncelleştirme Sürümü 34
 

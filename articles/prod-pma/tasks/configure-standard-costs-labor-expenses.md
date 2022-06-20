@@ -1,6 +1,6 @@
 ---
 title: İşçilik ve giderlere yönelik standart maliyetleri yapılandırma
-description: Bu konuda, bir projenin işçilik ve giderleri için standart maliyetlerin nasıl ayarlanacağını açıklanır.
+description: Bu makale, bir projenin işgücü ve giderleri için standart maliyetleri ayarlamayı açıklar.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919562"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>İşçilik ve giderlere yönelik standart maliyetleri yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda, bir projenin işçilik ve giderleri için standart maliyetlerin nasıl ayarlanacağını açıklanır. Bu görevde USSI veri kümesi kullanılır.
+Bu makale, bir projenin işgücü ve giderleri için standart maliyetleri ayarlamayı açıklar. Bu görevde USSI veri kümesi kullanılır.
 
 1. Gezinti bölmesinde, **Modüller > Proje yönetimi ve muhasebe > Kurulum > Fiyatlar > Maliyet fiyatı (saat)** modülüne gidin.
 2. **Yeni**'yi seçin.

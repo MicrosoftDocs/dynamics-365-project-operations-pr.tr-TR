@@ -1,6 +1,6 @@
 ---
 title: Kaynak yetkinliklerini yönetme
-description: Bu konu, proje kaynakları için istek gönderme hakkında bilgi sağlar.
+description: Bu makale, proje kaynaklarının yetkinlikleri hakkında bilgi sağlar.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baca7622e4c5d6a227d2019ddc868112529358c0
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 0dd4f7c14a4d34d8f250edfa8724143868740420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927306"
 ---
 # <a name="manage-resource-competencies"></a>Kaynak yetkinliklerini yönetme
 

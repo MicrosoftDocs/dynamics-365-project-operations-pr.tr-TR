@@ -1,17 +1,17 @@
 ---
 title: Zaman için alt sözleşme satırları
-description: Bu konu, zaman için alt sözleşme satırlarının nasıl kaydedileceğini ve satıcılardan satın alınan zamanın nasıl kaydedileceğini açıklar.
+description: Bu makalede, zaman için taşeron satırlarının nasıl kaydedileceği ve satıcılardan satınalma vaktinin nasıl kaydedileceği açıklanmaktadır.
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c1adc1e88369e9f60548ed69b5950070d5f10c57
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0295ddd1b36eef9289110c4fe7b51397d81320d6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925972"
 ---
 # <a name="subcontract-lines-for-time"></a>Zaman için alt sözleşme satırları
 

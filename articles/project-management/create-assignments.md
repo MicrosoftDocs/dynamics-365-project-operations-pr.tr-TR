@@ -1,24 +1,24 @@
 ---
 title: Kaynak atamaları oluşturma
-description: Bu konuda, genel ve adlandırılmış kaynak atamaları oluşturma hakkında bilgiler sağlanmaktadır.
+description: Bu makale, genel ve adlandırılmış kaynak atamaları oluşturma hakkında bilgi sağlar.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933516"
 ---
 # <a name="create-resource-assignments"></a>Kaynak atamaları oluşturma
 
 _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 
-Kaynak ataması, bir proje takım üyesinin bir yaprak düğüm göreviyle doğrudan ilişkilendirilmesidir. Bu konuda, kaynakları atamanın farklı yolları hakkında bilgiler sağlanmaktadır.
+Kaynak ataması, bir proje takım üyesinin bir yaprak düğüm göreviyle doğrudan ilişkilendirilmesidir. Bu makale, kaynakları atamaya yönelik farklı yollarla ilgili bilgi sağlar.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Görev atamayla genel bir takım üyesi oluşturma
 

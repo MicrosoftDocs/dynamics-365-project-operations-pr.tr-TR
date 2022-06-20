@@ -1,17 +1,17 @@
 ---
 title: Önceden onaylanan girişlerin onayını iptal etme
-description: Bu konu, bir proje yöneticisinin önceden onaylanmış zaman, gider veya malzeme kullanımı girişlerinin onayını nasıl iptal edeceğini açıklar.
+description: Bu makale, bir proje yöneticisinin önceden onaylanmış zaman, gider veya malzeme kullanımı girişlerinin onayını nasıl iptal edeceğini açıklar.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930480"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>Önceden onaylanan girişlerin onayını iptal etme
 
@@ -46,6 +46,6 @@ Giriş onayının iptal edilmesi halinde maliyet ve satışlara karşılık gele
 - **Düzeltme Durumu** alanı **Düzeltildi** olarak güncelleştirilir.
 - **Faturalama Durumu** alanı **İptal Edildi** olarak güncelleştirilir.
 
-Ardından, Fiili Değerler tablosunda ters kayıt girişleri oluşturulur. Sistem, ters kayıt girişi oluşturmak için özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalandırılmamış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Geri çevrilen fiili tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalandırma durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu fiili değerlerin temsil ettiği tutarları açıklamayacaktır.
+Ardından, Gerçek değerler tablosunda ters işlem girişleri oluşturulur. Sistem, ters kayıt girişleri oluşturmak için özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalandırılmamış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Geri çevrilen gerçek tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalama durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu fiili değerlerin temsil ettiği tutarları açıklamayacaktır.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

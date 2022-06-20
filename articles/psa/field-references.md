@@ -1,6 +1,6 @@
 ---
 title: Fiyat ayarına ve işlem varlıklarına özel alan ekleme
-description: Bu konu, fiyat ayarı ve işlem varlıklarına özel alanlar ekleme hakkında bilgi sağlar.
+description: Bu makale, fiyat ayarı ve işlem varlıklarına özel alanlar ekleme hakkında bilgi sağlar.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920498"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Fiyat ayarına ve işlem varlıklarına özel alan ekleme 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Bu konu, [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) konusundaki yordamları tamamladığınızı varsayar. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
+Bu makale, [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md) makaledeki yordamları tamamladığınızı varsayar. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu makaleye geri dönün. 
 
-Bu konuda yordamlar, gerekli özel alan başvurularının varlıklara ve form ve görünüm gibi kullanıcı arabirimi (UI) öğelerine nasıl ekleneceğini gösterir.
+Bu makalede yordamlar, gerekli özel alan başvurularının varlıklara ve form ve görünüm gibi kullanıcı arabirimi (UI) öğelerine nasıl ekleneceğini gösterir.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Özel fiyatlandırma boyutu alanları ekleme 
 Özel alanlar ve varlıklar oluşturulduktan sonra, sonraki adım başvuru alanları oluşturarak Fiyat ayarı ve işlem varlıklarının herhangi bir özel varlık veya seçenek kümesiyle uyumlu hale getirmektir. Fiyatlandırma boyutları listesinin seçenek kümesi boyutlarına ya da varlık boyutlarına veya her ikisine sahip olmasına bağlı olarak, yalnızca **Seçenek kümesi tabanlı özel fiyatlandırma boyutları**'ndaki veya **Varlık tabanlı özel fiyatlandırma boyutları**'ndaki veya her ikisindeki adımları izleyin.

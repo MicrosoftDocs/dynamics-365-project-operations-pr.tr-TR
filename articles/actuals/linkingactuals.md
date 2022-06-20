@@ -1,18 +1,18 @@
 ---
 title: İşlem kaynakları - Gerçek değerleri kaynaklarına bağlama
-description: Bu konuda, gerçek değerleri zaman girişi, gider girişi veya malzeme kullanımı günlükleri gibi orijinal kaynak kayıtlarına bağlamak için işlem kaynakları kavramının nasıl kullanıldığı açıklanmaktadır.
+description: Bu makalede, gerçek değerleri zaman girişi, gider girişi veya malzeme kullanımı günlükleri gibi orijinal kaynak kayıtlarına bağlamak için işlem kaynakları kavramının nasıl kullanıldığı açıklanmaktadır.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 908f78f7d58ec4b18f37d03b6fa7c4e2295491fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f1beff392ddd449a930d38016ca6083fea97953b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921326"
 ---
 # <a name="transaction-origins---link-actuals-to-their-source"></a>İşlem kaynakları - Gerçek değerleri kaynaklarına bağlama
 

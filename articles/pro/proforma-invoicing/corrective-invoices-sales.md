@@ -1,17 +1,17 @@
 ---
 title: Düzeltici proje faturaları
-description: Bu konu, Project Operations'ta düzeltici fatura oluşturma ve onaylama hakkında bilgi sağlar.
+description: Bu makalede, Project Operations'ta faturaları oluşturma ve düzeltmeye yönelik bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29a21dd1da03b06c95c030e5bafc8e3e25fb789b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c6176247db37c3276d775050497585ead011e5a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917370"
 ---
 # <a name="corrective-project-invoices"></a>Düzeltici proje faturaları
 

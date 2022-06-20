@@ -1,6 +1,6 @@
 ---
 title: Gider raporları yeniden tasarlandı (video içerir)
-description: Bu konuda, gider raporu girişi için yeniden tasarlanan ve düşünülen deneyim açıklanmaktadır.
+description: Bu makalede, gider raporu girişi için yeniden tasarlanan ve yenilenmiş olan deneyim hakkında bilgiler yer alır.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 562ec3701a607ed95f663f3e0846d044b3bf504e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b4b70722af72bc66dba0662813c29d3d1df04
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930296"
 ---
 # <a name="expense-reports-reimagined"></a>Gider raporlarını yeniden tasarlama
 

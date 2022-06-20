@@ -1,24 +1,24 @@
 ---
 title: Yenilikler Aralık 2021 - Project Operations Lite dağıtımı
-description: Bu konu, Project Operations lite dağıtımının Aralık 2021 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, Project Operations lite dağıtımının Aralık 2021 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585402"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914104"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Yenilikler Aralık 2021 - Project Operations Lite dağıtımı
 
 _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
-Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürümü 4.27.0.195, 4.27.0.242, 4.27.0.244'teki Project Operations
 

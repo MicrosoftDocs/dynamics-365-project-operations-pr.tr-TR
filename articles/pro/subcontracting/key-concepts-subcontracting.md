@@ -1,17 +1,17 @@
 ---
 title: Alt sözleşme temel kavramları
-description: Bu konu, Microsoft Dynamics 365 Project Operations'ta taşeronluk için geçerli olan bazı anahtar kavramları açıklar.
+description: Bu makalede, Microsoft Dynamics 365 Project Operations'ta taşerona uygulanacak bazı önemli kavramlar açıklanmaktadır.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927720"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Alt sözleşme temel kavramları
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578181"
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Konu, Microsoft Dynamics 365 Project Operations'ta taşeronluk işlevini kullanmaya başlamadan önce dikkat edilmesi gereken bazı anahtar kavramları açıklar.
+Makalede, Microsoft Dynamics 365 Project Operations'taki taşeron işlevini kullanmadan önce bilmeniz gereken bazı önemli kavramlar açıklanmaktadır.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>Taşeronda sözleşme birimi
 

@@ -1,17 +1,17 @@
 ---
 title: İşlem Kategorisini fiyatlandırma boyutu olarak kullanma
-description: Bu konu, İşlem Kategorisi alanının bir fiyatlandırma boyutu olarak kullanılması hakkında bilgi sağlar.
+description: Bu makale, fiyatlandırma boyutu olarak Hareket Kategorisi alanını kullanma hakkında bilgi sağlar.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911731"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>İşlem Kategorisini fiyatlandırma boyutu olarak kullanma
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591152"
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 
-Bu konu, **İşlem Kategorisi** alanının bir fiyatlandırma boyutu olarak nasıl kullanılacağını açıklar. 
+Bu makale, fiyatlandırma boyutu olarak **Hareket Kategorisi** alanını kullanma hakkında bilgi verir. 
 
-## <a name="prerequisites"></a>Ön koşullar
-Bu konudaki yordamları tamamlamadan önce kuruluşunuz için yeni bir fiyatlandırma boyutu çözümüne sahip olmanız gerekir. Henüz bir tane oluşturmadıysanız bkz. [Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Önkoşullar
+Bu makaledeki yordamları tamamlamadan önce, organizasyonunuz için yeni bir fiyatlandırma boyutu çözümünüz olması gerekir. Henüz bir tane oluşturmadıysanız bkz. [Fiyatlandırma boyutları olarak özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>İşlem Kategorisi alanını formlara ve görünümlere ekleme
 Fiyatlandırma boyutu çözümünde **İşlem Kategorisi** alanını görünür hale getirmek için alanı tüm formlara ve görünümlere varlık olarak eklemeniz gerekir.

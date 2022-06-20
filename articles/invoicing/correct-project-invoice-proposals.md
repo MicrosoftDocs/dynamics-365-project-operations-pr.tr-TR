@@ -1,17 +1,17 @@
 ---
 title: Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
-description: Bu konu, taslak fatura teklifinde muhasebe ile ilgili bilgilerin nasıl ayarlanacağını açıklar.
+description: Bu makalede, bir taslak fatura teklifinde muhasebe ile ilgili bilgilerin nasıl ayarlanacağı açıklanmaktadır.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575098"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921234"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Taslak proje fatura teklifleri üzerinde muhasebeyi düzeltme
 
@@ -19,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 Proje faturalarının *operasyon ayrıntıları* bir proforma faturada proje yöneticisi tarafından tutulur. Bu ayrıntılar arasında faturalanması gereken saatler, giderler, malzemeler ve kilometre taşlarıyla ilgili kararlar, oranlar, avans tutarları ve elde tutulan tutar bulunur. Orijinal proforma faturayı onayladıktan sonra, [düzeltme proforma faturası](../proforma-invoicing/corrective-invoices.md) oluşturup onaylayarak operasyon ayrıntılarını düzeltebilirsiniz.
 
-Proje faturalarının *muhasebe ayrıntıları* müşteriye yönelik bir fatura belgesinde tutulur. Bu ayrıntılar satış vergisi hesaplamasını ve faturaya uygulanan mali boyutları içerir. Bu konu, bu hesap ayrıntılarının bir taslak proje faturası teklifinde nasıl düzeltilebileceğine dair ayrıntılar sağlar.
+Proje faturalarının *muhasebe ayrıntıları* müşteriye yönelik bir fatura belgesinde tutulur. Bu ayrıntılar satış vergisi hesaplamasını ve faturaya uygulanan mali boyutları içerir. Bu makalede, bu hesap ayrıntılarının bir taslak proje faturası teklifinde nasıl düzeltilebileceği hakkında ayrıntılar sağlanmaktadır.
 
 ## <a name="adjust-sales-tax"></a>Satış vergisini ayarlama
 

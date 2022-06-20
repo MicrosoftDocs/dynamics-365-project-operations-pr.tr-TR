@@ -1,23 +1,23 @@
 ---
 title: Proje sözleşme ayarları - lite
-description: Bu konu, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgiler için bilgi sağlar.
+description: Bu makale, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgiler sağlar.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917094"
 ---
 # <a name="header-details-for-project-contracts"></a>Proje sözleşmeleri için üst bilgi ayrıntıları
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konu, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere tüm proje sözleşmesi için uygulanan alanlar hakkında bilgi sağlar. Tüm satır öğeleri boyunca özetlenen sözleşmeyle ilgili bilgileri, proje sözleşmesinin sürücü KPI 'Ları olarak da içerir.
+Bu makalede, tüm sözleşme satırlarını etkileyen ayarlar da dahil olmak üzere tüm proje sözleşmesi için uygulanan alanlar hakkında bilgi verilmektedir. Tüm satır öğeleri boyunca özetlenen sözleşmeyle ilgili bilgileri, proje sözleşmesinin sürücü KPI 'Ları olarak da içerir.
 
 Aşağıdaki tabloda, Dynamics 365 Project Operations için benzersiz olan veya Dynamics 365 Sales'teki satış siparişlerinden davranış olarak bazı önemli değişiklikler içeren proje sözleşmesindeki alanlar listelenmektedir.
 

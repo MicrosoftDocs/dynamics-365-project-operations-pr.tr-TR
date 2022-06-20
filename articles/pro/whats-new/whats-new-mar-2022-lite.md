@@ -1,24 +1,24 @@
 ---
 title: "Mart 2022'deki Yenilikler: Project Operations lite dağıtımı"
-description: Bu konu, Project Operations lite dağıtımının Mart 2022 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, Project Operations lite dağıtımının Mart 2022 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934252"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Mart 2022'deki Yenilikler: Project Operations lite dağıtımı
 
 _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
-Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürümü 4.30.0.99'da Project Operations
 
@@ -51,9 +51,9 @@ Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve s
 
 ## <a name="removed-and-deprecated-features"></a>Kaldırılan veya kullanım dışı bırakılan özellikler
 
-[Project Operations'ta kaldırılan veya kullanım dışı olan özellikler](../../whats-new/removed-depreciated-features-project.md) konusu, Dynamics 365 Project Operations için kaldırılan veya kullanım dışı bırakılan özellikleri açıklar.
+[Project Operations'ta kaldırılan veya kullanım dışı olan özellikler](../../whats-new/removed-depreciated-features-project.md) makalesi, Dynamics 365 Project Operations için kaldırılan veya kullanım dışı bırakılan özellikleri açıklar.
 
 - Kaldırılan bir özellik artık üründe kullanılamaz.
 - Kullanım dışı bırakılan özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
-Kullanım dışı bırakma bildirimi herhangi bir özellik üründen kaldırılmadan 12 ay önce, [Project Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler](../../whats-new/removed-depreciated-features-project.md) konusunda duyurulacaktır.
+Kullanım dışı bırakma bildirimi herhangi bir özellik üründen kaldırılmadan 12 ay önce, [Project Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler](../../whats-new/removed-depreciated-features-project.md) makalesinde duyurulacaktır.

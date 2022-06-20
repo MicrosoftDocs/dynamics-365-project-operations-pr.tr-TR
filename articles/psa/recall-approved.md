@@ -1,6 +1,6 @@
 ---
 title: Onaylanan zaman veya gider girişlerini geri çekme
-description: Bu konu, önceden onaylanmış bir zaman veya gider hareketini geri çekme hakkında bilgi sağlar.
+description: Bu makale, önceden onaylanmış bir zaman veya gider hareketini geri çekme hakkında bilgi sağlar.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 457aebb00851a1db3e4aa1068f6a825759b8f2e3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e106ee8734a7c4986693aa06ce6a3b7349a27ac4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910751"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Onaylanan zaman veya gider girişlerini geri çekme
 
@@ -51,7 +51,7 @@ Onaylanan bir zaman veya gider girişini geri çekmek için aşağıdaki adımla
     Gider girişleri için, geri çekmek istediğiniz gider girişinin satırını seçin.
 
 3. **Geri çek**'i seçin. Bir onay iletişim kutusu görüntülenir. Seçilen zaman ve gider girişleri önceden onaylandıysa, geri çekme için bir neden girmeniz istenir.
-4. Geri çekme için bir neden girin ve ardından işlemi onaylamak için **Tamam**'ı seçin. Sistem, girişleri onaylayan kişiye geri çekmeyi onaylaması için bir istek gönderir.
+4. Geri çekme için neden girin ve ardından işlemi onaylamak için **Tamam**'ı seçin. Sistem, girişleri onaylayan kişiye geri çekmeyi onaylaması için bir istek gönderir.
 
 > [!NOTE]
 > Onaylanan zaman ve gider girişleri geri çekilebilse de onaylanan bir zaman veya gider müşteriye zaten faturalanmışsa, geri çekme isteği oluşturulamaz. Geri çekme isteği oluşturmaya çalışan bir kullanıcı, zaman veya giderin zaten faturalandığı için geri çekilemeyeceğini belirten bir ileti alır.
@@ -76,9 +76,9 @@ Geri çekme isteğini onaylamak veya reddetmek için şu adımları izleyin.
 
 Bir onay geri çekildiğinde işlemsel ve finansal bir etkisi olur.
 
-### <a name="operational-impact"></a>İşlemsel etki
+### <a name="operational-impact"></a>Operasyonel etki
 
-Bir geri çekme isteği onaylanırsa, onay kaydı **Reddedildi** olarak işaretlenir. Girişin durumu, bir zaman girişi veya gider girişi olmasına bağlı olarak **İade Edildi** veya **Reddedildi** olarak değiştirilir.
+Geri çekme isteği onaylandığında onay kaydı **Reddedildi** olarak işaretlenir. Girişin durumu, bir zaman girişi veya gider girişi olmasına bağlı olarak **İade Edildi** veya **Reddedildi** olarak değiştirilir.
 
 Proje takımı üyesi girişleri görüntüleyebilir, düzenleyebilir ve ardından yeniden gönderebilir veya girişleri tamamen silebilir.
 
@@ -86,12 +86,12 @@ Geri çekme isteği reddedilirse, girişin durumu **Onaylandı** olarak kalır v
 
 ### <a name="financial-impact"></a>Finansal etki
 
-Bir geri çekme isteği onaylanırsa maliyet ve satışlar için karşılık gelen gerçek tutarlar aşağıdaki şekilde güncelleştirilir:
+Geri çekme isteği onaylandığında maliyet ve satışlara karşılık gelen gerçek tutarlar aşağıdaki şekilde güncelleştirilir:
 
 - **Düzeltme Durumu** alanı **Düzeltildi** olarak güncelleştirilir.
 - **Faturalama Durumu** alanı **İptal Edildi** olarak güncelleştirilir.
 
-Ardından, Fiili değerler tablosunda ters işlem girişleri oluşturulur. Ters işlem girişleri oluşturmak için sistem özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalanmamaış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Geri çevrilen gerçek tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalama durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle, projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu gerçek tutarların temsil ettiği tutarları açıklamaz.
+Ardından, Gerçek değerler tablosunda ters işlem girişleri oluşturulur. Sistem, ters kayıt girişleri oluşturmak için özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalandırılmamış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Geri çevrilen gerçek tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalama durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle, projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu gerçek tutarların temsil ettiği tutarları açıklamaz.
 
 Geri çekme isteği reddedilirse, proje üzerinde finansal etkisi olmaz.
 

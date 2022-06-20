@@ -1,6 +1,6 @@
 ---
 title: Proje planlama ve izleme
-description: Bu konu, Project Service Automation'da planlama ve izleme hakkında bilgilere bir bağlantı sağlar.
+description: Bu makale, Project Service Automation'da planlama ve izleme hakkında bilgilere bir bağlantı sağlar.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933286"
 ---
 # <a name="project-planning-and-tracking"></a>Proje planlama ve izleme
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589910"
 
 Project Service uygulaması hizmet kuruluşlarının fırsatları tanımlamasına, teklif vermesine, sözleşme sonuçlandırmasına, kaynakları yönetmesine, zamanı ve giderleri izlemesine, müşterileri faturalandırmasına ve projeleri zamanında ve bütçeyi aşmadan tamamlamasına yardımcı olur. 
 
-daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki konulara taşınmıştır:
+Daha önce bu makalede yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki makalelere taşınmıştır:
 
 - [Proje zamanlamaları](../project-creating.md)
 - [Proje maliyetleri ve gelir](../project-estimating.md)
@@ -43,7 +43,7 @@ daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşa�
 - [Proje ayarları](../project-settings.md)
 
 > [!NOTE]
-> Bu konu gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
+> Bu makale gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

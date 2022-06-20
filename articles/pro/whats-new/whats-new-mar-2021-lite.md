@@ -1,25 +1,25 @@
 ---
 title: "Mart 2021'deki Yenilikler: Project Operations lite dağıtımı"
-description: Bu konuda, Project Operations lite dağıtımının Mart 2021 sürümünde bulunan kalite güncelleştirmeleri hakkında bilgiler sağlanmaktadır.
+description: Bu makale, Project Operations lite dağıtımının Mart 2021 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd9c3b5fc4eb30aaf385ba67a8d54875048e40cd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8ab045af503e9944fbc013b4e75ce45446786912
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913920"
 ---
 # <a name="whats-new-march-2021---project-operations-lite-deployment"></a>Mart 2021'deki Yenilikler: Project Operations lite dağıtımı
 
 _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürüm 4.8.0.91'te Project Operations 
 

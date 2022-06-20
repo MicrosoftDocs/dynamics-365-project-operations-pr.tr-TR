@@ -1,24 +1,24 @@
 ---
 title: "Aralık 2020'deki yenilikler: Project Operations Lite dağıtımı: anlaşmadan proforma faturaya"
-description: Bu konu, Project Operations Lite dağıtımının Aralık 2020 sürümünde bulunan (anlaşmadan proforma faturaya) kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, Project Operations Lite - anlaşmadan proforma faturaya dağıtımının Aralık 2020 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924086"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Aralık 2020'deki yenilikler: Project Operations Lite dağıtımı: anlaşmadan proforma faturaya
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
   - Dataverse ortamı sürüm 4.5.0.134'te Project Operations 
 

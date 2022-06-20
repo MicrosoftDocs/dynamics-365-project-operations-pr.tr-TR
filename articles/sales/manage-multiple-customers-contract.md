@@ -1,21 +1,21 @@
 ---
 title: Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
-description: Bu konu bir proje sözleşmesinde birden çok müşteriyi yönetme hakkında bilgi sağlar.
+description: Bu makalede, proje sözleşmesinde birden fazla müşteriyi yönetme hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928364"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
 
-Bu konu bir proje sözleşmesinde birden çok müşteriyi yönetme hakkında bilgi sağlar. Bir anlaşmayı finanse etmek için birden fazla müşteriye yönelik sözleşmeli anlaşma gerektiğinde bir proje sözleşmesi kullanabilirsiniz. **Proje Sözleşmesi** sayfasında **Özet** sekmesi, anlaşma için birincil müşteri hakkında bilgiler içerir. Anlaşmaya katılan diğer müşteriler, **Müşteriler** sekmesine eklenebilir.
+Bu makalede, proje sözleşmesinde birden fazla müşteriyi yönetme hakkında bilgiler sağlanmaktadır. Bir anlaşmayı finanse etmek için birden fazla müşteriye yönelik sözleşmeli anlaşma gerektiğinde bir proje sözleşmesi kullanabilirsiniz. **Proje Sözleşmesi** sayfasında **Özet** sekmesi, anlaşma için birincil müşteri hakkında bilgiler içerir. Anlaşmaya katılan diğer müşteriler, **Müşteriler** sekmesine eklenebilir.
 
 Proje sözleşmesinin **Müşteriler** sekmesindeki tüm sözleşme müşterileri varsayılan olarak, proje sözleşmesi için oluşturulan yeni proje tabanlı sözleşme satırlarındaki sözleşme satırı müşterileri olur. Mevcut proje tabanlı sözleşme satırları, daha sonra oluşturulan yeni sözleşme müşterisi kayıtlarını devralmaz.
 

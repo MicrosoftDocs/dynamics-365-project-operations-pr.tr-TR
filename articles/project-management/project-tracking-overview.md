@@ -1,23 +1,23 @@
 ---
 title: Proje çalışması izleme
-description: Bu konuda, projenin çalışma ve işteki ilerlemenin nasıl izleneceği hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, proje çabası ve ilerleme durumunun nasıl izleneceği hakkında bilgiler sağlanmaktadır.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929284"
 ---
 # <a name="project-effort-tracking"></a>Proje çalışması izleme
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Zamanlamaya göre ilerleme durumunun izlenmesi ihtiyacı endüstriye göre değişir. Bazı endüstriler ayrıntılı düzeyde; diğer endüstrilerse daha yüksek bir düzeyde izler. Bu konu, kuruluşunuzun gereksinimlerini karşılamak için nasıl zamanlanacağınızı gösterir.
+Zamanlamaya göre ilerleme durumunun izlenmesi ihtiyacı endüstriye göre değişir. Bazı endüstriler ayrıntılı düzeyde; diğer endüstrilerse daha yüksek bir düzeyde izler. Bu makale, kuruluşunuzun gereksinimlerini karşılamak için nasıl zamanlanacağınızı gösterir.
 
 ## <a name="effort-tracking-view"></a>Çalışma izleme görünümü
 

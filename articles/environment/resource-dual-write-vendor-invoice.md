@@ -1,18 +1,18 @@
 ---
 title: Satıcı faturası tümleştirmesi
-description: Bu konu, Project Operations'ta satıcı faturası tümleştirmesi hakkında bilgi sağlar.
+description: Bu makalede, Project Operations'ta satıcı faturası tümleştirmesine yönelik bilgiler sağlanmaktadır.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912080"
 ---
 # <a name="vendor-invoice-integration"></a>Satıcı faturası tümleştirmesi
 
@@ -21,7 +21,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 Dynamics 365 Project Operations'da projeyle ilgili satın alma, **Borç hesapları** > **faturalar** > **Bekleyen satıcı faturaları**'na giderek ve bekleyen bir satıcı fatura belgesi kullanılarak kaydedilebilir. Daha fazla bilgi için bkz. [Bekleyen satıcı faturası kullanarak stoğu tutulmayan malzemeleri satın alma](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Bu konu açıklanan işlevleri kullanmadan önce gerekli yapılandırmaları gözden geçirin ve uygulayın. Daha fazla bilgi için bkz. [Stoklanmayan malzemeleri ve bekleyen satıcı faturalarını etkinleştirme](../procurement/configure-materials-nonstocked.md).
+> Bu makalede açıklanan işlevleri kullanmadan önce gerekli yapılandırmaları gözden geçirin ve uygulayın. Daha fazla bilgi için bkz. [Stoklanmayan malzemeleri ve bekleyen satıcı faturalarını etkinleştirme](../procurement/configure-materials-nonstocked.md).
 
 Project Operations'da projeyle ilgili satıcı faturaları, özel deftere nakil kuralları kullanılarak deftere nakledilir:
 

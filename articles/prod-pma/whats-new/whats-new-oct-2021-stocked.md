@@ -1,24 +1,24 @@
 ---
 title: Ekim 2021'deki yenilikler veya değişiklikler - Stoklu/ürün tabanlı senaryolar için Project Operations
-description: Bu konu, stoklu/üretim tabanlı senaryolar için Project Operations Ekim 2021 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, stoklu/üretim tabanlı senaryolar için Project Operations Ekim 2021 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933700"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Ekim 2021'deki yenilikler veya değişiklikler - Stoklu/ürün tabanlı senaryolar için Project Operations
 
 _**Şunlar için Geçerlidir:** Stoklu/Ürün tabanlı senaryolar için Project Operations_
 
-Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dynamics 365 Finance ortamı sürümü 10.0.22'de proje yönetimi ve muhasebe
  

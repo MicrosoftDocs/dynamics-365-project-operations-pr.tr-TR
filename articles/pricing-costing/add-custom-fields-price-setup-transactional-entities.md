@@ -1,6 +1,6 @@
 ---
 title: Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
-description: Bu konu varlıklara, formlara ve görünümlere gerekli özel alan başvurularının nasıl ekleneceği hakkında bilgi sağlar.
+description: Bu makale, varlıklara ve görünümlere gerekli özel alan başvurularının nasıl ekleneceği hakkında bilgi sağlar.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926064"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Bu konu, [Fiyatlandırma boyutu olarak kullanılmak üzere özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) konusundaki yordamları tamamladığınızı varsayar. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
+Bu makale, [Özel alanlar ve varlıkları fiyatlandırma boyutları olarak kullanacak şekilde oluşturma](create-custom-fields-entities-pricing-dimensions.md) makalesindeki yordamları tamamladığınızı varsayar. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu makaleye geri dönün. 
 
-Bu konuda yordamlar, gerekli özel alan başvurularının varlıklara ve form ve görünüm gibi kullanıcı arabirimi (UI) öğelerine nasıl ekleneceğini gösterir.
+Bu makalede yordamlar, gerekli özel alan başvurularının varlıklara ve form ve görünüm gibi kullanıcı arabirimi (UI) öğelerine nasıl ekleneceğini gösterir.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Özel fiyatlandırma boyutu alanları ekleme 
 Özel alanlar ve varlıklar oluşturulduktan sonra, sonraki adım başvuru alanları oluşturarak Fiyat ayarı ve işlem varlıklarının herhangi bir özel varlık veya seçenek kümesiyle uyumlu hale getirmektir. Fiyatlandırma boyutları listesinin seçenek kümesi boyutlarına ya da varlık boyutlarına veya her ikisine sahip olmasına bağlı olarak, yalnızca **Seçenek kümesi tabanlı özel fiyatlandırma boyutları**'ndaki veya **Varlık tabanlı özel fiyatlandırma boyutları**'ndaki veya her ikisindeki adımları izleyin.

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation Güncelleştirme Sürümü 36, V3'teki yenilikler veya değişiklikler
-description: Bu konu, Microsoft Dynamics 365 Project Service Automation Güncelleştirme Sürümü 36, V3'tebulunan özellikleri ve düzeltmeleri listeler.
+description: Bu makalede, Microsoft Dynamics 365 Project Service Automation Güncelleştirme Sürümü 36, V3'de bulunan özellikler ve düzeltmeler listelenmektedir.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925006"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Project Service Automation Güncelleştirme Sürümü 36, V3'teki yenilikler veya değişiklikler
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586690"
 
 Microsoft Dynamics 365 Project Service Automation uygulaması için en yeni güncelleştirmeyi sunmaktan mutluluk duyarız. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 çevrimiçi çözümler sayfasının için Yönetici Merkezi sayfasını ziyaret edin ve güncelleştirmeyi kurun. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
 
-Bu konuda, Project Service Automation Güncelleştirme Sürümü 36 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürüm, V3.10.57.152 derleme numarasına sahiptir ve Ekim 2021 tarihinde kendi kendine güncelleştirme ile genel kullanıma sunulmuştur.
+Bu makalede, Project Service Automation Güncelleştirme Sürümü 36, V3'de yeni ve değiştirilen özellikler ve düzeltmeler listelenmektedir. Bu sürüm, V3.10.57.152 derleme numarasına sahiptir ve Ekim 2021 tarihinde kendi kendine güncelleştirme ile genel kullanıma sunulmuştur.
 
 ## <a name="update-release-36"></a>Güncelleştirme Sürümü 36
 

@@ -1,17 +1,17 @@
 ---
 title: Project Operations denemelerine kaydolma
-description: Bu konu, Dynamics 365 Project Operations denemesi dağıtma hakkında bilgi sağlar.
+description: Bu makalede, Dynamics 365 Project Operations deneme sürümü dağıtma işlemi açıklanmaktadır.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584298"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959532"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations denemelerine kaydolma 
 
@@ -19,9 +19,9 @@ _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 
 
-Bu konu, önizleme işortağı teklifine nasıl abone olacağınızı ve nasıl Dynamics 365 Project Operations ortamı dağıtacağınızı açıklar.
+Bu makalede, bir Dynamics 365 Project Operations ortamın nasıl sunulacağını ve dağıtılacağını, önizleme ortağına nasıl abone olacağınızı açıklamaktadır.
 
-Yeni Project Operations denemesiyle, en iyi dağıtım yaklaşımını öneren bir soru formunu tamamlayarak desteklenen üç dağıtım senaryosundan birini otomatik olarak dağıtabilirsiniz. Bu konu aşağıdakilerin nasıl yapılacağı hakkında bilgi sağlar:
+Yeni Project Operations denemesiyle, en iyi dağıtım yaklaşımını öneren bir soru formunu tamamlayarak desteklenen üç dağıtım senaryosundan birini otomatik olarak dağıtabilirsiniz. Bu makale, aşağıdaki konular hakkında bilgi sağlar:
 
 - Deneme teklifinizi kullanma.
 - Sağlamayı başlatma.
@@ -89,7 +89,8 @@ Başlamadan önce, Project Operations önizlemesini istediğiniz kiracıdaki kul
 4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finans ve Operasyon uygulamaları URL'lerini seçin.
 
 ## <a name="configuring-dual-write"></a>Çift yazmayı yapılandırma
-- Güvenlik rollerini çift yazma için yapılandırmak üzere, [Dataverse'te Project Operations'da güvenlik ayarlarını güncelleştirme](resource-provision-new-environment.md) bölümüne bakın.
+- Güvenlik rollerini çift yazma için yapılandırmak üzere, [Dataverse'te Project Operations'da güvenlik ayarlarını güncelleştirme](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse) bölümüne bakın.
+- İkili yazma yapılandırmasına erişmek için, Finans ve Operasyonlar örneğine gidin ve sonra **Veri Yönetimi** > **İkili Yazma**'ya gidin.
 - Çift yazma eşlemelerini yapılandırmak için bkz. [Project Operations çift yazma eşlemelerini çalıştırma](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Lisans atama

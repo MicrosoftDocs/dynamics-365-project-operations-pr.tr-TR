@@ -1,24 +1,24 @@
 ---
 title: Stoklu/ürün tabanlı senaryolar için Project Operations'da Mayıs 2021'deki yenilikler veya değişiklikler
-description: Bu konu stoklu/üretim tabanlı senaryolar için Project Operations'ın Mayıs 2021 sürümünde bulunan kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, stoğu tutulan/üretimi temel alan senaryolar için Project Operations Mayıs 2021 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927168"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Stoklu/ürün tabanlı senaryolar için Project Operations'da Mayıs 2021'deki yenilikler veya değişiklikler
 
 **Şunlar için Geçerlidir**: Stoklu/Ürün tabanlı senaryolar için Project Operations
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dynamics 365 Finance ortamı sürümü 10.0.19'da proje yönetimi ve muhasebe
  

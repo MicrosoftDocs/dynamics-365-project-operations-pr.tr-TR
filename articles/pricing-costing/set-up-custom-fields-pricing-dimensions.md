@@ -1,6 +1,6 @@
 ---
 title: Özel alanları fiyatlandırma boyutları olarak ayarlama
-description: Bu konuda, özel alanları kullanarak fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
+description: Bu makalede, özel alanlar kullanılarak fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917600"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Özel alanları fiyatlandırma boyutları olarak ayarlama
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Başlamadan önce, bu konunun [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) ve [Fiyat ayarı ve işlem tabanlı varlıklara gerekli özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) konu başlıklarındaki yordamları tamamladığınızı varsaydığını bilmeniz gerekir. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu konuya geri dönün. 
+Başlamadan önce, bu makalenin [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) ve [Fiyat ayarı ve işlem tabanlı varlıklara zorunlu özel alanlar ekleme](add-custom-fields-price-setup-transactional-entities.md) makalelerindeki yordamları tamamladığınızı varsaydığını bilmeniz gerekir. Bu yordamları tamamlamadıysanız geri dönüp tamamlayın ve ardından bu makaleye geri dönün. 
 
-Bu konuda, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir. **Parametreler** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, fiyatlandırma boyutları varlıklarındaki kayıtları gösteren sekmedeki ızgarayı not edin. Varsayılan olarak, bu sekmedeki ızgarada iki satır vardır:
+Bu makalede, özel fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir. **Parametreler** sayfasındaki **Tutar Tabanlı Fiyatlandırma Boyutları** sekmesinde, fiyatlandırma boyutları varlıklarındaki kayıtları gösteren sekmedeki ızgarayı not edin. Varsayılan olarak, bu sekmedeki ızgarada iki satır vardır:
 
 - **msdyn_resourcecategory** (Rol)
 - **msdyn_OrganizationalUnit** (Kuruluş Birimi)

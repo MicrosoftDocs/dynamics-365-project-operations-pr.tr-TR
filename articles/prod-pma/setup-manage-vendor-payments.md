@@ -1,6 +1,6 @@
 ---
 title: Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
-description: Bu konu, müşteri ödemelerini temel alarak kısmi satıcı ödemelerini serbest bırakmak için ödemeli ödeme (pwp) koşullarının nasıl oluşturulacağı açıklanmaktadır.
+description: Bu makale, müşteri ödemelerini temel alarak kısmi satıcı ödemelerini serbest bırakmak için ödendiğinde öde (PWP) koşullarının nasıl oluşturulacağını açıklamaktadır.
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920774"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Ödeme alındığında ödenen satıcı ödemelerini ayarlama ve kullanma
 

@@ -1,25 +1,25 @@
 ---
 title: Görev ızgarasında çalışma sorunlarını giderme
-description: Bu konuda, Görev ızgarasında çalışırken gereken sorun giderme bilgileri sağlanmaktadır.
+description: Bu makalede, Görev kılavuzunda çalışırken bilinmesi gereken sorun giderme bilgileri yer alır.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911068"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Görev ızgarasında çalışma sorunlarını giderme 
 
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations, Lite dağıtımı: anlaşmadan proforma faturaya, Project for the web_
 
-Dynamics 365 Project Operations tarafından kullanılan Görev ızgarası Microsoft Dataverse içinde barındırılan bir iframe'dir. Bu kullanımın sonucu olarak, kimlik doğrulamanın ve yetkilendirmenin doğru şekilde çalışmasının sağlanması için belirli gereksinimler karşılanmalıdır. Bu konu, iş kırılım yapısında (İKY) kılavuzu işleme veya görevleri yönetme yeteneğini etkileyebilecek genel sorunları açıklar.
+Dynamics 365 Project Operations tarafından kullanılan Görev ızgarası Microsoft Dataverse içinde barındırılan bir iframe'dir. Bu kullanımın sonucu olarak, kimlik doğrulamanın ve yetkilendirmenin doğru şekilde çalışmasının sağlanması için belirli gereksinimler karşılanmalıdır. Bu makale, iş kırılım yapısında (İKY) kılavuzu işleme veya görevleri yönetme yeteneğini etkileyebilecek genel sorunları açıklar.
 
 Genel sorunlar arasında şunlar bulunur:
 

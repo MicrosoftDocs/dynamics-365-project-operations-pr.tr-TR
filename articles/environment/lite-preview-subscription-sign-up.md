@@ -1,21 +1,21 @@
 ---
-title: Önizleme aboneliğine kaydolma - lite
-description: Bu konuda, Project Operations Lite dağıtımına (anlaşmadan proforma faturaya) abone olma ve dağıtma hakkında bilgiler sağlanmaktadır.
+title: Önizleme aboneliği (lite) için kaydolma
+description: Bu makalede, Project Operations hafif dağıtım - anlaşmadan proforma faturaya abone olma ve dağıtma hakkında bilgiler sağlanmaktadır.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921280"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Önizleme aboneliği (lite) için kaydolma 
 
-Bu konuda deneme teklifine nasıl abone olunacağı ve Dynamics 365 Project Operations lite dağıtımın nasıl dağıtılacağını (anlaşmadan proforma faturaya kadar) açıklanmaktadır.
+Bu makalede, Dynamics 365 Project Operations hafif dağıtım - anlaşmadan proforma faturayı dağıtma ve deneme sürümü teklifine abone olma hakkında bilgiler sağlanmaktadır.
 
 > [!NOTE]
 > Bu işlem, Project Operations'ın yaklaşan sürümlerinde değişecektir.
@@ -50,7 +50,7 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 
 ## <a name="create-a-new-dataverse-environment"></a>Yeni bir Dataverse ortamı oluşturun
 
-1. [Dataverse dağıtım modeli](lite-deployment.md) konusundaki yönergeleri izleyerek yeni bir Project Operations Dataverse dağıtım ortamı hazırlayın. Ortam türünü seçtiğinizde, **Deneme (Abonelik tabanlı)** kullandığınızdan emin olun.
+1. [Dataverse dağıtım modeli](lite-deployment.md) makalesindeki adımları izleyerek yeni bir Project Operations Dataverse dağıtım ortamı sağlayın. Ortam türünü seçtiğinizde, **Deneme (Abonelik tabanlı)** kullandığınızdan emin olun.
 
   ![Yeni ortam.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS yapılandırması yükleme ve demo verileri ayarlama
 
-[Demo ayarlaması ve yapılandırma verileri uygulama](lite-apply-demo-setup-config-data.md) konusundaki yönergeleri izleyerek CDS yapılandırmasını yükleyin ve demo verileri ayarlayın.
+CDS yapılandırmasını yükleyin ve [Demo kurulumunu ve konfigürasyon verilerini uygulama](lite-apply-demo-setup-config-data.md) makalesindeki adımları izleyerek demo verilerini kurun.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

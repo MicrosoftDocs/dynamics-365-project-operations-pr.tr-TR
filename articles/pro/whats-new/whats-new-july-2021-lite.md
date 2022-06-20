@@ -1,24 +1,24 @@
 ---
 title: Temmuz 2021'deki yenilikler - Project Operations lite dağıtımı
-description: Project Operations lite dağıtımının Temmuz 2021 sürümünde bulunan kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, Project Operations lite dağıtımının Temmuz 2021 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914012"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Temmuz 2021'deki yenilikler - Project Operations lite dağıtımı
 
 _Şunlar için geçerlidir: Lite dağıtımı - anlaşmadan proforma faturaya_
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
   - Dataverse ortamı sürüm 4.12.0.148 veya 4.12.0.152'te Project Operations.
 

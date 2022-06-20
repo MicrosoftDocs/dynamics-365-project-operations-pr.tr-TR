@@ -1,17 +1,17 @@
 ---
 title: Kasım 2020'deki Yenilikler - Stoklu/üretim tabanlı senaryolar için Project Operations
-description: Bu konu, stoklardaki üretim tabanlı senaryolar için Project Operations'ın Kasım 2020'de bulunan kaliteli güncelleştirmelerle ilgili bilgi sağlar.
+description: Bu makale, stoğu tutulan/üretimi temel alan senaryolar için Project Operations Kasım 2020 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911253"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Kasım 2020'deki Yenilikler - Stoklu/üretim tabanlı senaryolar için Project Operations
 

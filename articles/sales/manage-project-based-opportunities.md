@@ -1,17 +1,17 @@
 ---
 title: Proje tabanlı fırsat yönetimi
-description: Bu konu, projelerle ilgili fırsatlarla nasıl çalışılacağı hakkında bilgi sağlar.
+description: Bu makale, projelerle ilgili fırsatlarla nasıl çalışılacağı hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933240"
 ---
 # <a name="manage-project-based-opportunities"></a>Proje tabanlı fırsat yönetimi
 
@@ -19,7 +19,7 @@ _**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryo
 
 Proje tabanlı şirketlerin, genellikle birden çok ülkeye ve coğrafi bölgelerde teslimat işlemleri vardır. Projenin yürütülme ve teslimat maliyeti, teslimi hangi Coğrafya veya bölmenin yönetmediğini temel alarak değişiklik gösterebilir. Bunun için, bu işlem, anlaşma kenar boşluklarını etkileyebilir. Proje tabanlı servislerin teslimatı genellikle büyük miktarda insan kaynakları süresi, seyahat için önemli giderler, malzeme maliyetleri ve diğer giderler içerir.
 
-Dynamics 365 Project Operations'ta proje tabanlı fırsatlar, Dynamics 365 Sales için uzantılarla tasarlanmıştır. Konu, proje tabanlı şirketlerin proje bazlı fırsatları yönetmesi için gereken ek işlevselliğe dahil edilen farklı alanlar ve iş mantığı hakkında ayrıntılar sağlar.
+Dynamics 365 Project Operations'ta proje tabanlı fırsatlar, Dynamics 365 Sales için uzantılarla tasarlanmıştır. Bu makale, proje tabanlı fırsatları yönetmek için proje tabanlı şirketlerin gerektirdiği ek işlevselliğe dahil edilen farklı alanlar ve iş mantığı hakkında ayrıntılar sağlar.
 
 ## <a name="view-all-project-based-opportunities"></a>Proje tabanlı fırsatları görüntüleme
 

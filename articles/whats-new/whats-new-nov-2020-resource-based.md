@@ -1,23 +1,23 @@
 ---
 title: Kasım 2020 Yenilikler - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
-description: Bu konu, kaynak/stoklanmayan tabanlı senaryolar için Project Operations'ın Kasım 2020'de bulunan kaliteli güncelleştirmelerle ilgili bilgi sağlar.
+description: Bu makale, kaynak/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations Kasım 2020 sürümünde yer alan kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923442"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Kasım 2020 Yenilikler - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - CDS ortamıdna Project Operations sürüm 4.4.0.70
 - Dynamics 365 Finance ortamı sürümü 10.0.14'te proje yönetimi ve muhasebe

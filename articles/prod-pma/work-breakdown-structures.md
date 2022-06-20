@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920682"
 ---
 # <a name="work-breakdown-structures-overview"></a>İş kırılım yapısına genel bakış
 
@@ -35,7 +35,7 @@ Bir İKY'deki ayrıntı derecesi, tahminler için gereken doğruluk düzeyine ve
 
 Buna karşılık, medya ve reklam, yazılım ve BT altyapısı gibi endüstrilerdeki projeler ise başka türlüdür. Verimlilik görevi yapan kişilerin deneyim ve yetkinliğine göre değişir. Bu nedenle, söz konusu endüstrilerde projenin ayrıntılı ilerleyişini takip etmekten ziyade projenin boyutunu kestirmek için İKY kullanılır. 
 
-İKY hazırlamak genellikle uzun süren ve çok çeşitli insanlardan işbirliği ve bilgi gerektiren yoğun bir işlemdir. Bu konuda, tahmin ve izleme gereksinimlerinizi karşılamak için İKY geliştirmelerini nasıl kullanabileceğiniz açıklanır.
+İKY hazırlamak genellikle uzun süren ve çok çeşitli insanlardan işbirliği ve bilgi gerektiren yoğun bir işlemdir. Bu makale, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğinizi açıklamaktadır.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>İKY oluşturmaya ilişkin önkoşullar
 İKY oluşturmak için bir çalışma zamanlaması oluşturup çalışma maliyetini tahmin edebilmeniz gerekir.
@@ -166,7 +166,7 @@ Finance'de, bir projeye ait İKY'nin üç görünümü vardır: planlama görün
 
 ### <a name="planning-view"></a>Planlama görünümü
 
-Planlama görünümü, zamanlamanın planlanan veya temel tahminini ve maliyet bilgilerini görüntüler. Bir proje İKY'si için sürüm ve taban çizgisini izlemeye yönelik bir özellik olmasa da, bu görünümdeki değerler temel sürümü temsil etmek üzere tasarlanmıştır. Bu konudaki Zamanlama tahmini ve Maliyet tahmini bölümlerinde bu görünüm ve İKY oluşturmak için nasıl kullanılacağını açıklanır.
+Planlama görünümü, zamanlamanın planlanan veya temel tahminini ve maliyet bilgilerini görüntüler. Bir proje İKY'si için sürüm ve taban çizgisini izlemeye yönelik bir özellik olmasa da, bu görünümdeki değerler temel sürümü temsil etmek üzere tasarlanmıştır. Bu makalenin Zamanlama tahmini ve Maliyet tahmini bölümlerinde, bu görünüm ve bir WBS oluşturmak için görünümün nasıl kullanıldığı açıklanmaktadır.
 
 ### <a name="effort-tracking-view"></a>Çalışma izleme görünümü
 

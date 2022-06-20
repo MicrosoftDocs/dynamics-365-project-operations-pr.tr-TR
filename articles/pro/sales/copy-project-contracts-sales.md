@@ -1,17 +1,17 @@
 ---
 title: Proje sözleşmelerini kopya - lite
-description: Bu konuda,Project Operations'ta proje sözleşmelerini kopyalama hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, Project Operations'ta proje sözleşmelerini kopyalama hakkında bilgiler yer almaktadır.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 082cd6597a066f6dac8a7583a377d8e34bc74e2e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a1846af677f7cea3ec22fdba4408f2bbd7db8a3c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932642"
 ---
 # <a name="copy-project-contracts---lite"></a>Proje sözleşmelerini kopya - lite
 

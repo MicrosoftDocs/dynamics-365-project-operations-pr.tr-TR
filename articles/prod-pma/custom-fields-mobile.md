@@ -1,6 +1,6 @@
 ---
 title: iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama
-description: Bu konuda, özel alanları uygulamak üzere uzantıları kullanmak için yaygın kalıplar sağlanır.
+description: Bu makale, özel alanları uygulamak için uzantıların kullanımıyla ilgili yaygın desenler sağlar.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913736"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, özel alanları uygulamak üzere uzantıları kullanmak için yaygın kalıplar sağlanır. Aşağıdaki konular ele alınmıştır:
+Bu makale, özel alanları uygulamak için uzantıların kullanımıyla ilgili yaygın desenler sağlar. Aşağıdaki makaleler el alınmaktadır:
 
 - Özel alan çerçevesinin desteklediği çeşitli veri türleri
 - Zaman çizelgesi girişlerinde salt okunur veya düzenlenebilir alanları gösterme ve kullanıcı tarafından sağlanan değerleri veritabanına yeniden kaydetme
@@ -35,7 +35,7 @@ Bu konuda, özel alanları uygulamak üzere uzantıları kullanmak için yaygın
 
 ## <a name="audience"></a>Hedef Kitle
 
-Bu konu, Apple iOS ve Google Android cihazlarda kullanılabilen Microsoft Dynamics 365 Project Timesheet mobil uygulamasıyla özel alanlarını tümleştiren geliştiriciler içindir. Okuyucuların X++ geliştirme ve proje zaman çizelgesi işlevleriyle ilgili bilgi sahibi olduğu varsayılmıştır.
+Bu makale, kendi özel alanlarını Apple iOS ve Google Android için mevcut Microsoft Dynamics 365 Project Timesheet mobil uygulamasına tümleştirmek isteyen geliştiriciler içindir. Okuyucuların X++ geliştirme ve proje zaman çizelgesi işlevleriyle ilgili bilgi sahibi olduğu varsayılmıştır.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Veri sözleşmesi – TSTimesheetCustomField X + + sınıfı
 
@@ -64,7 +64,7 @@ Bu konu, Apple iOS ve Google Android cihazlarda kullanılabilen Microsoft Dynami
 
 - **TSTimesheetCustomField** nesnesinde **stringOptions** özelliği verilmişse, kullanıcıların seçenek düğmelerini (radyo düğmeleri) kullanarak seçim yapmasına yönelik değerler yalnızca bu liste öğelerinden oluşur.
 
-    Bu durumda, dize alanı kullanıcı giriş yapmasına yönelik bir Enum değeri olarak işlev görebilir. Değeri veritabanına enum olarak kaydetmek için, komut zincirini kullanarak veritabanına kaydetmeden önce dize değerini el ile enum değerine tekrar eşleştirin. (Örnek için bu konu içinde ilerleyen bölümlerde yer alan "Uygulamadan zaman çizelgesi girişini yeniden veritabanına kaydetmek için TSTimesheetEntryService sınıfında komut zincirini kullanma" bölümüne bakın.)
+    Bu durumda, dize alanı kullanıcı giriş yapmasına yönelik bir Enum değeri olarak işlev görebilir. Değeri veritabanına bir enum olarak kaydetmek için, komut zinciri kullanarak veritabanına kaydetmeden önce dize değerini el ile numaralama değerine geri eşleyin (bir zaman çizelgesi girdisini uygulamadan önce, bir Timesheet girişini kullanarak yeniden görüntülemek için "Veritabanına uygulamadan geri TSTimesheetEntryService sınıfı üzerinde bir komut zinciri kullanın" makalesinde bir örnek olarak da yer almaktadır).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Bu özellik, uygulamadaki alanların yanında gösterilen etiketi belirtir.
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (Dize Listesi)
 
-Bu özellik yalnızca **fieldBaseType** alanı **String** olarak ayarlandığında uygulanabilir. **stringOptions** ayarlanmışsa, seçenek düğmeleri (radyo düğmeleri) aracılığıyla seçim için kullanılacak dize değerler listedeki dizeler ile belirtilir. Herhangi bir dize verilmezse, dize alanında serbest metin girdisine izin verilir. (Örnek için bu konu içinde ilerleyen bölümlerde yer alan "Uygulamadan zaman çizelgesi girişini yeniden veritabanına kaydetmek için TSTimesheetEntryService sınıfında komut zincirini kullanma" bölümüne bakın.)
+Bu özellik yalnızca **fieldBaseType** alanı **String** olarak ayarlandığında uygulanabilir. **stringOptions** ayarlanmışsa, seçenek düğmeleri (radyo düğmeleri) aracılığıyla seçim için kullanılacak dize değerler listedeki dizeler ile belirtilir. Hiçbir dize sağlanmazsa, dize alanındaki serbest metin girişine izin verilir (Bu konunun ilerleyen kısımlarında yer alan "Uygulamadan bir zaman çizelgesi girdisini veritabanına geri kaydetmek için TSTimesheetEntryService sınıfı üzerinde komut zinciri kullan" makalesine bakın).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

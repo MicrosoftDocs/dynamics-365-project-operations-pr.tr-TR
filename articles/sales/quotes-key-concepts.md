@@ -1,6 +1,6 @@
 ---
 title: 'Teklifler: temel kavramlar'
-description: Bu konu, proje teklifleri ve Project Operations'da kullanılabilir olan satış teklifleri hakkında bilgiler sağlar.
+description: Bu makalede, Proje teklifleri ve Project Operations'ta kullanılabilir olan satış teklifleri hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912540"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Proje tabanlı tekliflere özel kavramlar
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations'ta, iki tür teklif, proje ve satış vardır. �
 - **Alanlar ve kavramlar**: Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
 - **Tür**: Satış ve proje teklifleri aynı zamanda **Tür** adlı seçenek kümesi tabanlı bir alanla tanımlanır. Satış teklifi için, bu alan **Öğe-tabanlı** değerine sahiptir. Proje teklifi için, **İş-tabanlı** değerine sahiptir.
 
-Bu konu proje tekliflerinin ayrıntılarına odaklanır.
+Bu makale, proje tekliflerinin ayrıntılarına odaklanacaktır.
 
 Project Operations'da bir proje teklifinin birden çok satır öğesi veya teklif satırı olabilir. Aslında, proje teklifinin satır öğeleri için iki grubu vardır. Bir ızgara, ayrıntılı tahminlere olanak tanıyan proje tabanlı satırlar içindir. Diğer kılavuz, basit birim fiyat ve miktar tabanlı yaklaşım kullanan ürün tabanlı satırlar içindir.
 

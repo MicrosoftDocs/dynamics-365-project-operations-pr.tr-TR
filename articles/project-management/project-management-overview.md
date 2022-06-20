@@ -1,17 +1,17 @@
 ---
 title: Proje yönetimine genel bakış
-description: Bu konuda, Dynamics 365 Project Operations'ta Proje yönetimi hakkında bilgiler sağlanmaktadır.
+description: Bu makale, Dynamics 365 Project Operations'taki Proje yönetimi hakkında bilgi sağlar.
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2e23c6d5290a89fe599273a985962477215bf00b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e2784020cdf20e47cc8d3b14be03f93e250e5da2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590876"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925650"
 ---
 # <a name="project-management-overview"></a>Proje yönetimine genel bakış
 

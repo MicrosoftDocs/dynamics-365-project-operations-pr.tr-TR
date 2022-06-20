@@ -1,6 +1,6 @@
 ---
 title: Proje görevlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
-description: Bu konuda, proje görevlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
+description: Bu makalede, proje görevlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931170"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Proje görevlerini doğrudan Project Service Automation'dan Finance and Operations'a eşitleme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, proje görevlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
+Bu makalede, proje görevlerini doğrudan Dynamics 365 Project Service Automation'dan Dynamics 365 Finance'e eşitlemek için kullanılan şablon ve temel görev açıklanmaktadır.
 
 > [!NOTE]
 > - 8.0 sürümünde proje görev tümleştirmesini, harcama hareketi kategorilerini, saat tahminlerini, masraf tahminlerini ve işlevsellik kilitlemeyi kullanabilirsiniz.

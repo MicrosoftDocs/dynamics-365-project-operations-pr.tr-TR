@@ -1,24 +1,24 @@
 ---
 title: Project Operations kurulumu ve yapılandırma verilerini tümleştirme
-description: Bu konu, Project Operations çift yazma eşlemelerinin ayarlanması ve yapılandırılması hakkında bilgi sağlar.
+description: Bu makale, Project Operations çift yazma eşlemelerinin ayarlanması ve yapılandırılması hakkında bilgi sağlar.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586920"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914564"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations kurulumu ve yapılandırma verilerini tümleştirme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu, kurulum ve yapılandırma varlıkları için Project Operations çift yazma tümleştirmesiyle ilgili bilgi sağlar.
+Bu makale, kurulum ve yapılandırma varlıkları için Project Operations çift yazma tümleştirmesiyle ilgili bilgi sağlar.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Proje sözleşmeleri, sözleşme satırları ve projeler
 

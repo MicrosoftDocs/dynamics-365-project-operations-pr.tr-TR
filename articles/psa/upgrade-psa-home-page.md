@@ -1,6 +1,6 @@
 ---
 title: Yükseltme giriş sayfası
-description: Bu konu, Dynamics 365 Project Service Automation uygulamasındaki yeni ve değiştirilen özellikler hakkında önemli bilgileri nerede bulabileceğinizi ve en yeni sürüme yükseltme işlemini gösterir.
+description: Bu makale, Dynamics 365 Project Service Automation uygulamasındaki yeni ve değiştirilen özellikler hakkında önemli bilgileri nerede bulabileceğinizi ve en yeni sürüme yükseltme işlemini gösterir.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926662"
 ---
 # <a name="upgrade-home-page"></a>Yükseltme giriş sayfası
 
@@ -48,14 +48,14 @@ Daha önce, PSA sürüm 2.x kurulumuna sahip olan ve PSA'nın Birleşik istemci 
 Yükseltme işlemini başlatmadan önce aşağıdaki görevleri tamamlamanızı öneririz:
 
 - Dynamics 365 Field Service ve Project Service Automation uygulamalarının tanımlanmış kurulumda yüklü olduğunu doğrulayın. Her iki çözüm de yüklüyse, kurulumun düzenli olarak kullanımını sürdürmeden önce yükseltmeyi planlamanız gerekir.
-- Aşağıdaki konuları dikkatle gözden geçirin. Sürümler arasındaki değişiklikleri tanımak ve anlamak, yükseltme işleminde yardımcı olur. Bu konular sürümünüzü 3.x'e yükseltmeyi planlarken dikkate almanız gereken hususlar ve önerilerle birlikte PSA'daki önemli değişiklikler hakkında bilgi sağlar.
+- Aşağıdaki makaleleri dikkatle gözden geçirin. Sürümler arasındaki değişiklikleri tanımak ve anlamak, yükseltme işleminde yardımcı olur. Bu makaleler sürümünüzü 3.x'e yükseltmeyi planlarken dikkate almanız gereken hususlar ve önerilerle birlikte PSA'daki önemli değişiklikler hakkında bilgi sağlar.
 
     - [Project Service Automation sürüm 3'teki yenilikler veya değişiklikler](whats-new-changed-v3.md)
     - [Yükseltme hususları - Project Service Automation sürüm 2.x veya 1.x'den sürüm 3'e](upgrade-v3.md)
 
 - Üretim kurulumunuzu yükseltmeden önce uygulamanızdaki değişiklikleri değerlendirmek için korumalı alan kurulumunuzu yükseltin.
 
-Daha önce sözü edilen konuları inceledikten sonra ve PSA sürüm 3.x'e veya UCI tabanlı sürüme yükseltmeye hazır olduğunuzda Yönetim merkezinde kullanılabilir yükseltmeyi yapmak için Microsoft destek birimine bir istek gönderin. İsteğinize kurulumun ayrıntılarını ekleyin.
+Daha önce sözü edilen makaleleri inceledikten sonra ve PSA sürüm 3.x'e veya UCI tabanlı sürüme yükseltmeye hazır olduğunuzda Yönetim merkezinde kullanılabilir yükseltmeyi yapmak için Microsoft destek birimine bir istek gönderin. İsteğinize kurulumun ayrıntılarını ekleyin.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Yeni oluşturulmuş kurulumunda PSA'nın eski sürümleri (PSA sürüm 2.x)
 

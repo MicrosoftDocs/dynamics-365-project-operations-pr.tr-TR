@@ -1,17 +1,17 @@
 ---
 title: Önceden onaylanan girişleri geri çekme
-description: Bu konu, proje ekibi üyelerinin önceden gönderilen ve onaylanmış zaman, masraf ve malzeme kullanımı kayıtlarını nasıl geri çekeceğini ve proje yöneticisinin geri çekme isteklerini nasıl onaylayacağını veya reddedeceğini açıklamaktadır.
+description: Bu makale, proje ekibi üyelerinin önceden gönderilen ve onaylanmış zaman, masraf ve malzeme kullanımı kayıtlarını nasıl geri çekeceğini ve proje yöneticisinin geri çekme isteklerini nasıl onaylayacağını veya reddedeceğini açıklamaktadır.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930388"
 ---
 # <a name="recall-previously-approved-entries"></a>Önceden onaylanan girişleri geri çekme
 
@@ -73,7 +73,7 @@ Geri çekme isteği onaylandığında maliyet ve satışlara karşılık gelen g
 - **Düzeltme Durumu** alanı **Düzeltildi** olarak güncelleştirilir.
 - **Faturalama Durumu** alanı **İptal Edildi** olarak güncelleştirilir.
 
-Ardından, Gerçek değerler tablosunda ters işlem girişleri oluşturulur. Ters işlem girişleri oluşturmak için sistem özgün gerçek değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalanmamaış Satış** gerçek değerleri için tersine çevrilmiş gerçek değerler oluşturulur. Geri çevrilen gerçek tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalama durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle, projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu gerçek tutarların temsil ettiği tutarları açıklamaz.
+Ardından, Gerçek değerler tablosunda ters işlem girişleri oluşturulur. Sistem, ters kayıt girişleri oluşturmak için özgün fiili değerleri alan değerlerinin üzerine kopyalar. Kopyalanmayan tek değer miktar değerleridir. Bunun yerine bu değerler tersine çevrilir. **Maliyet** ve **Faturalandırılmamış Satış** fiili değerleri için tersine çevrilmiş fiili değerler oluşturulur. Geri çevrilen gerçek tutarlardaki **Düzeltme Durumu** alanı **Düzeltilemez** olarak, **Faturalama durumu** alanı da **İptal Edildi** olarak ayarlanır. Bu değişiklikler nedeniyle, projedeki kaydedilmiş harcama ve gelir biriktirme listesi, bu gerçek tutarların temsil ettiği tutarları açıklamaz.
 
 Geri çekme isteği reddedilirse, proje üzerinde finansal etkisi olmaz.
 

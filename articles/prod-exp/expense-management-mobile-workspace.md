@@ -1,6 +1,6 @@
 ---
 title: Gider yönetimi mobil çalışma alanı
-description: Bu konuda, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlanır. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir.
+description: Bu makale, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920912"
 ---
 # <a name="expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanı
 
-Bu konuda, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlanır. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir. Ayrıca, onaylayanlar **Gider yönetimi** mobil çalışma alanını kendilerine atanan gider raporlarını görüntülemek için kullanabilir ve bu gider raporlarını onaylayabilir veya reddedebilir.
+Bu makale, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir gider raporuna daha sonra ekleyebilmeleri için bir makbuzun resmini çekerek yüklemesine olanak sağlar. Ayrıca, kullanıcılar iliştirilen bir makbuzu kullanarak da hızlı bir şekilde gider satırı oluşturabilir ve gider raporlarını oluşturabilir ve yönetebilir. Ayrıca, onaylayanlar **Gider yönetimi** mobil çalışma alanını kendilerine atanan gider raporlarını görüntülemek için kullanabilir ve bu gider raporlarını onaylayabilir veya reddedebilir.
 
 
 Bu mobil çalışma alanı, Dynamics 365 Unified Ops mobil uygulaması birlikte kullanılmak üzere tasarlanmıştır.

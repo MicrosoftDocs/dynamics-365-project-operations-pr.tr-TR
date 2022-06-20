@@ -1,26 +1,26 @@
 ---
 title: Ayrılabilir kaynağı bir fiyatlandırma boyutu olarak kullanma
-description: Bu konu, ayrılabilir kaynağın bir fiyatlandırma boyutu olarak kullanılması hakkında bilgi sağlar.
+description: Bu makale, ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914840"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Ayrılabilir kaynağı bir fiyatlandırma boyutu olarak kullanma
 
  _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_ 
 
-Bu konu, ayrılabilir kaynağın bir fiyatlandırma boyutu olarak kullanılması hakkında bilgi sağlar. Fiyatlandırma stratejiniz, her ayrılabilir kaynağın belirli bir fiyat veya maliyet oranına sahip olması gerektiği şekilde ayarlandıysa fiyatlandırma boyutu olarak ayrılabilir bir kaynak kullanın.
+Bu makale, ayrılabilir kaynağı fiyatlandırma boyutu olarak kullanma hakkında bilgi sağlar. Fiyatlandırma stratejiniz, her ayrılabilir kaynağın belirli bir fiyat veya maliyet oranına sahip olması gerektiği şekilde ayarlandıysa fiyatlandırma boyutu olarak ayrılabilir bir kaynak kullanın.
 
-## <a name="prerequisites"></a>Ön koşullar
-Bu konudaki yordamları tamamlamadan önce kuruluşunuz için yeni bir fiyatlandırma boyutu çözümüne sahip olmanız gerekir. Henüz bir tane oluşturmadıysanız bkz. [Özel alanlar ve varlıklar oluşturma](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+## <a name="prerequisites"></a>Önkoşullar
+Bu makaledeki yordamları tamamlamadan önce, organizasyonunuz için yeni bir fiyatlandırma boyutu çözümünüz olması gerekir. Henüz bir tane oluşturmadıysanız bkz. [Özel alanlar ve varlıklar oluşturma](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Ayrılabilir Kaynak alanını formlara ve görünümlere ekleme
 Fiyatlandırma boyutu çözümünde **Ayrılabilir Kaynak** alanını görünür hale getirmek için alanı tüm formlara ve görünümlere varlık olarak eklemeniz gerekir.

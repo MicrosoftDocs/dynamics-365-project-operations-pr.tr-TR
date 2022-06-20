@@ -1,24 +1,24 @@
 ---
 title: Proje tahminleri ve gerçek değerler tümleştirmesi
-description: Bu konu proje tahminleri ve gerçek değerler için Project Operations iki yazma tümleştirmesiyle ilgili bilgi sağlar.
+description: Bu makale, proje tahminleri ve fiili değerler için Project Operations çift yazma tümleştirmesiyle ilgili bilgi sağlar.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914610"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Proje tahminleri ve gerçek değerler tümleştirmesi
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu proje tahminleri ve gerçek değerler için Project Operations iki yazma tümleştirmesiyle ilgili bilgi sağlar.
+Bu makale, proje tahminleri ve fiili değerler için Project Operations çift yazma tümleştirmesiyle ilgili bilgi sağlar.
 
 ## <a name="project-estimates"></a>Proje tahminleri
 

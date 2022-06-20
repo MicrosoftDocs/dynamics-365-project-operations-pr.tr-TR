@@ -1,18 +1,18 @@
 ---
 title: Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
-description: Bu konu, stoklanmayan malzemelerin ve bekleyen satıcı faturalarının nasıl etkinleştirileceğini açıklar.
+description: Bu makalede, stoklanmayan malzemelerin ve bekleyen satıcı faturalarının nasıl etkinleştirileceği açıklanmaktadır.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913782"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Stoğu tutulmayan malzemeleri ve bekleyen satıcı faturalarını yapılandırma
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Stoklanmayan malzemeler ve Tedarikçi faturası tümleştirmesi için çift-yazılır eşlemeler çalıştırın.
 
-Bu bölümde, Stoklanmayan malzemeler ve satıcı faturaları için gerekli olan eşlemelerle ilgili bilgiler yer almaktadır. [Yeni bir ortam sağlama](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) konusunda listelenen ön koşul eşlemelerinin ortamınızda çalıştığını doğrulayın.
+Bu bölümde, Stoklanmayan malzemeler ve satıcı faturaları için gerekli olan eşlemelerle ilgili bilgiler yer almaktadır. [Yeni ortam sağla](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) makalesinde listelenen ön koşul eşlemelerinin ortamınızda çalışmakta olduğunu doğrulayın.
 
 1. Lifecycle Services'e (LCS) gidin, LCS projenize gidin ve **ortam ayrıntıları** sayfasına gidin.
 2. **Common Data Service Ortam bilgileri** bölümünde, **Uygulamalar için CDS bağlantısı**'nı seçin. Bağlantıyı seçtikten sonra, eşlemelerdeki varlık listesine yönlendirilirsiniz.

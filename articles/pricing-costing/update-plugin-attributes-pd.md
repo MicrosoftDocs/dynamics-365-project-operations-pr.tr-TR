@@ -1,33 +1,33 @@
 ---
 title: Eklenti özniteliklerini yeni fiyatlandırma boyutlarıyla güncelleştirme
-description: Bu konu, fiyatlandırma boyutları için eklenti özniteliklerinin güncelleştirilmesi hakkında bilgi sağlar.
+description: Bu makale, fiyatlandırma boyutları için eklenti özniteliklerini güncelleştirme hakkında bilgi sağlar.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920038"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Eklenti özniteliklerini yeni fiyatlandırma boyutlarıyla güncelleştirme
 
-Bu konu, fiyatlandırma boyutları için eklenti özniteliklerinin güncelleştirilmesi hakkında bilgi sağlar.
+Bu makale, fiyatlandırma boyutları için eklenti özniteliklerini güncelleştirme hakkında bilgi sağlar.
 
 > [!NOTE]
-> Bu konu yalnızca Dynamics 365 Project Operations uygulamasındaki teklif ve sözleşme özellikleri için uygulanabilir.
+> Bu makale yalnızca Dynamics 365 Project Operations uygulamasındaki teklif ve sözleşme özelliklerine uygulanabilir.
 
-## <a name="prerequisites"></a>Ön koşullar
-Bu konudaki adımları tamamlamadan önce aşağıdaki konulardaki yordamları tamamlamış olmanız gerekir:
+## <a name="prerequisites"></a>Önkoşullar
+Bu makaledeki adımları tamamlamadan önce, aşağıdaki makalelerde bulunan yordamları tamamlamış olmalısınız:
 
   - [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities-pricing-dimensions.md) 
   - [Fiyat ayarı ve geçiş varlıklarına özel alanlar ekleme ](add-custom-fields-price-setup-transactional-entities.md)
   - [Özel alanları fiyatlandırma boyutları olarak ayarlama](set-up-custom-fields-pricing-dimensions.md). 
   
-Bu yordamları tamamlamadıysanız tamamlayın ve ardından bu konuya geri dönün.
+Bu yordamları tamamlamadıysanız tamamlayın ve ardından bu makaleye geri dönün.
 
 ## <a name="register-a-plug-in"></a>Eklentiyi kaydetme
 Proje teklif satırı için **Teklif Satırı** sayfasında bir teklif satırı ayrıntısı oluşturulduğunda sistem, iki tahmin satırı oluşturur. Satırlardan biri tahminin maliyet tarafı diğer satır ise satış tarafı içindir. Bu, proje sözleşme satırları için de aynıdır.

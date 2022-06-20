@@ -1,6 +1,6 @@
 ---
 title: Proje mobil uygulamalarına genel bakış
-description: Bu konuda, mobil cihazda kullanılabilen Microsoft Dynamics 365 Project Timesheet, Project Time Entry, My timesheets/Timesheets'e yönelik proje zamanı ile ilgili uygulamalar hakkında genel bilgiler verilir.
+description: Bu makalede Microsoft Dynamics 365 Project Timesheet, Project Time Entry ve My Timesheets/Timesheets için mobil cihazlarda kullanılabilen proje süresiyle ilgili uygulamalar hakkında genel bilgi sağlanmaktadır.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922890"
 ---
 # <a name="project-mobile-applications-overview"></a>Proje mobil uygulamalarına genel bakış
 

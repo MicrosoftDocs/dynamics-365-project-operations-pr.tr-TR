@@ -1,6 +1,6 @@
 ---
 title: Proje sözleşmeleri
-description: Bu konuda, çeşitli projeler ve finansman kaynaklar için oluşturabileceğiniz proje sözleşmeleri ve sözleşmeleri nasıl yönetebileceğiniz ve proje müşterilerine nasıl faturalandırabileceğiniz ile ilgili örnekler verilmiştir.
+description: Bu makalede, çeşitli projeler ve finansman kaynaklar için oluşturabileceğiniz proje sözleşmeleri ve sözleşmeleri nasıl yönetebileceğiniz ve proje müşterilerine nasıl faturalandırabileceğiniz ile ilgili örnekler verilmiştir.
 author: Yowelle
 ms.date: 11/03/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 14ff17bb070a44d8f3962e08f67d4c95bd8a26f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919670"
 ---
 # <a name="project-contracts"></a>Proje sözleşmeleri
 

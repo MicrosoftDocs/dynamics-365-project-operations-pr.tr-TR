@@ -1,6 +1,6 @@
 ---
 title: Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
-description: Bu konu Microsoft Dynamics Project Service Automation 3. x'e yönelik çözüm değişiklikleri açıklamaktadır.
+description: Bu makale Microsoft Dynamics Project Service Automation 3. x'e yönelik çözüm değişiklikleri açıklamaktadır.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926892"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Varlık, denetim ve kullanıcı arabirimi değişiklikleri (Project Service Automation 3. x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Microsoft Dynamics Project Service Automation (PSA) 3.x'in sürümüyle varlıklarda, denetimlerde, görünümlerde ve kullanıcı arabiriminde pek çok değişiklik yapıldı. Bu konuda, bu önemli değişiklikler hakkında önemli bilgiler sağlanmaktadır:
+Microsoft Dynamics Project Service Automation (PSA) 3.x'in sürümüyle varlıklarda, denetimlerde, görünümlerde ve kullanıcı arabiriminde pek çok değişiklik yapıldı. Bu makalede, bu önemli değişiklikler hakkında önemli bilgiler sağlanmaktadır:
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Satış belgesi, satış belgesi satırı, satış belgesi satırı ayrıntı varlıkları için üst-alt öğe ilişkileri
 3.0 sürümünden önceki Dynamics 365 Project Service Automation (PSA) sürümlerinde satış belgeleri, satış belgesi satırları ve satış belgesi satır ayrıntısı varlıkları arasındaki bazı ilişkiler ilgili varlığın GUID'inin dize gösterimini tutan bize alanları aracılığıyla uygulanıyordu. Bunun nedeni, bu ilişkilerin tipik Dynamics CRM varlık ilişkilerine benzer şekilde çalışmasını ve dize alanlarının arama alanları gibi davranmasını sağlamak için çözümün sunucu ve istemci tarafında belirgin bir özel kod gerektiren platform kısıtlamalarıydı.

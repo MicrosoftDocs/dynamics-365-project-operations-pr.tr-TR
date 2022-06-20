@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation'da faturalama
-description: Bu konu faturalama hakkında bilgi sağlar.
+description: Bu makale faturalama hakkında bilgi sağlar.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926846"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation'da faturalama
 
@@ -94,7 +94,7 @@ PSA'da otomatik fatura çalıştırmayı yapılandırmak için bu adımları izl
 Fatura oluşturmaya yönelik toplu iş yinelenen bir iştir. Bu toplu iş birçok defa çalıştırılırsa, işin birden çok kopyası oluşturulur ve hatalara yol açar. Bu nedenle, toplu işi yalnızca bir kez başlatmanız gerekir ve yalnızca çalışmayı durdurduğunda yeniden başlatılmalıdır.
 
 > [!NOTE]
-> Project Service Automation'ta toplu faturalama yalnızca fatura zamanlamalarında yapılandırılan proje sözleşme satırları için çalışır. Sabit fiyatlı fatura yöntemine sahip bir sözleşme satırının kilometre taşları yapılandırılmış olmalıdır. Zaman ve malzeme faturalama yöntemi içeren bir proje sözleşmesi satırı, ayarlanmış bir tarih tabanlı fatura çizelgesine gereksinim duyar. Bir teklif satırını temel alan bir proje bağlamında faturalama sıklıklarını ayarlama hakkında bilgi, konu, [teklif ve teklif satırlarında verilmiştir](basic-quote-lines.md#invoice-schedule). Aynı şekilde, proje tabanlı bir sözleşme satırı için de geçerlidir.      
+> Project Service Automation'ta toplu faturalama yalnızca fatura zamanlamalarında yapılandırılan proje sözleşme satırları için çalışır. Sabit fiyatlı fatura yöntemine sahip bir sözleşme satırının kilometre taşları yapılandırılmış olmalıdır. Zaman ve malzeme faturalama yöntemi içeren bir proje sözleşmesi satırı, ayarlanmış bir tarih tabanlı fatura çizelgesine gereksinim duyar. Bir teklif satırını temel alan bir proje bağlamında faturalama sıklıklarını ayarlamayla ilgili bilgiler, [Teklifler ve teklif satırları](basic-quote-lines.md#invoice-schedule) makalesinde sağlanmıştır. Aynı şekilde, proje tabanlı bir sözleşme satırı için de geçerlidir.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Taslak bir PSA faturasını düzenleme
 

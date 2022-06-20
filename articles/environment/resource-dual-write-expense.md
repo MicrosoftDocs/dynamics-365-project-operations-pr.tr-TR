@@ -1,24 +1,24 @@
 ---
 title: Gider yönetimi tümleştirmesi
-description: Bu konu, çift yazma kullanarak Project Operations'da gider raporu tümleştirmesi hakkında bilgi sağlar.
+description: Bu makale, Project Operations'ta gider raporu tümleştirmesi hakkında, çift yazma kullanarak bilgi sağlar.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924638"
 ---
 # <a name="expense-management-integration"></a>Gider yönetimi tümleştirmesi
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Bu konu, çift yazma kullanarak Project Operations [tam gider dağıtımı](../expense/expense-overview.md) gider raporu tümleştirmesi hakkında bilgi sağlar.
+Bu makale, Project Operations'ta gider raporları tümleştirmesi hakkında, çift yazma kullanarak [tam gider dağıtma](../expense/expense-overview.md) hakkında bilgi sağlar.
 
 ## <a name="expense-categories"></a>Gider Kategorileri
 

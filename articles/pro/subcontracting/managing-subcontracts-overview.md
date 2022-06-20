@@ -1,17 +1,17 @@
 ---
 title: Project Operations'da alt sözleşme yönetimi
-description: Bu konu, proje tabanlı kuruluşlardaki tipik uçtan uca alt sözleşme yönetim sürecine genel bir bakış sağlar.
+description: Bu makale, tipik proje tabanlı organizasyonlardaki uçtan uca taşeron yönetimi işlemine genel bir bakış sağlar.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911529"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations'da alt sözleşme yönetimi
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593038"
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konu, proje tabanlı kuruluşlardaki uçtan uca alt sözleşme yönetim sürecine genel bir bakış sağlar. Hizmetler için alt sözleşme yapma işlemi, tipik olarak aşağıdaki diyagramda gösterilen iş süreci akışını izler.
+Bu makale, proje tabanlı organizasyonlardaki uçtan uca taşeron yönetimi işlemine genel bir bakış sağlar. Hizmetler için alt sözleşme yapma işlemi, tipik olarak aşağıdaki diyagramda gösterilen iş süreci akışını izler.
 
 ![Taşeron işlem akışı](../media/SubcontractingProcessFlow.png)
 

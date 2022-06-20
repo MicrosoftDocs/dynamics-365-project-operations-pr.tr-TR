@@ -1,6 +1,6 @@
 ---
 title: Haftalık zaman girişini özelleştirme
-description: Bu konu, bir kuruluşun uygulamalarını destekleyen özel iş kurallarının nasıl uygulanacağı hakkında bilgi sağlar.
+description: Bu makale, bir kuruluşun uygulamalarını destekleyen özel iş kurallarının nasıl uygulanacağı hakkında bilgi sağlar.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918980"
 ---
 # <a name="customize-weekly-time-entry"></a>Haftalık zaman girişini özelleştirme 
 
@@ -46,9 +46,9 @@ Yeni haftalık zaman girişi ızgarası, bir araç çubuğu ve **Boyutlar** ve *
 - Tür
 - Giriş Durumu
 
-**Boyutlar** bölümü satır içi düzenlemeye izin vermez. Bu bölüm, özel alanların haftalık zamana girişi kılavuzuna eklenmesine olanak sağlayan bir görünümle desteklenir. Özel alanlar ekleme hakkında bilgi için, bu konunun ilerleyen bölümlerindeki "Genişletilebilirlik" bölümüne bakın.
+**Boyutlar** bölümü satır içi düzenlemeye izin vermez. Bu bölüm, özel alanların haftalık zamana girişi kılavuzuna eklenmesine olanak sağlayan bir görünümle desteklenir. Özel alanlar ekleme hakkında bilgi için, bu makalenin ilerleyen bölümlerindeki "Genişletilebilirlik" bölümüne bakın.
 
-### <a name="duration"></a>Süre
+### <a name="duration"></a>Duration
 Süre bölümü, haftanın günlerini sütun başlıkları olarak gösterir. Bu bölüm satır içi düzenlemeye izin verir. Uygun boyutlara sahip bir zaman girişi satırı oluşturulduktan sonra kullanıcılar, bu boyutlarda harcadıkları süreyi satır içine hızlı bir şekilde girebilir.
 
 ## <a name="create-a-new-time-entry"></a>Yeni zaman girişi oluşturma

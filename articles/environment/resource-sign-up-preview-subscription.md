@@ -1,17 +1,17 @@
 ---
 title: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations önizleme aboneliklerine kaydolma
-description: Bu konuda, kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations'a nasıl abone olunacağı ve Project Operations'ın nasıl dağıtılacağı hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, kaynak/stoklanmayan tabanlı senaryolar için Project Operations abone olma ve bunları dağıtma hakkında bilgiler sağlanmaktadır.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920130"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations önizleme aboneliklerine kaydolma
 
@@ -19,7 +19,7 @@ _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan sena
 
 
 
-Bu konuda, deneme teklifine nasıl abone olunacağı ve kaynak/stoklu olmayan öğeleri temel alan senaryolar için Project Operations ortamının nasıl dağıtılacağı açıklanmaktadır.
+Bu makale, kaynak/stoklanmayan temelli senaryolar için Project Operations ortamını dağıtma ve deneme sürümü teklifine abone olma konuları açıklanmaktadır.
 
 ## <a name="prerequisites"></a>Ön koşullar
 - Önizlemeyi dağıtan kullanıcının Azure kiracısı genel yönetici haklarına sahip olması gerekir. İlk teklif kullanımı sırasında bir kiracı oluşturabilirsiniz. 
@@ -60,19 +60,19 @@ Başlamadan önce, Proje İşlemleri önizlemesini istediğiniz kiracıdaki kull
 
 ## <a name="start-a-new-project-in-lcs"></a>LCS'de yeni bir proje başlatma
 
-[LCS'de yeni bir proje başlatma](create-lcs-project.md) başlıklı konuda açıklandığı gibi yeni bir LCS projesi oluşturun
+[LCS'de yeni proje başlatma](create-lcs-project.md) makalesinde açıkladığı şekilde yeni bir LCS projesi oluşturun
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS projesine Azure aboneliği ekleme
 
-Bu görevi tamamlamak için [LCS projesine Azure aboneliği ekleme](resource-add-azure-subscription-lcs-project.md) konusundaki adımları izleyin.
+Bu görevi gerçekleştirmek için, [LCS projesine Azure aboneliği ekleme](resource-add-azure-subscription-lcs-project.md) makalesindeki adımları izleyin.
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Finance demo ortamını kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations ile dağıtma
 
-Dağıtımı tamamlamak için [Yeni bir ortam sağlama](resource-provision-new-environment.md) başlıklı konuda verilen kılavuzu izleyin. Önizleme için [demo ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) dağıtım türünü kullanın. 
+Dağıtma işlemini tamamlamak için [Yeni bir ortam sağlama](resource-provision-new-environment.md) makalesindeki yönergeleri izleyin. Önizleme için [demo ortamı](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) dağıtım türünü kullanın. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS kurulum ve yapılandırma verilerini yükleme
 
-CDS kurulum ve yapılandırma verilerini [Common Data Service uygulamasında yapılandırma verilerini ayarlama ve uygulama](resource-apply-pro-setup-config-data.md) başlıklı konuda açıklandığı gibi yükleyin.
+CDS kurulum ve yapılandırma verilerini, [Common Data Service'te konfigürasyon verilerini kurma ve uygulama](resource-apply-pro-setup-config-data.md) makalesinde açıklandığı şekilde kurun.
 Bu adımı yalnızca Finance tanıtım ortamı dağıtıldıktan ve tanıtım verileri hazır olduktan sonra tamamlayın.
 
 

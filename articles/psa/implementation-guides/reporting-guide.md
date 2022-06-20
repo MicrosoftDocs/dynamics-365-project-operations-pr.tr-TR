@@ -1,6 +1,6 @@
 ---
 title: Raporlama kılavuzu
-description: Bu konu, raporlama hakkında bilgilere bağlantı sağlar.
+description: Bu makale, raporlama hakkında bilgilere bağlantı sağlar.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919210"
 ---
 # <a name="reporting-guide"></a>Raporlama kılavuzu
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577582"
 
 Bu uygulamadaki raporlama yöntemleri ve teknolojileri projelerinizin durumunu ve düzeltici eylemleri devreye sokmanız gereken zamanı belirlemenize yardımcı olabilir. 
 
-daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki konulara taşınmıştır:
+Daha önce bu makalede yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki makalelere taşınmıştır:
 
 - [Raporlama giriş sayfası](../reports-reporting-dynamics-365-project-service.md)
 - [Panolar](../reports-dashboards.md)
 - [Project Service Automation veri modeliyle çalışma](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Bu konu gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
+> Bu makale gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

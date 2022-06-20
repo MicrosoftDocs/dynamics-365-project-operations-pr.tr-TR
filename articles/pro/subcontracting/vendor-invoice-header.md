@@ -1,17 +1,17 @@
 ---
 title: Satıcı faturaları için başlık ayrıntıları
-description: Bu konu, Microsoft Dynamics 365 Project Operations'taki satıcı faturası başlığında sağlanan işlevselliği açıklar.
+description: Bu makale, Microsoft Dynamics 365 Project Operations'taki satıcı faturası başlığında sağlanan işlevselliği açıklar.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929882"
 ---
 # <a name="header-details-for-vendor-invoices"></a>Satıcı faturaları için başlık ayrıntıları
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575604"
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konu, Microsoft Dynamics 365 Project Operations'taki satıcı faturası başlığında sağlanan işlevselliği açıklar.
+Bu makale, Microsoft Dynamics 365 Project Operations'taki satıcı faturası başlığında sağlanan işlevselliği açıklar.
 
 Proje yöneticileri, projeleri planlayıp yürütür; alt yükleniciler ise istihdam edebilir ve satıcılardan ürün ve hizmet satın alabilirler. Bir projenin yürütülmesi sırasında, satıcılarla yapılan alt sözleşmelerle satın alınan hizmetler, malzemeler ve gider kategorilerinden maliyetler oluşur. Satıcılar, satıcı faturaları oluşturarak bu maliyetleri projelere fatura eder.
 

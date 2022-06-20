@@ -1,6 +1,6 @@
 ---
 title: Raporlama giriş sayfası
-description: Bu konu Dynamics 365 Project Service Automation uygulamasında raporlama hakkında bilgi sağlar.
+description: Bu makale Dynamics 365 Project Service Automation uygulamasında raporlama hakkında bilgi sağlar.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921694"
 ---
 # <a name="reporting-home-page"></a>Raporlama giriş sayfası
 
@@ -47,7 +47,7 @@ Microsoft Power BI ve Dynamics 365 birlikte öngörü uygulamaları biçiminde v
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-PSA'da raporlama hakkında daha fazla bilgi için aşağıdaki konu başlıklarına bakın:
+PSA'da raporlama hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [Project Service veri modeliyle çalışma](reports-working-project-service-data-model.md)
 - [Panolar](reports-dashboards.md)

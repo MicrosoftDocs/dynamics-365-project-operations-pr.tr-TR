@@ -1,17 +1,17 @@
 ---
 title: Sözleşmeli çalışanlar ve alt sözleşme kapasitesi ile bir projede personel alımı
-description: Bu konuda, Microsoft Dynamics 365 Project Operations'da sözleşmeli çalışanlar veya alt sözleşme kapasitesi kullanılarak proje gereksinimlerinin nasıl kadrolanabileceği açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Project Operations'da sözleşmeli çalışanlar veya alt sözleşme kapasitesi kullanılarak proje gereksinimlerinin nasıl kadrolanabileceği açıklanmaktadır.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922108"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Sözleşmeli çalışanlar ve alt sözleşme kapasitesi ile bir projede personel alımı
 

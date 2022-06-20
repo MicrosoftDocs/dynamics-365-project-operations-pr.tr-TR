@@ -1,24 +1,24 @@
 ---
 title: "Mart 2022'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations"
-description: Bu konu, kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations'ın Mart 2022 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
+description: Bu makale, kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations'ın Mart 2022 sürümünde kullanılabilen kalite güncelleştirmeleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600766"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910930"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Mart 2022'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
 *Şunlar için Geçerlidir: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations*
 
-Bu konu aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
+Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve sürümleri için geçerlidir:
 
 - Dataverse ortamı sürümü 4.30.0.99'da Project Operations
 - Dynamics 365 Finance ortamı sürümü 10.0.25'te proje yönetimi ve muhasebe
@@ -91,11 +91,11 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift Yazma sorun gide
 
 ## <a name="removed-and-deprecated-features"></a>Kaldırılan veya kullanım dışı bırakılan özellikler
 
-[Project Operations'ta kaldırılan veya kullanım dışı olan özellikler](removed-depreciated-features-project.md) konusu, Dynamics 365 Project Operations için kaldırılan veya kullanım dışı bırakılan özellikleri açıklar.
+[Project Operations'ta kaldırılan veya kullanım dışı olan özellikler](removed-depreciated-features-project.md) makalesi, Dynamics 365 Project Operations için kaldırılan veya kullanım dışı bırakılan özellikleri açıklar.
 
 - Kaldırılan bir özellik artık üründe kullanılamaz.
 - Kullanım dışı bırakılan özellik etkin geliştirmede değildir ve sonraki güncellemede kaldırılabilir.
 
-Kullanım dışı bırakma bildirimi herhangi bir özellik üründen kaldırılmadan 12 ay önce, [Project Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler](removed-depreciated-features-project.md) konusunda duyurulacaktır.
+Kullanım dışı bırakma bildirimi herhangi bir özellik üründen kaldırılmadan 12 ay önce, [Project Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler](removed-depreciated-features-project.md) makalesinde duyurulacaktır.
 
 Yalnızca derleme zamanını etkileyen ancak korumalı alan ve üretim ortamlarıyla ikili uyumlu olan son dakika değişiklikleri için kullanım dışı bırakma süresi 12 aydan kısa olacaktır. Genellikle, bu değişiklikler derleyiciye yapılması gereken işlevsel güncelleştirmelerdir.

@@ -1,17 +1,17 @@
 ---
-title: Proje kopyalama
-description: Bu konuda, Dynamics 365 Project Operations'ta projeleri kopyalama hakkında bilgiler sağlanmaktadır.
+title: Projeyi kopyalama
+description: Bu makalede, Dynamics 365 Project Operations'ta projeleri kopyalama hakkında bilgiler yer alır.
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925788"
 ---
 # <a name="copy-a-project"></a>Projeyi kopyalama
 

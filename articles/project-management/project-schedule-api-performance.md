@@ -1,28 +1,28 @@
 ---
 title: Proje zamanlaması API performansı
-description: Bu konu, Proje zamanlaması API'lerinin performans karşılaştırmaları hakkında bilgi sağlar ve optimum kullanım için en iyi uygulamaları tanımlar.
+description: Bu makale, Proje zamanlaması API'lerinin performans karşılaştırmaları hakkında bilgi sağlar ve optimum kullanım için en iyi uygulamaları tanımlar.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911206"
 ---
 # <a name="project-schedule-api-performance"></a>Proje zamanlaması API performansı
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations, Lite dağıtımı: anlaşmadan proforma faturaya, Project for the web_
 
-Bu konu, Proje zamanlaması uygulama promlama arabirimlerinin (API) performans karşılaştırmaları hakkında bilgi sağlar ve optimum kullanım için en iyi uygulamaları tanımlar.
+Bu makale, Proje zamanlaması uygulama promlama arabirimlerinin (API) performans karşılaştırmaları hakkında bilgi sağlar ve optimum kullanım için en iyi uygulamaları tanımlar.
 
 ## <a name="project-scheduling-service"></a>Proje Zamanlama Hizmeti
 Proje Zamanlama Hizmeti, Microsoft Azure'da çalışan çok kiracılı bir hizmettir. Kullanıcılar projeler üzerinde çalışırken hızlı ve akıcı bir deneyim sunarak etkileşimi geliştirmek için tasarlanmıştır. Bu iyileştirme, değişiklik isteklerini kabul ederek, işleyerek ve ardından hemen sonucu döndürerek elde edilir. Hizmet, zaman uyumsuz olarak Dataverse'e devam eder ve kullanıcıların diğer işlemleri gerçekleştirmesini engellemez.
 
-Proje zamanlama API'leri, bu konunun sonraki bölümlerinde daha ayrıntılı olarak açıklanan istekleri çalıştırmak için Proje Zamanlama Hizmeti'ni kullanır.
+Proje zamanlama API'leri, bu makalenin sonraki bölümlerinde daha ayrıntılı olarak açıklanan istekleri çalıştırmak için Proje Zamanlama Hizmeti'ni kullanır.
 
 Proje zamanlama API'leri aşağıdaki iş kırılım yapısı (İKY) varlıklarıyla çalışacak şekilde tasarlanmıştır:
 

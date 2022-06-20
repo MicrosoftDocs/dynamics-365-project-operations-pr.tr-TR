@@ -1,6 +1,6 @@
 ---
 title: Fiyatlandırma boyutunu kapatma
-description: Bu konuda, özel fiyatlandırma boyutlarının kapatılması hakkında bilgi verilmektedir.
+description: Bu makalede, fiyatlandırma boyutlarını kapatma hakkında bilgi verilmektedir.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: cba1f9915087f7910a9aa93378cb861983ca36ab
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4a13074e20d3005873c28fb95b7443b6ffc84140
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600352"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924316"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Fiyatlandırma boyutunu kapatma
 

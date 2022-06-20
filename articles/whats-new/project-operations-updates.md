@@ -1,18 +1,18 @@
 ---
 title: Project Operations güncelleştirmeleri
-description: Bu konu, Dynamics 365 Project Operations'ta yayımlanan sürümler hakkında bilgi sağlar.
+description: Bu makale, Dynamics 365 Project Operations uygulamasının yayınlanmış sürümleri hakkında bilgi sağlar.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732955"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959541"
 ---
 # <a name="project-operations-updates"></a>Project Operations güncelleştirmeleri
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations, iki bileşenden oluşur:
 
 | Dataverse ortamında Project Operations | Finans ve Operasyon uygulamaları ortamlarında proje yönetimi ve muhasebe | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Project Operations Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryo için çift yazma Düzenleme sürüm 2.3.1.15 veya üzerini kullanmanız önerilir.
 
@@ -47,24 +47,24 @@ Dataverse ortamında Project Operations için güncelleştirmeler aylık olarak 
 | İstasyon | Bölge | Geçerli sürüm numarası | Lite dağıtımı için otomatik güncelleştirmeler | Kaynak/Stoklanmayan dağıtım için otomatik güncelleştirmeler | Sonraki sürüm numarası | Genel olarak kullanılabilen bir sonraki sürüm |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | İstasyon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | İlk Sürüm         |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
+|   &nbsp;  | İlk Sürüm         |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
 | İstasyon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Güney Amerika         |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
-|   &nbsp;  | Kanada                |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
-|   &nbsp;  | Hindistan                 |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
-|   &nbsp;  | Fransa                |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
-|   &nbsp;  | Güney Afrika          |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
-|   &nbsp;  | İsviçre           |  4.42.0.70      | Tamamlandı           | Tamamlandı            | TBD                 | 27 Mayıs 2022        |
+|   &nbsp;  | Güney Amerika         |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
+|   &nbsp;  | Kanada                |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
+|   &nbsp;  | Hindistan                 |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
+|   &nbsp;  | Fransa                |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
+|   &nbsp;  | Güney Afrika          |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
+|   &nbsp;  | İsviçre           |  4.43.0.77      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 01 Temmuz 2022       |
 | İstasyon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonya                 |  4.42.0.70      | 13 Mayıs 2022       | 13 Mayıs 2022        | TBD                 | 03 Haziran 2022       |
-|   &nbsp;  | Asya Pasifik          |  4.42.0.70      | 13 Mayıs 2022       | 13 Mayıs 2022        | TBD                 | 03 Haziran 2022       |
-|   &nbsp;  | Büyük Britanya         |  4.42.0.70      | 13 Mayıs 2022       | 13 Mayıs 2022        | TBD                 | 03 Haziran 2022       |
-|   &nbsp;  | Okyanusya               |  4.42.0.70      | 13 Mayıs 2022       | 13 Mayıs 2022        | TBD                 | 03 Haziran 2022       |
-|   &nbsp;  | Birleşik Arap Emirlikleri  |  4.42.0.70      | 13 Mayıs 2022       | 13 Mayıs 2022        | TBD                 | 03 Haziran 2022       |
+|   &nbsp;  | Japonya                 |  4.43.0.77      | 03 Haziran 2022      | 03 Haziran 2022       | Henüz belirlenmedi                 | 08 Temmuz 2022       |
+|   &nbsp;  | Asya Pasifik          |  4.43.0.77      | 03 Haziran 2022      | 03 Haziran 2022       | Henüz belirlenmedi                 | 08 Temmuz 2022       |
+|   &nbsp;  | Büyük Britanya         |  4.43.0.77      | 03 Haziran 2022      | 03 Haziran 2022       | Henüz belirlenmedi                 | 08 Temmuz 2022       |
+|   &nbsp;  | Okyanusya               |  4.43.0.77      | 03 Haziran 2022      | 03 Haziran 2022       | Henüz belirlenmedi                 | 08 Temmuz 2022       |
+|   &nbsp;  | Birleşik Arap Emirlikleri  |  4.43.0.77      | 03 Haziran 2022      | 03 Haziran 2022       | Henüz belirlenmedi                 | 08 Temmuz 2022       |
 | İstasyon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Avrupa                |  4.41.0.45      | Tamamlandı           | Tamamlandı            | 4.42.0.70           | 13 Mayıs 2022        |
+|   &nbsp;  | Avrupa                |  4.42.0.70      | Tamamlandı           | Tamamlandı            | 4.43.0.77           | 10 Haziran 2022       |
 | İstasyon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Kuzey Amerika         |  4.41.0.45      | Tamamlandı           | Tamamlandı            | 4.42.0.70           | 20 Mayıs 2022        |
+|   &nbsp;  | Kuzey Amerika         |  4.42.0.70      | Tamamlandı           | Tamamlandı            | 4.43.0.77           | 17 Haziran 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finans ve Operasyon uygulamaları ortamında Proje yönetimi ve muhasebe için yayın zamanlaması
 

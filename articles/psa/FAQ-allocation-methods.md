@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation'nda ayırma yöntemlerinin ayrılması
-description: Bu konu, ayırma tahsisatlarına yönelik farklı yollarla ilgili bilgi sağlar.
+description: Bu makale, ayırma tahsisatlarına yönelik farklı yollarla ilgili bilgi sağlar.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929192"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation'nda ayırma yöntemlerinin ayrılması
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-İster **Takım** sekmesinde bir projeye doğrudan bir takım üyesi ekleyin, ister Zamanlama panosundan bir projeye veya gereksinime bir kaynak ayırın, kullanabileceğiniz birkaç farklı ayırma tahsisat yöntemi vardır. Bu konuda, her bir yöntemin işleyişi ve hangi yöntemlerin kaynaklarda fazladan ayırmaya yol açabileceği açıklanmaktadır.
+İster **Takım** sekmesinde bir projeye doğrudan bir takım üyesi ekleyin, ister Zamanlama panosundan bir projeye veya gereksinime bir kaynak ayırın, kullanabileceğiniz birkaç farklı ayırma tahsisat yöntemi vardır. Bu makalede, her bir yöntemin işleyişi ve hangi yöntemlerin kaynaklarda fazladan ayırmaya yol açabileceği açıklanmaktadır.
 
 ## <a name="full-capacity"></a>Tam Kapasite 
 Tam Kapasite yöntemi, belirtilen başlangıç ve bitiş tarihleri için kaynağın tam kapasitesini ayırır. Örneğin bir kaynak için haftada beş gün, günde sekiz saatlik bir takvim ayarı varsa, beş iş gününü kapsayan bir başlangıç ve bitiş tarihi ayarlanınca kaynak 40 saat olarak ayrılır. Ayırma, kaynağın kalan kapasitesi dikkate alınmadan yapılır. Bir kaynak bu süre boyunca başka projelerde ayrılmışsa, 40 saat, ek saatler olarak ayrılır ve bu, fazladan ayırmalara neden olabilir.

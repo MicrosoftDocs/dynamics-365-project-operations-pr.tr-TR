@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation Güncelleştirme Sürümü 20, V3'teki yenilikler veya değişiklikler
-description: Bu konuda, Project Service Automation, Güncelleştirme Sürümü 20, V3'teki özellikler ve düzeltmeler listelenir
+description: Bu makalede, Project Service Automation Güncelleştirme Sürümü 20, V3'de bulunan özellikler ve düzeltmeler listelenmektedir
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913092"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation, Güncelleştirme Sürümü 20, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588852"
 
 Dynamics 365 için Project Service Automation uygulamasına yönelik en son güncelleştirmeyi duyurmaktan mutluluk duyuyoruz. Bu sürüm kalite, performans ve kullanım için bazı önemli iyileştirmeler içerir. Bu sürüm Dynamics 365 9.x ile uyumludur. Bu sürüme güncelleştirmek için Dynamics 365 online çözümler sayfası için Yönetim Merkezi'ni ziyaret edin ve güncelleştirmeyi yükleyin. Daha fazla bilgi için [Tercih edilen çözümü yükleme, güncelleştirme veya kaldırma](/power-platform/admin/install-remove-preferred-solution) bölümüne bakın.
 
-Bu konuda, Project Service Automation Güncelleştirme Sürümü 20 V3'te yeni veya değiştirilmiş özellikler ve düzeltmeler listelenmektedir. Bu sürüm, V 3.10.31.37 derleme numarasına sahiptir ve Haziran 2020'de kendi başına güncelleştirme olarak genel kullanıma sunulmuştur.
+Bu makalede, Project Service Automation V3, Güncelleştirme Sürümü 20'de yeni ve değiştirilen özellikler ve düzeltmeler listelenmektedir. Bu sürüm, V 3.10.31.37 derleme numarasına sahiptir ve Haziran 2020'de kendi başına güncelleştirme olarak genel kullanıma sunulmuştur.
 
 ## <a name="update-release-20"></a>Güncelleştirme Sürümü 20
 

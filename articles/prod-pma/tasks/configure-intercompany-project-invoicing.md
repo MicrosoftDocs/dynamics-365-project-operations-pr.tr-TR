@@ -1,6 +1,6 @@
 ---
 title: Şirketlerarası proje faturalamayı yapılandırma
-description: Bu konuda kuruluşunuzda iki şirket arasında proje faturalarının nasıl ayarlanacağını gösterilir.
+description: Bu makale, kuruluşunuzdaki iki şirket arasında proje faturalandırmasını ayarlamayı gösterir.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916634"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Şirketlerarası proje faturalamayı yapılandırma
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konuda kuruluşunuzda iki şirket arasında proje faturalarının nasıl ayarlanacağını gösterilir. Bu görevde USSI veri kümesi kullanılır.
+Bu makale, kuruluşunuzdaki iki şirket arasında proje faturalandırmasını ayarlamayı gösterir. Bu görevde USSI veri kümesi kullanılır.
 
 1. Gezinti bölmesinde, **Modüller > Borç hesabı > Satıcılar > Tüm satıcılar** modüllerine gidin.
 2. **Tüm satıcılar** listesinde, istenen kaydı bulup seçin.

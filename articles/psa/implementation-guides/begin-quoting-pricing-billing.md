@@ -1,6 +1,6 @@
 ---
 title: Temel Teklif verme, Fiyatlama ve Faturalama kılavuzu
-description: Bu konu, Project Service Automation'da temel teklif verme, faturalama ve fiyatlandırma hakkındaki bilgilere bağlantı sağlar.
+description: Bu makale, Project Service Automation'da temel teklif verme, faturalama ve fiyatlandırma hakkındaki bilgilere bağlantı sağlar.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910838"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Temel teklif verme, fiyatlama ve faturalama kılavuzu
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592256"
 
 Doğru kaynakları doğru zamanda bulma, bu kaynakları projelere ayırma ve bunların kullanılmalarını sağlama yetenekleri kuruluşların gelir ve müşteri memnuniyeti hedeflerine ulaşmasına yardımcı olur. 
 
-daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki konulara taşınmıştır:
+Daha önce bu makalede yer alan PDF bağlantısı kaldırılmış ve içerik aşağıdaki makalelere taşınmıştır:
 
 - [Teklif verme, fiyatlandırma ve faturalama](../quote-bill-price.md)
 - [Satış süreçleri](../basic-sales-process.md)
@@ -50,7 +50,7 @@ daha önce bu konuda yer alan PDF bağlantısı kaldırılmış ve içerik aşa�
 - [Fiili değerleri kaydetme](../advanced-actuals.md)
 
 > [!NOTE]
-> Bu konu gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
+> Bu makale gelecekteki bir belge güncelleştirmesinde kaldırılacaktır. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Proje kaynak belirleme giriş sayfası
-description: Bu konuda, proje kaynakları hakkında bilgi sağlanır.
+description: Bu makale, proje kaynaklaması hakkında bilgi sağlar.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924040"
 ---
 # <a name="project-resourcing-home-page"></a>Proje kaynak belirleme giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, proje kaynakları hakkında bilgi sağlanır.
+Bu makale, proje kaynaklaması hakkında bilgi sağlar.
 
 Proje planlama aşaması sırasında proje yöneticileri ve kaynak yöneticilerinin yaşadığı zorluk kaynak ayırmaktır ve bu aşamada projede çalışacak doğru kaynaklara karar vermek ve ayırmak zorunda kalırlar. Dynamics 365 Finance'ta, projelere kaynak sağlama özellikleri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için ayrılabilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak belirleme proje yöneticileri ve kaynak yöneticileri aşağıdaki görevleri tamamlamalarına olanak sağlar:
 
@@ -41,7 +41,7 @@ Proje planlama aşaması sırasında proje yöneticileri ve kaynak yöneticileri
 
 Proje planlaması devam ettikçe, planlanan kaynaklar, personelli kaynaklarla değiştirilebilir. Ayrıca, proje yöneticisi herhangi bir proje aşaması sırasında dönerek kaynak ayrılmasını güncelleştirebilir.
 
-Aşağıdaki konular kaynak projelerde çalışırken tamamlanması gereken görevler hakkında bilgi sağlar.
+Aşağıdaki makaleler, projelere kaynak ataması üzerinde çalışırken tamamlanması gereken görevler hakkında bilgi sağlar.
 
 - [Proje kaynaklarını ayarlama](set-up-project-resources.md)
 - [Kaynak yetkinliklerini yönetme](manage-resource-competencies.md)

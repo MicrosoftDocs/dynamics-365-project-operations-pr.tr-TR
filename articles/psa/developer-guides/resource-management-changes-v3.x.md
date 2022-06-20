@@ -1,6 +1,6 @@
 ---
 title: Kaynak yöneticisi değişiklikleri (Project Service Automation 3.x)
-description: Bu konu, Kaynak yönetimi alanındaki değişiklikler hakkında bilgi sağlar.
+description: Bu makale, Kaynak yönetimi alanındaki değişiklikler hakkında bilgi sağlar.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916036"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Kaynak yöneticisi değişiklikleri (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Bu konunun bölümleri, Dynamics 365 Project Service Automation sürüm 3.x'in Kaynak yönetimi alanında yapılan değişiklikler hakkında bilgi sağlar.
+Bu makalenin bölümleri, Dynamics 365 Project Service Automation sürüm 3.x'in Kaynak yönetimi alanında yapılan değişiklikler hakkında bilgi sağlar.
 
 ## <a name="project-estimates"></a>Proje tahminleri
 

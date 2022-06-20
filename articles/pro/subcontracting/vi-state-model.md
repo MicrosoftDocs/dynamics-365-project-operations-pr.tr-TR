@@ -1,17 +1,17 @@
 ---
 title: Satıcı faturasında durum geçişleri
-description: Bu konuda, Microsoft Dynamics 365 Project Operations'taki bir satıcı faturasında durum geçişleri açıklanmaktadır.
+description: Bu makalede, Microsoft Dynamics 365 Project Operations'taki bir satıcı faturasında durum geçişleri açıklanmaktadır.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934344"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>Satıcı faturasında durum geçişleri
 
@@ -19,7 +19,7 @@ ms.locfileid: "8584712"
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Bu konuda, Microsoft Dynamics 365 Project Operations'taki bir satıcı faturasında durum geçişleri açıklanmaktadır. Şu durumlar kullanılır: **Taslak**, **İncelemede**, **Onaylandı**, **Beklemede** ve **İptal edildi**.
+Bu makalede, Microsoft Dynamics 365 Project Operations'taki bir satıcı faturasında durum geçişleri açıklanmaktadır. Şu durumlar kullanılır: **Taslak**, **İncelemede**, **Onaylandı**, **Beklemede** ve **İptal edildi**.
 
 Aşağıdaki çizimlerde bu geçişler gösterilmiştir:
 

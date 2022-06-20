@@ -1,6 +1,6 @@
 ---
 title: Harcırah kuralları
-description: Bu konuda, harcırah kuralları hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, harcırah kuralları hakkında bilgi sağlanmaktadır.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8f7ef3c8818dd0c893c7f5699569aa31b3aca9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9362c566e3b28b6f1d499bd6dd16cae466c30df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925913"
 ---
 # <a name="per-diem-rules"></a>Harcırah kuralları
 

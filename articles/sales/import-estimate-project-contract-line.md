@@ -1,17 +1,17 @@
 ---
 title: Proje tabanlı sözleşme satırına tahmin aktarma
-description: Bu konuda, tahminleri projeden sözleşme satırına içe aktarma hakkında bilgiler sağlanmaktadır.
+description: Bu makalede, projeden sözleşme satırına tahminleri içe aktarma konusunda bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e03a384e401331aea6e65881b4ecc88da77d737
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4a298cbcb8d13447c0f6e264d2aa85ad7ed43bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915116"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>Proje tabanlı sözleşme satırına tahmin aktarma
 

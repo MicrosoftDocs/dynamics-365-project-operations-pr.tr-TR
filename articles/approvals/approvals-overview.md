@@ -1,17 +1,17 @@
 ---
 title: Onaylara genel bakış
-description: Bu konuda, Project Operations'ta onaylar ile çalışma hakkında bilgiler sağlanmaktadır.
+description: Bu makale, Project Operations'ta onaylar ile çalışma hakkında bilgi sağlar.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b5c93dc948992505054ef7b17579aafcdf8f8d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924730"
 ---
 # <a name="approvals-overview"></a>Onaylara genel bakış
 

@@ -1,6 +1,6 @@
 ---
 title: Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
-description: Bu konu fiyatlandırma boyutlarına genel bir bakış sağlar.
+description: Bu makale fiyatlandırma boyutlarına genel bir bakış sağlar.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925466"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Fiyatlandırma ve maliyetlendirme boyutları giriş sayfası
 
@@ -47,7 +47,7 @@ PSA varsayılan fiyatlandırma boyutları kümesiyle gelir. Bunları, **Project 
 > [!IMPORTANT]
 > PSA sürüm 3'ten önce fiyatlandırma boyutları olarak rol ve kuruluş biriminin kullanıma hazır alanlarını kullanıyorduysanız belirgin bir değişiklik olmayacaktır. Project Service'ı her zamanki gibi kullanmaya devam edebilirsiniz. 
 
-Kaynaklarınız için ek öznitelikleri kullanarak fiyat veya maliyet almanız gerekiyorsa, özelleştirilmiş alanlar, varlıklar ve boyutlar oluşturabilirsiniz. Daha fazla bilgi için aşağıdaki konulara bakın ancak yordamları aşağıda listelendikleri sırada tamamlamanız gerektiğini unutmayın:
+Kaynaklarınız için ek öznitelikleri kullanarak fiyat veya maliyet almanız gerekiyorsa, özelleştirilmiş alanlar, varlıklar ve boyutlar oluşturabilirsiniz. Daha fazla bilgi için aşağıdaki makalelere bakın ancak yordamları aşağıda listelendikleri sırada tamamlamanız gerektiğini unutmayın:
 
 - [Özel alanlar ve varlıklar oluşturma](create-custom-fields-entities.md)
 - [Fiyat ayarına ve işlem varlıklarına özel alan ekleme](field-references.md)

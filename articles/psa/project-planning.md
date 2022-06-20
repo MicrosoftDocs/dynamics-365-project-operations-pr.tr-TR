@@ -1,6 +1,6 @@
 ---
 title: Proje planlama giriş sayfası
-description: Bu konu, proje planlaması hakkında bilgi sağlar.
+description: Bu makale, proje planlaması hakkında bilgi sağlar.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919118"
 ---
 # <a name="project-planning-home-page"></a>Proje planlama giriş sayfası
 
@@ -43,7 +43,7 @@ PSA'daki proje yönetimi araçları, projeleri kolayca çalıştırmanıza yard�
 - Ardışık düzendeki projeler için kaynak gereksinimlerini tahmin edin.
 - Süreci ve maliyet tüketimini izleyerek projeleri başarıyla teslim edin.
 
-Aşağıdaki konular; PSA'da desteklenen araçları kullanarak proje yöneticilerinin işi, proje maliyetlerini ve kaynak gereksinimlerini tahmin etmesine yardımcı olacak bilgiler sağlar:
+Aşağıdaki makaleler; PSA'da desteklenen araçları kullanarak proje yöneticilerinin işi, proje maliyetlerini ve kaynak gereksinimlerini tahmin etmesine yardımcı olacak bilgiler sağlar:
 
 - [Zamanlama oluşturma](project-creating.md)
 - [Proje maliyetini ve gelirini tahmin etme](project-estimating.md)

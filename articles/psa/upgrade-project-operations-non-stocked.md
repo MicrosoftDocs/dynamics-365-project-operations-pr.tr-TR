@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation'dan Project Operations'a Yükseltme
-description: Bu konu, Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme işlemine genel bir bakış sunmaktadır.
+description: Bu makale, Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme işlemine genel bir bakış sunmaktadır.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913000"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a Yükseltme
 
-Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme için üç aşamadan ilkini duyurmaktan heyecan duyuyoruz. Bu konu, bu heyecan verici yolculuğa çıkan müşterilere genel bir bakış sunar. Gelecekteki konularda geliştirici değerlendrmeleri ve özellik geliştirmeleri hakkında ayrıntılar ele alınacaktır. Bunlar yalnızca Project Operations'a yükseltmenize hazırlanmanıza yardımcı olacak rehberlik sağlamakla kalmaz, aynı zamanda yükselttikten sonra neler bekleyebileceğinizi de açıklar.
+Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme için üç aşamadan ilkini duyurmaktan heyecan duyuyoruz. Bu makale, bu heyecan verici yolculuğa çıkan müşterilere genel bir bakış sunar. Gelecekteki makalelerde geliştirici değerlendirmeleri ve özellik geliştirmeleri hakkında ayrıntılar ele alınacaktır. Bunlar yalnızca Project Operations'a yükseltmenize hazırlanmanıza yardımcı olacak rehberlik sağlamakla kalmaz, aynı zamanda yükselttikten sonra neler bekleyebileceğinizi de açıklar.
 
 Yükseltme sunma programı, üç aşamaya bölünecektir.
 
@@ -90,7 +90,7 @@ Project Operations'ı temiz bir şekilde içeri aktarmak için özelleştirmeler
     > [!NOTE]
     > Ortamdaki veri miktarına bağlı olarak yükseltme birkaç saat sürebilir. Yükseltmeyi yöneten çekirdek takım buna göre planlama yapmalı ve yükseltmeyi iş saatleri dışında çalıştırmalıdır. Bazı durumlarda, veri birimi büyükse yükseltme hafta sonu çalıştırılmalıdır. Zamanlama ile ilgili karar, alt ortamlardaki test sonuçlarına göre verilmelidir.
 
-3. Özel çözümleri uygun şekilde yükseltin. Bu noktada, özelleştirmelerinizde yaptığınız değişiklikleri bu konunun [Özelleştirmeleri test etme ve yeniden düzenleme](#testing-and-refactoring-customizations) bölümünde dağıtın.
+3. Özel çözümleri uygun şekilde yükseltin. Bu noktada, özelleştirmelerinizde yaptığınız değişiklikleri bu makalenin [Özelleştirmeleri test etme ve yeniden düzenleme](#testing-and-refactoring-customizations) bölümünde dağıtın.
 4. **Ayarlar** \> **Çözümler**'e gidin ve **Project Operations Kullanımdan Kaldırılan Bileşenler** çözümünü kaldırmak için seçin.
 
     Bu çözüm, yükseltme sırasında var olan veri modelini ve bileşenleri tutan geçici bir çözümdür. Bu çözümü kaldırarak artık kullanılmayan tüm alanları ve bileşenleri kaldırırsınız. Bu şekilde, arayüzü basitleştirmeye ve tümleştirme ve uzantıyı kolaylaştırmaya yardımcı olursunuz.
@@ -126,7 +126,6 @@ Project Operations'a yönelik devam eden yatırımların bir parçası olarak, F
 | Proje Hizmeti Otomasyonu                             | Project Operations Lite Dağıtımı                        | Desteklenir               |
 | Dynamics 365 Finance Proje Yönetimi ve Muhasebe | Project Operations Lite Dağıtımı                        | Şu anda desteklenmiyor |
 | Finans Proje Yönetimi ve Muhasebe              | Kaynağı/stoğu tutulmayanlara ait senaryolar için Project Operations     | Şu anda desteklenmiyor |
-| Finans Proje Yönetimi ve Muhasebe              | Stoklu/üretim siparişi senaryoları için Project Operations | Şu anda desteklenmiyor |
 | Project Service Automation 3.x                         | Kaynağı/stoğu tutulmayanlara ait senaryolar için Project Operations     | Şu anda desteklenmiyor |
 | Project for the Web (ayrılmış ortam)            | Project Operations Lite Dağıtımı                        | Şu anda desteklenmiyor |
 

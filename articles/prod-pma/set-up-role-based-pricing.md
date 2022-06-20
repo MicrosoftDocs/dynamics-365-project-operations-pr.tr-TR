@@ -1,6 +1,6 @@
 ---
 title: Rol tabanlı fiyat ayarlama
-description: Bu konuda, özell roller için fiyatlandırma boyutlarının ayarlanması hakkında bilgi verilmektedir.
+description: Bu makalede belirli roller için fiyatların nasıl kurulacağı hakkında bilgiler verilmiştir.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64cdd3222d9fb2e3d6d4be7c88381cddb8b9180b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 0933d4f5fc189bffb9067b3779058c1d686c2003
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933746"
 ---
 # <a name="set-up-role-based-pricing"></a>Rol tabanlı fiyat ayarlama
 

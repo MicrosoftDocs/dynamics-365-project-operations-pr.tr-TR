@@ -1,6 +1,6 @@
 ---
 title: Kuruluş birimleri
-description: Bu konu, kuruluş birimleri kavramını ve Microsoft Dynamics 365 Project Operations'ta kuruluş birimlerinin nasıl oluşturulacağını ve kullanılacağını açıklar.
+description: Bu makale, kuruluş birimleri kavramını ve Microsoft Dynamics 365 Project Operations'ta kuruluş birimlerinin nasıl oluşturulacağını ve kullanılacağını açıklar.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921648"
 ---
 # <a name="organizational-units-overview"></a>Kuruluş birimlerine genel bakış
 
@@ -89,7 +89,7 @@ Kuruluş birimi, şirket içinde diğer bölümlere veya harici müşterilere sa
 
 **Kuruluş birimlerinin ve satış bölgelerinin modellenmesinde bir potansiyel farkı gösteren örnek**
 
-Contoso, Ltd.'nin iki geliştirme merkezi vardır: Contoso ABD ve Contoso Hindistan. Kaynakların maliyeti bu iki geliştirme merkezi arasında büyük farklılıklar gösterir. Contoso, bilgi teknolojisi (BT) hizmetlerini Latin Amerika, Kuzey Amerika, Asya Pasifik, Batı Avrupa ve Orta Doğu gibi birçok uluslararası pazarda satmaktadır. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir. Contoso ABD ve Contoso Hindistan kuruluş birimleri olarak ayarlanmış olmalıdır ve her kuruluş biriminin kendi maliyet fiyatı listesi olmalıdır. Asya Pasifik, Latin Amerika, Kuzey Amerika, Batı Avrupa ve Orta Doğu satış bölgeleri olarak ayarlanmış olmalıdır ve her satış bölgesi kendi satış fiyatı listesine sahip olmalıdır.
+Contoso, Ltd.'nin iki geliştirme merkezi vardır: Contoso ABD ve Contoso Hindistan. Kaynakların maliyeti bu iki geliştirme merkezi arasında büyük farklılıklar gösterir. Contoso, bilgi teknolojisi (BT) hizmetlerini Latin Amerika, Kuzey Amerika, Asya Pasifik, Batı Avrupa ve Orta Doğu gibi birçok uluslararası pazarda satmaktadır. Aynı proje rolleri için fatura oranları bu pazarlar arasında geniş ölçüde farklılık gösterebilir. Contoso ABD ve Contoso Hindistan kuruluş birimleri olarak ayarlanmış olmalıdır ve her kuruluş biriminin kendi maliyet fiyat listesi olmalıdır. Asya Pasifik, Latin Amerika, Kuzey Amerika, Batı Avrupa ve Orta Doğu satış bölgeleri olarak ayarlanmış olmalıdır ve her satış bölgesi kendi satış fiyatı listesine sahip olmalıdır.
 
 #### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Neden kuruluş birimleri ile fiyat listeleri ilişkilendirmesinde bir kısıtlama var?
 
