@@ -2,17 +2,17 @@
 title: Görev ızgarasında çalışma sorunlarını giderme
 description: Bu makalede, Görev kılavuzunda çalışırken bilinmesi gereken sorun giderme bilgileri yer alır.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911068"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188256"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Görev ızgarasında çalışma sorunlarını giderme 
 
@@ -72,7 +72,10 @@ Project Operations bir proje parametresinin PEX Uç Noktası'na başvurmasını 
 4. Alanı **Proje parametreleri** sayfasından kaldırın.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Azaltma 3: project.microsoft.com adresinde oturum açın
-Microsoft Edge tarayıcınızda yeni bir sekme açın, project.microsoft.com adresine gidin ve Project Operations'a erişmek için kullandığınız kullanıcı rolünü kullanarak oturum açın.
+
+Tarayıcınızda yeni bir sekme açın, project.microsoft.com adresine gidin ve Project Operations'a erişmek için kullandığınız kullanıcı rolünü kullanarak oturum açın. Bir Microsoft ürününde tarayıcıda yalnızca bir Kullanıcı oturum açması önemlidir. Aşağıdaki şekilde gösterildiği gibi, "login.microsoftonline.com bağlanmayı reddetti" hata iletisi çoğu zaman birden çok kullanıcı oturum açtığında oluşur.
+
+![İki kullanıcının oturum açtığını gösteren bir firma oturum açma sayfası seçin.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Sorun: Proje yüklenmedi ve Kullanıcı arabirimi değer değiştiricide takılı kaldı
 

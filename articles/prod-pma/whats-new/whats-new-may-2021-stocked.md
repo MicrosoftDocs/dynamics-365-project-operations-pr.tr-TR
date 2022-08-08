@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927168"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029416"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Stoklu/ürün tabanlı senaryolar için Project Operations'da Mayıs 2021'deki yenilikler veya değişiklikler
 
@@ -93,7 +93,7 @@ Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümle
 | Seyahat ve Gider                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Gider mobil uygulamasıyla eşitleme sorunları var. 
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

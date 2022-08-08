@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912494"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030059"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance ortamınızda Project Operations uygulamasını güncelleştirme
 
@@ -119,7 +119,7 @@ Varlıklar için güvenlik ayrıcalıklarına yönelik aşağıdaki güncelleşt
 4. **Tablo eşleşmesi sürümü** sayfasında, üç varlığın her birine eşleşmenin yeni bir sürümünü uygulayın.
 5. **Çift yazma** sayfasında, eşleşmeleri yeniden başlatmak için çalıştır seçeneğini belirleyin.
 6. Eşlemeler listesinden, tüm ön koşullarıyla **Kayıt Defteri (msdyn_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. 
-7. **İlk eşitleme için ana öğe** alanında, **Finans ve Operasyon uygulamaları**'nı seçin ve ardından **Çalıştır** seçeneğini belirleyin.
+7. **İlk eşitleme için ana öğe** alanında, **Finans ve operasyon uygulamaları**'nı seçin ve ardından **Çalıştır** seçeneğini belirleyin.
  
  ![Kayıt Defteri eşleme eşitlemesi.](media/DW6.png)
  

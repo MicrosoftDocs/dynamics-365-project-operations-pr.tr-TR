@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933654"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028864"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Stoklu/ürün tabanlı senaryolar için Project Operations'da Temmuz 2021'deki yenilikler veya değişiklikler
 
@@ -64,7 +64,7 @@ Bu makale aşağıdaki Dynamics 365 Project Operations bileşenleri ve sürümle
 | Seyahat ve Gider                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | İş akışı bulunamazsa, **Gider belgesi durumunu Sıfırla** aracı gider raporu durumunu **Taslak** olarak sıfırlamalıdır. 
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca, Lifecycle Services'e (LCS) giriş yapabilir ve Sorun arama aracını kullanarak planlanan düzenleyici güncelleştirmeleri görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

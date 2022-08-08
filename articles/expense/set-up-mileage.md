@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930158"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064302"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Mesafe oranı katmanlarını kullanarak mesafe ayarlama
 
@@ -50,5 +50,15 @@ Bir çalışan, 1.500 mile sahip bir gider raporu gönderdiğinde, deftere nakle
 
 Özelliği etkinleştirdikten sonra, **Miktar** alanının değerini doğru şekilde yansıtmak için mesafe katmanlarını sıfırlayın. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Mali yıl özelliğine göre mesafe toplamları hesaplamasını etkinleştir
+
+**Mali yıl özelliğine göre mesafe toplamları hesaplaması**, gider yönetimi parametrelerinde, mesafe toplamları hesaplamalarını takvim yılı yerine mali yıl yapan yeni bir ayarı etkinleştirir. Bu özelliği etkinleştirmek için aşağıdaki adımları uygulayın.
+
+1. **Çalışma alanları** > **Özellik Yönetimi**'ne gidin.
+1. Listesinde, **Mali yıl göre mesafe toplamları hesaplamasını** bulup seçin ve **Şimdi etkinleştir**'i seçin.
+1. **Gider yönetimi** > **Kurulum** > **Genel** > **Gider yönetimi parametreleri**'ne gidin.
+1. **Gider yönetimi parametreleri** sayfasında, **Mesafe toplamları için kullanılan mali yıl kullan**'ı bulun ve etkinleştirin.
+
+**Mesafe toplamları için mali yıl kullan** etkinleştirildikten sonra, mesafe toplamları mali yıl olarak hesaplanır.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

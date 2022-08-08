@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959532"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029324"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations denemelerine kaydolma 
 
@@ -86,11 +86,11 @@ Başlamadan önce, Project Operations önizlemesini istediğiniz kiracıdaki kul
  
   Sağlama işlemi tamamlandığında, ortamınızın durumu **Hazır** olur. Ortamın sağlanması tanıtım verilerinin dağıtılmasını içerir.
  
-4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve Finans ve Operasyon uygulamaları URL'lerini seçin.
+4.  Dağıtımı doğrulamak için ilgili Microsoft Dataverse URL'sini ve finans ve operasyonlar uygulamaları URL'lerini seçin.
 
 ## <a name="configuring-dual-write"></a>Çift yazmayı yapılandırma
 - Güvenlik rollerini çift yazma için yapılandırmak üzere, [Dataverse'te Project Operations'da güvenlik ayarlarını güncelleştirme](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse) bölümüne bakın.
-- İkili yazma yapılandırmasına erişmek için, Finans ve Operasyonlar örneğine gidin ve sonra **Veri Yönetimi** > **İkili Yazma**'ya gidin.
+- İkili yazma yapılandırmasına erişmek için, finans ve operasyonlar örneğine gidin ve sonra **Veri Yönetimi** > **İkili Yazma**'ya gidin.
 - Çift yazma eşlemelerini yapılandırmak için bkz. [Project Operations çift yazma eşlemelerini çalıştırma](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Lisans atama
@@ -117,7 +117,7 @@ Aşağıdaki kaynaklar, Project Operations yolculuğunuza başlarken yararlı y�
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Finans ve Operasyon uygulamaları ortamım için ALM veya ELM gerekirse ne olur?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Finans ve operasyonlar uygulamaları ortamım için ALM veya ELM gerekirse ne olur?
 
 - Tam ortam yaşam döngüsü yönetimi özellikleri gerekli olan iş ortakları için yeni iş ortağı teklifini incelemek üzere [İş Ortağı Korumalı Alan Lisans İsteği](https://experience.dynamics.com/requestlicense) bölümüne bakın. 
 - Dahili Kullanım Hakları hakkında daha fazla bilgi arayan iş ortakları [Dahili Kullanım Hakları bulut ve yazılım avantajı (microsoft.com](https://partner.microsoft.com/membership/internal-use-software) bölümüne bakabilir.

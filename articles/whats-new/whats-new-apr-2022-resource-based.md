@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912402"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110908"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nisan 2022 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations konusundaki yenilikler
 
@@ -25,7 +25,7 @@ Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
-Tedarik kategorileri proje satın alma siparişlerinde ve bekleyen satıcı faturalarında kullanılabilir. Daha fazla bilgi için [Proje satın alma siparişleri ve bekleyen satıcı faturaları ile tedarik kategorilerini kullanma](configure-procurement-categories.md) bölümüne göz atın.
+Tedarik kategorileri proje satın alma siparişlerinde ve bekleyen satıcı faturalarında kullanılabilir. Daha fazla bilgi için [Proje satın alma siparişleri ve bekleyen satıcı faturaları ile tedarik kategorilerini kullanma](../procurement/configure-procurement-categories.md) bölümüne göz atın.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations çift yazma eşlemesi güncellemeleri
 

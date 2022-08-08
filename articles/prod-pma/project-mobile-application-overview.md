@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922890"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028910"
 ---
 # <a name="project-mobile-applications-overview"></a>Proje mobil uygulamalarına genel bakış
 
@@ -33,11 +33,11 @@ Dynamics 365 Project Timesheet mobil uygulaması kullanıcıların projelere ait
 
 ## <a name="project-time-entry-workspace"></a>Project Time Entry çalışma alanı
 
-Project Time Entry çalışma alanı, kullanıcıların bir projeyle ilgili zaman girip kaydedebilmelerini sağlar. Ancak kullanıcıların proje zaman çizelgelerini göndermelerine veya onaylamasına izin vermez. Çalışma alanı, yalnızca zaman girişi için kullanılabilir. Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile birlikte kullanılmak üzere tasarlanmıştır.
+Project Time Entry çalışma alanı, kullanıcıların bir projeyle ilgili zaman girip kaydedebilmelerini sağlar. Ancak kullanıcıların proje zaman çizelgelerini göndermelerine veya onaylamasına izin vermez. Çalışma alanı, yalnızca zaman girişi için kullanılabilir. Bu mobil çalışma alanı, finans ve operasyonlar mobil uygulaması ile birlikte kullanılmak üzere tasarlanmıştır.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>My timesheets/Timesheets for my review
 
-My timesheets (mobil için optimize edilmiştir) ve Timesheets for my review (mobil için optimize edilmiştir) çalışanların mobil cihazda proje zaman çizelgeleri oluşturmasına, göndermelerine ve onaylamasına olanak sağlayan bir çözüm sunar. Çalışanlar, uygulamanın URL'sini kullanarak Finance işlevlerine erişebilirler. Bu çözüm için Finance and Operations mobil uygulaması gerekli değildir.
+My timesheets (mobil için optimize edilmiştir) ve Timesheets for my review (mobil için optimize edilmiştir) çalışanların mobil cihazda proje zaman çizelgeleri oluşturmasına, göndermelerine ve onaylamasına olanak sağlayan bir çözüm sunar. Çalışanlar, uygulamanın URL'sini kullanarak Finance işlevlerine erişebilirler. Bu çözüm için finans ve operasyonlar mobil uygulaması gerekli değildir.
 
 ## <a name="for-more-information"></a>Daha fazla bilgi için
 

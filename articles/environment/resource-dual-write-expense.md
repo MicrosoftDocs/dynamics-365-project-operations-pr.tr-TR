@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924638"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029236"
 ---
 # <a name="expense-management-integration"></a>Gider yönetimi tümleştirmesi
 
@@ -22,19 +22,19 @@ Bu makale, Project Operations'ta gider raporları tümleştirmesi hakkında, çi
 
 ## <a name="expense-categories"></a>Gider Kategorileri
 
-Tam gider dağıtımında, Finans ve Operasyon uygulamalarında gider kategorileri oluşturulur ve korunur. Yeni bir gider kategorisi oluşturmak için aşağıdaki adımları izleyin:
+Tam gider dağıtımında, finans ve operasyon uygulamalarında gider kategorileri oluşturulur ve korunur. Yeni bir gider kategorisi oluşturmak için aşağıdaki adımları izleyin:
 
-1. Microsoft Dataverse'te, **İşlem** kategorisi oluşturun. Çift yazma tümleştirmesi, bu işlem kategorisini Finans ve Operasyon uygulamalarıyla eşitler. Daha fazla bilgi için bkz. [Proje kategorilerini yapılandırma](/dynamics365/project-operations/project-accounting/configure-project-categories) ve [Project Operations kurulumunu ve yapılandırma verileri tümleştirmesi](resource-dual-write-setup-integration.md). Bu tümleştirmenin sonucunda sistem, Finans ve Operasyon uygulamalarında dört adet paylaşılan kategori kaydı oluşturur.
+1. Microsoft Dataverse'te, **İşlem** kategorisi oluşturun. Çift yazma tümleştirmesi, bu işlem kategorisini finans ve operasyon uygulamalarıyla eşitler. Daha fazla bilgi için bkz. [Proje kategorilerini yapılandırma](/dynamics365/project-operations/project-accounting/configure-project-categories) ve [Project Operations kurulumunu ve yapılandırma verileri tümleştirmesi](resource-dual-write-setup-integration.md). Bu tümleştirmenin sonucunda sistem, finans ve operasyon uygulamalarında dört adet paylaşılan kategori kaydı oluşturur.
 2. Finance'te, **gider yönetimi** > **kurulumu** > **paylaşılan kategoriler**'e gidin ve bir **masraf** işlem sınıfı bulunan bir paylaşılan kategori seçin. **Giderde kullanılabilir** parametresinde **doğru** olarak ayarlayıp kullanılacak gider türünü tanımlayabilirsiniz.
 3. Bu paylaşılan kategori kaydını kullanarak, **gider yönetimi** > **kurulum** > **gider kategorilerine** giderek **Yeni** bir gider kategorisi oluşturun. Kayıt kaydedildiğinde, Çift yazma, bu kaydı Dataverse ile eşitlemek için **Project Operations tümleştirme proje gideri kategorileri verme varlığı (msdyn\_expensecategories)** kullanır.
 
   ![Gider kategorileri tümleştirmesi.](./media/DW6ExpenseCategories.png)
 
-Finans ve Operasyon uygulamalarındaki gider kategorileri şirkete veya tüzel kişiye özeldir. Dataverse'De, ilgili tüzel kişiliği özgü kayıtlar vardır . Proje yöneticisinin giderleri tahmin ettiği zaman, bunlar üzerinde çalıştıkları projeye sahip olan şirketten farklı bir şirkete ait olan bir proje için oluşturulmuş gider kategorilerini seçmezler. 
+Finans ve operasyon uygulamalarındaki gider kategorileri şirkete veya tüzel kişiye özeldir. Dataverse'De, ilgili tüzel kişiliği özgü kayıtlar vardır . Proje yöneticisinin giderleri tahmin ettiği zaman, bunlar üzerinde çalıştıkları projeye sahip olan şirketten farklı bir şirkete ait olan bir proje için oluşturulmuş gider kategorilerini seçmezler. 
 
 ## <a name="expense-reports"></a>Gider raporları
 
-Gider raporları Finans ve Operasyon uygulamalarında oluşturulur ve onaylanır. Daha fazla bilgi için, bkz. [Dynamics 365 Project Operations uygulamasında gider raporları oluşturma ve işleme](/learn/modules/create-process-expense-reports/). Gider raporu proje yöneticisi tarafından onaylandıktan sonra, genel muhasebeye nakledilir. Project Operations'da projeyle ilgili gider raporu satırları, özel deftere nakil kuralları kullanılarak deftere nakledilir:
+Gider raporları finans ve operasyon uygulamalarında oluşturulur ve onaylanır. Daha fazla bilgi için, bkz. [Dynamics 365 Project Operations uygulamasında gider raporları oluşturma ve işleme](/learn/modules/create-process-expense-reports/). Gider raporu proje yöneticisi tarafından onaylandıktan sonra, genel muhasebeye nakledilir. Project Operations'da projeyle ilgili gider raporu satırları, özel deftere nakil kuralları kullanılarak deftere nakledilir:
 
   - Projeyle ilgili maliyet (kurtarılamayan KDV dahil), genel muhasebede proje maliyet hesabına hemen nakledilmez; bunun yerine gider tümleştirme hesabına nakledilir. Bu hesap, **Dynamics 365 Customer Engagement'ta Project Operations** sekmesindeki **Proje yönetimi ve hesap** > **kurulum** > **Proje yönetimi ve muhasebe parametreleri**'nde yapılandırılır.
   - İkili yazma **Project Operations tümleştirme proje masraflarını verme varlığı (msdyn\_expenses)** tablo haritasını kullanmak üzere Dataverse ile eşitlenir.

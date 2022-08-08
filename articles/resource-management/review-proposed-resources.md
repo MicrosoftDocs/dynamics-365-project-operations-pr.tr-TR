@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924868"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183999"
 ---
 # <a name="review-proposed-resources"></a>Önerilen kaynakları inceleme
 
@@ -40,8 +40,8 @@ Kaynak yöneticileri, bir kaynak isteği kullanarak proje yöneticisine bir kayn
     Aşağıdaki durum güncelleştirmeleri gerçekleşir:
 
     - **Zamanlama Yardımcısı** sayfasında, durum göstergeleri ayırmanın önerildiğini (kesin ayrılma değil) göstermek için güncelleştirilir.
-    - Kaynak isteğinde, durum **İnceleme Gerekiyor** olarak değişir.
-    - Projenin **Takım** sekmesinde, genel takım üyesinin **İstek Durumu** değeri **İnceleme Gerekiyor** olarak değişir.
+    - Kaynak isteğinde, isteğin gözden geçirenin durumu **Gözden Geçirilmesi Gerekir** olarak değiştirmesi gerekir.
+    - Projenin **Takım** sekmesinde, genel takım üyesinin **İstek Durumu** değeri otomatik olarak **İnceleme Gerekiyor** olarak değişir.
 
 Proje yöneticisi teklifi kabul edebilir veya reddedebilir.
 

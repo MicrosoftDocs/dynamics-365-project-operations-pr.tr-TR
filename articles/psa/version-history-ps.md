@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07bc494d6e2650673f664ef13a38cf50bebf11c9
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
+ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959517"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "9190691"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3. x için güncelleştirme sürümü zamanlaması
 
@@ -37,7 +37,7 @@ ms.locfileid: "8959517"
 
 | Çözüm  | En son sürüm |
 |-------|----|
-| Proje Hizmeti Otomasyonu    | 3.10.75.142 |
+| Proje Hizmeti Otomasyonu    | Kategori 3.10.76.168 |
 | Project Service Automation masaüstü eklentisi                | 3.60          |
 
 Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dynamics 365 sürüm planları](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Project Service'e yönelik güncelleştirmeler hakkında bilgiler için bkz. [Dy
 | İstasyon  | Bölge | Güncel sürüm | Sonraki sürüm |  Zamanlanan tarih
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>İstasyon 1</strong> | |  |  | |
-| | <i>İlk Sürüm</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 01 Temmuz 2022
+| | <i>İlk Sürüm</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 26 Ağustos 2022
 |<strong>İstasyon 2</strong> | |  |  | |
-| | <i>Güney Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Kanada</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Hindistan</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Fransa</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Güney Afrika</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Almanya</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>İsviçre</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Güney Kore</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
-| | <i>Norveç</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 08 Temmuz 2022
+| | <i>Güney Amerika</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Kanada</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Hindistan</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Fransa</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Güney Afrika</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Almanya</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>İsviçre</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Güney Kore</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
+| | <i>Norveç</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 02 Eylül 2022
 |<strong>İstasyon 3</strong> | |  |  | |
-| | <i>Japonya</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 15 Temmuz 2022
-| | <i>Asya Pasifik</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 15 Temmuz 2022
-| | <i>Büyük Britanya</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 15 Temmuz 2022
-| | <i>Okyanusya</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 15 Temmuz 2022
-| | <i>Birleşik Arap Emirlikleri</i> | [3.10.75.142](whats-new-ur-44.md) | Henüz belirlenmedi | 15 Temmuz 2022
+| | <i>Japonya</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 09 Eylül 2022
+| | <i>Asya Pasifik</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 09 Eylül 2022
+| | <i>Büyük Britanya</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 09 Eylül 2022
+| | <i>Okyanusya</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 09 Eylül 2022
+| | <i>Birleşik Arap Emirlikleri</i> | [3.10.76.168](whats-new-ur-45.md) | Henüz belirlenmedi | 09 Eylül 2022
 |<strong>İstasyon 4</strong> | |  |  | |
-| | <i>Avrupa</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 17 Haziran 2022
+| | <i>Avrupa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 Temmuz 2022
 |<strong>İstasyon 5</strong> | |  |  | |
-| | <i>Kuzey Amerika</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 Haziran 2022
+| | <i>Kuzey Amerika</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ağustos 2022
 |<strong>İstasyon 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 24 Haziran 2022
-| | <i>Özel Ölçek Grupları</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | 01 Temmuz 2022
+| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 Ağustos 2022
+| | <i>Özel Ölçek Grupları</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 Ağustos 2022
 
 
 

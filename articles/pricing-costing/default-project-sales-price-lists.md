@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917738"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036435"
 ---
 # <a name="default-price-lists"></a>Varsayılan fiyat listeleri
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations'taki her proje teklifi ve sözleşme, varsayıla
 Sistem, proje teklifinde hangi fiyat listesinin varsayılan olarak belirlemek için aşağıdaki işlemi tamamlar:
 
 1. Sistem, hesabın proje fiyat listelerine eklenen fiyat listelerine bakar. 
-2. Hesap kaydına iliştirilmiş proje fiyat listeleri varsa, sistem proje teklifinin para birimiyle eşleşen proje parametrelerine eklenen satış fiyat listelerine bakar.
+2. Hesap kaydına iliştirilmiş proje fiyat listeleri yoksa, sistem proje teklifinin para birimiyle eşleşen proje parametrelerine eklenen satış fiyat listelerine bakar.
 3. Ardından, sistem, proje teklifinin tarih aralığıyla eşleşen fiyat listelerinin tarih efektini denetler. Özellikle, fiyaton oluşturulduğu tarih.
 4. Proje teklifi tarihi için geçerli olan birden çok fiyat listesi varsa, tüm fiyat listeleri proje teklifinde varsayılandır.
 5. Proje teklifi nin tarihi için geçerli fiyat listeleri yoksa, proje teklifinde varsayılan proje fiyat listesi yoktur. Proje teklifinde bir uyarı iletisi oluşur. İletide, proje fiyat listesi olmadığından tahmini ve gerçek proje işi ve giderlerinin fiyatlandırılmayacağı belirtilir.

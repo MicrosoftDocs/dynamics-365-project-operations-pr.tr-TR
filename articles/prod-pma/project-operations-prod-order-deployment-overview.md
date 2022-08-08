@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922798"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028819"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Stoklu/üretim tabanlı senaryolar için Project Operations dağıtım genel bakışı
 
@@ -22,7 +22,7 @@ Bu dağıtım türü, proje tabanlı şirketler için aşağıdaki özellikleri 
 
 - [İş kırılım yapılarını](work-breakdown-structures.md) kullanarak proje planlama
 - Projeler için stoklarda stoklar ve tüketme stoku temin edin
-- Dynamics 365 Finans ve operasyon uygulamalarında **Satış ve pazarlama** modülünü kullanarak proje tabanlı satışları yönetme
+- Dynamics 365 finans ve operasyon uygulamalarında **Satış ve pazarlama** modülünü kullanarak proje tabanlı satışları yönetme
 - Finans ve operasyon uygulamalarında maliyet oranı ve fatura oranı yapılandırmalarını kullanarak proje fiyatlandırma ve maliyetlendirme
 - Finans ve operasyon uygulamalarında projeler için kaynak yönetimi
 - Finans ve operasyon uygulamalarında proje ilerleme durumu ve zaman izleme

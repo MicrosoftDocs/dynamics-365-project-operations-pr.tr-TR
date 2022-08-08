@@ -1,6 +1,6 @@
 ---
-title: Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
-description: Bu makalede, proje gerçek değerlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan Finans ve Operasyonlara eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
+title: Proje gerçek değerlerini finans ve operasyona nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
+description: Bu makalede, proje gerçek değerlerini doğrudan Microsoft Dynamics 365 Project Service Automation'dan finans ve operasyonlara eşitlemek için kullanılan şablon ve temel görevler açıklanmaktadır.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929514"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029002"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini Finance and Operations'a nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Proje gerçek değerlerini finans ve operasyona nakletmek için doğrudan Project Service Automation'dan proje tümleştirme günlüğüne eşitleme
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Project Service Automation ile Finance tümleştirme çözümünde Project Servi
 
 Aşağıdaki şekilde Project Service Automation ve Finance arasındaki tümleştirmenin bir parçası olarak verilerin nasıl eşitleneceğini gösterilir.
 
-[![Finance and Operations ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Finans ve operasyonlar ile Project Service Automation tümleştirmesi için veri akışı.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation uygulamasındaki proje gerçek değerleri
 

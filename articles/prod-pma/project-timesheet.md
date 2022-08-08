@@ -2,7 +2,7 @@
 title: Project Timesheet mobil uygulaması
 description: Bu makale, Microsoft Dynamics 365 Project Timesheet mobile uygulaması hakkında bilgi sağlar. Project Timesheet mobil uygulaması kullanıcıların projelere ait zaman çizelgelerini mobil cihazlarından göndermesine ve onaylamasına olanak sağlar.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923994"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110999"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet mobil uygulaması
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923994"
 
 ## <a name="overview"></a>Genel bakış
 
-Microsoft Dynamics 365 Project Timesheet mobil uygulaması kullanıcıların projelere ait zaman çizelgelerini mobil cihazlarından (iPhone ve Android) göndermesine ve onaylamasına olanak sağlar. Mobil uygulama, Dynamics 365 Finance'ın Proje yönetimi ve muhasebe alanlarında bulunan zaman çizelgesi özelliğini öne çıkararak kullanıcı üretkenliğini ve verimliliğini iyileştirir ve proje zaman çizelgelerinin vaktinde girilmesini ve onaylanmasını sağlar.
+Microsoft Dynamics 365 Project Timesheet mobil uygulaması kullanıcıların projelere ait zaman çizelgelerini mobil cihazlarından (iPhone ve Android) göndermesine ve onaylamasına olanak sağlar. Bu mobil uygulama, Dynamics 365 Finance Proje yönetimi ve muhasebe alanındaki zaman çizelgesi işlevlerini öne çıkarır. Bu uygulama kullanıcı üretkenliğini ve verimliliğini artırır ve ayrıca proje zaman çizelgelerinin zamanında girilmesi ve onayıyla ilgili yardım da sağlar.
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirme ve yükleme
 
@@ -38,6 +38,19 @@ Cihazınıza ait mobil mağazadan Android ve iPhone için Microsoft Dynamics 365
 
 Finance'de, Project Timesheet mobil uygulaması etkinleştirilmelidir. İşlevselliği etkinleştirmek için **Proje yönetimi ve muhasebe parametreleri \> Zaman çizelgesi** bölümüne giderek **Microsoft Dynamics 365 Project Timesheet** parametrelerini etkinleştir seçeneğini belirleyin.
 
+### <a name="resolve-sign-in-issues"></a>Oturum açma sorunlarını giderme
+
+**Sorun:** Proje Zaman Çizelgesi Mobil uygulamasında oturumu açılırken kullanıcılar, "İlgili kiracıdaki '2bc50526-cdc3-4e36-a970-c284c34cbd6e' uygulamasına erişilemiyor" mesajını alır.
+
+**Sorun:** Proje Zaman Çizelgesi Mobil uygulamasında oturumu açma sırasında, kullanıcılar aşağıdaki örneklerden birine benzeyen bir hata alır:
+
+- "AADSTS50020: Kullanıcı hesabı '[kullanıcı adı]' 'https://sts.windows.net/[uygulama kimliği]' kimlik sağlayıcısı, '[kiracı kodu]' kiracısında mevcut değil ve bu kiracıdaki '[uygulama kimliği]' uygulamasına erişemiyor."
+- "Seçili kullanıcı hesabı '[kiracı kimliği]' kiracısında bulunmuyor ve bu kiracıda '[uygulama kimliği]' uygulamasına erişilemiyor" hatası ile başarısız mı oluyor?
+
+**Açıklama:** Bu sorunlar, 2022 Mayısta Azure Active Directory (Azure AD), harici kullanıcılarla ilgili olarak yapılan bir değişiklik nedeniyle oluşur. Bu değişiklik finans ve operasyonlar uygulamalarında yapılmadığından, platformun veya uygulamanın herhangi bir sürümündeki müşterileri etkileyebilir.
+
+**Çözüm:** Tüm harici kullanıcıları Azure AD üzerinden kiracıya davet etme. Daha fazla bilgi için bkz [Azure Active Directory B2B işbirliği ile kullanıcı davet etme](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Uygulamada oturum açma
 
 1.  Mobil cihazınızda uygulamayı açın.
@@ -46,7 +59,7 @@ Finance'de, Project Timesheet mobil uygulaması etkinleştirilmelidir. İşlevse
 
 3.  İlk kez oturum açtığınızda kullanıcı adınızı ve parolanızı girmeniz istenir. Kimlik bilgilerinizi girin.
 
-4.  Varsayılan şirketinizde oturum açmanız gerekir.
+4. Varsayılan şirketinizde oturum açmanız gerekir.
 
 ## <a name="submit-a-project-timesheet"></a>Proje zaman çizelgesini gönderme
 

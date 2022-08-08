@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: be0f397df4a3e1973e1f5546e43b2cf9578950a0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916542"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029876"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Eylül 2021'deki yenilikler veya değişiklikler - Stoklu/ürün tabanlı senaryolar için Project Operations
 
@@ -91,6 +91,6 @@ Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve
 
 ## <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 
-Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Planlanmış düzenleyici güncelleştirmeleri görüntülemek için Microsoft Dynamics Lifecycle Services (LCS) platformunda oturum açabilir ve Sorun arama aracını kullanabilirsiniz. Sorun arama aracı, ülkeye veya bölgeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Planlanmış düzenleyici güncelleştirmeleri görüntülemek için Microsoft Dynamics Lifecycle Services (LCS) platformunda oturum açabilir ve Sorun arama aracını kullanabilirsiniz. Sorun arama aracı, ülkeye veya bölgeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

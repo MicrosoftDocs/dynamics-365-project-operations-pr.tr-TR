@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912448"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029278"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Nisan 2021 - Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations konusundaki yenilikler
 
@@ -42,13 +42,13 @@ Aşağıdaki listede Project Operations 2021 Nisan Sürümünde değiştirilmiş
 | **Varlık eşlemesi** | **Güncellenmiş sürüm** | **Açıklamalar** |
 | --- | --- | --- |
 | Project Operations tümleştirmesi gerçek değerleri (msdyn\_actuals) | Kategori 1.0.0.14 | Malzeme proje gerçek değerlerini eşitlemek için eşleme değiştirildi. |
-| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimateslines) | 1.0.0.2 | Görev tabanlı fatura desteği için Finans ve Operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
-| Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments) | Kategori 1.0.0.5 | Görev tabanlı fatura desteği için Finans ve Operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
-| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Malzeme tahminlerini Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
-| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn\_projectvendorinvoices) | Kategori 1.0.0.0 | Satıcı fatura başlıklarını Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
-| Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn\_projectvendorinvoicelines) | Kategori 1.0.0.0 | Satıcı faturası satırlarını Dataverse Finans ve Operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
+| Gider tahminleri için Project Operations tümleştirme varlığı (msdyn\_estimateslines) | 1.0.0.2 | Görev tabanlı fatura desteği için finans ve operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Saat tahminleri için Project Operations tümleştirme varlığı (msdyn\_resourceassignments) | Kategori 1.0.0.5 | Görev tabanlı fatura desteği için finans ve operasyon uygulamalarına proje sözleşme satırı eşitlemesi eklendi. |
+| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Malzeme tahminlerini Dataverse finans ve operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
+| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn\_projectvendorinvoices) | Kategori 1.0.0.0 | Satıcı fatura başlıklarını Dataverse finans ve operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
+| Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn\_projectvendorinvoicelines) | Kategori 1.0.0.0 | Satıcı faturası satırlarını Dataverse finans ve operasyon uygulamalarına eşitlemek için yeni tablo haritası. |
 
-Her zaman ortamınızda eşlemenin en son sürümünü çalıştırmalı ve Project Operations Dataverse çözümünüzü ve Finance and Operations çözümü sürümünüzü güncelleştirirken tüm ilgili tablo eşlemelerini etkinleştirmelisiniz. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. Haritanın etkin sürümünü **çift yazma** sayfasındaki **sürüm** sütununda görebilirsiniz . Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek etkinleştirebilirsiniz. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+Her zaman ortamınızda eşlemenin en son sürümünü çalıştırmalı ve Project Operations Dataverse çözümünüzü ve finans ve operasyonlar çözümü sürümünüzü güncelleştirirken tüm ilgili tablo eşlemelerini etkinleştirmelisiniz. Haritanın en son sürümü etkinleştirilmemişse belirli özellikler ve yetenekler doğru çalışmayabilir. Haritanın etkin sürümünü **çift yazma** sayfasındaki **sürüm** sütununda görebilirsiniz . Yeni bir harita sürümünü, **tablo Haritası sürümlerini** seçip en son sürümü seçerek ve ardından seçili sürümü kaydederek etkinleştirebilirsiniz. Kutulu bir tablo haritasını özelleştirdiyseniz, değişiklikleri yeniden uygulayın. Daha fazla bilgi için bkz. [Uygulama Yaşam Döngüsü Yönetimi](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 Eşlemeyi başlatma ile ilgili bir sorunla karşılaşırsanız, çift yazma sorun giderme kılavuzunun [Haritalarda eksik tablo sütunları sorunu](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) başlıklı yönergeleri izleyin.
 

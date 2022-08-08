@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912678"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125224"
 ---
 # <a name="create-resources"></a>Kaynak oluşturma
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Field Service'i kullanarak Dynamics 365 Project Operations ortamınızda kullanmak için ayrılabilir kaynaklar oluşturabilirsiniz. Bu kaynakları oluşturmak için bkz. [Ayrılabilir kaynakları ayarlama](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations, aşağıdaki kaynak türlerini destekler:
+- Account
+- Contact
+- User
+- Ekipman
+- Genel
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

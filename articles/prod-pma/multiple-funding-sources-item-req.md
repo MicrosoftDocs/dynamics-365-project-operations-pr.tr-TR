@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931216"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028512"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Birden fazla finansman kaynağı içeren proje sözleşmeleri için madde gereksinimleri
 
@@ -33,7 +33,7 @@ Contoso, iki müşterisiyle birlikte bir donanım yenileme sözleşmesi kazandı
 
 ### <a name="prerequisites"></a>Önkoşullar
 
-- Microsoft Dynamics 365 Finance and Operations **sürüm 10.0.27 veya sonrası** birden fazla fatura hesabına sahip madde gereksinimleri kullanmak için gereklidir.
+- Microsoft Dynamics 365 Finance **sürüm 10.0.27 veya sonrası** birden fazla fatura hesabına sahip madde gereksinimleri kullanmak için gereklidir.
 - Sistem yöneticiniz, **Project Operations stoklu/üretim tabanlı senaryolar için birden fazla finansman kaynağı ile Madde gereksinimlerine izin ver** özelliğini **Özellik yönetimi** çalışma alanında etkinleştirmelidir.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Fatura hesabı varsayılan kuralları ayarlama

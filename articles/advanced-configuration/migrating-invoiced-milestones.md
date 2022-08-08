@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912264"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028726"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Tamamen faturalandırılmış faturalama kilometre taşlarını kesin bitişte geçirme
 
@@ -46,7 +46,7 @@ Contoso, kaynağı/stoğu tutulmayan senaryolar için Microsoft Dynamics 365 Pro
 3. İşlem durumu için bir eşleme ekleyin.
 
     1. **Eşleme ekle**'yi seçin.
-    2. Yeni satırda, **Finans ve Operasyon uygulamaları** sütununda **TRANSSTATUS \[TRANSSTATUS\]** alanını seçin.
+    2. Yeni satırda, **Finans ve operasyon uygulamaları** sütununda **TRANSSTATUS \[TRANSSTATUS\]** alanını seçin.
     3. **Microsoft Dataverse** sütununda **msdyn\_invoicestatus \[Fatura durumu\]** seçeneğini belirleyin.
     4. **Eşleme türü** sütununda sağ oku (**\>**) seçin.
     5. Görüntülenen iletişim kutusunda **Eşitleme yönü** alanında **Finans ve Operasyon uygulamalarından Dataverse'e** seçeneğini belirleyin.

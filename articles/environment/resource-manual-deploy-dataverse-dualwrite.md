@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912034"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028588"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Çift yazma desteği bulunan Project Operations Dataverse uygulamasını el ile dağıtma
 
@@ -37,7 +37,7 @@ Bu yordamı tamamlayabilmeniz için, Yönetici olarak oturum açmalısınız.
 3. Ortam türünü seçin. Deneme teklifine kaydolduysanız, **Deneme (abonelik tabanlı)** seçeneğini belirleyin.
 4. Dağıtım bölgesini onaylayın.
 5. **Bu ortam için veritabanı oluştur** seçeneğini etkinleştirin. 
-6. Dili doğrulayın ve ardından para biriminin Finans ve Operasyon uygulamalarınızın para birimiyle eşleştiğini doğrulayın.
+6. Dili doğrulayın ve ardından para biriminin finans ve operasyonlar uygulamalarınızın para birimiyle eşleştiğini doğrulayın.
 7. **Dynamics 365 uygulamaları** seçeneğini etkinleştirin ve **Bu uygulamaları otomatik olarak dağıt** alanının **Hiçbiri** olarak ayarlandığını onaylayın.
 8. Güvenlik grubu gerekiyorsa, bir güvenlik grubu ekleyin.
 9. Ortam oluşturmak için **Kaydet**'i seçin.
@@ -62,4 +62,4 @@ Bu yordamı yalnızca, Project Operations yüklemeden önce önceki yordamları 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Ortamlarınıza bağlantı verme
 
-Dataverse ortamı dağıtıldıktan sonra Finans ve Operasyon uygulamalarınızda bağlantıyı ayarlayabilirsiniz. [Ortamınızı bağlamak için çift yazma sihirbazını kullanma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) bölümündeki adımları izleyin.
+Dataverse ortamı dağıtıldıktan sonra finans ve operasyonlar uygulamalarınızda bağlantıyı ayarlayabilirsiniz. [Ortamınızı bağlamak için çift yazma sihirbazını kullanma](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment) bölümündeki adımları izleyin.

@@ -4,7 +4,7 @@ description: Project Service'ta proje şablonu oluşturma
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599018"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177450"
 ---
 # <a name="create-a-project-template-project-service"></a>Proje şablonu oluşturma (Project Service)
 
@@ -40,7 +40,14 @@ ms.locfileid: "8599018"
 - **Proje tahminleri**: Şablonlardaki proje tahminleri, projedekilerle aynı şekilde çalışır, ancak maliyet ve satış fiyatlarının varsayılan yapılması için fiyat listeleri daima [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parametrelerinde tanımlanan varsayılan maliyet ve satış fiyatı listeleridir. İşlevin geri kalanı bir projede olduğu gibidir.  
   
 - **Proje ekibi oluşumu**: Bir proje şablonu için bir proje ekibi oluşturulurken bir şablonda adlandırılmış bir kaynak ayıramazsınız. Bir genel kaynak kümesi oluşturmak için iş kırılım yapısında **Proje Ekibi Oluştur** işlevini kullanabilirsiniz. Ayrıca, genel kaynaklar için gerekli nitelikleri ve yeterlilikleri belirleyebilirsiniz. Genel bir kaynak yerine proje şablonlarındaki ayrılabilir bir kaynak kullanamazsınız.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Varolan projeden bir proje şablonu oluşturma
+Aşağıdaki adımları takip ederek bir projeden proje şablonu oluşturabilirsiniz:
+
+- **İş dökümü yapısı**: Bir projeden türetilmiş bir çalışma çözümleme yapısı, tüm görevleri ve bağımlılıkları kopyalayacaktır. Oluşturulan atamalar, proje şablonu oluşturulduğunda proje takımına eklenen genel takım üyelerine dayanır.
+- **Proje tahminleri**: Proje şablonu varolan bir projeden oluşturulduğunda, kaynak projeden alınan tahminler proje şablonuna kopyalanır.
+- **Proje ekibi üyeleri**: Şablon varolan bir projeden oluşturulduğunda, isimlendirilen tüm takım üyeleri kuruluşun genel kaynağıyla değiştirilir. Tüm pozisyon adları ve roller korunur.
+
 ## <a name="create-a-project-from-a-template"></a>Şablondan bir proje oluşturun  
  Aşağıdaki adımları takip ederek bir şablondan proje oluşturabilirsiniz:  
   

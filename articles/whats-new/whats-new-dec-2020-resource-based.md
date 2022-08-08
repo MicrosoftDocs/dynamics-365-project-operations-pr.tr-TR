@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933056"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029738"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Aralık 2020'deki yenilikler: Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations
 
@@ -61,7 +61,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Proje Planlama ve İzleme | Kategori 2057197          | Görev başvurusu olan tahmin satırının kopyalanması desteklenmiyor                                                                                                     |
 | Proje Planlama ve İzleme | Kategori 2060687          | Saat dilimi uyarısı artık belirli bir süre sonra kayboluyor                                                                                                      |
 | Kaynak yönetimi           | Kategori 1832887          | Dataverse ve Finance ortamları için tekrarlanabilir veri yüklemeleri sağlamak üzere varsayılan Kaynak kategori kimliği statik olmalıdır                                                 |
-| Zaman ve gider              | Kategori 2081793          | **Gider kategorisi adı**, Finans ve Operasyon uygulamalarında **Gider kategorisi açıklaması** alanına eşlenmelidir                                                  |
+| Zaman ve gider              | Kategori 2081793          | **Gider kategorisi adı**, finans ve operasyon uygulamalarında **Gider kategorisi açıklaması** alanına eşlenmelidir                                                  |
 | Zaman ve gider              | Kategori 2034882          | Dynamics 365 Field Service yüklendiğinde zaman girişleri için **Yeni** düğmesi komut çubuğunda iki kez görüntüleniyor                                          |
 | Zaman ve gider              | Kategori 2056028          | **Zaman Düzenlemesi** sayfası zaman çizgisini içerecek şekilde güncelleştiriliyor                                                                                                              |
 | Zaman ve gider              | Kategori 1983747          | Zaman girişi grafiği ek veriler gösteriyor                                                                                                                   |
@@ -106,7 +106,7 @@ Bu sürümde aşağıdaki özellikler yer almaktadır:
 | Seyahat ve Gider                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Gider raporu otomatik gönderim iş akışı tamamlanıyor ancak fatura gönderilemiyor                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
-Finans ve Operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
+Finans ve operasyon uygulamalarında düzenleme güncelleştirmeleri hakkında bilgi için [Mevzuat güncelleştirmeleri](/dynamics365/finance/localizations/regulatory-updates) bölümüne göz atın. Ayrıca LCS'de oturum açıp planlı mevzuat güncelleştirmelerini sorun arama aracını kullanarak görüntüleyebilirsiniz. Sorun arama, ülkeye, özellik türüne ve sürümüne göre arama yapmanızı sağlar.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
