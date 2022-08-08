@@ -2,16 +2,16 @@
 title: Project Operations çift yazma eşlemesi sürümleri
 description: Bu makalede, Dynamics 365 Project Operations için gereken çift yazma eşlemelerinin listesi sağlanmaktadır.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959508"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112453"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations çift yazma eşlemesi sürümleri
 
@@ -25,12 +25,12 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 
 | Tablo eşlemesi | İlk eşitleme |
 | --- | --- |
-| Kayıt Defteri (msdyn_ledgers) | Tablo haritasında ve tüm önkoşulların ilk eşitlemesini gerekir. İlk eşitleme için ana öğe Finans ve Operasyon uygulamalarıdır. |
+| Kayıt Defteri (msdyn_ledgers) | Tablo haritasında ve tüm önkoşulların ilk eşitlemesini gerekir. İlk eşitleme için ana öğe finans ve operasyonlar uygulamalarıdır. |
 | Tüzel kişilikler (cdm_companies) | Gerekli değil. Ortamlar çift yazma kullanılarak bağlandığında sistem bu varlığı otomatik olarak doldurur. |
 | Müşteri V3 (firmalar) | Sağlama için gerekli değildir. |
 | Satıcılar V2 (msdyn_vendors) | Sağlama için gerekli değildir. |
 
-1. Eşlemeler listesinden, tüm ön koşullarıyla Kayıt Defteri **(msdyn\_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. **İlk eşitleme için ana öğe** alanında, genel muhasebe eşlemesi ve tüm önkoşul eşlemeleri için **Finans ve Operasyon uygulamaları**'nı seçin. **Çalıştır** seçin.
+1. Eşlemeler listesinden, tüm ön koşullarıyla Kayıt Defteri **(msdyn\_ledgers)** eşlemesini seçin ve **İlk eşitleme** onay kutusunu seçin. **İlk eşitleme için ana öğe** alanında, genel muhasebe eşlemesi ve tüm önkoşul eşlemeleri için **Finans ve operasyon uygulamaları**'nı seçin. **Çalıştır** seçin.
 
 ![Kayıt Defteri eşleme eşitlemesi.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 | Proje sözleşmesi başlıkları (satış siparişleri) | Kategori 1.0.0.1 | Sağlama için gerekli değildir. ||
 | Proje sözleşme satırları (salesorderdetails) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
 | Proje Finansmanı kaynağı (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Sağlama için gerekli değildir. ||
-| Malzeme tahminleri için Project Operations tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
+| Malzeme tahminleri için Proje tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
 | Proje faturası teklifleri V2 (faturalar) | 1.0.0.3 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals) | Kategori 1.0.0.14 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirmesi sözleşme satırı kilometre taşları (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Sağlama için gerekli değildir. ||
