@@ -62,11 +62,13 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
-        - name: Temmuz 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Ağustos 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Arşiv
           items:
-            - name: Haziran 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Temmuz 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+              href: whats-new/whats-new-july-2022-resource-based.md
+            - name: Haziran 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mayıs 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-may-2022-resource-based.md
@@ -384,13 +386,49 @@
           items:
             - name: Kaynak kullanımına genel bakış
               href: resource-management/resource-utilization-overview.md
-    - name: Süre
+    - name: Alt Sözleşme Yönetimi
       items:
-        - name: Süreye genel bakış
+        - name: Project Operations'da alt sözleşme yönetimi
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Alt sözleşme temel kavramları
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Satıcıları ve proje fiyat listelerini yönetme
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Ayrılabilir kaynak olarak alt yükleniciler
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Alt sözleşmeler için Başlık Ayrıntıları
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Süre için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Gider kategorileri için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Ürünler için alt sözleşme satırları
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Alt yüklenici satırı kaynakları
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Alt sözleşme satırı kilometre taşları
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Alt sözleşme proje takımı üyeleri
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Proje takımı üyeleri için alt sözleşme seçenekleri
+          href: pro/subcontracting/subcon-options.md
+        - name: Alt sözleşme kapsamındaki kaynak atamalarının maliyet tahmini
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 'Zamanlama Panosu''nu, sözleşme çalışanlarını ve alt sözleşme kapsamındaki kapasiteyi gösterecek şekilde yapılandırın'
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Projeye sözleşmeli çalışanlar ve alt sözleşme kapsamında kapasiteyle personel atama
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Alt sözleşme kapsamındaki bileşenler için süre, gider ve malzeme kullanımını kaydetme'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Alt sözleşmede durum geçişi
+          href: pro/subcontracting/subcon-states.md
+    - name: Zaman
+      items:
+        - name: Zamana genel bakış
           href: time/time-entry-overview.md
-        - name: Süre girişleri oluşturma
+        - name: Zaman girişleri oluşturma
           items:
-            - name: Süre girişi kullanıcı arabirimi
+            - name: Zaman girişi kullanıcı arabirimi
               href: time/ui-behavior-time.md
         - name: Geliştirici notları
           items:
@@ -578,11 +616,13 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Gelişmiş yapılandırma
       items:
-        - name: Geçiş sırasında tam olarak faturalandırılmış aşamaları taşıma
+        - name: Kesin bitiş sırasında tam olarak faturalandırılmış aşamaları taşıma
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Kapanmış projelere ilişkin girişleri engellemek için Proje Durumunu eşitleme
+          href: advanced-configuration/sync-project-status.md
     - name: Yükseltme
       items:
-        - name: Modern onaylar için yükseltmeyle ilgili dikkate alınacak noktalar
+        - name: Modern Onaylar özelliği için yükseltmeyle ilgili önemli noktalar
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Project Operations Uygulamaları
       items:
@@ -610,13 +650,15 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: Temmuz 2022'deki yenilikler - lite dağıtımı
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Ağustos 2022'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Arşiv
           items:
+            - name: Temmuz 2022'deki yenilikler - lite dağıtımı
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Haziran 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-june-2022-lite.md
-            - name: 2021 sürümü 2. dalgası erken erişimdeki yenilikler - lite dağıtımı
+            - name: 2021 sürümü 2. dalgası erken erişimindeki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Mayıs 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-may-2022-lite.md
