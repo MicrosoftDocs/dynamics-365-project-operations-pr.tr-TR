@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929238"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230340"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
 
@@ -45,9 +45,9 @@ Aşağıda geçerli Proje zamanlama API'larının listesi yer almaktadır.
 - **msdyn_CreateProjectV1**: Bu API, proje oluşturmak için kullanılabilir. Proje ve varsayılan proje paketi hemen oluşturulur.
 - **msdyn_CreateTeamMemberV1**: Bu API, proje takımı üyesi oluşturmak için kullanılabilir. Takım üyesi kaydı hemen oluşturulur.
 - **msdyn_CreateOperationSetV1**: Bu API, bir hareket içinde gerçekleştirilmesi gereken çok sayıda isteği zamanlamak için kullanılabilir.
-- **msdyn_PSSCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PSSUpdateV1**: Bu API, bir varlık güncelleştirmek için kullanılabilir. Varlık, güncelleştirme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PSSDeleteV1**: Bu API, bir varlığı silmek için kullanılabilir. Varlık, silme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PssCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PssUpdateV1**: Bu API, bir varlığı güncelleştirmek için kullanılabilir. Varlık, güncelleştirme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
+- **msdyn_PssDeleteV1**: Bu API, bir varlığı silmek için kullanılabilir. Varlık, silme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
 - **msdyn_ExecuteOperationSetV1**: Bu API, bir işlem kümesindeki tüm işlemleri yürütmek için kullanılır.
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet ile Proje zamanlama API'larını kullanma

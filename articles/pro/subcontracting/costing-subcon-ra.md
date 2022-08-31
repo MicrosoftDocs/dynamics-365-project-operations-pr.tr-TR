@@ -6,16 +6,14 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 40603c1d2dfdd49909d9a4bf5085f43201e8f6bd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932366"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262084"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>Alt sözleşmeli kaynak atamalarının maliyet tahmini
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 

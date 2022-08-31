@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028910"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317012"
 ---
 # <a name="project-mobile-applications-overview"></a>Proje mobil uygulamalarına genel bakış
 
@@ -42,9 +42,8 @@ My timesheets (mobil için optimize edilmiştir) ve Timesheets for my review (mo
 ## <a name="for-more-information"></a>Daha fazla bilgi için
 
 - [Project Timesheet mobil uygulaması](project-timesheet.md)
-- [Project Time Entry]( project-time-entry-mobile-workspace.md)
+- [Project Time Entry](project-time-entry-mobile-workspace.md)
 - [Mobil cihazda Project Timesheets](Mobile-timesheets.md)
 - [iOS ve Android cihazlarda Microsoft Dynamics 365 Project Timesheet mobil uygulaması için özel alanlar uygulama](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8913000"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230293"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a Yükseltme
 
@@ -67,7 +67,7 @@ Project Service Automation için etkin lisanslarınız varsa Project Service Aut
 
 ## <a name="testing-and-refactoring-customizations"></a>Özelleştirmeleri test etme ve yeniden düzenleme
 
-Başlangıç noktası olarak içeri aktarma işleminin başarılı olduğunu ve iş operasyonlarının beklendiği gibi çalıştığını onaylamak için tüm özelleştirmeleri temiz bir Project Operations (lite) ortamına alın.
+Başlangıç noktası olarak içeri aktarma işleminin başarılı olduğunu ve iş operasyonlarının beklendiği gibi çalıştığını onaylamak için tüm özelleştirmeleri temiz bir Project Operations (Lite) ortamına alın.
 
 Dikkat edilmesi gereken bazı hususlar şunlardır:
 

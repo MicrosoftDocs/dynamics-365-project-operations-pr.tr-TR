@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959529"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316966"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Haziran 2022'deki yenilikler veya değişiklikler - Stoklu/ürün tabanlı senaryolar için Project Operations
 
@@ -24,7 +24,7 @@ Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve
 
 ## <a name="features-included-in-this-release"></a>Bu sürümde yer alan özellikler
 
-Birden çok kaynak içeren proje sözleşmeleri için öğe gereksinimleri kullanılabilir. Daha fazla bilgi için bkz. [Birden çok kaynak içeren proje sözleşmeleri için öğe gereksinimleri](/multiple-funding-sources-item-req.md).
+Birden çok kaynak içeren proje sözleşmeleri için öğe gereksinimleri kullanılabilir. Daha fazla bilgi için bkz. [Birden çok kaynak içeren proje sözleşmeleri için öğe gereksinimleri](../multiple-funding-sources-item-req.md).
 
 ## <a name="quality-updates"></a>Kalite güncelleştirmeleri
 
