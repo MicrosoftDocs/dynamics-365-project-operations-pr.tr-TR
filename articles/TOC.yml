@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Proje tekliflerini kopyalama
               href: sales/lose-quote.md
+            - name: Proje teklifini etkinleştirme ve düzeltme
+              href: sales/activation-and-revision.md
             - name: Proje tekliflerini kapatma
               href: sales/win-quote.md
         - name: Proje sözleşmelerini yönetme
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Proje tabanlı sözleşme satırlarında fatura zamanlamaları oluşturma
                   href: sales/invoice-schedules-contract-line.md
+            - name: Proje tabanlı sözleşmeleri kopyalama
+              href: sales/copy-project-based-contracts-sales.md
             - name: Proje sözleşmesini onaylama
               href: pro/sales/confirm-contract-sales.md
             - name: Avanslar ve elde tutulan tutarlar
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Proje satış fiyatı listelerini geçersiz kılma
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Tahminler ve gerçek değerler için maliyet fiyatlarını çözümleme
+            - name: Tahminler ve gerçek değerler için maliyet fiyatlarını belirleme
               href: pricing-costing/cost-price-resolution.md
-            - name: Tahminler ve gerçek değerler için satış fiyatlarını çözümleme
+            - name: Tahminler ve gerçek değerler için satış fiyatlarını belirleme
               href: pricing-costing/sales-price-resolution.md
             - name: Fiyat listelerini kopyalama
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Proje tabanlı teklifleri kopyalama
               href: sales/lose-quote.md
+            - name: Proje teklifini etkinleştirme ve düzeltme
+              href: sales/activation-and-revision.md
             - name: Proje tabanlı teklifleri kapatma
               href: pro/sales/win-quote-sales.md
         - name: Proje tabanlı sözleşmeleri yönetme
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Proje satış fiyatı listelerini geçersiz kılma
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını çözümleme
+            - name: Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını belirleme
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Proje tahminleri ve gerçek değerler için satış fiyatlarını çözümleme
+            - name: Proje tahminleri ve gerçek değerler için satış fiyatlarını belirleme
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Fiyat listelerini kopyalama
               href: pricing-costing/copy-price-lists.md
