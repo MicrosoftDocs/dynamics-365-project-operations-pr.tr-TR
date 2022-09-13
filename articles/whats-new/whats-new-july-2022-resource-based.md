@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183946"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403976"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Temmuz 2022'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
@@ -45,6 +45,12 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift Yazma sorun gide
 | Fatura ve Fiyatlandırma | Kategori 2675880 | Bir projenin iş tabanlı olmayan bir sözleşme satırına bağlanmasını engelleyin. |
 | Fatura ve Fiyatlandırma | Kategori 2664396 | Teklif fiyat listesi, teklif olmadan kaydedilirse, teklifin boş olamayacağını belirten bir hata olması gerekir. |
 | Fatura ve Fiyatlandırma | Kategori 2184019 | **Görev tabanlı faturalama** sekmesi, hiçbir çalışan sözleşmesi veya teklifi olmayan projeler için gösterilmemelidir. |
+| Zaman ve Gider | Kategori 2754459 | Yinelenen zamanlama bulut akışı etkin olmadığında, başlık gösterilir ve zaman uyumsuz işleme atlanır. |
+| Fatura ve Fiyatlandırma | Kategori 2724391 | Proje sözleşmesi bölünmüş fatura kuralında bir müşteri değeri eksik olduğunda yanlış özel durum oluşur. |
+| Fatura ve Fiyatlandırma | Kategori 2708638 | Malzeme Kullanımları ve Malzeme Kullanım Onayları'nda kılavuz araması kullanılarak arama yapılırken kayıt bulunamadı.|
+| Fatura ve Fiyatlandırma | Kategori 2686977 | Fatura oluşturma sırasında fatura satırı için doğrulama engellenir. |
+| Fatura ve Fiyatlandırma | Kategori 2683032 | Borçlandırılabilir rollerin ve kategorilerin kopyalanması 5000 kaydın ötesine ölçeklenmez.|
+| Fatura ve Fiyatlandırma | Kategori 2673363 | Bir proje için hem İşçilik hem de Gider tahmin değerleri ile gerçek değerleri var olduğunda, Proje Maliyet Tüketimi Yüzdesi bozulur. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance'ta proje yönetimi ve muhasebe
 

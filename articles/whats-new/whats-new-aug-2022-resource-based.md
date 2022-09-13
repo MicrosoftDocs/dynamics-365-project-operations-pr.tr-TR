@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348031"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403881"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Ağustos 2022'deki yenilikler - Kaynak/stoğu tutulmayan temelli senaryolar için Project Operations
 
@@ -38,6 +38,11 @@ Eşlemeyi başlatırken bir sorunla karşılaşırsanız, Çift Yazma sorun gide
 | Özellik alanı | Referans numarası | Kalite güncelleştirmeleri |
 | --- | --- | --- |
 | Fırsat yönetimi | Kategori 2762089 | Otomatik kaydetme seçeneği kuruluş için devre dışı bırakıldığında sözleşmeyi kaybedildi olarak kapatırken işleme hatası.|
+|Proje Planlama ve İzleme | Kategori 2767841 | Telemetri güncelleştirmeleri Proje varlığı Oluşturma ve Güncelleştirme senaryoları.|
+|Fatura ve Fiyatlandırma | Kategori 2771072 | Teklif kazanılırken boş başvuru özel durum işlemesi.|
+|Fatura ve Fiyatlandırma | Kategori 2844181 |Bir bağıntı kimliği alınırken ve bir fatura oluşturma engellenirken hata oluştu.|
+|Fatura ve Fiyatlandırma | Kategori 2852836 | CE'de oluşturulan ve onaylanan Şirketlerarası Gider için şirketlerarası fiili değerleri eksik.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance'ta proje yönetimi ve muhasebe
 
