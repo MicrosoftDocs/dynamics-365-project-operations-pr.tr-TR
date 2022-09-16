@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Proje satış fiyatı listelerini geçersiz kılma
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Fiyat listesinde belirli fiyatlar için Geçerlilik tarihi geçersiz kılmaları ayarlama
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Tahminler ve gerçek değerler için maliyet fiyatlarını belirleme
               href: pricing-costing/cost-price-resolution.md
             - name: Tahminler ve gerçek değerler için satış fiyatlarını belirleme
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Proje satın alma siparişlerini kullanarak projeler için mal ve hizmet sipariş etme
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Dataverse'de alt sözleşmeler için satıcı faturaları
+          items:
+            - name: Satıcı faturaları oluşturma
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Onaylanmış gerçek değerlerle satıcı faturalarının doğrulanması
+              href: pro/subcontracting/VI-Verification.md
+            - name: Proje satıcı faturalarını onaylama
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Satıcı bekletme
           items:
             - name: Satıcı bekletmeye genel bakış
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Proje satış fiyatı listelerini geçersiz kılma
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Fiyat listesinde belirli fiyatlar için Geçerlilik tarihi geçersiz kılmaları ayarlama
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Proje tahminleri ve gerçek değerlerde maliyet fiyatlarını belirleme
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Proje tahminleri ve gerçek değerler için satış fiyatlarını belirleme
@@ -1050,7 +1062,7 @@
           href: pro/subcontracting/vi-line-milestone.md
         - name: Gider kategorileri için satıcı faturası satırları
           href: pro/subcontracting/vi-line-expense.md
-        - name: Onaylı gerçek değerlerle satıcı faturalarının doğrulanması
+        - name: Onaylanmış gerçek değerlerle satıcı faturalarının doğrulanması
           href: pro/subcontracting/VI-Verification.md
         - name: Proje satıcı faturasını iptal etme
           href: pro/subcontracting/cancel-vi.md
