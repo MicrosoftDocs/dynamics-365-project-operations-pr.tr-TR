@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925374"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459951"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a özellik değişiklikleri
 
 Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations Lite'a yükseltme, üç aşamada gerçekleşir. Bu makale, yükseltme tamamlandığında görebileceğiniz önemli değişiklikler hakkında bilgi sağlar.
 
-| Yükseltme sunma | 1. Aşama <br>(Ocak 2022) | 2. Aşama <br>(2022 Nisan Dalgası) | 3. Aşama  |
+| Yükseltme sunma | 1. Aşama <br>(Ocak 2022) | 2. Aşama <br>(Kasım 2022) | 3. Aşama  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Projeler için iş kırılım yapısına (İKY) bağımlılık yok. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Project Operations'ın şu anda desteklenen sınırları içindeki İKY. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |

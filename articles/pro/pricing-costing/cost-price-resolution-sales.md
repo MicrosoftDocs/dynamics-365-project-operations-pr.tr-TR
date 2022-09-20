@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410183"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475260"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Proje tahmini ve gerçek değerleri için maliyet oranlarını belirleme
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Tahmini ve gerçek bağlamlardaki maliyet fiyatı listesini ve maliyet oranlarını belirlemek için sistem, ilgili projenin **Tarih**, **Para Birimi** ve **Sözleşme Birimi** alanlarındaki bilgileri kullanır.
+Microsoft Dynamics 365 Project Operations'ta tahminlerdeki maliyet oranlarını ve fiili değerleri belirlemek için sistem, maliyet fiyatı listesini belirlemek için ilk olarak, gelen tahmini veya fiili değer bağlamındaki tarihi ve para birimini kullanır. Özellikle de gerçek bağlamda sistem, hangi fiyat listesinin geçerli olduğunu belirlemek için **Hareket tarihi** alanını kullanır. Gelen tahminin veya fiili değerin **İşlem tarihi** değeri fiyat listesindeki **Geçerlilik Başlangıcı (saat diliminden bağımsız)** ve **Geçerlilik bitişi (saat diliminden bağımsız)** değerleri ile karşılaştırılır. Maliyet fiyat listesi belirlendikten sonra sistem maliyet oranını belirler. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Zaman için tahmini ve gerçek bağlamlarda maliyet oranlarını belirleme
 

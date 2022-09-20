@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410166"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475209"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Proje tahminleri ve gerçek değerler için satış fiyatlarını belirleme
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Microsoft Dynamics 365 Project Operations'ta tahminler ve gerçek değerlere ilişkin satış fiyatlarını belirlemek için sistem, satış fiyatı listesini belirlemek için ilk olarak, gelen tahmini veya gerçek bağlamdaki tarihi ve para birimini kullanır. Özellikle de gerçek bağlamda sistem, hangi fiyat listesinin geçerli olduğunu belirlemek için **Hareket tarihi** alanını kullanır. Satış fiyatı listesi belirlendikten sonra sistem, satış veya fatura oranını belirler.
+Microsoft Dynamics 365 Project Operations'ta tahminler ve gerçek değerlere ilişkin satış fiyatlarını belirlemek için sistem, satış fiyatı listesini belirlemek için ilk olarak, gelen tahmini veya gerçek bağlamdaki tarihi ve para birimini kullanır. Özellikle de gerçek bağlamda sistem, hangi fiyat listesinin geçerli olduğunu belirlemek için **Hareket tarihi** alanını kullanır. Gelen tahminin veya fiili değerin **İşlem tarihi** değeri fiyat listesindeki **Geçerlilik Başlangıcı (saat diliminden bağımsız)** ve **Geçerlilik bitişi (saat diliminden bağımsız)** değerleri ile karşılaştırılır. Satış fiyatı listesi belirlendikten sonra sistem, satış veya fatura oranını belirler.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Zaman için gerçek ve tahmin satırlarındaki maliyet oranlarını belirleme
 
