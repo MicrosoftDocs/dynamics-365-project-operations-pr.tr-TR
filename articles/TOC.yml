@@ -508,13 +508,15 @@
           href: approvals/cancelapproval.md
         - name: Daha önce onaylanan girişleri geri çekme
           href: approvals/recall-cancel.md
+        - name: Güvenlik ve onaylar
+          href: approvals/approvals-security.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
               href: approvals/dev-notes-approvals.md
-    - name: Gerçek Değerler
+    - name: Gerçek değerler
       items:
-        - name: Project Operations'daki işletme işlemleri
+        - name: Project Operations'taki işletme işlemleri
           href: actuals/businesstransactions.md
         - name: Gerçek değerlere genel bakış
           href: actuals/actuals-overview.md
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Satıcı bekletmeyi ayarlama
               href: procurement/set-up-vendor-retention.md
+            - name: Ödeme alındığında ödeme
+              href: procurement/Pay-when-paid.md
     - name: Faturalama
       items:
         - name: Faturalama işlemine genel bakış
@@ -1102,13 +1106,15 @@
           href: approvals/cancelapproval.md
         - name: Daha önce onaylanan girişleri geri çekme
           href: approvals/recall-cancel.md
+        - name: Güvenlik ve onaylar
+          href: approvals/approvals-security.md
         - name: Geliştirici notları
           items:
             - name: Onaylar için geliştirici notları
               href: approvals/dev-notes-approvals.md
-    - name: Gerçek Değerler
+    - name: Gerçek değerler
       items:
-        - name: Project Operations'daki işletme işlemleri
+        - name: Project Operations'taki işletme işlemleri
           href: actuals/businesstransactions.md
         - name: Gerçek değerlere genel bakış
           href: actuals/actuals-overview.md
