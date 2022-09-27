@@ -2,20 +2,20 @@
 title: Alt sözleşme satırı kaynakları
 description: Bu makalede, belirli bir taşeron hattı için satıcı tarafından sağlanan adanmış kaynakların nasıl belirtilmesi açıklanmaktadır.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261489"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522397"
 ---
 # <a name="subcontract-line-resources"></a>Alt sözleşme satırı kaynakları
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Project Operations'da satıcı, alt sözleşme satırında zaman için satın alınan kaynak kapasitesini sağlamak için kullanılacak kaynakları belirtebilir.
 

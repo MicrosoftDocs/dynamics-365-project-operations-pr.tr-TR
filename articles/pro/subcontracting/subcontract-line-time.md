@@ -2,20 +2,20 @@
 title: Zaman için alt sözleşme satırları
 description: Bu makalede, zaman için taşeron satırlarının nasıl kaydedileceği ve satıcılardan satınalma vaktinin nasıl kaydedileceği açıklanmaktadır.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262123"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522257"
 ---
 # <a name="subcontract-lines-for-time"></a>Zaman için alt sözleşme satırları
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Project Operations'daki bir alt sözleşmede zaman için bir alt sözleşme satırı bulunabilir. Alt sözleşme zaman satırları, Proje Yöneticisinin proje görevlerine personel ve kaynak gereksinimleri sağlamak için satıcıdan kaynak zamanı satın almasına olanak tanır.
 

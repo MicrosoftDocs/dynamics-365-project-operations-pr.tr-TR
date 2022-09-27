@@ -2,16 +2,16 @@
 title: Project Operations'da tümleştirme günlüğü
 description: Bu makale, Project Operations'ta Entegrasyon günlüğü ile çalışma hakkında bilgi sağlar.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106299"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541102"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations'da tümleştirme günlüğü
 
@@ -65,6 +65,12 @@ Defter nakli, etkileşimli olarak veya bir toplu işte gerçekleştirilebilir. 1
 > [!NOTE]
 > Bu özelliği kullanmak için, **Özellik yönetimi** çalışma alanındaki **Yeni Project Operations entegrasyon günlüğüne tüm deftere nakil hatalarına sahip satırları naklet** özelliğini etkinleştirin.
 
-Project Operations tümleştirme günlüğüne nakil sırasında sistem günlükteki her satırı doğrular. Sistem hatasız tüm satırları nakleder ve deftere nakil hataları bulunan tüm satırlar için yeni bir günlük oluşturur. Deftere nakil hata satırı olan günlükleri incelemek için **Proje yönetimi ve muhasebe** > **Günlükler** > **Project Operations tümleştirme günlüğü**'ne gidin ve **Orijinal günlük** alanını kullanarak günlükleri filtreleyin.
+Bu özellik, Project Operations tümleştirme günlüğüyle deneyimi geliştirmeye yardımcı olur. Etkinleştirildiğinde, çift yazma zamanlama sorunları ve kurulum sorunları, artık geçerli günlüklerin deftere nakledilmesini engellemez. Project Operations tümleştirme günlüğüne nakil sırasında sistem günlükteki her satırı doğrular. Hatasız tüm satırları deftere nakleder ve deftere nakletme hataları bulunan tüm satırlar için yeni bir günlük oluşturur.
+
+Hatalı satırları deftere nakletme işlemi yapan günlükleri incelemek için **Proje yönetimi ve muhasebe** \> **Günlükler** \> **Project Operations tümleştirme günlüğü**'ne gidin ve **Orijinal günlük** alanını kullanarak günlüklerin listesini filtreleyin. Aşağıdaki resimde **Project Operations tümleştirme günlüğü** sayfasında günlüklerin bu şekilde filtrelendiği bir örnek gösterilmektedir.
+
+![Project Operations entegrasyon günlüğü sayfasında gösterilen orijinal günlük.](./media/transferLines-originalJournal.png)
+
+Periyodik bir toplu iş, tümleştirme günlüğünü deftere nakletmek üzere yapılandırılırsa deftere nakil işlemi yeniden denenir ve zamanlama sorunu çözülürse günlükler deftere nakledilir. Kalan günlükler, günlükleri incelenerek ve gerekli eylemler gerçekleştirilerek manuel olarak araştırılmalıdır.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

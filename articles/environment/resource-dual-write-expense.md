@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029236"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528050"
 ---
 # <a name="expense-management-integration"></a>Gider yönetimi tümleştirmesi
 
@@ -34,7 +34,7 @@ Finans ve operasyon uygulamalarındaki gider kategorileri şirkete veya tüzel k
 
 ## <a name="expense-reports"></a>Gider raporları
 
-Gider raporları finans ve operasyon uygulamalarında oluşturulur ve onaylanır. Daha fazla bilgi için, bkz. [Dynamics 365 Project Operations uygulamasında gider raporları oluşturma ve işleme](/learn/modules/create-process-expense-reports/). Gider raporu proje yöneticisi tarafından onaylandıktan sonra, genel muhasebeye nakledilir. Project Operations'da projeyle ilgili gider raporu satırları, özel deftere nakil kuralları kullanılarak deftere nakledilir:
+Gider raporları finans ve operasyon uygulamalarında oluşturulur ve onaylanır. Daha fazla bilgi için, bkz. [Dynamics 365 Project Operations uygulamasında gider raporları oluşturma ve işleme](/training/modules/create-process-expense-reports/). Gider raporu proje yöneticisi tarafından onaylandıktan sonra, genel muhasebeye nakledilir. Project Operations'da projeyle ilgili gider raporu satırları, özel deftere nakil kuralları kullanılarak deftere nakledilir:
 
   - Projeyle ilgili maliyet (kurtarılamayan KDV dahil), genel muhasebede proje maliyet hesabına hemen nakledilmez; bunun yerine gider tümleştirme hesabına nakledilir. Bu hesap, **Dynamics 365 Customer Engagement'ta Project Operations** sekmesindeki **Proje yönetimi ve hesap** > **kurulum** > **Proje yönetimi ve muhasebe parametreleri**'nde yapılandırılır.
   - İkili yazma **Project Operations tümleştirme proje masraflarını verme varlığı (msdyn\_expenses)** tablo haritasını kullanmak üzere Dataverse ile eşitlenir.

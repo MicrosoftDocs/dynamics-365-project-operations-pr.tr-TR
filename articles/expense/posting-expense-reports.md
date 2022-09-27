@@ -1,8 +1,8 @@
 ---
 title: Gider raporlarını deftere nakletme
 description: Bu makalede gider raporlarının nasıl deftere nakledileceği açıklanmaktadır.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934528"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524894"
 ---
 # <a name="post-expense-reports"></a>Gider raporlarını deftere nakletme
 
@@ -30,5 +30,15 @@ Gider raporunu deftere nakletmek için **Onaylanmış gider raporları** sayfas�
 
 Ayrıca listedeki tüm gider raporlarını aynı anda deftere nakledebilirsiniz. Tüm gider raporlarını seçin ve ardından **Deftere Naklet** seçeneğini belirleyin.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Nakit ödeme yöntemi için satıcı para birimi cinsinden gider borcunu deftere nakledilebilme özelliğini etkinleştirme
+
+**Nakit ödeme yöntemi için satıcı para birimi cinsinden gider borcunu deftere nakledilebilme** özelliği, gider raporlarının nakit ödeme yöntemi için satıcı para biriminde deftere nakledilmesini sağlar.
+
+Şu anda nakit giderleri gönderdiğinizde, gider raporları muhasebe para birimi cinsinden nakledilir. İşlem para birimi, muhasebe para birimi ve satıcı para birimi arasında tutar dönüştürmesi nedeniyle, giderin işlem tarihi ve gerçek ödeme tarihinin farklı döviz kurları varsa satıcılara yanlış tutar ödenir.
+
+Bu özellik, gider raporu deftere nakledildiğinde satıcı bakiyesinin satıcı para birimi cinsinden kaydedilmesini sağlar.
+
+1. **Çalışma alanları**\>**Özellik Yönetimi**'ne gidin.
+2. Listede **Nakit ödeme yöntemi için satıcı para birimi cinsinden gider borcunu deftere nakledilebilme** özelliğini bulup seçin ve ardından **Şimdi etkinleştir**'i seçin.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

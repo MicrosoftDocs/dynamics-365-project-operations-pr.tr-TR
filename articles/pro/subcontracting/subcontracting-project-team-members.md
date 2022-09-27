@@ -2,20 +2,20 @@
 title: Alt sözleşme proje takım üyeleri
 description: Bu makalede, Microsoft Dynamics 365 Project Operations'da proje takımı üyeleri için alt sözleşmelerin nasıl oluşturulacağı açıklanmaktadır.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261395"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522820"
 ---
 # <a name="subcontracting-project-team-members"></a>Alt sözleşme proje takım üyeleri
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Microsoft Dynamics 365 Project Operations'da, kadrolu olmayan veya kadrolu proje takımı üyelerine alt sözleşmeye dahil etmeyi seçebilirsiniz.
 

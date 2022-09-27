@@ -1,289 +1,151 @@
 ---
-title: Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
+title: Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'lerini kullanma
 description: Bu makalede proje zamanlama API'lerinin kullanımına yönelik bilgiler ve örnekler sağlanmaktadır.
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230340"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541149"
 ---
-# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'lerini kullanma
 
 _**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 
+**Zamanlama varlıkları**
 
-## <a name="scheduling-entities"></a>Zamanlama varlıkları
-
-Proje zamanlaması API'ları **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri gerçekleştirme olanağı sunar. Bu varlıklar, webe yönelik projelerde Zamanlama altyapısı üzerinden yönetilir. Önceki Dynamics 365 Project Operations sürümlerinde **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri kısıtlanmıştı.
+Proje zamanlaması API'leri **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri gerçekleştirme olanağı sunar. Bu varlıklar, webe yönelik projelerde Zamanlama altyapısı üzerinden yönetilir. Önceki Dynamics 365 Project Operations sürümlerinde **Zamanlama varlıklarıyla** oluşturma, güncelleştirme ve silme işlemleri kısıtlanmıştı.
 
 Aşağıdaki tabloda Proje zamanlama varlıklarının tam listesi verilmiştir.
 
-| Varlık adı  | Varlık mantıksal adı |
-| --- | --- |
-| Project | msdyn_project |
-| Proje Görevi  | msdyn_projecttask  |
-| Proje Görevi Bağımlılığı  | msdyn_projecttaskdependency  |
-| Kaynak Atama | msdyn_resourceassignment |
-| Proje Demeti  | msdyn_projectbucket |
-| Proje Takımı Üyesi | msdyn_projectteam |
+| **Varlık adı**         | **Varlık mantıksal adı**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Proje Görevi            | msdyn_projecttask           |
+| Proje Görevi Bağımlılığı | msdyn_projecttaskdependency |
+| Kaynak Atama     | msdyn_resourceassignment    |
+| Proje Demeti          | msdyn_projectbucket         |
+| Proje Takımı Üyesi     | msdyn_projectteam           |
+| Proje Denetim Listeleri      | msdyn_projectchecklist      |
+| Proje Etiketi           | msdyn_projectlabel          |
+| Etiketlenecek Proje Görevi   | msdyn_projecttasktolabel    |
+| Proje Sprint'i          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet, bir hareket içinde işlenmesi gereken, zamanlamayı etkileyen birkaç isteğin işlenmesi gerektiğinde kullanılabilen bir çalışma birimi düzenidir.
 
-## <a name="project-schedule-apis"></a>Proje zamanlama API'ları
+**Proje zamanlama API'leri**
 
-Aşağıda geçerli Proje zamanlama API'larının listesi yer almaktadır.
+Aşağıda geçerli Proje zamanlama API'lerinin listesi yer almaktadır.
 
-- **msdyn_CreateProjectV1**: Bu API, proje oluşturmak için kullanılabilir. Proje ve varsayılan proje paketi hemen oluşturulur.
-- **msdyn_CreateTeamMemberV1**: Bu API, proje takımı üyesi oluşturmak için kullanılabilir. Takım üyesi kaydı hemen oluşturulur.
-- **msdyn_CreateOperationSetV1**: Bu API, bir hareket içinde gerçekleştirilmesi gereken çok sayıda isteği zamanlamak için kullanılabilir.
-- **msdyn_PssCreateV1**: Bu API, bir varlık oluşturmak için kullanılabilir. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PssUpdateV1**: Bu API, bir varlığı güncelleştirmek için kullanılabilir. Varlık, güncelleştirme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_PssDeleteV1**: Bu API, bir varlığı silmek için kullanılabilir. Varlık, silme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir.
-- **msdyn_ExecuteOperationSetV1**: Bu API, bir işlem kümesindeki tüm işlemleri yürütmek için kullanılır.
+| **API**                                 | Tanım                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Bu API, proje oluşturmak için kullanılır. Proje ve varsayılan proje paketi hemen oluşturulur.                         |
+| **msdyn_CreateTeamMemberV1**            | Bu API, proje takım üyesi oluşturmak için kullanılır. Takım üyesi kaydı hemen oluşturulur.                                  |
+| **msdyn_CreateOperationSetV1**          | Bu API, bir hareket içinde gerçekleştirilmesi gereken çok sayıda isteği zamanlamak için kullanılır.                                        |
+| **msdyn_PssCreateV1**                   | Bu API, varlık oluşturmak için kullanılır. Varlık, oluşturma işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir. |
+| **msdyn_PssUpdateV1**                   | Bu API, varlık güncelleştirmek için kullanılır. Varlık, güncelleştirme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir  |
+| **msdyn_PssDeleteV1**                   | Bu API, varlık silmek için kullanılır. Varlık, silme işlemini destekleyen Proje zamanlama varlıklarından herhangi biri olabilir. |
+| **msdyn_ExecuteOperationSetV1**         | Bu API, bir işlem kümesindeki tüm işlemleri yürütmek için kullanılır.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Bu API, Kaynak Atamasının planlanan çalışma sınırını güncelleştirmek için kullanılır.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet ile Proje zamanlama API'larını kullanma
+
+
+**OperationSet ile Proje zamanlama API'lerini kullanma**
 
 Hem **CreateProjectV1** hem de **CreateTeamMemberV1** içeren kayıtlar hemen oluşturulduğundan, bu API'ler doğrudan **OperationSet** içinde kullanılamaz. Ancak API'yi kullanarak gerekli kayıtları oluşturup bir **OperationSet** oluşturabilir ve ardından **OperationSet** içinde bu önceden oluşturulmuş kayıtları kullanabilirsiniz.
 
-## <a name="supported-operations"></a>Desteklenen işlemler
+**Desteklenen işlemler**
 
-| Zamanlama varlığı | Oluştur | Güncelleş | Silme | Dikkat edilmesi gereken önemli hususlar |
-| --- | --- | --- | --- | --- |
-Proje görevi | Evet | Evet | Evet | **Progress**, **EffortCompleted** ve **EffortRemaining** alanları, Project for the Web'de düzenlenebilir ancak Project Operations'ta düzenlenemez.  |
-| Proje görevi bağımlılığı | Evet |  | Evet | Proje görev bağımlılığı kayıtları güncelleştirilmemiş. Bunun yerine, eski bir kayıt silinebilir ve yeni bir kayıt oluşturulabilir. |
-| Kaynak atama | Evet | Evet | | Şu alanlara sahip işlemler desteklenmez: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ve **PlannedWork**. Kaynak atama kayıtları güncelleştirilmemiş. Bunun yerine, eski kayıt silinebilir ve yeni bir kayıt oluşturulabilir. |
-| Proje demeti | Evet | Evet | Evet | Varsayılan paket, **CreateProjectV1** API'sini kullanarak oluşturulur. Proje paketleri oluşturma ve silme desteği, Güncelleştirme Sürümü 16'da eklenmiştir. |
-| Proje takımı üyesi | Evet | Evet | Evet | Oluşturma işlemi için **CreateTeamMemberV1** API'sini kullanın. |
-| Project | Evet | Evet |  | Şu alanlara sahip işlemler desteklenmez: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ve **Duration**. |
+| **Zamanlama varlığı**   | **Oluştur** | **Update** | **Silme** | **Dikkat edilmesi gereken önemli hususlar**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Proje görevi            | Evet        | Evet        | Evet        | **Progress**, **EffortCompleted** ve **EffortRemaining** alanları, Project for the Web'de düzenlenebilir ancak Project Operations'ta düzenlenemez.                                                                                                                                                                                             |
+| Proje görevi bağımlılığı | Evet        | Hayı         | Evet        | Proje görev bağımlılığı kayıtları güncelleştirilmemiş. Bunun yerine, eski bir kayıt silinebilir ve yeni bir kayıt oluşturulabilir.                                                                                                                                                                                                                                 |
+| Kaynak atama     | Evet        | Evet\*      | Evet        | Şu alanlara sahip işlemler desteklenmez: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ve **PlannedWork**. Kaynak atama kayıtları güncelleştirilmemiş. Bunun yerine, eski kayıt silinebilir ve yeni bir kayıt oluşturulabilir. Kaynak Atama sınırlarını güncelleştirmek için ayrı bir API sağlanmıştır. |
+| Proje demeti          | Evet        | Evet        | Evet        | Varsayılan paket, **CreateProjectV1** API'sini kullanarak oluşturulur. Proje paketleri oluşturma ve silme desteği, Güncelleştirme Sürümü 16'da eklenmiştir.                                                                                                                                                                                                   |
+| Proje takımı üyesi     | Evet        | Evet        | Evet        | Oluşturma işlemi için **CreateTeamMemberV1** API'sini kullanın.                                                                                                                                                                                                                                                                                           |
+| Project                 | Evet        | Evet        |            | Şu alanlara sahip işlemler desteklenmez: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ve **Duration**.                                                                                       |
+| Proje Denetim Listeleri      | Evet        | Evet        | Evet        |                                                                                                                                                                                                                                                                                                                                                         |
+| Proje Etiketi           | Hayı         | Evet        | Hayı         | Etiket adları değiştirilebilir. Bu özellik, yalnızca Project for the Web için kullanılabilir                                                                                                                                                                                                                                                                      |
+| Etiketlenecek Proje Görevi   | Evet        | Hayı         | Evet        | Bu özellik, yalnızca Project for the Web için kullanılabilir                                                                                                                                                                                                                                                                                                  |
+| Proje Sprint'i          | Evet        | Evet        | Evet        | **Başlangıç** alanındaki tarih, **Bitiş** alanındaki tarihten daha erken bir zaman olmalıdır. Aynı projenin sprint'leri birbiriyle çakışamaz. Bu özellik, yalnızca Project for the Web için kullanılabilir                                                                                                                                                                    |
 
-Bu API'ler özel alanlar içeren varlık nesneleriyle çağrılabilir.
+
+
 
 Kimlik özelliği isteğe bağlıdır. Sağlanmışsa, sistem bunu kullanmayı dener ve kullanılamaz ise bir özel durum oluşturur. Sağlanmazsa, sistem bunu oluşturacaktır.
 
-## <a name="restricted-fields"></a>Sınırlandırılmış alanlar
+**Sınırlamalar ve bilinen sorunlar**
 
-Aşağıdaki tablolarda, **Oluşturma** ve **Düzenleme** için kısıtlanan alanlar tanımlanır.
-
-### <a name="project-task"></a>Proje görevi
-
-| Mantıksal ad                           | Oluşturabilir     | Düzenleyebilir         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Hayır (Proje için evet)             | Hayır (Proje için evet)               |
-| msdyn_effortremaining                  | Hayır (Proje için evet)              | Hayır (Proje için evet)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Hayır (Proje için evet)             | Hayır (Proje için evet) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Proje görevi bağımlılığı
-
-| Mantıksal ad                  | Oluşturabilir     | Düzenleyebilir     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Evet            | No           |
-| msdyn_predecessortaskname     | Evet            | No           |
-| msdyn_project                 | Evet            | No           |
-| msdyn_projectname             | Evet            | No           |
-| msdyn_projecttaskdependencyid | Evet            | No           |
-| msdyn_successortask           | Evet            | No           |
-| msdyn_successortaskname       | Evet            | No           |
-
-### <a name="resource-assignment"></a>Kaynak atama
-
-| Mantıksal ad                 | Oluşturabilir     | Düzenleyebilir     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Evet            | No           |
-| msdyn_bookableresourceidname | Evet            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Evet            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Proje takımı üyesi
-
-| Mantıksal ad                                     | Oluşturabilir     | Düzenleyebilir     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Mantıksal ad                           | Oluşturabilir     | Düzenleyebilir     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Evet            | No           |
-| msdyn_contractorganizationalunitid     | Evet            | No           |
-| msdyn_contractorganizationalunitidname | Evet            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Evet            | Evet          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Proje demeti
-
-| Mantıksal ad          | Oluşturabilir      | Düzenleyebilir     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Evet             | No           |
-| msdyn_name            | Evet             | Evet          |
-| msdyn_project         | Evet             | No           |
-| msdyn_projectbucketid | Evet             | No           |
-
-## <a name="limitations-and-known-issues"></a>Sınırlamalar ve bilinen sorunlar
 Aşağıda, sınırlamalar ve bilinen sorunların bir listesi yer almaktadır:
 
-- Proje Zamanlama API'leri yalnızca **Microsoft Project Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
+-   Proje Zamanlama API'leri yalnızca **Microsoft Project Lisansı olan kullanıcılar** tarafından kullanılabilir. Şu kullanıcılar tarafından kullanılamaz:
+    -   Uygulama kullanıcıları
+    -   Sistem kullanıcıları
+    -   Tümleştirme kullanıcıları
+    -   Gerekli lisansa sahip olmayan diğer kullanıcılar
+-   Her bir **OperationSet** yalnızca en fazla 100 işlem içerebilir.
+-   Her bir kullanıcının açık en fazla 10 **OperationSet**'i olabilir.
+-   Project Operations şu anda bir proje üzerinde en fazla 500 toplam görevi desteklemektedir.
+-   Her Güncelleştirme Kaynak Ataması Sınır işlemi, tek bir işlem olarak sayılır.
+-   Her bir güncelleştirilmiş sınır listesinde en fazla 100 zaman dilimi bulunabilir.
+-   **OperationSet** hata durumu ve hata günlükleri şu anda kullanılamıyor.
+-   Proje başına en fazla 400 sprint bulunur.
+-   [Proje ve görevlerde sınır ve kısıtlamalar](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Etiketler, şu an için yalnızca Project for the Web için kullanılabilir.
 
-    - Uygulama kullanıcıları
-    - Sistem kullanıcıları
-    - Tümleştirme kullanıcıları
-    - Gerekli lisansa sahip olmayan diğer kullanıcılar
+**Hata işleme**
 
-- Her bir **OperationSet** yalnızca en fazla 100 işlem içerebilir.
-- Her bir kullanıcının açık en fazla 10 **OperationSet**'i olabilir.
-- Project Operations şu anda bir proje üzerinde en fazla 500 toplam görevi desteklemektedir.
-- **OperationSet** hata durumu ve hata günlükleri şu anda kullanılamıyor.
-- [Projelerde ve görevlerde sınırları ve sınırları](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   İşlem kümelerinden oluşturulan hataları gözden geçirmek için **ayarlar** \> **Zamanlama tümleştirme** \> **işlemleri kümeleri**'ne gidin.
+-   Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **Zamanlama tümleştirmesi** \> **PSS Hata günlükleri**'ne gidin.
 
-## <a name="error-handling"></a>Hata işleme
+**Kaynak Atama Sınırlarını Düzenleme**
 
-- İşlem kümelerinden oluşturulan hataları gözden geçirmek için **ayarlar** \> **Zamanlama tümleştirme** \> **işlemleri kümeleri**'ne gidin.
-- Proje zamanlama hizmetinden oluşturulan hataları gözden geçirmek için **Ayarlar** \> **Zamanlama tümleştirmesi** \> **PSS Hata günlükleri**'ne gidin.
+Varlık güncelleştiren diğer proje zamanlama API'lerinin aksine, kaynak ataması sınır API'si yalnızca tek bir varlık (msydn_resourceassignment) üzerindeki tek bir varlığın (msdyn_plannedwork) güncelleştirmelerinden sorumludur.
 
-## <a name="sample-scenario"></a>Örnek senaryo
+Zamanlama modunun aşağıdaki gibi olduğunu varsayalım:
+
+-   **sabit birimler**
+-   proje takvimi; Pazartesi, Salı, Perşembe, Cuma (ÇARŞAMBA GÜNÜ YOK) günleri 9-17 saatleri arasındadır (9-17pst)
+-   kaynak takvimi ise Pazartesi'den Cuma'ya 9-13 PST saatleri arasındadır
+
+Bu atama, günde dört saat olmak üzere bir haftalıktır. Bunun nedeni, kaynak takviminin 9-13 PST arasında, yani günde dört saat olmasıdır.
+
+| &nbsp;     | Görev | Başlangıç Tarihi | Bitiş Tarihi  | Miktar | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-13 çalışanı |  T1  | 13/6/2022  | 17/6/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Örneğin, çalışanın bu haftanın her günü yalnızca üç saat çalışmasını ve diğer görevler için bir saat kullanmasını istiyorsanız:
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours örnek yükü:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Güncelleştirme Sınırı Zamanlama API'ı çalıştırıldıktan sonra atama bu şekildedir.
+
+| &nbsp;     | Görev | Başlangıç Tarihi | Bitiş Tarihi  | Miktar | 13/6/2022 | 14/6/2022 | 15/6/2022 | 16/6/2022 | 17/6/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-13 çalışanı | T1   | 13/6/2022  | 17/6/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Örnek senaryo**
 
 Bu senaryoda; bir proje, bir takım üyesi, dört görev ve iki kaynak ataması oluşturacaksınız. Sonra da tek bir görevi güncelleştirecek, projeyi güncelleştirecek, tek bir görevi silecek, bir kaynak atamasını silecek ve bir görev bağımlılığı oluşturacaksınız.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Ek örnekler
+** Ek örnekler
 
 ```csharp
 #region Call actions --- Sample code ----

@@ -2,20 +2,20 @@
 title: Alt sözleşme kapsamındaki bileşenler için süre, gider ve malzeme kullanımını kaydetme
 description: Bu makale, alt sözleşme bileşenlerinden projelerde kaydedilen zaman, gider ve malzeme kullanımının Microsoft Dynamics 365 Project Operations tarafından nasıl izlendiğini açıklar.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 89fbbfcd1535660e92d0cc80beb91029331e990f
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b82c14412cfb0405040902a2329c3b6692422d89
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261172"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522538"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Alt sözleşme bileşenleri için projelerde kayıt süresi, giderler ve malzeme kullanımı
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Bu makale, alt sözleşme bileşenlerinden projelerde kaydedilen zaman, gider ve malzeme kullanımının Microsoft Dynamics 365 Project Operations tarafından nasıl izlendiğini açıklar.
 

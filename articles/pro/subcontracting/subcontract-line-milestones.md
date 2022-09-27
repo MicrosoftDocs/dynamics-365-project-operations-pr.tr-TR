@@ -2,20 +2,20 @@
 title: Alt sözleşme satırı kilometre taşları
 description: Bu makalede, satıcıyla bir taşeron için kilometre taşı tabanlı fatura planının nasıl oluşturulacağı ve kullanılacağı açıklanmaktadır.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261818"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522489"
 ---
 # <a name="subcontract-line-milestones"></a>Alt sözleşme satırı kilometre taşları
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
 Dynamics 365 Project Operations'da, sabit fiyatlı faturalama yöntemine sahip bir alt sözleşme satırı, satıcıyla bir kilometre taşı tabanlı fatura zamanlaması belirtebilir.
 
