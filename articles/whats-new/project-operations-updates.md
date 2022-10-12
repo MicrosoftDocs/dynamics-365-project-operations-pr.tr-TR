@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409980"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622051"
 ---
 # <a name="project-operations-updates"></a>Project Operations güncelleştirmeleri
 
@@ -47,24 +47,24 @@ Dataverse ortamında Project Operations için güncelleştirmeler aylık olarak 
 | İstasyon | Bölge | Geçerli sürüm numarası | Lite dağıtımı için otomatik güncelleştirmeler | Kaynak/Stoklanmayan dağıtım için otomatik güncelleştirmeler | Sonraki sürüm numarası | Genel olarak kullanılabilen bir sonraki sürüm |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | İstasyon 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | İlk Sürüm         |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022      |
+|   &nbsp;  | İlk Sürüm         |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 07 Ekim 2022      |
 | İstasyon 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Güney Amerika         |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Kanada                |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Hindistan                 |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Fransa                |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Güney Afrika          |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | İsviçre           |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 09 Eylül 2022       |
+|   &nbsp;  | Güney Amerika         |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
+|   &nbsp;  | Kanada                |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
+|   &nbsp;  | Hindistan                 |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
+|   &nbsp;  | Fransa                |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
+|   &nbsp;  | Güney Afrika          |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
+|   &nbsp;  | İsviçre           |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi                 | 14 Ekim 2022       |
 | İstasyon 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japonya                 |  Kategori 4.45.0.53      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Asya Pasifik          |  Kategori 4.45.0.53      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Büyük Britanya         |  Kategori 4.45.0.53      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Okyanusya               |  Kategori 4.45.0.53      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 09 Eylül 2022       |
-|   &nbsp;  | Birleşik Arap Emirlikleri  |  Kategori 4.45.0.53      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 09 Eylül 2022       |
+|   &nbsp;  | Japonya                 |  Kategori 4.46.0.60      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 21 Ekim 2022       |
+|   &nbsp;  | Asya Pasifik          |  Kategori 4.46.0.60      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 21 Ekim 2022       |
+|   &nbsp;  | Büyük Britanya         |  Kategori 4.46.0.60      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 21 Ekim 2022       |
+|   &nbsp;  | Okyanusya               |  Kategori 4.46.0.60      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 21 Ekim 2022       |
+|   &nbsp;  | Birleşik Arap Emirlikleri  |  Kategori 4.46.0.60      | Tamamlandı      | Tamamlandı       | Henüz belirlenmedi                 | 21 Ekim 2022       |
 | İstasyon 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Avrupa                |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi           | 16 Eylül 2022       |
+|   &nbsp;  | Avrupa                |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi           | 28 Ekim 2022       |
 | İstasyon 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Kuzey Amerika         |  Kategori 4.45.0.53      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi           | 16 Eylül 2022       |
+|   &nbsp;  | Kuzey Amerika         |  Kategori 4.46.0.60      | Tamamlandı           | Tamamlandı            | Henüz belirlenmedi           | 04 Kasım 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finans ve operasyonlar uygulamaları ortamında Proje yönetimi ve muhasebe için yayın zamanlaması
 

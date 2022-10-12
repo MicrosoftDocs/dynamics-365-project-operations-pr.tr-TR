@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112453"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621106"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations çift yazma eşlemesi sürümleri
 
@@ -48,14 +48,14 @@ Aşağıdaki eşlemeler Project Operations çözümü için gerekli ön koşulla
 | Proje Finansmanı kaynağı (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Sağlama için gerekli değildir. ||
 | Malzeme tahminleri için Proje tümleştirme tablosu (msdyn\_estimatelines) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
 | Proje faturası teklifleri V2 (faturalar) | 1.0.0.3 | Sağlama için gerekli değildir. ||
-| Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals) | Kategori 1.0.0.14 | Sağlama için gerekli değildir. ||
+| Project Operations tümleştirmesi gerçek değerleri (msdyn_actuals) | Kategori 1.0.0.15 | Sağlama için gerekli değildir. |10.0.29 veya sonraki sürümleri|
 | Project Operations tümleştirmesi sözleşme satırı kilometre taşları (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirmesi gider tahminleri varlığı (msdyn_estimatelines) | 1.0.0.2 | Sağlama için gerekli değildir. ||
 | Saat tahminleri için Project Operations tümleştirme varlığı (msdyn_resourceassignments) | Kategori 1.0.0.5 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirme proje gideri kategorileri dışarı aktarma varlığı (msdyn_expensecategories) | 1.0.0.1 | Sağlama için gerekli değildir. ||
 | Project Operations tümleştirme proje giderleri dışarı aktarma varlığı (msdyn_expenses) | 1.0.0.3 | Sağlama için gerekli değildir. ||
-| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn_projectvendorinvoices) | 1.0.0.1 | Sağlama için gerekli değildir. |10.0.26 veya üstü|
-| Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Sağlama için gerekli değildir. | 10.0.26 veya üstü |
+| Project Operations tümleştirme projesi satıcı fatura dışa aktarma varlığı (msdyn_projectvendorinvoices) | 1.0.0.2 | Sağlama için gerekli değildir. |10.0.29 veya sonraki sürümleri|
+| Project Operations tümleştirme projesi satıcı faturası satırı dışa aktarma varlığı (msdyn_projectvendorinvoicelines) | Kategori 1.0.0.5 | Sağlama için gerekli değildir. | 10.0.29 veya sonraki sürümleri |
 | Tüm Şirketler için Proje Kaynak Rolleri (bookableresourcecategories) | Kategori 1.0.0.1 | Sağlama sırasında Dynamics 365 Dataverse ortamında doldurulan proje yöneticisi ve takım üyesi kaynak rollerini eşitlemek için tablo haritasında başlangıç eşitlemesi yapılmasını ister. Dataverse, ilk eşitleme için ana kaynaktır. ||
 | Proje görevleri (msdyn_projecttasks) | Kategori 1.0.0.4 | Sağlama için gerekli değildir. ||
 | Proje hareket kategorileri (msdyn_transactioncategories) | Kategori 1.0.0.0 | Sağlama için gerekli değildir. ||
