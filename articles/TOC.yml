@@ -62,11 +62,13 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
-        - name: Ağustos 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Eylül 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Arşiv
           items:
-            - name: Temmuz 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Ağustos 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+              href: whats-new/whats-new-aug-2022-resource-based.md
+            - name: Temmuz 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Haziran 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: Ağustos 2022'deki yenilikler - lite dağıtımı
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Eylül 2022'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Arşiv
           items:
+            - name: Ağustos 2022'deki yenilikler - lite dağıtımı
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Temmuz 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Haziran 2022'deki yenilikler - lite dağıtımı
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Yenilikler
       items:
-        - name: Temmuz 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Eylül 2022'deki yenilikler - Stoklu/üretim tabanlı senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Arşiv
           items:
+            - name: Temmuz 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Haziran 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Ekim 2021'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
@@ -1436,6 +1442,10 @@
       items:
         - name: Project Service 3.x için Güncelleştirme Sürümü zamanlaması
           href: psa/version-history-ps.md
+        - name: 'Güncelleştirme sürümü 47, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-47.md
+        - name: 'Güncelleştirme sürümü 45, V3''teki yenilikler veya değişiklikler'
+          href: psa/whats-new-ur-45.md
         - name: 'Güncelleştirme sürümü 44, V3''teki yenilikler veya değişiklikler'
           href: psa/whats-new-ur-44.md
         - name: 'Güncelleştirme sürümü 43, V3''teki yenilikler veya değişiklikler'
