@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3'teki yenilikler veya değişiklikler
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation yükseltmesi (uygulama sürümü Project Operations Lite 4.x)
+      items:
+        - name: Project Service Automation'dan Project Operations'a yükseltme
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Project Service Automation ile Project Operations arasındaki özellik değişiklikleri
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation'dan Project Operations'a proje zamanlama dönüştürme işlemi
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Uygulamanızı planlama (uygulama sürümü 3.x)
       items:
         - name: Örnek verileri yükleme
