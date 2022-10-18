@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation'dan Project Operations'a özellik değişiklikleri
+title: Project Service Automation'dan Project Operations'a proje zamanlama dönüştürme işlemi
 description: Bu makale, Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a gerçekleştirilen özellik değişikliklerine genel bir bakış sağlar.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9869b3ad0fb6429484a26f367e06a0996f110ed8
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 84a40fcc9a8561c4ade0be175b08f701f3196508
+ms.sourcegitcommit: 28004d38800782540fa5642d41f8fe0f6e2d9fa5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621269"
+ms.lasthandoff: 10/08/2022
+ms.locfileid: "9642593"
 ---
-# <a name="feature-changes-for-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a özellik değişiklikleri
+# <a name="project-service-automation-to-project-operations-project-scheduling-conversion-process"></a>Project Service Automation'dan Project Operations'a proje zamanlama dönüştürme işlemi
 
 Bir proje, Microsoft Dynamics 365 Project Service Automation 3.X'ten Dynamics 365 Project Operations Lite'a başarılı bir şekilde yükseltildikten sonra görev ızgarası iş kırılım yapısında (WBS) projeleri düzenlemek mümkün olmaz. Müşteriler görevle ilgili tüm ayrıntıları sağlamak için yeni alanların eklendiği izleme kılavuzundaki WBS'yi gözden geçirebilecektir. WBS'de yapılan düzenlemelerin gerekli olduğu projelerde, Project for the Web zamanlama deneyimi için uygun projeleri seçici olarak dönüştürebilirsiniz.
 

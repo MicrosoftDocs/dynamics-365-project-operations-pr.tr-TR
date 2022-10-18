@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932090"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655213"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>İş kırılım yapısı (İKY) oluşturma
 
@@ -112,6 +112,18 @@ Personel özniteliklerine zamanlamadaki **Kaynaklar** alanından erişilir. Var 
 Görevler arasında öncül ilişkiler oluşturmak için Project Operations'taki zamanlamayı kullanabilirsiniz. **Öncül** alanı, görevin bağımlı olduğu görevleri belirtmek için bir veya daha fazla değer kullanır. Göreve öncül değerler atandığında, görev yalnızca tüm öncül görevler tamamlandıktan sonra başlayabilir. Bağımlılık nedeniyle, görevin planlanan başlangıç tarihi öncül görevlerin tamamlandığı tarihe ayarlanır.
 
 Görev modunun, öncül/bağımlı görevlerin başlangıç ve bitiş tarihleri üzerinde yapılan güncelleştirmeler üzerinde etkisi yoktur.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Görevlerdeki süre, kaynak takvimleri ve proje takvimlerinin etkilerini anlama
+Görevin süresi, görevin başlangıç tarihinin başlangıç saati ile bitiş tarihinin bitiş saati arasındaki çalışma saati sayısı olarak tanımlanır.   Project for the Web, süre ölçü birimlerini aşağıdaki gibi tanımlar:
+
+| **Süre Ölçümü** | **Miktar**|
+|----------------------------------------------------|----------------------|
+| Günlük saat sayısı | 8 |
+| Haftalık saat sayısı |  40 |
+| Aylık gün sayısı |  20 |
+
+Atanmamış görevler projenin takvimi kullanılarak zamanlanır. Ancak, ilk kaynak atamasının ardından, bir görevin zamanlaması kaynağın takvimine uyacak şekilde güncelleştirilir. Ataması yapılmış bir görevde yapılacak sonraki değişiklikler projenin [zamanlama modu](scheduling-modes.md) tarafından yönetilir. Takvimlerin görevler üzerindeki etkileri hakkında daha fazla bilgi için [Project for the Web'de Kaynak Takvimleri](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) ve [Görev Başlangıç Saatleri ve Projeleriniz!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665) bölümlerine bakın.
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Erişilebilirlik ve klavye kısayolları
 

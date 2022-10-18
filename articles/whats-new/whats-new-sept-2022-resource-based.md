@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621284"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634830"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Eylül 2022'deki yenilikler - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
 
@@ -35,6 +35,7 @@ Bu makale aşağıdaki Microsoft Dynamics 365 Project Operations bileşenleri ve
 | Gider yönetimi | **Tedarikçi para birimi cinsinden gider borcunun nakledilebilmesi**<br>Bu özellik, gider raporlarını nakit ödeme yöntemi için satıcı para birimi cinsinden deftere nakledilmesine olanak tanır. | [Tedarikçi para birimi cinsinden gider borcunun nakledilebilmesi](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Proje Satın Alma | **Ödeme yapılırken ödenen satıcı ödemeleri**<br>Bu özellik, Project Operations için borsa dışı ortamlarla birlikte kullanılacak Ödendiğinde öde (PWP) özelliğini etkinleştirir. Ödeme, müşteriden ödeme alınana kadar bekletme koşullarına göre, satıcı ödemelerinin bloke edilmesine/tutulmasına olanak tanır. | [Ödeme yapılırken ödenen satıcı ödemeleri](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Proje Satın Alma | **Proje satın alma talepleri**<br>Bu özellik, Dynamics 365 Customer Engagement tümleştirmesinde Project Operations'ın etkinleştirildiği tüzel kişilikler içinde kullanıcıların projeyle ilgili satın alma siparişleri oluşturmasına olanak sağlar. Proje satınalma siparişleri, satın alma departmanlarına göre projeye karşı stoklanmayan malzeme tedariği kaydetmek için kullanılabilir. Proje satınalma siparişleri Dataverse ile eşitlenmez. Ancak, Dataverse'de proje yöneticisi bilgileri için uygulamasında proje satın alma sipariş satırlarını yüzeye çıkarmak üzere sanal bir varlığı kullanabilirsiniz. Projeyle ilgili satıcı fatura maliyeti, Dataverse uygulamasındaki proje gerçek değerler varlığıyla tümleşiktir. Proje maliyeti, Project Operations Tümleştirme günlüğünü kullanarak Proje alt defterine kaydedilir. | |
+|Proje Planlama ve İzleme|**Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma** </br> </br>Kaynak ataması sınırlarını düzenleme API'si, daha ayrıntılı zaman aşamalı çalışma planlaması için geliştiricilerin desteklenen tüm tarih aralıklarında görevin atandığı kişinin çalışmasını programlı olarak belirlemesini sağlar.|[Zamanlama varlıkları ile işlemler gerçekleştirmek için Proje zamanlama API'larını kullanma](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations çift yazma eşlemesi güncellemeleri
 
