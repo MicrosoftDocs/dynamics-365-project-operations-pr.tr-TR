@@ -3,7 +3,7 @@ title: Project Service Automation'dan Project Operations'a Yükseltme
 description: Bu makale, Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme işlemine genel bir bakış sunmaktadır.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/13/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
-ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
+ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
+ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9446060"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9687000"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a Yükseltme
 
-Microsoft Dynamics 365 Project Service Automation'dan Dynamics 365 Project Operations'a yükseltme için üç aşamadan ilkini duyurmaktan heyecan duyuyoruz. Bu makale, bu heyecan verici yolculuğa çıkan müşterilere genel bir bakış sunar. Gelecekteki makalelerde geliştirici değerlendirmeleri ve özellik geliştirmeleri hakkında ayrıntılar ele alınacaktır. Bunlar yalnızca Project Operations'a yükseltmenize hazırlanmanıza yardımcı olacak rehberlik sağlamakla kalmaz, aynı zamanda yükselttikten sonra neler bekleyebileceğinizi de açıklar.
+Microsoft Dynamics 365 Project Service Automation'dan Microsoft Dynamics 365 Project Operations'a yükseltme için üç aşamadan ikincisini duyurmaktan heyecan duyuyoruz. Bu makale, bu heyecan verici yolculuğa çıkan müşterilere genel bir bakış sunar. 
 
 Yükseltme sunma programı, üç aşamaya bölünecektir.
 
@@ -46,24 +46,31 @@ Yükseltme işleminin bir parçası olarak, yöneticilerin hataları daha kolay 
 | İKY, Project Desktop Client'ın bilinen sınırlarına göre doğrulanır. | |  | :heavy_check_mark: |
 | Ayrılabilir kaynaklar ve proje takvimleri, yaygın uyumsuz takvim kuralı özel durumlarına göre değerlendirilir. | | :heavy_check_mark: | :heavy_check_mark: |
 
-2. aşamada, Project Operations'a yükseltme yapan müşterilerin mevcut projeleri, proje planlaması için salt okunur deneyime yükseltilir. Bu salt okunur deneyimde tam İKY, izleme kılavuzunda görünür olacaktır. İKY'yi düzenlemek için proje yöneticileri ana **Projeler** sayfasında **Dönüştür**'ü seçebilir. Arka plan işlemi daha sonra projeyi Project for the Web'den yeni proje zamanlama deneyimini destekleyecek şekilde güncelleştirir. Bu aşama, [Project for the Web'in bilinen sınırlarına](/project-for-the-web/project-for-the-web-limits-and-boundaries) uyan projeleri olan müşteriler için uygundur.
+2. aşamada, Project Operations'a yükseltme yapan müşterilerin mevcut projeleri, proje planlaması için salt okunur deneyime yükseltilir. Bu salt okunur deneyimde tam İKY, izleme kılavuzunda görünür olacaktır. İKY'yi düzenlemek için proje yöneticileri projenin ana sayfasında [**Dönüştür**](/PSA-Upgrade-Project-Conversion.md)'ü seçebilir. Arka plan işlemi daha sonra projeyi Project for the Web'den yeni proje zamanlama deneyimini destekleyecek şekilde güncelleştirir. Bu aşama, [Project for the Web'in bilinen sınırlarına](/project-for-the-web/project-for-the-web-limits-and-boundaries) uyan projeleri olan müşteriler için uygundur.
 
 3. aşamada, projelerini bu uygulamadan düzenlemeye devam etmek isteyen müşterilere fayda sağlamak üzere Project Desktop Client desteği eklenecektir. Ancak, var olan projeler yeni Project for the Web deneyimine dönüştürülürse dönüştürülen her proje için eklentiye erişim devre dışı bırakılır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-1. Aşama yükseltmesine uygunluk için müşterinin aşağıdaki ölçütleri karşılaması gerekir:
+1. Aşama yükseltmesine uygunluk için aşağıdaki ölçütleri karşılamanız gerekir:
 
 - Hedef ortam **msdyn_projecttask** varlığında herhangi bir kayıt içermemelidir.
-- Müşterinin tüm etkin kullanıcılarına Geçerli Project Operations lisansları atanmalıdır. 
-- Müşteri, yükseltme işlemini, üretim verilerine uygun temsili bir veri kümesine sahip en az bir üretim dışı ortamda doğrulamalıdır.
-- Hedef ortam, Project Service Automation Güncelleştirme Sürümü 41 (3.10.62.162) veya sonraki bir sürüme güncelleştirilmelidir.
+- Tüm etkin kullanıcılara geçerli Project Operations lisansları atanmalıdır. 
+- Yükseltme işlemini, üretim ortamınıza uygun temsili bir veri kümesi içeren en az bir üretim dışı ortamda doğrulamalısınız.
+- Hedef ortam, Project Service Automation Güncelleştirme Sürümü 37 (V3.10.58.120) veya sonraki bir sürüme güncelleştirilmelidir.
 
-2. ve 3. aşamalar için ön koşullar, genel kullanılabilirlik tarihleri yaklaştıkça güncellenecektir.
+2. Aşama yükseltmesine uygunluk için aşağıdaki ölçütleri karşılamanız gerekir:
+
+- Tüm etkin kullanıcılara geçerli Project Operations lisansları atanmalıdır. 
+- Yükseltme işlemini, üretim ortamınıza uygun temsili bir veri kümesi içeren en az bir üretim dışı ortamda doğrulamalısınız.
+- Hedef ortam, Project Service Automation Güncelleştirme Sürümü 37 (V3.10.58.120) veya sonraki bir sürüme güncelleştirilmelidir.
+- Görev içeren ortamlar (msdyn_projecttask), yalnızca proje başına toplam görev sayısı 500 veya daha azsa desteklenir.
+
+Genel kullanılabilirlik tarihi yaklaştıkça 3. Aşama ön koşulları güncellenecektir.
 
 ## <a name="licensing"></a>Lisanslama
 
-Project Service Automation için etkin lisanslarınız varsa Project Service Automation'ın tüm özelliklerini ve daha fazlasını içeren Project Operations'ı yükleyebilir ve kullanabilirsiniz. Bu şekilde, üretimde Project Service Automation'ı kullanmaya devam ederken Project Operations'ın özelliklerini test edebilirsiniz. Project Service Automation lisanslarınızın süresi dolduktan sonra Project Operations'a geçiş yapmalısınız. Bu geçişi planlarken Project Operations lisansının Project Service Automation lisansı içermediğini hesaba katmalısınız.
+Project Service Automation için etkin lisanslarınız varsa Project Service Automation'ın tüm özelliklerini ve daha fazlasını içeren Project Operations'ı yükleyebilir ve kullanabilirsiniz. Bu şekilde, üretimde Project Service Automation'ı kullanmaya devam ederken ayrı bir ortamda Project Operations'ın özelliklerini test edebilirsiniz. Project Service Automation lisanslarınızın süresi dolduktan sonra Project Operations'a geçiş yapmalısınız. Bu geçişi planlarken Project Operations lisansının Project Service Automation lisansı içermediğini hesaba katmalısınız.
 
 ## <a name="testing-and-refactoring-customizations"></a>Özelleştirmeleri test etme ve yeniden düzenleme
 
@@ -87,14 +94,23 @@ Project Operations'ı temiz bir şekilde içeri aktarmak için özelleştirmeler
 
     Yükseltme tamamlandıktan sonra ortam, Project Operations'ın yüklü olduğunu ve Project Service Automation'ın yüklü olmadığını göstermelidir.
 
-    > [!NOTE]
-    > Ortamdaki veri miktarına bağlı olarak yükseltme birkaç saat sürebilir. Yükseltmeyi yöneten çekirdek takım buna göre planlama yapmalı ve yükseltmeyi iş saatleri dışında çalıştırmalıdır. Bazı durumlarda, veri birimi büyükse yükseltme hafta sonu çalıştırılmalıdır. Zamanlama ile ilgili karar, alt ortamlardaki test sonuçlarına göre verilmelidir.
+    Ortamdaki veri miktarına bağlı olarak yükseltme birkaç saat sürebilir. Yükseltmeyi yöneten çekirdek takım buna göre planlama yapmalı ve yükseltmeyi iş saatleri dışında çalıştırmalıdır. Bazı durumlarda, veri birimi büyükse yükseltme hafta sonu çalıştırılmalıdır. Zamanlama ile ilgili karar, alt ortamlardaki test sonuçlarına göre verilmelidir.
 
 3. Özel çözümleri uygun şekilde yükseltin. Bu noktada, özelleştirmelerinizde yaptığınız değişiklikleri bu makalenin [Özelleştirmeleri test etme ve yeniden düzenleme](#testing-and-refactoring-customizations) bölümünde dağıtın.
 4. **Ayarlar** \> **Çözümler**'e gidin ve **Project Operations Kullanımdan Kaldırılan Bileşenler** çözümünü kaldırmak için seçin.
 
     Bu çözüm, yükseltme sırasında var olan veri modelini ve bileşenleri tutan geçici bir çözümdür. Bu çözümü kaldırarak artık kullanılmayan tüm alanları ve bileşenleri kaldırırsınız. Bu şekilde, arayüzü basitleştirmeye ve tümleştirme ve uzantıyı kolaylaştırmaya yardımcı olursunuz.
     
+### <a name="upgrade-to-project-operations-lite"></a>Project Operations Lite'a yükseltme
+
+Aşağıdaki adımlar yükseltme işlemini ve ilişkili hata günlüğünü açıklamaktadır:
+
+1. **PSA Sürüm denetimi:** Project Operations'ı yüklemek için V3.10.58.120 veya sonraki bir sürümü gereklidir.
+1. **Ön doğrulama:** Bir yönetici yükseltme başlattığında sistem, Project Operations çözümünün temelindeki her varlık için bir ön doğrulama işlemi çalıştırır. Bu adım tüm varlık başvurularının geçerli olduğunu doğrular ve İKY ile ilgili verilerin Project for the Web yayımlanmış sınırları içinde olmasını sağlar.
+1. **Meta veri yükseltme**: Başarılı ön doğrulama işleminden sonra sistem, şemada değişiklikleri başlatır ve kullanım dışı bir bileşenler çözümü oluşturur. Özelleştirmelerin tüm gerekli yeniden düzenleme işlemleri tamamlandıktan sonra bu kullanım dışı çözümü kaldırabilirsiniz. Bu adım, yükseltme işleminin en uzun parçasıdır ve tamamlanması dört saate kadar sürebilir.
+1. **Veri yükseltme:** Meta veri yükseltme adımında gerekli tüm şema değişiklikleri tamamlandıktan sonra verileriniz yeni şemaya taşınır. Ardından gerekli varsayılanlara sıfırlama ve yeniden hesaplama işlemleri yapılır.
+1. **Proje zamanlama altyapısı güncelleştirmesi**: Başarılı veri yükseltmesinden sonra, ana sayfadaki **Zamanlama** sekmesi **Görevler** biçiminde yeniden etiketlenir. Kullanıcılar yükseltmenin ardından bu sekmeyi seçtiğinde, İKY'nin salt okunur bir sürümünü görüntülemek için izleme kılavuzuna gitmek üzere yönlendirilir. İKS'yi düzenlemek için zamanlama [dönüştürme işlemini](/PSA-Upgrade-Project-Conversion.md) başlatmaları gerekir. Önceden mevcut olan bir İKYS olmayan tüm projeler, dönüştürme olmadan yeni zamanlama deneyimini doğrudan kullanabilir.
+ 
 ### <a name="validate-common-scenarios"></a>Yaygın senaryoları doğrulama
 
 Belirli özelleştirmelerinizi doğrularken uygulamalar genelinde desteklenen iş süreçlerini de gözden geçirmenizi öneririz. Bu iş süreçlerine teklif ve sözleşmeler gibi satış varlıklarının oluşturulması, İKY'leri içeren projelerin oluşturulması ve gerçek değerlerin onaylanması da dahildir.
@@ -107,7 +123,7 @@ Bu bölümde Project Service Automation ile Project Operations arasında bekleye
 
 Project Operations'daki proje planlama özellikleri, artık istemci tarafı mantığı ve sunucu tarafı mantığını bir arada kullanamaz. Bunun yerine, Project Operations, zamanlama altyapısı olarak Project for the Web'i kullanır. Zamanlama özelliklerindeki bu değişiklik, Pano ve Gantt görünümleri, kaynak temelli planlama, [görev denetim listesi öğeleri](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c)ve proje zamanlama modları gibi çeşitli yeni özellikler sağlar. Yeni zamanlama özellikleri, zengin bir yeni [uygulama programlama arabirimleri (API)](../project-management/schedule-api-preview.md) kümesiyle de desteklenir. Bu API'ler, İKY'de varlık oluşturma, güncelleştirme veya silmeye yönelik programlı işlemlerin zamanlamada hesaplanan alanları bozmamasını sağlamayı amaçlar.
 
-## <a name="billing-and-pricing"></a>Faturalandırma ve fiyatlandırma
+### <a name="billing-and-pricing"></a>Faturalandırma ve fiyatlandırma
 
 Project Operations'a yönelik devam eden yatırımların bir parçası olarak, Faturalandırma ve fiyatlandırma bölümünde çeşitli yeni özellikler mevcuttur. İşte bazı örnekler:
 
@@ -116,6 +132,10 @@ Project Operations'a yönelik devam eden yatırımların bir parçası olarak, F
 - [Avanslar ve elde tutulan tutar tabanlı sözleşmeler](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [Sözleşmenin aşılmama durumu ve doğrulamaları](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Görev tabanlı faturalandırma
+
+### <a name="resource-management"></a>Kaynak yönetimi
+
+Project Operations, Universal Resource Scheduling (URS) panosu ve zamanlama yardımcısı için isteğe bağlı destek sağlar. Bu yeni deneyim, Nisan 2023 dalgası kapsamında zorunlu olacaktır.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
@@ -136,5 +156,4 @@ Yükseltme aracı kullanıma sunulmadan önce Project Operations'ı yüklemek i�
 - Yeni ortam hazırlama.
 - Project Service Automation'ın bulunmadığı herhangi bir satış kuruluşunda Project Operations'ı ayrı ayrı dağıtın.
 
-> [!NOTE]
-> Bir kuruluşta Project Service Automation yüklüyse ancak kullanılmamışsa kaldırılabilir. Project Service Automation'ı tamamen kaldırdıktan sonra Project Operations aynı kuruluşa yüklenebilir.
+Bir kuruluşta Project Service Automation yüklüyse ancak kullanılmamışsa kaldırılabilir. Project Service Automation'ı tamamen kaldırdıktan sonra Project Operations aynı kuruluşa yüklenebilir.
