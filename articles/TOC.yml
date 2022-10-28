@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Proje Aşamaları iş süreci akışını nasıl özelleştiririm?
               href: psa/FAQ-customize-bpf.md
-            - name: İş kırılım yapısı için yükseltmeyle ilgili dikkate alınacak noktalar
-              href: psa/upgrade-considerations-tasks.md
         - name: Teknik incelemeler
           href: psa/white-papers.md
         - name: Yönetici kılavuzu
