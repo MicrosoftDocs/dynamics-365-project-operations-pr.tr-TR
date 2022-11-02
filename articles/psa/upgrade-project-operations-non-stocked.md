@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9687000"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709469"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a Yükseltme
 
@@ -70,7 +70,7 @@ Genel kullanılabilirlik tarihi yaklaştıkça 3. Aşama ön koşulları güncel
 
 ## <a name="licensing"></a>Lisanslama
 
-Project Service Automation için etkin lisanslarınız varsa Project Service Automation'ın tüm özelliklerini ve daha fazlasını içeren Project Operations'ı yükleyebilir ve kullanabilirsiniz. Bu şekilde, üretimde Project Service Automation'ı kullanmaya devam ederken ayrı bir ortamda Project Operations'ın özelliklerini test edebilirsiniz. Project Service Automation lisanslarınızın süresi dolduktan sonra Project Operations'a geçiş yapmalısınız. Bu geçişi planlarken Project Operations lisansının Project Service Automation lisansı içermediğini hesaba katmalısınız.
+Project Service Automation için etkin lisanslarınız varsa Project Service Automation'ın tüm özelliklerini ve daha fazlasını içeren Project Operations'ı yükleyebilir ve kullanabilirsiniz. Bu şekilde, üretimde Project Service Automation'ı kullanmaya devam ederken Project Operations'ın özelliklerini test edebilirsiniz. Project Service Automation lisanslarınızın süresi dolduktan sonra Project Operations'a geçiş yapmalısınız. Bu geçişi planlarken Project Operations lisansının Project Service Automation lisansı içermediğini hesaba katmalısınız. Project Service Automation'ı dağıttıkları ve Project Operations taşımayı planladıkları sırada PSA'yı kullanmaya veya lisanslarını arttırmaya devam etmesi gereken senaryolar yapan müşterilerimiz, Project Operations satın alınan lisansları temel alarak geçici PSA lisansları isteyebilir. Bir Project Operations lisansı için bir Project Service Automation lisansı yayımlanır. Geçici PSA lisansları şu bağlantıyı kullanarak istenebilir: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Özelleştirmeleri test etme ve yeniden düzenleme
 

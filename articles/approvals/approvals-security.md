@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525374"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709422"
 ---
 # <a name="security-and-approvals"></a>Güvenlik ve onaylar
 
@@ -33,6 +33,6 @@ Proje dışı girişleri onaylamak için gönderenin yöneticisi olmanız gereki
 > [!NOTE]
 > Proje Onaylayan Yönetici işlevini kullanabilmek için [Onay ayarları](approval-sets.md) özelliğinin etkinleştirilmesi gerekir.
 
-**Proje Onaylayan Yöneticisi** güvenlik rolü, kullanıcıların ilkeleri atlamasına ve tüm projelerde bu girdilerin onaylanmasına izin verir. Bu rolün atanması, takım üyeliği gerektiren ve onaylayan olarak işaretlenmiş doğrulama mantığını atlar. Ayrıca, **Proje** gibi ilgili ilişkili varlıklara da erişiminiz olmalıdır. Bu erişim, **Proje Yöneticisi** rolüne sahip bir kişi tarafından atanabilir.
+**Proje Onaylayan Yöneticisi** güvenlik rolü, kullanıcıların ilkeleri atlamasına ve tüm projelerde bu girdilerin onaylanmasına izin verir. Bu rolün atanması, takım üyeliği gerektiren ve onaylayan olarak işaretlenmiş doğrulama mantığını atlar. **Proje** gibi ilgili tablolara, size atanan güvenlik rolleri yoluyla erişmeniz gerekir.
 
 SYSTEM kullanıcı bağlamı, doğrulamaları Proje Onaylayan Yönetici güvenlik rolü ile aynı şekilde atlar.
