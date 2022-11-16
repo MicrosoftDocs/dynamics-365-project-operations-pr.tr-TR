@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709469"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736691"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation'dan Project Operations'a Yükseltme
 
@@ -97,7 +97,7 @@ Project Operations'ı temiz bir şekilde içeri aktarmak için özelleştirmeler
     Ortamdaki veri miktarına bağlı olarak yükseltme birkaç saat sürebilir. Yükseltmeyi yöneten çekirdek takım buna göre planlama yapmalı ve yükseltmeyi iş saatleri dışında çalıştırmalıdır. Bazı durumlarda, veri birimi büyükse yükseltme hafta sonu çalıştırılmalıdır. Zamanlama ile ilgili karar, alt ortamlardaki test sonuçlarına göre verilmelidir.
 
 3. Özel çözümleri uygun şekilde yükseltin. Bu noktada, özelleştirmelerinizde yaptığınız değişiklikleri bu makalenin [Özelleştirmeleri test etme ve yeniden düzenleme](#testing-and-refactoring-customizations) bölümünde dağıtın.
-4. **Ayarlar** \> **Çözümler**'e gidin ve **Project Operations Kullanımdan Kaldırılan Bileşenler** çözümünü kaldırmak için seçin.
+4. **make.powerapps.com** adresine gidin, portalın sağ üst tarafındaki açılır listeden ortamınızı seçin, sol menüden **Çözümler**'i seçin, **Project Operations Kullanım Dışı Bileşenler** çözümünü seçin ve **Yüklemeden Kaldır**'ı seçin.
 
     Bu çözüm, yükseltme sırasında var olan veri modelini ve bileşenleri tutan geçici bir çözümdür. Bu çözümü kaldırarak artık kullanılmayan tüm alanları ve bileşenleri kaldırırsınız. Bu şekilde, arayüzü basitleştirmeye ve tümleştirme ve uzantıyı kolaylaştırmaya yardımcı olursunuz.
     
