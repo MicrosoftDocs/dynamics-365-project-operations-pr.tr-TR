@@ -12,7 +12,7 @@
       items:
         - name: Project Operations'dan kaldırılan veya kullanım dışı bırakılan özellikler
           href: whats-new/removed-depreciated-features-project.md
-- name: Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+- name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
   items:
     - name: Kullanmaya başlama
       items:
@@ -62,27 +62,31 @@
           href: environment/uninstall-project-operations.md
     - name: Yenilikler
       items:
-        - name: Eylül 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Kasım 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: Arşiv
           items:
+            - name: Ekim 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Eylül 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Ağustos 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Temmuz 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: Haziran 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Haziran 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mayıs 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-may-2022-resource-based.md
-            - name: Nisan 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Nisan 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: Mart 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Mart 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: Şubat 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Şubat 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: Aralık 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Aralık 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: Kasım 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Kasım 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-nov-2021-resource-based.md
             - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-oct-2021-resource-based.md
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: Kuruluş birimleri
               href: sales/OrgUnits.md
-        - name: Proje müşteri adaylarını yönetme
+        - name: Proje tabanlı müşteri adaylarını yönetme
           href: sales/manage-leads.md
-        - name: Proje fırsatlarını yönetme
+        - name: Proje tabanlı fırsatları yönetme
           items:
             - name: Proje fırsatlarını yönetmeye genel bakış
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Proje tabanlı fırsat satırları
               href: sales/project-based-lines.md
-            - name: Fırsatlardan proje teklifleri oluşturma
+            - name: Proje fırsatlarından teklifler oluşturma
               href: sales/link-quotes-opportunities.md
-            - name: Proje tabanlı fırsatları kopyalama
+            - name: Proje fırsatlarını kopyalama
               href: sales/copy-project-based-opportunity.md
             - name: Proje fırsatını kapatma
               href: sales/close-opportunity.md
-        - name: Proje tekliflerini yönetme
+        - name: Proje tabanlı teklifleri yönetme
           items:
             - name: Proje tekliflerini yönetmeye genel bakış
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Proje tabanlı teklifler için başlık ayrıntıları
               href: sales/quote-values-budget-limits-contract.md
-            - name: Proje teklifindeki birden çok müşteriyi yönetme
+            - name: Proje tabanlı teklifte birden çok müşteriyi yönetme
               href: sales/manage-multiple-customers-quote.md
-            - name: Bir teklifteki proje fiyat listelerini yönetme
+            - name: Proje tekliflerindeki proje fiyat listeleri
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Proje tabanlı teklif satırları
               items:
-                - name: Proje tabanlı teklif satırlarına genel bakış
+                - name: Proje teklif satırlarına genel bakış
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Projeleri ve görevleri proje tabanlı teklif satırlarıyla eşleme
+                - name: Projeleri ve görevleri proje teklif satırlarıyla eşleme
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Proje tabanlı teklif satırları için borçlandırılabilir bileşenleri yapılandırma
+                - name: Proje teklif satırlarında borçlandırılabilir bileşenleri yapılandırma
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Proje teklif satırının borçlandırılabilir bileşenlerini yapılandırma
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Proje teklif satırını tahmin etme
-                  href: sales/create-estimate-quote-line.md
-                - name: Proje tabanlı teklif satırına bir projedeki tahminleri aktarma
-                  href: sales/import-estimate-quote-line.md
-                - name: Proje tabanlı teklif satırlarındaki fatura zamanlamaları
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Projedeki tahminleri bir proje teklif satırına içeri aktarma
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Proje teklif satırlarındaki fatura zamanlamaları
                   href: sales/invoice-schedule-quote-line.md
             - name: Proje tekliflerini kopyalama
               href: sales/lose-quote.md
             - name: Proje teklifini etkinleştirme ve düzeltme
               href: sales/activation-and-revision.md
-            - name: Proje tekliflerini kapatma
+            - name: Proje tabanlı teklifleri kapatma
               href: sales/win-quote.md
-        - name: Proje sözleşmelerini yönetme
+        - name: Proje tabanlı sözleşmeleri yönetme
           items:
-            - name: Proje sözleşmelerini yönetmeye genel bakış
+            - name: Proje sözleşmelerini yönetme
               href: pro/sales/manage-contracts-sales.md
-            - name: Proje tabanlı sözleşmelere özel kavramlar
+            - name: Proje Tabanlı Sözleşmelere özel kavramlar
               href: sales/contracts-key-concepts.md
             - name: Proje tabanlı sözleşmeler için başlık ayrıntıları
               href: sales/project-contract-settings.md
-            - name: Proje sözleşmelerindeki proje fiyat listelerini yönetme
+            - name: Proje tabanlı sözleşmelerindeki proje fiyat listelerini yönetme
               href: sales/contracts-manage-project-price-lists.md
-            - name: Proje sözleşmelerindeki birden çok müşteriyi yönetme
+            - name: Proje tabanlı sözleşmelerde birden çok müşteriyi yönetme
               href: sales/manage-multiple-customers-contract.md
             - name: Proje tabanlı sözleşme satırları
               items:
-                - name: Proje tabanlı sözleşme satırlarına genel bakış
+                - name: Proje sözleşme satırlarına genel bakış
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Proje tabanlı sözleşme satırlarındaki birden çok müşteriyi yönetme
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Proje sözleşme satırındaki projeleri ve görevleri eşleme
+                - name: Proje ve görevleri proje sözleşme satırıyla eşleme
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Proje sözleşme satırı için borçlandırılabilir bileşenleri yapılandırma
+                - name: Proje sözleşme satırının borçlandırılabilir bileşenlerini yapılandırma
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Proje sözleşme satırını tahmin etme
+                - name: Proje tabanlı sözleşme satırını tahmin etme
                   href: sales/create-estimate-contract-line.md
-                - name: Proje tabanlı sözleşme satırına bir projedeki tahminleri aktarma
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Proje tabanlı sözleşme satırlarında fatura zamanlamaları oluşturma
+                - name: Projedeki tahminleri bir proje sözleşme satırına içeri aktarma
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Proje tabanlı sözleşme satırında fatura zamanlamaları oluşturma
                   href: sales/invoice-schedules-contract-line.md
             - name: Proje tabanlı sözleşmeleri kopyalama
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avanslar ve elde tutulan tutarlar
               items:
-                - name: Avanslar ve elde tutulan tutar tabanlı sözleşmeler
+                - name: Avanslar ve elde tutulan tutar tabanlı proje sözleşmeleri
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: Elde tutulan tutar zamanlaması ayarlama
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sözleşmede geçici avans oluşturma
+                - name: Proje sözleşmesinde geçici avans oluşturma
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Fiyatlandırma ve maliyetlendirme
       items:
@@ -642,9 +644,11 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: Kapanmış projelere ilişkin girişleri engellemek için Proje Durumunu eşitleme
           href: advanced-configuration/sync-project-status.md
+        - name: Maliyet oranlarından satış fiyatlarını hesaplamak için para birimi dönüştürme ayarı
+          href: advanced-configuration/currencyconversion.md
     - name: Yükseltme
       items:
-        - name: Modern Onaylar özelliği için yükseltmeyle ilgili önemli noktalar
+        - name: Modern onaylar için yükseltmeyle ilgili dikkate alınacak noktalar
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Project Operations Uygulamaları
       items:
@@ -662,20 +666,24 @@
       items:
         - name: Lite dağıtımına genel bakış
           href: pro/project-operations-overview-lite.md
-        - name: Önizleme aboneliği (lite) için kaydolma
+        - name: Önizleme aboneliği için kaydolma - lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations'ı (lite) dağıtma
+        - name: Project Operations Lite sürümünü dağıtma
           href: environment/lite-deployment.md
-        - name: Tanıtım kurulumu ve yapılandırma verileri uygulama - lite
+        - name: Tanıtım kurulumu ve yapılandırma verilerini uygulama - lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Güvenlik modeli
           href: environment/security-model.md
     - name: Yenilikler
       items:
-        - name: Eylül 2022'deki yenilikler - lite dağıtımı
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Kasım 2022'deki yenilikler - lite dağıtımı
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: Arşiv
           items:
+            - name: Ekim 2022'deki yenilikler - lite dağıtımı
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: Eylül 2022'deki yenilikler - lite dağıtımı
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: Ağustos 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Temmuz 2022'deki yenilikler - lite dağıtımı
@@ -686,13 +694,13 @@
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Mayıs 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-may-2022-lite.md
-            - name: Nisan 2022 - lite dağıtımındaki yenilikler
+            - name: Nisan 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-apr-2022-lite.md
-            - name: Mart 2022 - lite dağıtımındaki yenilikler
+            - name: Mart 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-mar-2022-lite.md
-            - name: Şubat 2022 - lite dağıtımındaki yenilikler
+            - name: Şubat 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-feb-2022-lite.md
-            - name: Aralık 2021 - lite dağıtımındaki yenilikler
+            - name: Aralık 2021'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-dec-2021-lite.md
             - name: Kasım 2021'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-nov-2021-lite.md
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Proje fırsatlarından teklifler oluşturma
               href: sales/link-quotes-opportunities.md
-            - name: Proje tabanlı fırsatları kopyalama
+            - name: Proje fırsatlarını kopyalama
               href: sales/copy-project-based-opportunity.md
             - name: Proje fırsatını kapatma
               href: sales/close-opportunity.md
-        - name: Proje tabanlı teklifleri yönetme
+        - name: Proje tekliflerini yönetme
           items:
-            - name: Proje tabanlı tekliflere genel bakış
+            - name: Proje tekliflerine genel bakış
               href: pro/sales/manage-quotes-sales.md
             - name: Proje tekliflerine özel kavramlar
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Proje teklifleri için başlık ayrıntıları
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Proje tekliflerindeki birden çok müşteri
+            - name: Proje tekliflerinde birden çok müşteriyi yönetme
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Proje tekliflerindeki proje fiyat listeleri
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Ürün tabanlı teklif satırları için karmaşık birimleri yönetme
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Proje tabanlı teklif satırları
+            - name: Proje teklifi satırları
               items:
-                - name: Proje tabanlı teklif satırlarına genel bakış
+                - name: Proje teklif satırlarına genel bakış
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Birden çok müşteriyi yönetme
+                - name: Proje teklif satırlarında birden çok müşteriyi yönetme
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Projeleri ve görevleri eşleme
+                - name: Projeleri ve görevleri proje teklif satırlarıyla eşleme
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Borçlandırılabilir bileşenleri yapılandırma
+                - name: Proje teklif satırlarında borçlandırılabilir bileşenleri yapılandırma
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Proje tabanlı bir teklif satırını tahmin etme
+                - name: Proje teklif satırını tahmin etme
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Bir projedeki tahmini içe aktarma
+                - name: Projedeki tahminleri bir proje teklif satırına içeri aktarma
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Fatura zamanlamalarını yönetme
+                - name: Proje teklif satırlarındaki fatura zamanlamaları
                   href: sales/invoice-schedule-quote-line.md
-            - name: Proje tabanlı teklifleri kopyalama
+            - name: Proje tekliflerini kopyalama
               href: sales/lose-quote.md
             - name: Proje teklifini etkinleştirme ve düzeltme
               href: sales/activation-and-revision.md
-            - name: Proje tabanlı teklifleri kapatma
+            - name: Proje tekliflerini kapatma
               href: pro/sales/win-quote-sales.md
-        - name: Proje tabanlı sözleşmeleri yönetme
+        - name: Proje sözleşmelerini yönetme
           items:
-            - name: Proje tabanlı sözleşmelere genel bakış
+            - name: Proje sözleşmelerine genel bakış
               href: pro/sales/manage-contracts-sales.md
             - name: Proje sözleşmelerine özel kavramlar
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Proje sözleşmeleri için başlık ayrıntıları
               href: pro/sales/project-contract-settings-sales.md
-            - name: Proje sözleşmelerindeki birden çok müşteri
+            - name: Proje sözleşmelerindeki birden çok müşteriyi yönetme
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Proje sözleşmelerindeki proje fiyat listeleri
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Ürün tabanlı sözleşme satırları için karmaşık birimleri yönetme
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Proje tabanlı sözleşme satırları
+            - name: Proje sözleşme satırları
               items:
-                - name: Proje tabanlı sözleşme satırlarına genel bakış
+                - name: Proje sözleşme satırlarına genel bakış
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Birden çok sözleşmeli müşteriyi yönetme
+                - name: Proje sözleşmelerindeki birden çok müşteriyi yönetme
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Proje ve görevleri proje sözleşme satırıyla eşleme
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Proje tabanlı bir sözleşme satırındaki borçlandırılabilir bileşenleri yapılandırma
+                - name: Proje sözleşme satırındaki borçlandırılabilir bileşenleri yapılandırma
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Proje tabanlı sözleşme satırını tahmin etme
+                - name: Proje sözleşme satırını tahmin etme
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: Bir projedeki tahminleri bir proje sözleşme satırına içeri aktarma
+                - name: Projedeki tahminleri bir proje sözleşme satırına içeri aktarma
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Bir proje sözleşme satırındaki fatura zamanlamalarını yönetme
+                - name: Proje sözleşme satırında fatura zamanlamaları oluşturma
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Proje sözleşmelerini kopyalama
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Avanslar ve elde tutulan tutarlar
               items:
-                - name: Avanslar ve elde tutulan tutar tabanlı sözleşmeler - lite
+                - name: Avanslar ve elde tutulan tutar tabanlı sözleşmeler
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Elde tutulan tutar zamanlaması ayarlama - lite
+                - name: Elde tutulan tutar zamanlaması ayarlamaElde tutulan tutar zamanlaması ayarlama
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Sözleşmede geçici avans oluşturma - lite
+                - name: Proje sözleşmesinde geçici avans oluşturma
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Fiyatlandırma ve maliyetlendirme
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Yenilikler
       items:
-        - name: Eylül 2022'deki yenilikler - Stoklu/üretim tabanlı senaryolar için Project Operations
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Ekim 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: Arşiv
           items:
+            - name: Eylül 2022'deki yenilikler - Stoklu/üretim tabanlı senaryolar için Project Operations
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: Temmuz 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Haziran 2022'deki yenilikler - Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Stoklu/üretim tabanlı öğeleri temel alan senaryolar için Project Operations dağıtımlarına genel bakış
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Proje yönetimi ve muhasebeye genel bakış
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Proje muhasebesi
+      items:
+        - name: Proje yönetimi ve muhasebeye genel bakış
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Proje düzeltmeleri
+          href: project-accounting/project-adjustments.md
     - name: Proje satış süreci
       items:
         - name: Proje teklifleri
