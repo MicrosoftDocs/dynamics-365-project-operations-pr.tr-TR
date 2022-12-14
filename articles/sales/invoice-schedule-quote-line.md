@@ -1,27 +1,27 @@
 ---
-title: Proje tabanlı teklif satırlarındaki fatura zamanlamaları
+title: Proje teklif satırlarındaki fatura zamanlamaları
 description: Bu makale, teklif satırlarında fatura zamanlamaları ve kilometre taşları oluşturma hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918336"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825778"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Proje tabanlı teklif satırlarındaki fatura zamanlamaları
+# <a name="invoice-schedules-on-project-quote-lines"></a>Proje teklif satırlarındaki fatura zamanlamaları
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Proje tabanlı teklif satırı, fatura zamanlamasını ifade etme özelliği sunar. Bu, uygulama bir Teklif satırına bağlı olduğunda projeyi faturalamayı desteklemediğinden teklif aşaması sırasında isteğe bağlıdır. Faturalamaya ancak teklif kazanıldıktan sonra izin verilir. Teklif aşaması sırasında fatura zamanlaması oluşturmanın tek aşağı yönlü etkisi, bu fatura zamanlamasının proje tabanlı sözleşme satırı üzerine kopyalanmasıdır. Teklif aşaması sırasında fatura zamanlaması oluşturmazsanız bunu proje tabanlı sözleşme satırında yapabilirsiniz.
+Proje teklif satırı, fatura zamanlamasını ifade etme özelliği sunar. Bu, uygulama bir Teklif satırına bağlı olduğunda projeyi faturalamayı desteklemediğinden teklif aşaması sırasında isteğe bağlıdır. Faturalamaya ancak teklif kazanıldıktan sonra izin verilir. Teklif aşaması sırasında fatura zamanlaması oluşturmanın tek aşağı yönlü etkisi, bu fatura zamanlamasının proje tabanlı sözleşme satırı üzerine kopyalanmasıdır. Teklif aşaması sırasında fatura zamanlaması oluşturmazsanız bunu proje tabanlı sözleşme satırında yapabilirsiniz.
 
 Genel olarak, fatura zamanlamalarının amacı, proje tabanlı sözleşme satırı için taslak faturaların otomatik olarak oluşturulmasına izin vermektir. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Proje tabanlı teklif satırı için Zaman ve malzeme fatura zamanlaması oluşturma
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Proje teklif satırı için Zaman ve malzeme fatura zamanlaması oluşturma
 
 Proje tabanlı teklif satırı için faturalama yöntemi, Zaman ve malzeme olduğunda sistem, tarih tabanlı fatura zamanlaması oluşturur. Otomatik olarak tarih tabanlı fatura zamanlaması oluşturmak için aşağıdaki adımları tamamlayın.
 
@@ -36,7 +36,7 @@ Proje tabanlı teklif satırı için faturalama yöntemi, Zaman ve malzeme oldu�
     - **İşlem durdurma tarihi**, **Fatura Çalıştırma Tarihi**'nden önceki gün olarak ayarlanır.
     - **Çalıştırma Durumu**, **Çalışmadı** olarak otomatik ayarlanır. Otomatik fatura oluşturma işi, belirli bir fatura çalışma tarihi için çalıştırıldığında, bu alanı **Çalıştırma Başarılı** veya **Çalıştırılamadı** olarak güncelleştirir.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Proje tabanlı teklif satırı için Sabit fiyatlı fatura zamanlaması oluşturma
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Proje teklif satırı için Sabit fiyatlı fatura zamanlaması oluşturma
 
 Proje tabanlı teklif satırında bir **Sabit** faturalama yöntemi olduğunda sistem, kilometre taşı tabanlı fatura zamanlaması oluşturur. Takvim döneminde eşit olarak dağıtılan sabit bir kilometre taşı kümesi için bu zamanlamayı otomatik oluşturmak üzere aşağıdaki adımları tamamlayın.
 

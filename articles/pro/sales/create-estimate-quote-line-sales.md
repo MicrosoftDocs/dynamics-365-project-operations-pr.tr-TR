@@ -1,21 +1,21 @@
 ---
-title: Proje tabanlı bir teklif satırını tahmin etme
-description: Bu makalede,proje temelli teklif satırında nasıl tahmin oluşturulacağı hakkında bilgiler sağlanmaktadır.
+title: Proje teklif satırını tahmin etme
+description: Bu makalede,proje teklif satırında nasıl tahmin oluşturulacağı hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914380"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826012"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Proje tabanlı bir teklif satırını tahmin etme
+# <a name="estimate-a-project-quote-line"></a>Proje teklif satırını tahmin etme
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_
 
 Proje tabanlı teklif satırında, teklif satırını teslim etmek için mevcut işin maliyetini ve potansiyel gelirini tahmin etmeye yardımcı olan ayrıntılar bulunur.
 
@@ -24,7 +24,7 @@ Proje tabanlı teklif satırını tahmin etmek için proje tabanlı teklif satı
 - Teklif satırı ayrıntılarını kullanarak teklif satırında elle doğrudan teklif oluşturun. 
 - Bir proje ve proje planı oluşturun ve ardından projeyi ve projedeki görevleri teklif satırıyla ilişkilendirin. Proje planındaki tahminleri sağladığınız bilgilere göre teklif satırında içeri aktarma işlemi etkinleştirilir.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Proje tabanlı teklif satırında doğrudan tahminler oluşturma
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Proje teklif satırında doğrudan tahminler oluşturma
 
 Proje tabanlı teklif satırında bir tahmin oluşturmak için **Teklif Satırı Ayrıntısı** sekmesini seçin. Bu sekmede oluşturduğunuz satır öğesi, bu teklif satırının teklif değerini özetler. 
 
@@ -68,8 +68,7 @@ Maliyet için teklif satırı ayrıntısının başlangıç tarihinde geçerli o
 
 Karlılık hesaplamaları, teklifte genel tahmini kar marjını raporlamak üzere maliyet ve satışlar için teklif satırı ayrıntılarındaki tutarı ortamın temel para birimine dönüştürür.
 
-> [!DİKKAT EDİN
-> > Para birimi yuvarlama hataları ve değişen kenar boşlukları, etkili Döviz kurları olmadığı için oluşabilir. Bu hesaplamaları yalnızca proje sözleşmelerinde kullanın. Bunlar, yaklaşık değerler değildir veya döviz kurları için geçerlilik tarihinin yuvarlanması ve farkındalığına yönelik daha yüksek hassasiyet gerektiren gerçek bir meşru veya başka bir raporlama için değildir.
+> [!NOT Para birimi yuvarlama hataları ve değişen kenar boşlukları, etkili Döviz kurları olmadığı için oluşabilir. Bu hesaplamaları yalnızca proje sözleşmelerinde kullanın. Bunlar, yaklaşık değerler değildir veya döviz kurları için geçerlilik tarihinin yuvarlanması ve farkındalığına yönelik daha yüksek hassasiyet gerektiren gerçek bir meşru veya başka bir raporlama için değildir.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

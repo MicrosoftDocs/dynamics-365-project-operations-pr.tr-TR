@@ -1,21 +1,21 @@
 ---
-title: Proje tabanlı sözleşme satırına tahmin aktarma - lite
+title: Bir projedeki tahminleri bir proje sözleşme satırına içeri aktarma
 description: Bu makalede, projeden sözleşme satırına finansal tahminleri içe aktarma konusunda bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924224"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824699"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Proje tabanlı sözleşme satırına tahmin aktarma - lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Bir projedeki tahminleri bir proje sözleşme satırına içeri aktarma
 
-_**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
+_**Şunlar için geçerlidir:** Lite dağıtım - anlaşmadan proforma faturaua kadar, Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_ _
 
 Dynamics 365 Project Operations'ta, proje tabanlı sözleşme satırına bir projedeki tahminleri içeri aktarabilirsiniz.
 

@@ -1,8 +1,8 @@
 ---
-title: 'Teklifler: temel kavramlar'
-description: Bu makalede, Proje teklifleri ve Project Operations'ta kullanılabilir olan satış teklifleri hakkında bilgiler sağlanmaktadır.
+title: Proje tabanlı tekliflere özel kavramlar
+description: Bu makalede, Microsoft Dynamics 365 Project Operations'ta proje teklifleri hakkında bilgiler yer almaktadır.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912540"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824376"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Proje tabanlı tekliflere özel kavramlar
 
-_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Dynamics 365 Project Operations'ta, iki tür teklif, proje ve satış vardır. İki tür teklif aşağıdaki açılardan farklılık gösterir:
+Microsoft Dynamics 365 Project Operations'ta proje tekliflerini kullanmaya başlamadan önce aşağıdaki temel kavramları bilmeniz gerekir:
 
-- **Satır öğeleri için gruplar**: Satış teklifinde, satır öğeleri için yalnızca bir grup vardır. Proje teklifinde satır öğeleri için iki grup vardır. Bir grup proje satırları, diğer grup ise ürün satırları içindir.
-- **Etkinleştirme ve düzeltmeler**: Satış teklifleri etkinleştirme ve düzeltmeleri destekler. Bu işlemler proje teklifinde desteklenmez.
-- **Eklenen siparişler**: Bir satış teklifine birden fazla sipariş ekleyebilirsiniz. Yalnızca bir proje sözleşmesi bir proje teklifine eklenebilir.
-- **Teklifi kazanma**: Bir satış teklifini kazandığınızda, ilgili fırsat açık kalabilir. Bir proje teklifi kazandıktan sonra, ilgili fırsat kapanır.
-- **Alanlar ve kavramlar**: Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
-- **Tür**: Satış ve proje teklifleri aynı zamanda **Tür** adlı seçenek kümesi tabanlı bir alanla tanımlanır. Satış teklifi için, bu alan **Öğe-tabanlı** değerine sahiptir. Proje teklifi için, **İş-tabanlı** değerine sahiptir.
+## <a name="owning-company"></a>Sahibi olan şirket
 
-Bu makale, proje tekliflerinin ayrıntılarına odaklanacaktır.
+Sahibi olan şirket, proje tesliminin sahibi olan tüzel kişiliği ifade eder. Teklifteki müşteri, finans ve operasyon uygulamalarında bu tüzel kişilikte geçerli bir müşteri olmalıdır. Sahibi olan şirketin para birimi ve proje tabanlı teklifte seçilen sözleşmeli biriminin para birimi eşleşmelidir.
 
-Project Operations'da bir proje teklifinin birden çok satır öğesi veya teklif satırı olabilir. Aslında, proje teklifinin satır öğeleri için iki grubu vardır. Bir ızgara, ayrıntılı tahminlere olanak tanıyan proje tabanlı satırlar içindir. Diğer kılavuz, basit birim fiyat ve miktar tabanlı yaklaşım kullanan ürün tabanlı satırlar içindir.
+## <a name="contracting-unit"></a>Sözleşme birimi
 
-- **Proje tabanlı**: Teklif değeri ne kadar çalışma gerektiğini tahmin ettikten sonra saptanır. Bir proje ve proje planı kullanarak, çalışmayı her teklif satırının altındaki satır ayrıntıları olarak veya eldeki tahminlere dayalı olarak, yüksek düzeydeki bir tahmin edebilirsiniz. Proje tabanlı teklif satırları yalnızca Project Operations kullanılarak oluşturulan proje tabanlı tekliflerde bulunur. Bu tür teklif satırı, Microsoft Dynamics 365 Sales'te bulunan serbest teklif satırlarının özelleştirilmiş bir formudur.
+Sözleşmeli birim, proje teslimatının sahibi olan bölümü veya uygulamayı temsil eder. Her sözleşme birimi için kaynak maliyetlerini ayarlayabilirsiniz. Sözleşme biriminde bir kaynak için kaynak maliyetlerini belirttiğinizde, sözleşmeli birimin veya kuruluş içindeki diğer bölümlerin veya uygulamaların ödünç aldığı kaynaklar için farklı maliyet oranları ayarlayabilirsiniz. Bu maliyet oranları transfer fiyatları, kaynak ödünç alma veya değişim fiyatları olarak adlandırılır. Diğer bölümlerden kaynak ödünç alma maliyetini ayarladığınızda, bu maliyet oranlarını ödünç veren bölümün para birimi cinsinden ayarlayabilirsiniz.
 
-- **Ürün tabanlı**: Teklif değeri, satılan birim miktarına ve ürünün birim satış fiyatına göre belirlenir. Ürün tabanlı satırdaki ürün, Sales içindeki bir ürün kataloğundan gelebilir veya sizin tanımladığınız bir ürün olabilir. Bu tür teklif satırı, Project Operations kullanılarak oluşturulan proje tabanlı tekliflerde de kullanılabilir.
+## <a name="cost-currency"></a>Maliyet para birimi
 
-Bir teklifteki tutar, ürün tabanlı satırlardaki ve proje tabanlı satırlardaki toplamdır.
+Project Operations'taki maliyet para birimi, maliyetlerin raporlandığı para birimidir. Bu para birimi; teklif, sözleşme ve projenin **Sözleşme birimi** alanına iliştirilmiş para biriminden alınır. Maliyetler bir projeye göre herhangi bir para biriminde kaydedilebilir. Ancak maliyetlerin kaydedildiği para birimi, projenin maliyet para birimine dönüştürülür.
 
-> [!NOTE]
-> Project Operations'da teklif ve teklif satırları gerekli değildir. Proje işlemini bir proje sözleşmesi (satılan proje) ile başlatabilirsiniz. Ancak, bir teklif veya proje sözleşmesiyle başlayıp başlamadığınıza bakılmaksızın, fırsat her zaman gereklidir.
+Dataverse platformundaki döviz kurları güncel olamadığından, ekrandaki toplam maliyetler para birimi döviz kurlarını güncelleştirdiğinizde zaman içinde değişebilir. Bununla birlikte, tutarlar oluştukları para birimi cinsinden saklandığından, veritabanına kaydedilen maliyetler değişmez.
 
-## <a name="project-based-quote-lines"></a>Proje tabanlı teklif satırları
+## <a name="sales-currency"></a>Satış para birimi
 
-Project Operations'daki proje tabanlı bir teklif satırı aşağıdaki faturalama yöntemlerine sahiptir:
+Project Operations'taki satış para birimi, tahmini ve gerçek satış tutarlarının kaydedildiği ve gösterildiği para birimidir. Aynı zamanda, müşterinin anlaşma için faturalandığı para birimidir. Proje teklifi için, varsayılan satış para birimi müşteri veya firma kaydındaki değerden ayarlanır ve teklif oluşturulduğunda değiştirilebilir. Bununla birlikte satış para birimi teklif kaydedildikten sonra değiştirilemez. Varsayılan ürün ve proje fiyat listeleri teklifin satış para birimine göre ayarlanır.
 
-- Zaman ve malzeme
-- Sabit fiyat
+Maliyetlerin aksine, satış değerleri **yalnızca** Satış para birimi cinsinden kaydedilebilir.
 
-### <a name="time-and-material"></a>Zaman ve malzeme
+## <a name="billing-method"></a>Faturalama yöntemi
 
-Zaman ve malzeme faturalama yöntemi tüketime dayanır. Bu faturalandırma yöntemini seçtiğinizde, müşteri projede maliyet gerçekleştiğinde faturalanır. Faturalar tarih tabanlı dönemsel sıklık üzerinde oluşturulur. Satış işlemi sırasında, zaman ve malzeme bileşeninin teklif edilen değeri, müşteriye yalnızca son maliyetin tahminini sağlar. Satıcı, projeyi tam olarak teklif değerinde tamamlamakla yükümlü değildir. Zaman ve malzeme bileşenleri müşterinin riskini artırır. Müşteriler, risklerini en aza indirmek için, ek aşmama koşulları anlaşması isteyebilir. Project Operations, aşmama koşulları ayarlamayı desteklemez.
+Projelerin genellikle sabit ücretli ve tüketim tabanlı sözleşme modelleri vardır. Project Operations'ta, projenin sözleşme modeli faturalandırma yöntemiyle temsil edilir. Faturalama yönteminde iki değer vardır: zaman ve malzeme ve sabit fiyat.
 
-### <a name="fixed-price"></a>Sabit fiyat
+- **Zaman ve malzeme:** Oluşan her maliyetin karşılığında bir gelir olan tüketim tabanlı bir sözleşme modelidir. Daha fazla maliyet oluşacağını tahmin ederseniz veya daha fazla maliyet oluşursa ilgili tahmini ve gerçek satışlar da artar. Bu faturalama yöntemine sahip teklif satırlarında aşılamaz limitler belirtebilirsiniz. Bu şekilde, fiili geliri geçebilirsiniz. Tahmini gelir aşılamaz limitlerden etkilenmez.
+- **Sabit Fiyat:** Satış değerlerinin oluşan maliyetlerden bağımsız olduğu sabit fiyatlı bir sözleşme modelidir. Satış değeri sabittir ve daha fazla maliyet tahmini ya da gerçekleşmesi olduğunda değişmez.
 
-Sabit fiyatlı faturalama yönteminde, bir satıcı projeyi müşteriye sabit bir maliyetle teslim etmekle yükümlüdür. Müşteriye, satıcının bu teklif satırını teslim etmek için maliyetinin ne olduğu dikkate alınmaksızın, sabit fiyatlı teklif satırının teklif edilen değeri faturalanır. Sabit fiyatlı teklif satırı değeri aşağıdaki yollardan biriyle faturalanalınır: 
+## <a name="project-price-lists"></a>Proje fiyat listeleri
 
-- Projenin başında veya sonunda veya bir proje kilometre taşına ulaşıldığında toplam tutar olarak. 
-- Teklif satırındaki sabit değerin eşit taksitlerle ödendiği tarih tabanlı ödeme sıklığıyla. Bu taksitlere dönemsel kilometre taşları adı verilir.
-- Projede elde edilen çalışmanın veya belirli kilometre taşlarının ilerlemesiyle uyumlu bir parasal değere sahip taksitlerle. Bu durumda, her taksitin değeri farklılık gösterebilir, ancak tüm taksitker teklif satırındaki sabit değere eklenmelidir.
+Proje fiyat listeleri; zaman, gider ve projeyle ilgili diğer bileşenlerin maliyet oranlarını değil varsayılan fiyatlarını girmek için kullanılan fiyat listeleridir. Birden çok fiyat listesi olabilir. Her listenin, her proje teklifinin kendi tarih geçerliliği olabilir. Project Operations, proje fiyat listeleri için çakışan geçerlilik tarihlerini desteklemez.
 
-Project Operations, sabit fiyatlı teklif satırları için üç tür fatura zamanlamasını destekler.
+## <a name="product-price-lists"></a>Ürün fiyat listeleri
 
-## <a name="transaction-classification"></a>İşlem sınıflandırması
+Ürün fiyat listeleri, teklifteki ürün tabanlı satırların maliyet oranlarını değil varsayılan fiyatlarını girmek için kullanılan fiyat listeleridir. Her teklif için yalnızca bir fiyat listesi vardır.
 
-Profesyonel servis kuruluşları genellikle müşterilerine maliyet sınıflandırmasına göre teklif verir ve faturalandırma yapar. Maliyetler aşağıdaki işlem sınıflandırmalarıyla temsil edilir:
+## <a name="transaction-classes"></a>İşlem sınıfları
 
-- **Zaman**: Bu sınıflandırma bir projedeki işçilik maliyetini ve insan kaynakları süresini temsil eder.
-- **Gider**: Bu sınıflandırma bir projedeki tüm diğer gider türlerini temsil eder. Giderler geniş kapsamlı sınıflandırılabildiğinden, çoğu kuruluş seyahat, araba kiralama, otel veya ofis malzemeleri gibi alt kategoriler oluşturur.
-- **Ücret**: Bu sınıflandırma müşteriye ücretlendirilen çeşitli genel gideri, yaptırımları ve diğer öğeleri temsil eder. 
-- **Vergi**: Bu sınıflama, kullanıcıların gider girdiklerinde ekledikleri vergi tutarlarını temsil eder.
-- **Malzeme işlemi**: Bu sınıflama teyit edilmiş bir proje faturasındaki ürün satırlarından gelen fiili değerleri temsil eder.
-- **Kilometre taşı**: Bu sınıflandırma sabit fiyatlı fatura mantığı tarafından kullanılır.
+Project Operations dört işlem sınıfı türünü destekler:
 
-Bu işlem sınıflandırmaların biri veya daha fazlası her teklif satırıyla ilişkilendirilebilir. Bir teklif kazanıldıktan sonra, işlem sınıflandırması ve teklif satırı arasındaki eşleme sözleşme satırına aktarılır.
-  
-Örneğin, bir teklif aşağıdaki iki teklif satırını içerebilir: 
+- Zaman
+- Gider
+- Malzeme
+- Ücret
 
-- Zaman ve ücret işlemi sınıflandırmalarının geçerli olduğu Zaman ve malzeme faturalama yöntemini kullanan danışmanlık işi. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm zaman ve ücret işlemleri, müşteriye kullanılan zaman ve malzemeye göre faturalanır. 
-- Sabit fiyatlı faturalama yöntemi kullanan ilgili seyahat masrafları. Örneğin, **Dynamics AX Uygulaması** örnek projesi için tüm seyahat masrafları sabit bir parasal değerde faturalanır.
+Maliyet ve satış değerleri; **Zaman**, **Gider** ve **Malzeme** işlem sınıflarında tahmin edilebilir ve oluşabilir. **Ücret** yalnızca gelir işlem sınıfına dahil olabilir.
 
-> [!NOTE]
-> Proje ve bir teklif satırı veya sözleşme satırıyla ilişkili olan **Zaman**, **Gider** ve **Ücret** proje işlem sınıflandırmaları birleşimi benzersiz olmalıdır. Aynı proje ve işlem sınıfı birleşimi birden çok sözleşme satırı veya teklif satırıyla ilişkilendirilmişse, Project Operations düzgün çalışmaz.
+## <a name="work-entities-and-billing-entities"></a>İş varlıkları ve faturalama varlıkları
 
-## <a name="billing-types"></a>Faturalama türleri
+Projeler ve Görevler işi temsil eden varlıklardır. Teklif satırları ve Sözleşme satırları faturayı temsil eden varlıklardır. Farklı iş varlıklarını, Teklif satırları veya Sözleşme satırlarıyla ilişkilendirerek faturalama seçeneklerine bağlayabilirsiniz.
 
-**Faturalama Türü** alanı borçlandırılabilirlik kavramını tanımlar. Bu, aşağıdaki olası değerlere sahip bir seçenek kümesidir:
+## <a name="multi-customer-deals"></a>Çok müşterili anlaşmalar
 
-- **Borçlandırılabilir**: Bu rol/kategori tarafından tahakkuk edilen maliyet, proje yürütmesini destekleyen bir doğrudan maliyettir ve müşteri bu iş için ödeme yapar. Ödeme, zaman ve malzeme ya da sabit fiyatlı düzenleme olarak yönetilebilir. Ancak, bu zamanı harcayan çalışan, faturalandırılabilir kullanımı için karşılık gelen alacak alacaktır.
-- **Borçlandırılamaz**: Bu rol/kategori tarafından tahakkuk edilen maliyet, müşteri bu olguyu tanımamasına ve bu çalışma için ödeme yapmayacak olmasına karşın, proje yürütmesini destekleyen bir doğrudan maliyet olarak kabul edilir. Bu zamanı harcayan çalışan, bunun için faturalandırılabilir kullanımla alacaklandırılmaz.
-- **Ücretsiz**: Bu rol/kategori tarafından tahakkuk edilen maliyet, proje yürütmesini destekleyen bir doğrudan maliyettir ve müşteri bu olguyu tanır. Bu zamanı harcayan çalışan, bunun için faturalandırılabilir kullanımla alacaklandırılır. Ancak, bu maliyet müşteriye faturalanmaz.
-- **Kullanılabilir değil**: Gelir izlemeyi gerektirmeyen dahili projelerde oluşan maliyetler bu seçenek kullanılarak izlenir.
+Çok müşterili anlaşmalar, fatura başına birden çok müşteri olduğunda gerçekleşir. Bazı tipik örnekleri aşağıda bulabilirsiniz:
 
-## <a name="invoice-schedule"></a>Fatura zamanlaması
+- **Orijinal ekipman üreticisi (OEM) kuruluşlar ve bunların iş ortakları:** İş ortakları ve satıcılar, katma değerli hizmetler içeren bir ürün satarlar. Müşteriyle yapılan bir anlaşma sırasında OEM genellikle projenin bir kısmını finanse etmeyi teklif eder.
+- **Kamu sektörü projeleri:** Yerel hükümetin birden çok bölümü bir projeyi fonlamayı kabul eder ve önceden kabul edilen paylara göre faturalandırılırlar. Örneğin, bir okul bölgesi ve şehir ya da yerel kamu dairesi, bir yüzme havuzu inşaatını fonlamayı kabul eder.
 
-Bir fatura zamanlaması, bir projenin faturalandırılmasında ortaya çıkan tarih dizisidir. İsteğe bağlı olarak, bir teklif satırında fatura zamanlaması oluşturabilirsiniz. Her teklif satırının kendi fatura zamanlaması olabilir. Fatura zamanlaması oluşturmak için aşağıdaki öznitelik değerlerini sağlamanız gerekir:
+## <a name="invoice-schedules"></a>Fatura zamanlamaları
 
-- Faturalama başlangıç tarihi 
-- Projedeki faturalama bitiş tarihini gösteren bir teslim tarihi
-- Fatura sıklığı
+Fatura zamanlamaları, her teklif satırına özeldir ve isteğe bağlıdır. Fatura zamanlamaları, belirli başlangıç ve bitiş tarihlerine ve fatura sıklığına göre oluşturulur. Otomatik fatura oluşturma işlemi yapılandırıldığında sözleşme aşamasında kullanılırlar. Teklif aşamasında, fatura zamanlamaları isteğe bağlıdır. Fatura zamanlamaları teklif aşamasında oluşturulduğunda, bir proje teklifi kazanıldığında oluşturulan proje sözleşmesine kopyalanır.
 
-Bu üç öznitelik değeri, faturalama yapmak üzere belirsiz bir tarih kümesi oluşturmak için kullanılır.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Dynamics 365 Sales tekliflerinden farkları
 
-## <a name="invoice-frequency"></a>Fatura sıklığı
+Project Operations teklifleri, Dynamics 365 Sales tekliflerini temel alarak oluşturulur. Ancak işlevselliğinde bilmeniz gereken bazı önemli farklılıklar bulunmaktadır:
 
-Fatura sıklığı, fatura oluşturma sıklığını ifade eden öznitelik değerlerini depolayan bir varlıktır. Aşağıdaki öznitelikler, fatura sıklığı varlığını ifade eder veya tanımlar:
+- Project Operations teklifleri, biri projeler, diğeri ürünler için olmak üzere iki farklı türde satıra sahiptir.
+- Project Operations teklifleri kendi sayfa ve kullanıcı arabirimi (UI) öğelerine, iş kurallarına, eklentilerdeki iş mantığına ve Sales tekliflerine göre benzersiz kılan istemci tarafı komut dosyalarına sahiptir.
+- Sales'te tek bir satış teklifine birden fazla sipariş ekleyebilirsiniz. Project Operations'ta bir proje teklifine yalnızca bir proje sözleşmesi ekleyebilirsiniz.
+- Bir satış teklifini kazandığınızda, ilgili fırsat açık kalabilir. Bir proje teklifi kazandıktan sonra, ilgili fırsat kapanır.
+- Bir satış teklifi, bir proje teklifine dahil olan bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.
+- Satış teklifleri ve proje teklifleri seçenek kümesi tabanlı **Tür** alanıyla tanımlanır. Satış teklifi için, bu alanın değeri **Öğe-tabanlı**'dır. Proje teklifi için, değer **İş-tabanlı**'dır.
 
-- **Dönem**: Aylık, iki haftalık ve haftalık dönemler desteklenmektedir. 
-- **Dönem başına çalıştırma**: Haftalık veya iki haftalık projeler için dönem başına bir çalıştırma tanımlayabilirsiniz. Aylık dönemler için, dönem başına bir ile dört çalışma tanımlayabilirsiniz. 
-- **Çalıştırma günleri**: Faturalamanın çalıştırılması gereken günler. Bu özniteliği iki farklı yolla tamamlayabilirsiniz:
-  - **Haftanın günleri**: Örneğin, faturalamanın her Pazartesi veya her ikinci Pazartesi günü çalıştırılmasını belirtebilirsiniz. Faturalamayı çalışma gününde çalıştırılmak üzere ayarlaması gereken müşteriler bu tür bir yapılandırmayı tercih edebilir. 
-  - **Takvim günleri**: Örneğin, faturalamanın her ayın yedinci ve yirmi birinci gününde çalıştırılacağını belirtebilirsiniz. Bazı organizasyonlar, faturalamanın her ay sabit bir zamanlamayla çalışmasını sağladığından, bu tür bir yapılandırmayı tercih edebilirler.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Sabit fiyatlı teklif satırı için fatura zamanlaması
-
-Sabit fiyatlı teklif satırı için, teklif satırı değerine eşit olan faturalama kilometre taşları oluşturmak üzere **Fatura Zamanlaması** kılavuzunu kullanabilirsiniz.
-
-- Eşit olarak bölünmüş faturalama kilometre taşları oluşturmak için bir fatura sıklığı seçin, teklif satırında fatura başlangıç tarihini girin ve teklif başlığının **Özet** bölümünde teklif için **İstenen Tamamlanma Tarihi**'ni seçin. Ardından, seçilen fatura sıklığına dayalı olarak eşit ölçüde bölünmüş kilometre taşları oluşturmak için **Dönemsel Kilometre Taşları Oluştur** öğesini seçin. 
-- Bir toplam faturalama kilometre taşı oluşturmak için bir kilometre taşı oluşturun ve ardından kilometre taşı miktarı olarak teklif satırı değerini girin.
-- Proje planındaki belirli görevleri temel alan fatura kilometre taşları oluşturmak için bir kilometre taşı oluşturun ve bunu faturalama kilometre taşı kullanıcı arabiriminde projenin zamanlama öğesine eşleyin.
-
+Bu farklardan dolayı, Sales ve Project Operations tekliflerini birbirinin yerine kullanmamanızı öneririz.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

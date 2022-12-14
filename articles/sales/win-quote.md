@@ -1,23 +1,23 @@
 ---
-title: Teklifi kapatma
+title: Proje tabanlı teklifleri kapatma
 description: Bu makalede, Project Operations'ta teklifleri kapatma hakkında bilgiler yer almaktadır.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931906"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824242"
 ---
-# <a name="close-a-quote"></a>Teklifi kapatma
+# <a name="close-project-based-quotes"></a>Proje tabanlı teklifleri kapatma
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
-Proje teklifi Kazanıldı veya Kaybedildi olarak kapatılabilir. Microsoft Dynamics 365 Project Operations'ta tekliflerde Etkinleştirme ve Düzeltme işlevleri desteklenmediğinden bir taslak teklifi kapatabilirsiniz.
+Proje teklifi **kazanıldı** veya **kaybedildi** olarak kapatılabilir. 
 
 ## <a name="close-a-quote-as-won"></a>Teklifi Kazanıldı olarak kapatma
 

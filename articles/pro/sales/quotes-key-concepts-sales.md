@@ -1,17 +1,17 @@
 ---
-title: Teklifler - Temel kavramlar - lite
+title: Proje tekliflerine özel kavramlar
 description: Bu makalede, Project Operations'ta proje teklifleri kullanma hakkında bilgiler yer almaktadır.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917002"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825918"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Proje tekliflerine özel kavramlar
 
@@ -82,9 +82,13 @@ Fatura zamanlamaları, her teklif satırına özeldir ve aynı zamanda isteğe b
 
 Project Operations teklifleri, Dynamics 365 Sales tekliflerini temel alarak oluşturulur. Ancak işlevselliğinde bilmeniz gereken bazı önemli farklılıklar bulunmaktadır:
 
-- **Düzelt** ve **Etkinleştir** eylemleri desteklenmez.
+
 - Project Operations tekliflerinde iki farklı satır türü vardır. Bunlardan biri projeler, diğeri de ürünler içindir.
 - Project Operations teklifleri kendi biçim ve kullanıcı arabirimi öğelerine, iş kurallarına, eklentilerdeki iş mantığına ve Sales tekliflerine göre benzersiz kılan istemci tarafı komut dosyalarına sahiptir.
+- Satış teklifleri satış teklifine birden fazla sipariş eklemenizi sağlar. Project Operations'ta bir proje teklifine yalnızca bir proje sözleşmesi eklenebilir.
+- Bir satış teklifini kazandığınızda, ilgili fırsat açık kalabilir. Bir proje teklifi kazandıktan sonra, ilgili fırsat kapanır.
+- Bir satış teklifi, bir proje teklifine dahil edilen bazı alanları ve kavramları içermez. Alanlar arasında **Sözleşme Birimi**, **Hesap Yöneticisi** ve **Fatura İlgili Kişi Adı** bulunur.  
+- **Tür**: Satış ve proje teklifleri aynı zamanda **Tür** adlı seçenek kümesi tabanlı bir alanla tanımlanır. Satış teklifi için, bu alan **Öğe-tabanlı** değerine sahiptir. Proje teklifi için, **İş-tabanlı** değerine sahiptir.
 
 Bu nedenlerle, bir Sales teklifiyle Project Operations teklifini birbirinin yerine kullanmanız önerilmez.
 

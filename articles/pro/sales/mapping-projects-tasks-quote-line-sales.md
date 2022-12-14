@@ -1,23 +1,23 @@
 ---
-title: Proje ve görevleri proje tabanlı teklif satırıyla eşleme
-description: Bu makale proje tabanlı bir görev satırına proje ve görevlerin nasıl eşleneceğini öğrenmek için bilgi sağlar.
+title: Projeleri ve görevleri proje teklif satırlarıyla eşleme
+description: Bu makale proje teklif satırlarına proje ve görevlerin nasıl eşleneceğini öğrenmek için bilgi sağlar.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917186"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824371"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Proje ve görevleri proje tabanlı teklif satırıyla eşleme
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Projeleri ve görevleri proje teklif satırlarıyla eşleme
 
-_**Şunlar için geçerlidir:** Kaynak/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
+_**Şunlar için geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations, Lite dağıtımı-proforma faturalamayı yönetme_
 
-Proje tabanlı teklif satırlarında bir teklif satırıyla zaten ilişkilendirilmiş olan bir projenin belirli görevlerini eşleyebilirsiniz.
+Proje teklif satırlarında bir teklif satırıyla zaten ilişkilendirilmiş olan bir projenin belirli görevlerini eşleyebilirsiniz.
 
 Görevleri bir teklif satırıyla eşlediğinizde teklif satırında tanımladığınız aşağıdaki öğeler yalnızca bu görevlere uygulanır:
 

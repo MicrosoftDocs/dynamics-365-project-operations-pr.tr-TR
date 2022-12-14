@@ -1,31 +1,29 @@
 ---
-title: Müşteri adaylarını yönetme
+title: Proje tabanlı müşteri adaylarını yönetme
 description: Bu makalede proje tabanlı müşteri adaylarını yönetmeyle ilgili bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920222"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825824"
 ---
-# <a name="manage-leads"></a>Müşteri adaylarını yönetme
+# <a name="manage-project-based-leads"></a>Proje tabanlı müşteri adaylarını yönetme
 
 _**Şunlar için Geçerlidir:** Kaynağı/stoğu tutulmayanları temel alan senaryolar için Project Operations_
 
 Proje tabanlı müşteri adayları, Project Operations'ta yönetilebilir ve uygun bulunabilir. Müşteri adayı yönetimi süreci, iş tabanlı müşteri adayları oluşturmayı ve bu müşteri adaylarını uygun bulmayı içerir. 
 
-## <a name="project-sales-leads"></a>Proje potansiyel müşterileri
-
 **Satış** bölümündeki sol gezinti bölmesinde, sistemdeki tüm müşteri adayı kayıtlarının listesini görüntülemek için **Müşteri Adayları** listesi sayfasını açın. Gösterilen müşteri adayı listesi, iş tabanlı müşteri adayları ile Dynamics 365 Sales veya Dynamics 365 Field Service uygulamasına da sahipseniz oluşturulabilecek diğer müşteri adayı türlerinden oluşur.
 
 Yalnızca proje tabanlı müşteri adaylarını görmek için **Tür** değerinde bir filtre oluşturarak filtrelenmiş görünüm elde edebilirsiniz. Örneğin, yalnızca iş tabanlı müşteri adaylarını göstermeyi seçebilirsiniz.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Proje tabanlı bir anlaşma için yeni bir müşteri adayı oluşturma
+## <a name="create-a-new-project-based-lead"></a>Yeni proje tabanlı müşteri adayı oluşturma 
 
 Proje tabanlı müşteri adayı uygun bulunduğunda bir fırsat ve bir firma oluşturulur. Proje tabanlı fırsat, Fırsat aşamasında satış takibi etkinliklerinin başlangıç noktasıdır. Proje tabanlı fırsatlar, proje çalışmasının satışı için gerekli olan benzersiz özelliklere sahiptir. Bu özellikler şunlardır:
 

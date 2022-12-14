@@ -1,19 +1,19 @@
 ---
-title: Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
-description: Bu makalede, proje sözleşmesinde birden fazla müşteriyi yönetme hakkında bilgiler sağlanmaktadır.
+title: Proje tabanlı sözleşmelerde birden çok müşteriyi yönetme
+description: Bu makalede, proje tabanlı sözleşmede birden fazla müşteriyi yönetme hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928364"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825403"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Sözleşme sözleşmelerindeki birden çok müşteriyi yönetme
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Proje tabanlı sözleşmelerde birden çok müşteriyi yönetme
 
 Bu makalede, proje sözleşmesinde birden fazla müşteriyi yönetme hakkında bilgiler sağlanmaktadır. Bir anlaşmayı finanse etmek için birden fazla müşteriye yönelik sözleşmeli anlaşma gerektiğinde bir proje sözleşmesi kullanabilirsiniz. **Proje Sözleşmesi** sayfasında **Özet** sekmesi, anlaşma için birincil müşteri hakkında bilgiler içerir. Anlaşmaya katılan diğer müşteriler, **Müşteriler** sekmesine eklenebilir.
 

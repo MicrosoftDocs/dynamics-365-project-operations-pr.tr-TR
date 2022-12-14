@@ -1,23 +1,23 @@
 ---
-title: Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme - lite
-description: Bu makalede, proje temelli teklif satırlarında birden fazla müşteriyi yönetme hakkında bilgiler yer alır.
+title: Proje teklif satırlarında birden çok müşteriyi yönetme
+description: Bu makalede, proje teklif satırlarında birden fazla müşteriyi yönetme hakkında bilgiler yer alır.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927812"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824463"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Proje tabanlı teklif satırlarında birden çok müşteriyi yönetme - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Proje teklif satırlarında birden çok müşteriyi yönetme
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Proje tabanlı teklif satırları, her teklif satırının proje için ödeme yapan müşterilerin bir listesine sahip olduğu senaryoları destekler. Proje tabanlı teklif satırındaki bu müşteri listesi, teklifteki müşteri listesiyle aynı olabilir. Ayrıca müşteri listesini farklı olacak şekilde değiştirebilirsiniz. Proje teklifi kazanıldığında, proje tabanlı teklif satırındaki müşteri listesi, nihai proje sözleşmesini oluşturmak için ilgili proje tabanlı sözleşme satırına kopyalanır. Proje tabanlı teklifteki müşteriler proje sözleşmesine kopyalanır.
+Proje teklif satırları, her teklif satırının proje için ödeme yapan müşterilerin bir listesine sahip olduğu senaryoları destekler. Proje tabanlı teklif satırındaki bu müşteri listesi, teklifteki müşteri listesiyle aynı olabilir. Ayrıca müşteri listesini farklı olacak şekilde değiştirebilirsiniz. Proje teklifi kazanıldığında, proje tabanlı teklif satırındaki müşteri listesi, nihai proje sözleşmesini oluşturmak için ilgili proje tabanlı sözleşme satırına kopyalanır. Proje tabanlı teklifteki müşteriler proje sözleşmesine kopyalanır.
 
 Nihai proje sözleşmesini faturaladığınızda, proje tabanlı sözleşme satırındaki müşteri listesi, proje sözleşmesindeki listeden daha öncelikli hale gelir. Proje sözleşmesindeki müşteri listesi yalnızca yeni proje sözleşme satırlarındaki varsayılanlar için kullanılır.
 

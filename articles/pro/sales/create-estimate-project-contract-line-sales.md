@@ -1,32 +1,32 @@
 ---
-title: Proje tabanlı sözleşme satırı tahmini - lite
+title: Proje sözleşme satırını tahmin etme
 description: Bu makalede, proje temelli sözleşme satırında tahminler hakkında bilgiler sağlanmaktadır.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914426"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824792"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Proje tabanlı sözleşme satırı tahmini - lite
+# <a name="estimate-a-project-contract-line"></a>Proje sözleşme satırını tahmin etme
 
 _**Şunlar için geçerlidir:** Lite dağıtımı: anlaşmadan proforma faturaya_
 
-Dynamics 365 Project Operations'ta proje tabanlı bir sözleşme satırı, sözleşme satırını teslim etmek için ilgili çalışmanın maliyet ve potansiyel gelirini tahmin etmenize yardımcı olan ayrıntılar içerir.
+Dynamics 365 Project Operations'ta proje sözleşme satırı, sözleşme satırını teslim etmek için ilgili çalışmanın maliyet ve potansiyel gelirini tahmin etmenize yardımcı olan ayrıntılar içerir.
 
-Proje tabanlı bir sözleşme satırını tahmin etmek için Proje tabanlı **sözleşme satırındaki** **Sözleşme satırı Ayrıntıları** sekmesine gidin.  Proje tabanlı bir sözleşme satırında tahmin oluşturmanın iki yolu vardır:
+Proje sözleşme satırını tahmin etmek için Proje tabanlı **sözleşme satırındaki** **Sözleşme satırı Ayrıntıları** sekmesine gidin.  Proje tabanlı bir sözleşme satırında tahmin oluşturmanın iki yolu vardır:
 
    - Sözleşme satırı ayrıntılarını el ile ekleyerek doğrudan sözleşme satırında bir tahmin oluşturun.
    - Bir proje ve proje planı oluşturun ve ardından projeyi ve görevleri projenin sözleşme satırıyla ilişkilendirin. Bu, sözleşme satırında yer alan bileşenlere dayalı olarak, proje planı tahminini sözleşme satırına içe aktarmaka için kullanılacak süreci sağlar.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Proje tabanlı sözleşme satırında doğrudan tahmin oluşturma
 
-Doğrudan proje tabanlı sözleşme satırında tahmin oluşturmak için aşağıdaki adımları izleyin:
+Doğrudan proje sözleşme satırında tahmin oluşturmak için aşağıdaki adımları izleyin:
 
 1. Sözleşme satırına gidin ve **sözleşme satırı ayrıntıları** sekmesini seçin. Bu sekmede oluşturduğunuz satırlar özetlenir ve Bu **sözleşme satırı** için **anlaşmalı değer** olarak görüntülenir. 
 2. **Sözleşme Satırı Ayrıntıları** alt ızgarasında, **Yeni Sözleşme Satırı Ayrıntısı**'nı seçin. Hızlı oluşturma kaydırıcısı açılır. **Sözleşme Satırı Ayrıntıları** sayfasında, aşağıdaki alanlar bulunur.

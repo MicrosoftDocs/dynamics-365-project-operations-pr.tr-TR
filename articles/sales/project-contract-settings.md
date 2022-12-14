@@ -1,17 +1,17 @@
 ---
-title: Proje sözleşme ayarları
-description: Bu makale, sözleşme satırlarını etkileyen alanlar hakkında ve tüm satır maddeleri boyunca özetlenen sözleşmeyle ilgili bilgileri sağlar.
+title: Proje tabanlı sözleşmeler için üst bilgi ayrıntıları
+description: Bu makale, alanlar ve Project Operations'taki proje tabanlı sözleşmeler hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921602"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824416"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Proje tabanlı sözleşmeler için üst bilgi ayrıntıları
 

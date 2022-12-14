@@ -1,23 +1,23 @@
 ---
-title: Proje ve görevleri proje tabanlı sözleşme satırıyla eşleme - lite
+title: Proje ve görevleri proje sözleşme satırıyla eşleme
 description: Bu makale, sözleşme satırına proje ve görev ekleme ve kaldırma hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932550"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825083"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Proje ve görevleri proje tabanlı sözleşme satırıyla eşleme 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Proje ve görevleri proje sözleşme satırıyla eşleme 
 
 _**Aşağıdakilere İçin Geçerlidir:** Lite dağıtımı - anlaşmadan proforma faturaya, kaynak/stoklanmayan tabanlı senaryolar için Project Operations_
 
-Proje tabanlı sözleşme satırlarında, projedeki belirli görevleri sözleşme satırıyla eşleyebilirsiniz.
+Proje sözleşme satırlarında, projedeki belirli görevleri sözleşme satırıyla eşleyebilirsiniz.
 
 Belirli görevleri bir sözleşme satırına eşlediğinizde, fatura yöntemi, ücretlendirilebilirlik seçenekleri, en fazla aşılmayan sınırlandırlar ve sözleşme satırında tanımlanan müşteriler yalnızca o belirli görevlere uygulanabilir.
 
@@ -25,7 +25,7 @@ Bir projenin bir aşamasının örneğin prototip aşaması, sabit fiyat ve diğ
 
 Proje çalışma çözümleme yapısındaki (ÇÇY) diğer tüm aşamalar, zaman ve malzeme tabanlı sözleşme satırıyla ilişkilendirilebilir.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Proje tabanlı sözleşme satırlarıyla ilişkili görevler
+## <a name="associate-tasks-to-project-contract-lines"></a>Proje sözleşme satırlarıyla görevleri ilişkilendirme
 
 Görevler, sözleşme satırı sayfasının **ücrete tabi görevler** sekmesindeki veya **Proje** sayfasındaki **Görev Faturalama** sekmesinde bulunan **sözleşme satırlarıyla** ilişkilendirilebilir.
 

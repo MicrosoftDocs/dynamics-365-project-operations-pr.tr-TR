@@ -1,17 +1,17 @@
 ---
-title: Proje teklifi ayarları
+title: Proje tabanlı teklifler için üst bilgi ayrıntıları
 description: Bu makale proje tekliflerini ve etkilerini etkileyen bilgiler ve ayarlar hakkında bilgi sağlar.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f7e2b625476508d781b9f3f2440cde1f7374372c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931952"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825315"
 ---
 # <a name="header-details-for-project-based-quotes"></a>Proje tabanlı teklifler için üst bilgi ayrıntıları
 
