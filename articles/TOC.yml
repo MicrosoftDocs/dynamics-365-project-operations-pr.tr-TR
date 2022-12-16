@@ -12,7 +12,7 @@
       items:
         - name: Project Operations'dan kaldırılan veya kullanım dışı bırakılan özellikler
           href: whats-new/removed-depreciated-features-project.md
-- name: Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+- name: Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
   items:
     - name: Kullanmaya başlama
       items:
@@ -74,19 +74,19 @@
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Temmuz 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: Haziran 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Haziran 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Mayıs 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-may-2022-resource-based.md
-            - name: Nisan 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Nisan 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: Mart 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Mart 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: Şubat 2022 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Şubat 2022 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: Aralık 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Aralık 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: Kasım 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
+            - name: Kasım 2021 - Kaynak öğeleri/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-nov-2021-resource-based.md
             - name: Ekim 2021 - Kaynağı/stoğu tutulmayan öğeleri temel alan senaryolar için Project Operations
               href: whats-new/whats-new-oct-2021-resource-based.md
@@ -694,13 +694,13 @@
               href: pro/whats-new/whats-new-2021-early-access-lite.md
             - name: Mayıs 2022'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-may-2022-lite.md
-            - name: Nisan 2022'deki yenilikler - lite dağıtımı
+            - name: Nisan 2022 - lite dağıtımındaki yenilikler
               href: pro/whats-new/whats-new-apr-2022-lite.md
-            - name: Mart 2022'deki yenilikler - lite dağıtımı
+            - name: Mart 2022 - lite dağıtımındaki yenilikler
               href: pro/whats-new/whats-new-mar-2022-lite.md
-            - name: Şubat 2022'deki yenilikler - lite dağıtımı
+            - name: Şubat 2022 - lite dağıtımındaki yenilikler
               href: pro/whats-new/whats-new-feb-2022-lite.md
-            - name: Aralık 2021'deki yenilikler - lite dağıtımı
+            - name: Aralık 2021 - lite dağıtımındaki yenilikler
               href: pro/whats-new/whats-new-dec-2021-lite.md
             - name: Kasım 2021'deki yenilikler - lite dağıtımı
               href: pro/whats-new/whats-new-nov-2021-lite.md
@@ -846,7 +846,7 @@
               items:
                 - name: Avanslar ve elde tutulan tutar tabanlı sözleşmeler
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Elde tutulan tutar zamanlaması ayarlamaElde tutulan tutar zamanlaması ayarlama
+                - name: Elde tutulan tutar zamanlaması ayarlama
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Proje sözleşmesinde geçici avans oluşturma
                   href: pro/sales/create-ad-hoc-advance-sales.md
